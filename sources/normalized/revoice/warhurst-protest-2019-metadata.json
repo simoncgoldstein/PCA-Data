@@ -1,0 +1,42 @@
+{
+  "event_id": "warhurst-protest-2019",
+  "event_name": "Formal protest concerning Steven Warhurst's speech supporting the Overture 28 minority report",
+  "year": 2019,
+  "general_assembly": 47,
+  "primary_source": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf",
+  "source_pages": "Minutes pp. 80-85 for protest/signers; minority report pp. 120-133",
+  "secondary_navigation_source": "https://pcapolity.com/case-studies/protest-case-study/protest-of-the-minority-report/",
+  "protest_offered_by": "Kevin Twit",
+  "verified_signer_count": 203,
+  "status": "full signer normalization pending Work/browser bulk extraction",
+  "classification_rule": "Use the literal edge '2019 Warhurst Protest Signer'. Do not convert this protest to a generic 'pro-Revoice' or 'Revoice supporter' label. The protest concerned the Assembly permitting specific language in Warhurst's speech to continue.",
+  "context": {
+    "minority_report_presenter": "Steve Warhurst",
+    "overture": 28,
+    "minority_substitute_result": "failed 210-967",
+    "subsequent_committee_recommendation": "adopted by common consent"
+  },
+  "extraction_fields": [
+    "sequence_or_print_order",
+    "name_as_printed",
+    "elder_type",
+    "presbytery_as_printed",
+    "normalized_person_id",
+    "pdf_page"
+  ],
+  "cross_reference_targets": [
+    "national-partnership",
+    "a-faithful-pca",
+    "amr",
+    "garris-letters",
+    "prayer-lament",
+    "overture-37",
+    "overture-15",
+    "nae-withdrawal-protest",
+    "publications",
+    "pca-agencies",
+    "seminaries",
+    "churches",
+    "presbyteries"
+  ]
+}
