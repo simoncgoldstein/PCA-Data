@@ -11,42 +11,67 @@
 
 The statement presents itself as a letter from PCA pastors and elders and positively cites racial reconciliation, refugee care, domestic violence, the role of women in the church's mission, mercy ministries, Good Faith Subscription, and a pastoral approach to Christians experiencing same-sex attraction.
 
-## Verified signer roster source
+## Signer-roster snapshots
 
-A clean preserved PDF of the archived signer page is available here:
+The signer list changed over time. Preserve each dated archive as a separate point-in-time roster rather than treating one list as universally final.
+
+### Snapshot A — June 11, 2021 — 571 signers
+
+A clean preserved PDF is available here:
 
 https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf
 
-The PDF itself identifies the captured source as the Wayback snapshot:
+The PDF identifies its captured source as:
 
 https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures
 
-The preserved document is 149 pages and contains **571 numbered signers**, ending with #571 Ted Spaid of Memorial Presbyterian Church, Missouri Presbytery. This is now the authoritative roster source for normalization unless an even earlier/later archived snapshot is deliberately being studied as a separate point-in-time roster.
+The preserved document contains **571 numbered signers**.
 
-### Provenance warning
+This snapshot is valuable because it is independently preserved as a static PDF and reflects the roster near the time of the June 2021 public letter / General Assembly.
 
-A user-provided signer transcription received on 2026-09-03 was found to be contaminated after part of the list with impossible/non-PCA entries, duplicates, and repeated blocks. It was removed from the verified `sources/raw/` tree and MUST NOT be used to establish signer status.
+### Snapshot B — March 14, 2022 — 737 signers
 
-The clean 149-page preservation supersedes that transcription.
+Later archived signer page supplied to this research project:
+
+https://web.archive.org/web/20220314223906/https://www.afaithfulpca.net/signatures
+
+A user-supplied transcription from that later archive is preserved in the ChatGPT research corpus as `Pasted markdown(20260903-164744).md`. It runs consecutively from **#1 Charles E. McGowan through #737 Brad A. Anderson** and includes role/church/institution, city/state where printed, and presbytery data.
+
+This later snapshot is the broader historical coalition roster and should be normalized as a **March 2022 snapshot**, not silently merged into the June 2021 snapshot.
+
+The raw pasted transcription itself still needs to be copied into the GitHub source archive during the Work/browser ingestion pass. Until then, this README records its provenance and the exact archive URL.
+
+## Important correction to an earlier project note
+
+An earlier project note incorrectly described the larger A Faithful PCA transcription as contaminated. That warning belonged to a **different source family: the later public commitment-form data associated with A Call to Prayer & Lament**, which contained malformed/spam submissions.
+
+The 737-entry A Faithful PCA transcription is a distinct numbered signer roster and should not be quarantined on that basis.
+
+Any genuine duplicate identity, typographical error, or later-role inconsistency within the 737 A Faithful PCA list should still be handled normally during identity resolution, but the entire later roster should not be rejected.
 
 ## Normalization rules
 
 For every signer preserve:
 
-- sequence number in the archived list;
+- source snapshot date;
+- sequence number in that snapshot;
 - name and title exactly as printed;
-- position/institution as printed in June 2021;
+- position/institution as printed;
 - city/state as printed;
 - presbytery as printed;
 - normalized person ID only after identity resolution;
-- current role separately from the 2021 snapshot;
-- source page number;
+- current role separately from the historical snapshot;
+- source page/line or archived locator where available;
 - exact archived-source URL.
 
-Duplicate names should be checked for actual duplicate submissions rather than automatically merged. Historical role/presbytery fields are snapshot data and must never silently overwrite current-role fields.
+### Snapshot identity rule
 
-## High-value overlap examples already visible in the clean roster
+If the same person appears in both June 2021 and March 2022, do not create two people. Create one person identity with two roster-membership observations if useful for longitudinal analysis.
 
-The clean roster includes many people already present in other project datasets, including Charles McGowan, Irwyn Ince, Alexander Jun, David Cassidy, Mark Dalbey, Owen Lee, Ray Cortese, Scott Sauls, Glenn Hoburg, Thurman Williams, Cal Boroughs, Mark Bates, Sean Lucas-era network figures, Mike Khandjian, David Richter, Dan Adamson, Rob Wootton, Andrew Augenstein, BJ Milgate, Jonathan Winfree, and numerous RUF/MNA/Covenant/church-planting figures.
+If a signer first appears after June 11, 2021, preserve the March 2022 sequence number and treat the person as a later-added signer rather than retroactively placing him in the June roster.
 
-These overlaps should be calculated from normalized data rather than asserted from name similarity alone.
+## High-value overlap examples
+
+The source family contains many people already present elsewhere in the project, including Charles McGowan, Irwyn Ince, Alexander Jun, David Cassidy, Mark Dalbey, Owen Lee, Ray Cortese, Scott Sauls, Glenn Hoburg, Thurman Williams, Cal Boroughs, Mark Bates, Mike Khandjian, David Richter, Dan Adamson, Rob Wootton, Andrew Augenstein, BJ Milgate, Jonathan Winfree, and numerous RUF/MNA/Covenant/church-planting figures.
+
+These overlaps must be calculated from normalized identities rather than from name similarity alone.
