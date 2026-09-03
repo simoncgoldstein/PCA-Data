@@ -1,0 +1,26 @@
+{
+  "source_id": "np-emails-2016",
+  "title": "National Partnership Emails — 2016",
+  "document_date_range": "2016-01-13/2016-06-24",
+  "source_type": "primary_leaked_email_archive",
+  "original_public_index": "https://jude3pca.org/national-partnership-emails/",
+  "public_mirror_url": "https://s3.amazonaws.com/5mt.jude3pca.org/2023/02/15194813/2016-emails.pdf",
+  "retrieved_for_research": "2026-09-03",
+  "raw_local_path": "sources/raw/national-partnership/2016-emails.pdf",
+  "raw_copy_status": "pending_binary_ingest",
+  "page_count": 28,
+  "notes": [
+    "The archive explicitly describes expectations of NP participation and encourages members to obtain denominational committee positions.",
+    "Kessler identifies the 2016 Missouri racial-reconciliation overture as a revised Sean Lucas version and recommends concrete presbytery tactics to advance it.",
+    "The archive strongly supports forming the Women Serving in Ministry study committee and records discussion that some NP participants favored ordaining women as deacons while others did not.",
+    "Named committee placements and candidate recommendations are kept as separate evidence types."
+  ],
+  "key_evidence_locations": [
+    {"page": 0, "description": "NP participation expectations and Sean Lucas/Ligon Duncan racial-reconciliation history"},
+    {"page": 1, "description": "Recommended tactics for advancing revised Lucas racial-reconciliation overture through presbyteries"},
+    {"page": 5, "description": "Cal Boroughs message and NP support for Women Serving in Ministry study committee"},
+    {"page": 6, "description": "Named NP committee participants for Overtures, Covenant Seminary, and MNA"},
+    {"page": 9, "description": "Kessler explicitly says he strongly supports Women Serving in Ministry study committee"},
+    {"page": 10, "description": "GA advice treats racial reconciliation and women-in-ministry study committee as principal issues"}
+  ]
+}
