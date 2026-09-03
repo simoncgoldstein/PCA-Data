@@ -27,6 +27,37 @@ Its visible fields are:
 
 The directory is the preferred canonical source for current PCA congregation identity and current presbytery assignment. Church websites remain necessary for officer/staff details and local-practice verification.
 
+## Bulk church source discovered
+
+The PCA Administrative Committee church-directory page embeds a public BatchGeo map titled `PCA Churches`:
+
+https://batchgeo.com/map/fed353c376144b1fed2f5e29150c2531
+
+BatchGeo documents that a public map may be exported as KML by inserting `/kml/` after `/map/`. The resulting PCA bulk endpoint is:
+
+https://batchgeo.com/map/kml/fed353c376144b1fed2f5e29150c2531
+
+The KML is currently accessible publicly and contains nationwide `<Placemark>` records with fields including:
+
+- church name;
+- full address;
+- phone;
+- email;
+- website;
+- pastor as printed;
+- presbytery;
+- `Type Org`;
+- coordinates;
+- occasional extra fields such as `Address 2` or `Country`.
+
+This is now the preferred **bulk ingestion source** for the current church backbone because it originates from the PCA Administrative Committee's embedded map and exposes the nationwide dataset in a machine-readable format.
+
+### Important KML caveat
+
+The map may contain duplicate/place-marker variants. Example observed on 2026-09-03: Alexandria Presbyterian Church appeared twice with the same website, pastor and presbytery but slightly different street-address text. Therefore KML rows must be normalized and deduplicated conservatively rather than assumed to be one-row-per-congregation.
+
+The importer should preserve all raw records and separately produce canonical church entities.
+
 ## Canonical current presbytery list
 
 PCA Administrative Committee Presbytery List:
@@ -55,7 +86,7 @@ Presbytery is also connected independently to:
 
 Church is independently connected to:
 
-- pastors and officers;
+- tracked pastors/officers/staff whose names enter the graph through notable evidence;
 - denomination/presbytery over time;
 - church plants/campuses/mergers;
 - public statements;
@@ -64,6 +95,14 @@ Church is independently connected to:
 - Revoice hosting/participation where documented;
 - predecessor/successor congregations;
 - departure to another denomination where applicable.
+
+## Person inclusion rule for the church import
+
+The current directory's `Pastor` field is church metadata. **Do not automatically create a person node for every pastor in the nationwide directory.** Preserve the text as `pastor_as_printed` on the church record.
+
+Create/resolve a normalized person only when that individual independently enters the project through a notable source or role under `research/entity-inclusion-policy.md`.
+
+This keeps church/presbytery coverage complete while person coverage remains evidence-driven.
 
 ## Time-awareness rule
 
@@ -99,11 +138,16 @@ and separately:
 
 A query may show the overlap, but Pastor Y only receives a direct doctrinal/practice edge if separate evidence establishes his own action or position.
 
-## Next extraction
+## Extraction sequence
 
-1. Export the full PCA text-only church directory into `data/churches.json` with canonical IDs.
-2. Preserve the 2026-08-31 directory snapshot as raw CSV/JSON when browser/Work access can extract the form results reliably.
-3. Match every Save the PCA FFO workbook church to the canonical PCA church ID.
-4. Match every public-letter signer to their contemporaneous church and presbytery.
-5. Backfill historical pastor/church/presbytery relationships for Tier-A people.
-6. Preserve later directory snapshots instead of overwriting 2026 data.
+1. Preserve/download the complete KML as a raw source receipt.
+2. Parse every placemark into a raw normalized extract without dropping duplicates.
+3. Resolve presbytery names against `data/presbyteries.json`.
+4. Produce canonical/deduplicated church entities in `data/churches.json`.
+5. Compare the resulting set against the text-only directory for omissions or stale map records.
+6. Match every Save the PCA FFO workbook church to the canonical PCA church ID.
+7. Match every public-letter signer to their contemporaneous church and presbytery.
+8. Backfill historical pastor/church/presbytery relationships for Tier-A people.
+9. Preserve later directory/map snapshots instead of overwriting 2026 data.
+
+A parser scaffold is maintained in `scripts/import-pca-church-kml.mjs` so a future Work/Chrome pass or user-supplied KML download can be ingested reproducibly.
