@@ -10,9 +10,9 @@
  *   sources/normalized/church-directory
  *
  * This importer is intentionally conservative. It parses every Placemark and
- * reports likely duplicates, but it does NOT silently merge churches. The raw
- * normalized extract remains the audit layer; canonical church resolution is
- * a separate step.
+ * reports likely duplicates, but it does NOT silently merge churches. Every
+ * placemark becomes a provisional church entity with a stable source-derived ID.
+ * Duplicate review/canonical merge is a separate stage.
  */
 
 import fs from 'node:fs';
@@ -31,6 +31,7 @@ const root = process.cwd();
 const inputPath = path.resolve(inputArg);
 const outputDir = path.resolve(outputArg || path.join(root, 'sources', 'normalized', 'church-directory'));
 const presbyteriesPath = path.join(root, 'data', 'presbyteries.json');
+const churchesPath = path.join(root, 'data', 'churches.json');
 
 if (!fs.existsSync(inputPath)) {
   console.error(`Input file not found: ${inputPath}`);
@@ -49,7 +50,7 @@ const normalize = (value = '') => value
   .replace(/[^a-z0-9]+/g, ' ')
   .trim();
 
-const slug = (value = '') => normalize(value).replace(/\s+/g, '-').slice(0, 72) || 'church';
+const slug = (value = '') => normalize(value).replace(/\s+/g, '-').slice(0, 64) || 'church';
 
 const decodeXml = (value = '') => value
   .replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1')
@@ -101,10 +102,12 @@ for (let index = 0; index < placemarkMatches.length; index += 1) {
   ].join('|');
 
   const sourceId = crypto.createHash('sha1').update(sourceFingerprint).digest('hex').slice(0, 10);
+  const sourceRecordId = `batchgeo-${sourceId}`;
 
   records.push({
     source_index: index + 1,
-    source_record_id: `batchgeo-${sourceId}`,
+    source_record_id: sourceRecordId,
+    provisional_church_id: `${slug(name)}-${sourceId.slice(0, 6)}`,
     name,
     address_full: address || null,
     address_2: fields['Address 2'] || null,
@@ -145,6 +148,7 @@ const possibleDuplicates = [...duplicateGroups.entries()]
   .filter(([, ids]) => ids.length > 1)
   .map(([key, source_record_ids]) => ({ key, source_record_ids }));
 
+const duplicateRecordIds = new Set(possibleDuplicates.flatMap((group) => group.source_record_ids));
 const unresolvedPresbyteries = [...new Set(
   records.filter((r) => r.presbytery_as_printed && !r.presbytery_id).map((r) => r.presbytery_as_printed)
 )].sort();
@@ -168,7 +172,8 @@ const metadata = {
   rules: {
     creates_person_nodes_from_pastor_field: false,
     automatically_merges_duplicate_candidates: false,
-    canonicalization_required_after_import: true,
+    provisional_entity_per_placemark: true,
+    canonical_merge_review_required: true,
   },
 };
 
@@ -180,7 +185,29 @@ fs.writeFileSync(rawOutput, JSON.stringify(records, null, 2) + '\n');
 fs.writeFileSync(duplicateOutput, JSON.stringify(possibleDuplicates, null, 2) + '\n');
 fs.writeFileSync(metadataOutput, JSON.stringify({ ...metadata, unresolved_presbyteries: unresolvedPresbyteries }, null, 2) + '\n');
 
+const churches = records.map((record) => ({
+  id: record.provisional_church_id,
+  name: record.name,
+  type: record.type_org || 'Church',
+  status: 'current_directory_2026_08_31',
+  presbytery_id: record.presbytery_id,
+  presbytery_as_printed: record.presbytery_as_printed,
+  address_full: record.address_full,
+  phone: record.phone,
+  email: record.email,
+  website: record.website,
+  latitude: record.latitude,
+  longitude: record.longitude,
+  pastor_as_printed: record.pastor_as_printed,
+  source_record_id: record.source_record_id,
+  source_snapshot: 'pca-batchgeo-kml-2026-09-03',
+  duplicate_review_required: duplicateRecordIds.has(record.source_record_id),
+  canonical_status: duplicateRecordIds.has(record.source_record_id) ? 'provisional_duplicate_review' : 'provisional_unique',
+}));
+
+fs.writeFileSync(churchesPath, JSON.stringify(churches, null, 2) + '\n');
+
 console.log(`Parsed ${records.length} KML placemarks.`);
 console.log(`Flagged ${possibleDuplicates.length} possible duplicate group(s).`);
 console.log(`Unresolved presbytery names: ${unresolvedPresbyteries.length}.`);
-console.log(`Wrote:\n- ${rawOutput}\n- ${duplicateOutput}\n- ${metadataOutput}`);
+console.log(`Wrote:\n- ${rawOutput}\n- ${duplicateOutput}\n- ${metadataOutput}\n- ${churchesPath}`);
