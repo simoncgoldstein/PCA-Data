@@ -14,7 +14,6 @@ permissions:
 
 jobs:
   match:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository
