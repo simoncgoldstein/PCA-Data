@@ -1,0 +1,28 @@
+{
+  "dataset": "Save the PCA Functional Female Officer public dataset",
+  "dataset_date": "2026-02-08",
+  "source_page": "https://www.savethepca.com/downloads/",
+  "source_url": "https://www.savethepca.com/wp-content/uploads/2026/02/ffo_public_dataset_020826.xlsx",
+  "sha256": "b746fbdd1ccbb6087feeb6ed5abee91b4ac203a3cacc08de167c46a8cf9d0150",
+  "expected_sha256_from_user_supplied_copy": "b746fbdd1ccbb6087feeb6ed5abee91b4ac203a3cacc08de167c46a8cf9d0150",
+  "matches_user_supplied_copy": true,
+  "sheet_counts": {
+    "church_list": 1964,
+    "raw_data": 802,
+    "bucketed_data": 802,
+    "ambiguous_data": 180,
+    "presbyteries": 87
+  },
+  "derived_counts": {
+    "flagged_churches": 147,
+    "raw_role_observations": 802,
+    "ambiguous_role_observations": 180
+  },
+  "rules": {
+    "creates_person_nodes": false,
+    "external_assessment_is_church_level": true,
+    "raw_workbook_preserved": true,
+    "archive_links_preserved": true,
+    "silent_corrections": false
+  }
+}
