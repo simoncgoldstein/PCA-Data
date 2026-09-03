@@ -14,8 +14,8 @@
     "event_type": "public_letter",
     "date": "2021-06-02",
     "organization_id": "a-faithful-pca",
-    "source_ids": ["src-a-faithful-pca-letter-2021"],
-    "notes": "Signer normalization is held back until the archived signer page is cleanly recovered."
+    "source_ids": ["src-a-faithful-pca-letter-2021", "src-a-faithful-pca-signers-wayback"],
+    "notes": "The 571-name 2021 snapshot and 737-name 2022-03-14 Wayback snapshot are preserved and normalized separately."
   },
   {
     "id": "evt-amr-founding",

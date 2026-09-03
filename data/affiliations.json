@@ -482,5 +482,55 @@
     "weight": 3,
     "score_included": true,
     "source_ids": ["src-garris-letter-1"]
+  },
+  {
+    "id": "aff-augenstein-lake-nona",
+    "person_id": "andrew-augenstein",
+    "target_type": "church",
+    "target_id": "lake-nona-presbyterian-church-068012",
+    "role": "Ruling Elder/Clerk of the Session",
+    "confidence": "confirmed",
+    "evidence_kind": "current_church_role",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": ["src-lake-nona-leadership-2026"]
+  },
+  {
+    "id": "aff-augenstein-faithful-pca",
+    "person_id": "andrew-augenstein",
+    "target_type": "event",
+    "target_id": "evt-a-faithful-pca-2021",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": ["src-a-faithful-pca-signers-wayback"],
+    "notes": "Appears as signature 477 in the 2022-03-14 archived 737-name snapshot."
+  },
+  {
+    "id": "aff-augenstein-overture15-negative",
+    "person_id": "andrew-augenstein",
+    "target_type": "event",
+    "target_id": "evt-overture15-2022",
+    "role": "Recorded negative vote",
+    "confidence": "confirmed",
+    "evidence_kind": "general_assembly_recorded_vote",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": ["src-ga49-2022"],
+    "notes": "Official minutes, printed page 80, negative-vote roster print order 6."
+  },
+  {
+    "id": "aff-augenstein-nae-protest",
+    "person_id": "andrew-augenstein",
+    "target_type": "event",
+    "target_id": "evt-nae-withdrawal-protest-2022",
+    "role": "Protest signer",
+    "confidence": "confirmed",
+    "evidence_kind": "general_assembly_protest_signature",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": ["src-ga49-vol1-nae"]
   }
 ]

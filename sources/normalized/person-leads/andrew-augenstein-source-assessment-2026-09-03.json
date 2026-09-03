@@ -1,0 +1,99 @@
+{
+  "metadata": {
+    "person_name": "Andrew Augenstein",
+    "assessment_date": "2026-09-03",
+    "purpose": "Separate verified public ecclesiastical actions from claims in an unavailable social-media post.",
+    "sensitive_attribute_rule": "Do not infer or label sexual orientation. Preserve an exact first-person self-description only if the primary recording is recovered and context can be assessed."
+  },
+  "verified_records": [
+    {
+      "record_type": "current_church_role",
+      "value": "Ruling Elder/Clerk of the Session",
+      "organization": "Lake Nona Presbyterian Church",
+      "verification_status": "confirmed_first_party",
+      "source_url": "https://www.lnpca.church/leadership",
+      "raw_receipt": "sources/raw/person-leads/andrew-augenstein/lake-nona-leadership-2026-09-03.html"
+    },
+    {
+      "record_type": "public_letter_signature",
+      "value": "A Faithful PCA signer",
+      "source_locator": "signature #477",
+      "verification_status": "confirmed_primary_archive",
+      "source_url": "https://web.archive.org/web/20220314223906/https://www.afaithfulpca.net/signatures",
+      "normalized_dataset": "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json"
+    },
+    {
+      "record_type": "general_assembly_recorded_vote",
+      "value": "Recorded negative vote on Overture 15",
+      "source_locator": "49th GA minutes, printed page 80, roster print order 6",
+      "verification_status": "confirmed_official_minutes",
+      "normalized_dataset": "sources/normalized/revoice/overture-15-negative-votes-2022.json",
+      "image_receipt": "sources/raw/person-leads/andrew-augenstein/overture-15-negative-vote-page-80-user-supplied.png"
+    },
+    {
+      "record_type": "general_assembly_protest_signature",
+      "value": "Named signer of protest against PCA withdrawal from the National Association of Evangelicals",
+      "source_locator": "49th GA minutes, printed page 27, roster print order 6",
+      "verification_status": "confirmed_official_minutes",
+      "normalized_dataset": "sources/normalized/nae/withdrawal-protest-signers-2022.json"
+    }
+  ],
+  "third_party_claims": [
+    {
+      "claim": "First-person same-sex-attraction self-description appears in an unaltered GA audio/video clip",
+      "claim_source": "user-supplied transcription attributed to Michael Foster",
+      "verification_status": "unverified_primary_media_unavailable",
+      "do_not_model_as_fact": true
+    },
+    {
+      "claim": "Friendship with Scott Sauls and support for Greg Johnson",
+      "claim_source": "user-supplied transcription attributed to Michael Foster",
+      "verification_status": "unverified",
+      "do_not_model_as_fact": true
+    },
+    {
+      "claim": "Made the statement Shepherdess = manufactured crisis",
+      "claim_source": "user-supplied transcription attributed to Michael Foster",
+      "verification_status": "unverified",
+      "do_not_model_as_fact": true
+    },
+    {
+      "claim": "Served on a subcommittee investigating original allegations against Burk Parsons",
+      "claim_source": "user-supplied transcription attributed to Michael Foster",
+      "verification_status": "partially_supported_but_exact_body_and_scope_require_primary_record",
+      "do_not_model_as_fact": true
+    }
+  ],
+  "media_recovery": {
+    "reported_url": "https://x.com/thisisfoster/status/2005805396980908142",
+    "status": "blocked_missing_source",
+    "missing": "Original audio/video file or stable mirror with provenance",
+    "checks": [
+      "Direct X status unavailable",
+      "X syndication endpoint returned an empty object",
+      "X oEmbed endpoint returned a not-found page",
+      "Exact status-ID and quoted-phrase searches found no stable media copy",
+      "Archive index checks found no usable capture",
+      "Public Facebook photo repost located, but unauthenticated retrieval exposed no video asset",
+      "User-supplied still frame preserved with visible topic clock 21:11 and mic timer 2:14"
+    ]
+  },
+  "display_markers": [
+    {
+      "label": "A Faithful PCA signer",
+      "status": "source_backed"
+    },
+    {
+      "label": "Overture 15 recorded negative vote",
+      "status": "source_backed"
+    },
+    {
+      "label": "NAE-withdrawal protest signer",
+      "status": "source_backed"
+    }
+  ],
+  "excluded_marker": {
+    "label": "sexual-orientation flag",
+    "reason": "Sensitive personal attribute alleged by a third party; primary recording not recovered and no inference is permitted."
+  }
+}

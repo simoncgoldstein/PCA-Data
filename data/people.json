@@ -168,5 +168,15 @@
     "denominational_status": "PCA-associated",
     "current_role_source_ids": ["src-amr-team-2026"],
     "profile_status": "seeded"
+  },
+  {
+    "id": "andrew-augenstein",
+    "name": "Andrew Augenstein",
+    "ordination": "Ruling Elder",
+    "current_role": "Ruling Elder/Clerk of the Session, Lake Nona Presbyterian Church",
+    "current_organization": null,
+    "denominational_status": "PCA / Central Florida Presbytery",
+    "current_role_source_ids": ["src-lake-nona-leadership-2026"],
+    "profile_status": "source_assessed"
   }
 ]

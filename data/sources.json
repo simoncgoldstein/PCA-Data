@@ -35,16 +35,16 @@
     "url": "https://theaquilareport.com/looking-forward-together/",
     "source_type": "primary_public_letter_transcription",
     "accessed": "2026-09-03",
-    "notes": "Full text is preserved locally in sources/raw/public-statements/a-faithful-pca/. The historical signer page is treated separately because the user-provided signer transcription was contaminated and was not accepted as verified evidence."
+    "notes": "Full text is preserved locally in sources/raw/public-statements/a-faithful-pca/. Historical signer snapshots are treated separately from the letter text."
   },
   {
     "id": "src-a-faithful-pca-signers-wayback",
     "title": "A Faithful PCA Signatures",
     "publisher": "A Faithful PCA via Internet Archive",
     "url": "https://web.archive.org/web/20220314223906/https://www.afaithfulpca.net/signatures",
-    "source_type": "primary_archived_signer_page_pending_extraction",
+    "source_type": "primary_archived_signer_page",
     "accessed": "2026-09-03",
-    "notes": "Clean extraction is pending. Do not use the contaminated pasted roster received in this project as signer evidence."
+    "notes": "Authoritative citation for the normalized 737-name 2022-03-14 signer roster. Raw page/text receipts and the normalized roster are preserved under sources/raw/public-statements/a-faithful-pca/ and sources/normalized/public-statements/a-faithful-pca/."
   },
   {
     "id": "src-amr-founding",
@@ -280,5 +280,23 @@
     "source_type": "primary_church_profile",
     "accessed": "2026-09-03",
     "notes": "Lists David Cassidy as Lead Pastor."
+  },
+  {
+    "id": "src-lake-nona-leadership-2026",
+    "title": "Lake Nona Presbyterian Church Leadership",
+    "publisher": "Lake Nona Presbyterian Church",
+    "url": "https://www.lnpca.church/leadership",
+    "source_type": "primary_church_profile",
+    "accessed": "2026-09-03",
+    "notes": "Lists Andrew Augenstein as Ruling Elder/Clerk of the Session. A raw HTML receipt is preserved under sources/raw/person-leads/andrew-augenstein/."
+  },
+  {
+    "id": "src-foster-augenstein-lead-2026",
+    "title": "Unavailable Michael Foster post concerning Andrew Augenstein",
+    "publisher": "X post attributed to Michael Foster; transcription supplied by project user",
+    "url": "https://x.com/thisisfoster/status/2005805396980908142",
+    "source_type": "third_party_social_media_lead_unavailable",
+    "accessed": "2026-09-03",
+    "notes": "Lead only. The attached audio/video could not be recovered. Claims are not modeled as fact; see the person-level source assessment and preserved transcription."
   }
 ]
