@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "event": "49th General Assembly — Overture 15 Minority Report",
+    "primary_source": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022.pdf",
+    "local_pdf_text": "sources/raw/general-assembly/2022/49th_pcaga_2022_vol01.txt",
+    "extraction_start_marker": "MINORITY REPORT\n                             ON OVERTURE 15",
+    "extraction_end_marker": "MINORITY REPORT\n                              ON OVERTURE 26",
+    "expected_rows": 46,
+    "parsed_rows": 46,
+    "identity_rule": "Only unique matches to existing data/people.json records are resolved; printed names and presbyteries remain unchanged."
+  },
+  "signers": [
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Matthew D. Fender",
+      "presbytery_as_printed": "James River",
+      "print_order": 1,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Joe Cristman",
+      "presbytery_as_printed": "Chicago Metro",
+      "print_order": 2,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Barry",
+      "presbytery_as_printed": "South Florida",
+      "print_order": 3,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Chad Cureton",
+      "presbytery_as_printed": "Fellowship",
+      "print_order": 4,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Steve Dowling",
+      "presbytery_as_printed": "Southeast Alabama",
+      "print_order": 5,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Rafael LaGuardia",
+      "presbytery_as_printed": "Gulf Coast",
+      "print_order": 6,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Terry Carnes",
+      "presbytery_as_printed": "Eastern Pennsylvania",
+      "print_order": 7,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Mark Herzer",
+      "presbytery_as_printed": "Eastern Pennsylvania",
+      "print_order": 8,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "William F. Hill, Jr.",
+      "presbytery_as_printed": "Iliana",
+      "print_order": 9,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Mike M. McCary",
+      "presbytery_as_printed": "Gulf Coast",
+      "print_order": 10,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Steven Warhurst",
+      "presbytery_as_printed": "Westminster",
+      "print_order": 11,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Gilbert",
+      "presbytery_as_printed": "Northwest Georgia",
+      "print_order": 12,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Justen Ellis",
+      "presbytery_as_printed": "Northwest Georgia",
+      "print_order": 13,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Charles Nave",
+      "presbytery_as_printed": "Blue Ridge",
+      "print_order": 14,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Cory Colravy",
+      "presbytery_as_printed": "Central Carolina",
+      "print_order": 15,
+      "pdf_page": 130,
+      "printed_page": 128,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Bradley J. Chwastyk",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 16,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Garry Vanderveen",
+      "presbytery_as_printed": "Canada West",
+      "print_order": 17,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Paul Mandry",
+      "presbytery_as_printed": "Canada West",
+      "print_order": 18,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Dan Lyzenga",
+      "presbytery_as_printed": "Chicago Metro",
+      "print_order": 19,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jim McCarthy",
+      "presbytery_as_printed": "Grace",
+      "print_order": 20,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jason Anderson",
+      "presbytery_as_printed": "Fellowship",
+      "print_order": 21,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Kreg Bryan",
+      "presbytery_as_printed": "Central Georgia",
+      "print_order": 22,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Jay Strickland",
+      "presbytery_as_printed": "Central Georgia",
+      "print_order": 23,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Michael Brock",
+      "presbytery_as_printed": "Evangel",
+      "print_order": 24,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Andrew Rutherford",
+      "presbytery_as_printed": "Palmetto",
+      "print_order": 25,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Richard Harris",
+      "presbytery_as_printed": "Houston Metro",
+      "print_order": 26,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Ed Jordan",
+      "presbytery_as_printed": "Southwest Florida",
+      "print_order": 27,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "James W. Ressler",
+      "presbytery_as_printed": "Susquehanna Valley",
+      "print_order": 28,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Andy Aikens",
+      "presbytery_as_printed": "Tennessee Valley Presbytery",
+      "print_order": 29,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Vincent Wood",
+      "presbytery_as_printed": "Susquehanna Valley",
+      "print_order": 30,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Blake Pool",
+      "presbytery_as_printed": "Siouxlands",
+      "print_order": 31,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "John B. Leaf",
+      "presbytery_as_printed": "Rocky Mountain",
+      "print_order": 32,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Drew Ricketts",
+      "presbytery_as_printed": "Evangel",
+      "print_order": 33,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "John A. Van Devender",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 34,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Colin Andrade",
+      "presbytery_as_printed": "Iowa",
+      "print_order": 35,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ted Trefsgar",
+      "presbytery_as_printed": "New Jersey",
+      "print_order": 36,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Mike Levenhagen",
+      "presbytery_as_printed": "Suncoast Florida",
+      "print_order": 37,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Matt Wood",
+      "presbytery_as_printed": "North Texas",
+      "print_order": 38,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jordan Gallo",
+      "presbytery_as_printed": "Pee Dee",
+      "print_order": 39,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Keith Phillips",
+      "presbytery_as_printed": "Iliana",
+      "print_order": 40,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Daniel Witcher",
+      "presbytery_as_printed": "Westminster",
+      "print_order": 41,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brent Lauder",
+      "presbytery_as_printed": "Suncoast Florida",
+      "print_order": 42,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Greg Miseyko",
+      "presbytery_as_printed": "South Florida",
+      "print_order": 43,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Ken Wynne",
+      "presbytery_as_printed": "Houston Metro",
+      "print_order": 44,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "David Walters Jr",
+      "presbytery_as_printed": "Lowcountry",
+      "print_order": 45,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "William Cheek",
+      "presbytery_as_printed": "North Florida",
+      "print_order": 46,
+      "pdf_page": 131,
+      "printed_page": 129,
+      "normalized_person_id": null
+    }
+  ]
+}

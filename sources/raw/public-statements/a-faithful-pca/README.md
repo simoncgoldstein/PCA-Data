@@ -35,11 +35,11 @@ Later archived signer page supplied to this research project:
 
 https://web.archive.org/web/20220314223906/https://www.afaithfulpca.net/signatures
 
-A user-supplied transcription from that later archive is preserved in the ChatGPT research corpus as `Pasted markdown(20260903-164744).md`. It runs consecutively from **#1 Charles E. McGowan through #737 Brad A. Anderson** and includes role/church/institution, city/state where printed, and presbytery data.
+A user-supplied transcription from that later archive is preserved locally as `signatures-2022-03-14-transcription.md`. It runs consecutively from **#1 Charles E. McGowan through #737 Brad A. Anderson** and includes role/church/institution, city/state where printed, and presbytery data. The archived A Faithful PCA page above is the authoritative citation for the roster; the transcription is the working extraction copy.
 
 This later snapshot is the broader historical coalition roster and should be normalized as a **March 2022 snapshot**, not silently merged into the June 2021 snapshot.
 
-The raw pasted transcription itself still needs to be copied into the GitHub source archive during the Work/browser ingestion pass. Until then, this README records its provenance and the exact archive URL.
+Both snapshots are normalized separately under `sources/normalized/public-statements/a-faithful-pca/`. The later transcription parses to 737 consecutive records with no missing or duplicate sequence numbers.
 
 ## Important correction to an earlier project note
 

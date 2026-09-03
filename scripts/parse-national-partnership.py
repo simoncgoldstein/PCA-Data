@@ -85,6 +85,8 @@ for page_no, page in enumerate(pages, 1):
     for i, line in enumerate(lines):
         if not re.match(r"^\s*(?:\d+[\.)]?\s*)?Additions\b", line, re.I):
             continue
+        if not re.search(r"\d+\s*(?:elders?)?\s*in\s*\d+\s*presbyter", line, re.I):
+            continue
         people = []
         for j in range(i + 1, min(i + 40, len(lines))):
             value = clean(lines[j])
@@ -102,8 +104,6 @@ for page_no, page in enumerate(pages, 1):
                         "raw": value,
                     }
                 )
-        if not people:
-            continue
         ctx = context_for(page_no, i + 1)
         totals = re.search(r"(\d+)\s*(?:elders?)?\s*in\s*(\d+)\s*presbyter", line, re.I)
         additions.append(
@@ -116,6 +116,7 @@ for page_no, page in enumerate(pages, 1):
                 "reported_members_or_elders": int(totals.group(1)) if totals else None,
                 "reported_presbyteries": int(totals.group(2)) if totals else None,
                 "people": people,
+                "named_additions_present": bool(people),
                 "evidence_type": "explicit_additions_roster",
             }
         )
@@ -125,9 +126,13 @@ for page_no, page in enumerate(pages, 1):
 explicit = []
 explicit_patterns = [
     (re.compile(r"NP member Sean Lucas", re.I), "Sean Lucas"),
+    (re.compile(r"(?:From|Message from) NP member Omar Ortiz", re.I), "Omar Ortiz"),
     (re.compile(r"Mike Khandjian, NP member", re.I), "Mike Khandjian"),
     (re.compile(r"Pastor Kevin Labby, NP member", re.I), "Kevin Labby"),
     (re.compile(r"Irwyn Ince, NP member", re.I), "Irwyn Ince"),
+    (re.compile(r"fellow partnership member RE EJ Nusbaum", re.I), "EJ Nusbaum"),
+    (re.compile(r"Bates is strongly preferred\. He is a Partnership member", re.I), "Mark Bates"),
+    (re.compile(r"Hoop is strongly preferred\. He is the NC nominee\. He’s a Partnership member", re.I), "Larry Hoop"),
 ]
 seen = set()
 for page_no, page in enumerate(pages, 1):
@@ -269,7 +274,7 @@ for page_no, page in enumerate(pages, 1):
                 if (qno != page_no or j > i) and DATE_RE.search(value):
                     stop = True
                     break
-                if re.match(r"^(Thanks all|JK)$", value):
+                if re.match(r"^(Thanks all|JK)\b", value):
                     stop = True
                     break
                 chunks.append((qno, j + 1, value))
@@ -304,7 +309,9 @@ for page_no, page in enumerate(pages, 1):
                         "raw": value,
                     }
                 )
-            elif current == "Overtures Committee" and not re.match(r"^(Brothers|What this means|\d+\.)", value):
+            elif current == "Overtures Committee" and not re.match(
+                r"^(Brothers|What this means|TO DO|clerk of|Thanks all|\d+\.)", value, re.I
+            ):
                 tokens = value.split()
                 if 2 <= len(tokens) <= 7:
                     people_by[current].append(
@@ -460,6 +467,47 @@ for page_no, page in enumerate(pages, 1):
             )
 
 
+# High-signal issue/action excerpts. These are discovery-preserving evidence
+# records, not claims that every NP participant shared the position expressed.
+priority_topics = {
+    "racial_reconciliation": re.compile(r"racial reconciliation|race and the church|civil rights|confess.*racial", re.I),
+    "women_serving_in_ministry": re.compile(r"women serving|women in ministry|female deacons?|deaconesses|shepherding", re.I),
+    "revoice_nashville_human_sexuality": re.compile(r"Revoice|Nashville Statement|human sexuality|Side B|same.sex attraction", re.I),
+    "overtures_23_37": re.compile(r"Overture 23|Overture 37|O-23|O-37", re.I),
+    "nae_withdrawal": re.compile(r"National Association of Evangelicals|\bNAE\b", re.I),
+    "unordained_board_service": re.compile(r"unordained|non-ordained|women.*boards?|boards?.*women", re.I),
+    "good_faith_subscription": re.compile(r"Good Faith Subscription", re.I),
+    "beautiful_orthodoxy": re.compile(r"Beautiful Orthodoxy", re.I),
+    "fellowship": re.compile(r"Fellowship Dinner|Fellowship Gathering|The Fellowship", re.I),
+    "a_faithful_pca": re.compile(r"A Faithful PCA|Looking Forward|public letter", re.I),
+    "committee_strategy": re.compile(r"Nominating Committee|Overtures Committee|Review of Presbytery Records|\bRPR\b|committee strategy", re.I),
+}
+priority_issue_excerpts = []
+seen_priority = set()
+for page_no, page in enumerate(pages, 1):
+    for line_no, line in enumerate(page.splitlines(), 1):
+        topics = [topic for topic, pattern in priority_topics.items() if pattern.search(line)]
+        if not topics:
+            continue
+        ctx = context_for(page_no, line_no)
+        key = (page_no, line_no, tuple(topics))
+        if key in seen_priority:
+            continue
+        seen_priority.add(key)
+        priority_issue_excerpts.append(
+            {
+                "topics": topics,
+                "page": page_no,
+                "line": line_no,
+                "date": ctx["date"],
+                "sender_as_printed": ctx["sender_as_printed"],
+                "matched_line": clean(line),
+                "excerpt": excerpt(page_no, line_no, 2, 5),
+                "modeling_rule": "Message-level evidence only; do not infer unanimity or person-level agreement without named language.",
+            }
+        )
+
+
 # Derived evidence index. Name strings are intentionally not silently canonicalized.
 evidence = []
 
@@ -570,6 +618,7 @@ result = {
             "Repeated additions/rosters are preserved as dated evidence.",
             "NP-guys committee language is treated as explicit network-roster evidence but retains the source wording.",
             "The derived count is a count of distinct printed name strings, not a final identity-resolved person count. Variants such as EJ/E.J., Dave/David, and source misspellings require later identity resolution.",
+            "The archive text contains 31 Additions headings, not 41. All 31 are preserved, including headings that explicitly say None or print no named additions; the handoff's 41-snapshot expectation is retained as a documented source-count discrepancy.",
         ],
     },
     "counts": {
@@ -582,6 +631,7 @@ result = {
         "explicit_np_current_committee_snapshots": len(current_committee),
         "derived_distinct_confirmed_member_name_strings": len(confirmed_member_name_evidence_index),
         "keyword_evidence_excerpts": len(keyword_excerpts),
+        "priority_issue_action_excerpts": len(priority_issue_excerpts),
     },
     "addition_snapshots": additions,
     "explicit_named_member_references": explicit,
@@ -593,6 +643,7 @@ result = {
     "membership_count_snapshots": count_snapshots,
     "confirmed_member_name_evidence_index": confirmed_member_name_evidence_index,
     "membership_keyword_excerpts": keyword_excerpts,
+    "priority_issue_action_excerpts": priority_issue_excerpts,
 }
 
 output_path.parent.mkdir(parents=True, exist_ok=True)

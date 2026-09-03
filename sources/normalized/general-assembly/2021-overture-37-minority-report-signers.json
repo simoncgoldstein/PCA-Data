@@ -1,38 +1,294 @@
 {
-  "event": "48th General Assembly — Overture 37 Minority Report",
-  "year": 2021,
-  "source": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf",
-  "status": "primary-source roster normalized",
-  "method_note": "This records formal minority-report signership only. It should not be collapsed into a generic ideological label. The minority urged the Assembly to answer Overture 37 in the affirmative as amended by its substitute motion.",
+  "metadata": {
+    "event": "48th General Assembly — Overture 37 Minority Report",
+    "year": 2021,
+    "primary_source": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf",
+    "local_pdf": "sources/raw/general-assembly/2021/48th_pcaga_2021.pdf",
+    "status": "verified against official primary-source roster",
+    "method_note": "This records formal minority-report signership only. It should not be collapsed into a generic ideological label.",
+    "source_oddity_note": "The extracted official text reads 'TE Tag Tuck Blue, Ridge Presbytery'; that wording is preserved while the canonical presbytery mapping is Blue Ridge.",
+    "parsed_rows": 28
+  },
   "signers": [
-    {"name":"Robert Binion Jr.","office":"TE","presbytery":"Northern California"},
-    {"name":"Cal Boroughs III","office":"TE","presbytery":"Tennessee Valley"},
-    {"name":"Erik Bonkovsky","office":"TE","presbytery":"James River"},
-    {"name":"David Cassidy","office":"TE","presbytery":"Gulfstream"},
-    {"name":"Jonathan Clark","office":"TE","presbytery":"Rio Grande"},
-    {"name":"Jason Cornwell","office":"TE","presbytery":"Palmetto"},
-    {"name":"Brian Davis","office":"TE","presbytery":"North Texas"},
-    {"name":"Jonathan Dorst","office":"TE","presbytery":"Hills and Plains"},
-    {"name":"Tyler Hagan","office":"RE","presbytery":"Heritage"},
-    {"name":"Brent Horan","office":"TE","presbytery":"Pittsburgh"},
-    {"name":"Bevan Houston","office":"RE","presbytery":"Hills and Plains"},
-    {"name":"Tim Jackson","office":"TE","presbytery":"Missouri"},
-    {"name":"Dave Johnson","office":"RE","presbytery":"Pittsburgh"},
-    {"name":"Trevor Laurence","office":"RE","presbytery":"Piedmont Triad"},
-    {"name":"Brian LoPiccolo","office":"TE","presbytery":"Chesapeake"},
-    {"name":"Owen Lee","office":"TE","presbytery":"Korean Capital"},
-    {"name":"Ben Lyon","office":"TE","presbytery":"Tidewater"},
-    {"name":"Greg Poole","office":"TE","presbytery":"Evangel"},
-    {"name":"Derek Radney","office":"TE","presbytery":"Piedmont Triad"},
-    {"name":"Sean Roberts","office":"TE","presbytery":"Northern New England"},
-    {"name":"Peter Rowan","office":"TE","presbytery":"Susquehanna Valley"},
-    {"name":"Andrew Shank","office":"TE","presbytery":"Highlands"},
-    {"name":"Ben Sinnard","office":"TE","presbytery":"Wisconsin"},
-    {"name":"Bruce Terrell","office":"RE","presbytery":"Metropolitan New York"},
-    {"name":"Timothy Trouten","office":"TE","presbytery":"Northern Illinois"},
-    {"name":"Tag Tuck","office":"TE","presbytery":"Blue Ridge"},
-    {"name":"Theo Vander Velde","office":"TE","presbytery":"Missouri"},
-    {"name":"Geoff Ziegler","office":"TE","presbytery":"Chicago Metro"}
-  ],
-  "count": 28
+    {
+      "print_order": 1,
+      "office_as_printed": "TE",
+      "name_as_printed": "Robert Binion Jr",
+      "presbytery_as_printed": "Northern California",
+      "presbytery_id": "northern-california",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 2,
+      "office_as_printed": "TE",
+      "name_as_printed": "Cal Boroughs III",
+      "presbytery_as_printed": "Tennessee Valley Presbytery",
+      "presbytery_id": "tennessee-valley",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 3,
+      "office_as_printed": "TE",
+      "name_as_printed": "Erik Bonkovsky",
+      "presbytery_as_printed": "James River Presbytery",
+      "presbytery_id": "james-river",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 4,
+      "office_as_printed": "TE",
+      "name_as_printed": "David Cassidy",
+      "presbytery_as_printed": "Gulfstream Presbytery",
+      "presbytery_id": "gulfstream",
+      "normalized_person_id": "david-cassidy",
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 5,
+      "office_as_printed": "TE",
+      "name_as_printed": "Jonathan Clark",
+      "presbytery_as_printed": "Rio Grande Presbytery",
+      "presbytery_id": "rio-grande",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 6,
+      "office_as_printed": "TE",
+      "name_as_printed": "Jason Cornwell",
+      "presbytery_as_printed": "Palmetto Presbytery",
+      "presbytery_id": "palmetto",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 7,
+      "office_as_printed": "TE",
+      "name_as_printed": "Brian Davis",
+      "presbytery_as_printed": "North Texas Presbytery",
+      "presbytery_id": "north-texas",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 8,
+      "office_as_printed": "TE",
+      "name_as_printed": "Jonathan Dorst",
+      "presbytery_as_printed": "Hills and Plains Presbytery",
+      "presbytery_id": "hills-and-plains",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 9,
+      "office_as_printed": "RE",
+      "name_as_printed": "Tyler Hagan",
+      "presbytery_as_printed": "Heritage Presbytery",
+      "presbytery_id": "heritage",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 10,
+      "office_as_printed": "TE",
+      "name_as_printed": "Brent Horan",
+      "presbytery_as_printed": "Pittsburgh Presbytery",
+      "presbytery_id": "pittsburgh",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 11,
+      "office_as_printed": "RE",
+      "name_as_printed": "Bevan Houston",
+      "presbytery_as_printed": "Hills and Plains Presbytery",
+      "presbytery_id": "hills-and-plains",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 12,
+      "office_as_printed": "TE",
+      "name_as_printed": "Tim Jackson",
+      "presbytery_as_printed": "Missouri Presbytery",
+      "presbytery_id": "missouri",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 13,
+      "office_as_printed": "RE",
+      "name_as_printed": "Dave Johnson",
+      "presbytery_as_printed": "Pittsburgh Presbytery",
+      "presbytery_id": "pittsburgh",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 14,
+      "office_as_printed": "RE",
+      "name_as_printed": "Trevor Laurence",
+      "presbytery_as_printed": "Piedmont Triad Presbytery",
+      "presbytery_id": "piedmont-triad",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 15,
+      "office_as_printed": "TE",
+      "name_as_printed": "Brian LoPiccolo",
+      "presbytery_as_printed": "Chesapeake Presbytery",
+      "presbytery_id": "chesapeake",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 16,
+      "office_as_printed": "TE",
+      "name_as_printed": "Owen Lee",
+      "presbytery_as_printed": "Korean Capital Presbytery",
+      "presbytery_id": "korean-capital",
+      "normalized_person_id": "owen-lee",
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 17,
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Lyon",
+      "presbytery_as_printed": "Tidewater Presbytery",
+      "presbytery_id": "tidewater",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 18,
+      "office_as_printed": "TE",
+      "name_as_printed": "Greg Poole",
+      "presbytery_as_printed": "Evangel Presbytery",
+      "presbytery_id": "evangel",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 19,
+      "office_as_printed": "TE",
+      "name_as_printed": "Derek Radney",
+      "presbytery_as_printed": "Piedmont Triad Presbytery",
+      "presbytery_id": "piedmont-triad",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 20,
+      "office_as_printed": "TE",
+      "name_as_printed": "Sean Roberts",
+      "presbytery_as_printed": "Northern New England Presbytery",
+      "presbytery_id": "northern-new-england",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 21,
+      "office_as_printed": "TE",
+      "name_as_printed": "Peter Rowan",
+      "presbytery_as_printed": "Susquehanna Presbytery",
+      "presbytery_id": "susquehanna-valley",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 22,
+      "office_as_printed": "TE",
+      "name_as_printed": "Andrew Shank",
+      "presbytery_as_printed": "Highlands Presbytery",
+      "presbytery_id": "highlands",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 23,
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Sinnard",
+      "presbytery_as_printed": "Wisconsin Presbytery",
+      "presbytery_id": "wisconsin",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 24,
+      "office_as_printed": "RE",
+      "name_as_printed": "Bruce Terrell",
+      "presbytery_as_printed": "New York Metro Presbytery",
+      "presbytery_id": "metropolitan-new-york",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 25,
+      "office_as_printed": "TE",
+      "name_as_printed": "Timothy Trouten",
+      "presbytery_as_printed": "Presbytery of Northern Illinois",
+      "presbytery_id": "northern-illinois",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 26,
+      "office_as_printed": "TE",
+      "name_as_printed": "Tag Tuck",
+      "presbytery_as_printed": "Blue, Ridge Presbytery",
+      "presbytery_id": "blue-ridge",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 27,
+      "office_as_printed": "TE",
+      "name_as_printed": "Theo Vander Velde",
+      "presbytery_as_printed": "Missouri Presbytery",
+      "presbytery_id": "missouri",
+      "normalized_person_id": null,
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    },
+    {
+      "print_order": 28,
+      "office_as_printed": "TE",
+      "name_as_printed": "Geoff Ziegler",
+      "presbytery_as_printed": "Chicago Metro Presbytery",
+      "presbytery_id": "chicago-metro",
+      "normalized_person_id": "geoff-ziegler",
+      "pdf_page": 135,
+      "printed_appendix_page": 10
+    }
+  ]
 }

@@ -17,7 +17,7 @@
     "teaching_elders": 22,
     "presbyteries_represented": 31,
     "presented_by": "Matthew Fender",
-    "status": "person-level signer extraction pending Work/browser pass",
+    "status": "complete; see overture-15-minority-report-signers-2022.json",
     "both_te_and_re_signed_from": [
       "Canada West","Central Georgia","Chesapeake","Chicago Metro","Eastern Pennsylvania","Evangel","Fellowship","Gulf Coast","Houston Metro","Illiana","Northwest Georgia","South Florida","Suncoast Florida","Susquehanna Valley","Westminster"
     ],
@@ -30,12 +30,17 @@
   },
   "recorded_negative_votes": {
     "meaning": "Commissioners who requested their votes against Overture 15 be recorded; these are distinct from minority-report signers and represent opposition to O15.",
-    "status": "full name/presbytery extraction pending Work/browser pass"
+    "status": "complete; 199 printed rows preserved in overture-15-negative-votes-2022.json"
   },
   "later_presbytery_result": {
-    "votes_recorded": 81,
-    "presbyteries_passing": 48,
-    "outcome": "failed to reach the two-thirds threshold required to return to the next General Assembly for final enactment"
+    "presbyteries_total": 88,
+    "presbyteries_reporting": 68,
+    "presbyteries_passing": 39,
+    "presbyteries_not_passing": 29,
+    "two_thirds_needed": 59,
+    "outcome": "not ratified",
+    "verification_source": "https://www.pcahistory.org/pca/ga/50th_pcaga_2023.pdf",
+    "data_file": "overture-15-presbytery-ratification-2023.json"
   },
   "modeling_rules": [
     "Minority Report signer = affirmative/supporting action on O15 as amended.",

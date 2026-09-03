@@ -1,0 +1,11 @@
+{
+  "captured_on": "2026-09-03",
+  "extraction_method": "pdftotext -layout",
+  "sources": [
+    {"year": 2019, "assembly": 47, "url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "local_pdf": "2019/47th_pcaga_2019.pdf", "sha256": "3946398d2b6e64ed7bcd9120510fbe86c23a712cfa7ab335ddc525d66efcc279"},
+    {"year": 2021, "assembly": 48, "url": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf", "local_pdf": "2021/48th_pcaga_2021.pdf", "sha256": "01b9553bb3c8c8e9bbc0441f7e91f77b2902ad0c1559e88af6adf0773ec0f9d8"},
+    {"year": 2022, "assembly": 49, "url": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022.pdf", "local_pdf": "2022/49th_pcaga_2022.pdf", "sha256": "e68a24e4f5220ea9ea3d510e6a39f9941fd8230cb76ce83d11d4569cf4a6ddd8"},
+    {"year": 2022, "assembly": 49, "url": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022_vol01.pdf", "local_pdf": "2022/49th_pcaga_2022_vol01.pdf", "sha256": "a1d862f891b4cc74d096c72ee2fd63c3deb2471cdcc5f9e53bb121d928d9aeb2"},
+    {"year": 2023, "assembly": 50, "url": "https://www.pcahistory.org/pca/ga/50th_pcaga_2023.pdf", "local_pdf": "2023/50th_pcaga_2023.pdf", "sha256": "af11f938887bddc6ffab0dcd6478d2f9442d63cd8d566ae40c8df2c3f66f4569"}
+  ]
+}

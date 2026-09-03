@@ -1,0 +1,114 @@
+{
+  "metadata": {
+    "record_count": 10,
+    "rule": "Support, preference, praise, or adjacency is stored separately and never establishes membership by itself."
+  },
+  "records": [
+    {
+      "candidate": "Russ Whitfield",
+      "office_or_body": "RUM Permanent Committee",
+      "evidence_date": "2016-06-23",
+      "archive_page": "18",
+      "evidence_type": "candidate_preference",
+      "confidence": "confirmed",
+      "evidence_summary": "Kessler recommends Whitfield and explicitly cites ethnicity, geography, age, and anticipated HBCU ministry direction among the reasons. This is candidate support, not proof of NP membership.",
+      "source": "2016-candidate-support.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "candidate": "Paul Bankson",
+      "office_or_body": "Standing Judicial Commission",
+      "evidence_date": "2016-06-23",
+      "archive_page": "18",
+      "evidence_type": "candidate_preference",
+      "confidence": "confirmed",
+      "evidence_summary": "NP nominations advice prefers Bankson over Grover Gunn.",
+      "source": "2016-candidate-support.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "candidate": "Grover Gunn",
+      "office_or_body": "Standing Judicial Commission",
+      "evidence_date": "2016-06-23",
+      "archive_page": "18",
+      "evidence_type": "candidate_opposition",
+      "confidence": "confirmed",
+      "evidence_summary": "NP nominations advice urges voting against Gunn in favor of Bankson.",
+      "source": "2016-candidate-support.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "candidate": "Thompson Harley",
+      "office_or_body": "Covenant College Board",
+      "evidence_date": "2016-06-23",
+      "archive_page": "17",
+      "evidence_type": "candidate_preference",
+      "confidence": "confirmed",
+      "evidence_summary": "Preferred in NP nominations advice.",
+      "source": "2016-candidate-support.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "candidate": "Per Almquist",
+      "office_or_body": "Covenant College Board",
+      "evidence_date": "2016-06-23",
+      "archive_page": "17",
+      "evidence_type": "candidate_preference",
+      "confidence": "confirmed",
+      "evidence_summary": "Preferred over Art Sartorius; advice notes Sartorius opposed the women-in-ministry study committee.",
+      "source": "2016-candidate-support.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "candidate": "Art Sartorius",
+      "office_or_body": "Covenant College Board",
+      "evidence_date": "2016-06-23",
+      "archive_page": "17",
+      "evidence_type": "candidate_opposition",
+      "confidence": "confirmed",
+      "evidence_summary": "Not preferred; opposition to WIM study committee is cited as one consideration.",
+      "source": "2016-candidate-support.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "candidate": "Ed McDougall",
+      "office_or_body": "MNA Permanent Committee",
+      "evidence_date": "2016-06-23",
+      "archive_page": "18",
+      "evidence_type": "candidate_preference",
+      "confidence": "confirmed",
+      "evidence_summary": "Preferred in NP nominations advice.",
+      "source": "2016-candidate-support.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "candidate": "Kyle Hackmann",
+      "office_or_body": "MTW Permanent Committee",
+      "evidence_date": "2016-06-23",
+      "archive_page": "18",
+      "evidence_type": "candidate_preference",
+      "confidence": "confirmed",
+      "evidence_summary": "Preferred in NP nominations advice.",
+      "source": "2016-candidate-support.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "subject_or_person": "Alexander Jun",
+      "action_type": "moderator_candidate_support",
+      "evidence_date": "2017-06-12",
+      "archive_page": "8",
+      "confidence": "confirmed",
+      "evidence_summary": "Kessler says he is glad to support Jun for Moderator and urges NP members to be present for the vote.",
+      "notes": "Candidate support does not establish NP membership for Jun.",
+      "source": "2017-issue-actions.csv",
+      "membership_established_by_record": false
+    },
+    {
+      "candidate": "Greg Thompson",
+      "evidence_type": "np_supported_sjc_nominee",
+      "evidence_summary": "NP correspondence supports and celebrates Thompson as an SJC nominee; this record does not establish NP membership.",
+      "membership_established_by_record": false,
+      "source": "confirmed-memberships-and-actions-v1.json"
+    }
+  ]
+}

@@ -5,7 +5,9 @@
   "size_bytes": 14793893,
   "sha256": "d1558fb3b4be92aa2d43b4537ee198ab4feea0036d0b6c09f6470047600d53cd",
   "received_from_user": "2026-09-03",
-  "raw_binary_in_repo": false,
-  "raw_binary_status": "pending_manual_or_binary_upload",
-  "notes": "The exact 15 MB PDF was uploaded directly into the research conversation and hashed before analysis. The GitHub connector available to this project handles UTF-8 files well but is not suitable for committing this binary at its present size. The user can preserve the exact evidence copy by placing the PDF at sources/raw/national-partnership/NPP_Emails_2013_2021.pdf; after that the SHA-256 can be checked against this manifest."
+  "raw_binary_in_repo": true,
+  "raw_binary_status": "preserved_and_hash_verified",
+  "extracted_text_filename": "NPP_Emails_2013_2021.txt",
+  "extracted_text_sha256": "653d5e9ebae4ee48ce0011125883a25c3c2f7d3e5ce14c360dca583cc0998f24",
+  "notes": "The exact user-supplied PDF is preserved in this directory. Its SHA-256 was verified after materialization. The text derivative was produced with pdftotext -layout."
 }

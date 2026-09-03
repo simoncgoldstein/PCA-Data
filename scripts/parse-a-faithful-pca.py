@@ -13,12 +13,27 @@ import re
 import sys
 from pathlib import Path
 
-if len(sys.argv) < 3:
-    raise SystemExit("usage: parse-a-faithful-pca.py <input.txt> <output.json>")
+if len(sys.argv) < 4:
+    raise SystemExit("usage: parse-a-faithful-pca.py <repo-root> <input.txt> <output.json>")
 
-input_path = Path(sys.argv[1])
-output_path = Path(sys.argv[2])
+root = Path(sys.argv[1])
+input_path = Path(sys.argv[2])
+output_path = Path(sys.argv[3])
 text = input_path.read_text(encoding="utf-8", errors="replace")
+people = json.loads((root / "data/people.json").read_text(encoding="utf-8"))
+
+
+def identity_key(value: str) -> str:
+    value = re.sub(r"^(?:(?:rev|dr)\.?\s+)+", "", value, flags=re.I)
+    value = re.sub(r"\b(?:jr|sr|ii|iii|iv)\.?\b", "", value, flags=re.I)
+    value = re.sub(r"[^a-z0-9 ]+", " ", value.lower())
+    parts = value.split()
+    return f"{parts[0]} {parts[-1]}" if len(parts) >= 2 else " ".join(parts)
+
+
+person_index = {}
+for person in people:
+    person_index.setdefault(identity_key(person["name"]), []).append(person["id"])
 
 # Preserve page numbers from form-feed boundaries.
 pages = text.split("\f")
@@ -77,12 +92,14 @@ for pos, (line_index, page, sequence, name_as_printed) in enumerate(starts):
     normalized_name_candidate = re.sub(
         r"^(?:Rev\.?\s+Dr\.?|Rev\.?|Dr\.?|TE|RE)\s+", "", name_as_printed, flags=re.I
     ).strip()
+    candidates = person_index.get(identity_key(name_as_printed), [])
 
     records.append(
         {
             "sequence": sequence,
             "name_as_printed": name_as_printed,
             "normalized_name_candidate": normalized_name_candidate,
+            "normalized_person_id": candidates[0] if len(candidates) == 1 else None,
             "pdf_pages": block_pages,
             "presbytery_as_printed": presbytery,
             "location_as_printed": location,
@@ -105,6 +122,9 @@ duplicates = sorted({n for n in sequences if sequences.count(n) > 1})
 result = {
     "metadata": {
         "expected_signers": 571,
+        "snapshot_date": "2021-06-11",
+        "primary_source": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+        "local_pdf": "sources/raw/public-statements/a-faithful-pca/signatures-2021-06-11.pdf",
         "parsed_signers": len(records),
         "missing_sequences": missing,
         "duplicate_sequences": duplicates,

@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "event": "49th General Assembly — NAE Withdrawal Debate",
+    "primary_source": "https://pcahistory.org/pca/ga/49th_pcaga_2022_vol01.pdf",
+    "printed_pages": [20, 23, 24, 26],
+    "scope_note": "Roles below are literal actions stated in the official journal. Signership is modeled separately."
+  },
+  "roles": [
+    {"name_as_printed": "Walter Kim", "role_as_printed": "President of the National Association of Evangelicals", "action": "video greeting viewed by the Assembly", "printed_page": 20},
+    {"name_as_printed": "TE Kenneth McHeard", "role_as_printed": "Chairman, Interchurch Relations Committee of Commissioners", "action": "presented arguments for the Permanent Committee that Overture 3 be answered in the negative", "printed_page": 23},
+    {"name_as_printed": "TE Carl Robbins", "role_as_printed": "Committee of Commissioners presenter", "action": "presented arguments on behalf of the Committee of Commissioners", "printed_page": 23},
+    {"name_as_printed": "TE Roy Taylor", "role_as_printed": "Chairman of the Permanent Committee", "action": "gave the closing argument and offered the subsequent formal protest", "printed_pages": [24, 26]}
+  ],
+  "unconfirmed_handoff_lead": {
+    "name": "Rhett Dodson",
+    "status": "not confirmed as a formal presenter or author in the relevant official journal sections",
+    "observed_only_as": "commissioner name elsewhere in the volume",
+    "rule": "No debate-role edge created without a supporting official passage."
+  }
+}

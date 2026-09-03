@@ -31,9 +31,9 @@ The same minutes report the final controlling vote to withdraw from the NAE as 1
 
 ## Extraction status
 
-`full_roster_normalization: pending_work_batch`
+`full_roster_normalization: complete`
 
-Reason: the official roster is large (200+ rows) and cleanly machine-readable, so it should be batch extracted in Work/browser mode rather than manually keyed in-chat. This receipt is sufficient to preserve exact provenance and location until then.
+The official table yielded **203 signer rows**, preserved in print order at `sources/normalized/nae/withdrawal-protest-signers-2022.json`. Printed offices and presbytery wording remain unchanged; identity IDs are assigned only on unique matches to existing people.
 
 ## Data rule
 
