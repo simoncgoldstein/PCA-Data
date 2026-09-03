@@ -1,0 +1,26 @@
+{
+  "source_id": "np-emails-2015",
+  "title": "National Partnership Emails — 2015",
+  "document_date_range": "2015-02-06/2015-06-15",
+  "source_type": "primary_leaked_email_archive",
+  "original_public_index": "https://jude3pca.org/national-partnership-emails/",
+  "public_mirror_url": "https://s3.amazonaws.com/5mt.jude3pca.org/2023/02/15194817/2015-emails.pdf",
+  "retrieved_for_research": "2026-09-03",
+  "raw_local_path": "sources/raw/national-partnership/2015-emails.pdf",
+  "raw_copy_status": "pending_binary_ingest",
+  "page_count": 37,
+  "notes": [
+    "This archive explicitly labels named men as 'Partnership men' serving on RPR, the Nominating Committee, the Overtures Committee, and other Committees of Commissioners.",
+    "The correspondence states that participation in NP entails helping fill denominational committee positions and describes the Overtures Committee as a principal point of influence.",
+    "Committee-placement labels are treated as direct membership evidence. Overture positions or messages forwarded to the list are separate evidence classes.",
+    "The archive also contains internal discussion of racial-reconciliation proposals; those issue positions are not automatically treated as membership evidence for people merely mentioned in the discussion."
+  ],
+  "key_evidence_locations": [
+    {"page": 3, "description": "Explicit participation expectations and additions"},
+    {"page": 4, "description": "Partnership men on RPR and Nominating Committee; committee-influence explanation"},
+    {"page": 7, "description": "Expanded Partnership men roster on RPR and Overtures Committee"},
+    {"page": 9, "description": "Expanded Overtures and other committee roster including David Richter, Dan Adamson, Joel St. Clair and others"},
+    {"page": 10, "description": "Sean Lucas racial-reconciliation resolution circulated to NP"},
+    {"page": 35, "description": "Post-GA note thanks David Richter for work on a racial-reconciliation overture"}
+  ]
+}
