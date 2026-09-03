@@ -1,0 +1,160 @@
+[
+  {
+    "id": "src-np-index",
+    "title": "National Partnership Emails, 2013–2021",
+    "publisher": "Jude 3 & PCA",
+    "url": "https://jude3pca.org/national-partnership-emails/",
+    "source_type": "primary_archive_mirror",
+    "accessed": "2026-09-03",
+    "notes": "Index to yearly PDF archives of National Partnership correspondence. Person-level claims should eventually cite a specific year/page or message, not only this index."
+  },
+  {
+    "id": "src-pcapolity-secret-caucuses",
+    "title": "Secret Caucuses & the PCA",
+    "publisher": "Presbyterian Polity",
+    "author": "Jared Nelson",
+    "date": "2022-01-28",
+    "url": "https://pcapolity.com/2022/01/28/secret-caucuses/",
+    "source_type": "secondary_analysis",
+    "accessed": "2026-09-03",
+    "notes": "Useful roadmap to primary material and for distinguishing the National Partnership from Mike Khandjian's Fellowship. Secondary analysis is not used alone to establish disputed person-level membership."
+  },
+  {
+    "id": "src-amr-founding",
+    "title": "Welcome to the Alliance for Mission & Renewal",
+    "publisher": "Alliance for Mission & Renewal",
+    "url": "https://a4mr.org/welcome-to-the-alliance-for-mission-renewal/",
+    "source_type": "primary_organization",
+    "accessed": "2026-09-03",
+    "notes": "Names the founding Executive Board: David Cassidy, Jenilyn Swett, Alexander Jun, Chris Gordon, Russ Whitfield, Joel St. Clair, David Richter, and Mike Khandjian."
+  },
+  {
+    "id": "src-amr-team-2026",
+    "title": "Our Team",
+    "publisher": "Alliance for Mission & Renewal",
+    "url": "https://a4mr.org/team/",
+    "source_type": "primary_organization",
+    "accessed": "2026-09-03",
+    "notes": "Current AMR leadership roster, including co-chairs, board members, and standing-team leaders."
+  },
+  {
+    "id": "src-amr-center-2026",
+    "title": "Toward Recovering the Confessional–Missional Center of the PCA",
+    "publisher": "Alliance for Mission & Renewal",
+    "date": "2026-04-14",
+    "url": "https://a4mr.org/toward-recovering-the-confessional-missional-center-of-the-pca/",
+    "source_type": "primary_organization_statement",
+    "accessed": "2026-09-03",
+    "notes": "Describes AMR's 2026 direction, regional cohorts, formal denominational engagement, and aspiration to function as a 'network of networks.' Signed by David Richter on behalf of the executive board."
+  },
+  {
+    "id": "src-garris-letter-1",
+    "title": "Report Concerning the Christian Character of TE Zachary Garris",
+    "publisher": "Publicly circulated letter to Rio Grande Presbytery",
+    "url": "https://static1.squarespace.com/static/583211a337c581f75771b5dd/t/69602e95d32b743f531dbb29/1767911061443/allegation%2Bletter%2B1.pdf",
+    "source_type": "primary_public_letter",
+    "accessed": "2026-09-03",
+    "notes": "Contains the first multi-presbytery signer roster, including David Cassidy, Josiah Carey, Irwyn Ince, Mike Khandjian, David Richter, Dan Adamson, and others."
+  },
+  {
+    "id": "src-garris-letter-2",
+    "title": "Letter to Rio Grande Presbytery Concerning TE Zachary Garris",
+    "publisher": "Publicly circulated letter to Rio Grande Presbytery",
+    "date": "2024-06-06",
+    "url": "https://static1.squarespace.com/static/583211a337c581f75771b5dd/t/69602ea752f1303e5f2b6c06/1767911079071/allegation%2Bletter%2B2.pdf",
+    "source_type": "primary_public_letter",
+    "accessed": "2026-09-03",
+    "notes": "Metro New York-heavy signer roster including Justin Adour, Peter Rhee, David Lee, Tim Chang, Aaron Chung, Gene Joo, Hector Sanchez, Peter Ong, Charles Chung, and others."
+  },
+  {
+    "id": "src-prayer-lament",
+    "title": "A Call to Prayer & Lament",
+    "publisher": "PCA Prayer & Lament",
+    "url": "https://www.pcaprayerandlament.com/",
+    "source_type": "primary_public_statement",
+    "accessed": "2026-09-03",
+    "notes": "Public statement and initial-signatory roster. The site reports that the wider commitment form required added verification after disruptive submissions; downstream scraped submissions must not be treated as verified without corroboration."
+  },
+  {
+    "id": "src-grace-mosaic-prayer-2026",
+    "title": "Prayers for the Start of 2026",
+    "publisher": "Grace Mosaic / GraceDC",
+    "date": "2026-01-16",
+    "url": "https://gracedc.net/2026/01/prayers-for-the-start-of-2026/",
+    "source_type": "primary_church_statement",
+    "accessed": "2026-09-03",
+    "notes": "States that Duke Kwon and Irwyn Ince had been in conversation with an informal group of minority leaders including Russ Whitfield, and that the group produced A Call to Prayer & Lament."
+  },
+  {
+    "id": "src-grace-mosaic-team-2026",
+    "title": "Grace Mosaic: Our Team",
+    "publisher": "GraceDC",
+    "url": "https://gracedc.net/mosaic/about/our-team/",
+    "source_type": "primary_church",
+    "accessed": "2026-09-03",
+    "notes": "Lists Irwyn Ince as Lead Pastor and current Grace Mosaic leadership."
+  },
+  {
+    "id": "src-greg-thompson-uva",
+    "title": "Greg Thompson: Contributor Profile",
+    "publisher": "The Project on Lived Theology, University of Virginia",
+    "url": "https://www.livedtheology.org/contributors/greg-thompson/",
+    "source_type": "institutional_profile",
+    "accessed": "2026-09-03",
+    "notes": "Lists Thompson as executive director of Voices Underground, a Lincoln University research fellow, visiting theologian for mission at Grace Mosaic, and co-author of Reparations with Duke Kwon."
+  },
+  {
+    "id": "src-ruf-whitfield-2026",
+    "title": "Russ Whitfield",
+    "publisher": "Reformed University Fellowship",
+    "url": "https://ruf.org/staff/whitfield/",
+    "source_type": "primary_institutional_profile",
+    "accessed": "2026-09-03",
+    "notes": "Lists Whitfield as Assistant Coordinator for Cross-Cultural Advancement."
+  },
+  {
+    "id": "src-khora-jun-2026",
+    "title": "Meet Our Founders",
+    "publisher": "Khora Collective",
+    "url": "https://www.khoracollective.com/read-all-bios-founders",
+    "source_type": "primary_organization_profile",
+    "accessed": "2026-09-03",
+    "notes": "Lists Alexander Jun as co-founder and Chief of Strategic Partnerships & Development, Director of Intercultural Development at Serge, and a Fuller Seminary research professor."
+  },
+  {
+    "id": "src-pma-adour-2026",
+    "title": "Pray March Act: Leadership Team",
+    "publisher": "Pray March Act",
+    "url": "https://www.praymarchact.com/about",
+    "source_type": "primary_organization_profile",
+    "accessed": "2026-09-03",
+    "notes": "Lists Justin Adour as Executive Director."
+  },
+  {
+    "id": "src-pma-adour-bio-2026",
+    "title": "Justin Adour: Team Bio",
+    "publisher": "Pray March Act",
+    "url": "https://www.praymarchact.com/team-bios",
+    "source_type": "primary_organization_profile",
+    "accessed": "2026-09-03",
+    "notes": "Also identifies Adour as Senior Pastor of Redeemer East Harlem."
+  },
+  {
+    "id": "src-chapelgate-khandjian-2026",
+    "title": "Chapelgate Staff",
+    "publisher": "Chapelgate Presbyterian Church",
+    "url": "https://www.chapelgate.org/staff",
+    "source_type": "primary_church_profile",
+    "accessed": "2026-09-03",
+    "notes": "Lists Mike Khandjian as Senior Pastor."
+  },
+  {
+    "id": "src-spanish-river-cassidy-2026",
+    "title": "Spanish River Church: Meet Our Team",
+    "publisher": "Spanish River Church",
+    "url": "https://www.spanishriver.com/team",
+    "source_type": "primary_church_profile",
+    "accessed": "2026-09-03",
+    "notes": "Lists David Cassidy as Lead Pastor."
+  }
+]
