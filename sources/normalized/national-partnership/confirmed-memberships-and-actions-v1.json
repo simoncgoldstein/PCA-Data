@@ -1,0 +1,189 @@
+{
+  "source_file": "NPP_Emails_2013_2021.pdf",
+  "status": "primary_source_normalization_in_progress",
+  "updated": "2026-09-03",
+  "method": "Only names explicitly described as additions, NP members, Partnership men, or members of a named NP committee roster are treated as confirmed membership. NP-supported nominees and positively discussed figures are separate action types and are not treated as members unless independently established.",
+  "records": [
+    {
+      "name": "Bruce Terrell",
+      "evidence_type": "membership_addition",
+      "date": "2013-02-04",
+      "presbytery_as_printed": "Metro New York",
+      "pdf_page": 1,
+      "basis": "Listed under Additions in an update reporting 94 elders in 38 presbyteries."
+    },
+    {
+      "name": "Ian Hard",
+      "evidence_type": "membership_addition",
+      "date": "2013-02-04",
+      "presbytery_as_printed": "Iowa",
+      "pdf_page": 1
+    },
+    {
+      "name": "Worth Carson",
+      "evidence_type": "membership_addition",
+      "date": "2013-02-04",
+      "presbytery_as_printed": "South Florida",
+      "pdf_page": 1
+    },
+    {
+      "name": "Andre Fowlkes",
+      "evidence_type": "membership_addition",
+      "date": "2013-02-04",
+      "presbytery_as_printed": "SE Alabama",
+      "pdf_page": 1
+    },
+    {
+      "name": "Kevin Twit",
+      "evidence_type": "membership_addition",
+      "date": "2013-02-18",
+      "presbytery_as_printed": "Nashville",
+      "pdf_page": 7
+    },
+    {
+      "name": "Shane Gibson",
+      "evidence_type": "membership_addition",
+      "date": "2013-02-18",
+      "presbytery_as_printed": "SE Louisiana",
+      "pdf_page": 7
+    },
+    {
+      "name": "Erik Bonkovsky",
+      "evidence_type": "membership_addition",
+      "date": "2013-03-04",
+      "presbytery_as_printed": "James River",
+      "pdf_page": 11
+    },
+    {
+      "name": "Geoff Bradford",
+      "evidence_type": "membership_addition",
+      "date": "2013-03-04",
+      "presbytery_as_printed": "Eastern Carolina",
+      "pdf_page": 11
+    },
+    {
+      "name": "Walt Coppersmith",
+      "evidence_type": "membership_addition",
+      "date": "2013-03-04",
+      "presbytery_as_printed": "Ascension",
+      "pdf_page": 11
+    },
+    {
+      "name": "Glenn Hoburg",
+      "evidence_type": "membership_addition",
+      "date": "2013-03-04",
+      "presbytery_as_printed": "Potomac",
+      "pdf_page": 11
+    },
+    {
+      "name": "Ray Cortese",
+      "evidence_type": "membership_addition",
+      "date": "2013-03-11",
+      "presbytery_as_printed": "Central Florida",
+      "pdf_page": 17
+    },
+    {
+      "name": "John Pennylegion",
+      "evidence_type": "membership_addition",
+      "date": "2013-03-11",
+      "presbytery_as_printed": "Missouri",
+      "pdf_page": 17
+    },
+    {
+      "name": "Scott Sauls",
+      "evidence_type": "membership_addition",
+      "date": "2013-06",
+      "presbytery_as_printed": "Nashville",
+      "pdf_page": 65
+    },
+    {
+      "name": "Sean Lucas",
+      "evidence_type": "explicit_member_reference",
+      "date": "2013-10-29",
+      "pdf_page": 98,
+      "basis": "Kessler writes 'NP member Sean Lucas' and states that Lucas and his session crafted the language of an overture concerning SJC decisions."
+    },
+    {
+      "name": "Mike Khandjian",
+      "evidence_type": "explicit_member_reference",
+      "date": "2014",
+      "pdf_page": 120,
+      "basis": "Kessler introduces him as 'Mike Khandjian, NP member and organizer of The Fellowship Dinner' and states that the Fellowship was independent but had a high degree of overlap with NP."
+    },
+    {
+      "name": "David Richter",
+      "evidence_type": "explicit_np_committee_roster",
+      "date": "2015",
+      "pdf_page": 175,
+      "committee": "Overtures Committee",
+      "basis": "Named beneath the heading 'Partnership men on the Overtures Committee.'"
+    },
+    {
+      "name": "Joel St. Clair",
+      "evidence_type": "explicit_np_committee_roster",
+      "date": "2015",
+      "pdf_page": 175,
+      "committee": "Nominating Committee",
+      "basis": "Named beneath the heading 'Partnership men on Nominating committee.'"
+    },
+    {
+      "name": "Dan Adamson",
+      "evidence_type": "explicit_np_committee_roster",
+      "date": "2015",
+      "pdf_page": 175,
+      "committee": "Review of Presbytery Records",
+      "basis": "Named beneath the heading 'Partnership men serving on RPR.'"
+    },
+    {
+      "name": "Geoff Ziegler",
+      "evidence_type": "membership_addition_and_committee_roster",
+      "date": "2013-2015",
+      "presbytery_as_printed": "Chicago Metro",
+      "pdf_pages": [42, 175],
+      "basis": "Explicit addition in 2013 and later listed among Partnership men on Overtures."
+    },
+    {
+      "name": "Irwyn Ince",
+      "evidence_type": "membership_addition_and_explicit_member_reference",
+      "date": "2014-2017",
+      "presbytery_as_printed": "Chesapeake",
+      "pdf_pages": [167, 240],
+      "basis": "Explicitly added to NP; in 2017 Kessler describes him as 'Irwyn Ince, NP member and chairman of the committee' concerning Women Serving in Ministry."
+    },
+    {
+      "name": "Rob Wootton",
+      "evidence_type": "explicit_np_committee_roster",
+      "date": "2019-02-20",
+      "presbytery_as_printed": "James River",
+      "pdf_page": 294,
+      "committee": "Overtures Committee",
+      "basis": "Kessler says 'Here are the NP members I currently have on the committee' and lists TE Rob Wootton."
+    },
+    {
+      "name": "Tag Tuck",
+      "evidence_type": "explicit_np_committee_roster",
+      "date": "2019-02-20",
+      "presbytery_as_printed": "Blue Ridge",
+      "pdf_page": 294,
+      "committee": "Overtures Committee",
+      "basis": "Kessler says 'Here are the NP members I currently have on the committee' and lists TE Tag Tuck."
+    },
+    {
+      "name": "Andy Wood",
+      "evidence_type": "np_committee_update_requires_context_confirmation",
+      "date": "2018",
+      "presbytery_as_printed": "Blue Ridge",
+      "pdf_pages": [263, 264, 266],
+      "committee": "Review of Presbytery Records",
+      "basis": "Appears in NP committee membership updates as Andy Wood - Blue Ridge. Retained here as confirmed NP committee-list presence, but person-level membership classification should preserve the exact wording of the surrounding email."
+    },
+    {
+      "name": "Greg Thompson",
+      "evidence_type": "np_supported_nominee_not_membership",
+      "date": "2013-03-18",
+      "pdf_page": 23,
+      "committee": "Standing Judicial Commission",
+      "basis": "NP correspondence celebrated Greg Thompson among SJC nominees selected by a Nominating Committee containing a significant group of NP members. This does NOT establish Thompson as an NP member."
+    }
+  ]
+}
