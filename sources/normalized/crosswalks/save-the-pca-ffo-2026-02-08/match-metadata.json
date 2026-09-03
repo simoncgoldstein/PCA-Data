@@ -3,12 +3,11 @@
   "pca_church_snapshot": "2026-08-31 directory / 2026-09-03 KML capture",
   "total_flagged_records": 147,
   "match_counts": {
-    "auto_matched": 142,
-    "review_required": 1,
+    "auto_matched": 143,
     "unmatched": 4
   },
-  "auto_matched_assessments": 142,
-  "review_queue_records": 5,
+  "auto_matched_assessments": 143,
+  "review_queue_records": 4,
   "rules": {
     "person_level_inference": false,
     "unmatched_records_preserved": true,
