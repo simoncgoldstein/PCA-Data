@@ -38,11 +38,48 @@
     "description": "Late-2000s renewal conversation in the PCA, including the 2008 conference and related Common Grounds discussions."
   },
   {
+    "id": "a-faithful-pca",
+    "name": "A Faithful PCA / Looking Forward – Together",
+    "short_name": "A Faithful PCA",
+    "type": "public_coalition",
+    "status": "historical",
+    "description": "2021 public PCA letter and signer coalition presenting a positive assessment of denominational developments and urging trust, charity, and ecclesiastical process amid disputes over sexuality, racial reconciliation, women in ministry, and confessional subscription."
+  },
+  {
     "id": "prayer-lament",
     "name": "A Call to Prayer & Lament",
     "type": "public_coalition",
     "status": "active_2026",
     "description": "2026 public statement by PCA ethnic-minority pastors and leaders, followed by a wider commitment list."
+  },
+  {
+    "id": "nae",
+    "name": "National Association of Evangelicals",
+    "short_name": "NAE",
+    "type": "external_evangelical_association",
+    "status": "active",
+    "description": "U.S. evangelical association with which the PCA maintained membership until the 49th General Assembly voted to withdraw in 2022."
+  },
+  {
+    "id": "memorial-st-louis",
+    "name": "Memorial Presbyterian Church",
+    "type": "church",
+    "status": "departed_pca_2022",
+    "location": "St. Louis, Missouri",
+    "description": "Former Missouri Presbytery congregation that hosted the first Revoice conference in 2018 and withdrew from the PCA in 2022."
+  },
+  {
+    "id": "missouri-presbytery",
+    "name": "Missouri Presbytery",
+    "type": "presbytery",
+    "status": "active"
+  },
+  {
+    "id": "revoice",
+    "name": "Revoice",
+    "type": "external_conference_network",
+    "status": "active_or_periodic",
+    "description": "Conference and ministry network whose 2018 gathering at Memorial Presbyterian Church became the focus of extensive PCA theological, judicial, and polity disputes."
   },
   {
     "id": "mna",
