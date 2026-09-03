@@ -1,0 +1,11 @@
+{
+  "title": "National Partnership Emails 2013-2021",
+  "local_filename": "NPP_Emails_2013_2021.pdf",
+  "pages": 444,
+  "size_bytes": 14793893,
+  "sha256": "d1558fb3b4be92aa2d43b4537ee198ab4feea0036d0b6c09f6470047600d53cd",
+  "received_from_user": "2026-09-03",
+  "raw_binary_in_repo": false,
+  "raw_binary_status": "pending_manual_or_binary_upload",
+  "notes": "The exact 15 MB PDF was uploaded directly into the research conversation and hashed before analysis. The GitHub connector available to this project handles UTF-8 files well but is not suitable for committing this binary at its present size. The user can preserve the exact evidence copy by placing the PDF at sources/raw/national-partnership/NPP_Emails_2013_2021.pdf; after that the SHA-256 can be checked against this manifest."
+}
