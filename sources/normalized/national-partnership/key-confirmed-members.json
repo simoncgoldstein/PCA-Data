@@ -1,0 +1,106 @@
+[
+  {
+    "name": "Bruce Terrell",
+    "evidence": "Explicitly listed under Additions",
+    "year": 2013,
+    "archive_page": 1,
+    "presbytery_at_time": "Metro New York"
+  },
+  {
+    "name": "Kevin Twit",
+    "evidence": "Explicitly listed under Additions",
+    "year": 2013,
+    "archive_page": 7,
+    "presbytery_at_time": "Nashville"
+  },
+  {
+    "name": "Geoff Bradford",
+    "evidence": "Explicitly listed under Additions",
+    "year": 2013,
+    "archive_page": 11,
+    "presbytery_at_time": "Eastern Carolina"
+  },
+  {
+    "name": "Glenn Hoburg",
+    "evidence": "Explicitly listed under Additions",
+    "year": 2013,
+    "archive_page": 11,
+    "presbytery_at_time": "Potomac"
+  },
+  {
+    "name": "Ray Cortese",
+    "evidence": "Explicitly listed under Additions",
+    "year": 2013,
+    "archive_page": 17,
+    "presbytery_at_time": "Central Florida"
+  },
+  {
+    "name": "John Pennylegion",
+    "evidence": "Explicitly listed under Additions",
+    "year": 2013,
+    "archive_page": 17,
+    "presbytery_at_time": "Missouri"
+  },
+  {
+    "name": "Geoff Ziegler",
+    "evidence": "Explicitly listed under Additions",
+    "year": 2013,
+    "archive_page": 42,
+    "presbytery_at_time": "Chicago Metro"
+  },
+  {
+    "name": "Scott Sauls",
+    "evidence": "Explicitly listed under Additions",
+    "year": 2013,
+    "archive_page": 65,
+    "presbytery_at_time": "Nashville"
+  },
+  {
+    "name": "Sean Lucas",
+    "evidence": "Kessler explicitly calls him 'NP member Sean Lucas' while discussing an overture drafted by Lucas and his session",
+    "year": 2013,
+    "archive_page": 98
+  },
+  {
+    "name": "Mike Khandjian",
+    "evidence": "Kessler explicitly calls him 'NP member and organizer of The Fellowship Dinner' and distinguishes the Fellowship as independent but highly overlapping",
+    "archive_page": 120
+  },
+  {
+    "name": "David Richter",
+    "evidence": "Listed among NP members nominated for permanent/special committees and later among 'Partnership men' on Overtures",
+    "archive_pages": [114, 175, 178, 180]
+  },
+  {
+    "name": "Joel St. Clair",
+    "evidence": "Explicitly listed among 'Partnership men on [Nominating] committee'",
+    "archive_page": 173,
+    "presbytery_at_time": "Potomac"
+  },
+  {
+    "name": "Dan Adamson",
+    "evidence": "Explicitly listed among 'Partnership men serving on RPR'",
+    "archive_pages": [175, 178],
+    "presbytery_at_time": "Chicago Metro"
+  },
+  {
+    "name": "Irwyn Ince",
+    "evidence": "Explicitly listed under Additions, and later explicitly called 'NP member and chairman' of the Women Serving in Ministry committee",
+    "archive_pages": [167, 240],
+    "presbytery_at_time_when_added": "Chesapeake"
+  },
+  {
+    "name": "Rob Wootton",
+    "evidence": "Explicitly listed by Kessler among 'NP members' on the 2019 Overtures Committee",
+    "year": 2019,
+    "archive_page": 294,
+    "presbytery_at_time": "James River"
+  },
+  {
+    "name": "Tag Tuck",
+    "evidence": "Explicitly listed by Kessler among 'NP members' on the 2019 Overtures Committee",
+    "year": 2019,
+    "archive_page": 294,
+    "presbytery_at_time": "Blue Ridge"
+  }
+]
