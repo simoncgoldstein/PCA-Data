@@ -1,0 +1,80 @@
+{
+  "event": "44th PCA General Assembly racial reconciliation actions",
+  "year": 2016,
+  "source_url": "https://www.pcahistory.org/pca/ga/44th_pcaga_2016.pdf",
+  "source_type": "primary_denominational_minutes",
+  "source_locations": {
+    "journal_action": "pp. 71-79 (PDF pages approximately 72-80)",
+    "overture_texts": "Appendix V, pp. 570-705",
+    "official_summary": "https://www.pcahistory.org/pca/ga/actions/44thGA_2016_Actions.pdf"
+  },
+  "method_note": "The PCA's official 2016 summary says 43 overtures dealt with racial reconciliation. This file accounts for that total as 39 overtures answered by reference to amended Overture 43, plus Overture 43 itself, Overture 45 creating the racial/ethnic reconciliation study committee, Overture 44 creating the PCA Unity Fund through MNA, and Overture 60 from the Session of Auburn Road Presbyterian Church answered by reference to Overture 43.",
+  "main_action": {
+    "overture": 43,
+    "origin": "Potomac Presbytery",
+    "title": "Pursuing Racial Reconciliation and the Advance of the Gospel",
+    "disposition": "affirmative as amended",
+    "assembly_vote": "861-123-23",
+    "notes": "Used by the Overtures Committee as the framework, incorporating elements from Missouri Overture 4, Northwest Georgia Overture 53, and Mississippi Valley Overture 55."
+  },
+  "records": [
+    {"overture":1,"origin":"Heartland Presbytery","title":"Steps Toward Racial Reconciliation","category":"racial_reconciliation","disposition":"answered by reference to Overture 43"},
+    {"overture":4,"origin":"Missouri Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"model_confession_overture","disposition":"answered by reference to Overture 43","notes":"Official summary says this served as a model for many of the overtures."},
+    {"overture":6,"origin":"Chesapeake Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":8,"origin":"Eastern Carolina Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":9,"origin":"Tennessee Valley Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":10,"origin":"Metropolitan New York Presbytery","title":"In Support of Overture 4 from Missouri Presbytery","category":"support_missouri_overture_4","disposition":"answered by reference to Overture 43"},
+    {"overture":11,"origin":"Calvary Presbytery","title":"Call for Repentance and Reconciliation","category":"repentance_reconciliation","disposition":"answered by reference to Overture 43"},
+    {"overture":12,"origin":"Pacific Northwest Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":13,"origin":"Providence Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity, Providence Presbytery Version","category":"confession_diversity_variant","disposition":"answered by reference to Overture 43"},
+    {"overture":15,"origin":"Covenant Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity, Covenant Presbytery Version","category":"confession_diversity_variant","disposition":"answered by reference to Overture 43"},
+    {"overture":16,"origin":"Blue Ridge Presbytery","title":"Repentance, Racial Reconciliation, and Reformation","category":"repentance_reconciliation","disposition":"answered by reference to Overture 43"},
+    {"overture":17,"origin":"Metro Atlanta Presbytery","title":"In Support of Overture 4 from Missouri Presbytery","category":"support_missouri_overture_4","disposition":"answered by reference to Overture 43"},
+    {"overture":18,"origin":"Heritage Presbytery","title":"Confessing Covenantal and Generational Sins during the Civil Rights Period","category":"covenantal_generational_sin","disposition":"answered by reference to Overture 43"},
+    {"overture":19,"origin":"Chicago Metro Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":23,"origin":"Nashville Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity, Nashville Presbytery Version","category":"confession_diversity_variant","disposition":"answered by reference to Overture 43"},
+    {"overture":27,"origin":"Rocky Mountain Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":28,"origin":"North Texas Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":29,"origin":"Pittsburgh Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity, Pittsburgh Presbytery Version","category":"confession_diversity_variant","disposition":"answered by reference to Overture 43"},
+    {"overture":30,"origin":"Suncoast Florida Presbytery","title":"In Support of Overture 4 from Missouri Presbytery","category":"support_missouri_overture_4","disposition":"answered by reference to Overture 43"},
+    {"overture":31,"origin":"Southern New England Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":33,"origin":"New York State Presbytery","title":"In Support of Overture 4 from Missouri Presbytery","category":"support_missouri_overture_4","disposition":"answered by reference to Overture 43"},
+    {"overture":34,"origin":"Westminster Presbytery","title":"Call for Repentance and Reconciliation","category":"repentance_reconciliation","disposition":"answered by reference to Overture 43"},
+    {"overture":35,"origin":"New Jersey Presbytery","title":"In Support of Overture 4 from Missouri Presbytery","category":"support_missouri_overture_4","disposition":"answered by reference to Overture 43"},
+    {"overture":41,"origin":"Korean Southwest Orange County Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity, Korean Southwest Orange County Presbytery Version","category":"confession_diversity_variant","disposition":"answered by reference to Overture 43"},
+    {"overture":42,"origin":"Philadelphia Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":43,"origin":"Potomac Presbytery","title":"Pursuing Racial Reconciliation and the Advance of the Gospel","category":"adopted_framework","disposition":"affirmative as amended","assembly_vote":"861-123-23"},
+    {"overture":46,"origin":"Northern California Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":47,"origin":"Savannah River Presbytery","title":"In Support of Overture 4 from Missouri Presbytery","category":"support_missouri_overture_4","disposition":"answered by reference to Overture 43"},
+    {"overture":48,"origin":"Susquehanna Valley Presbytery","title":"Confession and Commitment to Action","category":"confession_action","disposition":"answered by reference to Overture 43"},
+    {"overture":49,"origin":"James River Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity, James River Presbytery Version","category":"confession_diversity_variant","disposition":"answered by reference to Overture 43"},
+    {"overture":50,"origin":"North Florida Presbytery","title":"Steps Toward Racial Reconciliation, North Florida Presbytery Version","category":"racial_reconciliation_variant","disposition":"answered by reference to Overture 43"},
+    {"overture":51,"origin":"Platte Valley Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":52,"origin":"Lowcountry Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity, Lowcountry Presbytery Version","category":"confession_diversity_variant","disposition":"answered by reference to Overture 43"},
+    {"overture":53,"origin":"Northwest Georgia Presbytery","title":"Leading by Example in Repentance First","category":"repentance_reconciliation","disposition":"answered by reference to Overture 43","notes":"Official summary says elements of this overture were incorporated into amended Overture 43."},
+    {"overture":55,"origin":"Mississippi Valley Presbytery","title":"Confession of the Sin of Racism, and Commitment to Christian Unity","category":"confession_racism_unity","disposition":"answered by reference to Overture 43","notes":"Official summary says elements of this overture were incorporated into amended Overture 43; its pastoral letter was commended as an example."},
+    {"overture":56,"origin":"Evangel Presbytery","title":"In Support of Overture 55 from Mississippi Valley Presbytery","category":"support_mississippi_valley_55","disposition":"answered by reference to Overture 43"},
+    {"overture":57,"origin":"Central Indiana Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":58,"origin":"Piedmont Triad Presbytery","title":"Confession of Sin and Commitment to Racial and Ethnic Diversity","category":"confession_diversity","disposition":"answered by reference to Overture 43"},
+    {"overture":59,"origin":"Gulf Coast Presbytery","title":"Acknowledgment of Sin and Recommitment to Model our Unity in Christ","category":"acknowledgment_unity","disposition":"answered by reference to Overture 43"},
+    {"overture":60,"origin":"Session of Auburn Road Presbyterian Church","title":"Racial Reconciliation","category":"session_overture_racial_reconciliation","disposition":"answered by reference to Overture 43","committee_vote":"73-2-2"},
+    {"overture":63,"origin":"Ohio Valley Presbytery","title":"In Support of Overture 4 from Missouri Presbytery","category":"support_missouri_overture_4","disposition":"answered by reference to Overture 43","source_note":"Official overture text says Ohio Valley urged affirmative action on Missouri Overture 4; attested by TE Larry C. Hoop, stated clerk."},
+    {"overture":44,"origin":"MNA referral / originating overture in Appendix V","title":"Create PCA Unity Fund","category":"unity_fund","disposition":"approved as amended through MNA Committee of Commissioners","assembly_vote":"728-149-36","notes":"Created a PCA Unity Fund to help raise future generations of African American and other minority Ruling and Teaching Elders. Origin/presbytery should be populated from the overture's Appendix V header in the next extraction pass."},
+    {"overture":45,"origin":"Potomac Presbytery","title":"Form Racial Reconciliation Study Committee","category":"study_committee","disposition":"affirmative as amended","assembly_vote":"814-87-15","notes":"Formed the study committee on Racial and Ethnic Reconciliation."}
+  ],
+  "named_assembly_roles": [
+    {"name":"Irwyn Ince","role":"Overtures Committee Chairman","notes":"Introduced Recommendation 1 / Overture 43 and continued the OC report."},
+    {"name":"David Coffin","presbytery":"Potomac","role":"Recorded dissent","notes":"Dissented specifically from the use of the word 'repent' in the first two paragraphs, stating that one cannot repent of the sins of another."},
+    {"name":"Sylvester Brown","role":"Led Assembly in prayer during racial-reconciliation action"},
+    {"name":"William Joseph","role":"Led Assembly in prayer during racial-reconciliation action"},
+    {"name":"David Sarafolean","role":"Point of personal privilege / recognized Jay Neikirk's assistance in Overtures Committee"},
+    {"name":"Jay Neikirk","role":"Recognized for assistance guiding racial-reconciliation matter in Overtures Committee"},
+    {"name":"Andy Hunt","role":"Moved MNA Committee of Commissioners recommendation approving Overture 44 / PCA Unity Fund"}
+  ],
+  "related_women_in_ministry_protest_on_same_ga_pages": {
+    "notes":"Immediately preceding the racial-reconciliation action, the Minutes preserve a protest against establishing the Women Serving in Ministry study committee. This is a separate event and belongs in the women-in-ministry dataset, but the names are useful for cross-reference.",
+    "signers":[
+      "Andrew Barnes","Ryan Biese","Bob Brubaker","Andrew P. Dionne","Ben Duncan","Shay Fout","Geoff Gleason","Vaughn R. Hamilton","Brad Hansen","Mitchell L. Haubert Jr.","William F. Hill Jr.","James A. Jones Jr.","Lane Keister","George E. Lacy Jr.","Joel H. Linton","Dan Lipford","Jim McCarthy","Jonathan McGuire","John Eric McKenzie","Tim McQuitty","Aaron Morgan","Mark O'Neill","Ryan Speck","Thomas H. Taylor Jr.","Ben Thomas","Lou Veiga","Brad Waller","C.N. Willborn"
+    ]
+  }
+}
