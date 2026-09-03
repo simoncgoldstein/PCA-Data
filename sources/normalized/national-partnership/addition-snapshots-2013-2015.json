@@ -1,0 +1,317 @@
+[
+  {
+    "archive_page": 1,
+    "date": "Feb 4, 2013",
+    "reported_total_elders": 94,
+    "reported_total_presbyteries": 38,
+    "additions": [
+      {"ordination":"TE","name":"Ian Hard","presbytery":"Iowa"},
+      {"ordination":"TE","name":"Worth Carson","presbytery":"South Florida"},
+      {"ordination":"RE","name":"Andre Fowlkes","presbytery":"SE Alabama"},
+      {"ordination":"RE","name":"Bruce Terrell","presbytery":"Metro New York"}
+    ]
+  },
+  {
+    "archive_page": 3,
+    "date": "Feb 11, 2013",
+    "reported_total_elders": 97,
+    "reported_total_presbyteries": 38,
+    "additions": [
+      {"ordination":"TE","name":"Bob Flayhart","presbytery":"Evangel"},
+      {"ordination":"TE","name":"Steve Jeantet","presbytery":"Southwest Florida"}
+    ]
+  },
+  {
+    "archive_page": 7,
+    "date": "Feb 18, 2013",
+    "reported_total_elders": 99,
+    "reported_total_presbyteries": 40,
+    "additions": [
+      {"ordination":"TE","name":"Kevin Twit","presbytery":"Nashville"},
+      {"ordination":"TE","name":"Shane Gibson","presbytery":"SE Louisiana"}
+    ]
+  },
+  {
+    "archive_page": 11,
+    "date": "Mar 4, 2013",
+    "reported_total_elders": 103,
+    "reported_total_presbyteries": 41,
+    "additions": [
+      {"ordination":"TE","name":"Erik Bonkovsky","presbytery":"James River"},
+      {"ordination":"TE","name":"Geoff Bradford","presbytery":"Eastern Carolina"},
+      {"ordination":"TE","name":"Walt Coppersmith","presbytery":"Ascension"},
+      {"ordination":"TE","name":"Glenn Hoburg","presbytery":"Potomac"}
+    ]
+  },
+  {
+    "archive_page": 17,
+    "date": "Mar 11, 2013",
+    "reported_total_elders": 108,
+    "reported_total_presbyteries": 43,
+    "additions": [
+      {"ordination":"TE","name":"Will Tabor","presbytery":"SE Louisiana"},
+      {"ordination":"TE","name":"Ray Cortese","presbytery":"Central Florida"},
+      {"ordination":"TE","name":"Sean Roberts","presbytery":"Philadelphia"},
+      {"ordination":"TE","name":"Russell Silverglate","presbytery":"Gulfstream"},
+      {"ordination":"TE","name":"Rick Searle","presbytery":"Evangel"},
+      {"ordination":"TE","name":"John Pennylegion","presbytery":"Missouri"},
+      {"ordination":"TE","name":"Brandon Lauranzon","presbytery":"Central Florida"}
+    ]
+  },
+  {
+    "archive_page": 22,
+    "date": "Mar 18, 2013",
+    "reported_total_elders": 111,
+    "reported_total_presbyteries": 45,
+    "additions": [
+      {"ordination":"TE","name":"Troy Albee","presbytery":"Southern New England"},
+      {"ordination":"TE","name":"Dan McDonald","presbytery":"Eastern Canada"},
+      {"ordination":"TE","name":"Ed Sirya","presbytery":"Metro New York"}
+    ]
+  },
+  {
+    "archive_page": 30,
+    "date": "Mar 25, 2013",
+    "reported_total_elders": 114,
+    "reported_total_presbyteries": 45,
+    "additions": [
+      {"ordination":"TE","name":"Ray Cannata","presbytery":"SE Louisiana"},
+      {"ordination":"TE","name":"Bob Sawyer","presbytery":"S. New England"},
+      {"ordination":"TE","name":"David Goneau","presbytery":"Philadelphia"}
+    ]
+  },
+  {
+    "archive_page": 37,
+    "date": "Apr 1, 2013",
+    "reported_total_elders": 116,
+    "reported_total_presbyteries": 45,
+    "additions": [
+      {"ordination":"TE","name":"Jason Polk","presbytery":"Missouri"},
+      {"ordination":"TE","name":"Brian Dennert","presbytery":"Chicago Metro"},
+      {"ordination":"TE","name":"David Salyer","presbytery":"Platte Valley"}
+    ]
+  },
+  {
+    "archive_page": 42,
+    "date": "Apr 9, 2013",
+    "reported_total_elders": 119,
+    "reported_total_presbyteries": 46,
+    "additions": [
+      {"ordination":"RE","name":"Brent Stutzman","presbytery":"Chicago Metro"},
+      {"ordination":"TE","name":"Geoff Ziegler","presbytery":"Chicago Metro"},
+      {"ordination":"TE","name":"Jason Little","presbytery":"Chicago Metro"},
+      {"ordination":"RE","name":"Damon Cinaglia","presbytery":"Heritage"}
+    ]
+  },
+  {
+    "archive_page": 47,
+    "date": "Apr 23, 2013",
+    "reported_total_elders": 121,
+    "reported_total_presbyteries": 47,
+    "additions": [
+      {"ordination":"TE","name":"Glenn McDowell","presbytery":"Philadelphia"},
+      {"ordination":"RE","name":"Scott Winchester","presbytery":"Heritage"},
+      {"ordination":"TE","name":"Michael Novak","presbytery":"South Texas"},
+      {"ordination":"TE","name":"John Gullett","presbytery":"Central Florida"}
+    ]
+  },
+  {
+    "archive_page": 53,
+    "date": "May 29, 2013",
+    "reported_total_elders": 125,
+    "reported_total_presbyteries": 48,
+    "additions": [
+      {"ordination":"TE","name":"Nate Conrad","presbytery":"Chicago Metro"},
+      {"ordination":"TE","name":"Chad Smith","presbytery":"Westminster"},
+      {"ordination":"TE","name":"Campbell Silman","presbytery":"SE Louisiana"}
+    ]
+  },
+  {
+    "archive_page": 65,
+    "date": "Jun 16, 2013",
+    "reported_total_elders": 131,
+    "reported_total_presbyteries": 48,
+    "additions": [
+      {"ordination":"TE","name":"Pat Hickman","presbytery":"Central Indiana"},
+      {"ordination":"RE","name":"Bill Thomas","presbytery":"North Texas"},
+      {"ordination":"RE","name":"Paul Neighbors","presbytery":"Siouxlands"},
+      {"ordination":"TE","name":"Mike Tilley","presbytery":"Central Florida"},
+      {"ordination":"TE","name":"Scott Sauls","presbytery":"Nashville"},
+      {"ordination":"TE","name":"Jim Lovelady","presbytery":"Philadelphia"}
+    ]
+  },
+  {
+    "archive_page": 91,
+    "date": "Jul 29, 2013",
+    "reported_total_elders": 140,
+    "reported_total_presbyteries": 48,
+    "additions": [
+      {"ordination":"TE","name":"Richard Schwartz","presbytery":"Nashville"},
+      {"ordination":"TE","name":"Scott Crosby","presbytery":"Nashville"},
+      {"ordination":"TE","name":"Phil Kruis","presbytery":"Southwest"},
+      {"ordination":"TE","name":"Mike Tilley","presbytery":"Central Florida"},
+      {"ordination":"TE","name":"Matthew Armstrong","presbytery":"Metro Atlanta"},
+      {"ordination":"TE","name":"Rich Good","presbytery":"Potomac"},
+      {"ordination":"TE","name":"Clay Holland","presbytery":"Houston Metro"},
+      {"ordination":"TE","name":"Jim Richter","presbytery":"Westminster"},
+      {"ordination":"TE","name":"Jack Ewing","presbytery":"Suncoast"}
+    ]
+  },
+  {
+    "archive_page": 97,
+    "date": "Oct 14, 2013",
+    "reported_total_elders": 140,
+    "reported_total_presbyteries": 48,
+    "additions": []
+  },
+  {
+    "archive_page": 99,
+    "date": "Dec 7, 2013",
+    "reported_total_elders": 141,
+    "reported_total_presbyteries": 50,
+    "additions": [
+      {"ordination":"TE","name":"Daniel Millward","presbytery":"Great Lakes"}
+    ]
+  },
+  {
+    "archive_page": 105,
+    "date": "Jan 9, 2014",
+    "reported_total_elders": 141,
+    "reported_total_presbyteries": 52,
+    "additions": []
+  },
+  {
+    "archive_page": 109,
+    "date": "Jan 25, 2014",
+    "reported_total_elders": 140,
+    "reported_total_presbyteries": 52,
+    "additions": []
+  },
+  {
+    "archive_page": 113,
+    "date": "Feb 4, 2014",
+    "reported_total_elders": 143,
+    "reported_total_presbyteries": 53,
+    "additions": [
+      {"ordination":"TE","name":"Brian Ferry","presbytery":"Ohio Valley"},
+      {"ordination":"TE","name":"Michael Craddock","presbytery":"Ohio Valley"}
+    ]
+  },
+  {
+    "archive_page": 117,
+    "date": "Feb 18, 2014",
+    "reported_total_elders": 144,
+    "reported_total_presbyteries": 54,
+    "additions": [
+      {"ordination":"TE","name":"Ben Lyon","presbytery":"Tidewater"}
+    ]
+  },
+  {
+    "archive_page": 121,
+    "date": "Mar 3, 2014",
+    "reported_total_elders": 144,
+    "reported_total_presbyteries": 54,
+    "additions": []
+  },
+  {
+    "archive_page": 125,
+    "date": "Mar 26, 2014",
+    "reported_total_elders": 149,
+    "reported_total_presbyteries": 54,
+    "additions": [
+      {"ordination":"TE","name":"Iron Kim","presbytery":"South Coast"},
+      {"ordination":"TE","name":"Jonathan Winfree","presbytery":"Southwest Florida"},
+      {"ordination":"TE","name":"Drew Bennett","presbytery":"Southwest Florida"},
+      {"ordination":"TE","name":"Nate Walker","presbytery":"Pacific Northwest"}
+    ]
+  },
+  {
+    "archive_page": 128,
+    "date": "Apr 15, 2014",
+    "reported_total_elders": 154,
+    "reported_total_presbyteries": 54,
+    "additions": [
+      {"ordination":"TE","name":"Wes Neel","presbytery":"Chicago Metro"},
+      {"ordination":"TE","name":"Don Aldin","presbytery":"Georgia Foothills"},
+      {"ordination":"TE","name":"Blake Altman","presbytery":"North Texas"},
+      {"ordination":"TE","name":"Tim Weldon","presbytery":"Gulfstream"},
+      {"ordination":"TE","name":"Joel Kavanaugh","presbytery":"Westminster"}
+    ]
+  },
+  {
+    "archive_page": 132,
+    "date": "May 6, 2014",
+    "reported_total_elders": 154,
+    "reported_total_presbyteries": 54,
+    "additions": []
+  },
+  {
+    "archive_page": 134,
+    "date": "May 12, 2014",
+    "reported_total_elders": 154,
+    "reported_total_presbyteries": 54,
+    "additions": []
+  },
+  {
+    "archive_page": 140,
+    "date": "Jun 2, 2014",
+    "reported_total_elders": 154,
+    "reported_total_presbyteries": 54,
+    "additions": [
+      {"ordination":"TE","name":"Will Tabor","presbytery":"SE Louisiana"},
+      {"ordination":"TE","name":"Grant Lowe","presbytery":"Tennessee Valley"}
+    ]
+  },
+  {
+    "archive_page": 165,
+    "date": "Oct 29, 2014",
+    "reported_total_elders": 157,
+    "reported_total_presbyteries": 55,
+    "additions": []
+  },
+  {
+    "archive_page": 167,
+    "date": "Dec 30, 2014",
+    "reported_total_elders": 160,
+    "reported_total_presbyteries": 58,
+    "additions": [
+      {"ordination":"TE","name":"Irwyn Ince","presbytery":"Chesapeake"},
+      {"ordination":"TE","name":"Bryce Hales","presbytery":"Northern California"}
+    ]
+  },
+  {
+    "archive_page": 171,
+    "date": "Feb 6, 2015",
+    "reported_total_elders": 160,
+    "reported_total_presbyteries": 58,
+    "additions": []
+  },
+  {
+    "archive_page": 174,
+    "date": "Feb 17, 2015",
+    "reported_total_elders": 162,
+    "reported_total_presbyteries": 58,
+    "additions": [
+      {"ordination":"TE","name":"John Bourgeois","presbytery":"Piedmont Triad"},
+      {"ordination":"TE","name":"Rodney Barton","presbytery":"Westminster"}
+    ]
+  },
+  {
+    "archive_page": 176,
+    "date": "Apr 8, 2015",
+    "reported_total_elders": 163,
+    "reported_total_presbyteries": 58,
+    "additions": [
+      {"ordination":"TE","name":"JonPaul Watson","presbytery":"Eastern Carolina"}
+    ]
+  },
+  {
+    "archive_page": 179,
+    "date": "May 19, 2015",
+    "reported_total_elders": 163,
+    "reported_total_presbyteries": 58,
+    "additions": [
+      {"ordination":"TE","name":"Robbie Schmidtberger","presbytery":"Heritage"}
+    ]
+  }
+]
