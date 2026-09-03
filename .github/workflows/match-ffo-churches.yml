@@ -1,0 +1,40 @@
+name: Match FFO assessments to PCA churches
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/match-ffo-churches.yml'
+      - 'scripts/match-ffo-churches.py'
+      - 'data/churches.json'
+      - 'sources/normalized/external-datasets/save-the-pca-ffo/2026-02-08/flagged-churches.json'
+
+permissions:
+  contents: write
+
+jobs:
+  match:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Match source-attributed church assessments
+        run: |
+          python scripts/match-ffo-churches.py \
+            data/churches.json \
+            sources/normalized/external-datasets/save-the-pca-ffo/2026-02-08/flagged-churches.json \
+            sources/normalized/crosswalks/save-the-pca-ffo-2026-02-08
+
+      - name: Commit crosswalk
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sources/normalized/crosswalks/save-the-pca-ffo-2026-02-08/
+          if [ -z "$(git status --porcelain)" ]; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git commit -m 'match FFO assessments to PCA churches'
+          git push
