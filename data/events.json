@@ -1,0 +1,58 @@
+[
+  {
+    "id": "evt-np-formation",
+    "name": "National Partnership formation and organizing period",
+    "event_type": "network_formation",
+    "start_year": 2012,
+    "end_year": 2021,
+    "organization_id": "national-partnership",
+    "source_ids": ["src-np-index", "src-pcapolity-secret-caucuses"]
+  },
+  {
+    "id": "evt-amr-founding",
+    "name": "Alliance for Mission & Renewal founding board",
+    "event_type": "network_formation",
+    "year": 2023,
+    "organization_id": "amr",
+    "source_ids": ["src-amr-founding"]
+  },
+  {
+    "id": "evt-amr-2026-direction",
+    "name": "AMR 2026 institutional-engagement direction",
+    "event_type": "organization_statement",
+    "year": 2026,
+    "organization_id": "amr",
+    "source_ids": ["src-amr-center-2026"]
+  },
+  {
+    "id": "evt-garris-letter-1",
+    "name": "First public letter requesting Rio Grande Presbytery investigation of Zachary Garris",
+    "event_type": "public_letter",
+    "year": 2024,
+    "source_ids": ["src-garris-letter-1"]
+  },
+  {
+    "id": "evt-garris-letter-2",
+    "name": "Second public letter requesting Rio Grande Presbytery investigation of Zachary Garris",
+    "event_type": "public_letter",
+    "date": "2024-06-06",
+    "source_ids": ["src-garris-letter-2"]
+  },
+  {
+    "id": "evt-prayer-lament",
+    "name": "A Call to Prayer & Lament",
+    "event_type": "public_statement",
+    "year": 2026,
+    "organization_id": "prayer-lament",
+    "source_ids": ["src-prayer-lament"]
+  },
+  {
+    "id": "evt-prayer-lament-organizing-group",
+    "name": "Informal minority-leader conversations producing A Call to Prayer & Lament",
+    "event_type": "organizing_group",
+    "year": 2025,
+    "organization_id": "prayer-lament",
+    "source_ids": ["src-grace-mosaic-prayer-2026"],
+    "notes": "Grace Mosaic states that Duke Kwon and Irwyn Ince were in conversation with an informal group of minority leaders including Russ Whitfield, and that this group produced the statement."
+  }
+]
