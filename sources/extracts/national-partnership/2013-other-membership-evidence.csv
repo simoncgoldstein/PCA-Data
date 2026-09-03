@@ -1,0 +1,6 @@
+name,evidence_date,archive_page,evidence_type,confidence,evidence_summary,normalization_note
+James Kessler,2013-06-16,65,network_leader,confirmed,"Kessler writes: 'To lead the National Partnership has been hard and good work.'","Founder/leader role; distinct from ordinary membership"
+Mark Bates,2013-06-28,90,explicit_member,confirmed,"Kessler identifies him parenthetically as 'Mark Bates (NP)'.","Direct membership evidence"
+Sam Duncan,2013-04-23,47,explicit_representative,confirmed,"Kessler calls him 'the NP representative from Seersucker Presbytery'.","Presbytery label appears humorous/pseudonymous in the source; do not normalize geography from this line alone"
+Jason Dorsey,2013-03-26,35,direct_group_participant,strongly_supported,"Dorsey writes directly to the NP Google Group, addresses 'National Partnership brothers-in-Christ,' and says he is thankful for the Partnership.","Strong participation evidence but not phrased as an explicit membership declaration"
+Bobby Griffith Jr.,2013-06-23,89,direct_group_participant,strongly_supported,"Writes to the NP Google Group: 'I am grateful for all of you and for this partnership.'","Strong participation evidence but keep separate from an Additions/member label"
