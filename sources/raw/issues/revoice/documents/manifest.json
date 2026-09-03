@@ -1,0 +1,13 @@
+{
+  "captured_on": "2026-09-03",
+  "text_extraction": "pdftotext -layout",
+  "documents": [
+    {"title": "Missouri Presbytery committee report on Memorial/Revoice 18", "url": "https://1ar.s3.amazonaws.com/2019/05/Missouri-Presbytery-CIM-Report-May-21-2019-FINAL-Draft.pdf", "file": "missouri-presbytery-investigative-report-2019-05-21.pdf", "sha256": "0d0d7016fe10950cc606ec68ef7242a6bd3ec7a0229b929a4704837aacfae11f"},
+    {"title": "Missouri Presbytery Affirmations and Denials on Human Sexuality", "url": "https://1ar.s3.amazonaws.com/2020/06/Missouri-Presbytery-2020.06.02-Affirmations-and-Denials-on-Human-Sexuality.pdf", "file": "missouri-presbytery-affirmations-denials-2020-06-02.pdf", "sha256": "d2e256111bc33d4e758576e7b47070953f3cf4148c7efc2b0ed330e2e4fd8804"},
+    {"title": "PCA Ad Interim Committee Report on Human Sexuality", "url": "https://pcaga.org/wp-content/uploads/2020/05/AIC-Report-to-48th-GA-5-28-20-1.pdf", "file": "aic-human-sexuality-report-2020-05-28.pdf", "sha256": "ec23b89c996dd33486dcd3f6aab1141796b7d6e56d1b4ec5d5141d5d1e19e094"},
+    {"title": "SJC Case 2020-05 Speck v. Missouri", "url": "https://pcahistory.org/pca/sjc/cases/2020-05_Speck_v_Missouri.pdf", "file": "2020-05_Speck_v_Missouri.pdf", "sha256": "6778ddd70ad1cadb364d6569e7c41d37b73e4a2224efe14e20a22eaeed8ff1f2"},
+    {"title": "SJC Case 2020-12 Speck v. Missouri", "url": "https://pcahistory.org/pca/sjc/cases/2020-12_Speck_v_Missouri.pdf", "file": "2020-12_Speck_v_Missouri.pdf", "sha256": "74e1457805d4b1db4865c6e9884a153993c8b67fa7e17477ca9fc740dea991bd"},
+    {"title": "SJC Case 2022-12 Petitions re Missouri Presbytery", "url": "https://www.pcahistory.org/pca/sjc/cases/2022-12_Petitions_re_Missouri_Presbytery.pdf", "file": "2022-12_Petitions_re_Missouri_Presbytery.pdf", "sha256": "8491db932aa32f1c2071a76616080c0b18e3c724be21fb1340e9f9cbcde9a623"},
+    {"title": "49th General Assembly Minutes, Volume 2", "url": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022_vol02.pdf", "file": "49th_pcaga_2022_vol02.pdf", "sha256": "b4db6388563e1b7a51936ac4ff5b4ae7a98294ab38e8b367257271eaf20af986"}
+  ]
+}

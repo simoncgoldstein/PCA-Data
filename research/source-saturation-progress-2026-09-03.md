@@ -30,6 +30,20 @@ python3 scripts/validate-research-imports.py .
 
 The research validator checks expected roster counts and order, resolved-person and presbytery references, the official ratification totals, archive hashes, National Partnership extraction density, the 1,970-church backbone, and the 143/4 FFO crosswalk split.
 
-## P1 status and next sources
+## P1 completed in this pass
 
-Current dated raw snapshots already cover AC, CDM, Covenant College, Covenant Seminary, PCA Foundation, MNA, MTW, RUF, Ridge Haven, and five seminaries. The remaining P1 work is to normalize those snapshots consistently, add a Retirement & Benefits/Geneva Benefits snapshot, complete the AMR item index and caption archive, preserve user-supplied publication screenshots when accessible, and deepen the Missouri/Revoice/SJC document archive.
+- Normalized **more than 350 neutral dated institution-role records** from 14 official-source snapshot families: AC/byFaith, CDM/Women's Ministry, Covenant College, Covenant Seminary, Geneva Benefits, MNA, MTW, PCA Foundation, RUF, Ridge Haven, RTS, WSC, WTS, and GPTS. Every record retains its raw receipt, source line, exact printed role, source URL, and zero ideological weight. Coverage labels distinguish complete visible rosters from high-signal subsets.
+- Added the previously missing Geneva Benefits official team snapshot with seven leadership roles, 23 staff roles, and 16 board names.
+- Preserved the AMR home page and all 12 website blog pagination pages as raw HTML and built a deduplicated **120-item website index** spanning 2023–2026. The index includes date, title, contributor string, archive categories, topic tags, URL, and explicit `not_assessed` transcript/caption state.
+- Preserved seven core Missouri/Revoice primary PDFs and text derivatives: the 2019 investigative report, 2020 Affirmations and Denials, Human Sexuality AIC report, SJC Cases 2020-05 and 2020-12, SJC Case 2022-12, and the 49th GA volume 2. Added normalized committee, complainant, presbytery-petition, departure, and ministerial-roll actions without collapsing distinct evidence types.
+
+## P1 blocked or incomplete sources
+
+- **AMR Substack and YouTube:** the website archive is complete, but a distinct Substack post export and a complete YouTube channel item/caption export were not available from the website pagination. Missing: stable item lists with video IDs and official caption tracks. Website items with embedded media remain `not_assessed` rather than being labeled transcript-free.
+- **Publication screenshots:** the three requested chapter-table image files for *Heal Us, Emmanuel*, *Hear Us, Emmanuel*, and *Co-Laborers, Co-Heirs* are not present in the repository and could not be identified reliably among generically named prior image files. Missing: the actual PNG/JPG files or stable file references tying each image to a title. The existing normalized lists and `https://x.com/dokimazete` attribution receipts remain, but no substitute image was guessed.
+- **Covenant College:** the official receipt establishes the president, but does not contain the full senior-administration and trustee roster. Missing: a preserved current page/export listing those names and titles.
+- **MNA:** current leadership and 44 high-signal ministry roles are normalized. Missing: names/titles for the complete Disaster Response, Metanoia, and other large regional teams not enumerated in the receipt.
+- **MTW:** Lloyd Kim's coordinator role is normalized. Missing: a public complete executive/senior-leadership roster; privacy-sensitive rank-and-file missionary ingestion remains intentionally out of scope.
+- **RTS and RUF:** current high-overlap faculty and coordinator/new-hire records are normalized. Missing: a stable complete RTS multi-campus export and the full RUF campus/staff directory with individual profile URLs and presbytery fields.
+- **WTS:** 21 current faculty names are normalized. Missing: exact current titles and opened official biography details.
+- **Archived Revoice 2018 program:** missing a preserved original program that establishes the complete speaker/workshop roster. The Jay Sklar identification remains `strongly supported`, not upgraded to primary-source confirmed.

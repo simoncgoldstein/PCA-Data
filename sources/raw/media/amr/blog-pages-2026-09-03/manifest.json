@@ -1,0 +1,97 @@
+{
+  "captured_on": "2026-09-03",
+  "method": "curl -L",
+  "pages": [
+    {
+      "page": "home",
+      "url": "https://a4mr.org/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/home.html",
+      "size_bytes": 199358,
+      "sha256": "26a385d7b617590bb26eaf6d1dd5560bef139522f9203e864577be05ae6ddb38"
+    },
+    {
+      "page": 1,
+      "url": "https://a4mr.org/blog/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-1.html",
+      "size_bytes": 211850,
+      "sha256": "212d0d9278df1e5da94818b63334b8285f1fbd83280454bc67b805a36d389634"
+    },
+    {
+      "page": 2,
+      "url": "https://a4mr.org/blog/page/2/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-2.html",
+      "size_bytes": 212095,
+      "sha256": "6a6568dbfeaf365d8bd7bf3cbc87015a1249055dbfda61924e709d13449ca01c"
+    },
+    {
+      "page": 3,
+      "url": "https://a4mr.org/blog/page/3/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-3.html",
+      "size_bytes": 213569,
+      "sha256": "b0027498571a3477f589aa4647ceb421c289bd1eb6557793e430189317e6988e"
+    },
+    {
+      "page": 4,
+      "url": "https://a4mr.org/blog/page/4/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-4.html",
+      "size_bytes": 212417,
+      "sha256": "c7b4ade003fbfa8c2e3b36e3c64b6ec6313c9b7fd162bbc78e61ef02eebae613"
+    },
+    {
+      "page": 5,
+      "url": "https://a4mr.org/blog/page/5/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-5.html",
+      "size_bytes": 214133,
+      "sha256": "dc0831ff0054a943db0836bef303a4d4fbdb1a8432e5b2cca8e466ce14933ba8"
+    },
+    {
+      "page": 6,
+      "url": "https://a4mr.org/blog/page/6/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-6.html",
+      "size_bytes": 212956,
+      "sha256": "d25ce1b985840bf9f84ce918b7b0333663b32a2e264bbd1bb09a42d0d8906236"
+    },
+    {
+      "page": 7,
+      "url": "https://a4mr.org/blog/page/7/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-7.html",
+      "size_bytes": 213521,
+      "sha256": "18743d5a04947f2e2ef573e6f28824fd3268859ea90cba84ebe56852aa4fab9e"
+    },
+    {
+      "page": 8,
+      "url": "https://a4mr.org/blog/page/8/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-8.html",
+      "size_bytes": 212722,
+      "sha256": "7a68b99bf0541fcae19ca72791c20b9f9da6f4b1eef4726defe4ef22daee7d6a"
+    },
+    {
+      "page": 9,
+      "url": "https://a4mr.org/blog/page/9/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-9.html",
+      "size_bytes": 212040,
+      "sha256": "12e852e629199ffc7547f71d616ad4b898f33769d45884a93e10235637e080df"
+    },
+    {
+      "page": 10,
+      "url": "https://a4mr.org/blog/page/10/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-10.html",
+      "size_bytes": 213787,
+      "sha256": "7f4f43c6d4153ff66ec0d6477e3594135cc3143a9e59e743b8c8b0981b7adb1c"
+    },
+    {
+      "page": 11,
+      "url": "https://a4mr.org/blog/page/11/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-11.html",
+      "size_bytes": 191315,
+      "sha256": "59fe7232d95b09fb330d51165855985c9bf9c4354a8be8c8becee223d8380e55"
+    },
+    {
+      "page": 12,
+      "url": "https://a4mr.org/blog/page/12/",
+      "local_file": "sources/raw/media/amr/blog-pages-2026-09-03/page-12.html",
+      "size_bytes": 191267,
+      "sha256": "843446fc595bac836812519fcc8819a8ece2c271d04b56a9090b1c835ebfa404"
+    }
+  ]
+}

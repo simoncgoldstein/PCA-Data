@@ -38,7 +38,7 @@ The official 2019 Minutes preserve a formal protest concerning language used in 
 
 Normalization rule: label the edge literally `2019 Warhurst Protest Signer`; do not automatically encode a signer as `pro-Revoice`.
 
-Pending: extract every signer, TE/RE status, and presbytery from the official Minutes.
+Completed: all 203 signers, TE/RE status, printed presbytery, print order, and page locators are preserved in `sources/normalized/revoice/warhurst-protest-signers-2019.json`.
 
 ## National Partnership overlap
 
@@ -135,3 +135,9 @@ Cross-reference each independently against NP, A Faithful PCA, AMR, publications
 5. SJC case actors and committee membership where useful.
 6. Full trajectory for Greg Johnson and Memorial personnel.
 7. Cross-reference all names against the broader dataset.
+
+## 2026-09-03 source-saturation update
+
+Seven core PDFs and layout-text derivatives are now preserved under `documents/`, with URLs and SHA-256 values in `documents/manifest.json`. They include the 2019 Missouri investigative report, the 2020 Affirmations and Denials, the Human Sexuality AIC report, SJC Cases 2020-05 and 2020-12, SJC Case 2022-12, and the 49th GA volume 2.
+
+The Warhurst, Overture 37, Overture 15, Human Sexuality AIC, Missouri committee, and December 2022 departure actors are normalized. The remaining primary-source blocker is an archived original 2018 Revoice program establishing the complete speaker/workshop roster. Proposition-level extraction of every Missouri judgment and full SJC panel/personnel normalization also remain for a later legal-record pass.

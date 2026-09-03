@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "scope": "Named institutional roles and dated actions in the Missouri Presbytery/Revoice/SJC document family",
+    "raw_manifest": "sources/raw/issues/revoice/documents/manifest.json",
+    "modeling_rule": "Committee service, complainant status, report authorship, presbytery action, church departure, and ministerial-roll removal are distinct evidence types. None is collapsed into a generic ideological label."
+  },
+  "cohorts": [
+    {
+      "cohort": "Missouri Presbytery Ad Hoc Committee to Investigate Memorial Presbyterian Church",
+      "appointed": "2018-10-16",
+      "source": "2020-12_Speck_v_Missouri.pdf, chronology lines 120-122",
+      "members": [
+        {"office_as_printed": "TE", "name_as_printed": "Ron Lutjens", "role_as_printed": "Chair"},
+        {"office_as_printed": "TE", "name_as_printed": "Bruce Clark"},
+        {"office_as_printed": "TE", "name_as_printed": "Sean Maney"},
+        {"office_as_printed": "TE", "name_as_printed": "Ryan Speck"},
+        {"office_as_printed": "TE", "name_as_printed": "Mike Williams"},
+        {"office_as_printed": "RE", "name_as_printed": "Kyle Keating"},
+        {"office_as_printed": "RE", "name_as_printed": "George Poland"},
+        {"office_as_printed": "RE", "name_as_printed": "Frank Theus"}
+      ]
+    },
+    {
+      "cohort": "Missouri Presbytery Affirmations and Denials Committee",
+      "action_date": "2020-06-02",
+      "source": "2020-12_Speck_v_Missouri.pdf, chronology lines 275-283",
+      "members": [
+        {"office_as_printed": "TE", "name_as_printed": "Dan Doriani"},
+        {"office_as_printed": "TE", "name_as_printed": "Mark Dalbey"},
+        {"office_as_printed": "TE", "name_as_printed": "Ryan Laughlin"},
+        {"office_as_printed": "RE", "name_as_printed": "Sean Maney"}
+      ]
+    },
+    {
+      "cohort": "PCA Ad Interim Committee on Human Sexuality",
+      "report_date": "2020-05-28",
+      "source": "2020-12_Speck_v_Missouri.pdf, chronology lines 268-273; preserved committee report",
+      "members": [
+        {"office_as_printed": "TE", "name_as_printed": "Bryan Chapell"},
+        {"office_as_printed": "TE", "name_as_printed": "Kevin DeYoung"},
+        {"office_as_printed": "TE", "name_as_printed": "Tim Keller"},
+        {"office_as_printed": "TE", "name_as_printed": "Jim Weidenaar"},
+        {"office_as_printed": "RE", "name_as_printed": "Derek Halvorson"},
+        {"office_as_printed": "RE", "name_as_printed": "Kyle Keating"},
+        {"office_as_printed": "RE", "name_as_printed": "Jim Pocta"}
+      ]
+    }
+  ],
+  "case_and_departure_actions": [
+    {"date": "2019-07-08", "actor_as_printed": "TE Ryan Speck", "action": "filed a complaint regarding the nine judgments approved by Missouri Presbytery"},
+    {"date": "2022-04-14", "actor_as_printed": "Southeast Alabama Presbytery", "action": "approved Overture 36 requesting original jurisdiction concerning alleged doctrinal errors of TE Greg Johnson"},
+    {"date": "2022-05-10", "actor_as_printed": "Grace Presbytery", "action": "approved Overture 37 requesting original jurisdiction concerning alleged doctrinal errors of TE Greg Johnson"},
+    {"date": "2022-11-18", "actor_as_printed": "Memorial Presbyterian Church", "action": "congregation voted to withdraw from the PCA"},
+    {"date": "2022-12-06", "actor_as_printed": "Missouri Presbytery", "action": "acknowledged and dismissed Memorial's departure"},
+    {"date": "2022-12-06", "actor_as_printed": "TE Doug Mendis", "action": "honorably retired by Missouri Presbytery"},
+    {"date": "2022-12-06", "actor_as_printed": "TE Greg Johnson", "action": "name removed from Missouri Presbytery rolls under BCO 38-3a"},
+    {"date": "2022-12-06", "actor_as_printed": "TE Keith Robinson", "action": "name removed from Missouri Presbytery rolls under BCO 38-3a"},
+    {"date": "2022-12-06", "actor_as_printed": "TE Sam Dolby", "action": "name removed from Missouri Presbytery rolls under BCO 38-3a"},
+    {"date": "2023-03-02", "actor_as_printed": "Standing Judicial Commission", "action": "held that the PCA lacked jurisdiction to assume original jurisdiction after the departures and roll removals"}
+  ]
+}

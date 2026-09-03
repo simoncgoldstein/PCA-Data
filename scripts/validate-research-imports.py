@@ -111,11 +111,47 @@ for relative, expected in hashes.items():
     if actual != expected:
         errors.append(f"raw source hash mismatch: {relative}: {actual}")
 
+institutions = load("sources/normalized/institutions/current-role-snapshots-2026-09-03.json")
+roles = institutions.get("roles", [])
+coverage = institutions.get("coverage", [])
+if len(coverage) != 14:
+    errors.append(f"institution snapshots: expected 14 organizations, found {len(coverage)}")
+if len(roles) < 350:
+    errors.append(f"institution snapshots: expected at least 350 neutral role records, found {len(roles)}")
+for index, row in enumerate(roles, 1):
+    if row.get("ideological_weight") != 0:
+        errors.append(f"institution role {index}: ideological_weight must be zero")
+    if not str(row.get("source_url", "")).startswith("https://"):
+        errors.append(f"institution role {index}: invalid source URL")
+    person_id = row.get("normalized_person_id")
+    if person_id and person_id not in people:
+        errors.append(f"institution role {index}: unknown normalized_person_id {person_id}")
+
+amr = load("sources/normalized/amr/blog-index-2023-2026.json")
+amr_items = amr.get("items", [])
+if len(amr_items) != 120 or len({row.get("url") for row in amr_items}) != 120:
+    errors.append("AMR blog index: expected 120 unique website items")
+amr_manifest = load("sources/raw/media/amr/blog-pages-2026-09-03/manifest.json")
+if len(amr_manifest.get("pages", [])) != 13:
+    errors.append("AMR raw archive: expected home plus 12 preserved pagination pages")
+for receipt in amr_manifest.get("pages", []):
+    path = root / receipt["local_file"]
+    if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != receipt["sha256"]:
+        errors.append(f"AMR raw page missing or hash mismatch: {receipt.get('local_file')}")
+
+revoice_manifest = load("sources/raw/issues/revoice/documents/manifest.json")
+if len(revoice_manifest.get("documents", [])) != 7:
+    errors.append("Revoice/Missouri archive: expected seven preserved PDFs")
+for receipt in revoice_manifest.get("documents", []):
+    path = root / "sources/raw/issues/revoice/documents" / receipt["file"]
+    if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != receipt["sha256"]:
+        errors.append(f"Revoice raw document missing or hash mismatch: {receipt.get('file')}")
+
 if errors:
     print(f"Research import validation failed with {len(errors)} error(s):", file=sys.stderr)
     for error in errors:
         print(f"- {error}", file=sys.stderr)
     raise SystemExit(1)
-print("Validated P0 research imports: 4 GA rosters, O37 verification, O15 ratification, two A Faithful PCA snapshots, National Partnership archive, church backbone, and FFO crosswalk.")
+print("Validated research imports: P0 rosters and source families plus P1 institution roles, AMR blog archive, and Revoice/Missouri documents.")
 for note in notes:
     print(f"- {note}")
