@@ -41,9 +41,9 @@ The following roster was transcribed from research tables supplied during this p
 25. Mike Khandjian
 26. Kenneth Foster
 27. Scott Sauls
-28. Jonathan Edgar
-29. Joel St. Clair
-30. [one roster entry requires re-verification from the physical table of contents before this list is promoted to confirmed public data]
+28. Russ Whitfield
+29. Jonathan Edgar
+30. Joel St. Clair
 
 ## Research use
 
