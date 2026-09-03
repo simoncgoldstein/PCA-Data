@@ -1,0 +1,24 @@
+{
+  "source_id": "np-emails-2017",
+  "title": "National Partnership Emails — 2017",
+  "document_date_range": "2017-01-12/2017-06-16",
+  "source_type": "primary_leaked_email_archive",
+  "original_public_index": "https://jude3pca.org/national-partnership-emails/",
+  "public_mirror_url": "https://s3.amazonaws.com/5mt.jude3pca.org/2023/02/15194817/2017-emails.pdf",
+  "retrieved_for_research": "2026-09-03",
+  "raw_local_path": "sources/raw/national-partnership/2017-emails.pdf",
+  "raw_copy_status": "pending_binary_ingest",
+  "page_count": 27,
+  "notes": [
+    "Women Serving in Ministry is the dominant issue in this archive.",
+    "Kessler explicitly calls Irwyn Ince an NP member and committee chairman before circulating Ince's private strategic explanation of the study committee report.",
+    "The archive records active support for Alexander Jun for Moderator but does not by that fact establish Jun as an NP member.",
+    "The archive also records concern with overtures limiting the Cooperative Ministries Committee and ad-interim committee formation."
+  ],
+  "key_evidence_locations": [
+    {"page": 4, "description": "Irwyn Ince explicitly called NP member and chairman of WIM Study Committee"},
+    {"page": 4, "description": "Ince explains consensus strategy and desire to move broader women-in-ministry conversation forward"},
+    {"page": 5, "description": "Ince says recommendations call sessions/presbyteries to appoint gifted women to assist elders, including women gifted in shepherding"},
+    {"page": 8, "description": "Kessler endorses Alexander Jun for Moderator and describes importance of moderator/CMC role"}
+  ]
+}
