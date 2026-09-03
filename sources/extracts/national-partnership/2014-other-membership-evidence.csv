@@ -1,0 +1,6 @@
+name,evidence_date,archive_page,evidence_type,confidence,evidence_summary,normalization_note
+Dan Adamson,2014-01-02,0,explicit_member,confirmed,"Kessler forwards a prayer request with the introduction 'From NP TE Dan Adamson'.","Direct membership evidence"
+Mike Khandjian,2014-03-26,16,explicit_member,confirmed,"Kessler introduces him as 'Mike Khandjian, NP member and organizer of The Fellowship Dinner'.","Direct NP membership; Fellowship remains a separate organization despite high overlap"
+Mike Khandjian,2014-03-26,16,fellowship_organizer,confirmed,"Same message calls Khandjian organizer of The Fellowship Dinner and says the Fellowship was created independently of NP with a high degree of overlap.","Use separate edge for Fellowship leadership"
+Irwyn Ince,2014-12-30,63,explicit_addition,confirmed,"Listed under Additions as TE Irwyn Ince (Chesapeake).","Direct NP membership via addition record"
+David Richter,2014-12-30,63,direct_group_participant,strongly_supported,"Kessler introduces a note from Richter to the NP list about his church plant.","This alone shows direct group access/participation, not explicit membership; 2015 committee roster supplies direct membership evidence"
