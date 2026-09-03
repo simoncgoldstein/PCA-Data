@@ -1,0 +1,45 @@
+[
+  {
+    "key": "alexandria presbyterian church|www alexandriapres org|potomac|rev thomas g holliday",
+    "source_record_ids": [
+      "batchgeo-c8c0926151",
+      "batchgeo-1c1a9a649a"
+    ]
+  },
+  {
+    "key": "christ presbyterian church|www christpres com|eastern carolina|rev david osborne",
+    "source_record_ids": [
+      "batchgeo-6b60ccc333",
+      "batchgeo-5fc857c362"
+    ]
+  },
+  {
+    "key": "hillcrest presbyterian church|www hillcrestpresbyterian org|ascension|rev stephen richman",
+    "source_record_ids": [
+      "batchgeo-0fc077516d",
+      "batchgeo-5990ba4b2b"
+    ]
+  },
+  {
+    "key": "holy cross presbyterian church|hcpres org|blue ridge|rev jake a bennett",
+    "source_record_ids": [
+      "batchgeo-5d8c2ea56a",
+      "batchgeo-87195c8360"
+    ]
+  },
+  {
+    "key": "hope community church|www hopecommunity com|central carolina|",
+    "source_record_ids": [
+      "batchgeo-f2f19b77e1",
+      "batchgeo-98cd8af2ee",
+      "batchgeo-d65574064b"
+    ]
+  },
+  {
+    "key": "ridge presbyterian church|www ridgepresbyterian org|northern california|rev josh lee",
+    "source_record_ids": [
+      "batchgeo-56c9a6aa97",
+      "batchgeo-17bccfbbb0"
+    ]
+  }
+]

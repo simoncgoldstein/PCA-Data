@@ -1,0 +1,24 @@
+{
+  "source": {
+    "title": "PCA Churches — BatchGeo KML export",
+    "map_url": "https://batchgeo.com/map/fed353c376144b1fed2f5e29150c2531",
+    "kml_url": "https://batchgeo.com/map/kml/fed353c376144b1fed2f5e29150c2531",
+    "pca_directory_url": "https://www.pcaac.org/church-directory/",
+    "directory_database_date": "2026-08-31",
+    "imported_at": "2026-09-03T18:48:47.060Z",
+    "input_filename": "pca-churches-2026-09-03.kml",
+    "sha256": "ab6be1b35f7846d50ab2f53e116e8ddac03fb8774c64bfc625763d1ef9913267"
+  },
+  "counts": {
+    "placemarks_parsed": 1977,
+    "possible_duplicate_groups": 6,
+    "unresolved_presbytery_names": 0
+  },
+  "rules": {
+    "creates_person_nodes_from_pastor_field": false,
+    "automatically_merges_duplicate_candidates": false,
+    "provisional_entity_per_placemark": true,
+    "canonical_merge_review_required": true
+  },
+  "unresolved_presbyteries": []
+}
