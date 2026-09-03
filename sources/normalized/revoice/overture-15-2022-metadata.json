@@ -1,0 +1,46 @@
+{
+  "event_id": "overture-15-2022",
+  "event_name": "49th General Assembly Overture 15 concerning officer self-description as homosexual",
+  "year": 2022,
+  "general_assembly": 49,
+  "primary_source": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022.pdf",
+  "primary_source_note": "The official minutes contain the Overture 15 minority report, Assembly action, and recorded negative votes.",
+  "secondary_analysis_source": "https://theaquilareport.com/comparing-the-minority-report-on-overture-15s-signers-and-presbytery-votes/",
+  "assembly_action": {
+    "motion_to_make_o15_main_motion": "1094-1044",
+    "adopted_as_amended": "1167-978",
+    "text": "Men who describe themselves as homosexual, even those who describe themselves as homosexual and claim to practice celibacy by refraining from homosexual conduct, are disqualified from holding office in the Presbyterian Church in America."
+  },
+  "minority_report": {
+    "signer_count": 46,
+    "ruling_elders": 24,
+    "teaching_elders": 22,
+    "presbyteries_represented": 31,
+    "presented_by": "Matthew Fender",
+    "status": "person-level signer extraction pending Work/browser pass",
+    "both_te_and_re_signed_from": [
+      "Canada West","Central Georgia","Chesapeake","Chicago Metro","Eastern Pennsylvania","Evangel","Fellowship","Gulf Coast","Houston Metro","Illiana","Northwest Georgia","South Florida","Suncoast Florida","Susquehanna Valley","Westminster"
+    ],
+    "te_only_signed_from": [
+      "Central Carolina","Grace","Iowa","New Jersey","North Texas","Pee Dee","Tennessee Valley"
+    ],
+    "re_only_signed_from": [
+      "Blue Ridge","James River","Lowcountry","North Florida","Palmetto","Rocky Mountain","Siouxlands","Southeast Alabama","Southwest Florida"
+    ]
+  },
+  "recorded_negative_votes": {
+    "meaning": "Commissioners who requested their votes against Overture 15 be recorded; these are distinct from minority-report signers and represent opposition to O15.",
+    "status": "full name/presbytery extraction pending Work/browser pass"
+  },
+  "later_presbytery_result": {
+    "votes_recorded": 81,
+    "presbyteries_passing": 48,
+    "outcome": "failed to reach the two-thirds threshold required to return to the next General Assembly for final enactment"
+  },
+  "modeling_rules": [
+    "Minority Report signer = affirmative/supporting action on O15 as amended.",
+    "Recorded negative vote = opposing action on O15.",
+    "Presbytery ratification result is a presbytery-level edge and must not be assigned as an individual officer vote unless an individual vote is separately documented.",
+    "Do not collapse O15, O23, O37, Human Sexuality AIC participation, and Revoice conference participation into one generic sexuality label."
+  ]
+}
