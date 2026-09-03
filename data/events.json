@@ -9,6 +9,15 @@
     "source_ids": ["src-np-index", "src-pcapolity-secret-caucuses"]
   },
   {
+    "id": "evt-a-faithful-pca-2021",
+    "name": "Looking Forward – Together / A Faithful PCA public letter",
+    "event_type": "public_letter",
+    "date": "2021-06-02",
+    "organization_id": "a-faithful-pca",
+    "source_ids": ["src-a-faithful-pca-letter-2021"],
+    "notes": "Signer normalization is held back until the archived signer page is cleanly recovered."
+  },
+  {
     "id": "evt-amr-founding",
     "name": "Alliance for Mission & Renewal founding board",
     "event_type": "network_formation",
@@ -23,6 +32,74 @@
     "year": 2026,
     "organization_id": "amr",
     "source_ids": ["src-amr-center-2026"]
+  },
+  {
+    "id": "evt-revoice-2018",
+    "name": "First Revoice Conference hosted at Memorial Presbyterian Church",
+    "event_type": "conference_and_controversy",
+    "date": "2018-07",
+    "organization_id": "revoice",
+    "source_ids": ["src-ga49-vol2-revoice-sjc", "src-mop-revoice-2020"],
+    "notes": "Conference participation, church hosting, and later ecclesiastical actions are modeled as distinct evidence types."
+  },
+  {
+    "id": "evt-warhurst-protest-2019",
+    "name": "Formal protest concerning Steven Warhurst's Overture 28 minority-report speech",
+    "event_type": "general_assembly_protest",
+    "year": 2019,
+    "source_ids": ["src-ga47-2019"],
+    "notes": "The formal protest objected to language used in the speech; signer status must not be reduced to a generic pro-Revoice label."
+  },
+  {
+    "id": "evt-human-sexuality-aic",
+    "name": "PCA Ad Interim Committee on Human Sexuality",
+    "event_type": "study_committee",
+    "start_year": 2019,
+    "end_year": 2021,
+    "source_ids": ["src-ga48-2021"]
+  },
+  {
+    "id": "evt-overture37-2021",
+    "name": "48th GA Overture 37 and minority report",
+    "event_type": "general_assembly_overture",
+    "year": 2021,
+    "source_ids": ["src-ga48-2021"],
+    "notes": "Minority-report participation and final Assembly action are stored separately from any broad ideological characterization."
+  },
+  {
+    "id": "evt-nae-withdrawal-2022",
+    "name": "49th GA vote to withdraw the PCA from the National Association of Evangelicals",
+    "event_type": "general_assembly_overture",
+    "year": 2022,
+    "organization_id": "nae",
+    "source_ids": ["src-ga49-vol1-nae"],
+    "notes": "Overture 3. Final recorded vote adopted withdrawal, 1059–681. Individual votes are not inferred without a roll call."
+  },
+  {
+    "id": "evt-nae-withdrawal-protest-2022",
+    "name": "Formal protest against PCA withdrawal from the National Association of Evangelicals",
+    "event_type": "general_assembly_protest",
+    "year": 2022,
+    "organization_id": "nae",
+    "source_ids": ["src-ga49-vol1-nae"],
+    "notes": "Formal protest offered by L. Roy Taylor with a named commissioner roster preserved in the official minutes."
+  },
+  {
+    "id": "evt-overture15-2022",
+    "name": "49th GA Overture 15 on officer self-description and homosexuality",
+    "event_type": "general_assembly_overture",
+    "year": 2022,
+    "source_ids": ["src-ga49-2022"],
+    "notes": "Preserve majority/minority reports, recorded votes, protests, and subsequent presbytery ratification evidence separately."
+  },
+  {
+    "id": "evt-memorial-departure-2022",
+    "name": "Memorial Presbyterian Church withdrawal from the PCA",
+    "event_type": "church_departure",
+    "date": "2022-11-18",
+    "organization_id": "memorial-st-louis",
+    "source_ids": ["src-byfaith-memorial-departure-2022"],
+    "notes": "Missouri Presbytery acknowledged the congregation's departure on 2022-12-06."
   },
   {
     "id": "evt-garris-letter-1",
@@ -53,6 +130,6 @@
     "year": 2025,
     "organization_id": "prayer-lament",
     "source_ids": ["src-grace-mosaic-prayer-2026"],
-    "notes": "Grace Mosaic states that Duke Kwon and Irwyn Ince were in conversation with an informal group of minority leaders including Russ Whitfield, and that this group produced the statement."
+    "notes": "Grace Mosaic states that Duke Kwon and Irwyn Ince had been in conversation with an informal group of minority leaders including Russ Whitfield, and that this group produced the statement."
   }
 ]
