@@ -1,0 +1,18 @@
+{
+  "event": "Ad Interim Committee on Human Sexuality",
+  "appointed": 2019,
+  "reported_to_ga": 2021,
+  "source": "https://www.pcahistory.org/pca/digest/studies/2021_human_sexuality_report.pdf",
+  "status": "primary-source roster normalized",
+  "members": [
+    {"name":"Bryan Chapell","office":"TE","presbytery":"Northern Illinois","role":"Chair"},
+    {"name":"Derek Halvorson","office":"RE","presbytery":"Tennessee Valley","role":"Member"},
+    {"name":"Kevin DeYoung","office":"TE","presbytery":"Central Carolina","role":"Member"},
+    {"name":"Kyle Keating","office":"RE","presbytery":"Missouri","role":"Member"},
+    {"name":"Tim Keller","office":"TE","presbytery":"Metropolitan New York","role":"Member"},
+    {"name":"Jim Pocta","office":"RE","presbytery":"North Texas","role":"Member"},
+    {"name":"Jim Weidenaar","office":"TE","presbytery":"Pittsburgh","role":"Member"}
+  ],
+  "count": 7,
+  "scope_note": "The GA assigned the committee to study homosexuality, same-sex attraction, identity terminology, spiritual friendship, temptation/sin/repentance, transgenderism, and pastoral/apologetic questions. Committee membership is an institutional edge and does not imply agreement with every later use of the report."
+}
