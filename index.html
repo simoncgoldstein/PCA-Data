@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Source-driven map of networks, coalitions, public actions, and institutional activity in and around the Presbyterian Church in America." />
+  <title>PCA Networks & Institutional Activity</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#people" aria-label="PCA Networks home">
+        <span class="brand-mark">PCA</span>
+        <span>
+          <strong>Networks & Institutional Activity</strong>
+          <small>Evidence-backed research index</small>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Primary navigation">
+        <button class="nav-link active" data-view="people">People</button>
+        <button class="nav-link" data-view="networks">Networks</button>
+        <button class="nav-link" data-view="timeline">Timeline</button>
+        <button class="nav-link" data-view="sources">Sources</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="shell hero-grid">
+        <div>
+          <p class="eyebrow">Open research project</p>
+          <h1>Trace the connections. Inspect the evidence.</h1>
+          <p class="hero-copy">
+            A structured map of people, networks, public coalitions, denominational actions, and institutional trajectories in and around the Presbyterian Church in America. Every displayed connection is designed to resolve back to a source.
+          </p>
+        </div>
+        <aside class="method-card">
+          <strong>What the index means</strong>
+          <p>The Network Involvement Index measures recurrence and organizational involvement across the included datasets. It is <em>not</em> a theology score and does not imply agreement with every position taken by an organization or co-signer.</p>
+          <a href="research/methodology.md">Read the methodology →</a>
+        </aside>
+      </div>
+    </section>
+
+    <section class="shell metrics" aria-label="Dataset summary">
+      <article><span id="metric-people">—</span><small>people normalized</small></article>
+      <article><span id="metric-affiliations">—</span><small>evidence connections</small></article>
+      <article><span id="metric-organizations">—</span><small>organizations & networks</small></article>
+      <article><span id="metric-sources">—</span><small>registered sources</small></article>
+    </section>
+
+    <section id="view-people" class="view shell active-view">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">People</p>
+          <h2>Recurring personnel</h2>
+        </div>
+        <p>Sort and filter by evidence-backed involvement. Click any row for the claims and citations behind it.</p>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box">
+          <span>Search</span>
+          <input id="people-search" type="search" placeholder="Name, current role, organization…" autocomplete="off" />
+        </label>
+        <label>
+          <span>Connection</span>
+          <select id="connection-filter">
+            <option value="all">All connections</option>
+          </select>
+        </label>
+        <label>
+          <span>Confidence</span>
+          <select id="confidence-filter">
+            <option value="all">All evidence</option>
+            <option value="confirmed">Confirmed only</option>
+            <option value="strongly_supported">Confirmed + strongly supported</option>
+          </select>
+        </label>
+        <label>
+          <span>Sort</span>
+          <select id="people-sort">
+            <option value="score-desc">Involvement index</option>
+            <option value="connections-desc">Connection count</option>
+            <option value="name-asc">Name A–Z</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Person</th>
+              <th>Current role</th>
+              <th>Key evidence</th>
+              <th class="number">Connections</th>
+              <th class="number">Index</th>
+            </tr>
+          </thead>
+          <tbody id="people-table"></tbody>
+        </table>
+      </div>
+      <p id="people-empty" class="empty" hidden>No people match the current filters.</p>
+    </section>
+
+    <section id="view-networks" class="view shell" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Networks</p>
+          <h2>Organizations and coalitions</h2>
+        </div>
+        <p>Formal organizations, informal networks, public coalitions, agencies, and adjacent institutions are kept distinct.</p>
+      </div>
+      <div id="network-grid" class="card-grid"></div>
+    </section>
+
+    <section id="view-timeline" class="view shell" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Timeline</p>
+          <h2>Events and organizing periods</h2>
+        </div>
+        <p>A chronological view helps distinguish actual succession from mere thematic similarity.</p>
+      </div>
+      <div id="timeline" class="timeline"></div>
+    </section>
+
+    <section id="view-sources" class="view shell" hidden>
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Sources</p>
+          <h2>Research register</h2>
+        </div>
+        <p>Primary sources are preferred. Secondary sources are explicitly labeled and used chiefly as roadmaps or corroboration.</p>
+      </div>
+      <div id="source-list" class="source-list"></div>
+    </section>
+  </main>
+
+  <dialog id="person-dialog" class="person-dialog">
+    <div class="dialog-head">
+      <div>
+        <p class="eyebrow">Person profile</p>
+        <h2 id="dialog-name"></h2>
+      </div>
+      <button id="dialog-close" class="icon-button" aria-label="Close profile">×</button>
+    </div>
+    <div id="dialog-body"></div>
+  </dialog>
+
+  <footer>
+    <div class="shell footer-inner">
+      <p>Version 0.1. Claims are provisional where explicitly marked. Corrections should cite documentary evidence.</p>
+      <a href="https://github.com/simoncgoldstein/PCA-Data">View repository</a>
+    </div>
+  </footer>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
