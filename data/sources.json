@@ -9,6 +9,14 @@
     "notes": "Index to yearly PDF archives of National Partnership correspondence. Person-level claims should eventually cite a specific year/page or message, not only this index."
   },
   {
+    "id": "src-np-local-archive",
+    "title": "NPP_Emails_2013_2021.pdf",
+    "publisher": "National Partnership correspondence archive",
+    "source_type": "primary_archive_local_pending",
+    "accessed": "2026-09-03",
+    "notes": "444-page combined archive supplied to this research project. A repository raw-copy manifest exists; the actual binary should be placed in sources/raw/national-partnership/. Exact message/page citations are preferred for person-level claims."
+  },
+  {
     "id": "src-pcapolity-secret-caucuses",
     "title": "Secret Caucuses & the PCA",
     "publisher": "Presbyterian Polity",
@@ -18,6 +26,25 @@
     "source_type": "secondary_analysis",
     "accessed": "2026-09-03",
     "notes": "Useful roadmap to primary material and for distinguishing the National Partnership from Mike Khandjian's Fellowship. Secondary analysis is not used alone to establish disputed person-level membership."
+  },
+  {
+    "id": "src-a-faithful-pca-letter-2021",
+    "title": "Looking Forward – Together",
+    "publisher": "A Faithful PCA",
+    "date": "2021-06-02",
+    "url": "https://theaquilareport.com/looking-forward-together/",
+    "source_type": "primary_public_letter_transcription",
+    "accessed": "2026-09-03",
+    "notes": "Full text is preserved locally in sources/raw/public-statements/a-faithful-pca/. The historical signer page is treated separately because the user-provided signer transcription was contaminated and was not accepted as verified evidence."
+  },
+  {
+    "id": "src-a-faithful-pca-signers-wayback",
+    "title": "A Faithful PCA Signatures",
+    "publisher": "A Faithful PCA via Internet Archive",
+    "url": "https://web.archive.org/web/20220314223906/https://www.afaithfulpca.net/signatures",
+    "source_type": "primary_archived_signer_page_pending_extraction",
+    "accessed": "2026-09-03",
+    "notes": "Clean extraction is pending. Do not use the contaminated pasted roster received in this project as signer evidence."
   },
   {
     "id": "src-amr-founding",
@@ -45,7 +72,104 @@
     "url": "https://a4mr.org/toward-recovering-the-confessional-missional-center-of-the-pca/",
     "source_type": "primary_organization_statement",
     "accessed": "2026-09-03",
-    "notes": "Describes AMR's 2026 direction, regional cohorts, formal denominational engagement, and aspiration to function as a 'network of networks.' Signed by David Richter on behalf of the executive board."
+    "notes": "Describes AMR's 2026 direction, regional cohorts, formal denominational engagement, and aspiration to function as a network of networks."
+  },
+  {
+    "id": "src-amr-substack",
+    "title": "The Alliance for Mission and Renewal Substack",
+    "publisher": "Alliance for Mission & Renewal",
+    "url": "https://a4mr.substack.com/",
+    "source_type": "primary_organization_media_archive",
+    "accessed": "2026-09-03",
+    "notes": "Ongoing AMR article/audio/video archive. Items are normalized individually by author, guest, date, topic, and exact URL."
+  },
+  {
+    "id": "src-amr-youtube",
+    "title": "Alliance for Mission & Renewal YouTube channel",
+    "publisher": "Alliance for Mission & Renewal",
+    "url": "https://www.youtube.com/@AllianceforMissionandRenewal",
+    "source_type": "primary_organization_media_archive",
+    "accessed": "2026-09-03",
+    "notes": "Video participation is an event edge only. Official captions/transcripts should be preserved when available; user-supplied transcript exports may be used if direct retrieval is unreliable."
+  },
+  {
+    "id": "src-amr-blog-2026",
+    "title": "Alliance for Mission & Renewal Blog",
+    "publisher": "Alliance for Mission & Renewal",
+    "url": "https://a4mr.org/blog/",
+    "source_type": "primary_organization_media_archive",
+    "accessed": "2026-09-03",
+    "notes": "Current archive includes 2026 overtures roundtables, women/deacons material, worship, theological-vision articles, and post-GA reflections."
+  },
+  {
+    "id": "src-ga47-2019",
+    "title": "Minutes of the 47th General Assembly",
+    "publisher": "Presbyterian Church in America Historical Center",
+    "date": "2019",
+    "url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf",
+    "source_type": "primary_denominational_minutes",
+    "accessed": "2026-09-03",
+    "notes": "Primary source for Overture 4, Overture 28, Steven Warhurst's minority-report speech, Kevin Twit's formal protest, and the protest signer roster."
+  },
+  {
+    "id": "src-mop-revoice-2020",
+    "title": "A Letter to the Churches Regarding Revoice and Pastor Greg Johnson",
+    "publisher": "Missouri Presbytery",
+    "date": "2020-01",
+    "url": "https://theaquilareport.com/a-letter-to-the-churches-regarding-revoice-and-pastor-greg-johnson/",
+    "source_type": "primary_presbytery_statement_republication",
+    "accessed": "2026-09-03",
+    "notes": "Summarizes Missouri Presbytery's investigation, complaints, revised theological judgments, and subsequent work related to Revoice and Greg Johnson."
+  },
+  {
+    "id": "src-ga48-2021",
+    "title": "Minutes of the 48th General Assembly",
+    "publisher": "Presbyterian Church in America Historical Center",
+    "date": "2021",
+    "url": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf",
+    "source_type": "primary_denominational_minutes",
+    "accessed": "2026-09-03",
+    "notes": "Primary source for the Human Sexuality report, Overtures 23/37, related minority reports, protests, and formal actions."
+  },
+  {
+    "id": "src-ga49-2022",
+    "title": "Minutes of the 49th General Assembly",
+    "publisher": "Presbyterian Church in America Historical Center",
+    "date": "2022",
+    "url": "https://pcahistory.org/pca/ga/49th_pcaga_2022.pdf",
+    "source_type": "primary_denominational_minutes",
+    "accessed": "2026-09-03",
+    "notes": "Primary source family for 2022 overtures, including Overture 15, committee reports, floor actions, and ministerial changes."
+  },
+  {
+    "id": "src-ga49-vol1-nae",
+    "title": "49th General Assembly Minutes, Volume 1: Interchurch Relations / NAE withdrawal",
+    "publisher": "Presbyterian Church in America Historical Center",
+    "date": "2022",
+    "url": "https://pcahistory.org/pca/ga/49th_pcaga_2022_vol01.pdf",
+    "source_type": "primary_denominational_minutes",
+    "accessed": "2026-09-03",
+    "notes": "Primary source for Overture 3 withdrawing the PCA from the NAE, the 1059–681 final vote, Roy Taylor's formal protest and signer roster, and Walter Kim's NAE fraternal greeting."
+  },
+  {
+    "id": "src-ga49-vol2-revoice-sjc",
+    "title": "49th General Assembly Minutes, Volume 2: SJC cases related to Missouri Presbytery / Revoice",
+    "publisher": "Presbyterian Church in America Historical Center",
+    "date": "2022",
+    "url": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022_vol02.pdf",
+    "source_type": "primary_denominational_minutes",
+    "accessed": "2026-09-03",
+    "notes": "Includes SJC Case 2020-05 and related litigation summarizing Memorial Presbyterian's hosting of Revoice and Missouri Presbytery's subsequent actions."
+  },
+  {
+    "id": "src-byfaith-memorial-departure-2022",
+    "title": "Missouri Presbytery Explains Actions Regarding Memorial Presbyterian Church",
+    "publisher": "byFaith",
+    "date": "2022",
+    "url": "https://byfaithonline.com/missouri-presbytery-explains-actions-regarding-memorial-pres/",
+    "source_type": "denominational_news_republishing_presbytery_statement",
+    "accessed": "2026-09-03",
+    "notes": "Records Memorial's November 18, 2022 vote to withdraw and Missouri Presbytery's December 6 acknowledgment, plus minister-status actions."
   },
   {
     "id": "src-garris-letter-1",
