@@ -1,0 +1,172 @@
+[
+  {
+    "id": "mike-khandjian",
+    "name": "Mike Khandjian",
+    "ordination": "Teaching Elder",
+    "current_role": "Senior Pastor",
+    "current_organization": "chapelgate",
+    "denominational_status": "PCA",
+    "current_role_source_ids": ["src-chapelgate-khandjian-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "irwyn-ince",
+    "name": "Irwyn Ince",
+    "ordination": "Teaching Elder",
+    "current_role": "Lead Pastor",
+    "current_organization": "grace-mosaic",
+    "denominational_status": "PCA",
+    "current_role_source_ids": ["src-grace-mosaic-team-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "david-richter",
+    "name": "David Richter",
+    "ordination": "Teaching Elder",
+    "current_role": "Co-Chair, Board of Directors",
+    "current_organization": "amr",
+    "denominational_status": "PCA",
+    "current_role_source_ids": ["src-amr-team-2026", "src-amr-center-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "david-cassidy",
+    "name": "David Cassidy",
+    "ordination": "Teaching Elder",
+    "current_role": "Lead Pastor",
+    "current_organization": "spanish-river",
+    "denominational_status": "PCA",
+    "current_role_source_ids": ["src-spanish-river-cassidy-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "russ-whitfield",
+    "name": "Russ Whitfield",
+    "ordination": "Teaching Elder",
+    "current_role": "Assistant Coordinator for Cross-Cultural Advancement",
+    "current_organization": "ruf",
+    "denominational_status": "PCA",
+    "current_role_source_ids": ["src-ruf-whitfield-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "alexander-jun",
+    "name": "Alexander Jun",
+    "ordination": null,
+    "current_role": "Co-Founder & Chief of Strategic Partnerships & Development",
+    "current_organization": "khora-collective",
+    "denominational_status": "PCA-associated; current presbytery status not yet normalized",
+    "current_role_source_ids": ["src-khora-jun-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "james-kessler",
+    "name": "James Kessler",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "current status requires verification",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "greg-thompson",
+    "name": "Greg Thompson",
+    "ordination": "Teaching Elder (historical PCA role)",
+    "current_role": "Executive Director, Voices Underground; Visiting Theologian for Mission, Grace Mosaic",
+    "current_organization": "voices-underground",
+    "denominational_status": "current PCA ministerial status not established in v0.1",
+    "current_role_source_ids": ["src-greg-thompson-uva"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "duke-kwon",
+    "name": "Duke Kwon",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-associated; current role normalization pending",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "justin-adour",
+    "name": "Justin Adour",
+    "ordination": "Teaching Elder",
+    "current_role": "Executive Director, Pray March Act; Senior Pastor, Redeemer East Harlem",
+    "current_organization": "pray-march-act",
+    "denominational_status": "PCA",
+    "current_role_source_ids": ["src-pma-adour-2026", "src-pma-adour-bio-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "josiah-carey",
+    "name": "Josiah Carey",
+    "ordination": "Teaching Elder",
+    "current_role": "UVA RUF Campus Minister (role stated in 2024 source; current-role refresh pending)",
+    "current_organization": "ruf",
+    "denominational_status": "PCA / Blue Ridge in 2024 source",
+    "current_role_source_ids": ["src-garris-letter-1"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "dan-adamson",
+    "name": "Dan Adamson",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA in 2024 source; current role normalization pending",
+    "current_role_source_ids": ["src-garris-letter-1"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "owen-lee",
+    "name": "Owen Lee",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-associated; current role normalization pending",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "charles-mcknight",
+    "name": "Charles McKnight",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": "mna",
+    "denominational_status": "PCA-associated; current role normalization pending",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "joel-st-clair",
+    "name": "Joel St. Clair",
+    "ordination": "Teaching Elder",
+    "current_role": "Co-Chair, Board of Directors",
+    "current_organization": "amr",
+    "denominational_status": "PCA-associated",
+    "current_role_source_ids": ["src-amr-team-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "sean-lucas",
+    "name": "Sean Lucas",
+    "ordination": "Teaching Elder",
+    "current_role": "Content Team Standing Team Leader",
+    "current_organization": "amr",
+    "denominational_status": "PCA-associated",
+    "current_role_source_ids": ["src-amr-team-2026"],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "geoff-ziegler",
+    "name": "Geoff Ziegler",
+    "ordination": "Teaching Elder",
+    "current_role": "Secretary, Board of Directors",
+    "current_organization": "amr",
+    "denominational_status": "PCA-associated",
+    "current_role_source_ids": ["src-amr-team-2026"],
+    "profile_status": "seeded"
+  }
+]
