@@ -7,6 +7,8 @@ const readJson = (name) => JSON.parse(fs.readFileSync(path.join(root, 'data', `$
 
 const people = readJson('people');
 const organizations = readJson('organizations');
+const churches = readJson('churches');
+const presbyteries = readJson('presbyteries');
 const events = readJson('events');
 const affiliations = readJson('affiliations');
 const sources = readJson('sources');
@@ -28,6 +30,8 @@ function indexById(items, label) {
 
 const personMap = indexById(people, 'people');
 const organizationMap = indexById(organizations, 'organizations');
+const churchMap = indexById(churches, 'churches');
+const presbyteryMap = indexById(presbyteries, 'presbyteries');
 const eventMap = indexById(events, 'events');
 const sourceMap = indexById(sources, 'sources');
 indexById(affiliations, 'affiliations');
@@ -44,6 +48,18 @@ for (const person of people) {
     errors.push(`people:${person.id}: unknown current_organization ${person.current_organization}`);
   }
   checkSources(`people:${person.id}`, person.current_role_source_ids);
+}
+
+for (const presbytery of presbyteries) {
+  if (!presbytery.name) errors.push(`presbyteries:${presbytery.id}: missing name`);
+}
+
+for (const church of churches) {
+  if (!church.name) errors.push(`churches:${church.id}: missing name`);
+  if (church.presbytery_id && !presbyteryMap.has(church.presbytery_id)) {
+    errors.push(`churches:${church.id}: unknown presbytery_id ${church.presbytery_id}`);
+  }
+  checkSources(`churches:${church.id}`, church.source_ids);
 }
 
 for (const event of events) {
@@ -65,7 +81,11 @@ for (const affiliation of affiliations) {
     errors.push(`affiliations:${affiliation.id}: unknown event target ${affiliation.target_id}`);
   } else if (affiliation.target_type === 'person' && !personMap.has(affiliation.target_id)) {
     errors.push(`affiliations:${affiliation.id}: unknown person target ${affiliation.target_id}`);
-  } else if (!['organization', 'event', 'person'].includes(affiliation.target_type)) {
+  } else if (affiliation.target_type === 'church' && !churchMap.has(affiliation.target_id)) {
+    errors.push(`affiliations:${affiliation.id}: unknown church target ${affiliation.target_id}`);
+  } else if (affiliation.target_type === 'presbytery' && !presbyteryMap.has(affiliation.target_id)) {
+    errors.push(`affiliations:${affiliation.id}: unknown presbytery target ${affiliation.target_id}`);
+  } else if (!['organization', 'event', 'person', 'church', 'presbytery'].includes(affiliation.target_type)) {
     errors.push(`affiliations:${affiliation.id}: unsupported target_type ${affiliation.target_type}`);
   }
 
@@ -82,9 +102,6 @@ for (const affiliation of affiliations) {
 for (const source of sources) {
   if (!source.title) errors.push(`sources:${source.id}: missing title`);
 
-  // Most sources should have a public HTTPS URL. A preserved/local archive may
-  // intentionally lack one while its raw copy or manifest is being stored in
-  // the repository. Do not force an invented external URL for local evidence.
   const isLocalArchive = typeof source.source_type === 'string' && source.source_type.includes('local');
   if (!source.url && !isLocalArchive) errors.push(`sources:${source.id}: missing url`);
   if (source.url && !/^https:\/\//.test(source.url)) errors.push(`sources:${source.id}: URL must use https`);
@@ -96,4 +113,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-console.log(`Validated ${people.length} people, ${organizations.length} organizations, ${events.length} events, ${affiliations.length} affiliations, and ${sources.length} sources.`);
+console.log(`Validated ${people.length} people, ${churches.length} churches, ${presbyteries.length} presbyteries, ${organizations.length} organizations, ${events.length} events, ${affiliations.length} affiliations, and ${sources.length} sources.`);
