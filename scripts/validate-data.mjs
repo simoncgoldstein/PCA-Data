@@ -81,7 +81,12 @@ for (const affiliation of affiliations) {
 
 for (const source of sources) {
   if (!source.title) errors.push(`sources:${source.id}: missing title`);
-  if (!source.url) errors.push(`sources:${source.id}: missing url`);
+
+  // Most sources should have a public HTTPS URL. A preserved/local archive may
+  // intentionally lack one while its raw copy or manifest is being stored in
+  // the repository. Do not force an invented external URL for local evidence.
+  const isLocalArchive = typeof source.source_type === 'string' && source.source_type.includes('local');
+  if (!source.url && !isLocalArchive) errors.push(`sources:${source.id}: missing url`);
   if (source.url && !/^https:\/\//.test(source.url)) errors.push(`sources:${source.id}: URL must use https`);
 }
 
