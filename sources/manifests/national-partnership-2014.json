@@ -1,0 +1,18 @@
+{
+  "source_id": "np-emails-2014",
+  "title": "National Partnership Emails — 2014",
+  "document_date_range": "2014-01-02/2014-12-30",
+  "source_type": "primary_leaked_email_archive",
+  "original_public_index": "https://jude3pca.org/national-partnership-emails/",
+  "public_mirror_url": "https://s3.amazonaws.com/5mt.jude3pca.org/2023/02/15194812/2014-emails.pdf",
+  "retrieved_for_research": "2026-09-03",
+  "raw_local_path": "sources/raw/national-partnership/2014-emails.pdf",
+  "raw_copy_status": "pending_binary_ingest",
+  "page_count": 67,
+  "notes": [
+    "The archive contains explicit named NP committee rosters in addition to Additions lists.",
+    "Mike Khandjian is explicitly called an 'NP member and organizer of The Fellowship Dinner'; the same passage says the Fellowship was completely independent of the NP but had a high degree of overlap.",
+    "Committee rosters prefaced as current names of NP on the Committee of Commissioners are treated as direct membership evidence for the named men at that date.",
+    "Running totals fluctuate during the year, so raw occurrences are preserved and normalized separately from membership-count arithmetic."
+  ]
+}
