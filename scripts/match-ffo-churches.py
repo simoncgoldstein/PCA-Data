@@ -142,6 +142,11 @@ for row in ffo:
                 "signals": sorted(set(info["signals"])),
                 "church_name": church_by_id[cid].get("name"),
                 "presbytery_as_printed": church_by_id[cid].get("presbytery_as_printed"),
+                "address_full": church_by_id[cid].get("address_full"),
+                "website": church_by_id[cid].get("website"),
+                "phone": church_by_id[cid].get("phone"),
+                "pastor_as_printed": church_by_id[cid].get("pastor_as_printed"),
+                "source_record_id": church_by_id[cid].get("source_record_id"),
                 "duplicate_review_required": church_by_id[cid].get("duplicate_review_required", False),
             }
             for cid, info in candidates.items()
@@ -208,12 +213,15 @@ for result in results:
         }
     )
 
+review_queue = [result for result in results if result["match_status"] != "auto_matched"]
+
 metadata = {
     "source_dataset": "Save the PCA Functional Female Officer dataset, 2026-02-08",
     "pca_church_snapshot": "2026-08-31 directory / 2026-09-03 KML capture",
     "total_flagged_records": len(results),
     "match_counts": dict(counts),
     "auto_matched_assessments": len(assessments),
+    "review_queue_records": len(review_queue),
     "rules": {
         "person_level_inference": False,
         "unmatched_records_preserved": True,
@@ -225,4 +233,5 @@ metadata = {
 (outdir / "match-metadata.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
 (outdir / "ffo-church-crosswalk.json").write_text(json.dumps(results, indent=2) + "\n", encoding="utf-8")
 (outdir / "church-assessments-high-confidence.json").write_text(json.dumps(assessments, indent=2) + "\n", encoding="utf-8")
+(outdir / "review-queue.json").write_text(json.dumps(review_queue, indent=2) + "\n", encoding="utf-8")
 print(json.dumps(metadata, indent=2))
