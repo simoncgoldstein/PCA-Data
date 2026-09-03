@@ -1,0 +1,40 @@
+[
+  {
+    "publication_id": "heal-us-emmanuel-2016",
+    "contributors": [
+      "Lance Lewis", "Howard Brown", "Alexander Jun", "Mike Higgins", "Stan Long", "Timothy R. LeCroy", "Otis W. Pickett", "Sam Wheatley", "Dennis Hermerding", "Mark Peach", "Samuel N. Graham", "Jonathan Price", "Walter Henegar", "Chris Granberry", "Kevin Twit", "Doug Serven", "Bobby Griffith", "Sean Michael Lucas", "Craig Garriott", "William Castro", "Gregory A. Ward", "Barry Henning", "Irwyn Ince", "Duke L. Kwon", "Mike Khandjian", "Kenneth Foster", "Scott Sauls", "Russ Whitfield", "Jonathan Edgar", "Joel St. Clair"
+    ],
+    "known_person_links": {
+      "Alexander Jun": "alexander-jun",
+      "Sean Michael Lucas": "sean-lucas",
+      "Irwyn Ince": "irwyn-ince",
+      "Duke L. Kwon": "duke-kwon",
+      "Mike Khandjian": "mike-khandjian",
+      "Russ Whitfield": "russ-whitfield",
+      "Joel St. Clair": "joel-st-clair"
+    }
+  },
+  {
+    "publication_id": "co-laborers-co-heirs-2019",
+    "contributors": [
+      "Brittany Smith", "Doug Serven", "Scott Sauls", "Paige Britton", "Greg Perry", "Jessica Ribera", "Wendy Alsup", "Maria Garriott", "Rondi Lauterbach", "Sean Lucas"
+    ],
+    "preface": "Alexander Jun",
+    "known_person_links": {
+      "Sean Lucas": "sean-lucas",
+      "Alexander Jun": "alexander-jun"
+    }
+  },
+  {
+    "publication_id": "hear-us-emmanuel-2020",
+    "contributors": [
+      "Lindsay Brooks", "Ereke Bruce", "Becky Carlozzi", "Hace Cargo", "Mark Dalbey", "Sherrene DeLong", "Reed DePace", "William Edgar", "Ronnie Garcia", "Maria Garriott", "Ashley Hales", "Geoff Henderson", "Emily Hubbard", "Irwyn Ince", "Barbara Jones", "Alexander Jun", "Edward Koh", "Duke Kwon", "Al LaCour", "Moses Lee", "Daniel Murphree", "Mark Peach", "Mike Philliber", "Lisa Robinson Spencer", "Elissa Weichbrodt", "Ashley Williams", "Rob Wootton", "Robin Wootton", "Ryan Zhang"
+    ],
+    "foreword": "Randy Nabors",
+    "known_person_links": {
+      "Irwyn Ince": "irwyn-ince",
+      "Alexander Jun": "alexander-jun",
+      "Duke Kwon": "duke-kwon"
+    }
+  }
+]
