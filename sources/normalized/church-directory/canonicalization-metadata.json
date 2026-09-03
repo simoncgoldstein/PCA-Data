@@ -1,0 +1,12 @@
+{
+  "raw_placemarks": 1977,
+  "canonical_church_entities": 1970,
+  "exact_duplicate_groups_collapsed": 6,
+  "source_placemarks_collapsed_into_existing_entities": 7,
+  "rules": {
+    "merge_requires_importer_exact_duplicate_group": true,
+    "same_name_alone_never_merges": true,
+    "all_locations_and_source_ids_preserved": true,
+    "pastor_field_creates_person_node": false
+  }
+}
