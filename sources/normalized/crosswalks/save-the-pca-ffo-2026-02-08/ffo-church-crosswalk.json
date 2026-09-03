@@ -1,0 +1,4626 @@
+[
+  {
+    "ffo_source_row": 2,
+    "ffo_church_as_printed": "Ascension Church of Phoenix",
+    "ffo_presbytery_as_printed": "Arizona",
+    "ffo_website": "ascensionphx.org",
+    "ffo_phone": "601-209-5609",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "ascension-church-of-phoenix-47c904",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "ascension-church-of-phoenix-47c904",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Ascension Church of Phoenix",
+        "presbytery_as_printed": "Arizona",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 15,
+    "ffo_church_as_printed": "New Valley Church",
+    "ffo_presbytery_as_printed": "Arizona",
+    "ffo_website": "www.newvalleychurch.org",
+    "ffo_phone": "480-940-5560",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-valley-church-c7cc86",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-valley-church-c7cc86",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New Valley Church",
+        "presbytery_as_printed": "Arizona",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 48,
+    "ffo_church_as_printed": "Hope Presbyterian Church of Crozet",
+    "ffo_presbytery_as_printed": "Blue Ridge",
+    "ffo_website": "www.hopecrozet.org",
+    "ffo_phone": "434-829-2181",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "hope-presbyterian-church-of-crozet-063385",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "hope-presbyterian-church-of-crozet-063385",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Presbyterian Church of Crozet",
+        "presbytery_as_printed": "Blue Ridge",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 53,
+    "ffo_church_as_printed": "Trinity Presbyterian Church",
+    "ffo_presbytery_as_printed": "Blue Ridge",
+    "ffo_website": "www.trinitycville.org",
+    "ffo_phone": "434-977-3700",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-23",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-presbyterian-church-96d06b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-presbyterian-church-96d06b",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian Church",
+        "presbytery_as_printed": "Blue Ridge",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 62,
+    "ffo_church_as_printed": "Downtown Presbyterian Church",
+    "ffo_presbytery_as_printed": "Calvary",
+    "ffo_website": "www.downtownpres.org",
+    "ffo_phone": "864-608-5529",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "downtown-presbyterian-church-8123d0",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "downtown-presbyterian-church-8123d0",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Downtown Presbyterian Church",
+        "presbytery_as_printed": "Calvary",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 71,
+    "ffo_church_as_printed": "Grace & Peace Presbyterian Church",
+    "ffo_presbytery_as_printed": "Calvary",
+    "ffo_website": "graceandpeacepres.com",
+    "ffo_phone": "864-283-6603",
+    "functional_female_elders": null,
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-peace-presbyterian-church-0cd69b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-peace-presbyterian-church-0cd69b",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace & Peace Presbyterian Church",
+        "presbytery_as_printed": "Calvary",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 104,
+    "ffo_church_as_printed": "Lighthouse Presbyterian Church",
+    "ffo_presbytery_as_printed": "Canada West",
+    "ffo_website": "lighthousechurch.ca",
+    "ffo_phone": "250-818-9252",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "lighthouse-presbyterian-church-4ec8c4",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "lighthouse-presbyterian-church-4ec8c4",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Lighthouse Presbyterian Church",
+        "presbytery_as_printed": "Canada West",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 119,
+    "ffo_church_as_printed": "NorthCross Church",
+    "ffo_presbytery_as_printed": "Catawba Valley",
+    "ffo_website": "www.northcrosschurch.com",
+    "ffo_phone": "704-237-4853",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "northcross-church-aac629",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "northcross-church-aac629",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "NorthCross Church",
+        "presbytery_as_printed": "Catawba Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 124,
+    "ffo_church_as_printed": "StoneBridge Church Community",
+    "ffo_presbytery_as_printed": "Catawba Valley",
+    "ffo_website": "www.stonebridge.org",
+    "ffo_phone": "704-549-8272",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "stonebridge-church-community-2164f3",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "stonebridge-church-community-2164f3",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "StoneBridge Church Community",
+        "presbytery_as_printed": "Catawba Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 126,
+    "ffo_church_as_printed": "Christ Central Church",
+    "ffo_presbytery_as_printed": "Central Carolina",
+    "ffo_website": "www.christcentralchurch.com",
+    "ffo_phone": "704-608-9146",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-22",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-central-church-6be159",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-central-church-6be159",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Central Church",
+        "presbytery_as_printed": "Central Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 138,
+    "ffo_church_as_printed": "Hope Community Church",
+    "ffo_presbytery_as_printed": "Central Carolina",
+    "ffo_website": "www.hopecommunity.com",
+    "ffo_phone": "704-521-1033",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-23",
+    "match_status": "review_required",
+    "matched_church_id": null,
+    "match_confidence": "candidate",
+    "match_reason": "ambiguous_or_weaker_match",
+    "candidates": [
+      {
+        "church_id": "hope-community-church-f2f19b",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Community Church",
+        "presbytery_as_printed": "Central Carolina",
+        "duplicate_review_required": true
+      },
+      {
+        "church_id": "hope-community-church-98cd8a",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Community Church",
+        "presbytery_as_printed": "Central Carolina",
+        "duplicate_review_required": true
+      },
+      {
+        "church_id": "hope-community-church-d65574",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Community Church",
+        "presbytery_as_printed": "Central Carolina",
+        "duplicate_review_required": true
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 148,
+    "ffo_church_as_printed": "Vive Charlotte Church",
+    "ffo_presbytery_as_printed": "Central Carolina",
+    "ffo_website": "www.vivecharlotte.com",
+    "ffo_phone": "281-622-9409",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "vive-charlotte-church-e71739",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "vive-charlotte-church-e71739",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Vive Charlotte Church",
+        "presbytery_as_printed": "Central Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 149,
+    "ffo_church_as_printed": "West Charlotte Church at Freedom",
+    "ffo_presbytery_as_printed": "Central Carolina",
+    "ffo_website": "westcharlottechurch.com",
+    "ffo_phone": "704-394-8525",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "west-charlotte-church-at-freedom-ad203d",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "west-charlotte-church-at-freedom-ad203d",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "West Charlotte Church at Freedom",
+        "presbytery_as_printed": "Central Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 164,
+    "ffo_church_as_printed": "Lake Baldwin Church",
+    "ffo_presbytery_as_printed": "Central Florida",
+    "ffo_website": "www.lakebaldwinchurch.com",
+    "ffo_phone": "407-802-7100",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "lake-baldwin-church-647541",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "lake-baldwin-church-647541",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Lake Baldwin Church",
+        "presbytery_as_printed": "Central Florida",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 170,
+    "ffo_church_as_printed": "NewCity Orlando",
+    "ffo_presbytery_as_printed": "Central Florida",
+    "ffo_website": "www.newcityorlando.com",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "newcity-orlando-3456ea",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "newcity-orlando-3456ea",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "NewCity Orlando",
+        "presbytery_as_printed": "Central Florida",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 217,
+    "ffo_church_as_printed": "Redeemer Presbyterian Church",
+    "ffo_presbytery_as_printed": "Central Indiana",
+    "ffo_website": "www.redeemindy.org",
+    "ffo_phone": "317-238-5487",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-presbyterian-church-c553bd",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-presbyterian-church-c553bd",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church",
+        "presbytery_as_printed": "Central Indiana",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "fountain-square-presbyterian-church-82f3be",
+        "score": 100,
+        "signals": [
+          "exact_phone"
+        ],
+        "church_name": "Fountain Square Presbyterian Church",
+        "presbytery_as_printed": "Central Indiana",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 223,
+    "ffo_church_as_printed": "Aisquith Presbyterian Church",
+    "ffo_presbytery_as_printed": "Chesapeake",
+    "ffo_website": "www.aisquith.org",
+    "ffo_phone": "410-444-4598",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "aisquith-presbyterian-church-deebec",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "aisquith-presbyterian-church-deebec",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Aisquith Presbyterian Church",
+        "presbytery_as_printed": "Chesapeake",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 225,
+    "ffo_church_as_printed": "Chapelgate Presbyterian Church",
+    "ffo_presbytery_as_printed": "Chesapeake",
+    "ffo_website": "www.chapelgate.org",
+    "ffo_phone": "410-442-5800",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "chapelgate-presbyterian-church-70ad6e",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "chapelgate-presbyterian-church-70ad6e",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Chapelgate Presbyterian Church",
+        "presbytery_as_printed": "Chesapeake",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 230,
+    "ffo_church_as_printed": "DaySpring Presbyterian Church",
+    "ffo_presbytery_as_printed": "Chesapeake",
+    "ffo_website": "www.dayspringlife.org",
+    "ffo_phone": "410-582-9159",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "dayspring-presbyterian-church-fa455f",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "dayspring-presbyterian-church-fa455f",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "DaySpring Presbyterian Church",
+        "presbytery_as_printed": "Chesapeake",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 233,
+    "ffo_church_as_printed": "Faith Christian Fellowship Church",
+    "ffo_presbytery_as_printed": "Chesapeake",
+    "ffo_website": "www.fcfchurch.org",
+    "ffo_phone": "410-323-0202",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "faith-christian-fellowship-church-baabef",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "faith-christian-fellowship-church-baabef",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Faith Christian Fellowship Church",
+        "presbytery_as_printed": "Chesapeake",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 262,
+    "ffo_church_as_printed": "Covenant Presbyterian Church",
+    "ffo_presbytery_as_printed": "Chicago Metro",
+    "ffo_website": "www.covenantchicago.org",
+    "ffo_phone": "773-486-9590",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "covenant-presbyterian-church-2a16c5",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "covenant-presbyterian-church-2a16c5",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Covenant Presbyterian Church",
+        "presbytery_as_printed": "Chicago Metro",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "boulevard-presbyterian-church-539bc5",
+        "score": 100,
+        "signals": [
+          "exact_phone"
+        ],
+        "church_name": "Boulevard Presbyterian Church",
+        "presbytery_as_printed": "Chicago Metro",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 271,
+    "ffo_church_as_printed": "Living Hope Church, Chicago",
+    "ffo_presbytery_as_printed": "Chicago Metro",
+    "ffo_website": "www.livinghopechicago.org",
+    "ffo_phone": "708-280-8779",
+    "functional_female_elders": null,
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "living-hope-church-chicago-e04cd6",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "living-hope-church-chicago-e04cd6",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Living Hope Church, Chicago",
+        "presbytery_as_printed": "Chicago Metro",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 277,
+    "ffo_church_as_printed": "The Redemption Church",
+    "ffo_presbytery_as_printed": "Chicago Metro",
+    "ffo_website": "theredemptionchurch.com",
+    "ffo_phone": "847-984-0872",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "the-redemption-church-1dec40",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "the-redemption-church-1dec40",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "The Redemption Church",
+        "presbytery_as_printed": "Chicago Metro",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "west-loop-5648f6",
+        "score": 295,
+        "signals": [
+          "exact_phone",
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "West Loop",
+        "presbytery_as_printed": "Chicago Metro",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 327,
+    "ffo_church_as_printed": "Christ Church Toronto",
+    "ffo_presbytery_as_printed": "Eastern Canada",
+    "ffo_website": "www.christchurchtoronto.ca",
+    "ffo_phone": "416-880-0506",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-church-toronto-de8a1a",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-church-toronto-de8a1a",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Church Toronto",
+        "presbytery_as_printed": "Eastern Canada",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 331,
+    "ffo_church_as_printed": "Grace Toronto Church",
+    "ffo_presbytery_as_printed": "Eastern Canada",
+    "ffo_website": "www.gracetoronto.ca",
+    "ffo_phone": "416-860-0895",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-toronto-church-4bf88f",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-toronto-church-4bf88f",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Toronto Church",
+        "presbytery_as_printed": "Eastern Canada",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 344,
+    "ffo_church_as_printed": "Christ Central Church Durham",
+    "ffo_presbytery_as_printed": "Eastern Carolina",
+    "ffo_website": "christcentraldurham.com",
+    "ffo_phone": "919-908-7787",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-central-church-9d877e",
+    "match_confidence": "high",
+    "match_reason": "exact_phone+exact_url+same_website_host",
+    "candidates": [
+      {
+        "church_id": "christ-central-church-9d877e",
+        "score": 295,
+        "signals": [
+          "exact_phone",
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "Christ Central Church",
+        "presbytery_as_printed": "Eastern Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 348,
+    "ffo_church_as_printed": "Christ Our Hope Church",
+    "ffo_presbytery_as_printed": "Eastern Carolina",
+    "ffo_website": "www.christourhopechurch.com",
+    "ffo_phone": "-",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-our-hope-church-2f2bf1",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-our-hope-church-2f2bf1",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Our Hope Church",
+        "presbytery_as_printed": "Eastern Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 351,
+    "ffo_church_as_printed": "Christ The King Presbyterian Church",
+    "ffo_presbytery_as_printed": "Eastern Carolina",
+    "ffo_website": "ctkraleigh.org",
+    "ffo_phone": "919-546-0515",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-the-king-presbyterian-church-a145a3",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-the-king-presbyterian-church-a145a3",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ The King Presbyterian Church",
+        "presbytery_as_printed": "Eastern Carolina",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "christ-the-king-church-f49014",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ the King Church",
+        "presbytery_as_printed": "Eastern Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 356,
+    "ffo_church_as_printed": "Midtown Community Church",
+    "ffo_presbytery_as_printed": "Eastern Carolina",
+    "ffo_website": "www.midtown-church.org",
+    "ffo_phone": "919-601-3903",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "midtown-community-church-066504",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "midtown-community-church-066504",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Midtown Community Church",
+        "presbytery_as_printed": "Eastern Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 361,
+    "ffo_church_as_printed": "Redeemer Presbyterian Church",
+    "ffo_presbytery_as_printed": "Eastern Carolina",
+    "ffo_website": "www.redeemerpca.com",
+    "ffo_phone": "919-518-2370",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-presbyterian-church-32397d",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-presbyterian-church-32397d",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church",
+        "presbytery_as_printed": "Eastern Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 363,
+    "ffo_church_as_printed": "Trinity Park Church",
+    "ffo_presbytery_as_printed": "Eastern Carolina",
+    "ffo_website": "trinityparkchurch.org",
+    "ffo_phone": "919-439-3718",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-park-church-640ae4",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-park-church-640ae4",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Park Church",
+        "presbytery_as_printed": "Eastern Carolina",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 368,
+    "ffo_church_as_printed": "Calvary Presbyterian Church",
+    "ffo_presbytery_as_printed": "Eastern Pennsylvania",
+    "ffo_website": "www.calvary-wg.org",
+    "ffo_phone": "215-659-0554",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "calvary-presbyterian-church-6c3769",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "calvary-presbyterian-church-6c3769",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Calvary Presbyterian Church",
+        "presbytery_as_printed": "Eastern Pennsylvania",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 377,
+    "ffo_church_as_printed": "Gracepoint North Church",
+    "ffo_presbytery_as_printed": "Eastern Pennsylvania",
+    "ffo_website": "www.gracepointnorth.org",
+    "ffo_phone": "323-524-8724",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "gracepoint-north-church-db5fec",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "gracepoint-north-church-db5fec",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Gracepoint North Church",
+        "presbytery_as_printed": "Eastern Pennsylvania",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 379,
+    "ffo_church_as_printed": "Hope MontCo",
+    "ffo_presbytery_as_printed": "Eastern Pennsylvania",
+    "ffo_website": "hopemontco.org",
+    "ffo_phone": "484-681-2829",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-25",
+    "match_status": "unmatched",
+    "matched_church_id": null,
+    "match_confidence": null,
+    "match_reason": null,
+    "candidates": []
+  },
+  {
+    "ffo_source_row": 382,
+    "ffo_church_as_printed": "New Life Presbyterian Church",
+    "ffo_presbytery_as_printed": "Eastern Pennsylvania",
+    "ffo_website": "www.newlifedresher.org",
+    "ffo_phone": "215-641-1100",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-life-presbyterian-church-27a64a",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-life-presbyterian-church-27a64a",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New Life Presbyterian Church",
+        "presbytery_as_printed": "Eastern Pennsylvania",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 411,
+    "ffo_church_as_printed": "Red Mountain Church",
+    "ffo_presbytery_as_printed": "Evangel",
+    "ffo_website": "www.redmountainchurch.org",
+    "ffo_phone": "205-202-5682",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "red-mountain-church-be7733",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "red-mountain-church-be7733",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Red Mountain Church",
+        "presbytery_as_printed": "Evangel",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 514,
+    "ffo_church_as_printed": "Red Tree Presbyterian Church",
+    "ffo_presbytery_as_printed": "Great Lakes",
+    "ffo_website": "redtreeannarbor.com",
+    "ffo_phone": "734-746-5022",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "red-tree-presbyterian-church-e8aa26",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "red-tree-presbyterian-church-e8aa26",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Red Tree Presbyterian Church",
+        "presbytery_as_printed": "Great Lakes",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 523,
+    "ffo_church_as_printed": "University Reformed Church",
+    "ffo_presbytery_as_printed": "Great Lakes",
+    "ffo_website": "www.universityreformedchurch.org",
+    "ffo_phone": "517-351-6810",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "university-reformed-church-35dc2e",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "university-reformed-church-35dc2e",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "University Reformed Church",
+        "presbytery_as_printed": "Great Lakes",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 578,
+    "ffo_church_as_printed": "Cornerstone Presbyterian Church",
+    "ffo_presbytery_as_printed": "Heritage",
+    "ffo_website": "www.cornerstonepca.com",
+    "ffo_phone": "610-255-5512",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "cornerstone-presbyterian-church-c81a1f",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "cornerstone-presbyterian-church-c81a1f",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Cornerstone Presbyterian Church",
+        "presbytery_as_printed": "Heritage",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 586,
+    "ffo_church_as_printed": "Grace Church PCA",
+    "ffo_presbytery_as_printed": "Heritage",
+    "ffo_website": "www.gracedover.com",
+    "ffo_phone": "302-734-8150",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-church-pca-dcdc6f",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-church-pca-dcdc6f",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Church PCA",
+        "presbytery_as_printed": "Heritage",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 610,
+    "ffo_church_as_printed": "Grace Blue Ridge",
+    "ffo_presbytery_as_printed": "Highlands",
+    "ffo_website": "www.graceblueridge.com",
+    "ffo_phone": "828-393-5147",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-blue-ridge-7a6b24",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-blue-ridge-7a6b24",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Blue Ridge",
+        "presbytery_as_printed": "Highlands",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 614,
+    "ffo_church_as_printed": "Grace Mills River",
+    "ffo_presbytery_as_printed": "Highlands",
+    "ffo_website": "www.gracemillsriver.org",
+    "ffo_phone": "828-891-2006",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-mills-river-209754",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-mills-river-209754",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Mills River",
+        "presbytery_as_printed": "Highlands",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 623,
+    "ffo_church_as_printed": "Christ Community Church",
+    "ffo_presbytery_as_printed": "Hills and Plains",
+    "ffo_website": "www.cccfay.com",
+    "ffo_phone": "479-305-0153",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-community-church-ac3441",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-community-church-ac3441",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Community Church",
+        "presbytery_as_printed": "Hills and Plains",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "christ-presbyterian-church-b97b60",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Presbyterian Church",
+        "presbytery_as_printed": "Hills and Plains",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 644,
+    "ffo_church_as_printed": "Trinity Presbyterian Church",
+    "ffo_presbytery_as_printed": "Hills and Plains",
+    "ffo_website": "www.trinityowasso.com",
+    "ffo_phone": "918-516-2772",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-presbyterian-church-d7ca77",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-presbyterian-church-d7ca77",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian Church",
+        "presbytery_as_printed": "Hills and Plains",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 650,
+    "ffo_church_as_printed": "Christ the King Presbyterian Church",
+    "ffo_presbytery_as_printed": "Houston Metro",
+    "ffo_website": "www.christtheking.com",
+    "ffo_phone": "713-892-5464",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-the-king-presbyterian-church-54ea13",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-the-king-presbyterian-church-54ea13",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ the King Presbyterian Church",
+        "presbytery_as_printed": "Houston Metro",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 654,
+    "ffo_church_as_printed": "Grace Presbyterian Church",
+    "ffo_presbytery_as_printed": "Houston Metro",
+    "ffo_website": "gpcwoodlands.org",
+    "ffo_phone": "281-296-0911",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-presbyterian-church-6d4572",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-presbyterian-church-6d4572",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Presbyterian Church",
+        "presbytery_as_printed": "Houston Metro",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 698,
+    "ffo_church_as_printed": "New City Fellowship",
+    "ffo_presbytery_as_printed": "James River",
+    "ffo_website": "www.newcityfellowship.org",
+    "ffo_phone": "540-899-5349",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-city-fellowship-74f346",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-city-fellowship-74f346",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New City Fellowship",
+        "presbytery_as_printed": "James River",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 704,
+    "ffo_church_as_printed": "Spring Run Presbyterian Church of Chesterfield County",
+    "ffo_presbytery_as_printed": "James River",
+    "ffo_website": "www.springrunpc.org",
+    "ffo_phone": "804-412-8112",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "spring-run-presbyterian-church-of-chesterfield-county-a60c2d",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "spring-run-presbyterian-church-of-chesterfield-county-a60c2d",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Spring Run Presbyterian Church of Chesterfield County",
+        "presbytery_as_printed": "James River",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 933,
+    "ffo_church_as_printed": "Atlanta Westside Presbyterian Church",
+    "ffo_presbytery_as_printed": "Metro Atlanta",
+    "ffo_website": "www.atlantawestside.org",
+    "ffo_phone": "404-567-5428",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "atlanta-westside-presbyterian-church-1cd30b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "atlanta-westside-presbyterian-church-1cd30b",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Atlanta Westside Presbyterian Church",
+        "presbytery_as_printed": "Metro Atlanta",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 934,
+    "ffo_church_as_printed": "Brookhaven Presbyterian Church",
+    "ffo_presbytery_as_printed": "Metro Atlanta",
+    "ffo_website": "www.brookhavenpres.com",
+    "ffo_phone": "404-919-3569",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "brookhaven-presbyterian-church-f36611",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "brookhaven-presbyterian-church-f36611",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Brookhaven Presbyterian Church",
+        "presbytery_as_printed": "Metro Atlanta",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 940,
+    "ffo_church_as_printed": "City Church - Eastside",
+    "ffo_presbytery_as_printed": "Metro Atlanta",
+    "ffo_website": "www.citychurcheastside.org",
+    "ffo_phone": "404-856-0183",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "city-church-eastside-492b91",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "city-church-eastside-492b91",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "City Church - Eastside",
+        "presbytery_as_printed": "Metro Atlanta",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 949,
+    "ffo_church_as_printed": "Intown Community Church",
+    "ffo_presbytery_as_printed": "Metro Atlanta",
+    "ffo_website": "http://www.intown.org/",
+    "ffo_phone": "404-633-8077",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "intown-community-church-e9f51b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "intown-community-church-e9f51b",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Intown Community Church",
+        "presbytery_as_printed": "Metro Atlanta",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 954,
+    "ffo_church_as_printed": "New City Church",
+    "ffo_presbytery_as_printed": "Metro Atlanta",
+    "ffo_website": "www.newcitydtl.org",
+    "ffo_phone": "770-765-5285",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-city-church-4e2e2c",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-city-church-4e2e2c",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New City Church",
+        "presbytery_as_printed": "Metro Atlanta",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 956,
+    "ffo_church_as_printed": "Perimeter Church",
+    "ffo_presbytery_as_printed": "Metro Atlanta",
+    "ffo_website": "www.Perimeter.org",
+    "ffo_phone": null,
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "perimeter-church-276d78",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "perimeter-church-276d78",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Perimeter Church",
+        "presbytery_as_printed": "Metro Atlanta",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 968,
+    "ffo_church_as_printed": "Astoria Community Church",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "www.astoriachurch.org",
+    "ffo_phone": "718-721-3440",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "astoria-community-church-46fbaf",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "astoria-community-church-46fbaf",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Astoria Community Church",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 969,
+    "ffo_church_as_printed": "City On A Hill Church NYC",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "www.cityonahill.nyc",
+    "ffo_phone": "-",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "city-on-a-hill-church-nyc-34bb1a",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "city-on-a-hill-church-nyc-34bb1a",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "City On A Hill Church NYC",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 972,
+    "ffo_church_as_printed": "Emmanuel Presbyterian Church",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "www.emmanuelnyc.org",
+    "ffo_phone": "212-870-3185",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "emmanuel-presbyterian-church-837cb7",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "emmanuel-presbyterian-church-837cb7",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Emmanuel Presbyterian Church",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 973,
+    "ffo_church_as_printed": "Exilic Church",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "www.exilic.com",
+    "ffo_phone": "949-413-2755",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "exilic-church-c59f68",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "exilic-church-c59f68",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Exilic Church",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 977,
+    "ffo_church_as_printed": "King's Cross Church",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "kingscrossnyc.org",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "king-apos-s-cross-church-844878",
+    "match_confidence": "high",
+    "match_reason": "exact_url+same_website_host",
+    "candidates": [
+      {
+        "church_id": "king-apos-s-cross-church-844878",
+        "score": 195,
+        "signals": [
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "King&apos;s Cross Church",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 978,
+    "ffo_church_as_printed": "Living Faith Community Church",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "www.lfcc.net",
+    "ffo_phone": "516-321-9696",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "living-faith-community-church-e09d0b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "living-faith-community-church-e09d0b",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Living Faith Community Church",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 980,
+    "ffo_church_as_printed": "North Shore Community Church",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "nscc.live",
+    "ffo_phone": "516-922-7322",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "north-shore-community-church-9b8945",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "north-shore-community-church-9b8945",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "North Shore Community Church",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 981,
+    "ffo_church_as_printed": "Redeemer East Harlem",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "www.reh.nyc",
+    "ffo_phone": "917-206-1375",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-east-harlem-6ef2a4",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-east-harlem-6ef2a4",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer East Harlem",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 984,
+    "ffo_church_as_printed": "Redeemer Presbyterian Church Downtown",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "downtown.redeemer.com",
+    "ffo_phone": "212-808-4460",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-presbyterian-church-downtown-708cd2",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-presbyterian-church-downtown-708cd2",
+        "score": 250,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church Downtown",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "redeemer-presbyterian-church-east-side-05745f",
+        "score": 100,
+        "signals": [
+          "exact_phone"
+        ],
+        "church_name": "Redeemer Presbyterian Church East Side",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 990,
+    "ffo_church_as_printed": "Uptown Community Church",
+    "ffo_presbytery_as_printed": "Metropolitan New York",
+    "ffo_website": "www.uptowncommunitychurch.com",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "uptown-community-church-b4d3fe",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "uptown-community-church-b4d3fe",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Uptown Community Church",
+        "presbytery_as_printed": "Metropolitan New York",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1056,
+    "ffo_church_as_printed": "New City South",
+    "ffo_presbytery_as_printed": "Missouri",
+    "ffo_website": "www.newcitysouth.org",
+    "ffo_phone": "314-762-9915",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-city-south-b34f21",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-city-south-b34f21",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New City South",
+        "presbytery_as_printed": "Missouri",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1060,
+    "ffo_church_as_printed": "Old Orchard Church",
+    "ffo_presbytery_as_printed": "Missouri",
+    "ffo_website": "www.oldorchardchurch.org",
+    "ffo_phone": "314-962-3795",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "old-orchard-church-3536e9",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "old-orchard-church-3536e9",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Old Orchard Church",
+        "presbytery_as_printed": "Missouri",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1063,
+    "ffo_church_as_printed": "Restoration Community Church",
+    "ffo_presbytery_as_printed": "Missouri",
+    "ffo_website": "restorationcommunity.net",
+    "ffo_phone": "314-722-6212",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "restoration-community-church-f5acdb",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "restoration-community-church-f5acdb",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Restoration Community Church",
+        "presbytery_as_printed": "Missouri",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1071,
+    "ffo_church_as_printed": "Christ Community Church",
+    "ffo_presbytery_as_printed": "Nashville",
+    "ffo_website": "www.christcommunity.org",
+    "ffo_phone": "615-468-2200",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-community-church-e52039",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-community-church-e52039",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Community Church",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "christ-presbyterian-church-2637c2",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Presbyterian Church",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1072,
+    "ffo_church_as_printed": "Christ Presbyterian Church",
+    "ffo_presbytery_as_printed": "Nashville",
+    "ffo_website": "www.christpres.org",
+    "ffo_phone": "615-373-2311",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-presbyterian-church-2637c2",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-presbyterian-church-2637c2",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Presbyterian Church",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "cool-springs-b99038",
+        "score": 295,
+        "signals": [
+          "exact_phone",
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "Cool Springs",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "music-row-263213",
+        "score": 295,
+        "signals": [
+          "exact_phone",
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "Music Row",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "christ-community-church-e52039",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Community Church",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1083,
+    "ffo_church_as_printed": "Midtown Fellowship Church",
+    "ffo_presbytery_as_printed": "Nashville",
+    "ffo_website": "www.midtownfellowship.org",
+    "ffo_phone": "615-269-9015",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "midtown-fellowship-church-54aede",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "midtown-fellowship-church-54aede",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Midtown Fellowship Church",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "12-south-b972dc",
+        "score": 295,
+        "signals": [
+          "exact_phone",
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "12 South",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "crieve-hall-04d8e7",
+        "score": 295,
+        "signals": [
+          "exact_phone",
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "Crieve Hall",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "east-nashville-a74ec1",
+        "score": 295,
+        "signals": [
+          "exact_phone",
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "East Nashville",
+        "presbytery_as_printed": "Nashville",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1119,
+    "ffo_church_as_printed": "First Presbyterian Church",
+    "ffo_presbytery_as_printed": "New York State",
+    "ffo_website": "fpcschdy.org",
+    "ffo_phone": "518-374-4546",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "first-presbyterian-church-7e759d",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "first-presbyterian-church-7e759d",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "First Presbyterian Church",
+        "presbytery_as_printed": "New York State",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1122,
+    "ffo_church_as_printed": "Hope Church",
+    "ffo_presbytery_as_printed": "New York State",
+    "ffo_website": "www.hopechurchbspa.org",
+    "ffo_phone": "518-885-7442",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "hope-church-9d71dd",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "hope-church-9d71dd",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Church",
+        "presbytery_as_printed": "New York State",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1173,
+    "ffo_church_as_printed": "New St. Peter's Presbyterian Church",
+    "ffo_presbytery_as_printed": "North Texas",
+    "ffo_website": "www.newstpeters.org",
+    "ffo_phone": "214-438-0120",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-st-peter-apos-s-presbyterian-church-e41c53",
+    "match_confidence": "high",
+    "match_reason": "exact_phone+exact_url+same_website_host",
+    "candidates": [
+      {
+        "church_id": "new-st-peter-apos-s-presbyterian-church-e41c53",
+        "score": 295,
+        "signals": [
+          "exact_phone",
+          "exact_url",
+          "same_website_host"
+        ],
+        "church_name": "New St. Peter&apos;s Presbyterian Church",
+        "presbytery_as_printed": "North Texas",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1186,
+    "ffo_church_as_printed": "Trinity Presbyterian",
+    "ffo_presbytery_as_printed": "North Texas",
+    "ffo_website": "www.trinitypresfw.org",
+    "ffo_phone": "682-703-2120",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-presbyterian-4e7f52",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-presbyterian-4e7f52",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian",
+        "presbytery_as_printed": "North Texas",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "trinity-presbyterian-church-b39a7d",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian Church",
+        "presbytery_as_printed": "North Texas",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "trinity-presbyterian-church-4bebc9",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian Church",
+        "presbytery_as_printed": "North Texas",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1205,
+    "ffo_church_as_printed": "Grace Sacramento",
+    "ffo_presbytery_as_printed": "Northern California",
+    "ffo_website": "www.wearegracesac.org",
+    "ffo_phone": "916-737-5190",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-sacramento-8e6894",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-sacramento-8e6894",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Sacramento",
+        "presbytery_as_printed": "Northern California",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1220,
+    "ffo_church_as_printed": "Trinity Presbyterian Church",
+    "ffo_presbytery_as_printed": "Northern California",
+    "ffo_website": "www.trinityslo.org",
+    "ffo_phone": "805-471-9141",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-presbyterian-church-ef9a5b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-presbyterian-church-ef9a5b",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian Church",
+        "presbytery_as_printed": "Northern California",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "trinity-presbyterian-church-a76569",
+        "score": 150,
+        "signals": [
+          "exact_name_and_presbytery",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian Church",
+        "presbytery_as_printed": "Northern California",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1276,
+    "ffo_church_as_printed": "Covenant Community Church",
+    "ffo_presbytery_as_printed": "Ohio Valley",
+    "ffo_website": "www.covenantrichmond.org",
+    "ffo_phone": "606-261-1187",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "covenant-community-church-3a26b5",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "covenant-community-church-3a26b5",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Covenant Community Church",
+        "presbytery_as_printed": "Ohio Valley",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "covenant-presbyterian-church-da3517",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Covenant Presbyterian Church",
+        "presbytery_as_printed": "Ohio Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1284,
+    "ffo_church_as_printed": "Hope Presbyterian Church",
+    "ffo_presbytery_as_printed": "Ohio Valley",
+    "ffo_website": "hopelexington.org/",
+    "ffo_phone": "-",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "hope-presbyterian-church-729c6b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "hope-presbyterian-church-729c6b",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Presbyterian Church",
+        "presbytery_as_printed": "Ohio Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1290,
+    "ffo_church_as_printed": "Redeemer Church",
+    "ffo_presbytery_as_printed": "Ohio Valley",
+    "ffo_website": "www.redeemercincy.com",
+    "ffo_phone": "513-237-4717",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-church-c570a2",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-church-c570a2",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Church",
+        "presbytery_as_printed": "Ohio Valley",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "redeemer-presbyterian-church-b259ad",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church",
+        "presbytery_as_printed": "Ohio Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1294,
+    "ffo_church_as_printed": "Tates Creek Presbyterian Church",
+    "ffo_presbytery_as_printed": "Ohio Valley",
+    "ffo_website": "www.tcpca.org",
+    "ffo_phone": "859-272-4399",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "tates-creek-presbyterian-church-f36c67",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "tates-creek-presbyterian-church-f36c67",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Tates Creek Presbyterian Church",
+        "presbytery_as_printed": "Ohio Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1301,
+    "ffo_church_as_printed": "Christ Presbyterian Church",
+    "ffo_presbytery_as_printed": "Pacific",
+    "ffo_website": "www.cpcsb.org",
+    "ffo_phone": "805-957-4200",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-presbyterian-church-85ca59",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-presbyterian-church-85ca59",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Presbyterian Church",
+        "presbytery_as_printed": "Pacific",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1303,
+    "ffo_church_as_printed": "City Light Church",
+    "ffo_presbytery_as_printed": "Pacific",
+    "ffo_website": "www.citylightchurch.org",
+    "ffo_phone": "213-788-3343",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "unmatched",
+    "matched_church_id": null,
+    "match_confidence": null,
+    "match_reason": null,
+    "candidates": []
+  },
+  {
+    "ffo_source_row": 1304,
+    "ffo_church_as_printed": "Grace Pasadena Church, Inc.",
+    "ffo_presbytery_as_printed": "Pacific",
+    "ffo_website": "www.gracepasadena.org",
+    "ffo_phone": "626-653-6036",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-pasadena-church-inc-f30caa",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-pasadena-church-inc-f30caa",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Pasadena Church, Inc.",
+        "presbytery_as_printed": "Pacific",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1330,
+    "ffo_church_as_printed": "Evergreen Presbyterian Church",
+    "ffo_presbytery_as_printed": "Pacific Northwest",
+    "ffo_website": "evergreensalem.org",
+    "ffo_phone": "503-371-1177",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "evergreen-presbyterian-church-1af0f6",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "evergreen-presbyterian-church-1af0f6",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Evergreen Presbyterian Church",
+        "presbytery_as_printed": "Pacific Northwest",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "evergreen-presbyterian-church-27b590",
+        "score": 150,
+        "signals": [
+          "exact_name_and_presbytery",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Evergreen Presbyterian Church",
+        "presbytery_as_printed": "Pacific Northwest",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1345,
+    "ffo_church_as_printed": "Trinity Church Seattle",
+    "ffo_presbytery_as_printed": "Pacific Northwest",
+    "ffo_website": "trinitychurchseattle.org",
+    "ffo_phone": "206-488-7860",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-church-seattle-caa08e",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-church-seattle-caa08e",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Church Seattle",
+        "presbytery_as_printed": "Pacific Northwest",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1395,
+    "ffo_church_as_printed": "Cresheim Valley Church",
+    "ffo_presbytery_as_printed": "Philadelphia",
+    "ffo_website": "www.cvcpca.org",
+    "ffo_phone": "267-433-8238",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "cresheim-valley-church-f8aa86",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "cresheim-valley-church-f8aa86",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Cresheim Valley Church",
+        "presbytery_as_printed": "Philadelphia",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1399,
+    "ffo_church_as_printed": "Liberti Church of the River Wards",
+    "ffo_presbytery_as_printed": "Philadelphia",
+    "ffo_website": "libertiriverwards.org",
+    "ffo_phone": "610-850-4200",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "liberti-church-of-the-river-wards-8bbafc",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "liberti-church-of-the-river-wards-8bbafc",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Liberti Church of the River Wards",
+        "presbytery_as_printed": "Philadelphia",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1400,
+    "ffo_church_as_printed": "New Life Presbyterian Church",
+    "ffo_presbytery_as_printed": "Philadelphia",
+    "ffo_website": "www.newlifeglenside.com",
+    "ffo_phone": "215-576-0892",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-life-presbyterian-church-762038",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-life-presbyterian-church-762038",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New Life Presbyterian Church",
+        "presbytery_as_printed": "Philadelphia",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1404,
+    "ffo_church_as_printed": "Renewal Presbyterian Church",
+    "ffo_presbytery_as_printed": "Philadelphia",
+    "ffo_website": "www.renewalchurch.org",
+    "ffo_phone": "215-727-7200",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "unmatched",
+    "matched_church_id": null,
+    "match_confidence": null,
+    "match_reason": null,
+    "candidates": []
+  },
+  {
+    "ffo_source_row": 1406,
+    "ffo_church_as_printed": "Tenth Presbyterian Church",
+    "ffo_presbytery_as_printed": "Philadelphia",
+    "ffo_website": "www.tenth.org",
+    "ffo_phone": "215-735-7688",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "tenth-presbyterian-church-bcc665",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "tenth-presbyterian-church-bcc665",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Tenth Presbyterian Church",
+        "presbytery_as_printed": "Philadelphia",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1417,
+    "ffo_church_as_printed": "Renewal Presbyterian Church of the Main Line",
+    "ffo_presbytery_as_printed": "Philadelphia Metro West",
+    "ffo_website": "www.renewalmainline.org",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "renewal-presbyterian-church-of-the-main-line-618a27",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "renewal-presbyterian-church-of-the-main-line-618a27",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Renewal Presbyterian Church of the Main Line",
+        "presbytery_as_printed": "Philadelphia Metro West",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1419,
+    "ffo_church_as_printed": "Springton Lake Presbyterian Church",
+    "ffo_presbytery_as_printed": "Philadelphia Metro West",
+    "ffo_website": "www.slpca.org",
+    "ffo_phone": "610-356-4550",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "springton-lake-presbyterian-church-4c0890",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "springton-lake-presbyterian-church-4c0890",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Springton Lake Presbyterian Church",
+        "presbytery_as_printed": "Philadelphia Metro West",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1420,
+    "ffo_church_as_printed": "Christ Church Greensboro",
+    "ffo_presbytery_as_printed": "Piedmont Triad",
+    "ffo_website": "www.christchurchgso.com",
+    "ffo_phone": "336-209-5659",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-church-greensboro-851598",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-church-greensboro-851598",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Church Greensboro",
+        "presbytery_as_printed": "Piedmont Triad",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1429,
+    "ffo_church_as_printed": "Redeemer Presbyterian Church",
+    "ffo_presbytery_as_printed": "Piedmont Triad",
+    "ffo_website": "www.redeemerws.org",
+    "ffo_phone": "336-724-2217",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-presbyterian-church-9b34e2",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-presbyterian-church-9b34e2",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church",
+        "presbytery_as_printed": "Piedmont Triad",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1430,
+    "ffo_church_as_printed": "Salem Presbyterian Church",
+    "ffo_presbytery_as_printed": "Piedmont Triad",
+    "ffo_website": "www.salempresws.org",
+    "ffo_phone": "336-298-8923",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "salem-presbyterian-church-16d674",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "salem-presbyterian-church-16d674",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Salem Presbyterian Church",
+        "presbytery_as_printed": "Piedmont Triad",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1433,
+    "ffo_church_as_printed": "Trinity Church",
+    "ffo_presbytery_as_printed": "Piedmont Triad",
+    "ffo_website": "trinitychurchws.com",
+    "ffo_phone": "336-701-6030",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-church-pca-ca0df1",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-church-pca-ca0df1",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Church (PCA)",
+        "presbytery_as_printed": "Piedmont Triad",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1441,
+    "ffo_church_as_printed": "Grace and Peace Presbyterian Church",
+    "ffo_presbytery_as_printed": "Pittsburgh",
+    "ffo_website": "www.graceandpeacepgh.org",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "unmatched",
+    "matched_church_id": null,
+    "match_confidence": null,
+    "match_reason": null,
+    "candidates": []
+  },
+  {
+    "ffo_source_row": 1460,
+    "ffo_church_as_printed": "Grace Chapel",
+    "ffo_presbytery_as_printed": "Platte Valley",
+    "ffo_website": "www.gracepca.com",
+    "ffo_phone": "402-484-8555",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-chapel-d22eed",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-chapel-d22eed",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Chapel",
+        "presbytery_as_printed": "Platte Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1464,
+    "ffo_church_as_printed": "Redeemer PCA",
+    "ffo_presbytery_as_printed": "Platte Valley",
+    "ffo_website": "welcometoredeemer.com",
+    "ffo_phone": "402-937-8904",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-pca-e8ebd1",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-pca-e8ebd1",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer PCA",
+        "presbytery_as_printed": "Platte Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1478,
+    "ffo_church_as_printed": "Emmanuel Presbyterian Church",
+    "ffo_presbytery_as_printed": "Potomac",
+    "ffo_website": "www.emmanuelarlington.org",
+    "ffo_phone": "571-470-5400",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "emmanuel-presbyterian-church-0e773e",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "emmanuel-presbyterian-church-0e773e",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Emmanuel Presbyterian Church",
+        "presbytery_as_printed": "Potomac",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1484,
+    "ffo_church_as_printed": "Grace Presbyterian Church of Washington, DC",
+    "ffo_presbytery_as_printed": "Potomac",
+    "ffo_website": "www.gracedc.net",
+    "ffo_phone": "202-386-7637",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-28",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-presbyterian-church-of-washington-dc-160403",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-presbyterian-church-of-washington-dc-160403",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Presbyterian Church of Washington, DC",
+        "presbytery_as_printed": "Potomac",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1491,
+    "ffo_church_as_printed": "McLean Presbyterian Church",
+    "ffo_presbytery_as_printed": "Potomac",
+    "ffo_website": "mcleanpres.org",
+    "ffo_phone": "703-821-0800",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2026-09-28",
+    "match_status": "auto_matched",
+    "matched_church_id": "mclean-presbyterian-church-998147",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "mclean-presbyterian-church-998147",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "McLean Presbyterian Church",
+        "presbytery_as_printed": "Potomac",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "capital-herndon-ecfbc1",
+        "score": 100,
+        "signals": [
+          "exact_phone"
+        ],
+        "church_name": "Capital Herndon",
+        "presbytery_as_printed": "Potomac",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1521,
+    "ffo_church_as_printed": "Southwood Presbyterian Church",
+    "ffo_presbytery_as_printed": "Providence",
+    "ffo_website": "www.southwood.org",
+    "ffo_phone": "256-882-3085",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "southwood-presbyterian-church-1a5af9",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "southwood-presbyterian-church-1a5af9",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Southwood Presbyterian Church",
+        "presbytery_as_printed": "Providence",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1527,
+    "ffo_church_as_printed": "Christ Church Santa Fe PCA",
+    "ffo_presbytery_as_printed": "Rio Grande",
+    "ffo_website": "www.christchurchsantafe.org",
+    "ffo_phone": "505-982-8817",
+    "functional_female_elders": null,
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-26",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-church-santa-fe-pca-f47ad2",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-church-santa-fe-pca-f47ad2",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Church Santa Fe PCA",
+        "presbytery_as_printed": "Rio Grande",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1529,
+    "ffo_church_as_printed": "City Presbyterian Church Albuquerque",
+    "ffo_presbytery_as_printed": "Rio Grande",
+    "ffo_website": "www.citypresabq.com",
+    "ffo_phone": "214-218-7947",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "city-presbyterian-church-albuquerque-ed187d",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "city-presbyterian-church-albuquerque-ed187d",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "City Presbyterian Church Albuquerque",
+        "presbytery_as_printed": "Rio Grande",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1534,
+    "ffo_church_as_printed": "New City Fellowship El Paso",
+    "ffo_presbytery_as_printed": "Rio Grande",
+    "ffo_website": "newcityep.com",
+    "ffo_phone": "915-258-5213",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-city-fellowship-el-paso-bbf3ec",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-city-fellowship-el-paso-bbf3ec",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New City Fellowship El Paso",
+        "presbytery_as_printed": "Rio Grande",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1548,
+    "ffo_church_as_printed": "Denver Presbyterian Church",
+    "ffo_presbytery_as_printed": "Rocky Mountain",
+    "ffo_website": "www.denverpres.org",
+    "ffo_phone": "303-335-0447",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "denver-presbyterian-church-180b42",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "denver-presbyterian-church-180b42",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Denver Presbyterian Church",
+        "presbytery_as_printed": "Rocky Mountain",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1552,
+    "ffo_church_as_printed": "Grace and Peace Church",
+    "ffo_presbytery_as_printed": "Rocky Mountain",
+    "ffo_website": "graceandpeacecos.org",
+    "ffo_phone": "719-203-1506",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-23",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-and-peace-church-463235",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-and-peace-church-463235",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace and Peace Church",
+        "presbytery_as_printed": "Rocky Mountain",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1553,
+    "ffo_church_as_printed": "Grace and Peace Denver",
+    "ffo_presbytery_as_printed": "Rocky Mountain",
+    "ffo_website": "gpchurchdenver.org",
+    "ffo_phone": "615-969-3372",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-23",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-and-peace-denver-167935",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-and-peace-denver-167935",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace and Peace Denver",
+        "presbytery_as_printed": "Rocky Mountain",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1554,
+    "ffo_church_as_printed": "Grace Church Presbyterian",
+    "ffo_presbytery_as_printed": "Rocky Mountain",
+    "ffo_website": "www.gracefortcollins.org",
+    "ffo_phone": "970-412-8551",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-church-presbyterian-d580cc",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-church-presbyterian-d580cc",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Church Presbyterian",
+        "presbytery_as_printed": "Rocky Mountain",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1567,
+    "ffo_church_as_printed": "Saint Patrick",
+    "ffo_presbytery_as_printed": "Rocky Mountain",
+    "ffo_website": "www.saintpats.church",
+    "ffo_phone": "970-346-8812",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "saint-patrick-b6293f",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "saint-patrick-b6293f",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Saint Patrick",
+        "presbytery_as_printed": "Rocky Mountain",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1573,
+    "ffo_church_as_printed": "Village Seven Presbyterian Church",
+    "ffo_presbytery_as_printed": "Rocky Mountain",
+    "ffo_website": "www.v7pc.org",
+    "ffo_phone": "719-574-6700",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "village-seven-presbyterian-church-292802",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "village-seven-presbyterian-church-292802",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Village Seven Presbyterian Church",
+        "presbytery_as_printed": "Rocky Mountain",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1574,
+    "ffo_church_as_printed": "Waypoint Church",
+    "ffo_presbytery_as_printed": "Rocky Mountain",
+    "ffo_website": "waypointcos.org",
+    "ffo_phone": "-",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "waypoint-church-f7192f",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "waypoint-church-f7192f",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Waypoint Church",
+        "presbytery_as_printed": "Rocky Mountain",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1619,
+    "ffo_church_as_printed": "Harbor City Church",
+    "ffo_presbytery_as_printed": "South Coast",
+    "ffo_website": "www.harborcity.church",
+    "ffo_phone": "619-289-8857",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "harbor-city-church-e14b1c",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "harbor-city-church-e14b1c",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Harbor City Church",
+        "presbytery_as_printed": "South Coast",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1621,
+    "ffo_church_as_printed": "New Life Church of Irvine",
+    "ffo_presbytery_as_printed": "South Coast",
+    "ffo_website": "www.newlifeirvine.org",
+    "ffo_phone": "949-431-6777",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-life-church-of-irvine-b1b5bf",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-life-church-of-irvine-b1b5bf",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New Life Church of Irvine",
+        "presbytery_as_printed": "South Coast",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1629,
+    "ffo_church_as_printed": "Redeemer Presbyterian Church",
+    "ffo_presbytery_as_printed": "South Coast",
+    "ffo_website": "www.redeemeroc.org",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-presbyterian-church-8bfedb",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-presbyterian-church-8bfedb",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church",
+        "presbytery_as_printed": "South Coast",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1630,
+    "ffo_church_as_printed": "Redeemer Presbyterian Church of San Diego",
+    "ffo_presbytery_as_printed": "South Coast",
+    "ffo_website": "www.redeemersd.org",
+    "ffo_phone": "760-753-2535",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-presbyterian-church-of-san-diego-3c6bf5",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-presbyterian-church-of-san-diego-3c6bf5",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church of San Diego",
+        "presbytery_as_printed": "South Coast",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1631,
+    "ffo_church_as_printed": "Resurrection Presbyterian Church of San Diego",
+    "ffo_presbytery_as_printed": "South Coast",
+    "ffo_website": "resurrectionsd.com",
+    "ffo_phone": "619-387-7735",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "resurrection-presbyterian-church-of-san-diego-3d0faa",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "resurrection-presbyterian-church-of-san-diego-3d0faa",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Resurrection Presbyterian Church of San Diego",
+        "presbytery_as_printed": "South Coast",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1633,
+    "ffo_church_as_printed": "Trinity Presbyterian Church of Orange County",
+    "ffo_presbytery_as_printed": "South Coast",
+    "ffo_website": "www.trinitypresoc.org",
+    "ffo_phone": "714-515-4686",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-presbyterian-church-of-orange-county-2cdf57",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-presbyterian-church-of-orange-county-2cdf57",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian Church of Orange County",
+        "presbytery_as_printed": "South Coast",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1661,
+    "ffo_church_as_printed": "All Saints Presbyterian Church",
+    "ffo_presbytery_as_printed": "South Texas",
+    "ffo_website": "www.allsaintsaustin.org",
+    "ffo_phone": "512-732-8383",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "all-saints-presbyterian-church-8bf9ae",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "all-saints-presbyterian-church-8bf9ae",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "All Saints Presbyterian Church",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "all-saints-unidos-a138ac",
+        "score": 175,
+        "signals": [
+          "exact_phone",
+          "same_website_host"
+        ],
+        "church_name": "All Saints Unidos",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "resurrection-presbyterian-church-69c4e1",
+        "score": 100,
+        "signals": [
+          "exact_phone"
+        ],
+        "church_name": "Resurrection Presbyterian Church",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1663,
+    "ffo_church_as_printed": "Christ Church PCA of San Antonio",
+    "ffo_presbytery_as_printed": "South Texas",
+    "ffo_website": "www.christchurchsa.com",
+    "ffo_phone": "210-306-4411",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-church-pca-of-san-antonio-7fd75b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-church-pca-of-san-antonio-7fd75b",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Church PCA of San Antonio",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1671,
+    "ffo_church_as_printed": "Emmanuel Presbyterian Church",
+    "ffo_presbytery_as_printed": "South Texas",
+    "ffo_website": "www.emmanuelcedarpark.church/",
+    "ffo_phone": "512-690-2577",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "emmanuel-presbyterian-church-453784",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "emmanuel-presbyterian-church-453784",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Emmanuel Presbyterian Church",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1675,
+    "ffo_church_as_printed": "Grace+Peace Presbyterian Church of Austin",
+    "ffo_presbytery_as_printed": "South Texas",
+    "ffo_website": "graceandpeaceaustin.com",
+    "ffo_phone": "512-537-6755",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-peace-presbyterian-church-of-austin-c47adf",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-peace-presbyterian-church-of-austin-c47adf",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace+Peace Presbyterian Church of Austin",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1679,
+    "ffo_church_as_printed": "Redeemer Presbyterian Church",
+    "ffo_presbytery_as_printed": "South Texas",
+    "ffo_website": "www.redeemersa.org",
+    "ffo_phone": "210-930-4480",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-presbyterian-church-46cc84",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-presbyterian-church-46cc84",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "redeemer-presbyterian-church-6bc7b6",
+        "score": 150,
+        "signals": [
+          "exact_name_and_presbytery",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "redeemer-presbyterian-church-997943",
+        "score": 150,
+        "signals": [
+          "exact_name_and_presbytery",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Presbyterian Church",
+        "presbytery_as_printed": "South Texas",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1723,
+    "ffo_church_as_printed": "Young Meadows Presbyterian Church",
+    "ffo_presbytery_as_printed": "Southeast Alabama",
+    "ffo_website": "www.youngmeadows.org",
+    "ffo_phone": "334-244-1385",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "young-meadows-presbyterian-church-535ace",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "young-meadows-presbyterian-church-535ace",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Young Meadows Presbyterian Church",
+        "presbytery_as_printed": "Southeast Alabama",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1734,
+    "ffo_church_as_printed": "St. Roch Community Church",
+    "ffo_presbytery_as_printed": "Southern Louisiana",
+    "ffo_website": "www.strochcc.org",
+    "ffo_phone": "504-940-5771",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "st-roch-community-church-71799b",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "st-roch-community-church-71799b",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "St. Roch Community Church",
+        "presbytery_as_printed": "Southern Louisiana",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1742,
+    "ffo_church_as_printed": "Christ Presbyterian Church",
+    "ffo_presbytery_as_printed": "Southern New England",
+    "ffo_website": "www.cpcct.org",
+    "ffo_phone": "475-999-2373",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-presbyterian-church-931f31",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-presbyterian-church-931f31",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Presbyterian Church",
+        "presbytery_as_printed": "Southern New England",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "christ-presbyterian-church-626ecc",
+        "score": 150,
+        "signals": [
+          "exact_name_and_presbytery",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Presbyterian Church",
+        "presbytery_as_printed": "Southern New England",
+        "duplicate_review_required": false
+      },
+      {
+        "church_id": "christ-community-presbyterian-church-a60bf1",
+        "score": 60,
+        "signals": [
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ Community Presbyterian Church",
+        "presbytery_as_printed": "Southern New England",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1746,
+    "ffo_church_as_printed": "Christ the King - Dorchester",
+    "ffo_presbytery_as_printed": "Southern New England",
+    "ffo_website": "www.ctkdorchester.org",
+    "ffo_phone": "617-299-9066",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "christ-the-king-dorchester-3d02fb",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "christ-the-king-dorchester-3d02fb",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Christ the King  - Dorchester",
+        "presbytery_as_printed": "Southern New England",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1753,
+    "ffo_church_as_printed": "Citylife Presbyterian Church",
+    "ffo_presbytery_as_printed": "Southern New England",
+    "ffo_website": "www.citylifeboston.org",
+    "ffo_phone": "617-292-0990",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "citylife-presbyterian-church-626635",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "citylife-presbyterian-church-626635",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Citylife Presbyterian Church",
+        "presbytery_as_printed": "Southern New England",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1756,
+    "ffo_church_as_printed": "First Presbyterian Church Northshore",
+    "ffo_presbytery_as_printed": "Southern New England",
+    "ffo_website": "fpcnorthshoreipswich.com",
+    "ffo_phone": "978-356-7690",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "first-presbyterian-church-north-shore-0fcb12",
+    "match_confidence": "high",
+    "match_reason": "exact_phone",
+    "candidates": [
+      {
+        "church_id": "first-presbyterian-church-north-shore-0fcb12",
+        "score": 100,
+        "signals": [
+          "exact_phone"
+        ],
+        "church_name": "First Presbyterian Church North Shore",
+        "presbytery_as_printed": "Southern New England",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1767,
+    "ffo_church_as_printed": "Seven Hills Presbyterian Church",
+    "ffo_presbytery_as_printed": "Southern New England",
+    "ffo_website": "www.sevenhillschurch.org",
+    "ffo_phone": "617-302-7264",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "seven-hills-presbyterian-church-b565ee",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "seven-hills-presbyterian-church-b565ee",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Seven Hills Presbyterian Church",
+        "presbytery_as_printed": "Southern New England",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1790,
+    "ffo_church_as_printed": "Strong Tower Church",
+    "ffo_presbytery_as_printed": "Southwest Florida",
+    "ffo_website": "www.strongtower.org",
+    "ffo_phone": "863-316-1006",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "strong-tower-church-f8dfbc",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "strong-tower-church-f8dfbc",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Strong Tower Church",
+        "presbytery_as_printed": "Southwest Florida",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1818,
+    "ffo_church_as_printed": "Faith Reformed Presbyterian Church",
+    "ffo_presbytery_as_printed": "Susquehanna Valley",
+    "ffo_website": "www.faithrpc.org",
+    "ffo_phone": "717-786-7559",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-25",
+    "match_status": "auto_matched",
+    "matched_church_id": "faith-reformed-presbyterian-church-9f02b6",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "faith-reformed-presbyterian-church-9f02b6",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Faith Reformed Presbyterian Church",
+        "presbytery_as_printed": "Susquehanna Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1835,
+    "ffo_church_as_printed": "Westminster Presbyterian Church",
+    "ffo_presbytery_as_printed": "Susquehanna Valley",
+    "ffo_website": "www.westpca.com",
+    "ffo_phone": "717-569-2151",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "westminster-presbyterian-church-e2fc1a",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "westminster-presbyterian-church-e2fc1a",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Westminster Presbyterian Church",
+        "presbytery_as_printed": "Susquehanna Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1837,
+    "ffo_church_as_printed": "Chattanooga Valley Presbyterian Church",
+    "ffo_presbytery_as_printed": "Tennessee Valley",
+    "ffo_website": "www.chattvalleypca.org",
+    "ffo_phone": "706-820-2833",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "chattanooga-valley-presbyterian-church-ded3bb",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "chattanooga-valley-presbyterian-church-ded3bb",
+        "score": 250,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Chattanooga Valley Presbyterian Church",
+        "presbytery_as_printed": "Tennessee Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1854,
+    "ffo_church_as_printed": "Highland Park Fellowship",
+    "ffo_presbytery_as_printed": "Tennessee Valley",
+    "ffo_website": "hpfellowship.org",
+    "ffo_phone": "423-225-2034",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "auto_matched",
+    "matched_church_id": "highland-park-fellowship-5347d5",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "highland-park-fellowship-5347d5",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Highland Park Fellowship",
+        "presbytery_as_printed": "Tennessee Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1860,
+    "ffo_church_as_printed": "New City Fellowship",
+    "ffo_presbytery_as_printed": "Tennessee Valley",
+    "ffo_website": "www.newcityfellowship.com",
+    "ffo_phone": "423-629-1421",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-23",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-city-fellowship-e1e387",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-city-fellowship-e1e387",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New City Fellowship",
+        "presbytery_as_printed": "Tennessee Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1861,
+    "ffo_church_as_printed": "New City Fellowship - East Lake",
+    "ffo_presbytery_as_printed": "Tennessee Valley",
+    "ffo_website": "newcityeastlake.com",
+    "ffo_phone": "423-468-4499",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-23",
+    "match_status": "auto_matched",
+    "matched_church_id": "new-city-fellowship-east-lake-2506f8",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "new-city-fellowship-east-lake-2506f8",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "New City Fellowship - East Lake",
+        "presbytery_as_printed": "Tennessee Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1864,
+    "ffo_church_as_printed": "Redeemer Church of Knoxville",
+    "ffo_presbytery_as_printed": "Tennessee Valley",
+    "ffo_website": "www.redeemerknoxville.org",
+    "ffo_phone": "865-524-4552",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-church-of-knoxville-30e818",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-church-of-knoxville-30e818",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Church of Knoxville",
+        "presbytery_as_printed": "Tennessee Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1866,
+    "ffo_church_as_printed": "Restoration Southside Church",
+    "ffo_presbytery_as_printed": "Tennessee Valley",
+    "ffo_website": "restorationsouthside.org",
+    "ffo_phone": "423-779-7847",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "restoration-southside-church-bfc0bd",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "restoration-southside-church-bfc0bd",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Restoration Southside Church",
+        "presbytery_as_printed": "Tennessee Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1867,
+    "ffo_church_as_printed": "Resurrection Presbyterian Church, Inc.",
+    "ffo_presbytery_as_printed": "Tennessee Valley",
+    "ffo_website": "www.resurrectionknoxville.com",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-23",
+    "match_status": "auto_matched",
+    "matched_church_id": "resurrection-presbyterian-church-inc-c7b1c6",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "resurrection-presbyterian-church-inc-c7b1c6",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Resurrection Presbyterian Church, Inc.",
+        "presbytery_as_printed": "Tennessee Valley",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1912,
+    "ffo_church_as_printed": "Trinity Presbyterian Church",
+    "ffo_presbytery_as_printed": "Warrior",
+    "ffo_website": "www.trinitytuscaloosa.org",
+    "ffo_phone": "205-391-2111",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "trinity-presbyterian-church-82e877",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "trinity-presbyterian-church-82e877",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Trinity Presbyterian Church",
+        "presbytery_as_printed": "Warrior",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1918,
+    "ffo_church_as_printed": "Crossroads Community Church",
+    "ffo_presbytery_as_printed": "West Hudson",
+    "ffo_website": "www.crossroadsnj.org",
+    "ffo_phone": "908-431-4373",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "crossroads-community-church-6ce3d4",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "crossroads-community-church-6ce3d4",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Crossroads Community Church",
+        "presbytery_as_printed": "West Hudson",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1922,
+    "ffo_church_as_printed": "Grace Redeemer Church",
+    "ffo_presbytery_as_printed": "West Hudson",
+    "ffo_website": "www.graceredeemer.com",
+    "ffo_phone": "201-357-4216",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "grace-redeemer-church-dcc0bf",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "grace-redeemer-church-dcc0bf",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Grace Redeemer Church",
+        "presbytery_as_printed": "West Hudson",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1926,
+    "ffo_church_as_printed": "Redeemer Church of Montclair",
+    "ffo_presbytery_as_printed": "West Hudson",
+    "ffo_website": "www.redeemermontclair.com",
+    "ffo_phone": "973-233-0388",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-church-of-montclair-4e5666",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-church-of-montclair-4e5666",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Church of Montclair",
+        "presbytery_as_printed": "West Hudson",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1927,
+    "ffo_church_as_printed": "Redeemer Hudson",
+    "ffo_presbytery_as_printed": "West Hudson",
+    "ffo_website": "redeemerhudson.com",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "auto_matched",
+    "matched_church_id": "redeemer-hudson-d73213",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "redeemer-hudson-d73213",
+        "score": 345,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Redeemer Hudson",
+        "presbytery_as_printed": "West Hudson",
+        "duplicate_review_required": false
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 1964,
+    "ffo_church_as_printed": "Resurrection Madison",
+    "ffo_presbytery_as_printed": "Wisconsin",
+    "ffo_website": "resurrectionmadison.com",
+    "ffo_phone": "865-454-1619",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": null,
+    "review_date": "2025-09-23",
+    "match_status": "auto_matched",
+    "matched_church_id": "resurrection-madison-1ce868",
+    "match_confidence": "high",
+    "match_reason": "exact_name_and_presbytery+exact_phone+exact_url+same_website_host+simplified_name_and_presbytery",
+    "candidates": [
+      {
+        "church_id": "resurrection-madison-1ce868",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Resurrection Madison",
+        "presbytery_as_printed": "Wisconsin",
+        "duplicate_review_required": false
+      }
+    ]
+  }
+]
