@@ -1,0 +1,28 @@
+{
+  "source_id": "np-emails-2021",
+  "title": "National Partnership Emails — 2021",
+  "document_date_range": "2021-02-03/2021-07-08",
+  "source_type": "primary_leaked_email_archive",
+  "original_public_index": "https://jude3pca.org/national-partnership-emails/",
+  "public_mirror_url": "https://s3.amazonaws.com/5mt.jude3pca.org/2023/02/15194822/2021-emails.pdf",
+  "retrieved_for_research": "2026-09-03",
+  "raw_local_path": "sources/raw/national-partnership/2021-emails.pdf",
+  "raw_copy_status": "pending_binary_ingest",
+  "page_count": 101,
+  "notes": [
+    "The archive contains extensive overture advice, real-time GA turnout messages, nominations recommendations, RPR advice, and internal debate over Overtures 23 and 37.",
+    "Kessler states that the NP does not require uniform voting, while also circulating recommendations and asking participants to be present for specific votes.",
+    "The archive identifies Mike Khandjian as the principal drafter of the 2021 public letter later discussed in the NP and again distinguishes Khandjian's Fellowship gathering from the NP.",
+    "A July 2021 renewal message defines continued NP participation as denominational/presbytery work plus confidentiality. Drew Bennett explicitly replies that he wishes to continue as part of the National Partnership."
+  ],
+  "key_evidence_locations": [
+    {"page": 4, "description": "Kessler commends public letter drafted by Mike Khandjian and other contributors"},
+    {"page": 10, "description": "Initial overture advice and statement that NP is united in purpose but not a required voting bloc"},
+    {"page": 54, "description": "RPR and nomination scheduling/advice"},
+    {"page": 85, "description": "Detailed Nominating Committee candidate preferences"},
+    {"page": 87, "description": "Real-time turnout requests and beginning of Overture 23 discussion"},
+    {"page": 92, "description": "David Cassidy tells NP Overture 37 is the principal measure to defeat and supports minority report"},
+    {"page": 93, "description": "Kessler post-GA message says their side was outnumbered and urges presbytery action"},
+    {"page": 97, "description": "Membership-continuation criteria and explicit Drew Bennett continuation statement"}
+  ]
+}
