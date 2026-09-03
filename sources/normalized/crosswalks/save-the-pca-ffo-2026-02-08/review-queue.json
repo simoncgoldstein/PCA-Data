@@ -1,0 +1,135 @@
+[
+  {
+    "ffo_source_row": 138,
+    "ffo_church_as_printed": "Hope Community Church",
+    "ffo_presbytery_as_printed": "Central Carolina",
+    "ffo_website": "www.hopecommunity.com",
+    "ffo_phone": "704-521-1033",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-23",
+    "match_status": "review_required",
+    "matched_church_id": null,
+    "match_confidence": "candidate",
+    "match_reason": "ambiguous_or_weaker_match",
+    "candidates": [
+      {
+        "church_id": "hope-community-church-f2f19b",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Community Church",
+        "presbytery_as_printed": "Central Carolina",
+        "address_full": "4418 Rea Road Charlotte NC 28226",
+        "website": "www.hopecommunity.com",
+        "phone": "704-521-1033",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-f2f19b77e1",
+        "duplicate_review_required": true
+      },
+      {
+        "church_id": "hope-community-church-98cd8a",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Community Church",
+        "presbytery_as_printed": "Central Carolina",
+        "address_full": "3021 Griffith Street Charlotte NC 28203",
+        "website": "www.hopecommunity.com",
+        "phone": "704-521-1033",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-98cd8af2ee",
+        "duplicate_review_required": true
+      },
+      {
+        "church_id": "hope-community-church-d65574",
+        "score": 445,
+        "signals": [
+          "exact_name_and_presbytery",
+          "exact_phone",
+          "exact_url",
+          "same_website_host",
+          "simplified_name_and_presbytery"
+        ],
+        "church_name": "Hope Community Church",
+        "presbytery_as_printed": "Central Carolina",
+        "address_full": "920 N Sharon Amity Road Charlotte NC 28211",
+        "website": "www.hopecommunity.com",
+        "phone": "704-521-1033",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-d65574064b",
+        "duplicate_review_required": true
+      }
+    ]
+  },
+  {
+    "ffo_source_row": 379,
+    "ffo_church_as_printed": "Hope MontCo",
+    "ffo_presbytery_as_printed": "Eastern Pennsylvania",
+    "ffo_website": "hopemontco.org",
+    "ffo_phone": "484-681-2829",
+    "functional_female_elders": "Y",
+    "functional_female_deacons": "N",
+    "review_date": "2025-09-25",
+    "match_status": "unmatched",
+    "matched_church_id": null,
+    "match_confidence": null,
+    "match_reason": null,
+    "candidates": []
+  },
+  {
+    "ffo_source_row": 1303,
+    "ffo_church_as_printed": "City Light Church",
+    "ffo_presbytery_as_printed": "Pacific",
+    "ffo_website": "www.citylightchurch.org",
+    "ffo_phone": "213-788-3343",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "unmatched",
+    "matched_church_id": null,
+    "match_confidence": null,
+    "match_reason": null,
+    "candidates": []
+  },
+  {
+    "ffo_source_row": 1404,
+    "ffo_church_as_printed": "Renewal Presbyterian Church",
+    "ffo_presbytery_as_printed": "Philadelphia",
+    "ffo_website": "www.renewalchurch.org",
+    "ffo_phone": "215-727-7200",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-27",
+    "match_status": "unmatched",
+    "matched_church_id": null,
+    "match_confidence": null,
+    "match_reason": null,
+    "candidates": []
+  },
+  {
+    "ffo_source_row": 1441,
+    "ffo_church_as_printed": "Grace and Peace Presbyterian Church",
+    "ffo_presbytery_as_printed": "Pittsburgh",
+    "ffo_website": "www.graceandpeacepgh.org",
+    "ffo_phone": "-",
+    "functional_female_elders": "N",
+    "functional_female_deacons": "Y",
+    "review_date": "2025-09-24",
+    "match_status": "unmatched",
+    "matched_church_id": null,
+    "match_confidence": null,
+    "match_reason": null,
+    "candidates": []
+  }
+]

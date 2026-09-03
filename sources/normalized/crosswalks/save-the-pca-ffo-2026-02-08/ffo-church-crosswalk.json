@@ -25,6 +25,11 @@
         ],
         "church_name": "Ascension Church of Phoenix",
         "presbytery_as_printed": "Arizona",
+        "address_full": "1801 E Osborn Road Phoenix AZ 85016",
+        "website": "ascensionphx.org",
+        "phone": "601-209-5609",
+        "pastor_as_printed": "Rev. Gray A. Ewing",
+        "source_record_id": "batchgeo-47c9044278",
         "duplicate_review_required": false
       }
     ]
@@ -55,6 +60,11 @@
         ],
         "church_name": "New Valley Church",
         "presbytery_as_printed": "Arizona",
+        "address_full": "101 E Comstock Dr Chandler AZ 85225",
+        "website": "www.newvalleychurch.org",
+        "phone": "480-940-5560",
+        "pastor_as_printed": "Rev. Scott Brown",
+        "source_record_id": "batchgeo-c7cc863d64",
         "duplicate_review_required": false
       }
     ]
@@ -85,6 +95,11 @@
         ],
         "church_name": "Hope Presbyterian Church of Crozet",
         "presbytery_as_printed": "Blue Ridge",
+        "address_full": "1407 Crozet Avenue Crozet VA 22932",
+        "website": "www.hopecrozet.org",
+        "phone": "434-829-2181",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-063385bb3f",
         "duplicate_review_required": false
       }
     ]
@@ -115,6 +130,11 @@
         ],
         "church_name": "Trinity Presbyterian Church",
         "presbytery_as_printed": "Blue Ridge",
+        "address_full": "3101 Fontaine Ave Extended Charlottesville VA 22903",
+        "website": "www.trinitycville.org",
+        "phone": "434-977-3700",
+        "pastor_as_printed": "Rev. Christopher Paul Colquitt",
+        "source_record_id": "batchgeo-96d06b5316",
         "duplicate_review_required": false
       }
     ]
@@ -145,6 +165,11 @@
         ],
         "church_name": "Downtown Presbyterian Church",
         "presbytery_as_printed": "Calvary",
+        "address_full": "435 West Washington Street Greenville SC 29601",
+        "website": "www.downtownpres.org",
+        "phone": "864-608-5529",
+        "pastor_as_printed": "Rev. Brian C. Habig",
+        "source_record_id": "batchgeo-8123d0a0bc",
         "duplicate_review_required": false
       }
     ]
@@ -174,6 +199,11 @@
         ],
         "church_name": "Grace & Peace Presbyterian Church",
         "presbytery_as_printed": "Calvary",
+        "address_full": "1215 Buncombe Road Greenville SC 29609",
+        "website": "graceandpeacepres.com",
+        "phone": null,
+        "pastor_as_printed": "Rev. Timothy Joseph Udouj",
+        "source_record_id": "batchgeo-0cd69b301e",
         "duplicate_review_required": false
       }
     ]
@@ -204,6 +234,11 @@
         ],
         "church_name": "Lighthouse Presbyterian Church",
         "presbytery_as_printed": "Canada West",
+        "address_full": "3130 Tillicum Road Victoria BC V9A 6T2 CANADA",
+        "website": "lighthousechurch.ca",
+        "phone": "250-818-9252",
+        "pastor_as_printed": "Rev. Scott McDowell",
+        "source_record_id": "batchgeo-4ec8c47a63",
         "duplicate_review_required": false
       }
     ]
@@ -234,6 +269,11 @@
         ],
         "church_name": "NorthCross Church",
         "presbytery_as_printed": "Catawba Valley",
+        "address_full": "11020 Bailey Road Suite A Cornelius NC 28031",
+        "website": "www.northcrosschurch.com",
+        "phone": "704-237-4853",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-aac629ce69",
         "duplicate_review_required": false
       }
     ]
@@ -264,6 +304,11 @@
         ],
         "church_name": "StoneBridge Church Community",
         "presbytery_as_printed": "Catawba Valley",
+        "address_full": "3700 Prosperity Church Road Charlotte NC 28269",
+        "website": "www.stonebridge.org",
+        "phone": "704-549-8272",
+        "pastor_as_printed": "Rev. Soon Pak",
+        "source_record_id": "batchgeo-2164f31b4f",
         "duplicate_review_required": false
       }
     ]
@@ -294,6 +339,11 @@
         ],
         "church_name": "Christ Central Church",
         "presbytery_as_printed": "Central Carolina",
+        "address_full": "3646 Central Avenue Charlotte NC 28205",
+        "website": "www.christcentralchurch.com",
+        "phone": "704-608-9146",
+        "pastor_as_printed": "Rev. Tony Myles",
+        "source_record_id": "batchgeo-6be1590132",
         "duplicate_review_required": false
       }
     ]
@@ -324,6 +374,11 @@
         ],
         "church_name": "Hope Community Church",
         "presbytery_as_printed": "Central Carolina",
+        "address_full": "4418 Rea Road Charlotte NC 28226",
+        "website": "www.hopecommunity.com",
+        "phone": "704-521-1033",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-f2f19b77e1",
         "duplicate_review_required": true
       },
       {
@@ -338,6 +393,11 @@
         ],
         "church_name": "Hope Community Church",
         "presbytery_as_printed": "Central Carolina",
+        "address_full": "3021 Griffith Street Charlotte NC 28203",
+        "website": "www.hopecommunity.com",
+        "phone": "704-521-1033",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-98cd8af2ee",
         "duplicate_review_required": true
       },
       {
@@ -352,6 +412,11 @@
         ],
         "church_name": "Hope Community Church",
         "presbytery_as_printed": "Central Carolina",
+        "address_full": "920 N Sharon Amity Road Charlotte NC 28211",
+        "website": "www.hopecommunity.com",
+        "phone": "704-521-1033",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-d65574064b",
         "duplicate_review_required": true
       }
     ]
@@ -382,6 +447,11 @@
         ],
         "church_name": "Vive Charlotte Church",
         "presbytery_as_printed": "Central Carolina",
+        "address_full": "6115 Hickory Grove Road Charlotte NC 28215",
+        "website": "www.vivecharlotte.com",
+        "phone": "281-622-9409",
+        "pastor_as_printed": "Rev. Jos\u00c3\u00a9 Portillo",
+        "source_record_id": "batchgeo-e71739369e",
         "duplicate_review_required": false
       }
     ]
@@ -412,6 +482,11 @@
         ],
         "church_name": "West Charlotte Church at Freedom",
         "presbytery_as_printed": "Central Carolina",
+        "address_full": "1646 Toddville Road Charlotte NC 28214",
+        "website": "westcharlottechurch.com",
+        "phone": "704-394-8525",
+        "pastor_as_printed": "Rev. David Andrew Yoran",
+        "source_record_id": "batchgeo-ad203d5f5f",
         "duplicate_review_required": false
       }
     ]
@@ -442,6 +517,11 @@
         ],
         "church_name": "Lake Baldwin Church",
         "presbytery_as_printed": "Central Florida",
+        "address_full": "528 Huntington Avenue Winter Park FL 32792",
+        "website": "www.lakebaldwinchurch.com",
+        "phone": "407-802-7100",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-64754170d0",
         "duplicate_review_required": false
       }
     ]
@@ -471,6 +551,11 @@
         ],
         "church_name": "NewCity Orlando",
         "presbytery_as_printed": "Central Florida",
+        "address_full": "2800 North Orange Avenue Orlando FL 32804",
+        "website": "www.newcityorlando.com",
+        "phone": null,
+        "pastor_as_printed": "Rev. Benjamin Kandt",
+        "source_record_id": "batchgeo-3456ea4a1a",
         "duplicate_review_required": false
       }
     ]
@@ -501,6 +586,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church",
         "presbytery_as_printed": "Central Indiana",
+        "address_full": "1505 North Delaware Street Indianapolis IN 46202",
+        "website": "www.redeemindy.org",
+        "phone": "317-238-5487",
+        "pastor_as_printed": "Rev. Charles Anderson",
+        "source_record_id": "batchgeo-c553bdab21",
         "duplicate_review_required": false
       },
       {
@@ -511,6 +601,11 @@
         ],
         "church_name": "Fountain Square Presbyterian Church",
         "presbytery_as_printed": "Central Indiana",
+        "address_full": "901 Shelby St Indianapolis IN 46203",
+        "website": "www.fountainsquarepres.org",
+        "phone": "317-238-5487",
+        "pastor_as_printed": "Rev. Pat Hickman",
+        "source_record_id": "batchgeo-82f3bee8c8",
         "duplicate_review_required": false
       }
     ]
@@ -541,6 +636,11 @@
         ],
         "church_name": "Aisquith Presbyterian Church",
         "presbytery_as_printed": "Chesapeake",
+        "address_full": "7515 Harford Road Baltimore MD 21234",
+        "website": "www.aisquith.org",
+        "phone": "410-444-4598",
+        "pastor_as_printed": "Rev. John Edward Ceselsky",
+        "source_record_id": "batchgeo-deebec71d1",
         "duplicate_review_required": false
       }
     ]
@@ -571,6 +671,11 @@
         ],
         "church_name": "Chapelgate Presbyterian Church",
         "presbytery_as_printed": "Chesapeake",
+        "address_full": "2600 Olive Branch Way Marriottsville MD 21104",
+        "website": "www.chapelgate.org",
+        "phone": "410-442-5800",
+        "pastor_as_printed": "Rev. Mike L. Khandjian",
+        "source_record_id": "batchgeo-70ad6e0fa2",
         "duplicate_review_required": false
       }
     ]
@@ -601,6 +706,11 @@
         ],
         "church_name": "DaySpring Presbyterian Church",
         "presbytery_as_printed": "Chesapeake",
+        "address_full": "7608 Solley Rd Glen Burnie MD 21060",
+        "website": "www.dayspringlife.org",
+        "phone": "410-582-9159",
+        "pastor_as_printed": "Rev. Michael P. Horrigan",
+        "source_record_id": "batchgeo-fa455f1de5",
         "duplicate_review_required": false
       }
     ]
@@ -631,6 +741,11 @@
         ],
         "church_name": "Faith Christian Fellowship Church",
         "presbytery_as_printed": "Chesapeake",
+        "address_full": "505 East 42nd Street Baltimore MD 21218-1202",
+        "website": "www.fcfchurch.org",
+        "phone": "410-323-0202",
+        "pastor_as_printed": "Rev. Jerome Watkins",
+        "source_record_id": "batchgeo-baabefaab3",
         "duplicate_review_required": false
       }
     ]
@@ -661,6 +776,11 @@
         ],
         "church_name": "Covenant Presbyterian Church",
         "presbytery_as_printed": "Chicago Metro",
+        "address_full": "2012 West Dickens Avenue Chicago IL 60647",
+        "website": "www.covenantchicago.org",
+        "phone": "773-486-9590",
+        "pastor_as_printed": "Rev. R. Aaron Baker",
+        "source_record_id": "batchgeo-2a16c50f4f",
         "duplicate_review_required": false
       },
       {
@@ -671,6 +791,11 @@
         ],
         "church_name": "Boulevard Presbyterian Church",
         "presbytery_as_printed": "Chicago Metro",
+        "address_full": "607 Harvard Street Oak Park IL 60304",
+        "website": "www.blvdpres.org",
+        "phone": "773-486-9590",
+        "pastor_as_printed": "Rev. Jeffrey Allen Schneider",
+        "source_record_id": "batchgeo-539bc5d3f7",
         "duplicate_review_required": false
       }
     ]
@@ -701,6 +826,11 @@
         ],
         "church_name": "Living Hope Church, Chicago",
         "presbytery_as_printed": "Chicago Metro",
+        "address_full": "6414 South Cottage Grove Chicago IL 60637",
+        "website": "www.livinghopechicago.org",
+        "phone": "708-280-8779",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-e04cd6ee61",
         "duplicate_review_required": false
       }
     ]
@@ -731,6 +861,11 @@
         ],
         "church_name": "The Redemption Church",
         "presbytery_as_printed": "Chicago Metro",
+        "address_full": "850 Warrenville Road Lisle IL 60532",
+        "website": "theredemptionchurch.com",
+        "phone": "847-984-0872",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-1dec40b359",
         "duplicate_review_required": false
       },
       {
@@ -743,6 +878,11 @@
         ],
         "church_name": "West Loop",
         "presbytery_as_printed": "Chicago Metro",
+        "address_full": "38 S Peoria Street Chicago IL 60607",
+        "website": "theredemptionchurch.com",
+        "phone": "847-984-0872",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-5648f624bf",
         "duplicate_review_required": false
       }
     ]
@@ -773,6 +913,11 @@
         ],
         "church_name": "Christ Church Toronto",
         "presbytery_as_printed": "Eastern Canada",
+        "address_full": "883 Broadview Avenue Toronto ON M4K 2P9 CANADA",
+        "website": "www.christchurchtoronto.ca",
+        "phone": "416-880-0506",
+        "pastor_as_printed": "Rev. Kyle Hackmann",
+        "source_record_id": "batchgeo-de8a1a666d",
         "duplicate_review_required": false
       }
     ]
@@ -803,6 +948,11 @@
         ],
         "church_name": "Grace Toronto Church",
         "presbytery_as_printed": "Eastern Canada",
+        "address_full": "383 Jarvis Street Toronto ON M5B 2C7 CANADA",
+        "website": "www.gracetoronto.ca",
+        "phone": "416-860-0895",
+        "pastor_as_printed": "Rev. Daniel MacDonald",
+        "source_record_id": "batchgeo-4bf88fe11c",
         "duplicate_review_required": false
       }
     ]
@@ -831,6 +981,11 @@
         ],
         "church_name": "Christ Central Church",
         "presbytery_as_printed": "Eastern Carolina",
+        "address_full": "1004 N Mangum Street Durham NC 27701",
+        "website": "christcentraldurham.com",
+        "phone": "919-908-7787",
+        "pastor_as_printed": "Rev. Daniel Mason",
+        "source_record_id": "batchgeo-9d877e4d0c",
         "duplicate_review_required": false
       }
     ]
@@ -860,6 +1015,11 @@
         ],
         "church_name": "Christ Our Hope Church",
         "presbytery_as_printed": "Eastern Carolina",
+        "address_full": "203 Capcom Ave, Suite 114 Wake Forest NC 27587",
+        "website": "www.christourhopechurch.com",
+        "phone": "919-570-9717",
+        "pastor_as_printed": "Rev. B. Gabriel Sylvia Jr.",
+        "source_record_id": "batchgeo-2f2bf1916a",
         "duplicate_review_required": false
       }
     ]
@@ -890,6 +1050,11 @@
         ],
         "church_name": "Christ The King Presbyterian Church",
         "presbytery_as_printed": "Eastern Carolina",
+        "address_full": "1417 Clifton Street Raleigh NC 27604",
+        "website": "ctkraleigh.org",
+        "phone": "919-546-0515",
+        "pastor_as_printed": "Rev. Geoff T. Bradford",
+        "source_record_id": "batchgeo-a145a36c50",
         "duplicate_review_required": false
       },
       {
@@ -900,6 +1065,11 @@
         ],
         "church_name": "Christ the King Church",
         "presbytery_as_printed": "Eastern Carolina",
+        "address_full": "500 Kenwood Avenue Wilmington NC 28405",
+        "website": "www.ctkwilmington.org",
+        "phone": "910-742-0926",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-f490140b3e",
         "duplicate_review_required": false
       }
     ]
@@ -930,6 +1100,11 @@
         ],
         "church_name": "Midtown Community Church",
         "presbytery_as_printed": "Eastern Carolina",
+        "address_full": "2011 Ridge Road Raleigh NC 27607",
+        "website": "www.midtown-church.org",
+        "phone": "919-601-3903",
+        "pastor_as_printed": "Rev. Lindsey T. Williams",
+        "source_record_id": "batchgeo-0665046ae0",
         "duplicate_review_required": false
       }
     ]
@@ -960,6 +1135,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church",
         "presbytery_as_printed": "Eastern Carolina",
+        "address_full": "11412 Strickland Road Raleigh NC 27613",
+        "website": "www.redeemerpca.com",
+        "phone": "919-518-2370",
+        "pastor_as_printed": "Rev. Dan S. Seale",
+        "source_record_id": "batchgeo-32397d42c4",
         "duplicate_review_required": false
       }
     ]
@@ -989,6 +1169,11 @@
         ],
         "church_name": "Trinity Park Church",
         "presbytery_as_printed": "Eastern Carolina",
+        "address_full": "1823 NW Maynard Road Cary NC 27513",
+        "website": "trinityparkchurch.org",
+        "phone": "919-627-7558",
+        "pastor_as_printed": "Rev. Jeffrey Scott Roberts",
+        "source_record_id": "batchgeo-640ae48d79",
         "duplicate_review_required": false
       }
     ]
@@ -1019,6 +1204,11 @@
         ],
         "church_name": "Calvary Presbyterian Church",
         "presbytery_as_printed": "Eastern Pennsylvania",
+        "address_full": "405 Easton Road Willow Grove PA 19090",
+        "website": "www.calvary-wg.org",
+        "phone": "215-659-0554",
+        "pastor_as_printed": "Rev. Angel Gomez",
+        "source_record_id": "batchgeo-6c37698b78",
         "duplicate_review_required": false
       }
     ]
@@ -1049,6 +1239,11 @@
         ],
         "church_name": "Gracepoint North Church",
         "presbytery_as_printed": "Eastern Pennsylvania",
+        "address_full": "290 Wissahickon Avenue North Wales PA 19454",
+        "website": "www.gracepointnorth.org",
+        "phone": "323-524-8724",
+        "pastor_as_printed": "Rev. Daevid Yoon",
+        "source_record_id": "batchgeo-db5fec9e9e",
         "duplicate_review_required": false
       }
     ]
@@ -1094,6 +1289,11 @@
         ],
         "church_name": "New Life Presbyterian Church",
         "presbytery_as_printed": "Eastern Pennsylvania",
+        "address_full": "2015 S Limekiln Pike Dresher PA 19025",
+        "website": "www.newlifedresher.org",
+        "phone": "215-641-1100",
+        "pastor_as_printed": "Rev. Anthony Gammage",
+        "source_record_id": "batchgeo-27a64a2501",
         "duplicate_review_required": false
       }
     ]
@@ -1124,6 +1324,11 @@
         ],
         "church_name": "Red Mountain Church",
         "presbytery_as_printed": "Evangel",
+        "address_full": "2829 7th Avenue South Birmingham AL 35233",
+        "website": "www.redmountainchurch.org",
+        "phone": "205-202-5682",
+        "pastor_as_printed": "Rev. Charles Johnson",
+        "source_record_id": "batchgeo-be77331dff",
         "duplicate_review_required": false
       }
     ]
@@ -1154,6 +1359,11 @@
         ],
         "church_name": "Red Tree Presbyterian Church",
         "presbytery_as_printed": "Great Lakes",
+        "address_full": "530 S State Street Ann Arbor MI 48109",
+        "website": "redtreeannarbor.com",
+        "phone": "734-746-5022",
+        "pastor_as_printed": "Rev. Ryan Davis McVicar",
+        "source_record_id": "batchgeo-e8aa269a75",
         "duplicate_review_required": false
       }
     ]
@@ -1184,6 +1394,11 @@
         ],
         "church_name": "University Reformed Church",
         "presbytery_as_printed": "Great Lakes",
+        "address_full": "841 Timberlane Street East Lansing MI 48823",
+        "website": "www.universityreformedchurch.org",
+        "phone": "517-351-6810",
+        "pastor_as_printed": "Rev. Jason M. Helopoulos",
+        "source_record_id": "batchgeo-35dc2e1202",
         "duplicate_review_required": false
       }
     ]
@@ -1214,6 +1429,11 @@
         ],
         "church_name": "Cornerstone Presbyterian Church",
         "presbytery_as_printed": "Heritage",
+        "address_full": "109 Gypsy Hill Road Landenberg PA 19350",
+        "website": "www.cornerstonepca.com",
+        "phone": "610-255-5512",
+        "pastor_as_printed": "Rev. William Joseph Haines",
+        "source_record_id": "batchgeo-c81a1f347a",
         "duplicate_review_required": false
       }
     ]
@@ -1244,6 +1464,11 @@
         ],
         "church_name": "Grace Church PCA",
         "presbytery_as_printed": "Heritage",
+        "address_full": "350 McKee Road Dover DE 19904",
+        "website": "www.gracedover.com",
+        "phone": "302-734-8150",
+        "pastor_as_printed": "Rev. Joshua Suh",
+        "source_record_id": "batchgeo-dcdc6f44af",
         "duplicate_review_required": false
       }
     ]
@@ -1274,6 +1499,11 @@
         ],
         "church_name": "Grace Blue Ridge",
         "presbytery_as_printed": "Highlands",
+        "address_full": "109 Florence Street, 10 Hendersonville NC 28792",
+        "website": "www.graceblueridge.com",
+        "phone": "828-393-5147",
+        "pastor_as_printed": "Rev. Chas Morris",
+        "source_record_id": "batchgeo-7a6b24ae4b",
         "duplicate_review_required": false
       }
     ]
@@ -1304,6 +1534,11 @@
         ],
         "church_name": "Grace Mills River",
         "presbytery_as_printed": "Highlands",
+        "address_full": "495 Cardinal Road Mills River NC 28759",
+        "website": "www.gracemillsriver.org",
+        "phone": "828-891-2006",
+        "pastor_as_printed": "Rev. Patrick Lafferty",
+        "source_record_id": "batchgeo-2097540066",
         "duplicate_review_required": false
       }
     ]
@@ -1334,6 +1569,11 @@
         ],
         "church_name": "Christ Community Church",
         "presbytery_as_printed": "Hills and Plains",
+        "address_full": "101 W Mountain Street Fayetteville AR 72701",
+        "website": "www.cccfay.com",
+        "phone": "479-305-0153",
+        "pastor_as_printed": "Rev. Dave Abney",
+        "source_record_id": "batchgeo-ac3441fd00",
         "duplicate_review_required": false
       },
       {
@@ -1344,6 +1584,11 @@
         ],
         "church_name": "Christ Presbyterian Church",
         "presbytery_as_printed": "Hills and Plains",
+        "address_full": "2706 E 51st Street Tulsa OK 74105",
+        "website": "www.christpresbyterian.church",
+        "phone": "918-749-1629",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-b97b60fe06",
         "duplicate_review_required": false
       }
     ]
@@ -1373,6 +1618,11 @@
         ],
         "church_name": "Trinity Presbyterian Church",
         "presbytery_as_printed": "Hills and Plains",
+        "address_full": "7660 N Memorial Dr Owasso OK 74055",
+        "website": "www.trinityowasso.com",
+        "phone": "918-516-1221",
+        "pastor_as_printed": "Rev. Blake A. Altman",
+        "source_record_id": "batchgeo-d7ca773113",
         "duplicate_review_required": false
       }
     ]
@@ -1403,6 +1653,11 @@
         ],
         "church_name": "Christ the King Presbyterian Church",
         "presbytery_as_printed": "Houston Metro",
+        "address_full": "1201 Silber Road Houston TX 77055",
+        "website": "www.christtheking.com",
+        "phone": "713-892-5464",
+        "pastor_as_printed": "Rev. John Trapp",
+        "source_record_id": "batchgeo-54ea13c8e6",
         "duplicate_review_required": false
       }
     ]
@@ -1433,6 +1688,11 @@
         ],
         "church_name": "Grace Presbyterian Church",
         "presbytery_as_printed": "Houston Metro",
+        "address_full": "8989 Woodlands Parkway The Woodlands TX 77382",
+        "website": "gpcwoodlands.org",
+        "phone": "281-296-0911",
+        "pastor_as_printed": "Rev. Bradley Wright",
+        "source_record_id": "batchgeo-6d45724fc4",
         "duplicate_review_required": false
       }
     ]
@@ -1463,6 +1723,11 @@
         ],
         "church_name": "New City Fellowship",
         "presbytery_as_printed": "James River",
+        "address_full": "200 Prince Edward Street Fredericksburg VA 22401",
+        "website": "www.newcityfellowship.org",
+        "phone": "540-899-5349",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-74f34630d7",
         "duplicate_review_required": false
       }
     ]
@@ -1493,6 +1758,11 @@
         ],
         "church_name": "Spring Run Presbyterian Church of Chesterfield County",
         "presbytery_as_printed": "James River",
+        "address_full": "6601 Woodlake Village Parkway Midlothian VA 23112",
+        "website": "www.springrunpc.org",
+        "phone": "804-412-8112",
+        "pastor_as_printed": "Rev. James Andrew Conrad",
+        "source_record_id": "batchgeo-a60c2d95c9",
         "duplicate_review_required": false
       }
     ]
@@ -1523,6 +1793,11 @@
         ],
         "church_name": "Atlanta Westside Presbyterian Church",
         "presbytery_as_printed": "Metro Atlanta",
+        "address_full": "1255 Collier Road NW Atlanta GA 30318",
+        "website": "www.atlantawestside.org",
+        "phone": "404-567-5428",
+        "pastor_as_printed": "Rev. Walter H. Henegar",
+        "source_record_id": "batchgeo-1cd30b0bba",
         "duplicate_review_required": false
       }
     ]
@@ -1553,6 +1828,11 @@
         ],
         "church_name": "Brookhaven Presbyterian Church",
         "presbytery_as_printed": "Metro Atlanta",
+        "address_full": "1294 North Druid Hills Road NE Brookhaven GA 30319",
+        "website": "www.brookhavenpres.com",
+        "phone": "404-919-3569",
+        "pastor_as_printed": "Rev. Zachary Bradley",
+        "source_record_id": "batchgeo-f36611526f",
         "duplicate_review_required": false
       }
     ]
@@ -1582,6 +1862,11 @@
         ],
         "church_name": "City Church - Eastside",
         "presbytery_as_printed": "Metro Atlanta",
+        "address_full": "798 N Highland Avenue NE Atlanta GA 30306",
+        "website": "www.citychurcheastside.org",
+        "phone": null,
+        "pastor_as_printed": "Rev. Scott Armstrong",
+        "source_record_id": "batchgeo-492b91c0d6",
         "duplicate_review_required": false
       }
     ]
@@ -1612,6 +1897,11 @@
         ],
         "church_name": "Intown Community Church",
         "presbytery_as_printed": "Metro Atlanta",
+        "address_full": "2059 Lavista Road Atlanta GA 30329",
+        "website": "www.intown.org",
+        "phone": "404-633-8077",
+        "pastor_as_printed": "Rev. Clarence Dewitt Agan III",
+        "source_record_id": "batchgeo-e9f51b9f7f",
         "duplicate_review_required": false
       }
     ]
@@ -1642,6 +1932,11 @@
         ],
         "church_name": "New City Church",
         "presbytery_as_printed": "Metro Atlanta",
+        "address_full": "166 Buford Drive Lawrenceville GA 30046",
+        "website": "www.newcitydtl.org",
+        "phone": "770-765-5285",
+        "pastor_as_printed": "Rev. Ryan Johnson",
+        "source_record_id": "batchgeo-4e2e2c0d49",
         "duplicate_review_required": false
       }
     ]
@@ -1671,6 +1966,11 @@
         ],
         "church_name": "Perimeter Church",
         "presbytery_as_printed": "Metro Atlanta",
+        "address_full": "9500 Medlock Bridge Road Johns Creek GA 30097",
+        "website": "www.Perimeter.org",
+        "phone": "678-405-2000",
+        "pastor_as_printed": "Rev. Jeff Norris",
+        "source_record_id": "batchgeo-276d78174b",
         "duplicate_review_required": false
       }
     ]
@@ -1701,6 +2001,11 @@
         ],
         "church_name": "Astoria Community Church",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "27-35 Crescent Street Long Island City NY 11101",
+        "website": "www.astoriachurch.org",
+        "phone": "718-721-3440",
+        "pastor_as_printed": "Rev. James Lee Fredere",
+        "source_record_id": "batchgeo-46fbafe9b9",
         "duplicate_review_required": false
       }
     ]
@@ -1730,6 +2035,11 @@
         ],
         "church_name": "City On A Hill Church NYC",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "130 W 56th Street New York NY 10019",
+        "website": "www.cityonahill.nyc",
+        "phone": null,
+        "pastor_as_printed": "Rev. Jay L. Harvey III",
+        "source_record_id": "batchgeo-34bb1a9251",
         "duplicate_review_required": false
       }
     ]
@@ -1760,6 +2070,11 @@
         ],
         "church_name": "Emmanuel Presbyterian Church",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "3041 Broadway New York NY 10027",
+        "website": "www.emmanuelnyc.org",
+        "phone": "212-870-3185",
+        "pastor_as_printed": "Rev. Scott Strickman",
+        "source_record_id": "batchgeo-837cb72d0b",
         "duplicate_review_required": false
       }
     ]
@@ -1790,6 +2105,11 @@
         ],
         "church_name": "Exilic Church",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "240 W 37th St New York NY 10018",
+        "website": "www.exilic.com",
+        "phone": "949-413-2755",
+        "pastor_as_printed": "Rev. Aaron Justice Chung",
+        "source_record_id": "batchgeo-c59f686af0",
         "duplicate_review_required": false
       }
     ]
@@ -1817,6 +2137,11 @@
         ],
         "church_name": "King&apos;s Cross Church",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "35-01 Union Street Flushing NY 11354",
+        "website": "kingscrossnyc.org",
+        "phone": null,
+        "pastor_as_printed": "Rev. Robert Calabretta",
+        "source_record_id": "batchgeo-844878516e",
         "duplicate_review_required": false
       }
     ]
@@ -1847,6 +2172,11 @@
         ],
         "church_name": "Living Faith Community Church",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "171-39 Northern Boulevard Flushing NY 11358",
+        "website": "www.lfcc.net",
+        "phone": "516-321-9696",
+        "pastor_as_printed": "Rev. Stephen J. Ro",
+        "source_record_id": "batchgeo-e09d0bbcb0",
         "duplicate_review_required": false
       }
     ]
@@ -1877,6 +2207,11 @@
         ],
         "church_name": "North Shore Community Church",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "209-213 South Street Oyster Bay NY 11771",
+        "website": "nscc.live",
+        "phone": "516-922-7322",
+        "pastor_as_printed": "Rev. James Kessler",
+        "source_record_id": "batchgeo-9b89455449",
         "duplicate_review_required": false
       }
     ]
@@ -1907,6 +2242,11 @@
         ],
         "church_name": "Redeemer East Harlem",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "109 East 116th Street New York NY 10029",
+        "website": "www.reh.nyc",
+        "phone": "917-206-1375",
+        "pastor_as_printed": "Rev. Justin Adour",
+        "source_record_id": "batchgeo-6ef2a4958f",
         "duplicate_review_required": false
       }
     ]
@@ -1935,6 +2275,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church Downtown",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "120 W 14th Street New York NY 10011",
+        "website": "redeemerdt.com",
+        "phone": "212-808-4460",
+        "pastor_as_printed": "Rev. Peter Nicholas",
+        "source_record_id": "batchgeo-708cd2f31b",
         "duplicate_review_required": false
       },
       {
@@ -1945,6 +2290,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church East Side",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "112 East 75th Street New York NY 10021",
+        "website": "eastside.redeemer.com",
+        "phone": "212-808-4460",
+        "pastor_as_printed": "Rev. Crawford Michael Stevener",
+        "source_record_id": "batchgeo-05745f6a67",
         "duplicate_review_required": false
       }
     ]
@@ -1974,6 +2324,11 @@
         ],
         "church_name": "Uptown Community Church",
         "presbytery_as_printed": "Metropolitan New York",
+        "address_full": "551 Fort Washington Avenue New York NY 10033",
+        "website": "www.uptowncommunitychurch.com",
+        "phone": null,
+        "pastor_as_printed": "Rev. Reyn Cabinte",
+        "source_record_id": "batchgeo-b4d3fe7274",
         "duplicate_review_required": false
       }
     ]
@@ -2004,6 +2359,11 @@
         ],
         "church_name": "New City South",
         "presbytery_as_printed": "Missouri",
+        "address_full": "3502 Grace Avenue St Louis MO 63116",
+        "website": "www.newcitysouth.org",
+        "phone": "314-762-9915",
+        "pastor_as_printed": "Rev. Roy Hubbard",
+        "source_record_id": "batchgeo-b34f21219b",
         "duplicate_review_required": false
       }
     ]
@@ -2034,6 +2394,11 @@
         ],
         "church_name": "Old Orchard Church",
         "presbytery_as_printed": "Missouri",
+        "address_full": "640 Amelia Avenue Webster Groves MO 63119",
+        "website": "www.oldorchardchurch.org",
+        "phone": "314-962-3795",
+        "pastor_as_printed": "Rev. Ryan Sparks",
+        "source_record_id": "batchgeo-3536e97422",
         "duplicate_review_required": false
       }
     ]
@@ -2064,6 +2429,11 @@
         ],
         "church_name": "Restoration Community Church",
         "presbytery_as_printed": "Missouri",
+        "address_full": "11971 Borman Drive St Louis MO 63146",
+        "website": "restorationcommunity.net",
+        "phone": "314-722-6212",
+        "pastor_as_printed": "Rev. Daniel Song",
+        "source_record_id": "batchgeo-f5acdb9fd1",
         "duplicate_review_required": false
       }
     ]
@@ -2094,6 +2464,11 @@
         ],
         "church_name": "Christ Community Church",
         "presbytery_as_printed": "Nashville",
+        "address_full": "1215 Hillsboro Road Franklin TN 37069",
+        "website": "www.christcommunity.org",
+        "phone": "615-468-2200",
+        "pastor_as_printed": "Rev. Randy M. Lovelace",
+        "source_record_id": "batchgeo-e520395452",
         "duplicate_review_required": false
       },
       {
@@ -2104,6 +2479,11 @@
         ],
         "church_name": "Christ Presbyterian Church",
         "presbytery_as_printed": "Nashville",
+        "address_full": "2323 Old Hickory Boulevard Nashville TN 37215",
+        "website": "www.christpres.org",
+        "phone": "615-373-2311",
+        "pastor_as_printed": "Rev. Paul Russell Goebel",
+        "source_record_id": "batchgeo-2637c2db43",
         "duplicate_review_required": false
       }
     ]
@@ -2134,6 +2514,11 @@
         ],
         "church_name": "Christ Presbyterian Church",
         "presbytery_as_printed": "Nashville",
+        "address_full": "2323 Old Hickory Boulevard Nashville TN 37215",
+        "website": "www.christpres.org",
+        "phone": "615-373-2311",
+        "pastor_as_printed": "Rev. Paul Russell Goebel",
+        "source_record_id": "batchgeo-2637c2db43",
         "duplicate_review_required": false
       },
       {
@@ -2146,6 +2531,11 @@
         ],
         "church_name": "Cool Springs",
         "presbytery_as_printed": "Nashville",
+        "address_full": "325 Seaboard Lane 100 Franklin TN 37067",
+        "website": "www.christpres.org",
+        "phone": "615-373-2311",
+        "pastor_as_printed": "Rev. Paul Russell Goebel",
+        "source_record_id": "batchgeo-b990384f89",
         "duplicate_review_required": false
       },
       {
@@ -2158,6 +2548,11 @@
         ],
         "church_name": "Music Row",
         "presbytery_as_printed": "Nashville",
+        "address_full": "1008 19th Avenue South Nashville TN 37212",
+        "website": "www.christpres.org",
+        "phone": "615-373-2311",
+        "pastor_as_printed": "Rev. Paul Russell Goebel",
+        "source_record_id": "batchgeo-2632139744",
         "duplicate_review_required": false
       },
       {
@@ -2168,6 +2563,11 @@
         ],
         "church_name": "Christ Community Church",
         "presbytery_as_printed": "Nashville",
+        "address_full": "1215 Hillsboro Road Franklin TN 37069",
+        "website": "www.christcommunity.org",
+        "phone": "615-468-2200",
+        "pastor_as_printed": "Rev. Randy M. Lovelace",
+        "source_record_id": "batchgeo-e520395452",
         "duplicate_review_required": false
       }
     ]
@@ -2198,6 +2598,11 @@
         ],
         "church_name": "Midtown Fellowship Church",
         "presbytery_as_printed": "Nashville",
+        "address_full": "3410 Granny White Pike Nashville TN 37204",
+        "website": "www.midtownfellowship.org",
+        "phone": "615-269-9015",
+        "pastor_as_printed": "Rev. Randy Draughon",
+        "source_record_id": "batchgeo-54aede6179",
         "duplicate_review_required": false
       },
       {
@@ -2210,6 +2615,11 @@
         ],
         "church_name": "12 South",
         "presbytery_as_printed": "Nashville",
+        "address_full": "2415 12th Avenue South Nashville TN 37204",
+        "website": "www.midtownfellowship.org",
+        "phone": "615-269-9015",
+        "pastor_as_printed": "Rev. Randy Draughon",
+        "source_record_id": "batchgeo-b972dc6f35",
         "duplicate_review_required": false
       },
       {
@@ -2222,6 +2632,11 @@
         ],
         "church_name": "Crieve Hall",
         "presbytery_as_printed": "Nashville",
+        "address_full": "5501 Hill Road Nashville TN 37211",
+        "website": "www.midtownfellowship.org",
+        "phone": "615-269-9015",
+        "pastor_as_printed": "Rev. Randy Draughon",
+        "source_record_id": "batchgeo-04d8e7a4de",
         "duplicate_review_required": false
       },
       {
@@ -2234,6 +2649,11 @@
         ],
         "church_name": "East Nashville",
         "presbytery_as_printed": "Nashville",
+        "address_full": "1800 Stratford Avenue Nashville TN 37216",
+        "website": "www.midtownfellowship.org",
+        "phone": "615-269-9015",
+        "pastor_as_printed": "Rev. Randy Draughon",
+        "source_record_id": "batchgeo-a74ec1d623",
         "duplicate_review_required": false
       }
     ]
@@ -2264,6 +2684,11 @@
         ],
         "church_name": "First Presbyterian Church",
         "presbytery_as_printed": "New York State",
+        "address_full": "209 Union Street Schenectady NY 12305",
+        "website": "fpcschdy.org",
+        "phone": "518-374-4546",
+        "pastor_as_printed": "Dr. Mark J. Dunn",
+        "source_record_id": "batchgeo-7e759d4fe3",
         "duplicate_review_required": false
       }
     ]
@@ -2294,6 +2719,11 @@
         ],
         "church_name": "Hope Church",
         "presbytery_as_printed": "New York State",
+        "address_full": "206 Greenfield Avenue Ballston Spa NY 12020",
+        "website": "www.hopechurchbspa.org",
+        "phone": "518-885-7442",
+        "pastor_as_printed": "Rev. Nathanael Thompson",
+        "source_record_id": "batchgeo-9d71ddba96",
         "duplicate_review_required": false
       }
     ]
@@ -2322,6 +2752,11 @@
         ],
         "church_name": "New St. Peter&apos;s Presbyterian Church",
         "presbytery_as_printed": "North Texas",
+        "address_full": "5938 Skillman Street Dallas TX 75238",
+        "website": "www.newstpeters.org",
+        "phone": "214-438-0120",
+        "pastor_as_printed": "Rev. Alex Dean",
+        "source_record_id": "batchgeo-e41c5352db",
         "duplicate_review_required": false
       }
     ]
@@ -2352,6 +2787,11 @@
         ],
         "church_name": "Trinity Presbyterian",
         "presbytery_as_printed": "North Texas",
+        "address_full": "207 West Broadway Fort Worth TX 76104",
+        "website": "www.trinitypresfw.org",
+        "phone": "682-703-2120",
+        "pastor_as_printed": "Rev. Brian Charles Davis",
+        "source_record_id": "batchgeo-4e7f52bd02",
         "duplicate_review_required": false
       },
       {
@@ -2362,6 +2802,11 @@
         ],
         "church_name": "Trinity Presbyterian Church",
         "presbytery_as_printed": "North Texas",
+        "address_full": "4701 Hedgcoxe Road Plano TX 75024-3828",
+        "website": "www.trinityplano.org",
+        "phone": "972-335-3844",
+        "pastor_as_printed": "Rev. Jacob Yohannan",
+        "source_record_id": "batchgeo-b39a7d25c5",
         "duplicate_review_required": false
       },
       {
@@ -2372,6 +2817,11 @@
         ],
         "church_name": "Trinity Presbyterian Church",
         "presbytery_as_printed": "North Texas",
+        "address_full": "229 N Collins Road Sunnyvale TX 75182",
+        "website": "tpcpca.com",
+        "phone": "214-321-6435",
+        "pastor_as_printed": "Rev. Dr. Paul A. Brown",
+        "source_record_id": "batchgeo-4bebc95847",
         "duplicate_review_required": false
       }
     ]
@@ -2402,6 +2852,11 @@
         ],
         "church_name": "Grace Sacramento",
         "presbytery_as_printed": "Northern California",
+        "address_full": "2958 59th Street Sacramento CA 95817",
+        "website": "www.wearegracesac.org",
+        "phone": "916-737-5190",
+        "pastor_as_printed": "Rev. Brad Carpenter",
+        "source_record_id": "batchgeo-8e6894653d",
         "duplicate_review_required": false
       }
     ]
@@ -2432,6 +2887,11 @@
         ],
         "church_name": "Trinity Presbyterian Church",
         "presbytery_as_printed": "Northern California",
+        "address_full": "1301 Osos Street San Luis Obispo CA 93401",
+        "website": "www.trinityslo.org",
+        "phone": "805-471-9141",
+        "pastor_as_printed": "Rev. Bryce A. Hales",
+        "source_record_id": "batchgeo-ef9a5ba84d",
         "duplicate_review_required": false
       },
       {
@@ -2443,6 +2903,11 @@
         ],
         "church_name": "Trinity Presbyterian Church",
         "presbytery_as_printed": "Northern California",
+        "address_full": "875 Auloa Road Kailua HI 96734-4542",
+        "website": "www.trinitychurchkailua.org",
+        "phone": "808-262-8587",
+        "pastor_as_printed": "Rev. Philip McColgan",
+        "source_record_id": "batchgeo-a765692871",
         "duplicate_review_required": false
       }
     ]
@@ -2473,6 +2938,11 @@
         ],
         "church_name": "Covenant Community Church",
         "presbytery_as_printed": "Ohio Valley",
+        "address_full": "380 Big Hill Avenue Richmond KY 40475",
+        "website": "www.covenantrichmond.org",
+        "phone": "606-261-1187",
+        "pastor_as_printed": "Rev. Josh Crawford",
+        "source_record_id": "batchgeo-3a26b57e14",
         "duplicate_review_required": false
       },
       {
@@ -2483,6 +2953,11 @@
         ],
         "church_name": "Covenant Presbyterian Church",
         "presbytery_as_printed": "Ohio Valley",
+        "address_full": "502 East Bridge Street Cynthiana KY 41031",
+        "website": "www.covpcacyn.org",
+        "phone": "859-234-5786",
+        "pastor_as_printed": "Rev. Matthew Soergel",
+        "source_record_id": "batchgeo-da3517c36a",
         "duplicate_review_required": false
       }
     ]
@@ -2512,6 +2987,11 @@
         ],
         "church_name": "Hope Presbyterian Church",
         "presbytery_as_printed": "Ohio Valley",
+        "address_full": "645 East High Street Lexington KY 40502",
+        "website": "hopelexington.org/",
+        "phone": null,
+        "pastor_as_printed": "Rev. Marshall Ray Wilmhoff",
+        "source_record_id": "batchgeo-729c6b6a1a",
         "duplicate_review_required": false
       }
     ]
@@ -2542,6 +3022,11 @@
         ],
         "church_name": "Redeemer Church",
         "presbytery_as_printed": "Ohio Valley",
+        "address_full": "4900 Old Irwin Simpson Rd Mason OH 45040",
+        "website": "www.redeemercincy.com",
+        "phone": "513-237-4717",
+        "pastor_as_printed": "Rev. Marc A. Champagne",
+        "source_record_id": "batchgeo-c570a2d58a",
         "duplicate_review_required": false
       },
       {
@@ -2552,6 +3037,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church",
         "presbytery_as_printed": "Ohio Valley",
+        "address_full": "1310 East Burnett Ave Louisville KY 40217",
+        "website": "www.redeemer-pca.com",
+        "phone": "502-456-5500",
+        "pastor_as_printed": "Rev. Fred E. Games",
+        "source_record_id": "batchgeo-b259adc4f6",
         "duplicate_review_required": false
       }
     ]
@@ -2582,6 +3072,11 @@
         ],
         "church_name": "Tates Creek Presbyterian Church",
         "presbytery_as_printed": "Ohio Valley",
+        "address_full": "3900 Rapid Run Drive Lexington KY 40515",
+        "website": "www.tcpca.org",
+        "phone": "859-272-4399",
+        "pastor_as_printed": "Rev. Mark Randle",
+        "source_record_id": "batchgeo-f36c676580",
         "duplicate_review_required": false
       }
     ]
@@ -2612,6 +3107,11 @@
         ],
         "church_name": "Christ Presbyterian Church",
         "presbytery_as_printed": "Pacific",
+        "address_full": "36 East Victoria Street Santa Barbara CA 93101",
+        "website": "www.cpcsb.org",
+        "phone": "805-957-4200",
+        "pastor_as_printed": "Rev. Kyle Wells",
+        "source_record_id": "batchgeo-85ca59e568",
         "duplicate_review_required": false
       }
     ]
@@ -2657,6 +3157,11 @@
         ],
         "church_name": "Grace Pasadena Church, Inc.",
         "presbytery_as_printed": "Pacific",
+        "address_full": "85 East Holly Street Pasadena CA 91103",
+        "website": "www.gracepasadena.org",
+        "phone": "626-653-6036",
+        "pastor_as_printed": "Rev. Nick F. Locke",
+        "source_record_id": "batchgeo-f30caada20",
         "duplicate_review_required": false
       }
     ]
@@ -2687,6 +3192,11 @@
         ],
         "church_name": "Evergreen Presbyterian Church",
         "presbytery_as_printed": "Pacific Northwest",
+        "address_full": "1110 17th Street NE Salem OR 97301",
+        "website": "evergreensalem.org",
+        "phone": "503-371-1177",
+        "pastor_as_printed": "Rev. Christopher Bechtel",
+        "source_record_id": "batchgeo-1af0f6bea2",
         "duplicate_review_required": false
       },
       {
@@ -2698,6 +3208,11 @@
         ],
         "church_name": "Evergreen Presbyterian Church",
         "presbytery_as_printed": "Pacific Northwest",
+        "address_full": "7275 SW Hall Boulevard Beaverton OR 97008",
+        "website": "www.evergreenpca.com",
+        "phone": "503-626-1520",
+        "pastor_as_printed": "Rev. Adam Parker",
+        "source_record_id": "batchgeo-27b590d263",
         "duplicate_review_required": false
       }
     ]
@@ -2728,6 +3243,11 @@
         ],
         "church_name": "Trinity Church Seattle",
         "presbytery_as_printed": "Pacific Northwest",
+        "address_full": "6512 23rd Ave NW Seattle WA 98117",
+        "website": "trinitychurchseattle.org",
+        "phone": "206-488-7860",
+        "pastor_as_printed": "Rev. David Richmon",
+        "source_record_id": "batchgeo-caa08e51af",
         "duplicate_review_required": false
       }
     ]
@@ -2757,6 +3277,11 @@
         ],
         "church_name": "Cresheim Valley Church",
         "presbytery_as_printed": "Philadelphia",
+        "address_full": "501 West Springfield Avenue Philadelphia PA 19118",
+        "website": "cvcpca.org",
+        "phone": "215-821-6332",
+        "pastor_as_printed": "Rev. Jonathan Richardson",
+        "source_record_id": "batchgeo-f8aa86f6eb",
         "duplicate_review_required": false
       }
     ]
@@ -2787,6 +3312,11 @@
         ],
         "church_name": "Liberti Church of the River Wards",
         "presbytery_as_printed": "Philadelphia",
+        "address_full": "2036-2038 E. Cumberland Street Philadelphia PA 19125",
+        "website": "libertiriverwards.org",
+        "phone": "610-850-4200",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-8bbafcbf00",
         "duplicate_review_required": false
       }
     ]
@@ -2817,6 +3347,11 @@
         ],
         "church_name": "New Life Presbyterian Church",
         "presbytery_as_printed": "Philadelphia",
+        "address_full": "Easton and Jenkintown Roads Glenside PA 19038",
+        "website": "www.newlifeglenside.com",
+        "phone": "215-576-0892",
+        "pastor_as_printed": "Rev. Mark Moser",
+        "source_record_id": "batchgeo-76203861ff",
         "duplicate_review_required": false
       }
     ]
@@ -2862,6 +3397,11 @@
         ],
         "church_name": "Tenth Presbyterian Church",
         "presbytery_as_printed": "Philadelphia",
+        "address_full": "17th  AND  Spruce Streets Philadelphia PA 19103",
+        "website": "www.tenth.org",
+        "phone": "215-735-7688",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-bcc66519b2",
         "duplicate_review_required": false
       }
     ]
@@ -2891,6 +3431,11 @@
         ],
         "church_name": "Renewal Presbyterian Church of the Main Line",
         "presbytery_as_printed": "Philadelphia Metro West",
+        "address_full": "480 South Bryn Mawr Avenue Bryn Mawr PA 19010",
+        "website": "www.renewalmainline.org",
+        "phone": "215-370-0101",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-618a27bf7b",
         "duplicate_review_required": false
       }
     ]
@@ -2921,6 +3466,11 @@
         ],
         "church_name": "Springton Lake Presbyterian Church",
         "presbytery_as_printed": "Philadelphia Metro West",
+        "address_full": "3090 S Newtown Street Road Newtown Square PA 19073",
+        "website": "www.slpca.org",
+        "phone": "610-356-4550",
+        "pastor_as_printed": "Rev. David M. White",
+        "source_record_id": "batchgeo-4c08907629",
         "duplicate_review_required": false
       }
     ]
@@ -2951,6 +3501,11 @@
         ],
         "church_name": "Christ Church Greensboro",
         "presbytery_as_printed": "Piedmont Triad",
+        "address_full": "414 N Church Street Greensboro NC 27401",
+        "website": "www.christchurchgso.com",
+        "phone": "336-209-5659",
+        "pastor_as_printed": "Rev. Jeff David Miller",
+        "source_record_id": "batchgeo-8515989c76",
         "duplicate_review_required": false
       }
     ]
@@ -2981,6 +3536,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church",
         "presbytery_as_printed": "Piedmont Triad",
+        "address_full": "1046 Miller Street Winston-Salem NC 27103-4441",
+        "website": "www.redeemerws.org",
+        "phone": "336-724-2217",
+        "pastor_as_printed": "Rev. Giorgio W.K. Hiatt",
+        "source_record_id": "batchgeo-9b34e28427",
         "duplicate_review_required": false
       }
     ]
@@ -3011,6 +3571,11 @@
         ],
         "church_name": "Salem Presbyterian Church",
         "presbytery_as_printed": "Piedmont Triad",
+        "address_full": "600 Holly Avenue Winston-Salem NC 27101",
+        "website": "www.salempresws.org",
+        "phone": "336-298-8923",
+        "pastor_as_printed": "Rev. Benjamin Milner",
+        "source_record_id": "batchgeo-16d674e8e1",
         "duplicate_review_required": false
       }
     ]
@@ -3041,6 +3606,11 @@
         ],
         "church_name": "Trinity Church (PCA)",
         "presbytery_as_printed": "Piedmont Triad",
+        "address_full": "4555 Shattalon Dr. Winston-Salem NC 27106",
+        "website": "trinitychurchws.com",
+        "phone": "336-701-6030",
+        "pastor_as_printed": "Rev. Derek Emerson Radney",
+        "source_record_id": "batchgeo-ca0df1ee1a",
         "duplicate_review_required": false
       }
     ]
@@ -3086,6 +3656,11 @@
         ],
         "church_name": "Grace Chapel",
         "presbytery_as_printed": "Platte Valley",
+        "address_full": "1345 S 16th St, Suite 1 Lincoln NE 68502",
+        "website": "www.gracepca.com",
+        "phone": "402-484-8555",
+        "pastor_as_printed": "Rev. Benjamin Loos",
+        "source_record_id": "batchgeo-d22eed7a97",
         "duplicate_review_required": false
       }
     ]
@@ -3116,6 +3691,11 @@
         ],
         "church_name": "Redeemer PCA",
         "presbytery_as_printed": "Platte Valley",
+        "address_full": "901 Charleston Street Lincoln NE 68508",
+        "website": "welcometoredeemer.com",
+        "phone": "402-937-8904",
+        "pastor_as_printed": "Rev. Matthew Odum",
+        "source_record_id": "batchgeo-e8ebd1fc15",
         "duplicate_review_required": false
       }
     ]
@@ -3146,6 +3726,11 @@
         ],
         "church_name": "Emmanuel Presbyterian Church",
         "presbytery_as_printed": "Potomac",
+        "address_full": "2410 N Kensington St Arlington VA 22205",
+        "website": "www.emmanuelarlington.org",
+        "phone": "571-470-5400",
+        "pastor_as_printed": "Rev. Young Kyun Lee",
+        "source_record_id": "batchgeo-0e773ee345",
         "duplicate_review_required": false
       }
     ]
@@ -3176,6 +3761,11 @@
         ],
         "church_name": "Grace Presbyterian Church of Washington, DC",
         "presbytery_as_printed": "Potomac",
+        "address_full": "500 I Street NW Washington DC 20001",
+        "website": "www.gracedc.net",
+        "phone": "202-386-7637",
+        "pastor_as_printed": "Rev. Glenn J. Hoburg",
+        "source_record_id": "batchgeo-16040384f3",
         "duplicate_review_required": false
       }
     ]
@@ -3206,6 +3796,11 @@
         ],
         "church_name": "McLean Presbyterian Church",
         "presbytery_as_printed": "Potomac",
+        "address_full": "1020 Balls Hill Road McLean VA 22101-2021",
+        "website": "mcleanpres.org",
+        "phone": "703-821-0800",
+        "pastor_as_printed": "Rev. Ryan Laughlin",
+        "source_record_id": "batchgeo-9981472543",
         "duplicate_review_required": false
       },
       {
@@ -3216,6 +3811,11 @@
         ],
         "church_name": "Capital Herndon",
         "presbytery_as_printed": "Potomac",
+        "address_full": "1545 Dranesville Road Herndon VA 20170",
+        "website": "reston.capitalpres.org",
+        "phone": "703-821-0800",
+        "pastor_as_printed": "Rev. Ryan Laughlin",
+        "source_record_id": "batchgeo-ecfbc14b56",
         "duplicate_review_required": false
       }
     ]
@@ -3246,6 +3846,11 @@
         ],
         "church_name": "Southwood Presbyterian Church",
         "presbytery_as_printed": "Providence",
+        "address_full": "1000 Carl T Jones Drive Huntsville AL 35802",
+        "website": "www.southwood.org",
+        "phone": "256-882-3085",
+        "pastor_as_printed": "Rev. William Alan Spink",
+        "source_record_id": "batchgeo-1a5af93dd1",
         "duplicate_review_required": false
       }
     ]
@@ -3276,6 +3881,11 @@
         ],
         "church_name": "Christ Church Santa Fe PCA",
         "presbytery_as_printed": "Rio Grande",
+        "address_full": "1213 Don Gaspar Avenue Santa Fe NM 87505",
+        "website": "www.christchurchsantafe.org",
+        "phone": "505-982-8817",
+        "pastor_as_printed": "Rev. Greg Clifford Schneeberger",
+        "source_record_id": "batchgeo-f47ad23ce3",
         "duplicate_review_required": false
       }
     ]
@@ -3306,6 +3916,11 @@
         ],
         "church_name": "City Presbyterian Church Albuquerque",
         "presbytery_as_printed": "Rio Grande",
+        "address_full": "210 Truman Street NE Albuquerque NM 87108",
+        "website": "www.citypresabq.com",
+        "phone": "214-218-7947",
+        "pastor_as_printed": "Rev. Daniel McKinney",
+        "source_record_id": "batchgeo-ed187dc095",
         "duplicate_review_required": false
       }
     ]
@@ -3336,6 +3951,11 @@
         ],
         "church_name": "New City Fellowship El Paso",
         "presbytery_as_printed": "Rio Grande",
+        "address_full": "11385 James Watt Drive B-2 El Paso TX 79936",
+        "website": "newcityep.com",
+        "phone": "915-258-5213",
+        "pastor_as_printed": "Rev. Jeffrey Douglas White",
+        "source_record_id": "batchgeo-bbf3ecd4d1",
         "duplicate_review_required": false
       }
     ]
@@ -3366,6 +3986,11 @@
         ],
         "church_name": "Denver Presbyterian Church",
         "presbytery_as_printed": "Rocky Mountain",
+        "address_full": "McAuliffe International School Denver CO 80207",
+        "website": "www.denverpres.org",
+        "phone": "303-335-0447",
+        "pastor_as_printed": "Rev. Ronald Garcia",
+        "source_record_id": "batchgeo-180b4240a6",
         "duplicate_review_required": false
       }
     ]
@@ -3396,6 +4021,11 @@
         ],
         "church_name": "Grace and Peace Church",
         "presbytery_as_printed": "Rocky Mountain",
+        "address_full": "25 W Cimarron Street Colorado Springs CO 80903",
+        "website": "graceandpeacecos.org",
+        "phone": "719-203-1506",
+        "pastor_as_printed": "Rev. Vincent Hoppe",
+        "source_record_id": "batchgeo-4632352c8a",
         "duplicate_review_required": false
       }
     ]
@@ -3426,6 +4056,11 @@
         ],
         "church_name": "Grace and Peace Denver",
         "presbytery_as_printed": "Rocky Mountain",
+        "address_full": "3150 Walnut Street Blanc Events CO 80205",
+        "website": "gpchurchdenver.org",
+        "phone": "615-969-3372",
+        "pastor_as_printed": "Rev. Matthew Morginsky",
+        "source_record_id": "batchgeo-16793537db",
         "duplicate_review_required": false
       }
     ]
@@ -3456,6 +4091,11 @@
         ],
         "church_name": "Grace Church Presbyterian",
         "presbytery_as_printed": "Rocky Mountain",
+        "address_full": "300 Whedbee Street Ft Collins CO 80524",
+        "website": "www.gracefortcollins.org",
+        "phone": "970-412-8551",
+        "pastor_as_printed": "Rev. Gavin Lymberopoulos",
+        "source_record_id": "batchgeo-d580cc12ca",
         "duplicate_review_required": false
       }
     ]
@@ -3486,6 +4126,11 @@
         ],
         "church_name": "Saint Patrick",
         "presbytery_as_printed": "Rocky Mountain",
+        "address_full": "803 10th Avenue Greeley CO 80631",
+        "website": "www.saintpats.church",
+        "phone": "970-346-8812",
+        "pastor_as_printed": "Rev. Michael Mathews",
+        "source_record_id": "batchgeo-b6293fcd81",
         "duplicate_review_required": false
       }
     ]
@@ -3516,6 +4161,11 @@
         ],
         "church_name": "Village Seven Presbyterian Church",
         "presbytery_as_printed": "Rocky Mountain",
+        "address_full": "4040 Nonchalant Circle South Colorado Springs CO 80917",
+        "website": "www.v7pc.org",
+        "phone": "719-574-6700",
+        "pastor_as_printed": "Rev. D. Christopher Hodge",
+        "source_record_id": "batchgeo-292802c3f4",
         "duplicate_review_required": false
       }
     ]
@@ -3545,6 +4195,11 @@
         ],
         "church_name": "Waypoint Church",
         "presbytery_as_printed": "Rocky Mountain",
+        "address_full": "6350 Windom Peak Blvd Colorado Springs CO 80923",
+        "website": "waypointcos.org",
+        "phone": null,
+        "pastor_as_printed": "Rev. Steve Patrick Stanton",
+        "source_record_id": "batchgeo-f7192f8313",
         "duplicate_review_required": false
       }
     ]
@@ -3575,6 +4230,11 @@
         ],
         "church_name": "Harbor City Church",
         "presbytery_as_printed": "South Coast",
+        "address_full": "1740 Fourth Avenue San Diego CA 92101",
+        "website": "www.harborcity.church",
+        "phone": "619-289-8857",
+        "pastor_as_printed": "Rev. Omar Ortiz",
+        "source_record_id": "batchgeo-e14b1c1e1e",
         "duplicate_review_required": false
       }
     ]
@@ -3605,6 +4265,11 @@
         ],
         "church_name": "New Life Church of Irvine",
         "presbytery_as_printed": "South Coast",
+        "address_full": "200 Cultivate Irvine CA 92618",
+        "website": "www.newlifeirvine.org",
+        "phone": "949-431-6777",
+        "pastor_as_printed": "Rev. Jeffrey Suhr",
+        "source_record_id": "batchgeo-b1b5bfd34a",
         "duplicate_review_required": false
       }
     ]
@@ -3634,6 +4299,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church",
         "presbytery_as_printed": "South Coast",
+        "address_full": "Temple Bat Yahm Newport Beach CA 92660",
+        "website": "www.redeemeroc.org",
+        "phone": null,
+        "pastor_as_printed": "Rev. Joshua Hahne",
+        "source_record_id": "batchgeo-8bfedb658c",
         "duplicate_review_required": false
       }
     ]
@@ -3664,6 +4334,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church of San Diego",
         "presbytery_as_printed": "South Coast",
+        "address_full": "1831 South El Camino Real Encinitas CA 92024",
+        "website": "www.redeemersd.org",
+        "phone": "760-753-2535",
+        "pastor_as_printed": "Rev. Paul Kim",
+        "source_record_id": "batchgeo-3c6bf5486f",
         "duplicate_review_required": false
       }
     ]
@@ -3694,6 +4369,11 @@
         ],
         "church_name": "Resurrection Presbyterian Church of San Diego",
         "presbytery_as_printed": "South Coast",
+        "address_full": "320 Date Street San Diego CA 92101",
+        "website": "resurrectionsd.com",
+        "phone": "619-387-7735",
+        "pastor_as_printed": "Rev. Robert Novak",
+        "source_record_id": "batchgeo-3d0faa7408",
         "duplicate_review_required": false
       }
     ]
@@ -3724,6 +4404,11 @@
         ],
         "church_name": "Trinity Presbyterian Church of Orange County",
         "presbytery_as_printed": "South Coast",
+        "address_full": "1310 E Walnut Avenue Orange CA 92867",
+        "website": "www.trinitypresoc.org",
+        "phone": "714-515-4686",
+        "pastor_as_printed": "Rev. Eric Kapur",
+        "source_record_id": "batchgeo-2cdf5701ed",
         "duplicate_review_required": false
       }
     ]
@@ -3754,6 +4439,11 @@
         ],
         "church_name": "All Saints Presbyterian Church",
         "presbytery_as_printed": "South Texas",
+        "address_full": "7808 Rialto Boulevard Austin TX 78735",
+        "website": "www.allsaintsaustin.org",
+        "phone": "512-732-8383",
+        "pastor_as_printed": "Rev. Timothy S. Frickenschmidt",
+        "source_record_id": "batchgeo-8bf9aee7cc",
         "duplicate_review_required": false
       },
       {
@@ -3765,6 +4455,11 @@
         ],
         "church_name": "All Saints Unidos",
         "presbytery_as_printed": "South Texas",
+        "address_full": "7808 Rialto Blvd Austin TX 78735",
+        "website": "allsaintsaustin.org/unidos",
+        "phone": "512-732-8383",
+        "pastor_as_printed": "Rev. Timothy S. Frickenschmidt",
+        "source_record_id": "batchgeo-a138acba9b",
         "duplicate_review_required": false
       },
       {
@@ -3775,6 +4470,11 @@
         ],
         "church_name": "Resurrection Presbyterian Church",
         "presbytery_as_printed": "South Texas",
+        "address_full": "1218 West Ave Bldg 3000 Austin TX 78701",
+        "website": "resurrectionaustin.org",
+        "phone": "512-732-8383",
+        "pastor_as_printed": "Rev. Adam Radcliff",
+        "source_record_id": "batchgeo-69c4e12f49",
         "duplicate_review_required": false
       }
     ]
@@ -3805,6 +4505,11 @@
         ],
         "church_name": "Christ Church PCA of San Antonio",
         "presbytery_as_printed": "South Texas",
+        "address_full": "14515 O&apos;Connor Road San Antonio TX 78247",
+        "website": "www.christchurchsa.com",
+        "phone": "210-306-4411",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-7fd75b0b87",
         "duplicate_review_required": false
       }
     ]
@@ -3835,6 +4540,11 @@
         ],
         "church_name": "Emmanuel Presbyterian Church",
         "presbytery_as_printed": "South Texas",
+        "address_full": "3017 Polar Ln Cedar Park TX 78613",
+        "website": "www.emmanuelcedarpark.church/",
+        "phone": "512-690-2577",
+        "pastor_as_printed": "Rev. Gregory Allen Ward",
+        "source_record_id": "batchgeo-45378403a9",
         "duplicate_review_required": false
       }
     ]
@@ -3865,6 +4575,11 @@
         ],
         "church_name": "Grace+Peace Presbyterian Church of Austin",
         "presbytery_as_printed": "South Texas",
+        "address_full": "6301 Woodrow Avenue Austin TX 78757",
+        "website": "graceandpeaceaustin.com",
+        "phone": "512-537-6755",
+        "pastor_as_printed": "Rev. John Sweet",
+        "source_record_id": "batchgeo-c47adf74e7",
         "duplicate_review_required": false
       }
     ]
@@ -3895,6 +4610,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church",
         "presbytery_as_printed": "South Texas",
+        "address_full": "903 North St Mary&apos;s Street San Antonio TX 78215",
+        "website": "www.redeemersa.org",
+        "phone": "210-930-4480",
+        "pastor_as_printed": "Rev. James Paul Hahn Jr.",
+        "source_record_id": "batchgeo-46cc847f22",
         "duplicate_review_required": false
       },
       {
@@ -3906,6 +4626,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church",
         "presbytery_as_printed": "South Texas",
+        "address_full": "2111 Alexander Avenue Austin TX 78722",
+        "website": "www.redeemerpres.org",
+        "phone": "512-708-1232",
+        "pastor_as_printed": "Rev. Eric Landry",
+        "source_record_id": "batchgeo-6bc7b60938",
         "duplicate_review_required": false
       },
       {
@@ -3917,6 +4642,11 @@
         ],
         "church_name": "Redeemer Presbyterian Church",
         "presbytery_as_printed": "South Texas",
+        "address_full": "2450 Brewster Drive College Station TX 77845",
+        "website": "www.redeemercs.org",
+        "phone": "979-676-2850",
+        "pastor_as_printed": "Rev. Ben Michael Hailey",
+        "source_record_id": "batchgeo-997943b5eb",
         "duplicate_review_required": false
       }
     ]
@@ -3947,6 +4677,11 @@
         ],
         "church_name": "Young Meadows Presbyterian Church",
         "presbytery_as_printed": "Southeast Alabama",
+        "address_full": "5780 Vaughn Road Montgomery AL 36116",
+        "website": "www.youngmeadows.org",
+        "phone": "334-244-1385",
+        "pastor_as_printed": "Rev. Adam Coppock",
+        "source_record_id": "batchgeo-535ace0d71",
         "duplicate_review_required": false
       }
     ]
@@ -3976,6 +4711,11 @@
         ],
         "church_name": "St. Roch Community Church",
         "presbytery_as_printed": "Southern Louisiana",
+        "address_full": "1738 St Roch Avenue New Orleans LA 70117",
+        "website": "www.strochcc.org",
+        "phone": "504-233-0761",
+        "pastor_as_printed": "Rev. Jason Davison",
+        "source_record_id": "batchgeo-71799b2310",
         "duplicate_review_required": false
       }
     ]
@@ -4006,6 +4746,11 @@
         ],
         "church_name": "Christ Presbyterian Church",
         "presbytery_as_printed": "Southern New England",
+        "address_full": "2926 Fairfield Avenue Bridgeport CT 6604",
+        "website": "www.cpcct.org",
+        "phone": "475-999-2373",
+        "pastor_as_printed": "Rev. Milas Shepherd",
+        "source_record_id": "batchgeo-931f31e55c",
         "duplicate_review_required": false
       },
       {
@@ -4017,6 +4762,11 @@
         ],
         "church_name": "Christ Presbyterian Church",
         "presbytery_as_printed": "Southern New England",
+        "address_full": "135 Whitney Avenue New Haven CT 6510",
+        "website": "www.cpcnewhaven.org",
+        "phone": "203-777-6960",
+        "pastor_as_printed": "Rev. Craig Luekens",
+        "source_record_id": "batchgeo-626ecc35a3",
         "duplicate_review_required": false
       },
       {
@@ -4027,6 +4777,11 @@
         ],
         "church_name": "Christ Community Presbyterian Church",
         "presbytery_as_printed": "Southern New England",
+        "address_full": "155 Mountain Road West Hartford CT 6107",
+        "website": "www.christcpc.org",
+        "phone": "860-595-2931",
+        "pastor_as_printed": "Rev.  Robert M. Gray",
+        "source_record_id": "batchgeo-a60bf1873d",
         "duplicate_review_required": false
       }
     ]
@@ -4057,6 +4812,11 @@
         ],
         "church_name": "Christ the King  - Dorchester",
         "presbytery_as_printed": "Southern New England",
+        "address_full": "10 Parish Street Dorchester MA 2122",
+        "website": "www.ctkdorchester.org",
+        "phone": "617-299-9066",
+        "pastor_as_printed": "Rev. Moses Park",
+        "source_record_id": "batchgeo-3d02fbc0e7",
         "duplicate_review_required": false
       }
     ]
@@ -4087,6 +4847,11 @@
         ],
         "church_name": "Citylife Presbyterian Church",
         "presbytery_as_printed": "Southern New England",
+        "address_full": "885 Washington Street Boston MA 2111",
+        "website": "www.citylifeboston.org",
+        "phone": "617-292-0990",
+        "pastor_as_printed": "Rev. Benjamin Bae",
+        "source_record_id": "batchgeo-6266353903",
         "duplicate_review_required": false
       }
     ]
@@ -4113,6 +4878,11 @@
         ],
         "church_name": "First Presbyterian Church North Shore",
         "presbytery_as_printed": "Southern New England",
+        "address_full": "179 County Road Ipswich MA 1938",
+        "website": "www.fpcnorthshoreispwich.com",
+        "phone": "978-356-7690",
+        "pastor_as_printed": "Rev. Stephen Edward Simmons",
+        "source_record_id": "batchgeo-0fcb1237e8",
         "duplicate_review_required": false
       }
     ]
@@ -4143,6 +4913,11 @@
         ],
         "church_name": "Seven Hills Presbyterian Church",
         "presbytery_as_printed": "Southern New England",
+        "address_full": "52 Russell Street Cambridge MA 2140",
+        "website": "www.sevenhillschurch.org",
+        "phone": "617-302-7264",
+        "pastor_as_printed": "Rev. Matthew Owens",
+        "source_record_id": "batchgeo-b565eedb27",
         "duplicate_review_required": false
       }
     ]
@@ -4173,6 +4948,11 @@
         ],
         "church_name": "Strong Tower Church",
         "presbytery_as_printed": "Southwest Florida",
+        "address_full": "719 N Massachusetts Avenue Lakeland FL 33801",
+        "website": "www.strongtower.org",
+        "phone": "863-316-1006",
+        "pastor_as_printed": "Rev. Ben James Turner",
+        "source_record_id": "batchgeo-f8dfbc18af",
         "duplicate_review_required": false
       }
     ]
@@ -4203,6 +4983,11 @@
         ],
         "church_name": "Faith Reformed Presbyterian Church",
         "presbytery_as_printed": "Susquehanna Valley",
+        "address_full": "611 Robert Fulton Highway Quarryville PA 17566-9607",
+        "website": "www.faithrpc.org",
+        "phone": "717-786-7559",
+        "pastor_as_printed": "Rev. Michael Brown",
+        "source_record_id": "batchgeo-9f02b67182",
         "duplicate_review_required": false
       }
     ]
@@ -4233,6 +5018,11 @@
         ],
         "church_name": "Westminster Presbyterian Church",
         "presbytery_as_printed": "Susquehanna Valley",
+        "address_full": "2151 Oregon Pike Lancaster PA 17601",
+        "website": "www.westpca.com",
+        "phone": "717-569-2151",
+        "pastor_as_printed": "Dr. Chris Walker",
+        "source_record_id": "batchgeo-e2fc1a768c",
         "duplicate_review_required": false
       }
     ]
@@ -4261,6 +5051,11 @@
         ],
         "church_name": "Chattanooga Valley Presbyterian Church",
         "presbytery_as_printed": "Tennessee Valley",
+        "address_full": "3371 Chattanooga Valley Road Flintstone GA 30725",
+        "website": "www.chattvalleypca.com",
+        "phone": "706-820-2833",
+        "pastor_as_printed": "Rev. Dennis Louis",
+        "source_record_id": "batchgeo-ded3bb9285",
         "duplicate_review_required": false
       }
     ]
@@ -4291,6 +5086,11 @@
         ],
         "church_name": "Highland Park Fellowship",
         "presbytery_as_printed": "Tennessee Valley",
+        "address_full": "2099 E Main Street Chattanooga TN 37404",
+        "website": "hpfellowship.org",
+        "phone": "423-225-2034",
+        "pastor_as_printed": "Rev. Corby Shields",
+        "source_record_id": "batchgeo-5347d5be8d",
         "duplicate_review_required": false
       }
     ]
@@ -4321,6 +5121,11 @@
         ],
         "church_name": "New City Fellowship",
         "presbytery_as_printed": "Tennessee Valley",
+        "address_full": "2424 East Third Street Chattanooga TN 37404",
+        "website": "www.newcityfellowship.com",
+        "phone": "423-629-1421",
+        "pastor_as_printed": "Rev. Kevin M. Smith",
+        "source_record_id": "batchgeo-e1e387bbc9",
         "duplicate_review_required": false
       }
     ]
@@ -4351,6 +5156,11 @@
         ],
         "church_name": "New City Fellowship - East Lake",
         "presbytery_as_printed": "Tennessee Valley",
+        "address_full": "2903 East 37th Street Chattanooga TN 37407",
+        "website": "newcityeastlake.com",
+        "phone": "423-468-4499",
+        "pastor_as_printed": null,
+        "source_record_id": "batchgeo-2506f8c947",
         "duplicate_review_required": false
       }
     ]
@@ -4381,6 +5191,11 @@
         ],
         "church_name": "Redeemer Church of Knoxville",
         "presbytery_as_printed": "Tennessee Valley",
+        "address_full": "1642 Highland Avenue Knoxville TN 37916",
+        "website": "www.redeemerknoxville.org",
+        "phone": "865-524-4552",
+        "pastor_as_printed": "Rev. Shawn Slate",
+        "source_record_id": "batchgeo-30e81885b2",
         "duplicate_review_required": false
       }
     ]
@@ -4411,6 +5226,11 @@
         ],
         "church_name": "Restoration Southside Church",
         "presbytery_as_printed": "Tennessee Valley",
+        "address_full": "3146 Broad Street Chattanooga TN 37408",
+        "website": "restorationsouthside.org",
+        "phone": "4237797847",
+        "pastor_as_printed": "Rev. Clay Werner",
+        "source_record_id": "batchgeo-bfc0bdf8f7",
         "duplicate_review_required": false
       }
     ]
@@ -4440,6 +5260,11 @@
         ],
         "church_name": "Resurrection Presbyterian Church, Inc.",
         "presbytery_as_printed": "Tennessee Valley",
+        "address_full": "6900 Nubbin Ridge Drive Knoxville TN 37919",
+        "website": "www.resurrectionknoxville.com",
+        "phone": null,
+        "pastor_as_printed": "Rev. Brent Harriman",
+        "source_record_id": "batchgeo-c7b1c61a42",
         "duplicate_review_required": false
       }
     ]
@@ -4470,6 +5295,11 @@
         ],
         "church_name": "Trinity Presbyterian Church",
         "presbytery_as_printed": "Warrior",
+        "address_full": "1301 The Townes Tuscaloosa AL 35406",
+        "website": "www.trinitytuscaloosa.org",
+        "phone": "205-391-2111",
+        "pastor_as_printed": "Rev. Richard Martin Vise Jr.",
+        "source_record_id": "batchgeo-82e8775d62",
         "duplicate_review_required": false
       }
     ]
@@ -4500,6 +5330,11 @@
         ],
         "church_name": "Crossroads Community Church",
         "presbytery_as_printed": "West Hudson",
+        "address_full": "147 East Main Street Somerville NJ 8876",
+        "website": "www.crossroadsnj.org",
+        "phone": "908-431-4373",
+        "pastor_as_printed": "Rev. Daniel Liu",
+        "source_record_id": "batchgeo-6ce3d4c143",
         "duplicate_review_required": false
       }
     ]
@@ -4530,6 +5365,11 @@
         ],
         "church_name": "Grace Redeemer Church",
         "presbytery_as_printed": "West Hudson",
+        "address_full": "21 Harristown Road Glen Rock NJ 7452",
+        "website": "www.graceredeemer.com",
+        "phone": "201-357-4216",
+        "pastor_as_printed": "Rev. Peter Wang",
+        "source_record_id": "batchgeo-dcc0bf9925",
         "duplicate_review_required": false
       }
     ]
@@ -4560,6 +5400,11 @@
         ],
         "church_name": "Redeemer Church of Montclair",
         "presbytery_as_printed": "West Hudson",
+        "address_full": "19 North Willow Street Montclair NJ 7042",
+        "website": "www.redeemermontclair.com",
+        "phone": "973-233-0388",
+        "pastor_as_printed": "Rev. Daniel Ying",
+        "source_record_id": "batchgeo-4e5666ea2d",
         "duplicate_review_required": false
       }
     ]
@@ -4589,6 +5434,11 @@
         ],
         "church_name": "Redeemer Hudson",
         "presbytery_as_printed": "West Hudson",
+        "address_full": "160 19th Street Union City NJ 7087",
+        "website": "redeemerhudson.com",
+        "phone": null,
+        "pastor_as_printed": "Rev. Reed Dunn",
+        "source_record_id": "batchgeo-d73213fabf",
         "duplicate_review_required": false
       }
     ]
@@ -4619,6 +5469,11 @@
         ],
         "church_name": "Resurrection Madison",
         "presbytery_as_printed": "Wisconsin",
+        "address_full": "1406 Mound Street Madison WI 53711",
+        "website": "resurrectionmadison.com",
+        "phone": "865-454-1619",
+        "pastor_as_printed": "Rev. Matthew Warren Lietzen",
+        "source_record_id": "batchgeo-1ce8681641",
         "duplicate_review_required": false
       }
     ]
