@@ -1,0 +1,31 @@
+{
+  "source_id": "np-emails-2013",
+  "title": "National Partnership Emails — 2013",
+  "document_date_range": "2013-02-04/2013-12-07",
+  "source_type": "primary_leaked_email_archive",
+  "original_public_index": "https://jude3pca.org/national-partnership-emails/",
+  "public_mirror_url": "https://s3.amazonaws.com/5mt.jude3pca.org/2023/02/15194747/2013-emails.pdf",
+  "retrieved_for_research": "2026-09-03",
+  "raw_local_path": "sources/raw/national-partnership/2013-emails.pdf",
+  "raw_copy_status": "pending_binary_ingest",
+  "page_count": 103,
+  "notes": [
+    "The archive contains emails to the National Partnership Google Group and explicitly labels recurring lists as Additions, with running membership and presbytery counts.",
+    "The 2013 archive begins with a running total of 94 elders in 38 presbyteries rather than a complete baseline roster. Therefore the extract can establish named additions and other explicit membership references, but cannot by itself reconstruct all 94 baseline members.",
+    "Candidate support, fellowship invitations, and praise are not treated as proof of National Partnership membership.",
+    "A binary repository copy should be added when available; until then the manifest preserves the public mirror and exact evidence locations used for normalization."
+  ],
+  "key_evidence_locations": [
+    {"page": 1, "description": "Feb. 4 additions; 94 elders in 38 presbyteries; committee counts and expansion instructions"},
+    {"page": 17, "description": "Mar. 11 additions; confidentiality and membership language"},
+    {"page": 21, "description": "Kessler describes expectations when men became members and GA coordination"},
+    {"page": 22, "description": "Mar. 18 additions; NP committee activity; Khandjian Fellowship invitation distinguished from NP logistics"},
+    {"page": 29, "description": "Kessler states members may reveal their own membership but he will not reveal the roster"},
+    {"page": 30, "description": "Mar. 25 additions; Blue Ridge listed among presbyteries with NP representation"},
+    {"page": 46, "description": "Sam Duncan described as an NP representative; April 23 additions"},
+    {"page": 64, "description": "Pre-GA additions and Kessler identifies himself as leading the National Partnership"},
+    {"page": 90, "description": "Mark Bates explicitly identified as NP; July 29 additions"},
+    {"page": 92, "description": "Kessler writes that being an NP member presumes GA attendance"},
+    {"page": 99, "description": "Dec. 7 addition; running total 141 elders in 50 presbyteries"}
+  ]
+}
