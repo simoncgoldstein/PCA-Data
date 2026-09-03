@@ -6,6 +6,7 @@ on:
     paths:
       - '.github/workflows/import-pca-churches.yml'
       - 'scripts/import-pca-church-kml.mjs'
+      - 'scripts/canonicalize-pca-churches.py'
       - 'data/presbyteries.json'
 
 permissions:
@@ -53,23 +54,30 @@ jobs:
           fi
           echo "Downloaded $(wc -c < "$OUT") bytes"
 
-      - name: Normalize church directory
+      - name: Normalize source placemarks
         run: node scripts/import-pca-church-kml.mjs sources/raw/institutions/pca-church-directory/pca-churches-2026-09-03.kml
+
+      - name: Canonicalize governed congregations
+        run: |
+          python scripts/canonicalize-pca-churches.py \
+            sources/normalized/church-directory/pca-church-map-raw.json \
+            sources/normalized/church-directory/possible-duplicates.json \
+            data/churches.json
 
       - name: Validate structured data
         run: node scripts/validate-data.mjs
 
       - name: Commit generated source snapshot and data
         run: |
-          if git diff --quiet && git diff --cached --quiet; then
-            echo 'No generated changes.'
-            exit 0
-          fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add \
             data/churches.json \
             sources/raw/institutions/pca-church-directory/pca-churches-2026-09-03.kml \
             sources/normalized/church-directory/
-          git commit -m 'import PCA church directory snapshot'
+          if [ -z "$(git status --porcelain)" ]; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git commit -m 'import and canonicalize PCA church directory snapshot'
           git push
