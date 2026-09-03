@@ -1,0 +1,41 @@
+[
+  {
+    "id": "heal-us-emmanuel-2016",
+    "title": "Heal Us, Emmanuel: A Call for Racial Reconciliation, Representation, and Unity in the Church",
+    "year": 2016,
+    "editor": "Doug Serven",
+    "publisher": "Storied Communications / White Blackbird Books",
+    "isbn": "9780997398403",
+    "item_number": "13240",
+    "page_count": 326,
+    "theme": "racial_reconciliation",
+    "evidence_status": "working_roster_verified_against_supplied_chapter_table",
+    "raw_evidence_path": "sources/raw/publications/heal-us-emmanuel/README.md"
+  },
+  {
+    "id": "co-laborers-co-heirs-2019",
+    "title": "Co-Laborers, Co-Heirs: A Family Conversation",
+    "year": 2019,
+    "editors": ["Brittany Smith", "Doug Serven"],
+    "publisher": "Storied Publishing",
+    "isbn": "9781733592154",
+    "item_number": "14593",
+    "page_count": 324,
+    "theme": "women_in_ministry",
+    "evidence_status": "verified_bookstore_metadata",
+    "raw_evidence_path": "sources/raw/publications/co-laborers-co-heirs/README.md"
+  },
+  {
+    "id": "hear-us-emmanuel-2020",
+    "title": "Hear Us, Emmanuel: Another Call for Racial Reconciliation, Representation, and Unity in the Church",
+    "year": 2020,
+    "editor": "Doug Serven",
+    "publisher": "Storied Publishing / White Blackbird Books",
+    "isbn": "9781951991029",
+    "item_number": "15047",
+    "page_count": 314,
+    "theme": "racial_reconciliation",
+    "evidence_status": "user_supplied_bookstore_roster_and_supplied_chapter_tables",
+    "raw_evidence_path": "sources/raw/publications/hear-us-emmanuel/README.md"
+  }
+]
