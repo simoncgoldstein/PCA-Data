@@ -1,0 +1,113 @@
+[
+  {
+    "id": "pca",
+    "name": "Presbyterian Church in America",
+    "type": "denomination",
+    "status": "active"
+  },
+  {
+    "id": "national-partnership",
+    "name": "National Partnership",
+    "short_name": "NP",
+    "type": "network",
+    "status": "historical_or_unclear",
+    "founded": 2012,
+    "description": "Confidential PCA elder network organized around greater participation in presbyteries, General Assembly committees, nominations, and denominational polity."
+  },
+  {
+    "id": "amr",
+    "name": "Alliance for Mission & Renewal",
+    "short_name": "AMR",
+    "type": "network",
+    "status": "active",
+    "description": "PCA network describing its work in terms of confessional and missional renewal, relational coordination, and denominational engagement."
+  },
+  {
+    "id": "khandjian-fellowship",
+    "name": "Mike Khandjian's GA Fellowship",
+    "short_name": "Fellowship",
+    "type": "network",
+    "status": "historical_or_periodic",
+    "description": "A fellowship/gathering associated with Mike Khandjian and overlapping personnel from the National Partnership, but documented as organizationally distinct from it."
+  },
+  {
+    "id": "denominational-renewal",
+    "name": "PCA Denominational Renewal",
+    "type": "movement",
+    "status": "historical",
+    "description": "Late-2000s renewal conversation in the PCA, including the 2008 conference and related Common Grounds discussions."
+  },
+  {
+    "id": "prayer-lament",
+    "name": "A Call to Prayer & Lament",
+    "type": "public_coalition",
+    "status": "active_2026",
+    "description": "2026 public statement by PCA ethnic-minority pastors and leaders, followed by a wider commitment list."
+  },
+  {
+    "id": "mna",
+    "name": "Mission to North America",
+    "short_name": "MNA",
+    "type": "pca_agency",
+    "status": "active"
+  },
+  {
+    "id": "ruf",
+    "name": "Reformed University Fellowship",
+    "short_name": "RUF",
+    "type": "pca_agency",
+    "status": "active"
+  },
+  {
+    "id": "grace-mosaic",
+    "name": "Grace Mosaic",
+    "type": "church",
+    "status": "active",
+    "location": "Washington, DC"
+  },
+  {
+    "id": "voices-underground",
+    "name": "Voices Underground",
+    "type": "external_nonprofit",
+    "status": "active"
+  },
+  {
+    "id": "khora-collective",
+    "name": "Khora Collective",
+    "type": "external_network",
+    "status": "active"
+  },
+  {
+    "id": "pray-march-act",
+    "name": "Pray March Act",
+    "short_name": "PMA",
+    "type": "external_nonprofit",
+    "status": "active"
+  },
+  {
+    "id": "chapelgate",
+    "name": "Chapelgate Presbyterian Church",
+    "type": "church",
+    "status": "active",
+    "location": "Marriottsville, Maryland"
+  },
+  {
+    "id": "spanish-river",
+    "name": "Spanish River Church",
+    "type": "church",
+    "status": "active",
+    "location": "Boca Raton, Florida"
+  },
+  {
+    "id": "metro-ny-presbytery",
+    "name": "Metro New York Presbytery",
+    "type": "presbytery",
+    "status": "active"
+  },
+  {
+    "id": "blue-ridge-presbytery",
+    "name": "Blue Ridge Presbytery",
+    "type": "presbytery",
+    "status": "active"
+  }
+]
