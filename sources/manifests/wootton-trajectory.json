@@ -1,0 +1,57 @@
+{
+  "source_family": "wootton-trajectory",
+  "retrieved_for_research": "2026-09-03",
+  "records": [
+    {
+      "id": "pca-ga-2018-wootton",
+      "title": "Minutes of the 46th General Assembly (2018)",
+      "publisher": "Presbyterian Church in America / PCA Historical Center",
+      "url": "https://www.pcahistory.org/pca/ga/46th_pcaga_2018.pdf",
+      "source_type": "official_denominational_record",
+      "evidence": "Commissioner list identifies TE Robert Lee Wootton, James River Presbytery."
+    },
+    {
+      "id": "pca-ga-2019-wootton",
+      "title": "Minutes of the 47th General Assembly (2019)",
+      "publisher": "Presbyterian Church in America / PCA Historical Center",
+      "url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf",
+      "source_type": "official_denominational_record",
+      "evidence": "Commissioner list identifies TE Robert Lee Wootton, James River Presbytery."
+    },
+    {
+      "id": "hear-us-emmanuel-wootton",
+      "title": "Hear Us, Emmanuel: Another Call for Racial Reconciliation, Representation, and Unity in the Church",
+      "publisher": "White Blackbird Books",
+      "year": 2020,
+      "source_type": "publication",
+      "evidence": "Robert Lee Wootton Jr. contributed the essay 'People Like Us'. A primary table of contents/book copy should be archived when obtained."
+    },
+    {
+      "id": "wuu-robin-wootton",
+      "title": "Director of Religious Education — Robin Jester Wootton",
+      "publisher": "Williamsburg Unitarian Universalists",
+      "url": "https://www.wuu.org/dre",
+      "source_type": "primary_institutional_profile",
+      "evidence": "Lists Robin Jester Wootton as Director of Religious Education and describes her prior religious-ministry experience."
+    },
+    {
+      "id": "wuu-pluralism-2026",
+      "title": "Exploring Pluralism: The Next Phase of Sacred Spaces",
+      "publisher": "Williamsburg Unitarian Universalists",
+      "date": "2026-08-30",
+      "url": "https://www.wuu.org/events/anp3s7a22e7czdl-s2m7x-6464f-mf2kl-z2h5p-zhm6f-d45me-746fb-r5z4f-yzp2g-j4r6g-8f5fr-dhydd-fh4ny-d3nzj-df3fc-k7e6f-k46js",
+      "source_type": "primary_institutional_event",
+      "evidence": "Lists Robin Jester Wootton as co-presenter of a service on religious pluralism."
+    },
+    {
+      "id": "robin-self-report-pca-departure",
+      "title": "when your former denomination is still debating how bad slavery was/is",
+      "publisher": "Robin Jester Wootton",
+      "date": "2025-01-30",
+      "url": "https://robinjesterwootton.substack.com/p/when-your-former-denomination-is",
+      "source_type": "first_person_self_report",
+      "evidence": "Robin states that she withdrew from the PCA in February 2023 and describes Robert Wootton as formerly a PCA teaching elder and now deposed/unordained. Official presbytery corroboration remains pending."
+    }
+  ],
+  "normalization_note": "Official denominational records control past PCA status. First-person writing is sufficient for Robin's own self-description but is not treated as official proof of the reasons or procedure for Robert Wootton's deposition."
+}
