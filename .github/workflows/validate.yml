@@ -82,6 +82,12 @@ jobs:
                   print(f'  {organization_id}: {name} -> {person_id}')
           PY
 
+      - name: Verify RUF transition normalizer
+        run: |
+          tmp="$(mktemp)"
+          python3 scripts/normalize-ruf-transitions.py . "$tmp"
+          diff -u sources/normalized/institutions/ruf/role-transitions-2026.json "$tmp"
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \

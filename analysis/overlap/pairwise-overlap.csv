@@ -25,6 +25,7 @@ a_faithful_pca_2021-06-11,overture_37_minority_2021,561,28,124,15,11,128,0.08593
 a_faithful_pca_2021-06-11,publication_co-laborers-co-heirs-2019,561,26,124,1,0,125,0.000000,0.00,0.00,0.00,0.00,2
 a_faithful_pca_2021-06-11,publication_heal-us-emmanuel-2016,561,30,124,7,4,127,0.031496,3.23,57.14,0.71,13.33,7
 a_faithful_pca_2021-06-11,publication_hear-us-emmanuel-2020,561,29,124,3,3,124,0.024194,2.42,100.00,0.53,10.34,4
+a_faithful_pca_2021-06-11,ruf_staff_transitions_2026,561,203,124,0,0,124,0.000000,0.00,0.00,0.00,0.00,0
 a_faithful_pca_2021-06-11,warhurst_protest_2019,561,203,124,92,62,154,0.402597,50.00,67.39,11.05,30.54,9
 a_faithful_pca_2022-03-14,amr_leadership_current,736,6,155,6,3,158,0.018987,1.94,50.00,0.41,50.00,0
 a_faithful_pca_2022-03-14,amr_website_media_2023_2026,736,60,155,6,3,158,0.018987,1.94,50.00,0.41,5.00,10
@@ -51,6 +52,7 @@ a_faithful_pca_2022-03-14,overture_37_minority_2021,736,28,155,15,13,157,0.08280
 a_faithful_pca_2022-03-14,publication_co-laborers-co-heirs-2019,736,26,155,1,0,156,0.000000,0.00,0.00,0.00,0.00,2
 a_faithful_pca_2022-03-14,publication_heal-us-emmanuel-2016,736,30,155,7,4,158,0.025316,2.58,57.14,0.54,13.33,8
 a_faithful_pca_2022-03-14,publication_hear-us-emmanuel-2020,736,29,155,3,3,155,0.019355,1.94,100.00,0.41,10.34,5
+a_faithful_pca_2022-03-14,ruf_staff_transitions_2026,736,203,155,0,0,155,0.000000,0.00,0.00,0.00,0.00,1
 a_faithful_pca_2022-03-14,warhurst_protest_2019,736,203,155,92,78,169,0.461538,50.32,84.78,10.60,38.42,9
 amr_leadership_current,amr_website_media_2023_2026,6,60,6,6,6,6,1.000000,100.00,100.00,100.00,10.00,0
 amr_leadership_current,amr_youtube_media_2023_2026,6,40,6,6,6,6,1.000000,100.00,100.00,100.00,15.00,0
@@ -76,6 +78,7 @@ amr_leadership_current,overture_37_minority_2021,6,28,6,15,2,19,0.105263,33.33,1
 amr_leadership_current,publication_co-laborers-co-heirs-2019,6,26,6,1,1,6,0.166667,16.67,100.00,16.67,3.85,0
 amr_leadership_current,publication_heal-us-emmanuel-2016,6,30,6,7,3,10,0.300000,50.00,42.86,50.00,10.00,0
 amr_leadership_current,publication_hear-us-emmanuel-2020,6,29,6,3,0,9,0.000000,0.00,0.00,0.00,0.00,0
+amr_leadership_current,ruf_staff_transitions_2026,6,203,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
 amr_leadership_current,warhurst_protest_2019,6,203,6,92,1,97,0.010309,16.67,1.09,16.67,0.49,0
 amr_website_media_2023_2026,amr_youtube_media_2023_2026,60,40,6,6,6,6,1.000000,100.00,100.00,10.00,15.00,14
 amr_website_media_2023_2026,institution_cdm,60,30,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,2
@@ -100,6 +103,7 @@ amr_website_media_2023_2026,overture_37_minority_2021,60,28,6,15,2,19,0.105263,3
 amr_website_media_2023_2026,publication_co-laborers-co-heirs-2019,60,26,6,1,1,6,0.166667,16.67,100.00,1.67,3.85,0
 amr_website_media_2023_2026,publication_heal-us-emmanuel-2016,60,30,6,7,3,10,0.300000,50.00,42.86,5.00,10.00,5
 amr_website_media_2023_2026,publication_hear-us-emmanuel-2020,60,29,6,3,0,9,0.000000,0.00,0.00,0.00,0.00,2
+amr_website_media_2023_2026,ruf_staff_transitions_2026,60,203,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,2
 amr_website_media_2023_2026,warhurst_protest_2019,60,203,6,92,1,97,0.010309,16.67,1.09,1.67,0.49,5
 amr_youtube_media_2023_2026,institution_cdm,40,30,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,1
 amr_youtube_media_2023_2026,institution_covenant-college,40,48,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
@@ -123,6 +127,7 @@ amr_youtube_media_2023_2026,overture_37_minority_2021,40,28,6,15,2,19,0.105263,3
 amr_youtube_media_2023_2026,publication_co-laborers-co-heirs-2019,40,26,6,1,1,6,0.166667,16.67,100.00,2.50,3.85,0
 amr_youtube_media_2023_2026,publication_heal-us-emmanuel-2016,40,30,6,7,3,10,0.300000,50.00,42.86,7.50,10.00,1
 amr_youtube_media_2023_2026,publication_hear-us-emmanuel-2020,40,29,6,3,0,9,0.000000,0.00,0.00,0.00,0.00,0
+amr_youtube_media_2023_2026,ruf_staff_transitions_2026,40,203,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,1
 amr_youtube_media_2023_2026,warhurst_protest_2019,40,203,6,92,1,97,0.010309,16.67,1.09,2.50,0.49,1
 institution_cdm,institution_covenant-college,30,48,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,1
 institution_cdm,institution_covenant-theological-seminary,30,51,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
@@ -145,6 +150,7 @@ institution_cdm,overture_37_minority_2021,30,28,0,15,0,15,0.000000,0.00,0.00,0.0
 institution_cdm,publication_co-laborers-co-heirs-2019,30,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_cdm,publication_heal-us-emmanuel-2016,30,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_cdm,publication_hear-us-emmanuel-2020,30,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+institution_cdm,ruf_staff_transitions_2026,30,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_cdm,warhurst_protest_2019,30,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-college,institution_covenant-theological-seminary,48,51,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,1
 institution_covenant-college,institution_geneva-benefits,48,46,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
@@ -166,6 +172,7 @@ institution_covenant-college,overture_37_minority_2021,48,28,0,15,0,15,0.000000,
 institution_covenant-college,publication_co-laborers-co-heirs-2019,48,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-college,publication_heal-us-emmanuel-2016,48,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-college,publication_hear-us-emmanuel-2020,48,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,1
+institution_covenant-college,ruf_staff_transitions_2026,48,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-college,warhurst_protest_2019,48,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,1
 institution_covenant-theological-seminary,institution_geneva-benefits,51,46,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-theological-seminary,institution_greenville-presbyterian-theological-seminary,51,29,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
@@ -186,6 +193,7 @@ institution_covenant-theological-seminary,overture_37_minority_2021,51,28,0,15,0
 institution_covenant-theological-seminary,publication_co-laborers-co-heirs-2019,51,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-theological-seminary,publication_heal-us-emmanuel-2016,51,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-theological-seminary,publication_hear-us-emmanuel-2020,51,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+institution_covenant-theological-seminary,ruf_staff_transitions_2026,51,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-theological-seminary,warhurst_protest_2019,51,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,2
 institution_geneva-benefits,institution_greenville-presbyterian-theological-seminary,46,29,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,institution_mission-to-north-america,46,95,0,2,0,2,0.000000,0.00,0.00,0.00,0.00,0
@@ -205,6 +213,7 @@ institution_geneva-benefits,overture_37_minority_2021,46,28,0,15,0,15,0.000000,0
 institution_geneva-benefits,publication_co-laborers-co-heirs-2019,46,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,publication_heal-us-emmanuel-2016,46,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,publication_hear-us-emmanuel-2020,46,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+institution_geneva-benefits,ruf_staff_transitions_2026,46,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,warhurst_protest_2019,46,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,institution_mission-to-north-america,29,95,0,2,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,institution_mission-to-the-world,29,10,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
@@ -223,6 +232,7 @@ institution_greenville-presbyterian-theological-seminary,overture_37_minority_20
 institution_greenville-presbyterian-theological-seminary,publication_co-laborers-co-heirs-2019,29,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,publication_heal-us-emmanuel-2016,29,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,publication_hear-us-emmanuel-2020,29,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+institution_greenville-presbyterian-theological-seminary,ruf_staff_transitions_2026,29,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,warhurst_protest_2019,29,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-north-america,institution_mission-to-the-world,95,10,2,1,0,3,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-north-america,institution_pca-administrative-committee,95,19,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
@@ -240,6 +250,7 @@ institution_mission-to-north-america,overture_37_minority_2021,95,28,2,15,1,16,0
 institution_mission-to-north-america,publication_co-laborers-co-heirs-2019,95,26,2,1,0,3,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-north-america,publication_heal-us-emmanuel-2016,95,30,2,7,0,9,0.000000,0.00,0.00,0.00,0.00,1
 institution_mission-to-north-america,publication_hear-us-emmanuel-2020,95,29,2,3,0,5,0.000000,0.00,0.00,0.00,0.00,0
+institution_mission-to-north-america,ruf_staff_transitions_2026,95,203,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-north-america,warhurst_protest_2019,95,203,2,92,2,92,0.021739,100.00,2.17,2.11,0.99,1
 institution_mission-to-the-world,institution_pca-administrative-committee,10,19,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,institution_pca-foundation,10,23,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
@@ -256,6 +267,7 @@ institution_mission-to-the-world,overture_37_minority_2021,10,28,1,15,0,16,0.000
 institution_mission-to-the-world,publication_co-laborers-co-heirs-2019,10,26,1,1,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,publication_heal-us-emmanuel-2016,10,30,1,7,0,8,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,publication_hear-us-emmanuel-2020,10,29,1,3,0,4,0.000000,0.00,0.00,0.00,0.00,0
+institution_mission-to-the-world,ruf_staff_transitions_2026,10,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,warhurst_protest_2019,10,203,1,92,0,93,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-administrative-committee,institution_pca-foundation,19,23,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-administrative-committee,institution_reformed-theological-seminary,19,46,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
@@ -271,6 +283,7 @@ institution_pca-administrative-committee,overture_37_minority_2021,19,28,0,15,0,
 institution_pca-administrative-committee,publication_co-laborers-co-heirs-2019,19,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-administrative-committee,publication_heal-us-emmanuel-2016,19,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-administrative-committee,publication_hear-us-emmanuel-2020,19,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+institution_pca-administrative-committee,ruf_staff_transitions_2026,19,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,1
 institution_pca-administrative-committee,warhurst_protest_2019,19,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,institution_reformed-theological-seminary,23,46,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,institution_reformed-university-fellowship,23,33,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
@@ -285,6 +298,7 @@ institution_pca-foundation,overture_37_minority_2021,23,28,0,15,0,15,0.000000,0.
 institution_pca-foundation,publication_co-laborers-co-heirs-2019,23,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,publication_heal-us-emmanuel-2016,23,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,publication_hear-us-emmanuel-2020,23,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+institution_pca-foundation,ruf_staff_transitions_2026,23,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,warhurst_protest_2019,23,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-theological-seminary,institution_reformed-university-fellowship,46,33,1,1,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-theological-seminary,institution_ridge-haven,46,17,1,1,0,2,0.000000,0.00,0.00,0.00,0.00,0
@@ -298,6 +312,7 @@ institution_reformed-theological-seminary,overture_37_minority_2021,46,28,1,15,0
 institution_reformed-theological-seminary,publication_co-laborers-co-heirs-2019,46,26,1,1,1,1,1.000000,100.00,100.00,2.17,3.85,0
 institution_reformed-theological-seminary,publication_heal-us-emmanuel-2016,46,30,1,7,1,7,0.142857,100.00,14.29,2.17,3.33,0
 institution_reformed-theological-seminary,publication_hear-us-emmanuel-2020,46,29,1,3,0,4,0.000000,0.00,0.00,0.00,0.00,0
+institution_reformed-theological-seminary,ruf_staff_transitions_2026,46,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-theological-seminary,warhurst_protest_2019,46,203,1,92,0,93,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-university-fellowship,institution_ridge-haven,33,17,1,1,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-university-fellowship,institution_westminster-seminary-california,33,21,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
@@ -310,6 +325,7 @@ institution_reformed-university-fellowship,overture_37_minority_2021,33,28,1,15,
 institution_reformed-university-fellowship,publication_co-laborers-co-heirs-2019,33,26,1,1,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-university-fellowship,publication_heal-us-emmanuel-2016,33,30,1,7,1,7,0.142857,100.00,14.29,3.03,3.33,0
 institution_reformed-university-fellowship,publication_hear-us-emmanuel-2020,33,29,1,3,0,4,0.000000,0.00,0.00,0.00,0.00,0
+institution_reformed-university-fellowship,ruf_staff_transitions_2026,33,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,23
 institution_reformed-university-fellowship,warhurst_protest_2019,33,203,1,92,0,93,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,institution_westminster-seminary-california,17,21,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,institution_westminster-theological-seminary,17,32,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
@@ -321,6 +337,7 @@ institution_ridge-haven,overture_37_minority_2021,17,28,1,15,0,16,0.000000,0.00,
 institution_ridge-haven,publication_co-laborers-co-heirs-2019,17,26,1,1,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,publication_heal-us-emmanuel-2016,17,30,1,7,0,8,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,publication_hear-us-emmanuel-2020,17,29,1,3,0,4,0.000000,0.00,0.00,0.00,0.00,0
+institution_ridge-haven,ruf_staff_transitions_2026,17,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,warhurst_protest_2019,17,203,1,92,0,93,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,institution_westminster-theological-seminary,21,32,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,nae_withdrawal_protest_2022,21,203,0,79,0,79,0.000000,0.00,0.00,0.00,0.00,0
@@ -331,6 +348,7 @@ institution_westminster-seminary-california,overture_37_minority_2021,21,28,0,15
 institution_westminster-seminary-california,publication_co-laborers-co-heirs-2019,21,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,publication_heal-us-emmanuel-2016,21,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,publication_hear-us-emmanuel-2020,21,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+institution_westminster-seminary-california,ruf_staff_transitions_2026,21,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,warhurst_protest_2019,21,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-theological-seminary,nae_withdrawal_protest_2022,32,203,0,79,0,79,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-theological-seminary,national_partnership_confirmed_members,32,151,0,39,0,39,0.000000,0.00,0.00,0.00,0.00,0
@@ -340,6 +358,7 @@ institution_westminster-theological-seminary,overture_37_minority_2021,32,28,0,1
 institution_westminster-theological-seminary,publication_co-laborers-co-heirs-2019,32,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-theological-seminary,publication_heal-us-emmanuel-2016,32,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-theological-seminary,publication_hear-us-emmanuel-2020,32,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+institution_westminster-theological-seminary,ruf_staff_transitions_2026,32,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-theological-seminary,warhurst_protest_2019,32,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,1
 nae_withdrawal_protest_2022,national_partnership_confirmed_members,203,151,79,39,4,114,0.035088,5.06,10.26,1.97,2.65,6
 nae_withdrawal_protest_2022,overture_15_minority_2022,203,46,79,0,0,79,0.000000,0.00,0.00,0.00,0.00,0
@@ -348,6 +367,7 @@ nae_withdrawal_protest_2022,overture_37_minority_2021,203,28,79,15,2,92,0.021739
 nae_withdrawal_protest_2022,publication_co-laborers-co-heirs-2019,203,26,79,1,0,80,0.000000,0.00,0.00,0.00,0.00,2
 nae_withdrawal_protest_2022,publication_heal-us-emmanuel-2016,203,30,79,7,0,86,0.000000,0.00,0.00,0.00,0.00,3
 nae_withdrawal_protest_2022,publication_hear-us-emmanuel-2020,203,29,79,3,0,82,0.000000,0.00,0.00,0.00,0.00,0
+nae_withdrawal_protest_2022,ruf_staff_transitions_2026,203,203,79,0,0,79,0.000000,0.00,0.00,0.00,0.00,1
 nae_withdrawal_protest_2022,warhurst_protest_2019,203,203,79,92,23,148,0.155405,29.11,25.00,11.33,11.33,6
 national_partnership_confirmed_members,overture_15_minority_2022,151,46,39,0,0,39,0.000000,0.00,0.00,0.00,0.00,0
 national_partnership_confirmed_members,overture_15_negative_votes_2022,151,199,39,101,8,132,0.060606,20.51,7.92,5.30,4.02,12
@@ -355,25 +375,33 @@ national_partnership_confirmed_members,overture_37_minority_2021,151,28,39,15,1,
 national_partnership_confirmed_members,publication_co-laborers-co-heirs-2019,151,26,39,1,1,39,0.025641,2.56,100.00,0.66,3.85,1
 national_partnership_confirmed_members,publication_heal-us-emmanuel-2016,151,30,39,7,4,42,0.095238,10.26,57.14,2.65,13.33,5
 national_partnership_confirmed_members,publication_hear-us-emmanuel-2020,151,29,39,3,1,41,0.024390,2.56,33.33,0.66,3.45,1
+national_partnership_confirmed_members,ruf_staff_transitions_2026,151,203,39,0,0,39,0.000000,0.00,0.00,0.00,0.00,0
 national_partnership_confirmed_members,warhurst_protest_2019,151,203,39,92,17,114,0.149123,43.59,18.48,11.26,8.37,14
 overture_15_minority_2022,overture_15_negative_votes_2022,46,199,0,101,0,101,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,overture_37_minority_2021,46,28,0,15,0,15,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,publication_co-laborers-co-heirs-2019,46,26,0,1,0,1,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,publication_heal-us-emmanuel-2016,46,30,0,7,0,7,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,publication_hear-us-emmanuel-2020,46,29,0,3,0,3,0.000000,0.00,0.00,0.00,0.00,0
+overture_15_minority_2022,ruf_staff_transitions_2026,46,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,warhurst_protest_2019,46,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_negative_votes_2022,overture_37_minority_2021,199,28,101,15,6,110,0.054545,5.94,40.00,3.02,21.43,3
 overture_15_negative_votes_2022,publication_co-laborers-co-heirs-2019,199,26,101,1,0,102,0.000000,0.00,0.00,0.00,0.00,2
 overture_15_negative_votes_2022,publication_heal-us-emmanuel-2016,199,30,101,7,2,106,0.018868,1.98,28.57,1.01,6.67,5
 overture_15_negative_votes_2022,publication_hear-us-emmanuel-2020,199,29,101,3,1,103,0.009709,0.99,33.33,0.50,3.45,2
+overture_15_negative_votes_2022,ruf_staff_transitions_2026,199,203,101,0,0,101,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_negative_votes_2022,warhurst_protest_2019,199,203,101,92,30,163,0.184049,29.70,32.61,15.08,14.78,13
 overture_37_minority_2021,publication_co-laborers-co-heirs-2019,28,26,15,1,0,16,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_minority_2021,publication_heal-us-emmanuel-2016,28,30,15,7,0,22,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_minority_2021,publication_hear-us-emmanuel-2020,28,29,15,3,0,18,0.000000,0.00,0.00,0.00,0.00,0
+overture_37_minority_2021,ruf_staff_transitions_2026,28,203,15,0,0,15,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_minority_2021,warhurst_protest_2019,28,203,15,92,7,100,0.070000,46.67,7.61,25.00,3.45,4
 publication_co-laborers-co-heirs-2019,publication_heal-us-emmanuel-2016,26,30,1,7,1,7,0.142857,100.00,14.29,3.85,3.33,2
 publication_co-laborers-co-heirs-2019,publication_hear-us-emmanuel-2020,26,29,1,3,0,4,0.000000,0.00,0.00,0.00,0.00,3
+publication_co-laborers-co-heirs-2019,ruf_staff_transitions_2026,26,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 publication_co-laborers-co-heirs-2019,warhurst_protest_2019,26,203,1,92,0,93,0.000000,0.00,0.00,0.00,0.00,2
 publication_heal-us-emmanuel-2016,publication_hear-us-emmanuel-2020,30,29,7,3,3,7,0.428571,42.86,100.00,10.00,10.34,1
+publication_heal-us-emmanuel-2016,ruf_staff_transitions_2026,30,203,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
 publication_heal-us-emmanuel-2016,warhurst_protest_2019,30,203,7,92,2,97,0.020619,28.57,2.17,6.67,0.99,5
+publication_hear-us-emmanuel-2020,ruf_staff_transitions_2026,29,203,3,0,0,3,0.000000,0.00,0.00,0.00,0.00,0
 publication_hear-us-emmanuel-2020,warhurst_protest_2019,29,203,3,92,2,93,0.021505,66.67,2.17,6.90,0.99,1
+ruf_staff_transitions_2026,warhurst_protest_2019,203,203,0,92,0,92,0.000000,0.00,0.00,0.00,0.00,1

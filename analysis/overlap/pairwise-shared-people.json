@@ -5855,6 +5855,14 @@
     },
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "ruf_staff_transitions_2026",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "titus bagby"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
       "dataset_b": "warhurst_protest_2019",
       "confirmed_shared_people": [
         {
@@ -7496,6 +7504,15 @@
     },
     {
       "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "ruf_staff_transitions_2026",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff jou",
+        "matt terrell"
+      ]
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
       "dataset_b": "warhurst_protest_2019",
       "confirmed_shared_people": [
         {
@@ -7748,6 +7765,14 @@
       ],
       "unresolved_exact_name_keys": [
         "mike khandjian"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "ruf_staff_transitions_2026",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "joy beans"
       ]
     },
     {
@@ -8013,6 +8038,14 @@
       ]
     },
     {
+      "dataset_a": "institution_pca-administrative-committee",
+      "dataset_b": "ruf_staff_transitions_2026",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andy jones"
+      ]
+    },
+    {
       "dataset_a": "institution_reformed-theological-seminary",
       "dataset_b": "national_partnership_confirmed_members",
       "confirmed_shared_people": [
@@ -8079,6 +8112,36 @@
         }
       ],
       "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "institution_reformed-university-fellowship",
+      "dataset_b": "ruf_staff_transitions_2026",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andrew mauney",
+        "caleb hughes",
+        "caleb jakana",
+        "chad turner",
+        "iain coston",
+        "ian deffenbaugh",
+        "isaac noh",
+        "jackson vanderark",
+        "jake willeman",
+        "james rantzow",
+        "jared brown",
+        "jeff neikirk",
+        "joelle smith",
+        "jonah brenner",
+        "jordan perkins",
+        "katie paterson",
+        "luke wilkerson",
+        "nate fowler",
+        "noah lykins",
+        "robert kullberg",
+        "taylor mcpherson",
+        "thomas hicks",
+        "zach fiol"
+      ]
     },
     {
       "dataset_a": "institution_westminster-theological-seminary",
@@ -8741,6 +8804,14 @@
         "doug serven",
         "scott sauls",
         "stan long"
+      ]
+    },
+    {
+      "dataset_a": "nae_withdrawal_protest_2022",
+      "dataset_b": "ruf_staff_transitions_2026",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "trip beans"
       ]
     },
     {
@@ -10068,6 +10139,14 @@
       ],
       "unresolved_exact_name_keys": [
         "hace cargo"
+      ]
+    },
+    {
+      "dataset_a": "ruf_staff_transitions_2026",
+      "dataset_b": "warhurst_protest_2019",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "titus bagby"
       ]
     }
   ]

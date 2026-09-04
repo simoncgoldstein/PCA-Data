@@ -5,7 +5,7 @@
   },
   "nodes": {
     "person_nodes": 208,
-    "dataset_nodes": 28,
+    "dataset_nodes": 29,
     "organization_nodes": 21,
     "church_nodes": 1970,
     "presbytery_nodes": 88,
@@ -37,20 +37,20 @@
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.11572802
+    "value": 0.1117374
   },
   "components": {
-    "count": 12,
+    "count": 13,
     "largest_component_nodes": 225,
     "isolated_person_nodes": 1
   },
   "quality_gaps": {
-    "unresolved_identity_rows": 2278,
+    "unresolved_identity_rows": 2491,
     "unresolved_by_status": {
-      "ambiguous": 312,
+      "ambiguous": 340,
       "collision": 10,
-      "probable_requires_review": 263,
-      "unmatched": 1693
+      "probable_requires_review": 272,
+      "unmatched": 1869
     },
     "confirmed_edges_missing_specific_event_year": 85,
     "datasets_without_primary_or_official_tier": [

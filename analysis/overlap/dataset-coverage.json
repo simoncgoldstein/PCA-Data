@@ -9,9 +9,9 @@
       "row_count": 571,
       "unique_printed_name_count": 561,
       "confirmed_canonical_person_count": 124,
-      "unmatched_count": 359,
+      "unmatched_count": 358,
       "probable_requires_review_count": 28,
-      "ambiguous_or_collision_count": 60,
+      "ambiguous_or_collision_count": 61,
       "percentage_resolved": 21.72,
       "source_tier": [
         "first_party_archive"
@@ -25,9 +25,9 @@
       "row_count": 737,
       "unique_printed_name_count": 736,
       "confirmed_canonical_person_count": 155,
-      "unmatched_count": 488,
+      "unmatched_count": 487,
       "probable_requires_review_count": 29,
-      "ambiguous_or_collision_count": 65,
+      "ambiguous_or_collision_count": 66,
       "percentage_resolved": 21.03,
       "source_tier": [
         "first_party_archive"
@@ -57,8 +57,8 @@
       "row_count": 136,
       "unique_printed_name_count": 60,
       "confirmed_canonical_person_count": 6,
-      "unmatched_count": 13,
-      "probable_requires_review_count": 42,
+      "unmatched_count": 12,
+      "probable_requires_review_count": 43,
       "ambiguous_or_collision_count": 47,
       "percentage_resolved": 25.0,
       "source_tier": [
@@ -73,8 +73,8 @@
       "row_count": 83,
       "unique_printed_name_count": 40,
       "confirmed_canonical_person_count": 6,
-      "unmatched_count": 16,
-      "probable_requires_review_count": 23,
+      "unmatched_count": 15,
+      "probable_requires_review_count": 24,
       "ambiguous_or_collision_count": 32,
       "percentage_resolved": 14.46,
       "source_tier": [
@@ -105,9 +105,9 @@
       "row_count": 48,
       "unique_printed_name_count": 48,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 41,
+      "unmatched_count": 40,
       "probable_requires_review_count": 6,
-      "ambiguous_or_collision_count": 1,
+      "ambiguous_or_collision_count": 2,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
@@ -201,8 +201,8 @@
       "row_count": 19,
       "unique_printed_name_count": 19,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 18,
-      "probable_requires_review_count": 1,
+      "unmatched_count": 17,
+      "probable_requires_review_count": 2,
       "ambiguous_or_collision_count": 0,
       "percentage_resolved": 0.0,
       "source_tier": [
@@ -249,9 +249,9 @@
       "row_count": 33,
       "unique_printed_name_count": 33,
       "confirmed_canonical_person_count": 1,
-      "unmatched_count": 31,
+      "unmatched_count": 30,
       "probable_requires_review_count": 1,
-      "ambiguous_or_collision_count": 0,
+      "ambiguous_or_collision_count": 1,
       "percentage_resolved": 3.03,
       "source_tier": [
         "official_institutional"
@@ -313,8 +313,8 @@
       "row_count": 203,
       "unique_printed_name_count": 203,
       "confirmed_canonical_person_count": 79,
-      "unmatched_count": 91,
-      "probable_requires_review_count": 14,
+      "unmatched_count": 90,
+      "probable_requires_review_count": 15,
       "ambiguous_or_collision_count": 19,
       "percentage_resolved": 38.92,
       "source_tier": [
@@ -434,6 +434,22 @@
       ],
       "completeness_status": [
         "complete_visible_chapter_table"
+      ]
+    },
+    {
+      "source_dataset": "ruf_staff_transitions_2026",
+      "row_count": 213,
+      "unique_printed_name_count": 203,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 184,
+      "probable_requires_review_count": 5,
+      "ambiguous_or_collision_count": 24,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "complete_official_2026_transition_announcements"
       ]
     },
     {
