@@ -1,0 +1,22 @@
+name: Validate Save the PCA organizational framing
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-save-the-pca-framing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Validate Save the PCA organizational framing
+        run: python3 scripts/validate-save-the-pca-organizational-framing.py .
