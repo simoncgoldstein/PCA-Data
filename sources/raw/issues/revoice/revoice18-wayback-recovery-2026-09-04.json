@@ -1,0 +1,58 @@
+{
+  "research_date": "2026-09-04",
+  "original_endpoint": "https://revoice.us/events/revoice18/",
+  "query_scope": "Internet Archive CDX exact event endpoint, 2018 through 2019, status 200, collapsed by digest",
+  "exact_endpoint_captures": [
+    {
+      "timestamp": "20190707073156",
+      "original": "https://revoice.us/events/revoice18/",
+      "statuscode": 200,
+      "mimetype": "text/html",
+      "internet_archive_digest": "ZAEXIH4YGBX2T6UWSKNFKK7YDCLZKNJV",
+      "replay_url": "https://web.archive.org/web/20190707073156id_/https://revoice.us/events/revoice18/",
+      "recovered_body_bytes": 37262,
+      "recovered_body_sha256": "2072943a8696fd2466d6d17a36505d78a15f97a10feb641d59a866e66afc61f9"
+    },
+    {
+      "timestamp": "20190717044623",
+      "original": "https://revoice.us/events/revoice18/",
+      "statuscode": 200,
+      "mimetype": "text/html",
+      "internet_archive_digest": "J5YWOIIEOWM6WMUQAB2T7GCTJEO6DMOZ",
+      "replay_url": "https://web.archive.org/web/20190717044623id_/https://revoice.us/events/revoice18/",
+      "recovered_body_bytes": 37262,
+      "recovered_body_sha256": "1745446332198aa7e64756807bb581d049cd429691d9b24cbbaf42136c4d0d9f"
+    }
+  ],
+  "known_2018_root_capture_probes": [
+    {
+      "root_timestamp": "20180629052224",
+      "probed_event_url": "http://www.revoice.us/events/revoice18/",
+      "returned_body_sha256": "2072943a8696fd2466d6d17a36505d78a15f97a10feb641d59a866e66afc61f9",
+      "assessment": "Wayback replay resolved forward to the July 7, 2019 event-page body; this is not evidence of a 2018 event-path capture."
+    },
+    {
+      "root_timestamp": "20180828014500",
+      "probed_event_url": "http://revoice.us/events/revoice18/",
+      "returned_body_sha256": "2072943a8696fd2466d6d17a36505d78a15f97a10feb641d59a866e66afc61f9",
+      "assessment": "Wayback replay resolved forward to the July 7, 2019 event-page body; this is not evidence of a 2018 event-path capture."
+    }
+  ],
+  "recovery_artifact": {
+    "github_actions_run_id": 33878630740,
+    "github_artifact_id": 9938898914,
+    "github_artifact_name": "revoice18-wayback-recovery",
+    "artifact_sha256": "455480f53d6b9f73bac28a098316d52befc79559ec1f7cfb491be466a9163f55",
+    "retention_note": "GitHub Actions artifact is temporary. This repository receipt preserves the durable CDX/capture identifiers, byte lengths, hashes, and bounded factual extraction without reproducing the full archived webpage body."
+  },
+  "page_factual_shape": {
+    "title": "Revoice18",
+    "sections": [
+      "General Sessions",
+      "Workshops",
+      "Spiritual Friendship Preconference"
+    ],
+    "embedded_media_records": 12
+  },
+  "finding": "No exact 2018 capture of /events/revoice18/ was returned by the CDX query. The surviving exact-endpoint captures are from July 2019 and function as a post-event media library, not the original advertised 2018 schedule."
+}
