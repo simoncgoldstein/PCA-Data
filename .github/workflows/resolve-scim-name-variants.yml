@@ -1,0 +1,38 @@
+name: Resolve reviewed SCIM name variants
+
+on:
+  push:
+    branches:
+      - research/insider-movements-recovery-2026-09-04
+    paths:
+      - scripts/resolve-scim-name-variants.py
+      - .github/workflows/resolve-scim-name-variants.yml
+
+permissions:
+  contents: write
+
+jobs:
+  resolve:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Apply reviewed identity decisions
+        run: python3 scripts/resolve-scim-name-variants.py
+      - name: Rebuild generated outputs
+        run: |
+          python3 scripts/build-person-crosswalk.py
+          python3 scripts/build-overlap-analysis.py
+      - name: Validate
+        run: |
+          python3 scripts/validate-formal-position-evidence.py
+          node scripts/validate-data.mjs
+          python3 scripts/validate-research-imports.py
+      - name: Commit materialized result
+        run: |
+          rm scripts/resolve-scim-name-variants.py
+          rm .github/workflows/resolve-scim-name-variants.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Resolve reviewed SCIM name variants"
+          git push
