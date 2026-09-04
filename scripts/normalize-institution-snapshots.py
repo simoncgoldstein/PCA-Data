@@ -37,6 +37,7 @@ CONFIG = [
 ]
 
 DEPARTMENT_SPLIT_ORGS = {"mission-to-north-america"}
+MTW_ORG = "mission-to-the-world"
 RTS_ORG = "reformed-theological-seminary"
 RTS_SECTION = "Current residential-faculty union"
 RTS_EVIDENCE_PREFIXES = (
@@ -52,8 +53,12 @@ RTS_EVIDENCE_PREFIXES = (
 people = json.loads((root / "data/people.json").read_text(encoding="utf-8"))
 
 
+def strip_markup(value: str) -> str:
+    return re.sub(r"[*_`]", "", value).strip()
+
+
 def clean(value: str) -> str:
-    return re.sub(r"[*_`]", "", value).strip().rstrip(".")
+    return strip_markup(value).rstrip(".")
 
 
 def key(value: str) -> str:
@@ -124,13 +129,13 @@ def parse_rts(
             continue
         if line.startswith("### "):
             flush()
-            current_name = clean(line[4:].strip())
+            current_name = strip_markup(line[4:].strip())
             current_line = line_number
             continue
         match = re.match(r"^- (.+)$", line)
         if not match or not current_name:
             continue
-        value = clean(match.group(1))
+        value = strip_markup(match.group(1))
         if value.startswith(RTS_EVIDENCE_PREFIXES):
             evidence_lines.append(value)
         else:
@@ -174,7 +179,8 @@ for organization_id, relative, snapshot_date, source_url, allowed_h2, include_h3
             printed_name, role = raw.split(" — ", 1)
         else:
             printed_name, role = raw, h3 or h2
-        printed_name, role = clean(printed_name), clean(role)
+        printed_name = strip_markup(printed_name) if organization_id == MTW_ORG else clean(printed_name)
+        role = clean(role)
 
         department = None
         if organization_id in DEPARTMENT_SPLIT_ORGS:
