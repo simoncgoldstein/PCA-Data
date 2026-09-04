@@ -1,9 +1,18 @@
 {
-  "event": "Ad Interim Committee on Human Sexuality",
-  "appointed": 2019,
-  "reported_to_ga": 2021,
-  "source": "https://www.pcahistory.org/pca/digest/studies/2021_human_sexuality_report.pdf",
-  "status": "primary-source roster normalized",
+  "metadata": {
+    "event": "Ad Interim Committee on Human Sexuality",
+    "appointed": 2019,
+    "report_released": 2020,
+    "reported_to_ga": 2021,
+    "primary_source": "https://www.pcahistory.org/pca/digest/studies/2021_human_sexuality_report.pdf",
+    "status": "primary-source roster and collective-report positions normalized",
+    "report_form": "ad_interim_committee_report",
+    "formal_recommendations": false,
+    "collective_position_scope": "The report states that the Preamble and Twelve Statements summarize the committee's discussions and convictions and received its most lengthy and precise discussions.",
+    "essay_scope_boundary": "The report states that explanatory essays by committee members were included because all members believed them helpful, without endorsing how every thought in those essays was expressed.",
+    "bibliography_scope_boundary": "The committee explicitly did not affirm agreement with every word or thought in every resource in its annotated bibliography.",
+    "ideological_weight": 0
+  },
   "members": [
     {"name":"Bryan Chapell","office":"TE","presbytery":"Northern Illinois","role":"Chair"},
     {"name":"Derek Halvorson","office":"RE","presbytery":"Tennessee Valley","role":"Member"},
@@ -13,6 +22,103 @@
     {"name":"Jim Pocta","office":"RE","presbytery":"North Texas","role":"Member"},
     {"name":"Jim Weidenaar","office":"TE","presbytery":"Pittsburgh","role":"Member"}
   ],
-  "count": 7,
-  "scope_note": "The GA assigned the committee to study homosexuality, same-sex attraction, identity terminology, spiritual friendship, temptation/sin/repentance, transgenderism, and pastoral/apologetic questions. Committee membership is an institutional edge and does not imply agreement with every later use of the report."
+  "member_count": 7,
+  "assigned_scope": [
+    "nature of temptation, sin, repentance, and Reformed versus Roman Catholic views of concupiscence as regards same-sex attraction",
+    "propriety of terms such as gay Christian",
+    "status of orientation as an anthropological category",
+    "practice of spiritual friendship among same-sex-attracted Christians",
+    "WLC 138 and 139 and same-sex attraction/celibacy",
+    "exegesis of malakoi and arsenokoitai in 1 Corinthians 6:9",
+    "pastoral and apologetic articulation concerning homosexuality, same-sex attraction, and transgenderism",
+    "annotated resources for pastors and sessions"
+  ],
+  "collective_report_positions": [
+    {
+      "statement_number": 1,
+      "position_id": "marriage",
+      "title_as_printed": "MARRIAGE",
+      "summary": "Marriage is between one man and one woman; sexual intimacy belongs within that marriage; lust and same-sex sexual activity are sinful; sexual immorality is forgivable through repentance and faith.",
+      "pdf_page": 7
+    },
+    {
+      "statement_number": 2,
+      "position_id": "image_of_god",
+      "title_as_printed": "IMAGE OF GOD",
+      "summary": "Human beings are created male and female in God's image; the body is good and people should ordinarily live according to biological sex, while difficult cases and people experiencing gender confusion call for compassionate ministry.",
+      "pdf_pages": [7,8]
+    },
+    {
+      "statement_number": 3,
+      "position_id": "original_sin",
+      "title_as_printed": "ORIGINAL SIN",
+      "summary": "Original corruption is itself sinful and culpable and gives rise to actual transgressions; believers repent of sin while also receiving pardon and making real, though imperfect, spiritual progress in Christ.",
+      "pdf_page": 8
+    },
+    {
+      "statement_number": 4,
+      "position_id": "desire",
+      "title_as_printed": "DESIRE",
+      "summary": "Fallen desires for illicit ends are themselves sinful; same-sex attraction is not morally neutral and is to be repented of and mortified, while justified believers remain free from condemnation and can walk by the Spirit.",
+      "pdf_page": 9
+    },
+    {
+      "statement_number": 5,
+      "position_id": "concupiscence",
+      "title_as_printed": "CONCUPISCENCE",
+      "summary": "Impure thoughts and desires can be sin prior to a conscious act of the will; the report rejects a view in which disordered desire becomes sin only upon consent, while recognizing that many such desires are experienced as unwanted or unbidden and require careful pastoral treatment.",
+      "pdf_pages": [9,10]
+    },
+    {
+      "statement_number": 6,
+      "position_id": "temptation",
+      "title_as_printed": "TEMPTATION",
+      "summary": "Scripture distinguishes morally neutral trials from inward temptations arising as illicit desires; inward temptation can itself express indwelling sin, while there remains an important moral distinction between temptation and giving in to sin.",
+      "pdf_page": 10
+    },
+    {
+      "statement_number": 7,
+      "position_id": "sanctification",
+      "title_as_printed": "SANCTIFICATION",
+      "summary": "Christians should seek not only to resist immoral behavior but to weaken and mortify underlying sinful desires; substantial progress in holiness is possible though often slow and uneven, and sexual sanctification is not reducible to developing opposite-sex attraction.",
+      "pdf_page": 11
+    },
+    {
+      "statement_number": 8,
+      "position_id": "impeccability",
+      "title_as_printed": "IMPECCABILITY",
+      "summary": "Christ neither sinned nor could sin; he experienced real trials and temptations from without but not disordered inward desires, while remaining a sympathetic high priest who truly suffered.",
+      "pdf_pages": [11,12]
+    },
+    {
+      "statement_number": 9,
+      "position_id": "identity",
+      "title_as_printed": "IDENTITY",
+      "summary": "A believer's primary identity is in Christ; identities rooted in sinful desires should not be juxtaposed with Christian identity, while honest description of ongoing struggles is distinguished from making the struggle an identity marker.",
+      "pdf_page": 12
+    },
+    {
+      "statement_number": 10,
+      "position_id": "language",
+      "title_as_printed": "LANGUAGE",
+      "summary": "The report advises Christians to avoid the term gay Christian while also counseling against policing every use of gay; pastoral care should be gentle and intentional in encouraging identity language rooted in sinful desires to be left behind.",
+      "pdf_page": 13
+    },
+    {
+      "statement_number": 11,
+      "position_id": "friendship",
+      "title_as_printed": "FRIENDSHIP",
+      "summary": "The church should better honor singleness, friendship, and mutual accountability, including for believers experiencing same-sex attraction; it rejects exclusive marriage-like same-sex friendships, same-sex romantic behavior, and celebrating same-sex attraction as a gift or identity.",
+      "pdf_page": 13
+    },
+    {
+      "statement_number": 12,
+      "position_id": "repentance_and_hope",
+      "title_as_printed": "REPENTANCE AND HOPE",
+      "summary": "The Christian life is one of repentance; the church should repent of mistreatment and misplaced shame, believers should repent of sinful thoughts, desires, words, and deeds, and the report gives thanks for believers pursuing chastity and obedience amid ongoing same-sex attraction.",
+      "pdf_pages": [13,14]
+    }
+  ],
+  "collective_position_count": 12,
+  "scope_note": "Committee service is an institutional/formal-position edge. The committee's own wording supports attributing the Preamble and Twelve Statements collectively to the committee as summaries of its discussions and convictions, but does not justify attributing every sentence of later member essays or bibliography resources to every member."
 }
