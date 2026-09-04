@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate the bounded Revoice18 archive/transcript recovery without inventing a full 2018 program."""
+"""Validate bounded Revoice18 archive, transcript, and participation evidence without inventing a full 2018 program."""
 
 from __future__ import annotations
 
@@ -12,6 +12,7 @@ root = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
 receipt = json.loads((root / "sources/raw/issues/revoice/revoice18-wayback-recovery-2026-09-04.json").read_text(encoding="utf-8"))
 transcripts = json.loads((root / "sources/raw/issues/revoice/revoice18-general-session-transcript-receipt-2026-09-04.json").read_text(encoding="utf-8"))
 media = json.loads((root / "sources/normalized/revoice/revoice18-recovered-media-2019-07.json").read_text(encoding="utf-8"))
+participation = json.loads((root / "sources/normalized/revoice/revoice18-confirmed-participation.json").read_text(encoding="utf-8"))
 
 captures = receipt.get("exact_endpoint_captures", [])
 if [(row.get("timestamp"), row.get("statuscode")) for row in captures] != [
@@ -116,10 +117,74 @@ if by_id["-upw6WjZGpk"].get("year_status") != "probable_2018_related_preconferen
 if "not a reconstruction of the original advertised Revoice 2018 program" not in media.get("metadata", {}).get("modeling_rule", ""):
     raise SystemExit("Revoice18 recovered media: incompleteness boundary missing")
 
+# Confirmed main-conference participation fragments. This layer remains neutral,
+# incomplete, and identity-unresolved by design until separately corroborated.
+part_meta = participation.get("metadata", {})
+part_sessions = participation.get("sessions", [])
+if part_meta.get("record_count") != 15 or part_meta.get("unique_printed_name_count") != 13:
+    raise SystemExit("Revoice18 participation: expected 15 appearances and 13 unique printed names")
+if part_meta.get("session_fragment_count") != 6 or len(part_sessions) != 6:
+    raise SystemExit("Revoice18 participation: expected exactly 6 confirmed session fragments")
+if part_meta.get("completeness_status") != "confirmed_fragments_only_not_full_program":
+    raise SystemExit("Revoice18 participation: fragment-only completeness boundary drift")
+if "does not imply conference-wide endorsement" not in part_meta.get("modeling_rule", ""):
+    raise SystemExit("Revoice18 participation: non-endorsement boundary missing")
+if "Spiritual Friendship preconference remains outside" not in part_meta.get("scope", ""):
+    raise SystemExit("Revoice18 participation: preconference boundary missing")
+
+expected_counts = {
+    "revoice18-gs1-praise": 4,
+    "revoice18-gs2-lament": 2,
+    "revoice18-gs3-hope": 2,
+    "revoice18-workshop-redeeming-queer-culture": 1,
+    "revoice18-workshop-church-haven": 1,
+    "revoice18-panel-race-sexuality-intersectionality": 5,
+}
+actual_counts = {row.get("session_id"): len(row.get("appearances", [])) for row in part_sessions}
+if actual_counts != expected_counts:
+    raise SystemExit(f"Revoice18 participation: session appearance counts drift: {actual_counts}")
+if any("preconference" in (row.get("session_id") or "").lower() for row in part_sessions):
+    raise SystemExit("Revoice18 participation: Spiritual Friendship preconference leaked into main-conference dataset")
+
+appearances = [appearance for session in part_sessions for appearance in session.get("appearances", [])]
+if len(appearances) != 15:
+    raise SystemExit(f"Revoice18 participation: expected 15 flattened appearances, found {len(appearances)}")
+appearance_ids = [row.get("appearance_id") for row in appearances]
+if len(appearance_ids) != len(set(appearance_ids)) or any(not value for value in appearance_ids):
+    raise SystemExit("Revoice18 participation: appearance IDs must be unique and nonblank")
+if len({row.get("name_as_printed") for row in appearances}) != 13:
+    raise SystemExit("Revoice18 participation: unique printed-name count drift")
+if any(row.get("ideological_weight") != 0 for row in appearances):
+    raise SystemExit("Revoice18 participation: all confirmed appearances must remain ideological_weight 0")
+if any(row.get("normalized_person_id") is not None for row in appearances):
+    raise SystemExit("Revoice18 participation: identity IDs must remain null until the separate identity-resolution pass")
+
+name_counts = Counter(row.get("name_as_printed") for row in appearances)
+if name_counts.get("Greg Johnson") != 2 or name_counts.get("Ray Low") != 2:
+    raise SystemExit("Revoice18 participation: expected Greg Johnson and Ray Low to appear exactly twice each")
+
+bekah_rows = [row for row in appearances if row.get("appearance_id") == "revoice18-gs3-bekah-testimony"]
+if len(bekah_rows) != 1:
+    raise SystemExit("Revoice18 participation: expected one held Bekah testimony row")
+bekah = bekah_rows[0]
+if (
+    bekah.get("name_as_printed"),
+    bekah.get("identity_status"),
+    bekah.get("resolved_name_candidate"),
+    bekah.get("graph_status"),
+) != ("Bekah", "printed_first_name_only_full_name_held", "Bekah Mason", "hold_identity_edge"):
+    raise SystemExit("Revoice18 participation: Bekah/Bekah Mason hold boundary drift")
+
+if any("26" in json.dumps(row) for row in part_sessions):
+    raise SystemExit("Revoice18 participation: do not encode the pre-event approximately-26-workshop benchmark as a recovered complete roster")
+
 print(json.dumps({
     "captures": len(captures),
     "transcript_receipts": len(sessions),
     "media_records": len(records),
+    "participation_appearances": len(appearances),
+    "participation_unique_printed_names": len(set(row["name_as_printed"] for row in appearances)),
+    "participation_session_fragments": len(part_sessions),
     "section_counts": dict(Counter(row["page_section"] for row in records)),
     "year_status_counts": dict(Counter(row["year_status"] for row in records)),
 }, indent=2))
