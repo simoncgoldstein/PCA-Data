@@ -8,11 +8,11 @@
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 123,
+      "confirmed_canonical_person_count": 124,
       "unmatched_count": 359,
-      "probable_requires_review_count": 29,
+      "probable_requires_review_count": 28,
       "ambiguous_or_collision_count": 60,
-      "percentage_resolved": 21.54,
+      "percentage_resolved": 21.72,
       "source_tier": [
         "first_party_archive"
       ],
@@ -24,11 +24,11 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 154,
+      "confirmed_canonical_person_count": 155,
       "unmatched_count": 488,
-      "probable_requires_review_count": 30,
+      "probable_requires_review_count": 29,
       "ambiguous_or_collision_count": 65,
-      "percentage_resolved": 20.9,
+      "percentage_resolved": 21.03,
       "source_tier": [
         "first_party_archive"
       ],
@@ -73,9 +73,9 @@
       "row_count": 83,
       "unique_printed_name_count": 40,
       "confirmed_canonical_person_count": 6,
-      "unmatched_count": 17,
+      "unmatched_count": 16,
       "probable_requires_review_count": 23,
-      "ambiguous_or_collision_count": 31,
+      "ambiguous_or_collision_count": 32,
       "percentage_resolved": 14.46,
       "source_tier": [
         "first_party"
@@ -105,9 +105,9 @@
       "row_count": 48,
       "unique_printed_name_count": 48,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 42,
+      "unmatched_count": 41,
       "probable_requires_review_count": 6,
-      "ambiguous_or_collision_count": 0,
+      "ambiguous_or_collision_count": 1,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
@@ -182,18 +182,18 @@
     },
     {
       "source_dataset": "institution_mission-to-the-world",
-      "row_count": 1,
-      "unique_printed_name_count": 1,
-      "confirmed_canonical_person_count": 0,
-      "unmatched_count": 0,
+      "row_count": 10,
+      "unique_printed_name_count": 10,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 8,
       "probable_requires_review_count": 1,
       "ambiguous_or_collision_count": 0,
-      "percentage_resolved": 0.0,
+      "percentage_resolved": 10.0,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "coordinator only; no public executive roster captured"
+        "10 currently corroborated leadership and senior/program roles; unresolved executive succession remains excluded"
       ]
     },
     {
@@ -230,18 +230,18 @@
     },
     {
       "source_dataset": "institution_reformed-theological-seminary",
-      "row_count": 8,
-      "unique_printed_name_count": 8,
-      "confirmed_canonical_person_count": 3,
-      "unmatched_count": 3,
-      "probable_requires_review_count": 2,
-      "ambiguous_or_collision_count": 0,
-      "percentage_resolved": 37.5,
+      "row_count": 46,
+      "unique_printed_name_count": 46,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 43,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 2,
+      "percentage_resolved": 2.17,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "high-overlap subset only; campus-wide roster remains incomplete"
+        "46 unique current-site residential-faculty identities, including one explicitly emeritus classification"
       ]
     },
     {
@@ -249,8 +249,8 @@
       "row_count": 33,
       "unique_printed_name_count": 33,
       "confirmed_canonical_person_count": 1,
-      "unmatched_count": 30,
-      "probable_requires_review_count": 2,
+      "unmatched_count": 31,
+      "probable_requires_review_count": 1,
       "ambiguous_or_collision_count": 0,
       "percentage_resolved": 3.03,
       "source_tier": [

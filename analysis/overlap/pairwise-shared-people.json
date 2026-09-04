@@ -830,6 +830,16 @@
           ]
         },
         {
+          "canonical_person_id": "mark-bates",
+          "name": "Mark Bates",
+          "dataset_a_locators": [
+            "signature:26"
+          ],
+          "dataset_b_locators": [
+            "signature:26"
+          ]
+        },
+        {
           "canonical_person_id": "mark-peach",
           "name": "Mark Peach",
           "dataset_a_locators": [
@@ -1519,7 +1529,6 @@
         "marc davis",
         "marcel weiland",
         "marcus a assis",
-        "mark bates",
         "mark c samuel",
         "mark dalbey",
         "mark e long",
@@ -1865,38 +1874,28 @@
     },
     {
       "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "institution_mission-to-the-world",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "mark-bates",
+          "name": "Mark Bates",
+          "dataset_a_locators": [
+            "signature:26"
+          ],
+          "dataset_b_locators": [
+            "role:305:mission-to-the-world:line:38"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
       "dataset_b": "institution_pca-foundation",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "solomon kim"
       ]
-    },
-    {
-      "dataset_a": "a_faithful_pca_2021-06-11",
-      "dataset_b": "institution_reformed-theological-seminary",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "geoff-ziegler",
-          "name": "Geoff Ziegler",
-          "dataset_a_locators": [
-            "signature:157"
-          ],
-          "dataset_b_locators": [
-            "role:349:reformed-theological-seminary:line:31"
-          ]
-        },
-        {
-          "canonical_person_id": "irwyn-ince",
-          "name": "Irwyn Ince",
-          "dataset_a_locators": [
-            "signature:2"
-          ],
-          "dataset_b_locators": [
-            "role:348:reformed-theological-seminary:line:30"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "a_faithful_pca_2021-06-11",
@@ -1909,7 +1908,7 @@
             "signature:326"
           ],
           "dataset_b_locators": [
-            "role:355:ridge-haven:line:11"
+            "role:402:ridge-haven:line:11"
           ]
         }
       ],
@@ -4172,38 +4171,28 @@
     },
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "institution_mission-to-the-world",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "mark-bates",
+          "name": "Mark Bates",
+          "dataset_a_locators": [
+            "signature:26"
+          ],
+          "dataset_b_locators": [
+            "role:305:mission-to-the-world:line:38"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
       "dataset_b": "institution_pca-foundation",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "solomon kim"
       ]
-    },
-    {
-      "dataset_a": "a_faithful_pca_2022-03-14",
-      "dataset_b": "institution_reformed-theological-seminary",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "geoff-ziegler",
-          "name": "Geoff Ziegler",
-          "dataset_a_locators": [
-            "signature:176"
-          ],
-          "dataset_b_locators": [
-            "role:349:reformed-theological-seminary:line:31"
-          ]
-        },
-        {
-          "canonical_person_id": "irwyn-ince",
-          "name": "Irwyn Ince",
-          "dataset_a_locators": [
-            "signature:2"
-          ],
-          "dataset_b_locators": [
-            "role:348:reformed-theological-seminary:line:30"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
@@ -4216,7 +4205,7 @@
             "signature:342"
           ],
           "dataset_b_locators": [
-            "role:355:ridge-haven:line:11"
+            "role:402:ridge-haven:line:11"
           ]
         }
       ],
@@ -6834,23 +6823,13 @@
       "dataset_b": "institution_reformed-theological-seminary",
       "confirmed_shared_people": [
         {
-          "canonical_person_id": "geoff-ziegler",
-          "name": "Geoff Ziegler",
-          "dataset_a_locators": [
-            "aff-ziegler-amr-current"
-          ],
-          "dataset_b_locators": [
-            "role:349:reformed-theological-seminary:line:31"
-          ]
-        },
-        {
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
             "aff-lucas-amr-current"
           ],
           "dataset_b_locators": [
-            "role:347:reformed-theological-seminary:line:29"
+            "role:381:reformed-theological-seminary:line:150"
           ]
         }
       ],
@@ -6867,7 +6846,7 @@
             "aff-whitfield-amr-current"
           ],
           "dataset_b_locators": [
-            "role:382:reformed-university-fellowship:line:57"
+            "role:429:reformed-university-fellowship:line:57"
           ]
         }
       ],
@@ -7209,20 +7188,6 @@
       "dataset_b": "institution_reformed-theological-seminary",
       "confirmed_shared_people": [
         {
-          "canonical_person_id": "geoff-ziegler",
-          "name": "Geoff Ziegler",
-          "dataset_a_locators": [
-            "item:18:contributor:1:https://a4mr.org/gratitude-theological-vision-part-two/",
-            "item:20:contributor:1:https://a4mr.org/introduction-to-amrs-theological-vision-statement/",
-            "item:23:contributor:1:https://a4mr.org/three-views-on-female-deacons/",
-            "item:28:contributor:1:https://a4mr.org/true-to-the-reformed-faith-the-confessional-identity-of-the-pca/",
-            "item:7:contributor:2:https://a4mr.org/after-the-general-assembly-reflections-on-trust-unity-and-the-work-ahead/"
-          ],
-          "dataset_b_locators": [
-            "role:349:reformed-theological-seminary:line:31"
-          ]
-        },
-        {
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
@@ -7238,14 +7203,11 @@
             "item:8:contributor:1:https://a4mr.org/presbyterian-theological-vision-part-seven/"
           ],
           "dataset_b_locators": [
-            "role:347:reformed-theological-seminary:line:29"
+            "role:381:reformed-theological-seminary:line:150"
           ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "irwyn ince",
-        "stephen estock"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "amr_website_media_2023_2026",
@@ -7260,7 +7222,7 @@
             "item:52:contributor:1:https://a4mr.org/preaching-the-good-news-in-a-changing-world-a-conversation-with-russ-whitfield-aaron-chung-and-paul-kim/"
           ],
           "dataset_b_locators": [
-            "role:382:reformed-university-fellowship:line:57"
+            "role:429:reformed-university-fellowship:line:57"
           ]
         }
       ],
@@ -7578,16 +7540,6 @@
       "dataset_b": "institution_reformed-theological-seminary",
       "confirmed_shared_people": [
         {
-          "canonical_person_id": "geoff-ziegler",
-          "name": "Geoff Ziegler",
-          "dataset_a_locators": [
-            "video:bMj_pCd4U6U:participant:2"
-          ],
-          "dataset_b_locators": [
-            "role:349:reformed-theological-seminary:line:31"
-          ]
-        },
-        {
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
@@ -7595,7 +7547,7 @@
             "video:zYRv7vG5xKA:participant:1"
           ],
           "dataset_b_locators": [
-            "role:347:reformed-theological-seminary:line:29"
+            "role:381:reformed-theological-seminary:line:150"
           ]
         }
       ],
@@ -7612,7 +7564,7 @@
             "video:5oxfx1O4Gjs:participant:1"
           ],
           "dataset_b_locators": [
-            "role:382:reformed-university-fellowship:line:57"
+            "role:429:reformed-university-fellowship:line:57"
           ]
         }
       ],
@@ -7824,14 +7776,6 @@
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "karen hodge"
-      ]
-    },
-    {
-      "dataset_a": "institution_cdm",
-      "dataset_b": "institution_reformed-theological-seminary",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "stephen estock"
       ]
     },
     {
@@ -8061,19 +8005,11 @@
       ]
     },
     {
-      "dataset_a": "institution_reformed-theological-seminary",
-      "dataset_b": "institution_reformed-university-fellowship",
+      "dataset_a": "institution_mission-to-the-world",
+      "dataset_b": "national_partnership_confirmed_members",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
-        "rod mays"
-      ]
-    },
-    {
-      "dataset_a": "institution_reformed-theological-seminary",
-      "dataset_b": "nae_withdrawal_protest_2022",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "stephen estock"
+        "mark bates"
       ]
     },
     {
@@ -8081,50 +8017,13 @@
       "dataset_b": "national_partnership_confirmed_members",
       "confirmed_shared_people": [
         {
-          "canonical_person_id": "geoff-ziegler",
-          "name": "Geoff Ziegler",
-          "dataset_a_locators": [
-            "role:349:reformed-theological-seminary:line:31"
-          ],
-          "dataset_b_locators": [
-            "confirmed_member:58:geoff ziegler"
-          ]
-        },
-        {
-          "canonical_person_id": "irwyn-ince",
-          "name": "Irwyn Ince",
-          "dataset_a_locators": [
-            "role:348:reformed-theological-seminary:line:30"
-          ],
-          "dataset_b_locators": [
-            "confirmed_member:67:irwyn ince"
-          ]
-        },
-        {
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
-            "role:347:reformed-theological-seminary:line:29"
+            "role:381:reformed-theological-seminary:line:150"
           ],
           "dataset_b_locators": [
             "confirmed_member:132:sean lucas"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
-    },
-    {
-      "dataset_a": "institution_reformed-theological-seminary",
-      "dataset_b": "overture_37_minority_2021",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "geoff-ziegler",
-          "name": "Geoff Ziegler",
-          "dataset_a_locators": [
-            "role:349:reformed-theological-seminary:line:31"
-          ],
-          "dataset_b_locators": [
-            "print_order:28"
           ]
         }
       ],
@@ -8138,7 +8037,7 @@
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
-            "role:347:reformed-theological-seminary:line:29"
+            "role:381:reformed-theological-seminary:line:150"
           ],
           "dataset_b_locators": [
             "chapter:21:contributor:1"
@@ -8152,57 +8051,13 @@
       "dataset_b": "publication_heal-us-emmanuel-2016",
       "confirmed_shared_people": [
         {
-          "canonical_person_id": "irwyn-ince",
-          "name": "Irwyn Ince",
-          "dataset_a_locators": [
-            "role:348:reformed-theological-seminary:line:30"
-          ],
-          "dataset_b_locators": [
-            "chapter:23:contributor:1"
-          ]
-        },
-        {
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
-            "role:347:reformed-theological-seminary:line:29"
+            "role:381:reformed-theological-seminary:line:150"
           ],
           "dataset_b_locators": [
             "chapter:18:contributor:1"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
-    },
-    {
-      "dataset_a": "institution_reformed-theological-seminary",
-      "dataset_b": "publication_hear-us-emmanuel-2020",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "irwyn-ince",
-          "name": "Irwyn Ince",
-          "dataset_a_locators": [
-            "role:348:reformed-theological-seminary:line:30"
-          ],
-          "dataset_b_locators": [
-            "chapter:11:contributor:1"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
-    },
-    {
-      "dataset_a": "institution_reformed-theological-seminary",
-      "dataset_b": "warhurst_protest_2019",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "irwyn-ince",
-          "name": "Irwyn Ince",
-          "dataset_a_locators": [
-            "role:348:reformed-theological-seminary:line:30"
-          ],
-          "dataset_b_locators": [
-            "print_order:148"
           ]
         }
       ],
@@ -8216,7 +8071,7 @@
           "canonical_person_id": "russ-whitfield",
           "name": "Russ Whitfield",
           "dataset_a_locators": [
-            "role:382:reformed-university-fellowship:line:57"
+            "role:429:reformed-university-fellowship:line:57"
           ],
           "dataset_b_locators": [
             "chapter:28:contributor:1"

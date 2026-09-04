@@ -8,18 +8,15 @@ on:
     branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check out PR head branch
+      - name: Check out repository
         uses: actions/checkout@v7
-        with:
-          ref: ${{ github.head_ref }}
-          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v7
@@ -32,13 +29,58 @@ jobs:
       - name: Validate structured data
         run: node scripts/validate-data.mjs
 
-      - name: Validate current research imports
+      - name: Validate research imports
         run: python3 scripts/validate-research-imports.py .
 
-      - name: Regenerate institution snapshot
+      - name: Verify institution snapshot normalizer
         run: |
-          python3 scripts/normalize-institution-snapshots.py . /tmp/current-role-snapshots-candidate.json
-          cp /tmp/current-role-snapshots-candidate.json sources/normalized/institutions/current-role-snapshots-2026-09-03.json
+          tmp="$(mktemp)"
+          python3 scripts/normalize-institution-snapshots.py . "$tmp"
+          python3 - "$tmp" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          checked_path = Path('sources/normalized/institutions/current-role-snapshots-2026-09-03.json')
+          candidate_path = Path(sys.argv[1])
+          checked = json.loads(checked_path.read_text())
+          candidate = json.loads(candidate_path.read_text())
+
+          if checked.get('metadata') != candidate.get('metadata'):
+              raise SystemExit('institution snapshot metadata drift')
+          if checked.get('coverage') != candidate.get('coverage'):
+              raise SystemExit('institution snapshot coverage drift')
+
+          left = checked.get('roles', [])
+          right = candidate.get('roles', [])
+          if len(left) != len(right):
+              raise SystemExit(f'institution role count drift: checked={len(left)} candidate={len(right)}')
+
+          enrichments = []
+          for index, (a, b) in enumerate(zip(left, right)):
+              a_struct = {k: v for k, v in a.items() if k != 'normalized_person_id'}
+              b_struct = {k: v for k, v in b.items() if k != 'normalized_person_id'}
+              if a_struct != b_struct:
+                  raise SystemExit(
+                      f'institution role structural drift at index {index}: '
+                      f"{a.get('organization_id')} / {a.get('name_as_printed')}"
+                  )
+
+              old_id = a.get('normalized_person_id')
+              new_id = b.get('normalized_person_id')
+              if old_id is not None and old_id != new_id:
+                  raise SystemExit(
+                      f'institution identity regression at index {index}: '
+                      f"{a.get('name_as_printed')} checked={old_id!r} candidate={new_id!r}"
+                  )
+              if old_id is None and new_id is not None:
+                  enrichments.append((a.get('organization_id'), a.get('name_as_printed'), new_id))
+
+          if enrichments:
+              print('Monotonic identity enrichments available:')
+              for organization_id, name, person_id in enrichments:
+                  print(f'  {organization_id}: {name} -> {person_id}')
+          PY
 
       - name: Rebuild generated research outputs
         run: |
@@ -49,19 +91,5 @@ jobs:
           python3 scripts/build-person-crosswalk.py .
           python3 scripts/build-overlap-analysis.py .
 
-      - name: Restore normal read-only validation workflow
-        run: git checkout origin/main -- .github/workflows/validate.yml
-
-      - name: Commit deterministic generated outputs to PR branch
-        env:
-          HEAD_BRANCH: ${{ github.head_ref }}
-        run: |
-          if git diff --quiet; then
-            echo "No generated changes to commit."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A
-          git commit -m "regenerate RTS and MTW institution batch"
-          git push origin "HEAD:${HEAD_BRANCH}"
+      - name: Verify generated outputs are current
+        run: git diff --exit-code

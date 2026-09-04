@@ -13,7 +13,7 @@
           "organization": "ridge-haven",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:355:ridge-haven:line:11",
+          "source_locator": "role:402:ridge-haven:line:11",
           "relationship_type": "institutional_role"
         }
       ],
@@ -57,14 +57,14 @@
       ]
     },
     {
-      "canonical_person_id": "geoff-ziegler",
-      "name": "Geoff Ziegler",
+      "canonical_person_id": "mark-bates",
+      "name": "Mark Bates",
       "dated_institutional_role_edges": [
         {
-          "organization": "reformed-theological-seminary",
+          "organization": "mission-to-the-world",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:349:reformed-theological-seminary:line:31",
+          "source_locator": "role:305:mission-to-the-world:line:38",
           "relationship_type": "institutional_role"
         }
       ],
@@ -74,134 +74,14 @@
           "year": 2021,
           "relationship_type": "public_letter_signature",
           "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json",
-          "source_locator": "signature:157"
+          "source_locator": "signature:26"
         },
         {
           "dataset": "a_faithful_pca_2022-03-14",
           "year": 2022,
           "relationship_type": "public_letter_signature",
           "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json",
-          "source_locator": "signature:176"
-        },
-        {
-          "dataset": "amr_leadership_current",
-          "year": 2026,
-          "relationship_type": "formal_organization_leadership",
-          "source_path": "data/affiliations.json",
-          "source_locator": "aff-ziegler-amr-current"
-        },
-        {
-          "dataset": "amr_website_media_2023_2026",
-          "year": null,
-          "relationship_type": "media_authorship_or_participation",
-          "source_path": "sources/normalized/amr/blog-index-2023-2026.json",
-          "source_locator": "item:18:contributor:1:https://a4mr.org/gratitude-theological-vision-part-two/"
-        },
-        {
-          "dataset": "amr_website_media_2023_2026",
-          "year": null,
-          "relationship_type": "media_authorship_or_participation",
-          "source_path": "sources/normalized/amr/blog-index-2023-2026.json",
-          "source_locator": "item:20:contributor:1:https://a4mr.org/introduction-to-amrs-theological-vision-statement/"
-        },
-        {
-          "dataset": "amr_website_media_2023_2026",
-          "year": null,
-          "relationship_type": "media_authorship_or_participation",
-          "source_path": "sources/normalized/amr/blog-index-2023-2026.json",
-          "source_locator": "item:23:contributor:1:https://a4mr.org/three-views-on-female-deacons/"
-        },
-        {
-          "dataset": "amr_website_media_2023_2026",
-          "year": null,
-          "relationship_type": "media_authorship_or_participation",
-          "source_path": "sources/normalized/amr/blog-index-2023-2026.json",
-          "source_locator": "item:28:contributor:1:https://a4mr.org/true-to-the-reformed-faith-the-confessional-identity-of-the-pca/"
-        },
-        {
-          "dataset": "amr_website_media_2023_2026",
-          "year": null,
-          "relationship_type": "media_authorship_or_participation",
-          "source_path": "sources/normalized/amr/blog-index-2023-2026.json",
-          "source_locator": "item:7:contributor:2:https://a4mr.org/after-the-general-assembly-reflections-on-trust-unity-and-the-work-ahead/"
-        },
-        {
-          "dataset": "amr_youtube_media_2023_2026",
-          "year": null,
-          "relationship_type": "media_participation",
-          "source_path": "sources/normalized/amr/youtube-index-2023-2026.json",
-          "source_locator": "video:bMj_pCd4U6U:participant:2"
-        },
-        {
-          "dataset": "national_partnership_confirmed_members",
-          "year": null,
-          "relationship_type": "formal_organization_membership",
-          "source_path": "sources/normalized/national-partnership/confirmed-memberships-canonical.json",
-          "source_locator": "confirmed_member:58:geoff ziegler"
-        },
-        {
-          "dataset": "overture_37_minority_2021",
-          "year": 2021,
-          "relationship_type": "minority_report_signature",
-          "source_path": "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json",
-          "source_locator": "print_order:28"
-        }
-      ]
-    },
-    {
-      "canonical_person_id": "irwyn-ince",
-      "name": "Irwyn Ince",
-      "dated_institutional_role_edges": [
-        {
-          "organization": "reformed-theological-seminary",
-          "snapshot_date": "2026-09-03",
-          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:348:reformed-theological-seminary:line:30",
-          "relationship_type": "institutional_role"
-        }
-      ],
-      "other_documented_edges": [
-        {
-          "dataset": "a_faithful_pca_2021-06-11",
-          "year": 2021,
-          "relationship_type": "public_letter_signature",
-          "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json",
-          "source_locator": "signature:2"
-        },
-        {
-          "dataset": "a_faithful_pca_2022-03-14",
-          "year": 2022,
-          "relationship_type": "public_letter_signature",
-          "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json",
-          "source_locator": "signature:2"
-        },
-        {
-          "dataset": "national_partnership_confirmed_members",
-          "year": null,
-          "relationship_type": "formal_organization_membership",
-          "source_path": "sources/normalized/national-partnership/confirmed-memberships-canonical.json",
-          "source_locator": "confirmed_member:67:irwyn ince"
-        },
-        {
-          "dataset": "publication_heal-us-emmanuel-2016",
-          "year": 2016,
-          "relationship_type": "publication_contribution",
-          "source_path": "data/publication_contributors.json",
-          "source_locator": "chapter:23:contributor:1"
-        },
-        {
-          "dataset": "publication_hear-us-emmanuel-2020",
-          "year": 2020,
-          "relationship_type": "publication_contribution",
-          "source_path": "data/publication_contributors.json",
-          "source_locator": "chapter:11:contributor:1"
-        },
-        {
-          "dataset": "warhurst_protest_2019",
-          "year": 2019,
-          "relationship_type": "formal_protest_signature",
-          "source_path": "sources/normalized/revoice/warhurst-protest-signers-2019.json",
-          "source_locator": "print_order:148"
+          "source_locator": "signature:26"
         }
       ]
     },
@@ -270,7 +150,7 @@
           "organization": "reformed-university-fellowship",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:382:reformed-university-fellowship:line:57",
+          "source_locator": "role:429:reformed-university-fellowship:line:57",
           "relationship_type": "institutional_role"
         }
       ],
@@ -327,7 +207,7 @@
           "organization": "reformed-theological-seminary",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:347:reformed-theological-seminary:line:29",
+          "source_locator": "role:381:reformed-theological-seminary:line:150",
           "relationship_type": "institutional_role"
         }
       ],
@@ -451,17 +331,7 @@
     {
       "institution": "reformed-theological-seminary",
       "other_dataset": "amr_website_media_2023_2026",
-      "confirmed_person_count": 15
-    },
-    {
-      "institution": "reformed-theological-seminary",
-      "other_dataset": "amr_youtube_media_2023_2026",
-      "confirmed_person_count": 3
-    },
-    {
-      "institution": "reformed-theological-seminary",
-      "other_dataset": "national_partnership_confirmed_members",
-      "confirmed_person_count": 3
+      "confirmed_person_count": 10
     },
     {
       "institution": "reformed-university-fellowship",
@@ -475,22 +345,7 @@
     },
     {
       "institution": "reformed-theological-seminary",
-      "other_dataset": "a_faithful_pca_2021-06-11",
-      "confirmed_person_count": 2
-    },
-    {
-      "institution": "reformed-theological-seminary",
-      "other_dataset": "a_faithful_pca_2022-03-14",
-      "confirmed_person_count": 2
-    },
-    {
-      "institution": "reformed-theological-seminary",
-      "other_dataset": "amr_leadership_current",
-      "confirmed_person_count": 2
-    },
-    {
-      "institution": "reformed-theological-seminary",
-      "other_dataset": "publication_heal-us-emmanuel-2016",
+      "other_dataset": "amr_youtube_media_2023_2026",
       "confirmed_person_count": 2
     },
     {
@@ -519,8 +374,23 @@
       "confirmed_person_count": 1
     },
     {
+      "institution": "mission-to-the-world",
+      "other_dataset": "a_faithful_pca_2021-06-11",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "mission-to-the-world",
+      "other_dataset": "a_faithful_pca_2022-03-14",
+      "confirmed_person_count": 1
+    },
+    {
       "institution": "reformed-theological-seminary",
-      "other_dataset": "overture_37_minority_2021",
+      "other_dataset": "amr_leadership_current",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "reformed-theological-seminary",
+      "other_dataset": "national_partnership_confirmed_members",
       "confirmed_person_count": 1
     },
     {
@@ -530,12 +400,7 @@
     },
     {
       "institution": "reformed-theological-seminary",
-      "other_dataset": "publication_hear-us-emmanuel-2020",
-      "confirmed_person_count": 1
-    },
-    {
-      "institution": "reformed-theological-seminary",
-      "other_dataset": "warhurst_protest_2019",
+      "other_dataset": "publication_heal-us-emmanuel-2016",
       "confirmed_person_count": 1
     },
     {
