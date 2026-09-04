@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "created_on": "2026-09-04",
+    "purpose": "Closeout receipt for the first systematic PCA formal-position mining batch",
+    "scope": [
+      "2008 Overture 9 minority report concerning a study committee on women in diaconal ministry",
+      "2008 Review of Presbytery Records minority report concerning women reading Scripture or exhorting in public worship",
+      "2009 Overture 10 minority report concerning a study committee or pastoral letter on women's roles in the church"
+    ]
+  },
+  "branch": "research/formal-position-mining-batch1-2026-09-04",
+  "pr_number": 12,
+  "pre_closeout_head_sha": "cf87aa9c3696d6d6f60236f772163e709f8b3407",
+  "normalized_event_count": 3,
+  "named_signer_record_count": 69,
+  "identity_summary": {
+    "crosswalk_records": 3648,
+    "canonical_people": 218,
+    "rules": [
+      "Published signatures, concurrences, dissents, protests, and individually recorded votes are person-level evidence only when the source names the individual.",
+      "Aggregate committee or General Assembly outcomes remain event-level evidence and are not imputed to unnamed individuals.",
+      "Study-committee service is distinct from assent to every proposition in a report.",
+      "Absence from a minority list is not evidence that a person voted with the majority.",
+      "Printed names and office markers are preserved.",
+      "The Mike McLaughlin / Michael McLaughlin equivalence is a reviewed source-specific identity resolution, not a general nickname matching rule."
+    ]
+  },
+  "closeout_status": "ready_for_exact_head_ci"
+}
