@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "organization": "Jude 3 & the PCA",
+    "captured": "2026-09-04",
+    "source_url": "https://jude3pca.org/pca-progressive-trajectory/",
+    "evidence_scope": "first-party site-level framing",
+    "attribution": "jude3_site_published_content",
+    "raw_receipt": "sources/raw/organizations/jude3-pca/pca-trajectory-2026-09-04.md",
+    "modeling_rule": "Only Jude 3's own framing and explicit recommendations are normalized. Third-party quotations and linked materials are not converted into Jude 3 positions.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "jude3-unchanging-gospel-cultural-pressure-2026",
+      "topic": "gospel-and-cultural-accommodation",
+      "position_type": "site_published_position",
+      "summary": "Jude 3 states that the Church must communicate an unchanging Gospel in a changing culture and that changing the Gospel to make it culturally relevant or less offensive results in something that is not the Christian Gospel.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-pcus-pattern-replicated-in-pca-2026",
+      "topic": "denominational-trajectory",
+      "position_type": "site_published_diagnosis",
+      "summary": "Jude 3 states that a pattern of progressive cultural accommodation that occurred in the PCUS is being replicated in the PCA.",
+      "boundary": "This is preserved as Jude 3's diagnosis, not as an independently adjudicated conclusion of the research project.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-change-pca-trajectory-actions-2026",
+      "topic": "denominational-action",
+      "position_type": "site_published_recommendation",
+      "summary": "Jude 3 explicitly recommends prayer, questioning one's pastor, considering recourse in the BCO, and supporting the Gospel Reformation Network and MORE in the PCA as actions intended to change the PCA trajectory.",
+      "ideological_weight": 0
+    }
+  ]
+}
