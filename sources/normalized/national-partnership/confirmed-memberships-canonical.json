@@ -3850,7 +3850,7 @@
       "name_variants_as_printed": [
         "Larry Hoop"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "larry-hoop",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 3,
       "evidence": [

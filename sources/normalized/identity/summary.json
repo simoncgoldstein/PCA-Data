@@ -2,8 +2,8 @@
   "metadata": {
     "generated_on": "2026-09-04",
     "record_count": 4288,
-    "canonical_person_count": 275,
-    "new_person_count": 258,
+    "canonical_person_count": 277,
+    "new_person_count": 260,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -15,9 +15,9 @@
   "overall_match_status_counts": {
     "ambiguous": 490,
     "collision": 16,
-    "context_confirmed": 785,
+    "context_confirmed": 793,
     "exact_confirmed": 127,
-    "probable_requires_review": 376,
+    "probable_requires_review": 368,
     "unmatched": 2494
   },
   "datasets": [
@@ -91,17 +91,17 @@
       "source_dataset": "amr_website_media_2023_2026",
       "row_count": 136,
       "unique_printed_name_count": 60,
-      "confirmed_canonical_person_count": 6,
-      "confirmed_row_count": 34,
+      "confirmed_canonical_person_count": 7,
+      "confirmed_row_count": 35,
       "match_status_counts": {
         "exact_confirmed": 34,
-        "context_confirmed": 0,
-        "probable_requires_review": 45,
+        "context_confirmed": 1,
+        "probable_requires_review": 44,
         "ambiguous": 46,
         "collision": 1,
         "unmatched": 10
       },
-      "percent_rows_resolved": 25.0,
+      "percent_rows_resolved": 25.74,
       "source_tier": [
         "first_party"
       ],
@@ -443,17 +443,17 @@
       "source_dataset": "institution_cdm",
       "row_count": 34,
       "unique_printed_name_count": 30,
-      "confirmed_canonical_person_count": 0,
-      "confirmed_row_count": 0,
+      "confirmed_canonical_person_count": 1,
+      "confirmed_row_count": 1,
       "match_status_counts": {
         "exact_confirmed": 0,
-        "context_confirmed": 0,
-        "probable_requires_review": 4,
+        "context_confirmed": 1,
+        "probable_requires_review": 3,
         "ambiguous": 7,
         "collision": 0,
         "unmatched": 23
       },
-      "percent_rows_resolved": 0.0,
+      "percent_rows_resolved": 2.94,
       "source_tier": [
         "official_institutional"
       ],
@@ -751,17 +751,17 @@
       "source_dataset": "nae_withdrawal_protest_2022",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 82,
-      "confirmed_row_count": 82,
+      "confirmed_canonical_person_count": 83,
+      "confirmed_row_count": 83,
       "match_status_counts": {
         "exact_confirmed": 2,
-        "context_confirmed": 80,
-        "probable_requires_review": 15,
+        "context_confirmed": 81,
+        "probable_requires_review": 14,
         "ambiguous": 18,
         "collision": 1,
         "unmatched": 87
       },
-      "percent_rows_resolved": 40.39,
+      "percent_rows_resolved": 40.89,
       "source_tier": [
         "official_primary"
       ],
@@ -773,17 +773,17 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 41,
-      "confirmed_row_count": 41,
+      "confirmed_canonical_person_count": 42,
+      "confirmed_row_count": 42,
       "match_status_counts": {
         "exact_confirmed": 8,
-        "context_confirmed": 33,
-        "probable_requires_review": 31,
+        "context_confirmed": 34,
+        "probable_requires_review": 30,
         "ambiguous": 11,
         "collision": 2,
         "unmatched": 66
       },
-      "percent_rows_resolved": 27.15,
+      "percent_rows_resolved": 27.81,
       "source_tier": [
         "primary_archive"
       ],
@@ -1037,17 +1037,17 @@
       "source_dataset": "subscription_overture_16_minority_report_2003",
       "row_count": 14,
       "unique_printed_name_count": 14,
-      "confirmed_canonical_person_count": 1,
-      "confirmed_row_count": 1,
+      "confirmed_canonical_person_count": 4,
+      "confirmed_row_count": 4,
       "match_status_counts": {
         "exact_confirmed": 0,
-        "context_confirmed": 1,
-        "probable_requires_review": 5,
+        "context_confirmed": 4,
+        "probable_requires_review": 2,
         "ambiguous": 0,
         "collision": 0,
         "unmatched": 8
       },
-      "percent_rows_resolved": 7.14,
+      "percent_rows_resolved": 28.57,
       "source_tier": [
         "official_primary"
       ],
@@ -1147,17 +1147,17 @@
       "source_dataset": "women_study_committee_procedural_registration_2016",
       "row_count": 173,
       "unique_printed_name_count": 173,
-      "confirmed_canonical_person_count": 6,
-      "confirmed_row_count": 6,
+      "confirmed_canonical_person_count": 7,
+      "confirmed_row_count": 7,
       "match_status_counts": {
         "exact_confirmed": 0,
-        "context_confirmed": 6,
-        "probable_requires_review": 17,
+        "context_confirmed": 7,
+        "probable_requires_review": 16,
         "ambiguous": 19,
         "collision": 0,
         "unmatched": 131
       },
-      "percent_rows_resolved": 3.47,
+      "percent_rows_resolved": 4.05,
       "source_tier": [
         "official_primary"
       ],

@@ -225,7 +225,7 @@ nae_withdrawal_protest_2022,eastern canada,eastern-canada,current_exact,3,3,2,66
 nae_withdrawal_protest_2022,eastern carolina,eastern-carolina,current_exact,3,3,0,0.00,0,0.00
 nae_withdrawal_protest_2022,evangel,evangel,current_exact,9,9,2,22.22,2,100.00
 nae_withdrawal_protest_2022,fellowship,fellowship,current_exact,2,2,0,0.00,0,0.00
-nae_withdrawal_protest_2022,georgia foothills,georgia-foothills,current_exact,6,6,1,16.67,1,100.00
+nae_withdrawal_protest_2022,georgia foothills,georgia-foothills,current_exact,6,6,2,33.33,2,100.00
 nae_withdrawal_protest_2022,grace,grace,current_exact,1,1,0,0.00,0,0.00
 nae_withdrawal_protest_2022,great lakes,great-lakes,current_exact,6,6,2,33.33,2,100.00
 nae_withdrawal_protest_2022,gulf coast,gulf-coast,current_exact,2,2,0,0.00,0,0.00
@@ -628,7 +628,7 @@ women_study_committee_procedural_registration_2016,south florida,south-florida,c
 women_study_committee_procedural_registration_2016,south texas,south-texas,current_exact,1,1,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,southeast alabama,southeast-alabama,current_exact,4,4,1,25.00,1,100.00
 women_study_committee_procedural_registration_2016,southern louisiana,southern-louisiana,current_exact,2,2,0,0.00,0,0.00
-women_study_committee_procedural_registration_2016,southwest,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
+women_study_committee_procedural_registration_2016,southwest,,unresolved_historical_or_noncanonical,1,1,1,100.00,1,100.00
 women_study_committee_procedural_registration_2016,southwest florida,southwest-florida,current_exact,3,3,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,suncoast florida,suncoast-florida,current_exact,1,1,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,susquehanna valley,susquehanna-valley,current_exact,2,2,1,50.00,1,100.00
@@ -659,7 +659,7 @@ ALL_TRACKED_DATASETS,eastern pa,,unresolved_historical_or_noncanonical,1,1,0,0.0
 ALL_TRACKED_DATASETS,eastern pennsylvania,eastern-pennsylvania,current_exact,9,8,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,evangel,evangel,current_exact,118,65,6,9.23,6,100.00
 ALL_TRACKED_DATASETS,fellowship,fellowship,current_exact,20,18,0,0.00,0,0.00
-ALL_TRACKED_DATASETS,georgia foothills,georgia-foothills,current_exact,30,18,2,11.11,2,100.00
+ALL_TRACKED_DATASETS,georgia foothills,georgia-foothills,current_exact,30,18,3,16.67,3,100.00
 ALL_TRACKED_DATASETS,grace,grace,current_exact,6,5,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,great lakes,great-lakes,current_exact,17,15,2,13.33,2,100.00
 ALL_TRACKED_DATASETS,gulf coast,gulf-coast,current_exact,17,13,0,0.00,0,0.00
@@ -739,7 +739,7 @@ ALL_TRACKED_DATASETS,southeast alabama,southeast-alabama,current_exact,8,6,1,16.
 ALL_TRACKED_DATASETS,southeast louisiana,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,southern louisiana,southern-louisiana,current_exact,23,10,5,50.00,5,100.00
 ALL_TRACKED_DATASETS,southern new england,southern-new-england,current_exact,61,30,7,23.33,7,100.00
-ALL_TRACKED_DATASETS,southwest,,unresolved_historical_or_noncanonical,3,3,1,33.33,1,100.00
+ALL_TRACKED_DATASETS,southwest,,unresolved_historical_or_noncanonical,3,3,2,66.67,2,100.00
 ALL_TRACKED_DATASETS,southwest florida,southwest-florida,current_exact,24,16,2,12.50,2,100.00
 ALL_TRACKED_DATASETS,suncoast,suncoast-florida,known_alias,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,suncoast florida,suncoast-florida,current_exact,12,10,0,0.00,0,0.00

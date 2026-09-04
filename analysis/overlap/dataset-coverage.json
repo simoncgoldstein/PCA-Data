@@ -56,11 +56,11 @@
       "source_dataset": "amr_website_media_2023_2026",
       "row_count": 136,
       "unique_printed_name_count": 60,
-      "confirmed_canonical_person_count": 6,
+      "confirmed_canonical_person_count": 7,
       "unmatched_count": 10,
-      "probable_requires_review_count": 45,
+      "probable_requires_review_count": 44,
       "ambiguous_or_collision_count": 47,
-      "percentage_resolved": 25.0,
+      "percentage_resolved": 25.74,
       "source_tier": [
         "first_party"
       ],
@@ -312,11 +312,11 @@
       "source_dataset": "institution_cdm",
       "row_count": 34,
       "unique_printed_name_count": 30,
-      "confirmed_canonical_person_count": 0,
+      "confirmed_canonical_person_count": 1,
       "unmatched_count": 23,
-      "probable_requires_review_count": 4,
+      "probable_requires_review_count": 3,
       "ambiguous_or_collision_count": 7,
-      "percentage_resolved": 0.0,
+      "percentage_resolved": 2.94,
       "source_tier": [
         "official_institutional"
       ],
@@ -536,11 +536,11 @@
       "source_dataset": "nae_withdrawal_protest_2022",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 82,
+      "confirmed_canonical_person_count": 83,
       "unmatched_count": 87,
-      "probable_requires_review_count": 15,
+      "probable_requires_review_count": 14,
       "ambiguous_or_collision_count": 19,
-      "percentage_resolved": 40.39,
+      "percentage_resolved": 40.89,
       "source_tier": [
         "official_primary"
       ],
@@ -552,11 +552,11 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 41,
+      "confirmed_canonical_person_count": 42,
       "unmatched_count": 66,
-      "probable_requires_review_count": 31,
+      "probable_requires_review_count": 30,
       "ambiguous_or_collision_count": 13,
-      "percentage_resolved": 27.15,
+      "percentage_resolved": 27.81,
       "source_tier": [
         "primary_archive"
       ],
@@ -744,11 +744,11 @@
       "source_dataset": "subscription_overture_16_minority_report_2003",
       "row_count": 14,
       "unique_printed_name_count": 14,
-      "confirmed_canonical_person_count": 1,
+      "confirmed_canonical_person_count": 4,
       "unmatched_count": 8,
-      "probable_requires_review_count": 5,
+      "probable_requires_review_count": 2,
       "ambiguous_or_collision_count": 0,
-      "percentage_resolved": 7.14,
+      "percentage_resolved": 28.57,
       "source_tier": [
         "official_primary"
       ],
@@ -824,11 +824,11 @@
       "source_dataset": "women_study_committee_procedural_registration_2016",
       "row_count": 173,
       "unique_printed_name_count": 173,
-      "confirmed_canonical_person_count": 6,
+      "confirmed_canonical_person_count": 7,
       "unmatched_count": 131,
-      "probable_requires_review_count": 17,
+      "probable_requires_review_count": 16,
       "ambiguous_or_collision_count": 19,
-      "percentage_resolved": 3.47,
+      "percentage_resolved": 4.05,
       "source_tier": [
         "official_primary"
       ],

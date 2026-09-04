@@ -1230,7 +1230,7 @@
         "office_as_printed": "TE",
         "name_as_printed": "Stephen Thomas Estock",
         "identity_name": "Stephen Thomas Estock",
-        "normalized_person_id": null
+        "normalized_person_id": "stephen-estock"
       },
       {
         "print_order": 6,
@@ -1279,14 +1279,14 @@
         "office_as_printed": "RE",
         "name_as_printed": "Paul Richardson",
         "identity_name": "Paul Richardson",
-        "normalized_person_id": null
+        "normalized_person_id": "paul-richardson"
       },
       {
         "print_order": 13,
         "office_as_printed": "TE",
         "name_as_printed": "Mark A. Rowden",
         "identity_name": "Mark A. Rowden",
-        "normalized_person_id": null
+        "normalized_person_id": "mark-rowden"
       },
       {
         "print_order": 14,

@@ -72,11 +72,23 @@ FIRST_NAME_VARIANTS = {
 # Explicit reviewed name-form equivalences. These are person-specific evidence
 # decisions, not a general nickname-merging rule. Printed names remain intact.
 REVIEWED_NAME_VARIANTS = {
+    "paul richardson": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
+    },
     "paul d richardson": {
         "canonical_candidate": "paul richardson",
         "canonical_display_name": "Paul Richardson",
         "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
         "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
+    },
+    "mark rowden": {
+        "canonical_candidate": "mark rowden",
+        "canonical_display_name": "Mark Rowden",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only.",
     },
     "mark a rowden": {
         "canonical_candidate": "mark rowden",
@@ -84,11 +96,23 @@ REVIEWED_NAME_VARIANTS = {
         "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
         "note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only.",
     },
+    "stephen estock": {
+        "canonical_candidate": "stephen estock",
+        "canonical_display_name": "Stephen Estock",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
+    },
     "stephen thomas estock": {
         "canonical_candidate": "stephen estock",
         "canonical_display_name": "Stephen Estock",
         "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
         "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
+    },
+    "larry hoop": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
     },
     "larry c hoop": {
         "canonical_candidate": "larry hoop",
@@ -897,6 +921,40 @@ for key in sorted(groups):
         status, method, confidence = "context_confirmed", "documented_manual_alias", 0.98
         support.append("explicit documented name-form alias")
         note = manual["note"]
+    elif any(r.get("reviewed_name_variant") for r in rows):
+        reviewed = next(r["reviewed_name_variant"] for r in rows if r.get("reviewed_name_variant"))
+        preferred = reviewed["canonical_display_name"]
+        if len(exact_seed_ids) > 1:
+            status, method, confidence = "collision", "duplicate_seed_name", 0.0
+            conflicts.append("multiple seed people have the same normalized name")
+            note = "Requires manual review; no ID assigned."
+        elif len(exact_seed_ids) == 1:
+            canonical_id = next(iter(exact_seed_ids))
+            status, method, confidence = "context_confirmed", "documented_reviewed_identity", 0.99
+            support.append("explicit reviewed person-specific identity equivalence")
+            note = reviewed["note"]
+        else:
+            candidate_id = slug(preferred)
+            if candidate_id in used_ids:
+                status, method, confidence = "collision", "generated_id_collision", 0.0
+                conflicts.append(f"generated ID {candidate_id} is already in use")
+                note = "Requires manual review; no ID assigned."
+            else:
+                canonical_id = candidate_id
+                used_ids.add(candidate_id)
+                status, method, confidence = "context_confirmed", "documented_reviewed_identity", 0.99
+                support.append("explicit reviewed person-specific identity equivalence")
+                note = reviewed["note"]
+                generated_people.append({
+                    "id": canonical_id,
+                    "name": preferred,
+                    "ordination": infer_ordination(rows),
+                    "current_role": None,
+                    "current_organization": None,
+                    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+                    "current_role_source_ids": [],
+                    "profile_status": "identity_crosswalk",
+                })
     elif len(exact_seed_ids) == 1 and len(families) >= 2 and (presbytery_support or institution_support):
         canonical_id = next(iter(exact_seed_ids))
         status, method, confidence = "context_confirmed", "seed_name_plus_shared_context", 0.97

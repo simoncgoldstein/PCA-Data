@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 1291,
+    "record_count": 1283,
     "rule": "Rows may appear because of unresolved status, a first/last variant collision key, or initials-only spelling. Review never implies identity."
   },
   "records": [
@@ -5786,18 +5786,6 @@
       "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
-      "crosswalk_id": "identity-row-01443",
-      "source_dataset": "amr_website_media_2023_2026",
-      "source_row_locator": "item:94:contributor:3:https://a4mr.org/growing-together-webinar-preparing-for-the-harvest/",
-      "name_as_printed": "Stephen Estock",
-      "normalized_candidate": "stephen estock",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-01444",
       "source_dataset": "amr_website_media_2023_2026",
       "source_row_locator": "item:94:contributor:4:https://a4mr.org/growing-together-webinar-preparing-for-the-harvest/",
@@ -8674,18 +8662,6 @@
       "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
-      "crosswalk_id": "identity-row-01815",
-      "source_dataset": "institution_cdm",
-      "source_row_locator": "role:1:cdm:line:18",
-      "name_as_printed": "Stephen Estock",
-      "normalized_candidate": "stephen estock",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-01818",
       "source_dataset": "institution_cdm",
       "source_row_locator": "role:22:cdm:line:48",
@@ -10856,18 +10832,6 @@
       "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
-      "crosswalk_id": "identity-row-02453",
-      "source_dataset": "nae_withdrawal_protest_2022",
-      "source_row_locator": "print_order:46",
-      "name_as_printed": "Stephen Estock",
-      "normalized_candidate": "stephen estock",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-02457",
       "source_dataset": "nae_withdrawal_protest_2022",
       "source_row_locator": "print_order:5",
@@ -11523,18 +11487,6 @@
       "source_row_locator": "confirmed_member:91:justin woodall",
       "name_as_printed": "Justin Woodall",
       "normalized_candidate": "justin woodall",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-02660",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:98:larry hoop",
-      "name_as_printed": "Larry Hoop",
-      "normalized_candidate": "larry hoop",
       "match_status": "probable_requires_review",
       "variant_collision_key": null,
       "initials_only_name": false,
@@ -14786,30 +14738,6 @@
       "reviewer_note": "No canonical ID assigned."
     },
     {
-      "crosswalk_id": "identity-row-03888",
-      "source_dataset": "subscription_overture_16_minority_report_2003",
-      "source_row_locator": "overture16_minority_signer:12",
-      "name_as_printed": "Paul Richardson",
-      "normalized_candidate": "paul richardson",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-03889",
-      "source_dataset": "subscription_overture_16_minority_report_2003",
-      "source_row_locator": "overture16_minority_signer:13",
-      "name_as_printed": "Mark A. Rowden",
-      "normalized_candidate": "mark rowden",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-03890",
       "source_dataset": "subscription_overture_16_minority_report_2003",
       "source_row_locator": "overture16_minority_signer:14",
@@ -14856,18 +14784,6 @@
       "initials_only_name": true,
       "conflicting_fields": [],
       "reviewer_note": "No canonical ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-03894",
-      "source_dataset": "subscription_overture_16_minority_report_2003",
-      "source_row_locator": "overture16_minority_signer:5",
-      "name_as_printed": "Stephen Thomas Estock",
-      "normalized_candidate": "stephen estock",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-03895",
@@ -15758,18 +15674,6 @@
       "initials_only_name": true,
       "conflicting_fields": [],
       "reviewer_note": "No canonical ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-04153",
-      "source_dataset": "women_study_committee_procedural_registration_2016",
-      "source_row_locator": "procedural_registration:132",
-      "name_as_printed": "Mark Rowden",
-      "normalized_candidate": "mark rowden",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-04155",

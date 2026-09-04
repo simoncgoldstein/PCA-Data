@@ -4425,10 +4425,19 @@
     {
       "dataset_a": "a_faithful_pca_2021-06-11",
       "dataset_b": "subscription_overture_16_minority_report_2003",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "paul richardson"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "signature:82"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:12"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "a_faithful_pca_2021-06-11",
@@ -7944,10 +7953,19 @@
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
       "dataset_b": "subscription_overture_16_minority_report_2003",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "paul richardson"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "signature:102"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:12"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
@@ -9309,10 +9327,20 @@
     {
       "dataset_a": "amr_website_media_2023_2026",
       "dataset_b": "institution_cdm",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "stephen-estock",
+          "name": "Stephen Estock",
+          "dataset_a_locators": [
+            "item:94:contributor:3:https://a4mr.org/growing-together-webinar-preparing-for-the-harvest/"
+          ],
+          "dataset_b_locators": [
+            "role:1:cdm:line:18"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
-        "katie polski",
-        "stephen estock"
+        "katie polski"
       ]
     },
     {
@@ -9399,12 +9427,22 @@
     {
       "dataset_a": "amr_website_media_2023_2026",
       "dataset_b": "nae_withdrawal_protest_2022",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "stephen-estock",
+          "name": "Stephen Estock",
+          "dataset_a_locators": [
+            "item:94:contributor:3:https://a4mr.org/growing-together-webinar-preparing-for-the-harvest/"
+          ],
+          "dataset_b_locators": [
+            "print_order:46"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "alex dean",
         "andrew terrell",
         "daniel jung",
-        "stephen estock",
         "thurman williams"
       ]
     },
@@ -9724,10 +9762,19 @@
     {
       "dataset_a": "amr_website_media_2023_2026",
       "dataset_b": "subscription_overture_16_minority_report_2003",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "stephen estock"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "stephen-estock",
+          "name": "Stephen Estock",
+          "dataset_a_locators": [
+            "item:94:contributor:3:https://a4mr.org/growing-together-webinar-preparing-for-the-harvest/"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:5"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "amr_website_media_2023_2026",
@@ -10422,11 +10469,21 @@
     {
       "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
       "dataset_b": "national_partnership_confirmed_members",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:98:larry hoop"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "bryan chapell",
-        "charles godwin",
-        "larry hoop"
+        "charles godwin"
       ]
     },
     {
@@ -10642,6 +10699,16 @@
           "dataset_b_locators": [
             "confirmed_member:96:kevin twit"
           ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:98:larry hoop"
+          ]
         }
       ],
       "unresolved_exact_name_keys": [
@@ -10650,7 +10717,6 @@
         "charles garland",
         "e j nusbaum",
         "james kessler",
-        "larry hoop",
         "shane gibson"
       ]
     },
@@ -11013,18 +11079,36 @@
     {
       "dataset_a": "institution_cdm",
       "dataset_b": "nae_withdrawal_protest_2022",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "stephen estock"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "stephen-estock",
+          "name": "Stephen Estock",
+          "dataset_a_locators": [
+            "role:1:cdm:line:18"
+          ],
+          "dataset_b_locators": [
+            "print_order:46"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "institution_cdm",
       "dataset_b": "subscription_overture_16_minority_report_2003",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "stephen estock"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "stephen-estock",
+          "name": "Stephen Estock",
+          "dataset_a_locators": [
+            "role:1:cdm:line:18"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:5"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "institution_covenant-college",
@@ -11505,6 +11589,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:69"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:98:larry hoop"
+          ]
+        },
+        {
           "canonical_person_id": "mike-tilley",
           "name": "Mike Tilley",
           "dataset_a_locators": [
@@ -11528,7 +11622,6 @@
       "unresolved_exact_name_keys": [
         "ben lyon",
         "jeremy fair",
-        "larry hoop",
         "nate conrad",
         "omar ortiz",
         "peter rowan"
@@ -12429,11 +12522,19 @@
           "dataset_b_locators": [
             "overture16_minority_signer:9"
           ]
+        },
+        {
+          "canonical_person_id": "stephen-estock",
+          "name": "Stephen Estock",
+          "dataset_a_locators": [
+            "print_order:46"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:5"
+          ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "stephen estock"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "nae_withdrawal_protest_2022",
@@ -12744,6 +12845,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "confirmed_member:98:larry hoop"
+          ],
+          "dataset_b_locators": [
+            "print_order:66"
+          ]
+        },
+        {
           "canonical_person_id": "mike-khandjian",
           "name": "Mike Khandjian",
           "dataset_a_locators": [
@@ -12771,7 +12882,6 @@
         "bryce hales",
         "jeremy fair",
         "justin edgar",
-        "larry hoop",
         "luke evans",
         "omar ortiz",
         "peter rowan",
@@ -12918,6 +13028,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "confirmed_member:98:larry hoop"
+          ],
+          "dataset_b_locators": [
+            "print_order:84"
+          ]
+        },
+        {
           "canonical_person_id": "mike-khandjian",
           "name": "Mike Khandjian",
           "dataset_a_locators": [
@@ -12944,7 +13064,6 @@
         "david richmon",
         "iron kim",
         "jeremy fair",
-        "larry hoop",
         "peter rowan",
         "rich good",
         "rob wootton",
@@ -13063,10 +13182,19 @@
     {
       "dataset_a": "national_partnership_confirmed_members",
       "dataset_b": "subscription_overture_16_minority_report_2003",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "larry hoop"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "confirmed_member:98:larry hoop"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:9"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "national_partnership_confirmed_members",
@@ -13213,6 +13341,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "confirmed_member:98:larry hoop"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
+        },
+        {
           "canonical_person_id": "michael-novak",
           "name": "Michael Novak",
           "dataset_a_locators": [
@@ -13251,7 +13389,6 @@
         "jeremy fair",
         "justin edgar",
         "justin woodall",
-        "larry hoop",
         "omar ortiz",
         "peter rowan",
         "rob wootton",
@@ -14591,11 +14728,19 @@
           "dataset_b_locators": [
             "overture16_minority_signer:9"
           ]
+        },
+        {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "print_order:156"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:12"
+          ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "paul richardson"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "overture_37_negative_votes_2021",
@@ -15351,19 +15496,37 @@
           "dataset_b_locators": [
             "print_order:192"
           ]
+        },
+        {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "overture16_minority_signer:12"
+          ],
+          "dataset_b_locators": [
+            "print_order:69"
+          ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "paul richardson"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "subscription_overture_16_minority_report_2003",
       "dataset_b": "women_study_committee_procedural_registration_2016",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "mark-rowden",
+          "name": "Mark Rowden",
+          "dataset_a_locators": [
+            "overture16_minority_signer:13"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:132"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
-        "freddy fritz",
-        "mark rowden"
+        "freddy fritz"
       ]
     },
     {

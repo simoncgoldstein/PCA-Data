@@ -2,8 +2,8 @@
   "metadata": {
     "generated_on": "2026-09-04",
     "record_count": 4288,
-    "canonical_person_count": 275,
-    "new_person_count": 258,
+    "canonical_person_count": 277,
+    "new_person_count": 260,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -5936,13 +5936,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "mike-mclaughlin",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_identity",
       "supporting_fields": [
-        "matching presbytery: missouri"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.99,
+      "reviewer_note": "Official 2009 Southwest Presbytery evidence plus City Presbyterian Albuquerque's first-party history connects Michael/Mike McLaughlin from the Albuquerque church plant to his later move back to Missouri.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -20177,7 +20177,7 @@
       "match_status": "context_confirmed",
       "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: nashville"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
       "confidence": 0.98,
@@ -20994,7 +20994,7 @@
       "match_status": "context_confirmed",
       "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: nashville"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
       "confidence": 0.98,
@@ -26971,13 +26971,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "mike-mclaughlin",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_identity",
       "supporting_fields": [
-        "matching presbytery: missouri"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.99,
+      "reviewer_note": "Official 2009 Southwest Presbytery evidence plus City Presbyterian Albuquerque's first-party history connects Michael/Mike McLaughlin from the Albuquerque church plant to his later move back to Missouri.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -49982,7 +49982,12 @@
       "normalized_candidate": "stephen estock",
       "normalized_name_as_printed": "stephen estock",
       "normalized_matching_name": "stephen estock",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "stephen estock",
+        "canonical_display_name": "Stephen Estock",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only."
+      },
       "source_tier": "first_party",
       "completeness_status": "complete_website_index_byline_field",
       "evidence_type": "media_authorship_or_participation",
@@ -49993,13 +49998,15 @@
       "location": null,
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "stephen-estock",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -59037,7 +59044,12 @@
       "normalized_candidate": "larry hoop",
       "normalized_name_as_printed": "larry hoop",
       "normalized_matching_name": "larry hoop",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_signers",
       "evidence_type": "formal_report_concurrence",
@@ -59050,13 +59062,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "larry-hoop",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: iowa, ohio valley"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -59750,7 +59762,12 @@
       "normalized_candidate": "larry hoop",
       "normalized_name_as_printed": "larry hoop",
       "normalized_matching_name": "larry hoop",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_signers",
       "evidence_type": "formal_report_concurrence",
@@ -59763,13 +59780,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "larry-hoop",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: iowa, ohio valley"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -59898,7 +59915,7 @@
       "match_status": "context_confirmed",
       "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: missouri"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
       "confidence": 0.98,
@@ -61341,7 +61358,12 @@
       "normalized_candidate": "stephen estock",
       "normalized_name_as_printed": "stephen estock",
       "normalized_matching_name": "stephen estock",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "stephen estock",
+        "canonical_display_name": "Stephen Estock",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_institutional",
       "completeness_status": "substantial current staff and Women's Ministry leadership snapshot",
       "evidence_type": "institutional_role",
@@ -61352,13 +61374,15 @@
       "location": null,
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "stephen-estock",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -81335,7 +81359,12 @@
       "normalized_candidate": "stephen estock",
       "normalized_name_as_printed": "stephen estock",
       "normalized_matching_name": "stephen estock",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "stephen estock",
+        "canonical_display_name": "Stephen Estock",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete",
       "evidence_type": "formal_protest_signature",
@@ -81346,13 +81375,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "stephen-estock",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -82130,7 +82161,12 @@
       "normalized_candidate": "larry hoop",
       "normalized_name_as_printed": "larry hoop",
       "normalized_matching_name": "larry hoop",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete",
       "evidence_type": "formal_protest_signature",
@@ -82143,13 +82179,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "larry-hoop",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: iowa, ohio valley"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -87864,7 +87900,12 @@
       "normalized_candidate": "larry hoop",
       "normalized_name_as_printed": "larry hoop",
       "normalized_matching_name": "larry hoop",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule."
+      },
       "source_tier": "primary_archive",
       "completeness_status": "complete_explicit_membership_extraction",
       "evidence_type": "formal_organization_membership",
@@ -87873,13 +87914,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "larry-hoop",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -94666,7 +94709,12 @@
       "normalized_candidate": "larry hoop",
       "normalized_name_as_printed": "larry hoop",
       "normalized_matching_name": "larry hoop",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete",
       "evidence_type": "recorded_negative_vote",
@@ -94679,13 +94727,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "larry-hoop",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: iowa, ohio valley"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -98833,7 +98881,12 @@
       "normalized_candidate": "paul richardson",
       "normalized_name_as_printed": "paul richardson",
       "normalized_matching_name": "paul richardson",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete",
       "evidence_type": "recorded_negative_vote",
@@ -98846,13 +98899,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "paul-richardson",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: nashville"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -102946,7 +102999,12 @@
       "normalized_candidate": "larry hoop",
       "normalized_name_as_printed": "larry hoop",
       "normalized_matching_name": "larry hoop",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete",
       "evidence_type": "recorded_negative_vote",
@@ -102959,13 +103017,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "larry-hoop",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: iowa, ohio valley"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -127249,7 +127307,12 @@
       "normalized_candidate": "paul richardson",
       "normalized_name_as_printed": "paul richardson",
       "normalized_matching_name": "paul richardson",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_14_signer_primary_roster",
       "evidence_type": "minority_report_signature",
@@ -127258,13 +127321,15 @@
       "location": null,
       "office": "ruling_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "paul-richardson",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -127292,13 +127357,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "mark-rowden",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -127442,13 +127509,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "stephen-estock",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -127567,7 +127636,7 @@
       "match_status": "context_confirmed",
       "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: iowa, ohio valley"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
       "confidence": 0.98,
@@ -127691,13 +127760,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "mike-mclaughlin",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_identity",
       "supporting_fields": [
-        "matching presbytery: missouri"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.99,
+      "reviewer_note": "Official 2009 Southwest Presbytery evidence plus City Presbyterian Albuquerque's first-party history connects Michael/Mike McLaughlin from the Albuquerque church plant to his later move back to Missouri.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -130933,7 +131002,12 @@
       "normalized_candidate": "larry hoop",
       "normalized_name_as_printed": "larry hoop",
       "normalized_matching_name": "larry hoop",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete",
       "evidence_type": "formal_protest_signature",
@@ -130946,13 +131020,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "larry-hoop",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: iowa, ohio valley"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -133057,7 +133131,12 @@
       "normalized_candidate": "paul richardson",
       "normalized_name_as_printed": "paul richardson",
       "normalized_matching_name": "paul richardson",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete",
       "evidence_type": "formal_protest_signature",
@@ -133070,13 +133149,13 @@
       "rejected_existing_id": null,
       "canonical_person_id": "paul-richardson",
       "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_method": "documented_reviewed_name_variant",
       "supporting_fields": [
-        "matching presbytery: nashville"
+        "explicit reviewed person-specific identity equivalence"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -135699,7 +135778,12 @@
       "normalized_candidate": "mark rowden",
       "normalized_name_as_printed": "mark rowden",
       "normalized_matching_name": "mark rowden",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "mark rowden",
+        "canonical_display_name": "Mark Rowden",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_173_commissioner_registration",
       "evidence_type": "recorded_procedural_position",
@@ -135710,13 +135794,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "mark-rowden",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
