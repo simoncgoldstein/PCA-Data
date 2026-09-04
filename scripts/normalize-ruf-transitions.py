@@ -76,6 +76,9 @@ for line_number, line in enumerate(lines, 1):
         heading = line[3:].strip()
         section = heading if heading in RULES else None
         continue
+    if line.startswith("### "):
+        section = None
+        continue
     if not section:
         continue
     match = re.match(r"^- (.+)$", line)
