@@ -175,8 +175,10 @@ if (
 ) != ("Bekah", "printed_first_name_only_full_name_held", "Bekah Mason", "hold_identity_edge"):
     raise SystemExit("Revoice18 participation: Bekah/Bekah Mason hold boundary drift")
 
-if any("26" in json.dumps(row) for row in part_sessions):
-    raise SystemExit("Revoice18 participation: do not encode the pre-event approximately-26-workshop benchmark as a recovered complete roster")
+# The pre-event approximately-26-workshop statement remains a completeness
+# benchmark outside this recovered-fragments dataset. Fragment-only metadata,
+# fixed six-session coverage, and the preconference exclusion above enforce the
+# boundary without falsely matching legitimate dates such as 2018-07-26.
 
 print(json.dumps({
     "captures": len(captures),
