@@ -1,0 +1,20 @@
+name: Validate Jude 3 Critical Theory framing
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-jude3-critical-theory:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Validate Jude 3 Critical Theory framing
+        run: python3 scripts/validate-jude3-critical-theory-framing.py .
