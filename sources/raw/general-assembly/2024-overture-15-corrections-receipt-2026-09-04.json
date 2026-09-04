@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "created_on": "2026-09-04",
+    "purpose": "Preserve official 51st General Assembly corrections affecting the 2022 Overture 15 recorded-negative-vote roster and the 2023 Overture 15 presbytery-ratification totals.",
+    "source_tier": "official_primary_correction",
+    "ideological_weight": 0
+  },
+  "sources": {
+    "49th_ga_2022": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022_vol01.pdf",
+    "50th_ga_2023": "https://www.pcahistory.org/pca/ga/50th_pcaga_2023.pdf",
+    "51st_ga_2024_corrections": "https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf"
+  },
+  "corrections": [
+    {
+      "correction_id": "2022-overture-15-negative-vote-roster",
+      "original_published_count": 199,
+      "corrected_official_count": 200,
+      "added_person_as_printed": "TE Danny Morgan",
+      "presbytery_as_printed": "South Coast",
+      "correction_summary": "The 51st GA Corrections to the Minutes of the 49th General Assembly states that Danny Morgan's name was inadvertently left off the Overture 15 negative-vote roster.",
+      "controlling_semantics": "The corrected official person-level roster contains 200 recorded negative votes. Danny Morgan is preserved as a later official correction rather than silently inserted as though his name appeared in the original 49th-GA printed roster."
+    },
+    {
+      "correction_id": "2023-overture-15-presbytery-ratification",
+      "superseded_50th_ga_published_totals": {
+        "for": 39,
+        "against": 29,
+        "presbyteries_reporting": 68,
+        "total_presbyteries": 88,
+        "two_thirds_needed": 59
+      },
+      "corrected_51st_ga_official_totals": {
+        "for": 48,
+        "against": 32,
+        "presbyteries_reporting": 80,
+        "total_presbyteries": 88,
+        "two_thirds_needed": 59
+      },
+      "result": "not_ratified",
+      "correction_summary": "The 51st GA states that the 50th GA published tally omitted the onsite revision reflecting the most up-to-date presbytery votes.",
+      "controlling_semantics": "The corrected 48-32 total with 80 presbyteries reporting controls the amendment-lifecycle result. The previously normalized 88-row 50th-GA table is retained only as a superseded published snapshot and is not rewritten with guessed per-presbytery revisions."
+    }
+  ],
+  "guardrails": [
+    "A later official correction supersedes the erroneous aggregate or roster total without erasing the historical fact that the earlier minutes printed a different value.",
+    "No corrected individual presbytery vote is inferred unless the correction source identifies that presbytery's revised action.",
+    "Recorded negative-vote status establishes the recorded vote on the final Overture 15 action only and does not establish the voter's rationale or position on Overture 29 or the Human Sexuality Report."
+  ]
+}
