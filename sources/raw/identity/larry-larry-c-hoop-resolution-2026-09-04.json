@@ -1,0 +1,32 @@
+{
+  "reviewed_on": "2026-09-04",
+  "identity": "Larry Hoop / Larry C. Hoop",
+  "canonical_name_form": "Larry Hoop",
+  "canonical_id": "larry-hoop",
+  "alias_name_form": "Larry C. Hoop",
+  "status": "reviewed_name_variant_link",
+  "evidence": [
+    {
+      "source_type": "user_reviewed_identity_decision",
+      "fact": "The user explicitly reviewed Larry Hoop and Larry C. Hoop as the same person on 2026-09-04."
+    },
+    {
+      "source_type": "tracked_2003_formal_position_record",
+      "path": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
+      "fact": "The 2003 Overture 16 minority-report signer roster prints TE Larry C. Hoop."
+    },
+    {
+      "source_type": "tracked_later_formal_position_records",
+      "paths": [
+        "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json",
+        "sources/normalized/revoice/warhurst-protest-signers-2019.json",
+        "sources/normalized/general-assembly/2021-overture-37-negative-votes.json",
+        "sources/normalized/revoice/overture-15-negative-votes-2022.json",
+        "sources/normalized/nae/withdrawal-protest-signers-2022.json"
+      ],
+      "fact": "Later tracked PCA formal-position records repeatedly print Larry Hoop."
+    }
+  ],
+  "reasoning_boundary": "This is a reviewed identity equivalence for this one person. It does not create a general rule that a middle-initial form and a no-middle-initial form are automatically the same person. Any additional cases of this type require separate review.",
+  "ideological_weight": 0
+}
