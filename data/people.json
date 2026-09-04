@@ -1380,6 +1380,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "mark-bates",
+    "name": "Mark Bates",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "mark-coddington",
     "name": "Mark Coddington",
     "ordination": "Ruling Elder",

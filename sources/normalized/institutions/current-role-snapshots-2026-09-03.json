@@ -1,7 +1,7 @@
 {
   "metadata": {
     "snapshot_date": "2026-09-04",
-    "record_count": 457,
+    "record_count": 504,
     "identity_rule": "Only unique first/last matches to existing data/people.json are resolved. No new person nodes are created.",
     "modeling_rule": "Employment, governance, education, and ordinary institutional service are neutral graph edges with zero ideological weight.",
     "snapshot_dates": [
@@ -54,10 +54,10 @@
     },
     {
       "organization_id": "mission-to-the-world",
-      "records": 1,
-      "coverage_status": "coordinator only; no public executive roster captured",
+      "records": 10,
+      "coverage_status": "10 currently corroborated leadership and senior/program roles; unresolved executive succession remains excluded",
       "source_url": "https://mtw.org/about/",
-      "raw_receipt": "sources/raw/institutions/mtw/leadership-and-strategy-2026-09-03.md"
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md"
     },
     {
       "organization_id": "pca-administrative-committee",
@@ -75,10 +75,10 @@
     },
     {
       "organization_id": "reformed-theological-seminary",
-      "records": 8,
-      "coverage_status": "high-overlap subset only; campus-wide roster remains incomplete",
+      "records": 46,
+      "coverage_status": "46 unique current-site residential-faculty identities, including one explicitly emeritus classification",
       "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md"
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md"
     },
     {
       "organization_id": "ridge-haven",
@@ -3843,14 +3843,122 @@
     },
     {
       "organization_id": "mission-to-the-world",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current coordinator",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current leadership confirmed by 2026/current official sources",
       "name_as_printed": "Dr. Lloyd Kim",
-      "role_as_printed": "MTW Coordinator, appointed after Paul Kooistra's 2014 retirement; official history describes his tenure as beginning in 2015",
+      "role_as_printed": "MTW Coordinator",
       "normalized_person_id": null,
       "source_url": "https://mtw.org/about/",
-      "raw_receipt": "sources/raw/institutions/mtw/leadership-and-strategy-2026-09-03.md",
-      "source_line": 31,
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 37,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current leadership confirmed by 2026/current official sources",
+      "name_as_printed": "Mark Bates",
+      "role_as_printed": "Senior Director of Missions Engagement",
+      "normalized_person_id": "mark-bates",
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 38,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current leadership confirmed by 2026/current official sources",
+      "name_as_printed": "David Stoddard",
+      "role_as_printed": "International Director for Europe; Managing Director of Field Operations",
+      "normalized_person_id": null,
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 39,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current leadership confirmed by 2026/current official sources",
+      "name_as_printed": "Jonathan I.",
+      "role_as_printed": "International Director, Asia Pacific",
+      "normalized_person_id": null,
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 40,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current leadership confirmed by 2026/current official sources",
+      "name_as_printed": "Neal W.",
+      "role_as_printed": "International Director, Global Muslim Ministries",
+      "normalized_person_id": null,
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 41,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current leadership confirmed by 2026/current official sources",
+      "name_as_printed": "Victor Nakah",
+      "role_as_printed": "International Director, Africa / sub-Saharan Africa",
+      "normalized_person_id": null,
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 42,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Additional current senior/program leaders exposed by the current conference directory",
+      "name_as_printed": "Sam Kang",
+      "role_as_printed": "Director of Diversity Mobilization; Regional Director of East Africa",
+      "normalized_person_id": null,
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 46,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Additional current senior/program leaders exposed by the current conference directory",
+      "name_as_printed": "Dale Hollenbeck",
+      "role_as_printed": "Director, MTW Mid-America Hub",
+      "normalized_person_id": null,
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 47,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Additional current senior/program leaders exposed by the current conference directory",
+      "name_as_printed": "Jerry Gibson",
+      "role_as_printed": "MTW Director of Mobilization & Western Hub",
+      "normalized_person_id": null,
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 48,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "mission-to-the-world",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Additional current senior/program leaders exposed by the current conference directory",
+      "name_as_printed": "Robin Lee",
+      "role_as_printed": "MTW West Coast Regional Director",
+      "normalized_person_id": null,
+      "source_url": "https://mtw.org/about/",
+      "raw_receipt": "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md",
+      "source_line": 49,
       "ideological_weight": 0
     },
     {
@@ -4359,98 +4467,697 @@
     },
     {
       "organization_id": "reformed-theological-seminary",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current high-value overlaps already in the PCA research universe",
-      "name_as_printed": "Sean Michael Lucas",
-      "role_as_printed": "Chancellor's Professor of Church History; appears as visiting faculty on Orlando/Atlanta and in the institution-wide faculty directory",
-      "normalized_person_id": "sean-lucas",
-      "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md",
-      "source_line": 29,
-      "ideological_weight": 0
-    },
-    {
-      "organization_id": "reformed-theological-seminary",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current high-value overlaps already in the PCA research universe",
-      "name_as_printed": "Irwyn Ince",
-      "role_as_printed": "Adjunct Professor of Pastoral Theology on Orlando and Atlanta faculty pages",
-      "normalized_person_id": "irwyn-ince",
-      "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md",
-      "source_line": 30,
-      "ideological_weight": 0
-    },
-    {
-      "organization_id": "reformed-theological-seminary",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current high-value overlaps already in the PCA research universe",
-      "name_as_printed": "Geoff Ziegler",
-      "role_as_printed": "Visiting Lecturer in Pastoral Theology on the Orlando faculty page",
-      "normalized_person_id": "geoff-ziegler",
-      "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md",
-      "source_line": 31,
-      "ideological_weight": 0
-    },
-    {
-      "organization_id": "reformed-theological-seminary",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current high-value overlaps already in the PCA research universe",
-      "name_as_printed": "Stephen Estock",
-      "role_as_printed": "Visiting Lecturer in Pastoral Theology on the Atlanta faculty page; separately current PCA CDM Coordinator",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "R. Michael Allen",
+      "role_as_printed": "John Dyer Trimble Professor of Systematic Theology; Academic Dean",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Orlando; also listed by Global"
+      ],
       "normalized_person_id": null,
       "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md",
-      "source_line": 32,
-      "ideological_weight": 0
-    },
-    {
-      "organization_id": "reformed-theological-seminary",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current high-value overlaps already in the PCA research universe",
-      "name_as_printed": "Carl Ellis Jr",
-      "role_as_printed": "Provost's Professor of Theology and Culture; Senior Fellow of the African American Leadership Initiative on the Atlanta faculty page",
-      "normalized_person_id": null,
-      "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md",
-      "source_line": 33,
-      "ideological_weight": 0
-    },
-    {
-      "organization_id": "reformed-theological-seminary",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current high-value overlaps already in the PCA research universe",
-      "name_as_printed": "J. Ligon Duncan III",
-      "role_as_printed": "Chancellor & CEO; John E. Richards Professor of Systematic and Historical Theology",
-      "normalized_person_id": null,
-      "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md",
-      "source_line": 34,
-      "ideological_weight": 0
-    },
-    {
-      "organization_id": "reformed-theological-seminary",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current high-value overlaps already in the PCA research universe",
-      "name_as_printed": "Derek W. H. Thomas",
-      "role_as_printed": "Chancellor's Professor of Systematic and Pastoral Theology",
-      "normalized_person_id": null,
-      "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
       "source_line": 35,
       "ideological_weight": 0
     },
     {
       "organization_id": "reformed-theological-seminary",
-      "snapshot_date": "2026-09-03",
-      "section_as_printed": "Current high-value overlaps already in the PCA research universe",
-      "name_as_printed": "Rod Mays",
-      "role_as_printed": "Adjunct Professor of Pastoral Theology in Global faculty; historically RUF Coordinator",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "James N. Anderson",
+      "role_as_printed": "Carl W. McMurray Professor of Theology and Philosophy; Academic Dean",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte; also listed by Global"
+      ],
       "normalized_person_id": null,
       "source_url": "https://rts.edu/people/",
-      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md",
-      "source_line": 36,
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 40,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Gregory K. Beale",
+      "role_as_printed": "Professor of New Testament",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Dallas"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 45,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Richard P. Belcher, Jr.",
+      "role_as_printed": "John D. and Frances M. Gwin Professor of Old Testament; Academic Dean (Atlanta, Dallas, and Houston)",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 49,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Robert J. Cara",
+      "role_as_printed": "Provost and Chief Academic Officer; Hugh and Sallie Reaves Professor of New Testament",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 54,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Chris Stevens",
+      "role_as_printed": "Assistant Professor of New Testament",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 59,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Zachary J. Cole",
+      "role_as_printed": "Professor of New Testament",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Orlando",
+        "RTS announced promotion from Associate Professor to Professor effective June 1, 2026; use the current Orlando title rather than a stale cached pre-promotion result."
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 63,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Rod A. Culbertson",
+      "role_as_printed": "Associate Professor of Pastoral Theology; Dean of Student Development",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 68,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "John D. Currid",
+      "role_as_printed": "Professor of Old Testament",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Dallas"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 73,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Kevin L. DeYoung",
+      "role_as_printed": "Associate Professor of Systematic Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 77,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "J. Ligon Duncan III",
+      "role_as_printed": "Chancellor & CEO; John E. Richards Professor of Systematic and Historical Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 81,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Keith A. Evans",
+      "role_as_printed": "Associate Professor of Christian Counseling",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 86,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "John V. Fesko",
+      "role_as_printed": "Harriet Barbour Professor of Systematic and Historical Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 90,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "S. Donald Fortson III",
+      "role_as_printed": "Professor of Church History and Pastoral Theology Emeritus",
+      "listing_evidence_as_printed": [
+        "Current site classification: Global page, under Residential Faculty",
+        "Treat the exact emeritus title as controlling status."
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 94,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "William B. Fullilove",
+      "role_as_printed": "Professor of Old Testament; Dean of Students",
+      "listing_evidence_as_printed": [
+        "Current residential listing: New York City"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 99,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Mark D. Futato",
+      "role_as_printed": "Robert L. Maclellan Professor of Old Testament",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Orlando; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 104,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Michael J. Glodo",
+      "role_as_printed": "Professor of Pastoral Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Orlando"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 108,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Michael A. Hillerman",
+      "role_as_printed": "Assistant Professor of Counseling; Director, Master of Arts in Counseling Program",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 112,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "David T. Irving",
+      "role_as_printed": "President; Assistant Professor of Church History and Pastoral Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 117,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Paul S. Jeon",
+      "role_as_printed": "Assistant Professor of New Testament and Pastoral Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Washington, D.C."
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 122,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Thomas L. Keene",
+      "role_as_printed": "Professor of New Testament; Academic Dean (Washington, New York)",
+      "listing_evidence_as_printed": [
+        "Current residential listings: Washington, D.C. and New York City"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 126,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Michael J. Kruger",
+      "role_as_printed": "Samuel C. Patterson Chancellor's Professor of New Testament and Early Christianity",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 131,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Gregory R. Lanier",
+      "role_as_printed": "Professor of New Testament; Academic Dean (Global Education)",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Orlando; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 135,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Peter Y. Lee",
+      "role_as_printed": "Professor of Old Testament; Dean of Students",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Washington, D.C."
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 140,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Bruce A. Lowe",
+      "role_as_printed": "Associate Professor of New Testament; Dean of Students",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Atlanta"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 145,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Sean Michael Lucas",
+      "role_as_printed": "Chancellor's Professor of Church History",
+      "listing_evidence_as_printed": [
+        "Current institution-wide residential directory listing",
+        "Current campus pages also expose him as RTS Visiting Faculty at Atlanta and Orlando; do not collapse the visiting-campus appearances into a separate person."
+      ],
+      "normalized_person_id": "sean-lucas",
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 150,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Katherine K. Majeste",
+      "role_as_printed": "Assistant Professor of Counseling",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 155,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Joshua Malone",
+      "role_as_printed": "Associate Professor of Systematic Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 159,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Mark McDowell",
+      "role_as_printed": "Executive Director (Dallas, Houston); Associate Professor of Systematic Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Dallas; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 163,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Kenneth J. McMullen",
+      "role_as_printed": "Associate Professor of Theological Bibliography and Research; Library Director",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 168,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "John R. Muether",
+      "role_as_printed": "Professor of Church History; Dean of Libraries",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Orlando; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 173,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "James R. Newheiser, Jr.",
+      "role_as_printed": "Professor of Christian Counseling and Pastoral Theology; Director of the Christian Counseling Program",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 178,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "J. Nicholas Reid",
+      "role_as_printed": "Professor of Old Testament and Ancient Near Eastern Studies; Director of the Hybrid MDiv Program",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Orlando"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 183,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Guy M. Richard",
+      "role_as_printed": "President, Atlanta; Executive Director, Nashville Extension; Professor of Systematic Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Atlanta; also listed by Global",
+        "RTS announced promotion from Associate Professor to Professor effective June 1, 2026."
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 188,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "William J. Richardson",
+      "role_as_printed": "Professor of Counseling",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 195,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "William A. Ross",
+      "role_as_printed": "Associate Professor of Old Testament; Director, Doctor of Ministry Program",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 199,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "D. Blair Smith",
+      "role_as_printed": "President; Professor of Systematic Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte; also listed by Global",
+        "RTS announced promotion from Associate Professor to Professor effective June 1, 2026."
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 204,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Stephen Smith",
+      "role_as_printed": "Associate Professor of Old Testament",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 210,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Jordan M. Stone",
+      "role_as_printed": "Assistant Professor of Pastoral Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Dallas; also listed by Global"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 214,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "N. Gray Sutanto",
+      "role_as_printed": "Associate Professor of Systematic Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Washington, D.C."
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 218,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Scott R. Swain",
+      "role_as_printed": "President; James Woodrow Hassell Professor of Systematic Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Orlando"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 222,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Chad B. Van Dixhoorn",
+      "role_as_printed": "Professor of Church History and Theology",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Charlotte"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 227,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Miles V. Van Pelt",
+      "role_as_printed": "Alan Hayes Belcher, Jr. Professor of Old Testament and Biblical Languages",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 231,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Guy P. Waters",
+      "role_as_printed": "James M. Baird, Jr. Professor of New Testament; Academic Dean (Jackson, Brazil)",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 235,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "Charles Malcolm Wingard",
+      "role_as_printed": "Professor of Pastoral Theology; Dean of Students",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Jackson"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 240,
+      "ideological_weight": 0
+    },
+    {
+      "organization_id": "reformed-theological-seminary",
+      "snapshot_date": "2026-09-04",
+      "section_as_printed": "Current residential-faculty union",
+      "name_as_printed": "William M. Wood",
+      "role_as_printed": "Associate Professor of Old Testament",
+      "listing_evidence_as_printed": [
+        "Current residential listing: Atlanta"
+      ],
+      "normalized_person_id": null,
+      "source_url": "https://rts.edu/people/",
+      "raw_receipt": "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md",
+      "source_line": 245,
       "ideological_weight": 0
     },
     {

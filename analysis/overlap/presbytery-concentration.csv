@@ -59,7 +59,7 @@ a_faithful_pca_2021-06-11,pittsburgh,pittsburgh,current_exact,12,12,2,16.67,2,10
 a_faithful_pca_2021-06-11,potomac,potomac,current_exact,15,15,5,33.33,5,100.00
 a_faithful_pca_2021-06-11,providence,providence,current_exact,7,6,0,0.00,0,0.00
 a_faithful_pca_2021-06-11,rio grande,rio-grande,current_exact,12,12,3,25.00,3,100.00
-a_faithful_pca_2021-06-11,rocky mountain,rocky-mountain,current_exact,17,17,3,17.65,3,100.00
+a_faithful_pca_2021-06-11,rocky mountain,rocky-mountain,current_exact,17,17,4,23.53,4,100.00
 a_faithful_pca_2021-06-11,south coast,south-coast,current_exact,11,10,3,30.00,3,100.00
 a_faithful_pca_2021-06-11,south florida,south-florida,current_exact,7,7,1,14.29,1,100.00
 a_faithful_pca_2021-06-11,south texas,south-texas,current_exact,25,24,4,16.67,4,100.00
@@ -133,7 +133,7 @@ a_faithful_pca_2022-03-14,platte valley,platte-valley,current_exact,1,1,0,0.00,0
 a_faithful_pca_2022-03-14,potomac,potomac,current_exact,20,20,5,25.00,5,100.00
 a_faithful_pca_2022-03-14,providence,providence,current_exact,6,6,0,0.00,0,0.00
 a_faithful_pca_2022-03-14,rio grande,rio-grande,current_exact,15,15,4,26.67,4,100.00
-a_faithful_pca_2022-03-14,rocky mountain,rocky-mountain,current_exact,21,21,3,14.29,3,100.00
+a_faithful_pca_2022-03-14,rocky mountain,rocky-mountain,current_exact,21,21,4,19.05,4,100.00
 a_faithful_pca_2022-03-14,south coast,south-coast,current_exact,12,12,3,25.00,3,100.00
 a_faithful_pca_2022-03-14,south florida,south-florida,current_exact,11,11,1,9.09,1,100.00
 a_faithful_pca_2022-03-14,south texas,south-texas,current_exact,28,28,5,17.86,5,100.00
@@ -528,7 +528,7 @@ ALL_TRACKED_DATASETS,pnw,pacific-northwest,known_alias,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,potomac,potomac,current_exact,58,36,7,19.44,7,100.00
 ALL_TRACKED_DATASETS,providence,providence,current_exact,14,7,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,rio grande,rio-grande,current_exact,33,16,4,25.00,4,100.00
-ALL_TRACKED_DATASETS,rocky mountain,rocky-mountain,current_exact,50,28,4,14.29,4,100.00
+ALL_TRACKED_DATASETS,rocky mountain,rocky-mountain,current_exact,50,28,5,17.86,5,100.00
 ALL_TRACKED_DATASETS,rocky mtn,rocky-mountain,known_alias,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,s new england,southern-new-england,known_alias,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,savannah river,savannah-river,current_exact,3,3,0,0.00,0,0.00

@@ -1,9 +1,9 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 2905,
-    "canonical_person_count": 206,
-    "new_person_count": 189,
+    "record_count": 2952,
+    "canonical_person_count": 207,
+    "new_person_count": 190,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -13,29 +13,29 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 308,
+    "ambiguous": 312,
     "collision": 10,
-    "context_confirmed": 552,
-    "exact_confirmed": 121,
-    "probable_requires_review": 268,
-    "unmatched": 1646
+    "context_confirmed": 555,
+    "exact_confirmed": 119,
+    "probable_requires_review": 263,
+    "unmatched": 1693
   },
   "datasets": [
     {
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 123,
-      "confirmed_row_count": 123,
+      "confirmed_canonical_person_count": 124,
+      "confirmed_row_count": 124,
       "match_status_counts": {
         "exact_confirmed": 13,
-        "context_confirmed": 110,
-        "probable_requires_review": 29,
+        "context_confirmed": 111,
+        "probable_requires_review": 28,
         "ambiguous": 59,
         "collision": 1,
         "unmatched": 359
       },
-      "percent_rows_resolved": 21.54,
+      "percent_rows_resolved": 21.72,
       "source_tier": [
         "first_party_archive"
       ],
@@ -47,17 +47,17 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 154,
-      "confirmed_row_count": 154,
+      "confirmed_canonical_person_count": 155,
+      "confirmed_row_count": 155,
       "match_status_counts": {
         "exact_confirmed": 13,
-        "context_confirmed": 141,
-        "probable_requires_review": 30,
+        "context_confirmed": 142,
+        "probable_requires_review": 29,
         "ambiguous": 64,
         "collision": 1,
         "unmatched": 488
       },
-      "percent_rows_resolved": 20.9,
+      "percent_rows_resolved": 21.03,
       "source_tier": [
         "first_party_archive"
       ],
@@ -119,9 +119,9 @@
         "exact_confirmed": 12,
         "context_confirmed": 0,
         "probable_requires_review": 23,
-        "ambiguous": 31,
+        "ambiguous": 32,
         "collision": 0,
-        "unmatched": 17
+        "unmatched": 16
       },
       "percent_rows_resolved": 14.46,
       "source_tier": [
@@ -163,9 +163,9 @@
         "exact_confirmed": 0,
         "context_confirmed": 0,
         "probable_requires_review": 6,
-        "ambiguous": 0,
+        "ambiguous": 1,
         "collision": 0,
-        "unmatched": 42
+        "unmatched": 41
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
@@ -265,24 +265,24 @@
     },
     {
       "source_dataset": "institution_mission-to-the-world",
-      "row_count": 1,
-      "unique_printed_name_count": 1,
-      "confirmed_canonical_person_count": 0,
-      "confirmed_row_count": 0,
+      "row_count": 10,
+      "unique_printed_name_count": 10,
+      "confirmed_canonical_person_count": 1,
+      "confirmed_row_count": 1,
       "match_status_counts": {
         "exact_confirmed": 0,
-        "context_confirmed": 0,
+        "context_confirmed": 1,
         "probable_requires_review": 1,
         "ambiguous": 0,
         "collision": 0,
-        "unmatched": 0
+        "unmatched": 8
       },
-      "percent_rows_resolved": 0.0,
+      "percent_rows_resolved": 10.0,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "coordinator only; no public executive roster captured"
+        "10 currently corroborated leadership and senior/program roles; unresolved executive succession remains excluded"
       ]
     },
     {
@@ -331,24 +331,24 @@
     },
     {
       "source_dataset": "institution_reformed-theological-seminary",
-      "row_count": 8,
-      "unique_printed_name_count": 8,
-      "confirmed_canonical_person_count": 3,
-      "confirmed_row_count": 3,
+      "row_count": 46,
+      "unique_printed_name_count": 46,
+      "confirmed_canonical_person_count": 1,
+      "confirmed_row_count": 1,
       "match_status_counts": {
-        "exact_confirmed": 3,
+        "exact_confirmed": 1,
         "context_confirmed": 0,
-        "probable_requires_review": 2,
-        "ambiguous": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 2,
         "collision": 0,
-        "unmatched": 3
+        "unmatched": 43
       },
-      "percent_rows_resolved": 37.5,
+      "percent_rows_resolved": 2.17,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "high-overlap subset only; campus-wide roster remains incomplete"
+        "46 unique current-site residential-faculty identities, including one explicitly emeritus classification"
       ]
     },
     {
@@ -360,10 +360,10 @@
       "match_status_counts": {
         "exact_confirmed": 1,
         "context_confirmed": 0,
-        "probable_requires_review": 2,
+        "probable_requires_review": 1,
         "ambiguous": 0,
         "collision": 0,
-        "unmatched": 30
+        "unmatched": 31
       },
       "percent_rows_resolved": 3.03,
       "source_tier": [
