@@ -1822,6 +1822,14 @@
     },
     {
       "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "institution_covenant-college",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "thurman williams"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
       "dataset_b": "institution_covenant-theological-seminary",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -1836,11 +1844,23 @@
     {
       "dataset_a": "a_faithful_pca_2021-06-11",
       "dataset_b": "institution_mission-to-north-america",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "owen-lee",
+          "name": "Owen Lee",
+          "dataset_a_locators": [
+            "signature:15"
+          ],
+          "dataset_b_locators": [
+            "role:220:mission-to-north-america:line:31"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "daniel jung",
         "hansoo jin",
-        "moses park"
+        "moses park",
+        "ted powers"
       ]
     },
     {
@@ -1862,7 +1882,7 @@
             "signature:157"
           ],
           "dataset_b_locators": [
-            "role:254:reformed-theological-seminary:line:31"
+            "role:349:reformed-theological-seminary:line:31"
           ]
         },
         {
@@ -1872,7 +1892,7 @@
             "signature:2"
           ],
           "dataset_b_locators": [
-            "role:253:reformed-theological-seminary:line:30"
+            "role:348:reformed-theological-seminary:line:30"
           ]
         }
       ],
@@ -1889,7 +1909,7 @@
             "signature:326"
           ],
           "dataset_b_locators": [
-            "role:260:ridge-haven:line:11"
+            "role:355:ridge-haven:line:11"
           ]
         }
       ],
@@ -4107,6 +4127,15 @@
     },
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "institution_covenant-college",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "bradley barnes",
+        "thurman williams"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
       "dataset_b": "institution_covenant-theological-seminary",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -4122,11 +4151,23 @@
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
       "dataset_b": "institution_mission-to-north-america",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "owen-lee",
+          "name": "Owen Lee",
+          "dataset_a_locators": [
+            "signature:15"
+          ],
+          "dataset_b_locators": [
+            "role:220:mission-to-north-america:line:31"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "daniel jung",
         "hansoo jin",
-        "moses park"
+        "moses park",
+        "ted powers"
       ]
     },
     {
@@ -4148,7 +4189,7 @@
             "signature:176"
           ],
           "dataset_b_locators": [
-            "role:254:reformed-theological-seminary:line:31"
+            "role:349:reformed-theological-seminary:line:31"
           ]
         },
         {
@@ -4158,7 +4199,7 @@
             "signature:2"
           ],
           "dataset_b_locators": [
-            "role:253:reformed-theological-seminary:line:30"
+            "role:348:reformed-theological-seminary:line:30"
           ]
         }
       ],
@@ -4175,7 +4216,7 @@
             "signature:342"
           ],
           "dataset_b_locators": [
-            "role:260:ridge-haven:line:11"
+            "role:355:ridge-haven:line:11"
           ]
         }
       ],
@@ -6799,7 +6840,7 @@
             "aff-ziegler-amr-current"
           ],
           "dataset_b_locators": [
-            "role:254:reformed-theological-seminary:line:31"
+            "role:349:reformed-theological-seminary:line:31"
           ]
         },
         {
@@ -6809,7 +6850,7 @@
             "aff-lucas-amr-current"
           ],
           "dataset_b_locators": [
-            "role:252:reformed-theological-seminary:line:29"
+            "role:347:reformed-theological-seminary:line:29"
           ]
         }
       ],
@@ -6826,7 +6867,7 @@
             "aff-whitfield-amr-current"
           ],
           "dataset_b_locators": [
-            "role:287:reformed-university-fellowship:line:57"
+            "role:382:reformed-university-fellowship:line:57"
           ]
         }
       ],
@@ -7131,6 +7172,14 @@
     },
     {
       "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "institution_covenant-college",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "thurman williams"
+      ]
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
       "dataset_b": "institution_covenant-theological-seminary",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -7170,7 +7219,7 @@
             "item:7:contributor:2:https://a4mr.org/after-the-general-assembly-reflections-on-trust-unity-and-the-work-ahead/"
           ],
           "dataset_b_locators": [
-            "role:254:reformed-theological-seminary:line:31"
+            "role:349:reformed-theological-seminary:line:31"
           ]
         },
         {
@@ -7189,7 +7238,7 @@
             "item:8:contributor:1:https://a4mr.org/presbyterian-theological-vision-part-seven/"
           ],
           "dataset_b_locators": [
-            "role:252:reformed-theological-seminary:line:29"
+            "role:347:reformed-theological-seminary:line:29"
           ]
         }
       ],
@@ -7211,7 +7260,7 @@
             "item:52:contributor:1:https://a4mr.org/preaching-the-good-news-in-a-changing-world-a-conversation-with-russ-whitfield-aaron-chung-and-paul-kim/"
           ],
           "dataset_b_locators": [
-            "role:287:reformed-university-fellowship:line:57"
+            "role:382:reformed-university-fellowship:line:57"
           ]
         }
       ],
@@ -7535,7 +7584,7 @@
             "video:bMj_pCd4U6U:participant:2"
           ],
           "dataset_b_locators": [
-            "role:254:reformed-theological-seminary:line:31"
+            "role:349:reformed-theological-seminary:line:31"
           ]
         },
         {
@@ -7546,7 +7595,7 @@
             "video:zYRv7vG5xKA:participant:1"
           ],
           "dataset_b_locators": [
-            "role:252:reformed-theological-seminary:line:29"
+            "role:347:reformed-theological-seminary:line:29"
           ]
         }
       ],
@@ -7563,7 +7612,7 @@
             "video:5oxfx1O4Gjs:participant:1"
           ],
           "dataset_b_locators": [
-            "role:287:reformed-university-fellowship:line:57"
+            "role:382:reformed-university-fellowship:line:57"
           ]
         }
       ],
@@ -7771,6 +7820,14 @@
     },
     {
       "dataset_a": "institution_cdm",
+      "dataset_b": "institution_covenant-college",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "karen hodge"
+      ]
+    },
+    {
+      "dataset_a": "institution_cdm",
       "dataset_b": "institution_reformed-theological-seminary",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -7783,6 +7840,47 @@
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "stephen estock"
+      ]
+    },
+    {
+      "dataset_a": "institution_covenant-college",
+      "dataset_b": "institution_covenant-theological-seminary",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "thurman williams"
+      ]
+    },
+    {
+      "dataset_a": "institution_covenant-college",
+      "dataset_b": "nae_withdrawal_protest_2022",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "craig wood",
+        "thurman williams"
+      ]
+    },
+    {
+      "dataset_a": "institution_covenant-college",
+      "dataset_b": "national_partnership_confirmed_members",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "grant lowe"
+      ]
+    },
+    {
+      "dataset_a": "institution_covenant-college",
+      "dataset_b": "publication_hear-us-emmanuel-2020",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "ashley hales"
+      ]
+    },
+    {
+      "dataset_a": "institution_covenant-college",
+      "dataset_b": "warhurst_protest_2019",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "bradley barnes"
       ]
     },
     {
@@ -7856,7 +7954,18 @@
     {
       "dataset_a": "institution_mission-to-north-america",
       "dataset_b": "nae_withdrawal_protest_2022",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "owen-lee",
+          "name": "Owen Lee",
+          "dataset_a_locators": [
+            "role:220:mission-to-north-america:line:31"
+          ],
+          "dataset_b_locators": [
+            "print_order:105"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "daniel jung",
         "murray lee"
@@ -7881,10 +7990,38 @@
     {
       "dataset_a": "institution_mission-to-north-america",
       "dataset_b": "overture_15_negative_votes_2022",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "owen-lee",
+          "name": "Owen Lee",
+          "dataset_a_locators": [
+            "role:220:mission-to-north-america:line:31"
+          ],
+          "dataset_b_locators": [
+            "print_order:107"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "hansoo jin"
       ]
+    },
+    {
+      "dataset_a": "institution_mission-to-north-america",
+      "dataset_b": "overture_37_minority_2021",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "owen-lee",
+          "name": "Owen Lee",
+          "dataset_a_locators": [
+            "role:220:mission-to-north-america:line:31"
+          ],
+          "dataset_b_locators": [
+            "print_order:16"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "institution_mission-to-north-america",
@@ -7902,10 +8039,20 @@
           "canonical_person_id": "charles-mcknight",
           "name": "Charles McKnight",
           "dataset_a_locators": [
-            "role:165:mission-to-north-america:line:21"
+            "role:296:mission-to-north-america:line:107"
           ],
           "dataset_b_locators": [
             "print_order:2"
+          ]
+        },
+        {
+          "canonical_person_id": "owen-lee",
+          "name": "Owen Lee",
+          "dataset_a_locators": [
+            "role:220:mission-to-north-america:line:31"
+          ],
+          "dataset_b_locators": [
+            "print_order:23"
           ]
         }
       ],
@@ -7937,7 +8084,7 @@
           "canonical_person_id": "geoff-ziegler",
           "name": "Geoff Ziegler",
           "dataset_a_locators": [
-            "role:254:reformed-theological-seminary:line:31"
+            "role:349:reformed-theological-seminary:line:31"
           ],
           "dataset_b_locators": [
             "confirmed_member:58:geoff ziegler"
@@ -7947,7 +8094,7 @@
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
-            "role:253:reformed-theological-seminary:line:30"
+            "role:348:reformed-theological-seminary:line:30"
           ],
           "dataset_b_locators": [
             "confirmed_member:67:irwyn ince"
@@ -7957,7 +8104,7 @@
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
-            "role:252:reformed-theological-seminary:line:29"
+            "role:347:reformed-theological-seminary:line:29"
           ],
           "dataset_b_locators": [
             "confirmed_member:132:sean lucas"
@@ -7974,7 +8121,7 @@
           "canonical_person_id": "geoff-ziegler",
           "name": "Geoff Ziegler",
           "dataset_a_locators": [
-            "role:254:reformed-theological-seminary:line:31"
+            "role:349:reformed-theological-seminary:line:31"
           ],
           "dataset_b_locators": [
             "print_order:28"
@@ -7991,7 +8138,7 @@
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
-            "role:252:reformed-theological-seminary:line:29"
+            "role:347:reformed-theological-seminary:line:29"
           ],
           "dataset_b_locators": [
             "chapter:21:contributor:1"
@@ -8008,7 +8155,7 @@
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
-            "role:253:reformed-theological-seminary:line:30"
+            "role:348:reformed-theological-seminary:line:30"
           ],
           "dataset_b_locators": [
             "chapter:23:contributor:1"
@@ -8018,7 +8165,7 @@
           "canonical_person_id": "sean-lucas",
           "name": "Sean Lucas",
           "dataset_a_locators": [
-            "role:252:reformed-theological-seminary:line:29"
+            "role:347:reformed-theological-seminary:line:29"
           ],
           "dataset_b_locators": [
             "chapter:18:contributor:1"
@@ -8035,7 +8182,7 @@
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
-            "role:253:reformed-theological-seminary:line:30"
+            "role:348:reformed-theological-seminary:line:30"
           ],
           "dataset_b_locators": [
             "chapter:11:contributor:1"
@@ -8052,7 +8199,7 @@
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
-            "role:253:reformed-theological-seminary:line:30"
+            "role:348:reformed-theological-seminary:line:30"
           ],
           "dataset_b_locators": [
             "print_order:148"
@@ -8069,7 +8216,7 @@
           "canonical_person_id": "russ-whitfield",
           "name": "Russ Whitfield",
           "dataset_a_locators": [
-            "role:287:reformed-university-fellowship:line:57"
+            "role:382:reformed-university-fellowship:line:57"
           ],
           "dataset_b_locators": [
             "chapter:28:contributor:1"
@@ -8077,6 +8224,14 @@
         }
       ],
       "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "institution_westminster-theological-seminary",
+      "dataset_b": "warhurst_protest_2019",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "david filson"
+      ]
     },
     {
       "dataset_a": "nae_withdrawal_protest_2022",
