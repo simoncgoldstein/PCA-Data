@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "organization": "Gospel Reformation Network",
+    "captured": "2026-09-04",
+    "evidence_scope": "first-party organizational self-description",
+    "raw_receipt": "sources/raw/organizations/gospel-reformation-network/first-party-framing-2026-09-04.md",
+    "modeling_rule": "Organizational positions do not automatically become personal positions for council members, speakers, supporters, or attendees.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "grn-sanctification-origin-2012",
+      "topic": "sanctification",
+      "position_type": "organizational_self_description",
+      "summary": "GRN says it began in 2012 among PCA pastors to promote a proper articulation of and call to sanctification, including the third use of the law, biblical imperatives, pastoral piety, spiritual disciplines, and personal holiness.",
+      "source_url": "https://gospelreformation.net/the-gospel-reformation-network-a-new-vision-for-continued-faithfulness-in-the-pca/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "grn-expanded-church-health-mission",
+      "topic": "organizational-mission",
+      "position_type": "organizational_self_description",
+      "summary": "GRN says it expanded beyond its original sanctification focus to cultivating healthy Reformed churches and encouraging the PCA to maintain long-term biblical and confessional integrity.",
+      "source_url": "https://gospelreformation.net/the-gospel-reformation-network-a-new-vision-for-continued-faithfulness-in-the-pca/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "grn-biblical-confessional-distinctive",
+      "topic": "scripture-and-confession",
+      "position_type": "organizational_distinctive",
+      "summary": "GRN explicitly identifies biblical fidelity and confessional integrity as core distinctives, including Scripture's inspiration, inerrancy, authority, sufficiency, and efficacy together with resolute adherence to the Westminster Standards.",
+      "source_url": "https://gospelreformation.net/the-gospel-reformation-network-a-new-vision-for-continued-faithfulness-in-the-pca/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "grn-progressive-trajectory-concerns",
+      "topic": "denominational-trajectory",
+      "position_type": "organizational_diagnosis",
+      "summary": "GRN says certain progressive trajectories in the PCA resemble patterns seen historically in liberal mainline churches and identifies concerns involving mission and social justice, confessional integrity, Reformed worship and means of grace, pastoral piety, sexuality, and gender roles.",
+      "boundary": "This is GRN's diagnosis and concern, not an independently adjudicated conclusion of this project.",
+      "source_url": "https://gospelreformation.net/the-gospel-reformation-network-a-new-vision-for-continued-faithfulness-in-the-pca/",
+      "ideological_weight": 0
+    }
+  ]
+}
