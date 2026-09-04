@@ -70,11 +70,11 @@ A surviving citation identifies the Revoice YouTube item as `Revoice 18 – Gene
 - Grant Hartley — `Redeeming Queer Culture: An Adventure`
 - Independently confirmed as a July 27, 2018 Revoice workshop by contemporary reporting and surviving later references.
 
-### Breakout: church ministry / sexual minorities
+### Breakout: Making the Church a Haven for Sexual Minorities
 
 - Greg Johnson — PCA judicial records confirm that he taught a Revoice 2018 breakout session.
-- A later detailed conference review identifies the title as `Making Church a Haven for Sexual Minorities`.
-- Because the title is presently supported here by a secondary review rather than the archived program body, retain the title with that provenance distinction until the primary program is recovered.
+- The July 21, 2020 Missouri Presbytery investigative committee report quotes Johnson describing `my Revoice 2018 talk “Making the Church a Haven for Sexual Minorities”` and footnotes the preserved recording.
+- This establishes the title from a PCA judicial record reproducing Johnson's own description, independently of later conference reviews. The archived event page remains preferable for exact schedule/time metadata.
 
 ### Panel: Race, Sexuality, and Intersectionality
 
@@ -98,14 +98,14 @@ Contemporaneous resource pages preserve links/references to:
 - Greg Johnson presentation audio
 - Grant Hartley, `Redeeming Queer Culture: An Adventure`
 
-These should be treated as media-retrieval leads. Do not infer attendance or endorsement from a person being discussed in later commentary.
+The Missouri Presbytery investigative report also footnotes the Google Drive recording for Johnson's talk. These should be treated as media-retrieval leads. Do not infer attendance or endorsement from a person being discussed in later commentary.
 
 ## Evidence-quality rules
 
-1. **Primary/archived program controls** exact titles, times, room assignments, and official speaker status once recovered.
+1. **Primary/archived program controls** exact times, room assignments, advertised wording, and official speaker status once recovered.
 2. **Contemporaneous participant pages and first-hand media** can confirm a named session or appearance when the program body is missing.
-3. **PCA court records** are authoritative for the denominational facts they expressly state, including Memorial hosting the conference and Greg Johnson teaching a breakout session.
-4. **Secondary critiques/reviews** may be used as retrieval leads or title corroboration but must not silently become the sole basis for a normalized participation edge when better evidence is obtainable.
+3. **PCA court/judicial records** are authoritative for the denominational and evidentiary facts they expressly state, including Memorial hosting the conference, Greg Johnson teaching a breakout session, and the title Johnson himself gave for that Revoice 2018 talk in the Missouri Presbytery investigative record.
+4. **Secondary critiques/reviews** may be used as retrieval leads or corroboration but must not silently become the sole basis for a normalized participation edge when better evidence is obtainable.
 5. Preserve ambiguity. Do not reconstruct an apparently complete schedule from snippets.
 
 ## Next browser/archive actions
