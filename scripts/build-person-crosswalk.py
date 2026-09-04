@@ -1142,8 +1142,9 @@ variant_review_keys = {key for key, values in first_last_groups.items() if len(v
 for row in records:
     words = row["normalized_candidate"].split()
     first_last = f"{FIRST_NAME_VARIANTS.get(words[0], words[0])} {words[-1]}" if len(words) >= 2 else row["normalized_candidate"]
-    row["variant_collision_key"] = first_last if first_last in variant_review_keys else None
-    row["initials_only_name"] = any(len(word) == 1 for word in words)
+    row["variant_collision_key"] = None if row.get("reviewed_name_variant") else (first_last if first_last in variant_review_keys else None)
+    printed_words = row["normalized_name_as_printed"].split()
+    row["initials_only_name"] = any(len(word) == 1 for word in printed_words)
 
 
 public_records = []
@@ -1187,7 +1188,7 @@ review_records = [
     for r in public_records
     if r["match_status"] in {"probable_requires_review", "ambiguous", "collision"}
     or r["variant_collision_key"]
-    or r["initials_only_name"]
+    or (r["initials_only_name"] and not r.get("reviewed_name_variant"))
 ]
 
 crosswalk = {

@@ -20183,7 +20183,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
-      "initials_only_name": false
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-00554",
@@ -21000,7 +21000,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
-      "initials_only_name": false
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-00577",
@@ -61029,7 +61029,7 @@
       "conflicting_fields": [],
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
-      "variant_collision_key": "guy waters",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -61224,7 +61224,7 @@
       "conflicting_fields": [],
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
-      "variant_collision_key": "guy waters",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -61261,7 +61261,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
-      "initials_only_name": true
+      "initials_only_name": false
     },
     {
       "crosswalk_id": "identity-row-01812",
@@ -61706,7 +61706,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
-      "initials_only_name": true
+      "initials_only_name": false
     },
     {
       "crosswalk_id": "identity-row-01826",
@@ -61741,7 +61741,7 @@
       "conflicting_fields": [],
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
-      "variant_collision_key": "guy waters",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -61778,7 +61778,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
-      "initials_only_name": true
+      "initials_only_name": false
     },
     {
       "crosswalk_id": "identity-row-01828",
@@ -61886,7 +61886,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
-      "initials_only_name": true
+      "initials_only_name": false
     },
     {
       "crosswalk_id": "identity-row-01831",
@@ -76970,7 +76970,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
-      "initials_only_name": true
+      "initials_only_name": false
     },
     {
       "crosswalk_id": "identity-row-02315",
@@ -128253,7 +128253,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only.",
       "variant_collision_key": null,
-      "initials_only_name": false
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-03917",
@@ -128528,7 +128528,7 @@
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
       "variant_collision_key": null,
-      "initials_only_name": false
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-03926",
@@ -137760,7 +137760,7 @@
       "conflicting_fields": [],
       "confidence": 0.98,
       "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
-      "variant_collision_key": "guy waters",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
