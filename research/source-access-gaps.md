@@ -81,9 +81,19 @@ When a future research pass encounters another known-but-inaccessible source, ad
 
 These are not wholly inaccessible sources, but their evidence is incomplete enough that future work should not mistake current coverage for source saturation.
 
+### Save the PCA February 8, 2026 Functional Female Officer workbook
+
+The exact research copy supplied to this project was analyzed and is identified by SHA-256 `b746fbdd1ccbb6087feeb6ed5abee91b4ac203a3cacc08de167c46a8cf9d0150`. Its sheet structure, row counts, classifications, and source metadata are preserved in `sources/raw/external-datasets/save-the-pca-functional-female-officers/README.md`.
+
+**Current blocker:** The public hosted XLSX at `https://www.savethepca.com/wp-content/uploads/2026/02/ffo_public_dataset_020826.xlsx` could not be independently binary-downloaded in the current runtime, and the exact XLSX binary has not yet been committed to the repository. Therefore byte-for-byte equality between the analyzed research copy and the currently hosted public file has not been independently established.
+
+**Still needed:** Download the hosted XLSX outside the restricted runtime, compare its SHA-256 to the research copy, and if it matches, preserve that exact binary in the repository source directory. If it differs, retain both dated versions and normalize the hosted version separately.
+
+**Recovery path:** Manual/local browser download and hash comparison. Do not spend automated research cycles on alternate binary-download workarounds.
+
 ### AMR archived captions
 
-The AMR video inventory and archived caption tracks are accessible. A first bounded issue-position extraction from the 2026 overtures roundtable is now normalized, but the remaining caption corpus has not yet been exhaustively evaluated for issue-level claims. This is a research-completeness gap, not an access failure.
+The AMR video inventory and archived caption tracks are accessible. Multiple bounded issue-position extractions are now normalized, but the remaining caption corpus has not yet been exhaustively evaluated for issue-level claims. This is a research-completeness gap, not an access failure.
 
 ### Long-tail identity cases
 
