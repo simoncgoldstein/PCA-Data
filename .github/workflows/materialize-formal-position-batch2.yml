@@ -31,35 +31,37 @@ jobs:
           if start is None:
               raise SystemExit('Could not locate official Overture 37 negative-vote introduction')
 
-          end = next((i for i in range(start + 1, len(lines)) if re.search(r'\bRecommendation\s+38\b', lines[i])), None)
-          if end is None:
-              raise SystemExit('Could not locate Recommendation 38 boundary')
+          resumed = next((i for i in range(start + 1, min(len(lines), start + 1200)) if 'Chairman' in lines[i] and 'resumed his report' in lines[i]), None)
+          scan_end = resumed if resumed is not None else min(len(lines), start + 1200)
 
           row_pattern = re.compile(r'^\s*(TE|RE)\s+(.+?)\s{2,}(.+?)\s*$')
-          rows = []
-          raw_matches = []
-          for line in lines[start + 1:end]:
+          matches = []
+          for line_no, line in enumerate(lines[start + 1:scan_end], start + 2):
               match = row_pattern.match(line)
               if not match:
                   continue
               office, name, presbytery = (part.strip() for part in match.groups())
-              # Page headers and prose cannot match because a row must begin TE/RE and contain a fixed-width column break.
-              raw_matches.append(line.rstrip())
-              rows.append({
+              matches.append((line_no, office, name, presbytery, line.rstrip()))
+
+          if len(matches) != 207:
+              print('section_start_line', start + 1)
+              print('resume_line', None if resumed is None else resumed + 1)
+              print('parsed_count', len(matches))
+              print('first_matches', [m[4] for m in matches[:12]])
+              print('last_matches', [m[4] for m in matches[-12:]])
+              raise SystemExit('Expected exactly 207 Overture 37 recorded negative votes before the report resumed')
+
+          rows = [
+              {
                   'office_as_printed': office,
                   'name_as_printed': name,
                   'presbytery_as_printed': presbytery,
-                  'print_order': len(rows) + 1,
+                  'print_order': index,
+                  'source_text_line_1_based': line_no,
                   'normalized_person_id': None,
-              })
-
-          if len(rows) != 207:
-              print('section_start_line', start + 1)
-              print('section_end_line', end + 1)
-              print('parsed_count', len(rows))
-              print('first_matches', raw_matches[:12])
-              print('last_matches', raw_matches[-12:])
-              raise SystemExit('Expected exactly 207 Overture 37 recorded negative votes')
+              }
+              for index, (line_no, office, name, presbytery, _) in enumerate(matches, 1)
+          ]
 
           out = {
               'metadata': {
@@ -69,7 +71,7 @@ jobs:
                   'local_pdf': 'sources/raw/general-assembly/2021/48th_pcaga_2021.pdf',
                   'local_pdf_text': str(source),
                   'extraction_start_line_1_based': start + 1,
-                  'extraction_end_before_line_1_based': end + 1,
+                  'extraction_end_before_line_1_based': None if resumed is None else resumed + 1,
                   'expected_rows': 207,
                   'parsed_rows': len(rows),
                   'identity_rule': 'Printed office, name, and presbytery are preserved from the official minutes; canonical IDs are resolved only through the conservative identity layer.',
