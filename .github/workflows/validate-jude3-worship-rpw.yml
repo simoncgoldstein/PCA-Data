@@ -1,0 +1,20 @@
+name: Validate Jude 3 RPW positions
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-jude3-rpw:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Validate Jude 3 RPW positions
+        run: python3 scripts/validate-jude3-worship-rpw.py .
