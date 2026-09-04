@@ -32,6 +32,56 @@ jobs:
       - name: Validate research imports
         run: python3 scripts/validate-research-imports.py .
 
+      - name: Verify institution snapshot normalizer
+        run: |
+          tmp="$(mktemp)"
+          python3 scripts/normalize-institution-snapshots.py . "$tmp"
+          python3 - "$tmp" <<'PY'
+          import json
+          import sys
+          from pathlib import Path
+
+          checked_path = Path('sources/normalized/institutions/current-role-snapshots-2026-09-03.json')
+          candidate_path = Path(sys.argv[1])
+          checked = json.loads(checked_path.read_text())
+          candidate = json.loads(candidate_path.read_text())
+
+          if checked.get('metadata') != candidate.get('metadata'):
+              raise SystemExit('institution snapshot metadata drift')
+          if checked.get('coverage') != candidate.get('coverage'):
+              raise SystemExit('institution snapshot coverage drift')
+
+          left = checked.get('roles', [])
+          right = candidate.get('roles', [])
+          if len(left) != len(right):
+              raise SystemExit(f'institution role count drift: checked={len(left)} candidate={len(right)}')
+
+          enrichments = []
+          for index, (a, b) in enumerate(zip(left, right)):
+              a_struct = {k: v for k, v in a.items() if k != 'normalized_person_id'}
+              b_struct = {k: v for k, v in b.items() if k != 'normalized_person_id'}
+              if a_struct != b_struct:
+                  raise SystemExit(
+                      f'institution role structural drift at index {index}: '
+                      f"{a.get('organization_id')} / {a.get('name_as_printed')}"
+                  )
+
+              old_id = a.get('normalized_person_id')
+              new_id = b.get('normalized_person_id')
+              if old_id is not None and old_id != new_id:
+                  raise SystemExit(
+                      f'institution identity regression at index {index}: '
+                      f"{a.get('name_as_printed')} checked={old_id!r} candidate={new_id!r}"
+                  )
+              if old_id is None and new_id is not None:
+                  enrichments.append((a.get('organization_id'), a.get('name_as_printed'), new_id))
+
+          if enrichments:
+              print('Monotonic identity enrichments available:')
+              for organization_id, name, person_id in enrichments:
+                  print(f'  {organization_id}: {name} -> {person_id}')
+          PY
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
