@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "organization": "MORE in the PCA",
+    "captured": "2026-09-04",
+    "evidence_scope": "first-party organizational self-description",
+    "raw_receipt": "sources/raw/organizations/more-in-pca/first-party-framing-2026-09-04.md",
+    "source_url": "https://jude3pca.org/more/",
+    "modeling_rule": "MORE is treated as a distinct grassroots movement of PCA Ruling Elders; hosting on Jude 3 does not collapse the two organizations into one.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "more-ruling-elder-participation-2026",
+      "topic": "ruling-elder-participation",
+      "position_type": "organizational_mission",
+      "summary": "MORE in the PCA describes its mission as encouraging PCA Ruling Elders who have not been active in Presbytery and General Assembly to begin attending and participating.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "more-bco-8-3-general-oversight-2026",
+      "topic": "ruling-elder-office",
+      "position_type": "organizational_rationale",
+      "summary": "MORE grounds increased Ruling Elder participation in BCO 8-3, emphasizing Ruling Elders' duties in government, discipline, and oversight of the Church generally when called thereunto.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "more-2017-te-re-imbalance-2026",
+      "topic": "general-assembly-participation",
+      "position_type": "organizational_diagnosis",
+      "summary": "MORE argues that the roughly 4:1 Teaching Elder to Ruling Elder ratio at the 2017 General Assembly undermined the PCA's intended plurality of elders and represented a confessional-operational problem.",
+      "boundary": "This is preserved as MORE's diagnosis, not as an independently adjudicated conclusion of this project.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "more-financial-support-re-attendance-2026",
+      "topic": "general-assembly-participation",
+      "position_type": "organizational_action",
+      "summary": "MORE states that a primary practical goal is to provide financial support for Ruling Elders who otherwise could not attend General Assembly, in order to increase Ruling Elder participation in church courts.",
+      "ideological_weight": 0
+    }
+  ]
+}
