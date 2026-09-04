@@ -32,11 +32,17 @@ jobs:
       - name: Validate research imports
         run: python3 scripts/validate-research-imports.py .
 
+      - name: Generate institution snapshot candidate
+        run: python3 scripts/normalize-institution-snapshots.py . /tmp/current-role-snapshots-candidate.json
+
+      - name: Archive institution snapshot candidate
+        uses: actions/upload-artifact@v6
+        with:
+          name: institution-snapshot-candidate
+          path: /tmp/current-role-snapshots-candidate.json
+
       - name: Verify institution snapshot normalizer
-        run: |
-          tmp="$(mktemp)"
-          python3 scripts/normalize-institution-snapshots.py . "$tmp"
-          diff -u sources/normalized/institutions/current-role-snapshots-2026-09-03.json "$tmp"
+        run: diff -u sources/normalized/institutions/current-role-snapshots-2026-09-03.json /tmp/current-role-snapshots-candidate.json
 
       - name: Rebuild generated research outputs
         run: |
