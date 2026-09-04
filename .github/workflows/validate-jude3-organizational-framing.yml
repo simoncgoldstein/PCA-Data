@@ -1,0 +1,22 @@
+name: Validate Jude 3 PCA organizational framing
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-jude3-framing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Validate Jude 3 PCA organizational framing
+        run: python3 scripts/validate-jude3-organizational-framing.py .

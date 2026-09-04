@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "organization": "Jude 3 & the PCA",
+    "captured": "2026-09-04",
+    "evidence_scope": "first-party organizational self-description",
+    "raw_receipt": "sources/raw/organizations/jude3-pca/first-party-framing-2026-09-04.md",
+    "modeling_rule": "Organizational self-description does not automatically convert every hosted, linked, or authored article into an institutional position.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "jude3-independent-pca-member-voice-2026",
+      "topic": "organizational-identity",
+      "position_type": "organizational_self_description",
+      "summary": "Jude 3 & the PCA describes itself as an independent voice consisting of PCA members and says it has operated since 2021.",
+      "source_url": "https://jude3pca.org/about-us/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-confessional-accountability-purpose-2026",
+      "topic": "confessional-accountability",
+      "position_type": "organizational_self_description",
+      "summary": "Jude 3 & the PCA says it works for the glory of Christ through pastoral and confessional accountability within the PCA.",
+      "source_url": "https://jude3pca.org/about-us/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-resource-aggregation-history-2026",
+      "topic": "publishing-method",
+      "position_type": "organizational_methodology",
+      "summary": "The organization says its earlier work primarily aggregated articles, blogs, podcasts, and other media while maintaining an archive of resources.",
+      "source_url": "https://jude3pca.org/about-us/",
+      "boundary": "Aggregation and archiving are not treated as endorsement of every claim in the aggregated source.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-original-content-priority-2026",
+      "topic": "publishing-method",
+      "position_type": "organizational_self_description",
+      "summary": "Jude 3 & the PCA says it is shifting its priority toward publishing and distributing more original content rather than primarily highlighting material published by others.",
+      "source_url": "https://jude3pca.org/about-us/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-confessional-fidelity-editorial-aim-2026",
+      "topic": "confessional-accountability",
+      "position_type": "organizational_editorial_aim",
+      "summary": "Jude 3 & the PCA invites submissions from PCA officers and members aimed at encouraging confessional fidelity, integrity, and vitality.",
+      "source_url": "https://jude3pca.org/about-us/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-westminster-standard-sponsorship-2026",
+      "topic": "organizational-media",
+      "position_type": "organizational_relationship",
+      "summary": "Jude 3 & the PCA says it continues to sponsor The Westminster Standard Podcast as part of its publishing activity.",
+      "source_url": "https://jude3pca.org/about-us/",
+      "ideological_weight": 0
+    }
+  ]
+}
