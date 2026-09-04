@@ -32,11 +32,18 @@ jobs:
       - name: Validate research imports
         run: python3 scripts/validate-research-imports.py .
 
+      - name: Generate institution snapshot candidate
+        run: python3 scripts/normalize-institution-snapshots.py . /tmp/current-role-snapshots-candidate.json
+
+      - name: Archive institution snapshot candidate
+        uses: actions/upload-artifact@v6
+        with:
+          name: institution-ingest-batch1-candidate
+          path: /tmp/current-role-snapshots-candidate.json
+
       - name: Verify institution snapshot normalizer
         run: |
-          tmp="$(mktemp)"
-          python3 scripts/normalize-institution-snapshots.py . "$tmp"
-          python3 - "$tmp" <<'PY'
+          python3 - /tmp/current-role-snapshots-candidate.json <<'PY'
           import json
           import sys
           from pathlib import Path
