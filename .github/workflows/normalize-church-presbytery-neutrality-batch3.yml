@@ -1,0 +1,71 @@
+name: Normalize church and presbytery neutrality for Batch 3
+
+on:
+  push:
+    branches: [research/women-worship-formal-position-batch3-2026-09-04]
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: research/women-worship-formal-position-batch3-2026-09-04
+      - name: Normalize ordinary church and presbytery treatment
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          org_path = Path('data/organizations.json')
+          orgs = json.loads(org_path.read_text())
+          before = len(orgs)
+          orgs = [o for o in orgs if o.get('id') != 'blue-ridge-presbytery']
+          if len(orgs) != before - 1:
+              raise SystemExit('expected exactly one blue-ridge-presbytery organization node')
+          org_path.write_text(json.dumps(orgs, indent=2) + '\n')
+
+          aff_path = Path('data/affiliations.json')
+          affs = json.loads(aff_path.read_text())
+          found = 0
+          for row in affs:
+              if row.get('id') == 'aff-carey-blue-ridge':
+                  found += 1
+                  row['target_type'] = 'presbytery'
+                  row['target_id'] = 'blue-ridge'
+                  row['weight'] = 0
+                  row['score_included'] = False
+                  row['evidence_kind'] = 'geographic_affiliation'
+          if found != 1:
+              raise SystemExit(f'expected one aff-carey-blue-ridge row, found {found}')
+          aff_path.write_text(json.dumps(affs, indent=2) + '\n')
+
+          validator = Path('scripts/validate-data.mjs')
+          text = validator.read_text()
+          needle = "  if (typeof affiliation.weight !== 'number' || affiliation.weight < 0) {\n    errors.push(`affiliations:${affiliation.id}: weight must be a nonnegative number`);\n  }\n"
+          insert = needle + "\n  const targetOrganization = affiliation.target_type === 'organization' ? organizationMap.get(affiliation.target_id) : null;\n  const ordinaryInstitutionalTarget =\n    affiliation.target_type === 'church' ||\n    affiliation.target_type === 'presbytery' ||\n    ['church', 'presbytery'].includes(targetOrganization?.type);\n  if (ordinaryInstitutionalTarget && (affiliation.weight !== 0 || affiliation.score_included !== false)) {\n    errors.push(`affiliations:${affiliation.id}: ordinary church/presbytery affiliation must have weight 0 and score_included false`);\n  }\n"
+          if needle not in text:
+              raise SystemExit('validator insertion point not found')
+          text = text.replace(needle, insert, 1)
+          validator.write_text(text)
+
+          # Guard the two user-requested neutrality cases without special scoring logic.
+          church = next((c for c in json.loads(Path('data/churches.json').read_text())
+                         if c.get('id') == 'trinity-presbyterian-church-ef40b0'), None)
+          if not church or church.get('presbytery_id') != 'blue-ridge':
+              raise SystemExit('Charlottesville Trinity canonical church record missing or mislinked')
+          if any(o.get('id') == 'blue-ridge-presbytery' for o in orgs):
+              raise SystemExit('special Blue Ridge organization node remains')
+          PY
+
+          rm .github/workflows/normalize-church-presbytery-neutrality-batch3.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/organizations.json data/affiliations.json scripts/validate-data.mjs .github/workflows/normalize-church-presbytery-neutrality-batch3.yml
+          git commit -m "Normalize church and presbytery neutrality"
+          git push origin HEAD:research/women-worship-formal-position-batch3-2026-09-04
