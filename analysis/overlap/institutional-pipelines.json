@@ -57,6 +57,70 @@
       ]
     },
     {
+      "canonical_person_id": "david-b-garner",
+      "name": "David B. Garner",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "westminster-theological-seminary",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:483:westminster-theological-seminary:line:32",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "formal_position_2012-scim-part-one-unanimous-report",
+          "year": null,
+          "relationship_type": "formal_report_signature",
+          "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+          "source_locator": "2012-scim-part-one-unanimous-report:signer:1"
+        },
+        {
+          "dataset": "formal_position_2013-scim-committee-report",
+          "year": null,
+          "relationship_type": "formal_report_signature",
+          "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+          "source_locator": "2013-scim-committee-report:signer:1"
+        },
+        {
+          "dataset": "formal_position_2014-scim-committee-report",
+          "year": null,
+          "relationship_type": "formal_report_signature",
+          "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+          "source_locator": "2014-scim-committee-report:signer:1"
+        },
+        {
+          "dataset": "insider_movements_committee_membership_changes_2012",
+          "year": null,
+          "relationship_type": "study_committee_membership_change",
+          "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+          "source_locator": "membership_change:2"
+        },
+        {
+          "dataset": "insider_movements_named_report_roles_2013_2014",
+          "year": null,
+          "relationship_type": "named_report_role",
+          "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+          "source_locator": "named_report_role:1:2013"
+        },
+        {
+          "dataset": "insider_movements_named_report_roles_2013_2014",
+          "year": null,
+          "relationship_type": "named_report_role",
+          "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+          "source_locator": "named_report_role:3:2014"
+        },
+        {
+          "dataset": "women_study_committee_procedural_registration_2016",
+          "year": null,
+          "relationship_type": "recorded_procedural_position",
+          "source_path": "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json",
+          "source_locator": "procedural_registration:44"
+        }
+      ]
+    },
+    {
       "canonical_person_id": "mark-bates",
       "name": "Mark Bates",
       "dated_institutional_role_edges": [
@@ -385,6 +449,11 @@
       "confirmed_person_count": 2
     },
     {
+      "institution": "westminster-theological-seminary",
+      "other_dataset": "insider_movements_named_report_roles_2013_2014",
+      "confirmed_person_count": 2
+    },
+    {
       "institution": "cdm",
       "other_dataset": "amr_website_media_2023_2026",
       "confirmed_person_count": 1
@@ -477,6 +546,31 @@
     {
       "institution": "ridge-haven",
       "other_dataset": "a_faithful_pca_2022-03-14",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "westminster-theological-seminary",
+      "other_dataset": "formal_position_2012-scim-part-one-unanimous-report",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "westminster-theological-seminary",
+      "other_dataset": "formal_position_2013-scim-committee-report",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "westminster-theological-seminary",
+      "other_dataset": "formal_position_2014-scim-committee-report",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "westminster-theological-seminary",
+      "other_dataset": "insider_movements_committee_membership_changes_2012",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "westminster-theological-seminary",
+      "other_dataset": "women_study_committee_procedural_registration_2016",
       "confirmed_person_count": 1
     }
   ]

@@ -324,7 +324,7 @@
         "name_as_printed": "David B. Garner",
         "office_as_printed": "TE",
         "presbytery_as_printed": "Philadelphia Metro W.",
-        "normalized_person_id": null
+        "normalized_person_id": "david-b-garner"
       },
       {
         "print_order": 45,
@@ -1157,7 +1157,7 @@
         "name_as_printed": "Guy Waters",
         "office_as_printed": "TE",
         "presbytery_as_printed": "Mississippi Valley",
-        "normalized_person_id": null
+        "normalized_person_id": "guy-prentiss-waters"
       },
       {
         "print_order": 164,

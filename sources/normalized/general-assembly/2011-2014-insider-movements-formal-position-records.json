@@ -1,0 +1,385 @@
+{
+  "metadata": {
+    "dataset_id": "insider_movements_formal_positions_2011_2014",
+    "title": "PCA Ad Interim Study Committee on Insider Movements, formal-position evidence, 2011-2014",
+    "source_family": "insider_movements_scim_2011_2014",
+    "source_type": "official_pca_general_assembly_minutes_and_study_reports",
+    "ideological_weight": 0,
+    "modeling_rule": "Keep committee membership, signed committee reports, signed minority reports, first-person report roles, and Assembly votes/actions distinct. Aggregate Assembly votes do not identify individual commissioners. All SCIM materials from 2011-2014 are one source family for identity purposes and cannot self-corroborate a new person identity.",
+    "constitutional_guardrail": "The PCA Historical Center and 2012 Clerk's actions letter distinguish Assembly adoption of report recommendations from adoption of report narrative. General Assembly declarations and recommended study materials are not treated as constitutional amendments unless the Constitution itself was amended.",
+    "completeness_status": "complete_named_report_signatories_for_2012_2013_2014;_2013_seelinger_role_source_discrepancy_preserved"
+  },
+  "formation_and_membership_notes": [
+    {
+      "year": 2011,
+      "event_type": "study_committee_formation",
+      "summary": "The 39th General Assembly approved Overture 9, A Call to Faithful Witness, and instructed Moderator RE Dan Carrell to appoint an ad interim Study Committee on Insider Movements.",
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "source_locator": "2012 Part One report, Study Committee's History",
+      "ideological_weight": 0
+    },
+    {
+      "year": 2012,
+      "event_type": "committee_membership_change",
+      "summary": "The 2012 report states that the first chairman, TE Wade Bradshaw, withdrew in January 2012; TE David Garner was elected chairman; and TE Guy Waters was appointed in April 2012 to fill the vacant seventh position for work on Part Two pending extension of the committee.",
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "source_locator": "Part One report, p. 7 / PDF p. 6",
+      "important_boundary": "Guy Waters is not printed among the six Part One report names on the 2012 title page, and Part One is modeled using that six-name printed report group rather than back-projecting Waters into its signatory set.",
+      "ideological_weight": 0
+    }
+  ],
+  "formal_positions": [
+    {
+      "event_id": "2012-scim-part-one-unanimous-report",
+      "year": 2012,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "position_specificity": "very_high",
+      "report_label": "A Call to Faithful Witness - Part One - Like Father, Like Son: Divine Familial Language in Bible Translation",
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "source_locator": "title page and Study Committee Recommendations, PDF pp. 0, 6-7",
+      "position_summary": "The report says the SCIM unanimously presented Part One and five recommendations. Among them, it asked the 40th General Assembly to declare that Bibles should translate divine familial names using common biological terms because social familial terms fail to capture the biblical meaning of Son, Son of God, and Father; it also sought denomination-wide study, a one-year extension, and a second-year budget.",
+      "important_boundary": "This records the unanimous Part One translation report and its recommendations. It does not by itself assign a later 2013 or 2014 Insider Movements position to every Part One signer.",
+      "signer_count": 6,
+      "signers": [
+        {
+          "print_order": 1,
+          "name_as_printed": "David B. Garner",
+          "office_as_printed": "TE",
+          "role_as_printed": "Chairman",
+          "normalized_person_id": "david-b-garner"
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Robert Berman",
+          "office_as_printed": "RE",
+          "role_as_printed": "Secretary",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Nabeel T. Jabbour",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": "nabeel-t-jabbour"
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Jonathan Mitchell",
+          "office_as_printed": "RE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Bill Nikides",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 6,
+          "name_as_printed": "Tom Seelinger",
+          "office_as_printed": "RE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        }
+      ],
+      "assembly_disposition": {
+        "assembly": "40th General Assembly",
+        "status": "recommendations_adopted",
+        "adopted_recommendations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "important_boundary": "The Clerk's actions letter explicitly says the Assembly adopts report recommendations, not the extensive narrative text of reports that are for information and study. Recommendation 2 was an Assembly declaration subject to BCO 14-7, not a constitutional amendment.",
+        "source_url": "https://www.pcahistory.org/pca/ga/actions/40thGA_2012_Actions.pdf"
+      },
+      "ideological_weight": 0
+    },
+    {
+      "event_id": "2013-scim-committee-report",
+      "year": 2013,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "position_specificity": "very_high",
+      "report_label": "A Call to Faithful Witness - Part Two - Theology, Gospel Missions, and Insider Movements, Committee Report 2013",
+      "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf",
+      "source_locator": "Appendix V, title/signatory block at PDF p. 628 and signature block at PDF p. 758",
+      "position_summary": "The committee report offered a biblical, theological, and confessional analysis of Insider Movement paradigms, including affirmations and denials, and recommended making Part Two available for study and dismissing the committee with thanks.",
+      "important_boundary": "These five names are the printed signatories of the 2013 Committee Report. Committee membership beyond the printed signature block must not be converted into signership.",
+      "signer_count": 5,
+      "signers": [
+        {
+          "print_order": 1,
+          "name_as_printed": "David B. Garner",
+          "office_as_printed": "TE",
+          "role_as_printed": "Chairman",
+          "normalized_person_id": "david-b-garner"
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Robert Berman",
+          "office_as_printed": "RE",
+          "role_as_printed": "Secretary",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Jonathan Mitchell",
+          "office_as_printed": "RE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Bill Nikides",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Guy Prentiss Waters",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": "guy-prentiss-waters"
+        }
+      ],
+      "assembly_disposition": {
+        "assembly": "41st General Assembly",
+        "status": "recommitted_with_all_related_matters",
+        "minority_substitute_became_main_motion_vote": {
+          "for": 426,
+          "against": 400
+        },
+        "recommit_vote": {
+          "for": 438,
+          "against": 402
+        },
+        "important_boundary": "The 426-400 and 438-402 tallies are aggregate Assembly votes and do not identify individual commissioners.",
+        "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf"
+      },
+      "ideological_weight": 0
+    },
+    {
+      "event_id": "2013-scim-jabbour-minority-report",
+      "year": 2013,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "position_specificity": "very_high",
+      "report_label": "Minority Report 2013 / Addressing Realities on the Ground",
+      "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf",
+      "source_locator": "Appendix V, Minority Report beginning PDF p. 760; submission/signature at p. 760",
+      "position_summary": "Jabbour's report said it concurred with most of the committee report, described itself as supplemental and more focused on realities on the ground, and asked the Assembly to recommend both Part Two and his minority paper for study.",
+      "important_boundary": "This evidence establishes Jabbour's signed 2013 minority position, including his stated concurrence with most of the committee report. It should not be reduced to either total rejection or total endorsement of the committee report.",
+      "signer_count": 1,
+      "signers": [
+        {
+          "print_order": 1,
+          "name_as_printed": "Nabeel T. Jabbour",
+          "office_as_printed": "TE",
+          "role_as_printed": "Minority Report author/presenter",
+          "normalized_person_id": "nabeel-t-jabbour"
+        }
+      ],
+      "assembly_disposition": {
+        "assembly": "41st General Assembly",
+        "status": "minority_substitute_temporarily_adopted_as_main_motion_then_entire_matter_recommitted",
+        "minority_substitute_became_main_motion_vote": {
+          "for": 426,
+          "against": 400
+        },
+        "recommit_vote": {
+          "for": 438,
+          "against": 402
+        },
+        "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf"
+      },
+      "ideological_weight": 0
+    },
+    {
+      "event_id": "2014-scim-committee-report",
+      "year": 2014,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "position_specificity": "very_high",
+      "report_label": "A Call to Faithful Witness - Part Two - Theology, Gospel Missions, and Insider Movements, Committee Report 2014",
+      "source_url": "https://www.pcahistory.org/pca/digest/studies/scim02_2014.pdf",
+      "source_locator": "title/signatory page, PDF p. 0; Study Committee Recommendations at report p. 2112 / GA minutes PDF p. 604",
+      "position_summary": "The 2014 committee report described the committee and minority-report paradigms as irreconcilable, presented an abridged report, affirmations and denials, analyses of both minority reports, and the revised 2013 report. Its three recommendations were to receive Part Two as the second partial report, make Part Two available and recommend it for study, and dismiss the committee with thanks.",
+      "important_boundary": "The PCA Historical Center expressly notes that the 42nd General Assembly adopted only the three Committee Recommendations. Do not treat every sentence or attachment in the report as separately adopted Assembly action.",
+      "signer_count": 5,
+      "signers": [
+        {
+          "print_order": 1,
+          "name_as_printed": "David B. Garner",
+          "office_as_printed": "TE",
+          "role_as_printed": "Chairman",
+          "normalized_person_id": "david-b-garner"
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Robert Berman",
+          "office_as_printed": "RE",
+          "role_as_printed": "Secretary",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Jonathan Mitchell",
+          "office_as_printed": "RE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Bill Nikides",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Guy Prentiss Waters",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": "guy-prentiss-waters"
+        }
+      ],
+      "assembly_disposition": {
+        "assembly": "42nd General Assembly",
+        "status": "committee_recommendations_1_through_3_adopted",
+        "minority_report_status": "defeated_as_substitute",
+        "recommit_motion_status": "defeated",
+        "additional_ignore_2013_material_amendment_status": "defeated",
+        "important_boundary": "No individual commissioner vote is inferred because the journal passage reports outcomes without a named roll call.",
+        "source_url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf"
+      },
+      "ideological_weight": 0
+    },
+    {
+      "event_id": "2014-scim-jabbour-seelinger-minority-report",
+      "year": 2014,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "position_specificity": "very_high",
+      "report_label": "Minority Report 2014 - Realities on the Ground: An Additional Perspective",
+      "source_url": "https://www.pcahistory.org/pca/digest/studies/scim02_2014.pdf",
+      "source_locator": "Minority title/signatory block at PDF pp. 194-195; recommendations/signatures at PDF p. 198",
+      "position_summary": "Jabbour and Seelinger submitted a minority report as an additional perspective. Their substitute recommendations asked the Assembly to receive Part Two, recommend both Part Two and Realities on the Ground for study, and dismiss the committee with thanks.",
+      "important_boundary": "The 2014 minority signers explicitly said they did not support the 2013 minority report. Preserve 2013 and 2014 minority participation as distinct records rather than assuming unchanged agreement across both papers.",
+      "signer_count": 2,
+      "signers": [
+        {
+          "print_order": 1,
+          "name_as_printed": "Nabeel Jabbour",
+          "office_as_printed": "TE",
+          "role_as_printed": "Minority Report co-author/signatory",
+          "normalized_person_id": "nabeel-t-jabbour"
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Tom Seelinger",
+          "office_as_printed": "RE",
+          "role_as_printed": "Minority Report co-author/signatory",
+          "normalized_person_id": null
+        }
+      ],
+      "assembly_disposition": {
+        "assembly": "42nd General Assembly",
+        "status": "minority_report_defeated_as_substitute",
+        "source_url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf"
+      },
+      "ideological_weight": 0
+    }
+  ],
+  "named_report_roles": [
+    {
+      "year": 2013,
+      "name_as_printed": "David Garner",
+      "office_as_printed": "TE",
+      "role": "presented committee report to the 41st General Assembly",
+      "normalized_person_id": "david-b-garner",
+      "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf"
+    },
+    {
+      "year": 2013,
+      "name_as_printed": "Nabeel T. Jabbour",
+      "office_as_printed": "TE",
+      "role": "moved minority report as substitute at the 41st General Assembly",
+      "normalized_person_id": "nabeel-t-jabbour",
+      "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf"
+    },
+    {
+      "year": 2014,
+      "name_as_printed": "David B. Garner",
+      "office_as_printed": "TE",
+      "role": "committee chairman and report presenter to the 42nd General Assembly",
+      "normalized_person_id": "david-b-garner",
+      "source_url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf"
+    },
+    {
+      "year": 2014,
+      "name_as_printed": "Nabeel Jabbour",
+      "office_as_printed": "TE",
+      "role": "presented 2014 minority report with Tom Seelinger",
+      "normalized_person_id": "nabeel-t-jabbour",
+      "source_url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf"
+    },
+    {
+      "year": 2014,
+      "name_as_printed": "Tom Seelinger",
+      "office_as_printed": "RE",
+      "role": "presented 2014 minority report with Nabeel Jabbour and explained its intended study recommendation",
+      "normalized_person_id": null,
+      "source_url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf"
+    }
+  ],
+  "source_discrepancies_and_guardrails": [
+    {
+      "issue_id": "2013-tom-seelinger-role-discrepancy",
+      "description": "The 2014 minority paper states that, of its two authors, one signed the 2013 Committee Report and the other expressed substantive agreement while submitting a complementary report. The 2013 official printed signatory block recovered from the 41st GA minutes lists David B. Garner, Robert Berman, Jonathan Mitchell, Bill Nikides, and Guy Prentiss Waters as Committee Report signatories, and Nabeel T. Jabbour as the Minority Report signer; Tom Seelinger is not visible in either printed signatory block in the currently recovered text.",
+      "rule": "Do not infer or manufacture a 2013 Seelinger signature. Preserve the 2014 retrospective statement and the 2013 printed signatory block as a source discrepancy until a page image or other primary record resolves it.",
+      "sources": [
+        "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf",
+        "https://www.pcahistory.org/pca/digest/studies/scim02_2014.pdf"
+      ]
+    },
+    {
+      "issue_id": "2012-guy-waters-part-one-boundary",
+      "description": "The 2012 report says Guy Waters was appointed in April 2012 to fill the seventh position and would serve in preparing Part Two pending extension, while the Part One title page prints six committee names and the recommendations say that SCIM unanimously presents Part One.",
+      "rule": "Treat the six printed Part One names as the Part One report group. Store Waters' appointment as a membership note, not as a Part One signature.",
+      "sources": [
+        "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf"
+      ]
+    }
+  ],
+  "named_membership_changes": [
+    {
+      "year": 2012,
+      "name_as_printed": "Wade Bradshaw",
+      "office_as_printed": "TE",
+      "role": "first chairman; withdrew from committee in January 2012 due to new and pressing time commitments",
+      "normalized_person_id": null,
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "ideological_weight": 0
+    },
+    {
+      "year": 2012,
+      "name_as_printed": "David Garner",
+      "office_as_printed": "TE",
+      "role": "elected chairman after Wade Bradshaw withdrew",
+      "normalized_person_id": "david-b-garner",
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "ideological_weight": 0
+    },
+    {
+      "year": 2012,
+      "name_as_printed": "Guy Waters",
+      "office_as_printed": "TE",
+      "role": "appointed in April 2012 to fill the vacant seventh committee position for Part Two work pending extension",
+      "normalized_person_id": "guy-prentiss-waters",
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "ideological_weight": 0
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "captured_on": "2026-09-04",
+  "status": "reviewed_confirmed_identity",
+  "subject": "Reviewed Insider Movements name-form equivalences",
+  "decisions": [
+    {
+      "canonical_display_name": "David B. Garner",
+      "canonical_id": "david-b-garner",
+      "aliases": [
+        "David Garner"
+      ],
+      "decision": "User confirmed David Garner and David B. Garner are the same person."
+    },
+    {
+      "canonical_display_name": "Guy Prentiss Waters",
+      "canonical_id": "guy-prentiss-waters",
+      "aliases": [
+        "Guy Waters"
+      ],
+      "decision": "User confirmed Guy Waters and Guy Prentiss Waters are the same person."
+    },
+    {
+      "canonical_display_name": "Nabeel T. Jabbour",
+      "canonical_id": "nabeel-t-jabbour",
+      "aliases": [
+        "Nabeel Jabbour"
+      ],
+      "decision": "User confirmed Nabeel Jabbour and Nabeel T. Jabbour are the same person."
+    }
+  ],
+  "scope": "These are person-specific reviewed identity decisions only. They do not create a general rule that missing middle names, initials, or expanded middle names imply identity.",
+  "ideological_weight": 0
+}

@@ -810,6 +810,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "david-b-garner",
+    "name": "David B. Garner",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "david-bisgrove",
     "name": "David Bisgrove",
     "ordination": "Teaching Elder",
@@ -1112,6 +1122,16 @@
   {
     "id": "greg-schneeberger",
     "name": "Greg Schneeberger",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "guy-prentiss-waters",
+    "name": "Guy Prentiss Waters",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -2022,6 +2042,16 @@
   {
     "id": "mike-tilley",
     "name": "Mike Tilley",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "nabeel-t-jabbour",
+    "name": "Nabeel T. Jabbour",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,

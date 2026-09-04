@@ -604,7 +604,7 @@ women_study_committee_procedural_registration_2016,korean southeastern,korean-so
 women_study_committee_procedural_registration_2016,lowcountry,,unresolved_historical_or_noncanonical,3,3,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,metro atlanta,metro-atlanta,current_exact,4,4,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,metro new york,metropolitan-new-york,known_alias,2,2,0,0.00,0,0.00
-women_study_committee_procedural_registration_2016,mississippi valley,mississippi-valley,current_exact,19,19,0,0.00,0,0.00
+women_study_committee_procedural_registration_2016,mississippi valley,mississippi-valley,current_exact,19,19,1,5.26,1,100.00
 women_study_committee_procedural_registration_2016,nashville,nashville,current_exact,3,3,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,new jersey,new-jersey,current_exact,2,2,1,50.00,1,100.00
 women_study_committee_procedural_registration_2016,new york state,new-york-state,current_exact,1,1,0,0.00,0,0.00
@@ -617,7 +617,7 @@ women_study_committee_procedural_registration_2016,ohio,ohio,current_exact,1,1,0
 women_study_committee_procedural_registration_2016,ohio valley,ohio-valley,current_exact,4,4,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,palmetto,palmetto,current_exact,2,2,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,philadelphia,philadelphia,current_exact,2,2,0,0.00,0,0.00
-women_study_committee_procedural_registration_2016,philadelphia metro w,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
+women_study_committee_procedural_registration_2016,philadelphia metro w,,unresolved_historical_or_noncanonical,1,1,1,100.00,1,100.00
 women_study_committee_procedural_registration_2016,pittsburgh,pittsburgh,current_exact,5,5,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,potomac,potomac,current_exact,8,8,0,0.00,0,0.00
 women_study_committee_procedural_registration_2016,providence,providence,current_exact,1,1,0,0.00,0,0.00
@@ -691,7 +691,7 @@ ALL_TRACKED_DATASETS,maryland,,unresolved_historical_or_noncanonical,1,1,0,0.00,
 ALL_TRACKED_DATASETS,metro atlanta,metro-atlanta,current_exact,96,55,18,32.73,18,100.00
 ALL_TRACKED_DATASETS,metro new york,metropolitan-new-york,known_alias,11,10,1,10.00,1,100.00
 ALL_TRACKED_DATASETS,metropolitan new york,metropolitan-new-york,current_exact,32,20,4,20.00,3,75.00
-ALL_TRACKED_DATASETS,mississippi valley,mississippi-valley,current_exact,23,22,0,0.00,0,0.00
+ALL_TRACKED_DATASETS,mississippi valley,mississippi-valley,current_exact,23,22,1,4.55,1,100.00
 ALL_TRACKED_DATASETS,missouri,missouri,current_exact,154,78,24,30.77,24,100.00
 ALL_TRACKED_DATASETS,n new england,,unresolved_historical_or_noncanonical,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,nashville,nashville,current_exact,116,63,14,22.22,14,100.00
@@ -713,7 +713,7 @@ ALL_TRACKED_DATASETS,pacific northwest,pacific-northwest,current_exact,26,16,5,3
 ALL_TRACKED_DATASETS,palmetto,palmetto,current_exact,22,14,3,21.43,3,100.00
 ALL_TRACKED_DATASETS,pee dee,pee-dee,current_exact,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,philadelphia,philadelphia,current_exact,25,17,1,5.88,1,100.00
-ALL_TRACKED_DATASETS,philadelphia metro w,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
+ALL_TRACKED_DATASETS,philadelphia metro w,,unresolved_historical_or_noncanonical,1,1,1,100.00,1,100.00
 ALL_TRACKED_DATASETS,philadelphia metro west,philadelphia-metro-west,current_exact,11,7,1,14.29,1,100.00
 ALL_TRACKED_DATASETS,piedmont triad,piedmont-triad,current_exact,45,16,7,43.75,7,100.00
 ALL_TRACKED_DATASETS,pittsburgh,pittsburgh,current_exact,46,25,4,16.00,4,100.00

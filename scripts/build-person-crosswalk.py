@@ -72,6 +72,42 @@ FIRST_NAME_VARIANTS = {
 # Explicit reviewed name-form equivalences. These are person-specific evidence
 # decisions, not a general nickname-merging rule. Printed names remain intact.
 REVIEWED_NAME_VARIANTS = {
+    "david b garner": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+    },
+    "david garner": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+    },
+    "guy prentiss waters": {
+        "canonical_candidate": "guy prentiss waters",
+        "canonical_display_name": "Guy Prentiss Waters",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
+    },
+    "guy waters": {
+        "canonical_candidate": "guy prentiss waters",
+        "canonical_display_name": "Guy Prentiss Waters",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
+    },
+    "nabeel t jabbour": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+    },
+    "nabeel jabbour": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+    },
     "paul richardson": {
         "canonical_candidate": "paul richardson",
         "canonical_display_name": "Paul Richardson",
@@ -604,6 +640,57 @@ for index, row in enumerate(wim_data.get("named_report_roles", []), 1):
     )
 
 
+# 2011-2014 Insider Movements study-committee evidence. All report years,
+# majority/minority forms, and committee membership changes are one source
+# family so this longitudinal committee record cannot self-corroborate an
+# identity across its own repeated names.
+relative = "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+scim_data = register_json(relative)
+for event in scim_data.get("formal_positions", []):
+    for row in event.get("signers", []):
+        add_record(
+            dataset=f"formal_position_{event['event_id']}",
+            family="insider_movements_scim_2011_2014",
+            source_path=relative,
+            locator=f"{event['event_id']}:signer:{row['print_order']}",
+            printed_name=row["name_as_printed"],
+            row=row,
+            source_tier="official_primary",
+            completeness="complete_printed_report_signers",
+            evidence_type="formal_report_signature",
+            office=row.get("office_as_printed"),
+            existing_id=row.get("normalized_person_id"),
+        )
+for index, row in enumerate(scim_data.get("named_report_roles", []), 1):
+    add_record(
+        dataset="insider_movements_named_report_roles_2013_2014",
+        family="insider_movements_scim_2011_2014",
+        source_path=relative,
+        locator=f"named_report_role:{index}:{row['year']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_named_floor_report_roles_in_normalized_family",
+        evidence_type="named_report_role",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+for index, row in enumerate(scim_data.get("named_membership_changes", []), 1):
+    add_record(
+        dataset="insider_movements_committee_membership_changes_2012",
+        family="insider_movements_scim_2011_2014",
+        source_path=relative,
+        locator=f"membership_change:{index}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_named_membership_changes_explicit_in_part_one_history",
+        evidence_type="study_committee_membership_change",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+
 # A Faithful PCA snapshots remain separate datasets but one source family.
 for date, relative, order_key in [
     ("2021-06-11", "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json", "sequence"),
@@ -1055,8 +1142,9 @@ variant_review_keys = {key for key, values in first_last_groups.items() if len(v
 for row in records:
     words = row["normalized_candidate"].split()
     first_last = f"{FIRST_NAME_VARIANTS.get(words[0], words[0])} {words[-1]}" if len(words) >= 2 else row["normalized_candidate"]
-    row["variant_collision_key"] = first_last if first_last in variant_review_keys else None
-    row["initials_only_name"] = any(len(word) == 1 for word in words)
+    row["variant_collision_key"] = None if row.get("reviewed_name_variant") else (first_last if first_last in variant_review_keys else None)
+    printed_words = row["normalized_name_as_printed"].split()
+    row["initials_only_name"] = any(len(word) == 1 for word in printed_words)
 
 
 public_records = []
@@ -1100,7 +1188,7 @@ review_records = [
     for r in public_records
     if r["match_status"] in {"probable_requires_review", "ambiguous", "collision"}
     or r["variant_collision_key"]
-    or r["initials_only_name"]
+    or (r["initials_only_name"] and not r.get("reviewed_name_variant"))
 ]
 
 crosswalk = {

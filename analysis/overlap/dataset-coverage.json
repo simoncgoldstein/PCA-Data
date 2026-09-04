@@ -261,6 +261,86 @@
       ]
     },
     {
+      "source_dataset": "formal_position_2012-scim-part-one-unanimous-report",
+      "row_count": 6,
+      "unique_printed_name_count": 6,
+      "confirmed_canonical_person_count": 2,
+      "unmatched_count": 4,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 33.33,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2013-scim-committee-report",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 2,
+      "unmatched_count": 3,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 40.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2013-scim-jabbour-minority-report",
+      "row_count": 1,
+      "unique_printed_name_count": 1,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 0,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 100.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2014-scim-committee-report",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 2,
+      "unmatched_count": 3,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 40.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2014-scim-jabbour-seelinger-minority-report",
+      "row_count": 2,
+      "unique_printed_name_count": 2,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 50.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
       "source_dataset": "formal_role_overture_15",
       "row_count": 2,
       "unique_printed_name_count": 2,
@@ -306,6 +386,38 @@
       ],
       "completeness_status": [
         "complete_official_committee_roster"
+      ]
+    },
+    {
+      "source_dataset": "insider_movements_committee_membership_changes_2012",
+      "row_count": 3,
+      "unique_printed_name_count": 3,
+      "confirmed_canonical_person_count": 2,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 66.67,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_membership_changes_explicit_in_part_one_history"
+      ]
+    },
+    {
+      "source_dataset": "insider_movements_named_report_roles_2013_2014",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 2,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 80.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_floor_report_roles_in_normalized_family"
       ]
     },
     {
@@ -520,11 +632,11 @@
       "source_dataset": "institution_westminster-theological-seminary",
       "row_count": 32,
       "unique_printed_name_count": 32,
-      "confirmed_canonical_person_count": 0,
+      "confirmed_canonical_person_count": 1,
       "unmatched_count": 28,
       "probable_requires_review_count": 3,
-      "ambiguous_or_collision_count": 1,
-      "percentage_resolved": 0.0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 3.12,
       "source_tier": [
         "official_institutional"
       ],
@@ -824,11 +936,11 @@
       "source_dataset": "women_study_committee_procedural_registration_2016",
       "row_count": 173,
       "unique_printed_name_count": 173,
-      "confirmed_canonical_person_count": 7,
+      "confirmed_canonical_person_count": 9,
       "unmatched_count": 131,
       "probable_requires_review_count": 16,
-      "ambiguous_or_collision_count": 19,
-      "percentage_resolved": 4.05,
+      "ambiguous_or_collision_count": 17,
+      "percentage_resolved": 5.2,
       "source_tier": [
         "official_primary"
       ],
