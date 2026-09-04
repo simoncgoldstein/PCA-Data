@@ -197,6 +197,86 @@
       ]
     },
     {
+      "source_dataset": "formal_position_2012-scim-part-one-unanimous-report",
+      "row_count": 6,
+      "unique_printed_name_count": 6,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 4,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 2,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2013-scim-committee-report",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 3,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 2,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2013-scim-jabbour-minority-report",
+      "row_count": 1,
+      "unique_printed_name_count": 1,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 0,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2014-scim-committee-report",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 3,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 2,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2014-scim-jabbour-seelinger-minority-report",
+      "row_count": 2,
+      "unique_printed_name_count": 2,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
       "source_dataset": "formal_role_overture_15",
       "row_count": 2,
       "unique_printed_name_count": 2,
@@ -242,6 +322,38 @@
       ],
       "completeness_status": [
         "complete_official_committee_roster"
+      ]
+    },
+    {
+      "source_dataset": "insider_movements_committee_membership_changes_2012",
+      "row_count": 3,
+      "unique_printed_name_count": 3,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 2,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_membership_changes_explicit_in_part_one_history"
+      ]
+    },
+    {
+      "source_dataset": "insider_movements_named_report_roles_2013_2014",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 4,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_floor_report_roles_in_normalized_family"
       ]
     },
     {

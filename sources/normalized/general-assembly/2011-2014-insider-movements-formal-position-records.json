@@ -41,17 +41,59 @@
       "important_boundary": "This records the unanimous Part One translation report and its recommendations. It does not by itself assign a later 2013 or 2014 Insider Movements position to every Part One signer.",
       "signer_count": 6,
       "signers": [
-        {"print_order": 1, "name_as_printed": "David B. Garner", "office_as_printed": "TE", "role_as_printed": "Chairman", "normalized_person_id": null},
-        {"print_order": 2, "name_as_printed": "Robert Berman", "office_as_printed": "RE", "role_as_printed": "Secretary", "normalized_person_id": null},
-        {"print_order": 3, "name_as_printed": "Nabeel T. Jabbour", "office_as_printed": "TE", "role_as_printed": null, "normalized_person_id": null},
-        {"print_order": 4, "name_as_printed": "Jonathan Mitchell", "office_as_printed": "RE", "role_as_printed": null, "normalized_person_id": null},
-        {"print_order": 5, "name_as_printed": "Bill Nikides", "office_as_printed": "TE", "role_as_printed": null, "normalized_person_id": null},
-        {"print_order": 6, "name_as_printed": "Tom Seelinger", "office_as_printed": "RE", "role_as_printed": null, "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "David B. Garner",
+          "office_as_printed": "TE",
+          "role_as_printed": "Chairman",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Robert Berman",
+          "office_as_printed": "RE",
+          "role_as_printed": "Secretary",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Nabeel T. Jabbour",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Jonathan Mitchell",
+          "office_as_printed": "RE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Bill Nikides",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 6,
+          "name_as_printed": "Tom Seelinger",
+          "office_as_printed": "RE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        }
       ],
       "assembly_disposition": {
         "assembly": "40th General Assembly",
         "status": "recommendations_adopted",
-        "adopted_recommendations": [1, 2, 3, 4, 5],
+        "adopted_recommendations": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
         "important_boundary": "The Clerk's actions letter explicitly says the Assembly adopts report recommendations, not the extensive narrative text of reports that are for information and study. Recommendation 2 was an Assembly declaration subject to BCO 14-7, not a constitutional amendment.",
         "source_url": "https://www.pcahistory.org/pca/ga/actions/40thGA_2012_Actions.pdf"
       },
@@ -69,17 +111,53 @@
       "important_boundary": "These five names are the printed signatories of the 2013 Committee Report. Committee membership beyond the printed signature block must not be converted into signership.",
       "signer_count": 5,
       "signers": [
-        {"print_order": 1, "name_as_printed": "David B. Garner", "office_as_printed": "TE", "role_as_printed": "Chairman", "normalized_person_id": null},
-        {"print_order": 2, "name_as_printed": "Robert Berman", "office_as_printed": "RE", "role_as_printed": "Secretary", "normalized_person_id": null},
-        {"print_order": 3, "name_as_printed": "Jonathan Mitchell", "office_as_printed": "RE", "role_as_printed": null, "normalized_person_id": null},
-        {"print_order": 4, "name_as_printed": "Bill Nikides", "office_as_printed": "TE", "role_as_printed": null, "normalized_person_id": null},
-        {"print_order": 5, "name_as_printed": "Guy Prentiss Waters", "office_as_printed": "TE", "role_as_printed": null, "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "David B. Garner",
+          "office_as_printed": "TE",
+          "role_as_printed": "Chairman",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Robert Berman",
+          "office_as_printed": "RE",
+          "role_as_printed": "Secretary",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Jonathan Mitchell",
+          "office_as_printed": "RE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Bill Nikides",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Guy Prentiss Waters",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        }
       ],
       "assembly_disposition": {
         "assembly": "41st General Assembly",
         "status": "recommitted_with_all_related_matters",
-        "minority_substitute_became_main_motion_vote": {"for": 426, "against": 400},
-        "recommit_vote": {"for": 438, "against": 402},
+        "minority_substitute_became_main_motion_vote": {
+          "for": 426,
+          "against": 400
+        },
+        "recommit_vote": {
+          "for": 438,
+          "against": 402
+        },
         "important_boundary": "The 426-400 and 438-402 tallies are aggregate Assembly votes and do not identify individual commissioners.",
         "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf"
       },
@@ -97,13 +175,25 @@
       "important_boundary": "This evidence establishes Jabbour's signed 2013 minority position, including his stated concurrence with most of the committee report. It should not be reduced to either total rejection or total endorsement of the committee report.",
       "signer_count": 1,
       "signers": [
-        {"print_order": 1, "name_as_printed": "Nabeel T. Jabbour", "office_as_printed": "TE", "role_as_printed": "Minority Report author/presenter", "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "Nabeel T. Jabbour",
+          "office_as_printed": "TE",
+          "role_as_printed": "Minority Report author/presenter",
+          "normalized_person_id": null
+        }
       ],
       "assembly_disposition": {
         "assembly": "41st General Assembly",
         "status": "minority_substitute_temporarily_adopted_as_main_motion_then_entire_matter_recommitted",
-        "minority_substitute_became_main_motion_vote": {"for": 426, "against": 400},
-        "recommit_vote": {"for": 438, "against": 402},
+        "minority_substitute_became_main_motion_vote": {
+          "for": 426,
+          "against": 400
+        },
+        "recommit_vote": {
+          "for": 438,
+          "against": 402
+        },
         "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf"
       },
       "ideological_weight": 0
@@ -120,11 +210,41 @@
       "important_boundary": "The PCA Historical Center expressly notes that the 42nd General Assembly adopted only the three Committee Recommendations. Do not treat every sentence or attachment in the report as separately adopted Assembly action.",
       "signer_count": 5,
       "signers": [
-        {"print_order": 1, "name_as_printed": "David B. Garner", "office_as_printed": "TE", "role_as_printed": "Chairman", "normalized_person_id": null},
-        {"print_order": 2, "name_as_printed": "Robert Berman", "office_as_printed": "RE", "role_as_printed": "Secretary", "normalized_person_id": null},
-        {"print_order": 3, "name_as_printed": "Jonathan Mitchell", "office_as_printed": "RE", "role_as_printed": null, "normalized_person_id": null},
-        {"print_order": 4, "name_as_printed": "Bill Nikides", "office_as_printed": "TE", "role_as_printed": null, "normalized_person_id": null},
-        {"print_order": 5, "name_as_printed": "Guy Prentiss Waters", "office_as_printed": "TE", "role_as_printed": null, "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "David B. Garner",
+          "office_as_printed": "TE",
+          "role_as_printed": "Chairman",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Robert Berman",
+          "office_as_printed": "RE",
+          "role_as_printed": "Secretary",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Jonathan Mitchell",
+          "office_as_printed": "RE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Bill Nikides",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Guy Prentiss Waters",
+          "office_as_printed": "TE",
+          "role_as_printed": null,
+          "normalized_person_id": null
+        }
       ],
       "assembly_disposition": {
         "assembly": "42nd General Assembly",
@@ -149,8 +269,20 @@
       "important_boundary": "The 2014 minority signers explicitly said they did not support the 2013 minority report. Preserve 2013 and 2014 minority participation as distinct records rather than assuming unchanged agreement across both papers.",
       "signer_count": 2,
       "signers": [
-        {"print_order": 1, "name_as_printed": "Nabeel Jabbour", "office_as_printed": "TE", "role_as_printed": "Minority Report co-author/signatory", "normalized_person_id": null},
-        {"print_order": 2, "name_as_printed": "Tom Seelinger", "office_as_printed": "RE", "role_as_printed": "Minority Report co-author/signatory", "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "Nabeel Jabbour",
+          "office_as_printed": "TE",
+          "role_as_printed": "Minority Report co-author/signatory",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Tom Seelinger",
+          "office_as_printed": "RE",
+          "role_as_printed": "Minority Report co-author/signatory",
+          "normalized_person_id": null
+        }
       ],
       "assembly_disposition": {
         "assembly": "42nd General Assembly",
@@ -216,7 +348,38 @@
       "issue_id": "2012-guy-waters-part-one-boundary",
       "description": "The 2012 report says Guy Waters was appointed in April 2012 to fill the seventh position and would serve in preparing Part Two pending extension, while the Part One title page prints six committee names and the recommendations say that SCIM unanimously presents Part One.",
       "rule": "Treat the six printed Part One names as the Part One report group. Store Waters' appointment as a membership note, not as a Part One signature.",
-      "sources": ["https://pcahistory.org/pca/digest/studies/scim01_2012.pdf"]
+      "sources": [
+        "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf"
+      ]
+    }
+  ],
+  "named_membership_changes": [
+    {
+      "year": 2012,
+      "name_as_printed": "Wade Bradshaw",
+      "office_as_printed": "TE",
+      "role": "first chairman; withdrew from committee in January 2012 due to new and pressing time commitments",
+      "normalized_person_id": null,
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "ideological_weight": 0
+    },
+    {
+      "year": 2012,
+      "name_as_printed": "David Garner",
+      "office_as_printed": "TE",
+      "role": "elected chairman after Wade Bradshaw withdrew",
+      "normalized_person_id": null,
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "ideological_weight": 0
+    },
+    {
+      "year": 2012,
+      "name_as_printed": "Guy Waters",
+      "office_as_printed": "TE",
+      "role": "appointed in April 2012 to fill the vacant seventh committee position for Part Two work pending extension",
+      "normalized_person_id": null,
+      "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
+      "ideological_weight": 0
     }
   ]
 }

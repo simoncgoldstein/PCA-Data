@@ -439,6 +439,57 @@ for index, row in enumerate(wim_data.get("named_report_roles", []), 1):
     )
 
 
+# 2011-2014 Insider Movements study-committee evidence. All report years,
+# majority/minority forms, and committee membership changes are one source
+# family so this longitudinal committee record cannot self-corroborate an
+# identity across its own repeated names.
+relative = "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+scim_data = register_json(relative)
+for event in scim_data.get("formal_positions", []):
+    for row in event.get("signers", []):
+        add_record(
+            dataset=f"formal_position_{event['event_id']}",
+            family="insider_movements_scim_2011_2014",
+            source_path=relative,
+            locator=f"{event['event_id']}:signer:{row['print_order']}",
+            printed_name=row["name_as_printed"],
+            row=row,
+            source_tier="official_primary",
+            completeness="complete_printed_report_signers",
+            evidence_type="formal_report_signature",
+            office=row.get("office_as_printed"),
+            existing_id=row.get("normalized_person_id"),
+        )
+for index, row in enumerate(scim_data.get("named_report_roles", []), 1):
+    add_record(
+        dataset="insider_movements_named_report_roles_2013_2014",
+        family="insider_movements_scim_2011_2014",
+        source_path=relative,
+        locator=f"named_report_role:{index}:{row['year']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_named_floor_report_roles_in_normalized_family",
+        evidence_type="named_report_role",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+for index, row in enumerate(scim_data.get("named_membership_changes", []), 1):
+    add_record(
+        dataset="insider_movements_committee_membership_changes_2012",
+        family="insider_movements_scim_2011_2014",
+        source_path=relative,
+        locator=f"membership_change:{index}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_named_membership_changes_explicit_in_part_one_history",
+        evidence_type="study_committee_membership_change",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+
 # A Faithful PCA snapshots remain separate datasets but one source family.
 for date, relative, order_key in [
     ("2021-06-11", "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json", "sequence"),

@@ -18,6 +18,8 @@ report = json.loads(report_path.read_text(encoding="utf-8"))
 index = json.loads(index_path.read_text(encoding="utf-8"))
 receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
 batch1 = json.loads(batch1_path.read_text(encoding="utf-8"))
+scim_path = root / "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+scim = json.loads(scim_path.read_text(encoding="utf-8"))
 wim_path = root / "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
 wim = json.loads(wim_path.read_text(encoding="utf-8"))
 women2016_path = root / "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
@@ -257,6 +259,54 @@ actions = {a.get("year"): a for a in wim.get("assembly_actions", [])}
 if actions.get(2002, {}).get("recorded_negative_vote_count") != 77 or actions.get(2002, {}).get("person_level_evidence_for_77") is not False:
     raise SystemExit("2002 WIM: preserve 77-vote count without inventing a named roster")
 
+# 2011-2014 Insider Movements study-committee report family.
+if scim.get("metadata", {}).get("ideological_weight") != 0:
+    raise SystemExit("Insider Movements: ideological_weight must remain 0")
+if scim.get("metadata", {}).get("source_family") != "insider_movements_scim_2011_2014":
+    raise SystemExit("Insider Movements: source-family guardrail drift")
+scim_positions = {e.get("event_id"): e for e in scim.get("formal_positions", [])}
+expected_scim = {
+    "2012-scim-part-one-unanimous-report": 6,
+    "2013-scim-committee-report": 5,
+    "2013-scim-jabbour-minority-report": 1,
+    "2014-scim-committee-report": 5,
+    "2014-scim-jabbour-seelinger-minority-report": 2,
+}
+if set(scim_positions) != set(expected_scim):
+    raise SystemExit(f"Insider Movements: formal-position event set drift: {sorted(scim_positions)}")
+for event_id, count in expected_scim.items():
+    e = scim_positions[event_id]
+    if e.get("signer_count") != count or len(e.get("signers", [])) != count:
+        raise SystemExit(f"{event_id}: signer count drift")
+    if e.get("evidence_class") != "signed_formal_report_or_minority_report" or e.get("ideological_weight") != 0:
+        raise SystemExit(f"{event_id}: evidence semantics drift")
+if {r.get("name_as_printed") for r in scim_positions["2012-scim-part-one-unanimous-report"]["signers"]} != {"David B. Garner", "Robert Berman", "Nabeel T. Jabbour", "Jonathan Mitchell", "Bill Nikides", "Tom Seelinger"}:
+    raise SystemExit("2012 SCIM Part One: printed report group drift")
+if any(r.get("name_as_printed") == "Guy Waters" for r in scim_positions["2012-scim-part-one-unanimous-report"]["signers"]):
+    raise SystemExit("2012 SCIM Part One: do not back-project Guy Waters into the six-name printed Part One group")
+if {r.get("name_as_printed") for r in scim_positions["2013-scim-committee-report"]["signers"]} != {"David B. Garner", "Robert Berman", "Jonathan Mitchell", "Bill Nikides", "Guy Prentiss Waters"}:
+    raise SystemExit("2013 SCIM Committee Report: signer set drift")
+if {r.get("name_as_printed") for r in scim_positions["2013-scim-jabbour-minority-report"]["signers"]} != {"Nabeel T. Jabbour"}:
+    raise SystemExit("2013 SCIM Minority Report: Jabbour sole printed signer drift")
+if scim_positions["2013-scim-committee-report"].get("assembly_disposition", {}).get("minority_substitute_became_main_motion_vote") != {"for": 426, "against": 400}:
+    raise SystemExit("2013 SCIM: minority-substitute aggregate vote drift")
+if scim_positions["2013-scim-committee-report"].get("assembly_disposition", {}).get("recommit_vote") != {"for": 438, "against": 402}:
+    raise SystemExit("2013 SCIM: recommit aggregate vote drift")
+if {r.get("name_as_printed") for r in scim_positions["2014-scim-committee-report"]["signers"]} != {"David B. Garner", "Robert Berman", "Jonathan Mitchell", "Bill Nikides", "Guy Prentiss Waters"}:
+    raise SystemExit("2014 SCIM Committee Report: signer set drift")
+if {r.get("name_as_printed") for r in scim_positions["2014-scim-jabbour-seelinger-minority-report"]["signers"]} != {"Nabeel Jabbour", "Tom Seelinger"}:
+    raise SystemExit("2014 SCIM Minority Report: signer set drift")
+if scim_positions["2014-scim-committee-report"].get("assembly_disposition", {}).get("status") != "committee_recommendations_1_through_3_adopted":
+    raise SystemExit("2014 SCIM: adopted recommendation boundary drift")
+if scim_positions["2014-scim-committee-report"].get("assembly_disposition", {}).get("minority_report_status") != "defeated_as_substitute":
+    raise SystemExit("2014 SCIM: minority disposition drift")
+discrepancies = {d.get("issue_id"): d for d in scim.get("source_discrepancies_and_guardrails", [])}
+if "2013-tom-seelinger-role-discrepancy" not in discrepancies or "Do not infer" not in discrepancies["2013-tom-seelinger-role-discrepancy"].get("rule", ""):
+    raise SystemExit("SCIM: 2013 Tom Seelinger source discrepancy guardrail missing")
+changes = {r.get("name_as_printed"): r for r in scim.get("named_membership_changes", [])}
+if set(changes) != {"Wade Bradshaw", "David Garner", "Guy Waters"}:
+    raise SystemExit("SCIM: named 2012 membership-change set drift")
+
 hierarchy = {row.get("evidence_class"): row for row in index.get("evidence_hierarchy", [])}
 for required in (
     "signed_formal_report_or_minority_report",
@@ -277,6 +327,11 @@ for required in (
     "2001-wim-minority-wise-counsel-report",
     "2002-wim-majority-final-recommendations",
     "2002-wim-minority-pastoral-counsel",
+    "2012-scim-part-one-unanimous-report",
+    "2013-scim-committee-report",
+    "2013-scim-jabbour-minority-report",
+    "2014-scim-committee-report",
+    "2014-scim-jabbour-seelinger-minority-report",
     "2008-overture-9-deaconess-study-minority-report",
     "2008-rpr-women-scripture-reading-minority-report",
     "2009-overture-10-women-roles-study-minority-report",
