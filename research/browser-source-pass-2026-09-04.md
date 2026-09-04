@@ -138,7 +138,7 @@ Confirmed fragments include:
 - General Session 2 `Lament`, Ray Low + Nate Collins
 - Wesley Hill General Session 3, `Hope` theme corroborated by contemporaneous source
 - Grant Hartley, `Redeeming Queer Culture: An Adventure`
-- Greg Johnson breakout confirmed by PCA judicial record; exact title retained with secondary-source provenance pending primary program recovery
+- Greg Johnson breakout and exact title `Making the Church a Haven for Sexual Minorities`, supported by the 2020 Missouri Presbytery investigative report quoting Johnson's own description of his Revoice 2018 talk and footnoting the recording
 - `Race, Sexuality, and Intersectionality` panel participants and moderator
 
 Remaining limitation: **the archived body of `/events/revoice18/` has not yet been preserved**, so the project must not claim a complete Revoice 2018 program.
