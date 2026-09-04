@@ -1,6 +1,7 @@
 name: Validate research data
 
 on:
+  workflow_dispatch:
   push:
     branches: [main]
   pull_request:
@@ -12,6 +13,7 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
@@ -26,3 +28,18 @@ jobs:
 
       - name: Validate structured data
         run: node scripts/validate-data.mjs
+
+      - name: Validate research imports
+        run: python3 scripts/validate-research-imports.py .
+
+      - name: Rebuild generated research outputs
+        run: |
+          python3 scripts/match-ffo-churches.py \
+            data/churches.json \
+            sources/normalized/external-datasets/save-the-pca-ffo/2026-02-08/flagged-churches.json \
+            sources/normalized/crosswalks/save-the-pca-ffo-2026-02-08
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/build-overlap-analysis.py .
+
+      - name: Verify generated outputs are current
+        run: git diff --exit-code

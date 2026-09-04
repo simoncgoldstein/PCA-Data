@@ -63,9 +63,7 @@ This file records new research leads before they are promoted into normalized pu
 
 ### Andrew Augenstein / Lake Nona
 - Confirmed from primary or first-party records: signature 477 in the 2022-03-14 A Faithful PCA archive; recorded negative vote on 2022 Overture 15; signer of the 2022 protest against withdrawal from the NAE; current Lake Nona ruling elder / clerk of session.
-- Added to the core graph with those source-backed roles and actions. A user-supplied Michael Foster post transcription and two image receipts are preserved under `sources/raw/person-leads/andrew-augenstein/`.
-- **Blocked media lead:** the post's audio/video is unavailable. The deleted X status, a Facebook photo repost, official past-GA video indexes, exact phrases, and archive indexes were checked. Missing: the actual clip or a stable mirror with provenance.
-- **Sensitive claim handling:** no sexuality flag is applied. The third-party claim remains explicitly unverified unless the primary recording is recovered and supports an exact, contextualized first-person description.
+- Added to the core graph with those source-backed roles and actions. The source package intentionally contains only verified first-party and official-record evidence.
 
 ### BJ Milgate
 - Leads: 2019 Warhurst protest; 2021 A Faithful PCA; former Lake Nona pastor; later denominational transfer.

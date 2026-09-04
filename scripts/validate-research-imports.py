@@ -103,7 +103,6 @@ hashes = {
     "sources/raw/national-partnership/NPP_Emails_2013_2021.txt": "653d5e9ebae4ee48ce0011125883a25c3c2f7d3e5ce14c360dca583cc0998f24",
     "sources/raw/external-datasets/save-the-pca-ffo/ffo_public_dataset_020826.xlsx": "b746fbdd1ccbb6087feeb6ed5abee91b4ac203a3cacc08de167c46a8cf9d0150",
     "sources/raw/person-leads/andrew-augenstein/overture-15-negative-vote-page-80-user-supplied.png": "d5d440f334334b4730d163acf760f9c2aa4f28cdd8f432a8a155897ce28c6397",
-    "sources/raw/person-leads/andrew-augenstein/ga-video-frame-user-supplied.png": "fb70137f0b0734a747ef8a21bf76a73d40dac82b4a177a5b5104d7aa81e306a6",
     "sources/raw/person-leads/andrew-augenstein/lake-nona-leadership-2026-09-03.html": "c9f4dd274a903b8ebbbea2c727abb5896170dc2ea2a76e88531d828409ebb8d1",
     "sources/raw/media/jude3pca/home-2026-09-03.html": "eb5691757fa0dd417edfd2f55c81d3c785f78a101a81d7c63b9c4cefb25e9935",
     "sources/raw/media/pcapolity/home-2026-09-03.html": "307a7070c0830c5dcb31112100be8677fd3108ba51039f4f8dde8d267d281467",
@@ -162,13 +161,11 @@ for receipt in revoice_manifest.get("documents", []):
 
 augenstein = load("sources/normalized/person-leads/andrew-augenstein-source-assessment-2026-09-03.json")
 verified = augenstein.get("verified_records", [])
-claims = augenstein.get("third_party_claims", [])
 if len(verified) != 4:
     errors.append(f"Andrew Augenstein assessment: expected 4 verified records, found {len(verified)}")
-if not claims or any(row.get("do_not_model_as_fact") is not True for row in claims):
-    errors.append("Andrew Augenstein assessment: every third-party claim must be excluded from factual modeling")
-if augenstein.get("media_recovery", {}).get("status") != "blocked_missing_source":
-    errors.append("Andrew Augenstein assessment: missing media must remain explicitly blocked")
+for excluded_key in ("third_party_claims", "media_recovery", "excluded_marker"):
+    if excluded_key in augenstein:
+        errors.append(f"Andrew Augenstein assessment: unverified field must be absent: {excluded_key}")
 
 publication_contributors = load("data/publication_contributors.json")
 publication_by_id = {row.get("publication_id"): row for row in publication_contributors}
