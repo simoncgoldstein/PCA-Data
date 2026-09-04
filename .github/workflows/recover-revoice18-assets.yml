@@ -11,12 +11,13 @@ permissions:
 jobs:
   recover:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 10
     steps:
-      - name: Query complete 2018 Revoice Wayback asset index
+      - name: Query targeted 2018 Revoice Wayback assets
         run: |
           mkdir -p /tmp/revoice18-assets/bodies
           python3 - <<'PY'
+          import concurrent.futures
           import json
           import time
           import urllib.parse
@@ -24,28 +25,16 @@ jobs:
           from pathlib import Path
 
           out = Path('/tmp/revoice18-assets')
-          patterns = [
-              'http://revoice.us/*',
-              'https://revoice.us/*',
-              'http://www.revoice.us/*',
-              'https://www.revoice.us/*',
-          ]
+          keywords = ['program', 'programme', 'schedule', 'agenda', 'workshop', 'session', 'speaker', 'breakout', 'packet', 'policy', 'conference', 'revoice18']
+          patterns = []
+          for host in ('revoice.us', 'www.revoice.us'):
+              patterns.extend(f'{host}/*{word}*' for word in keywords)
+              patterns.append(f'{host}/wp-content/uploads/2018/*')
+              patterns.append(f'{host}/*.pdf')
+              patterns.append(f'{host}/*.doc*')
           fields = ['timestamp', 'original', 'mimetype', 'statuscode', 'digest', 'length']
-          rows = []
 
-          def fetch_json(url):
-              last = None
-              for attempt in range(5):
-                  try:
-                      req = urllib.request.Request(url, headers={'User-Agent': 'PCA-Data research archive recovery/1.0'})
-                      with urllib.request.urlopen(req, timeout=75) as resp:
-                          return json.load(resp)
-                  except Exception as exc:
-                      last = exc
-                      time.sleep(2 ** attempt)
-              raise last
-
-          for pattern in patterns:
+          def fetch_pattern(pattern):
               params = {
                   'url': pattern,
                   'from': '2018',
@@ -56,26 +45,40 @@ jobs:
                   'collapse': 'digest',
               }
               url = 'https://web.archive.org/cdx/search/cdx?' + urllib.parse.urlencode(params)
-              payload = fetch_json(url)
-              if not payload:
-                  continue
-              header = payload[0]
-              for values in payload[1:]:
-                  rows.append(dict(zip(header, values)))
+              last = None
+              for attempt in range(3):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': 'PCA-Data research archive recovery/1.0'})
+                      with urllib.request.urlopen(req, timeout=35) as resp:
+                          payload = json.load(resp)
+                      if not payload:
+                          return pattern, [], None
+                      header = payload[0]
+                      return pattern, [dict(zip(header, values)) for values in payload[1:]], None
+                  except Exception as exc:
+                      last = exc
+                      time.sleep(1.5 * (attempt + 1))
+              return pattern, [], repr(last)
+
+          rows = []
+          errors = []
+          with concurrent.futures.ThreadPoolExecutor(max_workers=8) as executor:
+              futures = [executor.submit(fetch_pattern, pattern) for pattern in patterns]
+              for future in concurrent.futures.as_completed(futures):
+                  pattern, found, error = future.result()
+                  rows.extend(found)
+                  if error:
+                      errors.append({'pattern': pattern, 'error': error})
 
           deduped = {}
           for row in rows:
               key = (row.get('timestamp'), row.get('original'), row.get('digest'))
               deduped[key] = row
           rows = sorted(deduped.values(), key=lambda r: (r.get('timestamp', ''), r.get('original', '')))
-          out.joinpath('all-2018-captures.json').write_text(json.dumps(rows, indent=2) + '\n')
-          out.joinpath('all-2018-urls.txt').write_text('\n'.join(r.get('original', '') for r in rows) + '\n')
+          out.joinpath('targeted-2018-captures.json').write_text(json.dumps(rows, indent=2) + '\n')
+          out.joinpath('query-errors.json').write_text(json.dumps(errors, indent=2) + '\n')
+          out.joinpath('targeted-2018-urls.txt').write_text('\n'.join(r.get('original', '') for r in rows) + '\n')
 
-          keywords = (
-              'program', 'programme', 'schedule', 'agenda', 'workshop', 'session',
-              'revoice18', 'revoice-18', 'conference', 'packet', 'policy', 'policies',
-              'speaker', 'breakout', 'seminar', 'itinerary', 'announcement'
-          )
           document_exts = ('.pdf', '.doc', '.docx', '.ppt', '.pptx', '.xls', '.xlsx', '.txt', '.rtf')
           document_mimes = {
               'application/pdf',
@@ -95,24 +98,28 @@ jobs:
                       score += 10
                       reasons.append(f'url_keyword:{keyword}')
               if original.split('?', 1)[0].endswith(document_exts):
-                  score += 30
+                  score += 40
                   reasons.append('document_extension')
               if mime in document_mimes:
-                  score += 30
+                  score += 40
                   reasons.append(f'document_mime:{mime}')
               if '/wp-content/uploads/2018/' in original:
-                  score += 2
+                  score += 3
                   reasons.append('2018_wordpress_upload')
-              if score:
-                  candidate = dict(row)
-                  candidate['candidate_score'] = score
-                  candidate['candidate_reasons'] = reasons
-                  candidates.append(candidate)
+              candidate = dict(row)
+              candidate['candidate_score'] = score
+              candidate['candidate_reasons'] = reasons
+              candidates.append(candidate)
 
           candidates.sort(key=lambda r: (-r['candidate_score'], r.get('timestamp', ''), r.get('original', '')))
           out.joinpath('candidates.json').write_text(json.dumps(candidates, indent=2) + '\n')
           out.joinpath('candidate-urls.txt').write_text('\n'.join(r.get('original', '') for r in candidates) + '\n')
-          print(json.dumps({'all_unique_2018_captures': len(rows), 'candidate_captures': len(candidates)}, indent=2))
+          print(json.dumps({
+              'query_patterns': len(patterns),
+              'query_errors': len(errors),
+              'unique_targeted_captures': len(rows),
+              'candidate_captures': len(candidates),
+          }, indent=2))
           PY
 
       - name: Fetch highest-value archived candidate bodies
@@ -132,17 +139,17 @@ jobs:
 
           def fetch_bytes(url):
               last = None
-              for attempt in range(4):
+              for attempt in range(3):
                   try:
                       req = urllib.request.Request(url, headers={'User-Agent': 'PCA-Data research archive recovery/1.0'})
-                      with urllib.request.urlopen(req, timeout=75) as resp:
+                      with urllib.request.urlopen(req, timeout=45) as resp:
                           return resp.read(), resp.headers.get('Content-Type')
                   except Exception as exc:
                       last = exc
-                      time.sleep(2 ** attempt)
+                      time.sleep(1.5 * (attempt + 1))
               return None, repr(last)
 
-          for index, row in enumerate(candidates[:120], 1):
+          for index, row in enumerate(candidates[:100], 1):
               timestamp = row['timestamp']
               original = row['original']
               replay = f'https://web.archive.org/web/{timestamp}id_/{original}'
@@ -174,7 +181,7 @@ jobs:
                   'returned_content_type': content_type,
               })
               manifest.append(item)
-              time.sleep(0.15)
+              time.sleep(0.1)
 
           root.joinpath('fetched-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
           print(json.dumps({
@@ -191,13 +198,15 @@ jobs:
           from pathlib import Path
 
           root = Path('/tmp/revoice18-assets')
+          captures = json.loads((root / 'targeted-2018-captures.json').read_text())
           candidates = json.loads((root / 'candidates.json').read_text())
           manifest = json.loads((root / 'fetched-manifest.json').read_text())
+          errors = json.loads((root / 'query-errors.json').read_text())
           lines = [
-              '# Revoice 2018 archived asset recovery',
+              '# Revoice 2018 targeted archived asset recovery',
               '',
-              f'- Unique 2018 CDX captures: {len(json.loads((root / "all-2018-captures.json").read_text()))}',
-              f'- Candidate captures: {len(candidates)}',
+              f'- Unique targeted 2018 CDX captures: {len(captures)}',
+              f'- Query errors retained: {len(errors)}',
               f'- Candidate bodies fetched: {sum(1 for r in manifest if "filename" in r)}',
               '',
               '## Highest-ranked candidates',
@@ -205,6 +214,10 @@ jobs:
           ]
           for row in candidates[:100]:
               lines.append(f"- {row['timestamp']} | score {row['candidate_score']} | {row['original']} | {', '.join(row['candidate_reasons'])}")
+          if errors:
+              lines.extend(['', '## Query errors', ''])
+              for row in errors:
+                  lines.append(f"- {row['pattern']}: {row['error']}")
           root.joinpath('SUMMARY.md').write_text('\n'.join(lines) + '\n')
           PY
           cat /tmp/revoice18-assets/SUMMARY.md
