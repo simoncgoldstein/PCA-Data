@@ -1,0 +1,38 @@
+name: Fix reviewed identity propagation
+
+on:
+  push:
+    branches:
+      - research/subscription-fv-batch4-2026-09-04
+    paths:
+      - scripts/fix-reviewed-identity-propagation.py
+      - .github/workflows/fix-reviewed-identity-propagation.yml
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Apply reviewed identity propagation fix
+        run: python3 scripts/fix-reviewed-identity-propagation.py
+      - name: Rebuild generated identity and overlap outputs
+        run: |
+          python3 scripts/build-person-crosswalk.py
+          python3 scripts/build-overlap-analysis.py
+      - name: Validate
+        run: |
+          python3 scripts/validate-formal-position-evidence.py
+          node scripts/validate-data.mjs
+          python3 scripts/validate-research-imports.py
+      - name: Commit materialized result
+        run: |
+          rm scripts/fix-reviewed-identity-propagation.py
+          rm .github/workflows/fix-reviewed-identity-propagation.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Propagate reviewed Batch 4 identities"
+          git push
