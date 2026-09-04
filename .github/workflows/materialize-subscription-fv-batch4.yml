@@ -1,0 +1,421 @@
+name: Materialize subscription and Federal Vision Batch 4
+
+on:
+  push:
+    branches: [research/subscription-fv-batch4-2026-09-04]
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: research/subscription-fv-batch4-2026-09-04
+      - name: Write reviewed primary-source records
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          def parse_rows(block):
+              rows=[]
+              for i, line in enumerate(block.strip().splitlines(), 1):
+                  office, name = line.split('|', 1)
+                  identity = re.sub(r'\s*\([^)]*\)', '', name).strip()
+                  rows.append({
+                      'print_order': i,
+                      'office_as_printed': office,
+                      'name_as_printed': name,
+                      'identity_name': identity,
+                      'normalized_person_id': None,
+                  })
+              return rows
+
+          negative71 = parse_rows(r'''
+          TE|K. Hugh Acton
+          TE|Jon C. Anderson
+          TE|Larry E. Ball
+          TE|David G. Barker
+          TE|Timothy B. (Tim) Bayly
+          RE|Tom Bingham
+          TE|Craig S. Bulkeley
+          TE|David F. Coffin
+          TE|Michael Coleman
+          RE|Barry S. Cureton
+          RE|Perry F. Denniston
+          TE|Paul S. Dixon
+          TE|A. Trevor Downie
+          TE|Julian D. (Skip) Dusenbury
+          RE|Terrill I. (Terry) Elniff
+          TE|Henry Fernandez
+          RE|Robert T. (Tim) France
+          RE|Eugene H. (Gene) Friedline
+          RE|Peter Gagliardi
+          TE|David P. Gilleran
+          TE|Eric Allen Greene
+          RE|Vaughn R. Hamilton
+          TE|Malcolm Douglas (Doug) Hart
+          TE|Mark A. Herzer
+          TE|Carl C. Howell Jr.
+          TE|Benjamin T. Inman
+          TE|David C. Innes
+          TE|Daniel J. Jarstfer
+          TE|Arnold C. Johnson
+          RE|Marshall Joiner
+          RE|Flynt Jones
+          TE|Larry Stephen Jones
+          TE|James A. (Jim) Jones Jr.
+          TE|Arthur L. (Ozzie) Kenyon
+          RE|Richard R. Larson
+          TE|William (Bill) Leuzinger
+          RE|James Linton
+          RE|John Mardirosian
+          TE|Joshua A. (Josh) Martin
+          TE|James E. McGoldrick
+          TE|Erwin Morrison
+          TE|Frank D. Moser
+          TE|Mark A. O'Neill
+          RE|David O'Steen
+          RE|Herbert Parker
+          TE|Randolph H. (Randy) Patterson
+          RE|Neill H. Payne
+          TE|Richard D. Phillips
+          TE|Joseph A. (Joey) Pipa Jr.
+          TE|James E. Pitts
+          TE|John R. (Randy) Riddle
+          RE|Christopher Robertson
+          TE|Gary N. Roop
+          RE|Kenneth E. Scheffter
+          TE|Mark A. Scholten
+          TE|Benjamin (Ben) Shaw
+          TE|Robert L. (Bob) Slimp
+          TE|Frank J. Smith
+          TE|Morton H. Smith
+          TE|L. Byron Snapp
+          RE|Eugene (Gene) Speer
+          TE|Stephen O. (Steve) Stout
+          TE|Jason Strong
+          TE|Philip B. Strong
+          TE|Ronald L. (Ron) Swafford
+          TE|W. Eugene (Gene) Thompson
+          TE|Theodore W. (Ted) Trefsgar Jr.
+          TE|John C. Van Dyke
+          TE|Bernie van Eyk
+          TE|Andrew J. (Andy) Webb
+          TE|C. N. (Nick) Willborn
+          ''')
+
+          protest93 = parse_rows(r'''
+          TE|K. Hugh Acton
+          TE|Todd W. Allen
+          TE|John T. Appleton
+          TE|Daniel J. (Dan) Bartel
+          TE|Matthew Baugh
+          RE|Tom Bingham
+          TE|James M. (Jim) Bowen
+          TE|G. Brent Bradley
+          TE|David R. Brown
+          TE|Tom Brown
+          TE|Michael J. Brown
+          RE|Mark A. Buckner
+          TE|Craig S. Bulkeley
+          RE|E.C. Burnett
+          TE|Robert N. Burridge
+          RE|Kim D. Conner
+          RE|Alfred (Al) Cooper
+          TE|King Allen Counts
+          RE|Perry Denniston
+          TE|Paul S. Dixon
+          TE|A. Trevor Downie
+          TE|Thomas T. Ellis
+          RE|Terrill I. (Terry) Elniff
+          RE|Paul English
+          RE|Dean Ezell
+          TE|George G. Felton Sr.
+          TE|Henry Fernandez
+          RE|Fred Fisher
+          TE|Scott L. Fleming
+          TE|David M. Frierson
+          RE|Peter D. (Pete) Gagliardi
+          TE|Warren E. Gardner
+          RE|John George
+          TE|Keith N. Goode
+          RE|Frank Griffith
+          RE|Vaughn R. Hamilton
+          TE|William W. (Bill) Harrell Jr.
+          RE|William M. Harris IV
+          TE|Mark A. Herzer
+          TE|Scott E. Hill
+          TE|William Wesley (Wesley) Holland
+          TE|Mark Horne
+          TE|Daniel Jarstfer
+          RE|Marshall Joiner
+          TE|James A. (Jim) Jones Jr.
+          TE|Arthur L. (Ozzie) Kenyon
+          RE|David (Dave) Lewis
+          RE|John Liczbinski
+          RE|James Linton
+          RE|John Mardirosian
+          RE|Doug McConkey
+          TE|Gary D. McMillan
+          RE|Bob Meyers
+          RE|James Miller
+          TE|Erwin Morrison
+          RE|J. Wayne Morrison
+          TE|Frank D. Moser
+          TE|John C. Neville Jr.
+          TE|John Olson
+          RE|David A. O'Steen
+          RE|Herbert Parker
+          RE|Walter J. Parrish III
+          RE|Neill H. Payne
+          TE|Robert Charles Peterson
+          TE|James E. Pitts
+          RE|J.L. (Joe) Reynolds
+          TE|John R. (Randy) Riddle
+          RE|Christopher Robertson
+          TE|Kenneth G. (Ken) Robinson
+          TE|Gary N. Roop
+          RE|Kenneth E. Scheffter
+          RE|Amzi Sherling
+          TE|Ronald L. Siegenthaler
+          TE|Frank J. Smith
+          RE|Eugene (Gene) Speer
+          TE|Robert F. (Bob) Sprinkle Jr.
+          TE|Decherd Stevens
+          RE|Darrel Stilwell
+          TE|Jason Strong
+          TE|Philip B. Strong
+          RE|Hugh Sung
+          TE|Ron L. Swafford Sr.
+          RE|Earl Sykes
+          TE|Richard M. Thomas
+          TE|W. Eugene (Gene) Thompson
+          TE|Theodore W. (Ted) Trefsgar Jr.
+          RE|Timothy J. Verner
+          TE|Steven E. Warhurst
+          TE|John M. Warren Jr.
+          TE|Andrew J. (Andy) Webb
+          TE|Charles L. Wilson
+          RE|Daniel A. Witcher
+          RE|Frank C. Young Jr.
+          ''')
+
+          minority14 = parse_rows(r'''
+          TE|Marvin J. (Mark) Bates III
+          TE|David M. Bryan
+          RE|R. Mike Cox
+          TE|David A. Currence
+          TE|Stephen Thomas Estock
+          TE|Robert M. Ferguson Jr.
+          TE|Freddy Fritz
+          TE|John Haralson
+          TE|Larry C. Hoop
+          TE|Harry D. Long
+          TE|K. Eric (Rick) Perrin
+          RE|Paul Richardson
+          TE|Mark A. Rowden
+          RE|John E. Spencer
+          ''')
+
+          assert len(negative71) == 71, len(negative71)
+          assert len(protest93) == 93, len(protest93)
+          assert len(minority14) == 14, len(minority14)
+
+          data = {
+            'metadata': {
+              'dataset_id': 'ga_2003_subscription_formal_position_records',
+              'title': '31st General Assembly subscription formal-position records',
+              'year': 2003,
+              'primary_source': 'https://www.pcahistory.org/pca/ga/31st_pcaga_2003.pdf',
+              'source_family': 'ga_2003_subscription_formal_positions',
+              'modeling_rule': 'All records come from the same General Assembly journal and therefore cannot independently corroborate one another for identity resolution. Printed names are preserved exactly; identity_name removes only parenthetical nickname insertions for conservative matching.',
+              'count_discrepancy': {
+                'primary_minutes_recorded_negative_vote_count': 71,
+                'pca_digest_recorded_negative_vote_count': 70,
+                'controlling_count': 71,
+                'rule': 'The original 31st GA minutes control over the later Digest summary; the discrepancy is preserved rather than silently harmonized.'
+              },
+              'ideological_weight': 0
+            },
+            'bco_21_4_recorded_negative_votes': {
+              'event_id': '2003-bco-21-4-recorded-negative-votes',
+              'evidence_class': 'recorded_vote_or_formal_protest_signature',
+              'action': 'Recorded negative vote on final Assembly adoption of the Good Faith Subscription amendment to BCO 21-4 after the 816-545 aggregate vote.',
+              'vote_count': 71,
+              'votes': negative71,
+              'important_boundary': 'The recorded negative vote establishes the vote on this constitutional amendment, not every possible rationale for opposition.',
+              'ideological_weight': 0
+            },
+            'bco_21_4_full_subscription_protest': {
+              'event_id': '2003-bco-21-4-full-subscription-protest',
+              'evidence_class': 'recorded_vote_or_formal_protest_signature',
+              'author_presenter': {'office_as_printed':'TE','name_as_printed':'Morton H. Smith','identity_name':'Morton H. Smith','normalized_person_id':None},
+              'joiner_count': 93,
+              'joiners': protest93,
+              'position_summary': 'The protest opposed the revision of BCO 21-4, appealed to the PCA founding commitment to Southern Presbyterian / Old School subscription, characterized that heritage as full or strict subscription, and warned that the revised language lacked adequate safeguards against doctrinal decline.',
+              'important_boundary': 'Morton H. Smith is the protest author/presenter; the 93 listed commissioners are joiners. Preserve those roles separately.',
+              'ideological_weight': 0
+            },
+            'overture_16_subscription_study_minority_report': {
+              'event_id': '2003-subscription-overture-16-minority-report',
+              'evidence_class': 'signed_formal_report_or_minority_report',
+              'assembly_vote_on_minority_report': {'for':530,'against':477},
+              'signer_count': 14,
+              'signers': minority14,
+              'position_summary': 'The minority report recommended answering the subscription study-committee overtures in the negative and allowing the newly adopted Good Faith Subscription framework to operate for a period before commissioning another study.',
+              'important_boundary': 'Signership establishes support for this minority report and its stated recommendation; it does not by itself establish a complete theory of confessional subscription.',
+              'ideological_weight': 0
+            },
+            'overture_16_minority_report_recorded_negative_vote': {
+              'event_id': '2003-subscription-overture-16-recorded-negative-vote',
+              'evidence_class': 'recorded_vote_or_formal_protest_signature',
+              'vote_count': 1,
+              'voter': {'office_as_printed':'TE','name_as_printed':'Chris A. Hutchinson','identity_name':'Chris A. Hutchinson','normalized_person_id':None},
+              'action': 'Recorded negative vote after the minority report was adopted as the Assembly action.',
+              'important_boundary': 'The vote establishes opposition to the adopted minority-report action, not every proposition of the defeated alternative.',
+              'ideological_weight': 0
+            }
+          }
+
+          out = Path('sources/normalized/general-assembly/2003-subscription-formal-position-records.json')
+          out.parent.mkdir(parents=True, exist_ok=True)
+          out.write_text(json.dumps(data, indent=2, ensure_ascii=False) + '\n')
+
+          # Correct and deepen the 2002-2007 chronology.
+          cp = Path('sources/normalized/general-assembly/2002-2007-subscription-federal-vision-chronology.json')
+          chron = json.loads(cp.read_text())
+          events = chron['events']
+          rat = next(e for e in events if e['event_id'] == '2003-good-faith-subscription-ratification')
+          rat['recorded_negative_vote_count'] = 71
+          rat['recorded_vote_roster_status'] = 'complete_primary_roster_normalized'
+          rat['count_discrepancy'] = {
+              'primary_minutes': 71,
+              'pca_digest': 70,
+              'controlling_count': 71,
+              'note': 'Original 31st GA minutes control over later Digest summary.'
+          }
+          rat['person_level_source'] = 'sources/normalized/general-assembly/2003-subscription-formal-position-records.json'
+          rat['person_level_rule'] = 'The 71 named negative votes are normalized from the original minutes; the 816-545 tally remains aggregate.'
+          extra = [
+            {
+              'event_id':'2003-subscription-overture-16-minority-report',
+              'year':2003,
+              'assembly':'31st General Assembly',
+              'event_type':'minority_report_and_assembly_action',
+              'topic_tags':['confessional_subscription','study_committee','good_faith_subscription'],
+              'assembly_action':'A minority report recommending that the subscription study-committee overtures be answered in the negative was adopted 530-477 and became the Assembly action.',
+              'named_signer_count':14,
+              'recorded_negative_voter':'TE Chris A. Hutchinson',
+              'person_level_source':'sources/normalized/general-assembly/2003-subscription-formal-position-records.json',
+              'ideological_weight':0
+            },
+            {
+              'event_id':'2003-bco-21-4-full-subscription-protest',
+              'year':2003,
+              'assembly':'31st General Assembly',
+              'event_type':'formal_protest',
+              'topic_tags':['confessional_subscription','bco_21_4','strict_subscription'],
+              'author_presenter':'TE Morton H. Smith',
+              'additional_joiner_count':93,
+              'person_level_source':'sources/normalized/general-assembly/2003-subscription-formal-position-records.json',
+              'ideological_weight':0
+            }
+          ]
+          existing = {e['event_id'] for e in events}
+          insert_at = next(i for i,e in enumerate(events) if e['event_id']=='2006-fv-npp-study-committee-formation')
+          for e in reversed(extra):
+              if e['event_id'] not in existing:
+                  events.insert(insert_at, e)
+          cp.write_text(json.dumps(chron, indent=2, ensure_ascii=False) + '\n')
+
+          gap = {
+            'recorded_on':'2026-09-04',
+            'issue':'good_faith_subscription_bco_21_4',
+            'year':2002,
+            'status':'event_level_count_verified_person_level_roster_not_recovered',
+            'primary_minutes_url':'https://www.pcahistory.org/pca/ga/30th_pcaga_2002.pdf',
+            'digest_url':'https://pcahistory.org/pca/digest/v4/PCA_Digest_1999-2018.pdf',
+            'locator':'30th GA p. 218, 30-47',
+            'recorded_negative_vote_count':127,
+            'names_recovered':False,
+            'access_limitation':'The original 30th GA journal is extremely large and the relevant named roster was not retrievable through the current source-access path. The Digest confirms the 127 count but does not print the names.',
+            'required_for_completion':'30th GA 2002 page 218',
+            'modeling_rule':'Do not infer any individual vote until the primary named roster is recovered.',
+            'ideological_weight':0
+          }
+          gp = Path('sources/raw/general-assembly/2002-subscription-negative-vote-roster-gap-2026-09-04.json')
+          gp.parent.mkdir(parents=True, exist_ok=True)
+          gp.write_text(json.dumps(gap, indent=2) + '\n')
+
+          # Extend the formal-position evidence index.
+          ip = Path('sources/normalized/general-assembly/formal-position-evidence-index.json')
+          idx = json.loads(ip.read_text())
+          additions = [
+            {
+              'evidence_id':'2003-bco-21-4-recorded-negative-votes',
+              'year':2003,
+              'topic':'good_faith_subscription_bco_21_4',
+              'evidence_class':'recorded_vote_or_formal_protest_signature',
+              'path':'sources/normalized/general-assembly/2003-subscription-formal-position-records.json',
+              'coverage':'71 individually recorded negative votes from the original 31st GA minutes; later PCA Digest says 70, with the primary 71 controlling.',
+              'important_boundary':'A recorded negative vote establishes the vote on BCO 21-4, not a complete rationale.'
+            },
+            {
+              'evidence_id':'2003-bco-21-4-full-subscription-protest',
+              'year':2003,
+              'topic':'good_faith_subscription_bco_21_4',
+              'evidence_class':'recorded_vote_or_formal_protest_signature',
+              'path':'sources/normalized/general-assembly/2003-subscription-formal-position-records.json',
+              'coverage':'Morton H. Smith as author/presenter plus 93 named commissioners who joined the protest.',
+              'important_boundary':'Author/presenter and joiner are preserved as distinct roles; signership establishes agreement with the protest at that time.'
+            },
+            {
+              'evidence_id':'2003-subscription-study-minority-report',
+              'year':2003,
+              'topic':'confessional_subscription_study_committee',
+              'evidence_class':'signed_formal_report_or_minority_report',
+              'path':'sources/normalized/general-assembly/2003-subscription-formal-position-records.json',
+              'coverage':'14 named minority-report signers; minority report adopted 530-477.',
+              'important_boundary':'Signership establishes support for the report and recommendation, not every broader subscription inference.'
+            },
+            {
+              'evidence_id':'2003-subscription-overture-16-recorded-negative-vote',
+              'year':2003,
+              'topic':'confessional_subscription_study_committee',
+              'evidence_class':'recorded_vote_or_formal_protest_signature',
+              'path':'sources/normalized/general-assembly/2003-subscription-formal-position-records.json',
+              'coverage':'TE Chris A. Hutchinson recorded a negative vote on the adopted minority-report action.',
+              'important_boundary':'Records the vote only.'
+            },
+            {
+              'evidence_id':'2007-fv-npp-unanimous-study-report',
+              'year':2007,
+              'topic':'federal_vision_new_perspective_auburn_avenue',
+              'evidence_class':'study_committee_consensus_participation',
+              'path':'sources/normalized/general-assembly/2002-2007-subscription-federal-vision-chronology.json',
+              'coverage':'7 named committee members and 9 declarations explicitly identified by the report as unanimous.',
+              'important_boundary':'The explicit unanimity supports assigning the nine declarations to all seven members, but not every sentence, footnote, or characterization in the report.'
+            }
+          ]
+          ids={x['evidence_id'] for x in idx['normalized_position_sources']}
+          idx['normalized_position_sources'].extend(x for x in additions if x['evidence_id'] not in ids)
+          ip.write_text(json.dumps(idx, indent=2, ensure_ascii=False) + '\n')
+
+          # Remove accidental setup markers, but preserve substantive receipts.
+          for rel in ['research/.tmp','research/batch4-branch-start-receipt.json']:
+              p=Path(rel)
+              if p.exists(): p.unlink()
+          PY
+
+          rm .github/workflows/materialize-subscription-fv-batch4.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Normalize 2003 subscription and 2007 Federal Vision evidence"
+          git push origin HEAD:research/subscription-fv-batch4-2026-09-04
