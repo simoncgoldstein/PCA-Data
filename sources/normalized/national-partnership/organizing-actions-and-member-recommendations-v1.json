@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "dataset_id": "national_partnership_organizing_actions_v1",
+    "organization": "National Partnership",
+    "source_file": "NPP_Emails_2013_2021.pdf",
+    "derived_from": "sources/normalized/national-partnership/issue-actions-v1.json",
+    "snapshot_date": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Distinguish documented NP organizing actions from individual member recommendations. Do not convert an individual's recommendation into an organization-wide doctrinal position unless the archive explicitly documents it as an NP goal or organizing action. Discussion-page circulation alone is not treated as unanimity."
+  },
+  "records": [
+    {
+      "record_id": "np-2015-2016-racial-reconciliation-organizing",
+      "years": [2015, 2016],
+      "issue": "racial_reconciliation",
+      "evidence_scope": "np_organizing_action",
+      "actors_as_printed": ["Sean Lucas", "Ligon Duncan", "James Kessler"],
+      "summary": "NP correspondence documents sustained organizing around racial-reconciliation overtures: circulation of Sean Lucas's resolution, mobilization for referral and floor action, and later encouragement to move substantially identical covenantal-responsibility overtures or affirmations through presbyteries.",
+      "source_pages": [181, 182, 183, 198, 206, 208, 209, 210, 218, 219],
+      "important_boundary": "This records documented organizing activity and advocacy within the NP archive. It does not imply that every NP member agreed with every formulation or theological rationale.",
+      "ideological_weight": 0
+    },
+    {
+      "record_id": "np-2016-women-ministry-study-committee-organizing",
+      "year": 2016,
+      "issue": "women_in_ministry",
+      "evidence_scope": "np_organizing_action",
+      "actors_as_printed": ["Cal Boroughs", "James Kessler", "Peter Rowan"],
+      "summary": "NP correspondence documents active support for establishing the PCA women-in-ministry study committee, including circulation of the proposal, internal discussion, pro-committee summaries, and urging floor engagement after committee opposition.",
+      "source_pages": [213, 214, 217, 218, 219, 225, 226],
+      "important_boundary": "Support for creating the study committee is not equivalent to agreement with every later recommendation of the committee or with every possible position on women's ordination or diaconal polity.",
+      "ideological_weight": 0
+    },
+    {
+      "record_id": "np-2019-unordained-board-agency-voting-goal",
+      "year": 2019,
+      "issue": "women_in_ministry",
+      "evidence_scope": "individual_member_recommendation_presented_as_assembly_goal",
+      "actors_as_printed": ["James Kessler"],
+      "summary": "James Kessler identified allowing unordained persons, including women, to serve as voting members on PCA boards and agencies as one of three Assembly goals worth significant effort.",
+      "source_pages": [295, 296],
+      "important_boundary": "This is Kessler's explicitly stated goal circulated within the NP, not proof of unanimous NP agreement or a formal NP doctrinal statement.",
+      "ideological_weight": 0
+    },
+    {
+      "record_id": "np-2019-nashville-study-committee-recommendation",
+      "year": 2019,
+      "issue": "homosexuality_revoice_side_b",
+      "evidence_scope": "individual_member_recommendation",
+      "actors_as_printed": ["James Kessler"],
+      "summary": "James Kessler recommended defeating a Nashville-Statement-centered approach and instead pursuing a narrowly defined study committee on homosexual desire and ministry to people experiencing same-sex attraction.",
+      "source_pages": [292, 293, 294],
+      "important_boundary": "This is a documented Kessler recommendation within NP correspondence. It is not modeled as unanimous NP agreement, and circulation of later Revoice-related material is not itself treated as endorsement.",
+      "ideological_weight": 0
+    },
+    {
+      "record_id": "np-2019-nae-withdrawal-organizing-goal",
+      "year": 2019,
+      "issue": "national_association_of_evangelicals",
+      "evidence_scope": "np_organizing_action",
+      "actors_as_printed": ["James Kessler", "Bruce O'Neil"],
+      "summary": "NP correspondence documents organized opposition to proposed PCA withdrawal from the National Association of Evangelicals: Kessler circulated and agreed with Bruce O'Neil's argument for continued ties, repeatedly identified defeating withdrawal as an Assembly goal, and directed members to be present for floor action.",
+      "source_pages": [298, 299, 311, 312, 314, 316],
+      "important_boundary": "This records an explicit organizing goal in the correspondence. It does not imply agreement by every NP member with every argument offered for remaining in the NAE.",
+      "ideological_weight": 0
+    },
+    {
+      "record_id": "np-2014-mercy-community-transformation-seminar",
+      "year": 2014,
+      "issue": "social_justice_and_mercy_language",
+      "evidence_scope": "np_recommended_programming",
+      "actors_as_printed": ["National Partnership seminar recommendation"],
+      "summary": "The NP archive records a recommended seminar framing presbytery-culture transformation as a means toward church planting, mercy ministry, and community transformation.",
+      "source_pages": [145],
+      "important_boundary": "A seminar recommendation documents programming and organizing emphasis, not a comprehensive doctrinal statement binding every participant.",
+      "ideological_weight": 0
+    }
+  ]
+}
