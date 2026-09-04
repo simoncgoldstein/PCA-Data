@@ -81,7 +81,7 @@
     "url": "https://a4mr.substack.com/",
     "source_type": "primary_organization_media_archive",
     "accessed": "2026-09-03",
-    "notes": "Ongoing AMR article/audio/video archive. Items are normalized individually by author, guest, date, topic, and exact URL."
+    "notes": "Complete public archive snapshot preserves 128 archive records plus five RSS-only podcast companion records, with exact URLs and cross-platform relationships."
   },
   {
     "id": "src-amr-youtube",
@@ -90,7 +90,7 @@
     "url": "https://www.youtube.com/@AllianceforMissionandRenewal",
     "source_type": "primary_organization_media_archive",
     "accessed": "2026-09-03",
-    "notes": "Video participation is an event edge only. Official captions/transcripts should be preserved when available; user-supplied transcript exports may be used if direct retrieval is unreliable."
+    "notes": "Complete 31-video Videos-tab snapshot with public player metadata and archived English caption VTT tracks for every captured video. Video participation remains an event edge only."
   },
   {
     "id": "src-amr-blog-2026",

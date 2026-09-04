@@ -1,0 +1,827 @@
+{
+  "captured_on": "2026-09-03",
+  "source": "https://www.youtube.com/@AllianceforMissionandRenewal/videos",
+  "video_count": 31,
+  "captioned_video_count": 31,
+  "receipts": [
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/channel-videos.html",
+      "size_bytes": 1168239,
+      "sha256": "ffdfea793fbbeb56d5bf39a0557f0970b6b8a10693798ca74f1599c4056522d7",
+      "url": "https://www.youtube.com/@AllianceforMissionandRenewal/videos"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/continuation-01.json",
+      "size_bytes": 40333,
+      "sha256": "7db3e96b9fba966c1055b973373416484367d67b5c437a46365f13fee65ac1c2",
+      "url": "https://www.youtube.com/youtubei/v1/browse",
+      "response_kind": "channel_videos_continuation"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/1DIUuWkKsAo-web.json",
+      "size_bytes": 10817,
+      "sha256": "76e03969207bf9e83ef6c0acc48a8b9d564427eca0ca161ede1b6597e19fff05",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "1DIUuWkKsAo",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/1DIUuWkKsAo-android.json",
+      "size_bytes": 56512,
+      "sha256": "bc9facc0d7f05d53ef0f27c54af882150d8a1b75673bfa099a039e2fb10a053b",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "1DIUuWkKsAo",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/1DIUuWkKsAo-en-auto-1.vtt",
+      "size_bytes": 345562,
+      "sha256": "2305ebf1f05f966fa450b6f0d1d771b3d8d71f52afbc348378e4795d9b03c741",
+      "url": "https://www.youtube.com/watch?v=1DIUuWkKsAo",
+      "video_id": "1DIUuWkKsAo",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/3Z4Xj-Q6lsA-web.json",
+      "size_bytes": 10778,
+      "sha256": "14c5f591f6e51ea99e928e65f8252782afa7887746b1553889bc0bfa0a3875e3",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "3Z4Xj-Q6lsA",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/3Z4Xj-Q6lsA-android.json",
+      "size_bytes": 54680,
+      "sha256": "3357ae573b04c25003707cb328b35851e30b6575645531a25f13417c9a5fba37",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "3Z4Xj-Q6lsA",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/3Z4Xj-Q6lsA-en-auto-1.vtt",
+      "size_bytes": 68960,
+      "sha256": "ef9ce54a778376c888cf48795e052b1f4a8252b345b5479088d6b8a4706145e8",
+      "url": "https://www.youtube.com/watch?v=3Z4Xj-Q6lsA",
+      "video_id": "3Z4Xj-Q6lsA",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/5oxfx1O4Gjs-web.json",
+      "size_bytes": 11284,
+      "sha256": "eda51238e9e07c0e403e22105499116568cbca72c6116e59c4217e860a6042eb",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "5oxfx1O4Gjs",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/5oxfx1O4Gjs-android.json",
+      "size_bytes": 90857,
+      "sha256": "847655403489975dc44acbba6e89689b84ea468c66abea4703ac16a12ccff20f",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "5oxfx1O4Gjs",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/5oxfx1O4Gjs-en-auto-1.vtt",
+      "size_bytes": 501017,
+      "sha256": "0c3b9d6abe72bd3f7d84e75ae20c94ff2a3194e6d9398b8453f00c6fc2fbe979",
+      "url": "https://www.youtube.com/watch?v=5oxfx1O4Gjs",
+      "video_id": "5oxfx1O4Gjs",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/8SUKmIfQyDc-web.json",
+      "size_bytes": 12044,
+      "sha256": "df8635863deb09c28dff02993b9dd2ddff46809b903cbb31fc8c0e7cb5abde84",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "8SUKmIfQyDc",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/8SUKmIfQyDc-android.json",
+      "size_bytes": 79026,
+      "sha256": "89ac60a62caf46d991c618f27fac2b5cf245de77420fc9e84f0cd34e048bfca6",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "8SUKmIfQyDc",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/8SUKmIfQyDc-en-auto-1.vtt",
+      "size_bytes": 298144,
+      "sha256": "ad412c4dbe2df02332e40ec7086593417e07da2e65041adffcd920a2e7b23905",
+      "url": "https://www.youtube.com/watch?v=8SUKmIfQyDc",
+      "video_id": "8SUKmIfQyDc",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/D-SF45Bd62E-web.json",
+      "size_bytes": 11520,
+      "sha256": "b3e52b26ba27ec2a9ad7bcc5a4559593af275667094e738d367c6c258999b562",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "D-SF45Bd62E",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/D-SF45Bd62E-android.json",
+      "size_bytes": 80117,
+      "sha256": "62392f3bb1a46da612988c93c6fb39dc74a7746172a19749850028ca3c384e03",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "D-SF45Bd62E",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/D-SF45Bd62E-en-auto-1.vtt",
+      "size_bytes": 248522,
+      "sha256": "1837aa3a0d475e75912932fa9f144db193fb037a9310a9511d2896dd083922f9",
+      "url": "https://www.youtube.com/watch?v=D-SF45Bd62E",
+      "video_id": "D-SF45Bd62E",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/EUYsWl3xLpE-web.json",
+      "size_bytes": 10567,
+      "sha256": "0492ccfa6233f25b7d7ec29eabf1e6f5ac7900fc4685067f6923587f5ec43c82",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "EUYsWl3xLpE",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/EUYsWl3xLpE-android.json",
+      "size_bytes": 52878,
+      "sha256": "dfc01e67c8651f5b0e6eeba57bbe0abf8945ee32b8f8cb4406116eaa098a1921",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "EUYsWl3xLpE",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/EUYsWl3xLpE-en-auto-1.vtt",
+      "size_bytes": 95373,
+      "sha256": "e37765b86f155de8f0a603781c2ae277780addab718d72d9336bf2e5240535e2",
+      "url": "https://www.youtube.com/watch?v=EUYsWl3xLpE",
+      "video_id": "EUYsWl3xLpE",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/EbiiKQaoYGY-web.json",
+      "size_bytes": 12624,
+      "sha256": "51c1cd62f96575eb1462dfef25821e97dd074fbaa434998c771854b00411a5d3",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "EbiiKQaoYGY",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/EbiiKQaoYGY-android.json",
+      "size_bytes": 96183,
+      "sha256": "185793f5533d36c0b3587bfba8e0947a7fe910d3f15b4a6d870d5c6ef2e3ed5d",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "EbiiKQaoYGY",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/EbiiKQaoYGY-en-auto-1.vtt",
+      "size_bytes": 67747,
+      "sha256": "9e64f7d53a648f9af2ede06c3d680572a5218aff20d57d3efa70cba80b2de9ab",
+      "url": "https://www.youtube.com/watch?v=EbiiKQaoYGY",
+      "video_id": "EbiiKQaoYGY",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/HEqGUZ83hlQ-web.json",
+      "size_bytes": 13079,
+      "sha256": "f182adf4d39a4ff629a9ba9efaa151fd0a5f52506ce9a47e2b99e356f835b2a3",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "HEqGUZ83hlQ",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/HEqGUZ83hlQ-android.json",
+      "size_bytes": 97169,
+      "sha256": "fd3bb50331fe4f0b6a938cdb849a30a3901a6a83f0666b5d8c0bf7ca9e9aa8f9",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "HEqGUZ83hlQ",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/HEqGUZ83hlQ-en-auto-1.vtt",
+      "size_bytes": 563363,
+      "sha256": "576cc6e8717f4acca58fb39a7b4167f852f6e3a2c9502513d151f0b264961785",
+      "url": "https://www.youtube.com/watch?v=HEqGUZ83hlQ",
+      "video_id": "HEqGUZ83hlQ",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/JpsstSfx40U-web.json",
+      "size_bytes": 11369,
+      "sha256": "ad1ab2e39388846317646dc746d33616690064df1b3f462de9de91e14c85cdb8",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "JpsstSfx40U",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/JpsstSfx40U-android.json",
+      "size_bytes": 95293,
+      "sha256": "129b653102df987753a616371ce4a7ea0fb3e7d440c56061cacdc8152cc1a5df",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "JpsstSfx40U",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/JpsstSfx40U-en-auto-1.vtt",
+      "size_bytes": 403448,
+      "sha256": "dc9c38210213c994c3c6b4b737d9d24b53043e9253bbd1dc6570495031a205ae",
+      "url": "https://www.youtube.com/watch?v=JpsstSfx40U",
+      "video_id": "JpsstSfx40U",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/MhUwGG6x-zs-web.json",
+      "size_bytes": 11628,
+      "sha256": "c328cab36137866aef4fea31674c0bfa25bcf40571d7475d28d984c2becc1ec1",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "MhUwGG6x-zs",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/MhUwGG6x-zs-android.json",
+      "size_bytes": 56671,
+      "sha256": "d50eac06b0b19bd12c9be997b8b1ebadb81d526c9cdbf82ae468af2ee3728229",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "MhUwGG6x-zs",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/MhUwGG6x-zs-en-auto-1.vtt",
+      "size_bytes": 358139,
+      "sha256": "0339fb88e383ac72ff1ffd404628792436041018d31a52d06de182f434e48dc4",
+      "url": "https://www.youtube.com/watch?v=MhUwGG6x-zs",
+      "video_id": "MhUwGG6x-zs",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/Mj_Tdopui1Y-web.json",
+      "size_bytes": 11775,
+      "sha256": "598229b366508105abf5d5b3fcfdbfa05499e5215bb4439e4017f8452dd14864",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "Mj_Tdopui1Y",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/Mj_Tdopui1Y-android.json",
+      "size_bytes": 53598,
+      "sha256": "6f8046a49a3f5d98b1b83f55225b2b6af076d23995e136a129752e7658ea14ad",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "Mj_Tdopui1Y",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/Mj_Tdopui1Y-en-auto-1.vtt",
+      "size_bytes": 74268,
+      "sha256": "bf021099c2ce836a5fca22a54c3631dceb59f04d02620d395af947bdd95493bf",
+      "url": "https://www.youtube.com/watch?v=Mj_Tdopui1Y",
+      "video_id": "Mj_Tdopui1Y",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/SKsoGFLRy0Y-web.json",
+      "size_bytes": 10700,
+      "sha256": "d8525a3f0d9298579a50f01a5a7677b5c969f6021fa2e15687bdb047031abd21",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "SKsoGFLRy0Y",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/SKsoGFLRy0Y-android.json",
+      "size_bytes": 56765,
+      "sha256": "2a083dcd004766f6499d4d20032243d2bba6d1f890798e2046d5b935591c29bc",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "SKsoGFLRy0Y",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/SKsoGFLRy0Y-en-auto-1.vtt",
+      "size_bytes": 62822,
+      "sha256": "3d03fa5d3117b4082f27e030a56f3e10271f3bd6e81aac680f31621cfbd4b9fb",
+      "url": "https://www.youtube.com/watch?v=SKsoGFLRy0Y",
+      "video_id": "SKsoGFLRy0Y",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/VRBhE_guBVQ-web.json",
+      "size_bytes": 12510,
+      "sha256": "21385b9d8dadf741bbea133b29e55afdb1a320195755f14c7031dba9d4ee097b",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "VRBhE_guBVQ",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/VRBhE_guBVQ-android.json",
+      "size_bytes": 93916,
+      "sha256": "8798c1761f24042d384bf100355cbccb7a07425198cce5a17857609c525d2787",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "VRBhE_guBVQ",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/VRBhE_guBVQ-en-auto-1.vtt",
+      "size_bytes": 291180,
+      "sha256": "c5b45b2a0743c3ac403cbf0fb004583438c6e1d11497714abce9ef62307cd62e",
+      "url": "https://www.youtube.com/watch?v=VRBhE_guBVQ",
+      "video_id": "VRBhE_guBVQ",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/Y86FgB4lytc-web.json",
+      "size_bytes": 12045,
+      "sha256": "da91d88eea25b3b07eaa15e36c6904ce92bc21589391bcbd8aac487670ebf8b5",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "Y86FgB4lytc",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/Y86FgB4lytc-android.json",
+      "size_bytes": 96239,
+      "sha256": "e3df50c04c862f9aaf83a7c4c012fc101dc221a1f0c9212bcaf12480341ac469",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "Y86FgB4lytc",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/Y86FgB4lytc-en-auto-1.vtt",
+      "size_bytes": 393308,
+      "sha256": "c5c8a4e5f47e7eeca7d20d0e39065466fc20732aa46e9b57c59287ab1ce95d0f",
+      "url": "https://www.youtube.com/watch?v=Y86FgB4lytc",
+      "video_id": "Y86FgB4lytc",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/YMxX_eDvYWw-web.json",
+      "size_bytes": 11905,
+      "sha256": "6310e21a38f83a5c94f8b01439633d0809690df2f09c4c57fb7a2737fc7de87e",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "YMxX_eDvYWw",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/YMxX_eDvYWw-android.json",
+      "size_bytes": 58930,
+      "sha256": "666dab4c22da5c18947eae46c69f89a337c77ed347c8ab77767ae88f894a8869",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "YMxX_eDvYWw",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/YMxX_eDvYWw-en-auto-1.vtt",
+      "size_bytes": 36906,
+      "sha256": "7b54617d9ca70f12ff0247d959a2474ee41d7346483dc58f82bcab50bb254830",
+      "url": "https://www.youtube.com/watch?v=YMxX_eDvYWw",
+      "video_id": "YMxX_eDvYWw",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/YfrBuVTcClw-web.json",
+      "size_bytes": 11032,
+      "sha256": "d71fdc900194e625c54c8722854be5a2c6337b58678082534a41593a1690f9bf",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "YfrBuVTcClw",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/YfrBuVTcClw-android.json",
+      "size_bytes": 76960,
+      "sha256": "478bada096f9fd479241b80b2acf70c87940f4961af8e1d1f1f288eb2284f4ef",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "YfrBuVTcClw",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/YfrBuVTcClw-en-auto-1.vtt",
+      "size_bytes": 339400,
+      "sha256": "8af49da340191e85f4d3dc8040cd2904405c4ea1c7379c208ae41d501fdcc6c4",
+      "url": "https://www.youtube.com/watch?v=YfrBuVTcClw",
+      "video_id": "YfrBuVTcClw",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/ZAc4Pv_FjM0-web.json",
+      "size_bytes": 11607,
+      "sha256": "01bcb4dfdeb6c07ef806e74ecf9941d4e51f768234feba582b57fc50f9185d9c",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "ZAc4Pv_FjM0",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/ZAc4Pv_FjM0-android.json",
+      "size_bytes": 80551,
+      "sha256": "57f23f94cad8ee592c27456cc7cae847c0d6561396dd91130c8cfa083a5efbc5",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "ZAc4Pv_FjM0",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/ZAc4Pv_FjM0-en-auto-1.vtt",
+      "size_bytes": 450610,
+      "sha256": "5a5b7d5c3c450666256fb266370ef6d3863a72de558f98a8a447f26e5caf9fb5",
+      "url": "https://www.youtube.com/watch?v=ZAc4Pv_FjM0",
+      "video_id": "ZAc4Pv_FjM0",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/Z_toUjmYEOc-web.json",
+      "size_bytes": 11590,
+      "sha256": "6c6ae6d24cf2c81d499ac0ab4abb5e16f20830a7e5806cdd52e559b8fb231c19",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "Z_toUjmYEOc",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/Z_toUjmYEOc-android.json",
+      "size_bytes": 87924,
+      "sha256": "80240ff73fdbc43867d3fa5380efbe067fabec21635743207ceb9655a4fa0913",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "Z_toUjmYEOc",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/Z_toUjmYEOc-en-auto-1.vtt",
+      "size_bytes": 402420,
+      "sha256": "43474da062f210fa1196e09932112fe7bb807c59a0be6473ab0a01086a7f66bc",
+      "url": "https://www.youtube.com/watch?v=Z_toUjmYEOc",
+      "video_id": "Z_toUjmYEOc",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/aT6rzfPhCRo-web.json",
+      "size_bytes": 11780,
+      "sha256": "0f2049291c6d86e2f235b74624b7d327ea2ccb89c8a807c976d11e2d5a114ccb",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "aT6rzfPhCRo",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/aT6rzfPhCRo-android.json",
+      "size_bytes": 93461,
+      "sha256": "3ead853a613bd47a48101ef1920faddb63e95c1d6fdc103568c5f48892f7f44f",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "aT6rzfPhCRo",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/aT6rzfPhCRo-en-auto-1.vtt",
+      "size_bytes": 263075,
+      "sha256": "11a3f1986727b82158ca05a92c5db6398d12a5d81c457f1a4b426e53bb2110c7",
+      "url": "https://www.youtube.com/watch?v=aT6rzfPhCRo",
+      "video_id": "aT6rzfPhCRo",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/bMj_pCd4U6U-web.json",
+      "size_bytes": 12284,
+      "sha256": "c0355da97c6578870f73a0b0e13f92dc8b2651d46e200bdcf9c27a99338beffc",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "bMj_pCd4U6U",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/bMj_pCd4U6U-android.json",
+      "size_bytes": 97874,
+      "sha256": "969af52a3bb6cd7339c73057c7865cc92c819ffea1f75a7aa66ac3a47b9e438f",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "bMj_pCd4U6U",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/bMj_pCd4U6U-en-auto-1.vtt",
+      "size_bytes": 280725,
+      "sha256": "81e61b1b9e9a9d23ef9eebfd1dec88b3ecffb8913a62581a7c1e5ecd3e07e4d6",
+      "url": "https://www.youtube.com/watch?v=bMj_pCd4U6U",
+      "video_id": "bMj_pCd4U6U",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/bqt1SSgo-Yo-web.json",
+      "size_bytes": 11549,
+      "sha256": "677e0b1ecae775e08c4dd244e852f9aa9af240060e4a08f6c85fcdadfc63b4ec",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "bqt1SSgo-Yo",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/bqt1SSgo-Yo-android.json",
+      "size_bytes": 87951,
+      "sha256": "a65421bdef05a756e948b05c8c6fdc7d19a12fe9a56d687fe4900a5001c1fb04",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "bqt1SSgo-Yo",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/bqt1SSgo-Yo-en-auto-1.vtt",
+      "size_bytes": 225492,
+      "sha256": "722a547421649a48b7bee8ec07c68da691c522b3969d17585a53c79bb27b1027",
+      "url": "https://www.youtube.com/watch?v=bqt1SSgo-Yo",
+      "video_id": "bqt1SSgo-Yo",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/cxQxeng9eow-web.json",
+      "size_bytes": 12512,
+      "sha256": "f0ea3dc12b99dd4255214de017f52995d318dd1e565c519c492dea8afa8ef761",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "cxQxeng9eow",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/cxQxeng9eow-android.json",
+      "size_bytes": 97317,
+      "sha256": "691f0af4e5e0b831d887a9f0a0d3ed9c701a5d5014342f50954fc0e67a7ee0da",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "cxQxeng9eow",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/cxQxeng9eow-en-auto-1.vtt",
+      "size_bytes": 480053,
+      "sha256": "b4ca48ec9936d1dedf0c043351a69bb2265c062d5e12ccab7ec698c5846a7aed",
+      "url": "https://www.youtube.com/watch?v=cxQxeng9eow",
+      "video_id": "cxQxeng9eow",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/dmLUxxh827w-web.json",
+      "size_bytes": 10800,
+      "sha256": "fd62ba9ea5f4b7a150fd2cbc2592b4a8c729bb8349f8a13be6001231017213bc",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "dmLUxxh827w",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/dmLUxxh827w-android.json",
+      "size_bytes": 56375,
+      "sha256": "3d2ad8e160bb8b16d707cef00df68b715b6e36643017e7d99aa524777159942c",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "dmLUxxh827w",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/dmLUxxh827w-en-auto-1.vtt",
+      "size_bytes": 127512,
+      "sha256": "a7c001bb5850e3302eaf84addb4e9cba694d1ee2ceeaa891b10d7345935b7748",
+      "url": "https://www.youtube.com/watch?v=dmLUxxh827w",
+      "video_id": "dmLUxxh827w",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/hSsD98y2toQ-web.json",
+      "size_bytes": 11386,
+      "sha256": "3dd226942cec96aea1a359ef9234fb07c1fc7807950ea1e6ce7b51511642c9f4",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "hSsD98y2toQ",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/hSsD98y2toQ-android.json",
+      "size_bytes": 89574,
+      "sha256": "a378192e444d7b45c5fb93fa6fc0b8b2fdbe45ddd38a093fabca3c1f9fb14c16",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "hSsD98y2toQ",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/hSsD98y2toQ-en-auto-1.vtt",
+      "size_bytes": 465148,
+      "sha256": "35343b9d4982bf910a826cc59b42729340d0194f80a26ecf22bf6f1de2b79e03",
+      "url": "https://www.youtube.com/watch?v=hSsD98y2toQ",
+      "video_id": "hSsD98y2toQ",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/j3bBD1FkDTQ-web.json",
+      "size_bytes": 10777,
+      "sha256": "ee6b86246ffbeea56707f9b7097e8ae65024bfa88917d7c3c4b6404c491efbf5",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "j3bBD1FkDTQ",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/j3bBD1FkDTQ-android.json",
+      "size_bytes": 56007,
+      "sha256": "f0aa40d48a3093c1fa2049aa69d485d9f5bb17b7ab2efbbd6b03c485d53440f3",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "j3bBD1FkDTQ",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/j3bBD1FkDTQ-en-auto-1.vtt",
+      "size_bytes": 110663,
+      "sha256": "97849390d52e065a6e934e29d315b8efb7d46bad5b0534c5d22642c786b39ea8",
+      "url": "https://www.youtube.com/watch?v=j3bBD1FkDTQ",
+      "video_id": "j3bBD1FkDTQ",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/mHrRbj6BSKM-web.json",
+      "size_bytes": 11846,
+      "sha256": "e1785f6c2d5d1980d35528eabbab373d3e95a29b24477a236ec1934994a6f9eb",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "mHrRbj6BSKM",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/mHrRbj6BSKM-android.json",
+      "size_bytes": 76973,
+      "sha256": "82cf53e25bc4cfde878557e79a33fff21a394c0adec5f459d506bfefad8fb8c8",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "mHrRbj6BSKM",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/mHrRbj6BSKM-en-auto-1.vtt",
+      "size_bytes": 501277,
+      "sha256": "652dc2a7c285e991a8c72e3ac8d75dbc4e6f804e265889d9c9bde4e3472eb108",
+      "url": "https://www.youtube.com/watch?v=mHrRbj6BSKM",
+      "video_id": "mHrRbj6BSKM",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/oEee-1PK2Jw-web.json",
+      "size_bytes": 11484,
+      "sha256": "730fe15dde38d02b6eddbb1638611b0cc67d89c3f3a9868fbebc654b2ab97857",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "oEee-1PK2Jw",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/oEee-1PK2Jw-android.json",
+      "size_bytes": 56533,
+      "sha256": "6f28939a466d152bcbdf55015ad7a30f54483a163ababf03d6deb91f0618f40b",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "oEee-1PK2Jw",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/oEee-1PK2Jw-en-auto-1.vtt",
+      "size_bytes": 90535,
+      "sha256": "1a5cc3827efdb4b0fd02f9c5a77652291ea365e24c47582dc3832786a43982ac",
+      "url": "https://www.youtube.com/watch?v=oEee-1PK2Jw",
+      "video_id": "oEee-1PK2Jw",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/pNBUWVKL_Ak-web.json",
+      "size_bytes": 10722,
+      "sha256": "0f7cca2e5ab862ee7a5bdf24752ebd0d2ce5a257e1ff2190e394bda36ac22e7c",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "pNBUWVKL_Ak",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/pNBUWVKL_Ak-android.json",
+      "size_bytes": 54671,
+      "sha256": "66d4fc8e54ac6b84d2e3c63f978137fca901a593ad08618e5091950d4b3ac0b4",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "pNBUWVKL_Ak",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/pNBUWVKL_Ak-en-auto-1.vtt",
+      "size_bytes": 69959,
+      "sha256": "e0cf5f79e31f04e796a611a3b9491ac34337d84c6913fb934df963c68db4cbb5",
+      "url": "https://www.youtube.com/watch?v=pNBUWVKL_Ak",
+      "video_id": "pNBUWVKL_Ak",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/w4JhTtFHsOE-web.json",
+      "size_bytes": 10448,
+      "sha256": "85aaa087f2ae501e2000583d937d7a54cd9afea8ab74fc322b2c838b1280a285",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "w4JhTtFHsOE",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/w4JhTtFHsOE-android.json",
+      "size_bytes": 56162,
+      "sha256": "3a517d54a427fec4582723f7fab4686c14042304142daf1add8febe35cf80f19",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "w4JhTtFHsOE",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/w4JhTtFHsOE-en-auto-1.vtt",
+      "size_bytes": 79420,
+      "sha256": "0639f5ead472540174647df52d11375f3ad3953595d271b5b956d06dcacec591",
+      "url": "https://www.youtube.com/watch?v=w4JhTtFHsOE",
+      "video_id": "w4JhTtFHsOE",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/xezEYJN8aiM-web.json",
+      "size_bytes": 11978,
+      "sha256": "b6595d268d69336918f92e0ee42a3f9e4f140fad1fa412259f3ffccc6ea6c29b",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "xezEYJN8aiM",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/xezEYJN8aiM-android.json",
+      "size_bytes": 97680,
+      "sha256": "fe0071185ccca46f3688001e0170592e1face4399f5d79ef72aedadb8689093c",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "xezEYJN8aiM",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/xezEYJN8aiM-en-auto-1.vtt",
+      "size_bytes": 464834,
+      "sha256": "f3e71ccad981e0ce3f3a801c3cf3e0644e6f2c7dffc8312051ae8ae1c5279b59",
+      "url": "https://www.youtube.com/watch?v=xezEYJN8aiM",
+      "video_id": "xezEYJN8aiM",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/zYRv7vG5xKA-web.json",
+      "size_bytes": 11181,
+      "sha256": "c8ff88400194a50eedfc18b135b8174b0ad27105b194e7224406d902bcc65799",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "zYRv7vG5xKA",
+      "client": "web"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/player-metadata/zYRv7vG5xKA-android.json",
+      "size_bytes": 80739,
+      "sha256": "8907bed45b252c8c15e03f642bc33a9db9b9074b691de76472eef9386fff981d",
+      "url": "https://www.youtube.com/youtubei/v1/player",
+      "video_id": "zYRv7vG5xKA",
+      "client": "android"
+    },
+    {
+      "local_file": "sources/raw/media/amr/youtube-2026-09-03/captions/zYRv7vG5xKA-en-auto-1.vtt",
+      "size_bytes": 157315,
+      "sha256": "15aa0cdeca472aa98c2cbb7ef3d7b8348e0578b2dcf163f249b37fa89334084d",
+      "url": "https://www.youtube.com/watch?v=zYRv7vG5xKA",
+      "video_id": "zYRv7vG5xKA",
+      "language": "en",
+      "caption_kind": "auto",
+      "track_name": "English (auto-generated)"
+    }
+  ]
+}

@@ -1,0 +1,489 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "max_content_label",
+            "value": "DV_PG"
+          },
+          {
+            "key": "is_network_restricted",
+            "value": "true"
+          },
+          {
+            "key": "is_alc_surface",
+            "value": "false"
+          },
+          {
+            "key": "ipcc",
+            "value": "0"
+          },
+          {
+            "key": "is_viewed_live",
+            "value": "False"
+          },
+          {
+            "key": "wh_paused",
+            "value": "0"
+          },
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "visitor_data",
+            "value": "CgstbmtKV3o4UUFLSSi23-jUBjIKCgJVUxIEGgAgMWLfAgrcAjIxLllUPVlONWZCTml5cDlqWEU1REhycFRtcjlDS243YW1Wdjl3azlBWlhNTE1tc1FubkFzVDN2MXl5ZjIxdGNveUJTUHg5VkxPVmZvNHFzcFl6NnFOZkZENk5tc2JVR2UtZkEzbzA2T0poeU4xMm8zdnpNOUp3V0FkSU91Z3RHUkVyWDlUdFY4WjVrSmduZXdTdGxlbUVQY1ZjTF82SHJMZnE1S1p0eUZDZVYtWkh3MzJISVZaTk9ReDdDQWJzZ1QxREw3dEdiLXpHWG1ycHZaOTM2dnpPME9iRXhJUmZUNzhSY2RlMFZkc2RaajFDaVBmSExrWnJqQVMybVlzTm44MXlMRDQ5U2NkNVNQS21QbTllRjRTT1BMSzZ1RkY0N1NRNEdKN1FJU3BOSlhSVExyRHhlS0xSMEdUd3BxNTRqNEUycmlUZE96eGRfN0xzQm9JTTRQNVJ1UWo1Zw%3D%3D"
+          }
+        ]
+      },
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20260903.01.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetPlayer_rid",
+            "value": "0x41e50964713dd1a2"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20260903"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          }
+        ]
+      }
+    ],
+    "maxAgeSeconds": 0,
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "k5_fmPxhoXZRiAgs7zSkdPjcuxWIPg5YUWtcGSI8-7-ohy2s9WdEJF-0bzRMkuMYNLBwOcCw59TLtslLKPQGSS"
+    },
+    "responseId": "IhMInKCCnfPTlgMVKZ7kBh0INhH7",
+    "webResponseContextExtensionData": {
+      "webResponseContextPreloadData": {
+        "preloadMessageNames": [
+          "playerInterstitialRenderer",
+          "interstitialViewModel",
+          "playerMicroformatRenderer"
+        ]
+      },
+      "hasDecorated": true
+    }
+  },
+  "playabilityStatus": {
+    "status": "UNPLAYABLE",
+    "reason": "Video unavailable",
+    "errorScreen": {
+      "playerInterstitialRenderer": {
+        "content": {
+          "interstitialViewModel": {
+            "title": {
+              "content": "Video unavailable"
+            },
+            "description": {
+              "content": "The page needs to be reloaded."
+            },
+            "loggingDirectives": {
+              "trackingParams": "CAEQ4NYUIhMInKCCnfPTlgMVKZ7kBh0INhH7",
+              "visibility": {
+                "types": "12"
+              }
+            }
+          }
+        }
+      }
+    },
+    "skip": {
+      "playabilityErrorSkipConfig": {
+        "skipOnPlayabilityError": false
+      }
+    },
+    "contextParams": "Q0FFU0FnZ0M="
+  },
+  "videoDetails": {
+    "videoId": "EbiiKQaoYGY",
+    "title": "Three Questions with Casey Cockrum",
+    "lengthSeconds": "445",
+    "channelId": "UCTmuCc8VJTYR1_0nDM7yQMA",
+    "isOwnerViewing": false,
+    "shortDescription": "In this installment of the AMR Three Questions Series, Christine Gordon sits down with Casey Cockrum, Assistant Vice President of the Campus Staff Department with Reformed University Fellowship (RUF).\n\nCasey shares about her work helping recruit, develop, and care for the women who serve as campus staff across RUF ministries. She also tells a powerful story about prayer, perseverance, and the launch of an RUF ministry at Wellesley College after a decade of prayer.\n\nIn this conversation, Casey reflects on:\n• Her role serving and supporting RUF campus staff\n• How God is working through campus ministry across the country\n• What encouragement and support look like for those serving on college campuses\n\nThe Three Questions Series highlights leaders across the PCA and ministries connected to the Alliance for Mission and Renewal, giving them space to share their work, stories of God’s faithfulness, and ways the broader church can come alongside them.\n\nLearn more about AMR:\nhttps://a4mr.org\n\nLearn more about RUF:\nhttps://ruf.org",
+    "isCrawlable": true,
+    "thumbnail": {
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/EbiiKQaoYGY/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAAAAYASUAAMhCPQCAokN4AbgC9xg=&rs=AOn4CLBJ4GkDIInN0R9g9lZ2bb7ZZEBlqg",
+          "width": 168,
+          "height": 94
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EbiiKQaoYGY/hqdefault.jpg?sqp=-oaymwEmCMQBEG5IWvKriqkDGQgBFQAAAAAYASUAAMhCPQCAokN4AbgC9xg=&rs=AOn4CLCf33d8uZhWHnkdYdmfukFV7MhiHw",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EbiiKQaoYGY/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAAAAGAElAADIQj0AgKJDeAG4AvcY&rs=AOn4CLDgdt4fP35x1hJY_tn7sLi1JND9Lg",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EbiiKQaoYGY/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAAAAGAElAADIQj0AgKJDeAG4AvcY&rs=AOn4CLBCcQqKN5Z534B7RtbP5Yogl9rvaA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/EbiiKQaoYGY/maxresdefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "allowRatings": true,
+    "viewCount": "212",
+    "author": "Alliance for Mission and Renewal",
+    "isPrivate": false,
+    "isUnpluggedCorpus": false,
+    "isLiveContent": false,
+    "isTvfilmVideo": false
+  },
+  "microformat": {
+    "playerMicroformatRenderer": {
+      "thumbnail": {
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/EbiiKQaoYGY/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        ]
+      },
+      "embed": {
+        "iframeUrl": "https://www.youtube.com/embed/EbiiKQaoYGY",
+        "width": 1280,
+        "height": 720
+      },
+      "title": {
+        "simpleText": "Three Questions with Casey Cockrum"
+      },
+      "description": {
+        "simpleText": "In this installment of the AMR Three Questions Series, Christine Gordon sits down with Casey Cockrum, Assistant Vice President of the Campus Staff Department with Reformed University Fellowship (RUF).\n\nCasey shares about her work helping recruit, develop, and care for the women who serve as campus staff across RUF ministries. She also tells a powerful story about prayer, perseverance, and the launch of an RUF ministry at Wellesley College after a decade of prayer.\n\nIn this conversation, Casey reflects on:\n• Her role serving and supporting RUF campus staff\n• How God is working through campus ministry across the country\n• What encouragement and support look like for those serving on college campuses\n\nThe Three Questions Series highlights leaders across the PCA and ministries connected to the Alliance for Mission and Renewal, giving them space to share their work, stories of God’s faithfulness, and ways the broader church can come alongside them.\n\nLearn more about AMR:\nhttps://a4mr.org\n\nLearn more about RUF:\nhttps://ruf.org"
+      },
+      "lengthSeconds": "446",
+      "ownerProfileUrl": "http://www.youtube.com/@AllianceforMissionandRenewal",
+      "externalChannelId": "UCTmuCc8VJTYR1_0nDM7yQMA",
+      "isFamilySafe": true,
+      "availableCountries": [
+        "AD",
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AL",
+        "AM",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AW",
+        "AX",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BL",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BY",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CH",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "EH",
+        "ER",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FK",
+        "FM",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GL",
+        "GM",
+        "GN",
+        "GP",
+        "GQ",
+        "GR",
+        "GS",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KG",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LR",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "MD",
+        "ME",
+        "MF",
+        "MG",
+        "MH",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PM",
+        "PN",
+        "PR",
+        "PS",
+        "PT",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RU",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SH",
+        "SI",
+        "SJ",
+        "SK",
+        "SL",
+        "SM",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TJ",
+        "TK",
+        "TL",
+        "TM",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "UZ",
+        "VA",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "YE",
+        "YT",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "isUnlisted": false,
+      "hasYpcMetadata": false,
+      "viewCount": "212",
+      "category": "People & Blogs",
+      "publishDate": "2026-03-10T08:24:07-07:00",
+      "ownerChannelName": "Alliance for Mission and Renewal",
+      "uploadDate": "2026-03-10T08:24:07-07:00",
+      "isShortsEligible": false,
+      "externalVideoId": "EbiiKQaoYGY",
+      "likeCount": "7",
+      "canonicalUrl": "https://www.youtube.com/watch?v=EbiiKQaoYGY"
+    }
+  },
+  "trackingParams": "CAAQu2kiEwicoIKd89OWAxUpnuQGHQg2EfvKAQS_eaRE",
+  "adBreakHeartbeatParams": "Q0FBJTNE",
+  "frameworkUpdates": {
+    "entityBatchUpdate": {
+      "mutations": [
+        {
+          "entityKey": "Eg0KC0ViaWlLUWFvWUdZIPYBKAE%3D",
+          "type": "ENTITY_MUTATION_TYPE_REPLACE",
+          "payload": {
+            "offlineabilityEntity": {
+              "key": "Eg0KC0ViaWlLUWFvWUdZIPYBKAE%3D",
+              "addToOfflineButtonState": "ADD_TO_OFFLINE_BUTTON_STATE_UNKNOWN"
+            }
+          }
+        }
+      ],
+      "timestamp": {
+        "seconds": "1788489672",
+        "nanos": 770153856
+      }
+    }
+  }
+}

@@ -1,0 +1,2435 @@
+{
+  "metadata": {
+    "snapshot_date": "2026-09-03",
+    "method": "Exact normalized-title matches only; unmatched or differently titled items are not forced together.",
+    "cross_platform_group_count": 112
+  },
+  "groups": [
+    {
+      "title_key": "10 ways to get connected at ga 2025 update",
+      "title": "10 Ways to Get Connected at GA (2025 update)",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-63",
+          "url": "https://a4mr.org/10-ways-to-get-connected-at-ga-2025-update/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-165097664",
+          "url": "https://a4mr.substack.com/p/10-ways-to-get-connected-at-ga-2025"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "2026 overtures round table discussion part 1",
+      "title": "2026 Overtures Round Table Discussion (Part 1)",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-16",
+          "url": "https://a4mr.org/2026-overtures-round-table-discussion-part-1/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-198589020",
+          "url": "https://a4mr.substack.com/p/2026-overtures-round-table-discussion"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "2026 overtures round table discussion part 2",
+      "title": "2026 Overtures Round Table Discussion (Part 2)",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-13",
+          "url": "https://a4mr.org/2026-overtures-round-table-discussion-part-2/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-feed-200139900",
+          "url": "https://a4mr.substack.com/p/2026-overtures-round-table-discussion-d7e"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-199782769",
+          "url": "https://a4mr.substack.com/p/2026-overtures-round-table-discussion-db4"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "2026 overtures round table discussion part 3",
+      "title": "2026 Overtures Round Table Discussion (Part 3)",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-10",
+          "url": "https://a4mr.org/2026-overtures-round-table-discussion-part-3/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-feed-201602895",
+          "url": "https://a4mr.substack.com/p/2026-overtures-round-table-discussion-3bc"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-201602946",
+          "url": "https://a4mr.substack.com/p/2026-overtures-round-table-discussion-683"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "a conversation with ray cortese",
+      "title": "A Conversation with Ray Cortese",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-107",
+          "url": "https://a4mr.org/a-conversation-with-ray-cortese/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150840273",
+          "url": "https://a4mr.substack.com/p/a-conversation-with-ray-cortese"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-dmLUxxh827w",
+          "url": "https://www.youtube.com/watch?v=dmLUxxh827w"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "a critical moment for the pca",
+      "title": "A Critical Moment for the PCA",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-45",
+          "url": "https://a4mr.org/a-critical-moment-for-the-pca/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-176663933",
+          "url": "https://a4mr.substack.com/p/a-critical-moment-for-the-pca"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "a hospitality of words",
+      "title": "A Hospitality of Words",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-98",
+          "url": "https://a4mr.org/a-hospitality-of-words/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150842822",
+          "url": "https://a4mr.substack.com/p/a-hospitality-of-words"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "a pastoral resource list on women and ministry",
+      "title": "A Pastoral Resource List on Women and Ministry",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-32",
+          "url": "https://a4mr.org/a-pastoral-resource-list-on-women-and-ministry/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-186110935",
+          "url": "https://a4mr.substack.com/p/a-pastoral-resource-list-on-women"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "a reflection on church planting movements in the early 21st century",
+      "title": "A Reflection on Church Planting Movements in the Early 21st Century",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-77",
+          "url": "https://a4mr.org/a-reflection-on-church-planting-movements-in-the-early-21st-century/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-155442021",
+          "url": "https://a4mr.substack.com/p/a-reflection-on-church-planting-movements"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "african american preaching a gift to the whole church",
+      "title": "African American Preaching: A Gift to the Whole Church",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-109",
+          "url": "https://a4mr.org/african-american-preaching-a-gift-to-the-whole-church/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150840047",
+          "url": "https://a4mr.substack.com/p/african-american-preaching-a-gift"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "after the general assembly reflections on trust unity and the work ahead",
+      "title": "After the General Assembly: Reflections on Trust, Unity, and the Work Ahead",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-7",
+          "url": "https://a4mr.org/after-the-general-assembly-reflections-on-trust-unity-and-the-work-ahead/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-feed-203647913",
+          "url": "https://a4mr.substack.com/p/after-the-general-assembly-reflections-a56"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-203646575",
+          "url": "https://a4mr.substack.com/p/after-the-general-assembly-reflections"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-bMj_pCd4U6U",
+          "url": "https://www.youtube.com/watch?v=bMj_pCd4U6U"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "all for love s sake",
+      "title": "All for Love’s Sake",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-37",
+          "url": "https://a4mr.org/all-for-loves-sake/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-181831102",
+          "url": "https://a4mr.substack.com/p/all-for-loves-sake"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "an introduction to l abri fellowship in fifteen lectures",
+      "title": "An Introduction to L’Abri Fellowship in Fifteen Lectures",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-66",
+          "url": "https://a4mr.org/an-introduction-to-labri-fellowship-in-fifteen-lectures/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-163562757",
+          "url": "https://a4mr.substack.com/p/an-introduction-to-labri-fellowship"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "beyond politics navigating election season together with grace",
+      "title": "Beyond Politics: Navigating Election Season Together with Grace",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-86",
+          "url": "https://a4mr.org/beyond-politics-navigating-election-season-together-with-grace/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150993814",
+          "url": "https://a4mr.substack.com/p/beyond-politics-navigating-election"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "biblical theological vision part five",
+      "title": "Biblical—Theological Vision Part Five",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-12",
+          "url": "https://a4mr.org/biblical-theological-vision-part-five/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-200492090",
+          "url": "https://a4mr.substack.com/p/biblicaltheological-vision-part-five"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "can friendship make you stronger in ministry elliott cherry and michael keller talk about their friendship",
+      "title": "Can Friendship Make You Stronger in Ministry? Elliott Cherry and Michael Keller Talk About Their Friendship",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-60",
+          "url": "https://a4mr.org/can-friendship-make-you-stronger-in-ministry-elliott-cherry-and-michael-keller-talk-about-their-friendship/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-167203928",
+          "url": "https://a4mr.substack.com/p/can-friendship-make-you-stronger"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "courtesy and civility how christians ought to engage each other and the public square",
+      "title": "Courtesy and Civility: How Christians Ought to Engage Each Other and the Public Square",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-100",
+          "url": "https://a4mr.org/courtesy-and-civility-how-christians-ought-to-engage-each-other-and-the-public-square/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150842643",
+          "url": "https://a4mr.substack.com/p/courtesy-and-civility-how-christians"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "creating a community where people can grow",
+      "title": "Creating a Community Where People Can Grow",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-93",
+          "url": "https://a4mr.org/creating-a-community-where-people-can-grow/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150843278",
+          "url": "https://a4mr.substack.com/p/creating-a-community-where-people"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "creating a culture where people can grow",
+      "title": "Creating a Culture Where People Can Grow",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-89",
+          "url": "https://a4mr.org/creating-a-culture-where-people-can-grow/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150888324",
+          "url": "https://a4mr.substack.com/p/creating-a-culture-where-people-can"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "daughters and disciples the expansive calling of women in christ s church",
+      "title": "Daughters and Disciples: The Expansive Calling of Women in Christ’s Church",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-1",
+          "url": "https://a4mr.org/1770-2/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-213882917",
+          "url": "https://a4mr.substack.com/p/daughters-and-disciples-the-expansive"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "elders theological vision part nine",
+      "title": "Elders—Theological Vision Part Nine",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-4",
+          "url": "https://a4mr.org/elders-theological-vision-part-nine/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-209955659",
+          "url": "https://a4mr.substack.com/p/elderstheological-vision-part-nine"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "encouragement for the sowers",
+      "title": "Encouragement for the Sowers",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-2",
+          "url": "https://a4mr.org/encouragement-for-the-sowers/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-213006221",
+          "url": "https://a4mr.substack.com/p/encouragement-for-the-sowers"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "engaging our current moment as an alliance for mission renewal",
+      "title": "Engaging Our Current Moment as an Alliance for Mission & Renewal",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-120",
+          "url": "https://a4mr.org/engaging-our-current-moment-as-an-alliance-for-mission-renewal/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150308019",
+          "url": "https://a4mr.substack.com/p/engaging-our-current-moment-as-an"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "faithful to the scriptures the pca s bedrock commitment",
+      "title": "Faithful to the Scriptures: The PCA’s Bedrock Commitment",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-29",
+          "url": "https://a4mr.org/faithful-to-the-scriptures-the-pcas-bedrock-commitment/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-188522374",
+          "url": "https://a4mr.substack.com/p/faithful-to-the-scriptures-the-pcas"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "formed or deformed discipleship in a distracted age",
+      "title": "Formed or Deformed? Discipleship in a Distracted Age",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-31",
+          "url": "https://a4mr.org/formed-or-deformed-discipleship-in-a-distracted-age/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-187119367",
+          "url": "https://a4mr.substack.com/p/formed-or-deformed-discipleship-in"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "from sunday to monday why connecting vocation and discipleship is central to the christian life",
+      "title": "From Sunday to Monday: Why connecting vocation and discipleship is central to the Christian life",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-51",
+          "url": "https://a4mr.org/from-sunday-to-monday-why-connecting-vocation-and-discipleship-is-central-to-the-christian-life/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-172713518",
+          "url": "https://a4mr.substack.com/p/from-sunday-to-monday-why-connecting"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "gen z and the crisis of identity",
+      "title": "Gen-Z and the Crisis of Identity",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-90",
+          "url": "https://a4mr.org/gen-z-and-the-crisis-of-identity/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150888273",
+          "url": "https://a4mr.substack.com/p/gen-z-and-the-crisis-of-identity"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "general assembly recap the good the adequate and the ugly",
+      "title": "General Assembly Recap—The Good, the “Adequate,” and the Ugly",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-57",
+          "url": "https://a4mr.org/general-assembly-recap-the-good-the-adequate-and-the-ugly/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-169052137",
+          "url": "https://a4mr.substack.com/p/general-assembly-recapthe-good-the"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "god s word for god s people lay readers in worship",
+      "title": "God’s Word for God’s People: Lay Readers in Worship",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-53",
+          "url": "https://a4mr.org/gods-word-for-gods-people-lay-readers-in-worship/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-171389977",
+          "url": "https://a4mr.substack.com/p/gods-word-for-gods-people-lay-readers"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "gratitude theological vision part two",
+      "title": "Gratitude—Theological Vision Part Two",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-18",
+          "url": "https://a4mr.org/gratitude-theological-vision-part-two/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-196452214",
+          "url": "https://a4mr.substack.com/p/gratitudetheological-vision-part"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "growing together webinar preparing for the harvest",
+      "title": "Growing Together Webinar: Preparing for the Harvest",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-94",
+          "url": "https://a4mr.org/growing-together-webinar-preparing-for-the-harvest/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150843214",
+          "url": "https://a4mr.substack.com/p/growing-together-webinar-preparing"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "homecoming creating an intentional space to gather",
+      "title": "Homecoming: Creating an Intentional Space to Gather",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-111",
+          "url": "https://a4mr.org/homecoming-creating-an-intentional-space-to-gather/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150839462",
+          "url": "https://a4mr.substack.com/p/homecoming-creating-an-intentional"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "hope begins in the dark a reflection on hope before advent season",
+      "title": "Hope Begins in the Dark: A Reflection on Hope Before Advent Season",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-83",
+          "url": "https://a4mr.org/hope-begins-in-the-dark-a-reflection-on-hope-before-advent-season/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-152248656",
+          "url": "https://a4mr.substack.com/p/hope-begins-in-the-dark-a-reflection"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "hope full presbyterianism",
+      "title": "Hope-Full Presbyterianism",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-104",
+          "url": "https://a4mr.org/hope-full-presbyterianism/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150842216",
+          "url": "https://a4mr.substack.com/p/hope-full-presbyterianism"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "hope theological vision part three",
+      "title": "Hope—Theological Vision Part Three",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-17",
+          "url": "https://a4mr.org/hope-theological-vision-part-three/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-197361566",
+          "url": "https://a4mr.substack.com/p/hopetheological-vision-part-three"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "hospitality is openness to god s interruptions",
+      "title": "Hospitality Is Openness to God’s Interruptions",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-91",
+          "url": "https://a4mr.org/gods-interruptions/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150888186",
+          "url": "https://a4mr.substack.com/p/hospitality-is-openness-to-gods-interruptions"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "how classical theism has shaped my life",
+      "title": "How Classical Theism Has Shaped My Life",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-71",
+          "url": "https://a4mr.org/how-classical-theism-has-shaped-my-life/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-160583689",
+          "url": "https://a4mr.substack.com/p/how-classical-theism-has-shaped-my"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "how to make sure you aren t disagreeing with a straw man",
+      "title": "How to Make Sure You Aren’t Disagreeing with a Straw Man",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-56",
+          "url": "https://a4mr.org/how-to-make-sure-you-arent-disagreeing-with-a-straw-man/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-169577688",
+          "url": "https://a4mr.substack.com/p/how-to-make-sure-you-arent-disagreeing"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "how to talk to people you disagree with",
+      "title": "How to Talk to People You Disagree With",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-118",
+          "url": "https://a4mr.org/how-to-talk-to-people-you-disagree-with/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150308820",
+          "url": "https://a4mr.substack.com/p/how-to-talk-to-people-you-disagree"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "human interaction in the space between spaces an appeal for general assembly",
+      "title": "Human Interaction in the Space between Spaces: An Appeal for General Assembly",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-68",
+          "url": "https://a4mr.org/human-interaction-in-the-space-between-spaces-an-appeal-for-general-assembly/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-162891985",
+          "url": "https://a4mr.substack.com/p/human-interaction-in-the-space-between"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "humble leadership and humble leaders",
+      "title": "Humble Leadership and Humble Leaders",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-79",
+          "url": "https://a4mr.org/humble-leadership-and-humble-leaders/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-154773315",
+          "url": "https://a4mr.substack.com/p/humble-leadership-and-humble-leaders"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "in a world of clamor the gospel brings calm and courage",
+      "title": "In a World of Clamor, the Gospel Brings Calm and Courage",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-41",
+          "url": "https://a4mr.org/1343-2/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-179747866",
+          "url": "https://a4mr.substack.com/p/in-a-world-of-clamor-the-gospel-brings"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "introduction to amr s theological vision statement",
+      "title": "Introduction to AMR’s Theological Vision Statement",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-20",
+          "url": "https://a4mr.org/introduction-to-amrs-theological-vision-statement/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-195878767",
+          "url": "https://a4mr.substack.com/p/introduction-to-amrs-theological"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "join us for a zoom seminar with aaron chung reaching our culture through presiding and preaching",
+      "title": "Join Us for a Zoom Seminar with Aaron Chung: “Reaching Our Culture Through Presiding and Preaching”",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-55",
+          "url": "https://a4mr.org/join-us-for-a-zoom-seminar-with-aaron-chung-reaching-our-culture-through-presiding-and-preaching/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-170293963",
+          "url": "https://a4mr.substack.com/p/join-us-for-a-zoom-seminar-with-aaron"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "leading as the least and youngest",
+      "title": "Leading as the Least and Youngest",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-81",
+          "url": "https://a4mr.org/leading-as-the-least-and-youngest/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-153078820",
+          "url": "https://a4mr.substack.com/p/leading-as-the-least-and-youngest"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "leading with humble other centered servanthood",
+      "title": "Leading with Humble, Other-Centered Servanthood",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-72",
+          "url": "https://a4mr.org/leading-with-humble-other-centered-servanthood/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-160073088",
+          "url": "https://a4mr.substack.com/p/leading-with-humble-other-centered"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "learning from francis grimke on the spiritual nature of the church s mission",
+      "title": "Learning from Francis Grimké on the Spiritual Nature of the Church’s Mission",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-50",
+          "url": "https://a4mr.org/learning-from-francis-grimke-on-the-spiritual-nature-of-the-churchs-mission/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-173195878",
+          "url": "https://a4mr.substack.com/p/learning-from-francis-grimke-on-the"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "men and women in ministry rich relationships in working together",
+      "title": "Men and Women in Ministry: Rich Relationships in Working Together",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-117",
+          "url": "https://a4mr.org/men-and-women-in-ministry-rich-relationships-in-working-together/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150309002",
+          "url": "https://a4mr.substack.com/p/men-and-women-in-ministry-rich-relationships"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "ministry theological vision part ten",
+      "title": "Ministry—Theological Vision Part Ten",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-3",
+          "url": "https://a4mr.org/ministry-theological-vision-part-ten/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-210921677",
+          "url": "https://a4mr.substack.com/p/ministrytheological-vision-part-ten"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "mission theological vision part eight",
+      "title": "Mission—Theological Vision Part Eight",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-6",
+          "url": "https://a4mr.org/mission-theological-vision-part-eight/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-207185247",
+          "url": "https://a4mr.substack.com/p/missiontheological-vision-part-eight"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "not why but who a meditation on good friday",
+      "title": "Not Why But Who: A Meditation on Good Friday",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-70",
+          "url": "https://a4mr.org/not-why-but-who-a-meditation-on-good-friday/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-161395355",
+          "url": "https://a4mr.substack.com/p/not-why-but-who-a-meditation-on-good"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "obedient to the great commission the pca s evangelistic and missionary calling",
+      "title": "Obedient to the Great Commission: The PCA’s Evangelistic and Missionary Calling",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-27",
+          "url": "https://a4mr.org/obedient-to-the-great-commission-the-pcas-evangelistic-and-missionary-calling/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-189664224",
+          "url": "https://a4mr.substack.com/p/obedient-to-the-great-commission"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "overtures discussion with david coffin howie donahoe fred greco and joel st clair general assembly 2025",
+      "title": "Overtures Discussion with David Coffin, Howie Donahoe, Fred Greco and Joel St. Clair—General Assembly 2025",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-61",
+          "url": "https://a4mr.org/overtures-discussion-with-david-coffin-howie-donahoe-fred-greco-and-joel-st-clair-general-assembly-2025/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-166091227",
+          "url": "https://a4mr.substack.com/p/overtures-discussion-with-david-coffin"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "parsing a passing distinction",
+      "title": "Parsing a Passing Distinction",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-9",
+          "url": "https://a4mr.org/parsing-a-passing-distinction/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-202315958",
+          "url": "https://a4mr.substack.com/p/parsing-a-passing-distinction"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "portraits of women in seminary",
+      "title": "Portraits of Women in Seminary",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-106",
+          "url": "https://a4mr.org/portraits-of-women-in-seminary/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150840573",
+          "url": "https://a4mr.substack.com/p/portraits-of-women-in-seminary"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "preaching the good news in a changing world a conversation with russ whitfield aaron chung and paul kim",
+      "title": "Preaching the Good News in a Changing World—A Conversation with Russ Whitfield, Aaron Chung, and Paul Kim",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-52",
+          "url": "https://a4mr.org/preaching-the-good-news-in-a-changing-world-a-conversation-with-russ-whitfield-aaron-chung-and-paul-kim/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-172001655",
+          "url": "https://a4mr.substack.com/p/preaching-the-good-news-in-a-changing"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "presbyterian theological vision part seven",
+      "title": "Presbyterian—Theological Vision Part Seven",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-8",
+          "url": "https://a4mr.org/presbyterian-theological-vision-part-seven/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-202463183",
+          "url": "https://a4mr.substack.com/p/presbyteriantheological-vision-part"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "presbyterianism is good for you",
+      "title": "Presbyterianism is Good For You",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-64",
+          "url": "https://a4mr.org/presbyterianism-is-good-for-you/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-164658255",
+          "url": "https://a4mr.substack.com/p/presbyterianism-is-good-for-you"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "pursuing a unified vision for mission and renewal in the pca",
+      "title": "Pursuing a Unified Vision for Mission and Renewal in the PCA",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-46",
+          "url": "https://a4mr.org/pursuing-a-unified-vision-for-mission-and-renewal-in-the-pca/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-176054923",
+          "url": "https://a4mr.substack.com/p/pursuing-a-unified-vision-for-mission"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "raise a ragged banner of praise upright seven reimagined psalms",
+      "title": "“Raise a Ragged Banner of Praise Upright” Seven Reimagined Psalms",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-76",
+          "url": "https://a4mr.org/raise-a-ragged-banner-of-praise-upright-seven-reimagined-psalms/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-156533073",
+          "url": "https://a4mr.substack.com/p/raise-a-ragged-banner-of-praise-upright"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "reaching our culture through presiding and preaching with aaron chung",
+      "title": "Reaching Our Culture Through Presiding and Preaching with Aaron Chung",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-48",
+          "url": "https://a4mr.org/reaching-our-culture-through-presiding-and-preaching-with-aaron-chung/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-174447787",
+          "url": "https://a4mr.substack.com/p/reaching-our-culture-through-presiding"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "reformed theological vision part six",
+      "title": "Reformed—Theological Vision Part Six",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-11",
+          "url": "https://a4mr.org/reformed-theological-vision-part-six/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-201482626",
+          "url": "https://a4mr.substack.com/p/reformedtheological-vision-part-six"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "regaining advent joy mini liturgies for the stresses of a busy advent season",
+      "title": "Regaining Advent Joy: Mini-Liturgies for the Stresses of a Busy Advent Season",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-82",
+          "url": "https://a4mr.org/regaining-advent-joy-mini-liturgies-for-the-stresses-of-a-busy-advent-season/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-152672332",
+          "url": "https://a4mr.substack.com/p/regaining-advent-joy-mini-liturgies"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "renewal in practice highlights from the alliance",
+      "title": "Renewal in Practice: Highlights from the Alliance",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-42",
+          "url": "https://a4mr.org/renewal-in-practice-highlights-from-the-alliance/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-179006138",
+          "url": "https://a4mr.substack.com/p/renewal-in-practice-highlights-from"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "ruf international reaching the nations with biblical hospitality",
+      "title": "RUF International: Reaching the Nations with Biblical Hospitality",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-112",
+          "url": "https://a4mr.org/ruf-international-reaching-the-nations-with-biblical-hospitality/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150839355",
+          "url": "https://a4mr.substack.com/p/ruf-international-reaching-the-nations"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "should i not love that great city a close look at the urban ministry of resurrection oakland",
+      "title": "Should I Not Love That Great City? A Close Look at the Urban Ministry of Resurrection Oakland",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-87",
+          "url": "https://a4mr.org/should-i-not-love-that-great-city-a-close-look-at-the-urban-ministry-of-resurrection-oakland/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150888721",
+          "url": "https://a4mr.substack.com/p/should-i-not-love-that-great-city"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "somewhere between the mountain and the valley the kali dinner at general assembly 2025",
+      "title": "Somewhere Between the Mountain and the Valley—The KALI Dinner at General Assembly 2025",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-54",
+          "url": "https://a4mr.org/somewhere-between-the-mountain-and-the-valley-the-kali-dinner-at-general-assembly-2025/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-170875522",
+          "url": "https://a4mr.substack.com/p/somewhere-between-the-mountain-and"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "strengthening the witness of the pca a vision for greater african american representation in the pca",
+      "title": "Strengthening the Witness of the PCA: A Vision for Greater African American Representation in the PCA",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-116",
+          "url": "https://a4mr.org/strengthening-the-witness-of-the-pca-a-vision-for-greater-african-american-representation-in-the-pca/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150309088",
+          "url": "https://a4mr.substack.com/p/strengthening-the-witness-of-the"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "taking the temperature of the pca",
+      "title": "Taking the Temperature of the PCA",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-38",
+          "url": "https://a4mr.org/taking-the-temperature-of-the-pca/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-181737329",
+          "url": "https://a4mr.substack.com/p/taking-the-temperature-of-the-pca"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "temporary and contingent affinity groups in the already not yet church",
+      "title": "Temporary and Contingent: Affinity Groups in the Already-Not Yet Church",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-65",
+          "url": "https://a4mr.org/temporary-and-contingent-affinity-groups-in-the-already-not-yet-church/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-164373227",
+          "url": "https://a4mr.substack.com/p/temporary-and-contingent-affinity"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "ten overlooked biblical considerations regarding women s participation in the ministry of the church",
+      "title": "Ten Overlooked Biblical Considerations Regarding Women’s Participation in the Ministry of the Church",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-30",
+          "url": "https://a4mr.org/ten-overlooked-biblical-considerations-regarding-womens-participation-in-the-ministry-of-the-church/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-187530577",
+          "url": "https://a4mr.substack.com/p/ten-overlooked-biblical-considerations"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "ten ways to get connected at general assembly",
+      "title": "Ten Ways to Get Connected at General Assembly",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-101",
+          "url": "https://a4mr.org/ten-ways-to-get-connected-at-general-assembly/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150842486",
+          "url": "https://a4mr.substack.com/p/ten-ways-to-get-connected-at-general"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the fellowship gathering 2025 an invitation to connect",
+      "title": "The Fellowship Gathering 2025—An Invitation to Connect",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-67",
+          "url": "https://a4mr.org/the-fellowship-gathering-2025-an-invitation-to-connect/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-163217058",
+          "url": "https://a4mr.substack.com/p/the-fellowship-gathering-2025an-invitation"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the formative power of worship",
+      "title": "The Formative Power Of Worship",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-24",
+          "url": "https://a4mr.org/the-formative-power-of-worship/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-192000266",
+          "url": "https://a4mr.substack.com/p/the-formative-power-of-worship"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the founding vision of the pca derek radney and sean michael lucas",
+      "title": "The Founding Vision of the PCA: Derek Radney and Sean Michael Lucas",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-39",
+          "url": "https://a4mr.org/the-founding-vision-of-the-pca-derek-radney-and-sean-michael-lucas/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-181091243",
+          "url": "https://a4mr.substack.com/p/the-founding-vision-of-the-pca-derek"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-mHrRbj6BSKM",
+          "url": "https://www.youtube.com/watch?v=mHrRbj6BSKM"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the genesis of the fellowship gathering",
+      "title": "The Genesis of the Fellowship Gathering",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-102",
+          "url": "https://a4mr.org/the-genesis-of-the-fellowship-gathering/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150842392",
+          "url": "https://a4mr.substack.com/p/the-genesis-of-the-fellowship-gathering"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the long road to bco 34 1 an interview with mel duncan howie donahoe and derek radney",
+      "title": "The Long Road to BCO 34-1: An Interview with Mel Duncan, Howie Donahoe, and Derek Radney",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-5",
+          "url": "https://a4mr.org/the-long-road-to-bco-34-1-an-interview-with-mel-duncan-howie-donahoe-and-derek-radney/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-feed-208095980",
+          "url": "https://a4mr.substack.com/p/the-long-road-to-bco-34-1-an-interview-0fb"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-208087435",
+          "url": "https://a4mr.substack.com/p/the-long-road-to-bco-34-1-an-interview"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-VRBhE_guBVQ",
+          "url": "https://www.youtube.com/watch?v=VRBhE_guBVQ"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the lord s supper soul food",
+      "title": "The Lord’s Supper: Soul Food",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-115",
+          "url": "https://a4mr.org/the-lords-supper-soul-food/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150308912",
+          "url": "https://a4mr.substack.com/p/the-lords-supper-soul-food"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the ministry of encouragement",
+      "title": "The Ministry of Encouragement",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-103",
+          "url": "https://a4mr.org/the-ministry-of-encouragement/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150842332",
+          "url": "https://a4mr.substack.com/p/the-ministry-of-encouragement"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the pca from the beginning a conversation with derek radney charles mcgowan",
+      "title": "The PCA from the Beginning: A Conversation with Derek Radney & Charles McGowan",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-34",
+          "url": "https://a4mr.org/the-pca-from-the-beginning-a-conversation-with-derek-radney-charles-mcgowan/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-184710557",
+          "url": "https://a4mr.substack.com/p/the-pca-from-the-beginning-a-conversation"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-ZAc4Pv_FjM0",
+          "url": "https://www.youtube.com/watch?v=ZAc4Pv_FjM0"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the pca s directory for worship a conversation with the ad interim committee",
+      "title": "The PCA’s Directory for Worship: A Conversation with the Ad Interim Committee",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-14",
+          "url": "https://a4mr.org/the-pcas-directory-for-worship-a-conversation-with-the-ad-interim-committee/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-199517036",
+          "url": "https://a4mr.substack.com/p/the-pcas-directory-for-worship-a-6b2"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-Y86FgB4lytc",
+          "url": "https://www.youtube.com/watch?v=Y86FgB4lytc"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the sage and the sermon the five moods of preaching with zack eswine",
+      "title": "The Sage and the Sermon: The Five Moods of Preaching with Zack Eswine",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-44",
+          "url": "https://a4mr.org/the-sage-and-the-sermon-the-five-moods-of-preaching-with-zack-eswine/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-177306491",
+          "url": "https://a4mr.substack.com/p/the-sage-and-the-sermon-the-five"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-hSsD98y2toQ",
+          "url": "https://www.youtube.com/watch?v=hSsD98y2toQ"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the steadfast love of the lord",
+      "title": "The Steadfast Love of the Lord",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-75",
+          "url": "https://a4mr.org/the-steadfast-love-of-the-lord/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-157065724",
+          "url": "https://a4mr.substack.com/p/the-steadfast-love-of-the-lord"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the vision and values of the alliance for mission renewal",
+      "title": "The Vision and Values of the Alliance for Mission & Renewal",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-99",
+          "url": "https://a4mr.org/the-vision-and-values-of-the-alliance-for-mission-reform/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150842716",
+          "url": "https://a4mr.substack.com/p/the-vision-and-values-of-the-alliance"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "the weight of power",
+      "title": "The Weight of Power",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-88",
+          "url": "https://a4mr.org/the-weight-of-power/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150888368",
+          "url": "https://a4mr.substack.com/p/the-weight-of-power"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "theological triage at the pca general assembly",
+      "title": "Theological Triage at the PCA General Assembly",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-62",
+          "url": "https://a4mr.org/theological-triage-at-the-pca-general-assembly/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-165658682",
+          "url": "https://a4mr.substack.com/p/theological-triage-at-the-pca-general"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "theological vision the alliance for mission and renewal",
+      "title": "Theological Vision: The Alliance for Mission and Renewal",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-19",
+          "url": "https://a4mr.org/theological-vision-the-alliance-for-mission-and-renewal/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-195879431",
+          "url": "https://a4mr.substack.com/p/theological-vision-the-alliance-for"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions series allie vining lynda loyd and christine gordon",
+      "title": "Three Questions Series: Allie Vining, Lynda Loyd, and Christine Gordon",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-78",
+          "url": "https://a4mr.org/three-questions-series-allie-vining-lynda-loyd-and-christine-gordon/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-154881193",
+          "url": "https://a4mr.substack.com/p/three-questions-series-allie-vining"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions series denine blevins of parakaleo",
+      "title": "Three Questions Series: Denine Blevins of Parakaleo",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-43",
+          "url": "https://a4mr.org/three-questions-series-denine-blevins-of-parakaleo/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-178085821",
+          "url": "https://a4mr.substack.com/p/three-questions-series-denine-blevins"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions series joy beans and christine gordon",
+      "title": "Three Questions Series: Joy Beans and Christine Gordon",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-85",
+          "url": "https://a4mr.org/three-questions-series-joy-beans-and-christine-gordon/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-151381099",
+          "url": "https://a4mr.substack.com/p/three-questions-series-joy-beans"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions series kathy clow of mission to the world",
+      "title": "Three Questions Series: Kathy Clow of Mission to the World",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-36",
+          "url": "https://a4mr.org/three-questions-series-kathy-clow-of-mission-to-the-world/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-182800161",
+          "url": "https://a4mr.substack.com/p/three-questions-series-kathy-clow"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-Mj_Tdopui1Y",
+          "url": "https://www.youtube.com/watch?v=Mj_Tdopui1Y"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions series kathy jenke and rachel stevener",
+      "title": "Three Questions Series: Kathy Jenke and Rachel Stevener",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-105",
+          "url": "https://a4mr.org/three-questions-series-kathy-jenke-and-rachel-stevener/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150841658",
+          "url": "https://a4mr.substack.com/p/three-questions-series-kathy-jenke"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions series melody perkins",
+      "title": "Three Questions Series: Melody Perkins",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-95",
+          "url": "https://a4mr.org/three-questions-series-melody-perkins/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150843152",
+          "url": "https://a4mr.substack.com/p/three-questions-series-melody-perkins"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions series with katie polski and christine gordon",
+      "title": "Three Questions Series with Katie Polski and Christine Gordon",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-69",
+          "url": "https://a4mr.org/three-questions-series-with-katie-polski-and-christine-gordon/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-162123777",
+          "url": "https://a4mr.substack.com/p/three-questions-series-with-katie"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions with casey cockrum of ruf",
+      "title": "Three Questions with Casey Cockrum of RUF",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-26",
+          "url": "https://a4mr.org/three-questions-with-casey-cockrum-of-ruf/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-190518365",
+          "url": "https://a4mr.substack.com/p/three-questions-with-casey-cockrum"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "three questions with judie puckett and christine gordon",
+      "title": "Three Questions with Judie Puckett and Christine Gordon",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-58",
+          "url": "https://a4mr.org/three-questions-with-judie-puckett-and-christine-gordon/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-168105648",
+          "url": "https://a4mr.substack.com/p/three-questions-with-judie-puckett"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "tim keller and lesslie newbigin an appreciative comparison",
+      "title": "Tim Keller and Lesslie Newbigin—An Appreciative Comparison",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-96",
+          "url": "https://a4mr.org/tim-keller-and-lesslie-newbigin-an-appreciative-comparison/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150843088",
+          "url": "https://a4mr.substack.com/p/tim-keller-and-lesslie-newbiginan"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "toward recovering the confessional missional center of the pca",
+      "title": "Toward Recovering the Confessional – Missional Center of the PCA",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-22",
+          "url": "https://a4mr.org/toward-recovering-the-confessional-missional-center-of-the-pca/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-194212002",
+          "url": "https://a4mr.substack.com/p/toward-recovering-the-confessional"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "trauma conversant pastoral care",
+      "title": "Trauma-Conversant Pastoral Care",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-49",
+          "url": "https://a4mr.org/trauma-conversant-pastoral-care/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-173966224",
+          "url": "https://a4mr.substack.com/p/trauma-conversant-pastoral-care"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "true to the reformed faith the confessional identity of the pca",
+      "title": "True to the Reformed Faith: The Confessional Identity of the PCA",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-28",
+          "url": "https://a4mr.org/true-to-the-reformed-faith-the-confessional-identity-of-the-pca/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-189040430",
+          "url": "https://a4mr.substack.com/p/true-to-the-reformed-faith-the-confessional"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "trust theological vision part four",
+      "title": "Trust—Theological Vision Part Four",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-15",
+          "url": "https://a4mr.org/trust-theological-vision-part-four/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-198871444",
+          "url": "https://a4mr.substack.com/p/trusttheological-vision-part-four"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "uk partnership is on a mission to serve pastors and support churches in the uk",
+      "title": "UK Partnership Is on a Mission to Serve Pastors and Support Churches in the UK",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-92",
+          "url": "https://a4mr.org/uk-partnership-is-on-a-mission-to-serve-pastors-and-support-churches-in-the-uk/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150843337",
+          "url": "https://a4mr.substack.com/p/uk-partnership-is-on-a-mission-to"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "uniting the tribes david strain david richter and david cassidy discuss bco overture 23",
+      "title": "Uniting the Tribes: David Strain, David Richter, and David Cassidy Discuss BCO Overture 23",
+      "platforms": [
+        "substack",
+        "website",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-114",
+          "url": "https://a4mr.org/uniting-the-tribes-david-strain-david-richter-and-david-cassidy-discuss-bco-overture-23/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150309194",
+          "url": "https://a4mr.substack.com/p/uniting-the-tribes-david-strain-david"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-1DIUuWkKsAo",
+          "url": "https://www.youtube.com/watch?v=1DIUuWkKsAo"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "urban vs suburban ministry an amr conversation",
+      "title": "Urban vs. Suburban Ministry: An AMR Conversation",
+      "platforms": [
+        "substack",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-180529889",
+          "url": "https://a4mr.substack.com/p/urban-vs-suburban-ministry-an-amr"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-MhUwGG6x-zs",
+          "url": "https://www.youtube.com/watch?v=MhUwGG6x-zs"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "we become what we behold learning to copy the way of jesus",
+      "title": "We Become What We Behold—Learning to Copy the Way of Jesus",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-73",
+          "url": "https://a4mr.org/we-become-what-we-behold-learning-to-copy-the-way-of-jesus/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-159256895",
+          "url": "https://a4mr.substack.com/p/we-become-what-we-beholdlearning"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "welcome to the alliance for mission renewal",
+      "title": "Welcome to the Alliance for Mission & Renewal",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-119",
+          "url": "https://a4mr.org/welcome-to-the-alliance-for-mission-renewal/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150308260",
+          "url": "https://a4mr.substack.com/p/welcome-to-the-alliance-for-mission"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "welcoming sean lucas to the amr board",
+      "title": "Welcoming Sean Lucas to the AMR Board",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-108",
+          "url": "https://a4mr.org/838-2/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150840201",
+          "url": "https://a4mr.substack.com/p/welcoming-sean-lucas-to-the-amr-board"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "what kind of church are we becoming a conversation with david richter and derek radney",
+      "title": "What Kind of Church Are We Becoming? A Conversation with David Richter and Derek Radney",
+      "platforms": [
+        "substack",
+        "youtube"
+      ],
+      "items": [
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-194947298",
+          "url": "https://a4mr.substack.com/p/what-kind-of-church-are-we-becoming-072"
+        },
+        {
+          "platform": "youtube",
+          "stable_item_id": "youtube-aT6rzfPhCRo",
+          "url": "https://www.youtube.com/watch?v=aT6rzfPhCRo"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "what the asian american church can teach us about the beatific vision",
+      "title": "What the Asian-American Church Can Teach Us About the Beatific Vision",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-74",
+          "url": "https://a4mr.org/what-the-asian-american-church-can-teach-us-about-the-beatific-vision/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-157627429",
+          "url": "https://a4mr.substack.com/p/what-the-asian-american-church-can"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "what to do if someone you love is deconstructing their faith",
+      "title": "What to Do if Someone You Love Is Deconstructing Their Faith?",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-110",
+          "url": "https://a4mr.org/what-to-do-if-someone-you-love-is-deconstructing-their-faith/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150839593",
+          "url": "https://a4mr.substack.com/p/what-to-do-if-someone-you-love-is"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "working for the unity of the church during the reformation",
+      "title": "Working for the Unity of the Church During the Reformation",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-47",
+          "url": "https://a4mr.org/working-for-the-unity-of-the-church-during-the-reformation/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-175445974",
+          "url": "https://a4mr.substack.com/p/working-for-the-unity-of-the-church"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    },
+    {
+      "title_key": "your pastor needs pastor friends",
+      "title": "Your Pastor Needs Pastor Friends",
+      "platforms": [
+        "substack",
+        "website"
+      ],
+      "items": [
+        {
+          "platform": "website",
+          "stable_item_id": "website-97",
+          "url": "https://a4mr.org/your-pastor-needs-pastor-friends/"
+        },
+        {
+          "platform": "substack",
+          "stable_item_id": "substack-150842879",
+          "url": "https://a4mr.substack.com/p/your-pastor-needs-pastor-friends"
+        }
+      ],
+      "match_method": "exact_normalized_title"
+    }
+  ]
+}

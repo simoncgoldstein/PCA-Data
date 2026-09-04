@@ -1,0 +1,489 @@
+{
+  "responseContext": {
+    "serviceTrackingParams": [
+      {
+        "service": "GFEEDBACK",
+        "params": [
+          {
+            "key": "max_content_label",
+            "value": "DV_PG"
+          },
+          {
+            "key": "is_network_restricted",
+            "value": "true"
+          },
+          {
+            "key": "is_alc_surface",
+            "value": "false"
+          },
+          {
+            "key": "is_viewed_live",
+            "value": "False"
+          },
+          {
+            "key": "ipcc",
+            "value": "0"
+          },
+          {
+            "key": "wh_paused",
+            "value": "0"
+          },
+          {
+            "key": "logged_in",
+            "value": "0"
+          },
+          {
+            "key": "visitor_data",
+            "value": "CgstbmtKV3o4UUFLSSi23-jUBjIKCgJVUxIEGgAgMWLfAgrcAjIxLllUPVlONWZCTml5cDlqWEU1REhycFRtcjlDS243YW1Wdjl3azlBWlhNTE1tc1FubkFzVDN2MXl5ZjIxdGNveUJTUHg5VkxPVmZvNHFzcFl6NnFOZkZENk5tc2JVR2UtZkEzbzA2T0poeU4xMm8zdnpNOUp3V0FkSU91Z3RHUkVyWDlUdFY4WjVrSmduZXdTdGxlbUVQY1ZjTF82SHJMZnE1S1p0eUZDZVYtWkh3MzJISVZaTk9ReDdDQWJzZ1QxREw3dEdiLXpHWG1ycHZaOTM2dnpPME9iRXhJUmZUNzhSY2RlMFZkc2RaajFDaVBmSExrWnJqQVMybVlzTm44MXlMRDQ5U2NkNVNQS21QbTllRjRTT1BMSzZ1RkY0N1NRNEdKN1FJU3BOSlhSVExyRHhlS0xSMEdUd3BxNTRqNEUycmlUZE96eGRfN0xzQm9JTTRQNVJ1UWo1Zw%3D%3D"
+          }
+        ]
+      },
+      {
+        "service": "CSI",
+        "params": [
+          {
+            "key": "c",
+            "value": "WEB"
+          },
+          {
+            "key": "cver",
+            "value": "2.20260903.01.00"
+          },
+          {
+            "key": "yt_li",
+            "value": "0"
+          },
+          {
+            "key": "GetPlayer_rid",
+            "value": "0xe68408c7adf0b1ef"
+          }
+        ]
+      },
+      {
+        "service": "GUIDED_HELP",
+        "params": [
+          {
+            "key": "logged_in",
+            "value": "0"
+          }
+        ]
+      },
+      {
+        "service": "ECATCHER",
+        "params": [
+          {
+            "key": "client.version",
+            "value": "2.20260903"
+          },
+          {
+            "key": "client.name",
+            "value": "WEB"
+          }
+        ]
+      }
+    ],
+    "maxAgeSeconds": 0,
+    "mainAppWebResponseContext": {
+      "loggedOut": true,
+      "trackingParam": "k5_fmPxhoXZRrTaoPKDUAYfc3EPg9BHUmFrrsSaEPuP7eg07jWwws38_pzRMkuMYNLBwOcCw59TLtslLKPQGSS"
+    },
+    "responseId": "IhMIyfqesPPTlgMV1prkBh2nEQzz",
+    "webResponseContextExtensionData": {
+      "webResponseContextPreloadData": {
+        "preloadMessageNames": [
+          "playerInterstitialRenderer",
+          "interstitialViewModel",
+          "playerMicroformatRenderer"
+        ]
+      },
+      "hasDecorated": true
+    }
+  },
+  "playabilityStatus": {
+    "status": "UNPLAYABLE",
+    "reason": "Video unavailable",
+    "errorScreen": {
+      "playerInterstitialRenderer": {
+        "content": {
+          "interstitialViewModel": {
+            "title": {
+              "content": "Video unavailable"
+            },
+            "description": {
+              "content": "The page needs to be reloaded."
+            },
+            "loggingDirectives": {
+              "trackingParams": "CAEQ4NYUIhMIyfqesPPTlgMV1prkBh2nEQzz",
+              "visibility": {
+                "types": "12"
+              }
+            }
+          }
+        }
+      }
+    },
+    "skip": {
+      "playabilityErrorSkipConfig": {
+        "skipOnPlayabilityError": false
+      }
+    },
+    "contextParams": "Q0FFU0FnZ0M="
+  },
+  "videoDetails": {
+    "videoId": "xezEYJN8aiM",
+    "title": "Overtures Roundtable Discussion 2026 (Part 1)",
+    "lengthSeconds": "3292",
+    "channelId": "UCTmuCc8VJTYR1_0nDM7yQMA",
+    "isOwnerViewing": false,
+    "shortDescription": "Join Derek Radney, Steve Tipton, David Coffin, and Howie Donahoe for a roundtable discussion exploring the overtures and the questions facing the PCA ahead of the 2026 General Assembly.\n\nOvertures Discussion, Part 2: https://youtu.be/JpsstSfx40U\nOvertures Discussion, Part 3: https://youtu.be/cxQxeng9eow\n\n00:05:00 - What to make of the high volume of overtures and how should OC deal with them?\n00:14:10 - What are the most important overtures to pass and your least favorite?\n00:22:00 - O4 PNW, O50 Mississippi Valley\n00:25:25 - RAO Changes\n00:25:38 - O5 PNW\n00:29:20 - O6 PNW\n00:34:44 - O7 PNW\n00:42:00 - O8 PNW\n00:43:41 - O40 Sav River & O43 PNW & O77 SE AL\n00:46:53 - O11 Ohio\n00:50:00 - O53 Great Lakes",
+    "isCrawlable": true,
+    "thumbnail": {
+      "thumbnails": [
+        {
+          "url": "https://i.ytimg.com/vi/xezEYJN8aiM/hqdefault.jpg?sqp=-oaymwEmCKgBEF5IWvKriqkDGQgBFQAAAAAYASUAAMhCPQCAokN4AbgC9xg=&rs=AOn4CLCtQR6jnJk6OGoy5NUIajPe3disbg",
+          "width": 168,
+          "height": 94
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xezEYJN8aiM/hqdefault.jpg?sqp=-oaymwEmCMQBEG5IWvKriqkDGQgBFQAAAAAYASUAAMhCPQCAokN4AbgC9xg=&rs=AOn4CLCiWZ__DZxKa1YpZ5vO6lqAV4d6qg",
+          "width": 196,
+          "height": 110
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xezEYJN8aiM/hqdefault.jpg?sqp=-oaymwEnCPYBEIoBSFryq4qpAxkIARUAAAAAGAElAADIQj0AgKJDeAG4AvcY&rs=AOn4CLCqazQsODX_M9VnryFc71ubA2Tf0w",
+          "width": 246,
+          "height": 138
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xezEYJN8aiM/hqdefault.jpg?sqp=-oaymwEnCNACELwBSFryq4qpAxkIARUAAAAAGAElAADIQj0AgKJDeAG4AvcY&rs=AOn4CLCMFai2M9hkWryutmak_ZGqmAkZRA",
+          "width": 336,
+          "height": 188
+        },
+        {
+          "url": "https://i.ytimg.com/vi/xezEYJN8aiM/maxresdefault.jpg",
+          "width": 1920,
+          "height": 1080
+        }
+      ]
+    },
+    "allowRatings": true,
+    "viewCount": "1882",
+    "author": "Alliance for Mission and Renewal",
+    "isPrivate": false,
+    "isUnpluggedCorpus": false,
+    "isLiveContent": false,
+    "isTvfilmVideo": false
+  },
+  "microformat": {
+    "playerMicroformatRenderer": {
+      "thumbnail": {
+        "thumbnails": [
+          {
+            "url": "https://i.ytimg.com/vi/xezEYJN8aiM/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        ]
+      },
+      "embed": {
+        "iframeUrl": "https://www.youtube.com/embed/xezEYJN8aiM",
+        "width": 1280,
+        "height": 720
+      },
+      "title": {
+        "simpleText": "Overtures Roundtable Discussion 2026 (Part 1)"
+      },
+      "description": {
+        "simpleText": "Join Derek Radney, Steve Tipton, David Coffin, and Howie Donahoe for a roundtable discussion exploring the overtures and the questions facing the PCA ahead of the 2026 General Assembly.\n\nOvertures Discussion, Part 2: https://youtu.be/JpsstSfx40U\nOvertures Discussion, Part 3: https://youtu.be/cxQxeng9eow\n\n00:05:00 - What to make of the high volume of overtures and how should OC deal with them?\n00:14:10 - What are the most important overtures to pass and your least favorite?\n00:22:00 - O4 PNW, O50 Mississippi Valley\n00:25:25 - RAO Changes\n00:25:38 - O5 PNW\n00:29:20 - O6 PNW\n00:34:44 - O7 PNW\n00:42:00 - O8 PNW\n00:43:41 - O40 Sav River & O43 PNW & O77 SE AL\n00:46:53 - O11 Ohio\n00:50:00 - O53 Great Lakes"
+      },
+      "lengthSeconds": "3293",
+      "ownerProfileUrl": "http://www.youtube.com/@AllianceforMissionandRenewal",
+      "externalChannelId": "UCTmuCc8VJTYR1_0nDM7yQMA",
+      "isFamilySafe": true,
+      "availableCountries": [
+        "AD",
+        "AE",
+        "AF",
+        "AG",
+        "AI",
+        "AL",
+        "AM",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AW",
+        "AX",
+        "AZ",
+        "BA",
+        "BB",
+        "BD",
+        "BE",
+        "BF",
+        "BG",
+        "BH",
+        "BI",
+        "BJ",
+        "BL",
+        "BM",
+        "BN",
+        "BO",
+        "BQ",
+        "BR",
+        "BS",
+        "BT",
+        "BV",
+        "BW",
+        "BY",
+        "BZ",
+        "CA",
+        "CC",
+        "CD",
+        "CF",
+        "CG",
+        "CH",
+        "CI",
+        "CK",
+        "CL",
+        "CM",
+        "CN",
+        "CO",
+        "CR",
+        "CU",
+        "CV",
+        "CW",
+        "CX",
+        "CY",
+        "CZ",
+        "DE",
+        "DJ",
+        "DK",
+        "DM",
+        "DO",
+        "DZ",
+        "EC",
+        "EE",
+        "EG",
+        "EH",
+        "ER",
+        "ES",
+        "ET",
+        "FI",
+        "FJ",
+        "FK",
+        "FM",
+        "FO",
+        "FR",
+        "GA",
+        "GB",
+        "GD",
+        "GE",
+        "GF",
+        "GG",
+        "GH",
+        "GI",
+        "GL",
+        "GM",
+        "GN",
+        "GP",
+        "GQ",
+        "GR",
+        "GS",
+        "GT",
+        "GU",
+        "GW",
+        "GY",
+        "HK",
+        "HM",
+        "HN",
+        "HR",
+        "HT",
+        "HU",
+        "ID",
+        "IE",
+        "IL",
+        "IM",
+        "IN",
+        "IO",
+        "IQ",
+        "IR",
+        "IS",
+        "IT",
+        "JE",
+        "JM",
+        "JO",
+        "JP",
+        "KE",
+        "KG",
+        "KH",
+        "KI",
+        "KM",
+        "KN",
+        "KP",
+        "KR",
+        "KW",
+        "KY",
+        "KZ",
+        "LA",
+        "LB",
+        "LC",
+        "LI",
+        "LK",
+        "LR",
+        "LS",
+        "LT",
+        "LU",
+        "LV",
+        "LY",
+        "MA",
+        "MC",
+        "MD",
+        "ME",
+        "MF",
+        "MG",
+        "MH",
+        "MK",
+        "ML",
+        "MM",
+        "MN",
+        "MO",
+        "MP",
+        "MQ",
+        "MR",
+        "MS",
+        "MT",
+        "MU",
+        "MV",
+        "MW",
+        "MX",
+        "MY",
+        "MZ",
+        "NA",
+        "NC",
+        "NE",
+        "NF",
+        "NG",
+        "NI",
+        "NL",
+        "NO",
+        "NP",
+        "NR",
+        "NU",
+        "NZ",
+        "OM",
+        "PA",
+        "PE",
+        "PF",
+        "PG",
+        "PH",
+        "PK",
+        "PL",
+        "PM",
+        "PN",
+        "PR",
+        "PS",
+        "PT",
+        "PW",
+        "PY",
+        "QA",
+        "RE",
+        "RO",
+        "RS",
+        "RU",
+        "RW",
+        "SA",
+        "SB",
+        "SC",
+        "SD",
+        "SE",
+        "SG",
+        "SH",
+        "SI",
+        "SJ",
+        "SK",
+        "SL",
+        "SM",
+        "SN",
+        "SO",
+        "SR",
+        "SS",
+        "ST",
+        "SV",
+        "SX",
+        "SY",
+        "SZ",
+        "TC",
+        "TD",
+        "TF",
+        "TG",
+        "TH",
+        "TJ",
+        "TK",
+        "TL",
+        "TM",
+        "TN",
+        "TO",
+        "TR",
+        "TT",
+        "TV",
+        "TW",
+        "TZ",
+        "UA",
+        "UG",
+        "UM",
+        "US",
+        "UY",
+        "UZ",
+        "VA",
+        "VC",
+        "VE",
+        "VG",
+        "VI",
+        "VN",
+        "VU",
+        "WF",
+        "WS",
+        "YE",
+        "YT",
+        "ZA",
+        "ZM",
+        "ZW"
+      ],
+      "isUnlisted": false,
+      "hasYpcMetadata": false,
+      "viewCount": "1882",
+      "category": "People & Blogs",
+      "publishDate": "2026-05-20T10:33:16-07:00",
+      "ownerChannelName": "Alliance for Mission and Renewal",
+      "uploadDate": "2026-05-20T10:33:16-07:00",
+      "isShortsEligible": false,
+      "externalVideoId": "xezEYJN8aiM",
+      "likeCount": "28",
+      "canonicalUrl": "https://www.youtube.com/watch?v=xezEYJN8aiM"
+    }
+  },
+  "trackingParams": "CAAQu2kiEwjJ-p6w89OWAxXWmuQGHacRDPPKAQS_eaRE",
+  "adBreakHeartbeatParams": "Q0FBJTNE",
+  "frameworkUpdates": {
+    "entityBatchUpdate": {
+      "mutations": [
+        {
+          "entityKey": "Eg0KC3hlekVZSk44YWlNIPYBKAE%3D",
+          "type": "ENTITY_MUTATION_TYPE_REPLACE",
+          "payload": {
+            "offlineabilityEntity": {
+              "key": "Eg0KC3hlekVZSk44YWlNIPYBKAE%3D",
+              "addToOfflineButtonState": "ADD_TO_OFFLINE_BUTTON_STATE_UNKNOWN"
+            }
+          }
+        }
+      ],
+      "timestamp": {
+        "seconds": "1788489713",
+        "nanos": 80172819
+      }
+    }
+  }
+}

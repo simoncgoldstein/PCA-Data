@@ -151,6 +151,57 @@ for receipt in amr_manifest.get("pages", []):
     if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != receipt["sha256"]:
         errors.append(f"AMR raw page missing or hash mismatch: {receipt.get('local_file')}")
 
+substack = load("sources/normalized/amr/substack-index-2023-2026.json")
+substack_items = substack.get("items", [])
+if len(substack_items) != 133 or len({row.get("stable_item_id") for row in substack_items}) != 133:
+    errors.append("AMR Substack index: expected 133 unique archive/feed items")
+if len({row.get("url") for row in substack_items}) != len(substack_items):
+    errors.append("AMR Substack index: duplicate canonical URL")
+if sum(row.get("source_visibility") == "rss_feed_only_podcast_companion" for row in substack_items) != 5:
+    errors.append("AMR Substack index: expected five RSS-only podcast companions")
+substack_manifest = load("sources/raw/media/amr/substack-2026-09-03/manifest.json")
+if substack_manifest.get("item_count") != 133:
+    errors.append("AMR Substack manifest: expected 133 normalized items")
+for receipt in substack_manifest.get("receipts", []):
+    path = root / receipt["local_file"]
+    if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != receipt["sha256"]:
+        errors.append(f"AMR Substack receipt missing or hash mismatch: {receipt.get('local_file')}")
+
+youtube = load("sources/normalized/amr/youtube-index-2023-2026.json")
+youtube_items = youtube.get("items", [])
+if len(youtube_items) != 31 or len({row.get("video_id") for row in youtube_items}) != 31:
+    errors.append("AMR YouTube index: expected 31 unique videos")
+if any(row.get("caption_status") != "available_archived" or not row.get("caption_receipts") for row in youtube_items):
+    errors.append("AMR YouTube index: every captured video should retain an English caption receipt")
+youtube_manifest = load("sources/raw/media/amr/youtube-2026-09-03/manifest.json")
+if youtube_manifest.get("video_count") != 31 or youtube_manifest.get("captioned_video_count") != 31:
+    errors.append("AMR YouTube manifest: expected 31 videos with 31 captioned videos")
+for receipt in youtube_manifest.get("receipts", []):
+    path = root / receipt["local_file"]
+    if not path.exists() or hashlib.sha256(path.read_bytes()).hexdigest() != receipt["sha256"]:
+        errors.append(f"AMR YouTube receipt missing or hash mismatch: {receipt.get('local_file')}")
+for row in youtube_items:
+    for relative in row.get("caption_receipts", []):
+        path = root / relative
+        if not path.exists() or not path.read_bytes().startswith(b"WEBVTT"):
+            errors.append(f"AMR YouTube caption is missing or not VTT: {relative}")
+
+cross_platform = load("sources/normalized/amr/cross-platform-content-map-2023-2026.json")
+groups = cross_platform.get("groups", [])
+if len(groups) != 112:
+    errors.append(f"AMR cross-platform map: expected 112 exact-title groups, found {len(groups)}")
+known_platform_ids = {
+    *(row.get("stable_item_id") for row in substack_items),
+    *(row.get("stable_item_id") for row in youtube_items),
+    *(f"website-{index}" for index in range(1, len(amr_items) + 1)),
+}
+for group in groups:
+    if len(set(group.get("platforms", []))) < 2:
+        errors.append(f"AMR cross-platform group is not cross-platform: {group.get('title_key')}")
+    for item in group.get("items", []):
+        if item.get("stable_item_id") not in known_platform_ids:
+            errors.append(f"AMR cross-platform group has unknown item: {item.get('stable_item_id')}")
+
 revoice_manifest = load("sources/raw/issues/revoice/documents/manifest.json")
 if len(revoice_manifest.get("documents", [])) != 7:
     errors.append("Revoice/Missouri archive: expected seven preserved PDFs")

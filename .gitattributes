@@ -1,0 +1,3 @@
+# Preserve upstream caption bytes exactly; YouTube VTT commonly contains cue lines
+# with intentional trailing spaces and a final blank line.
+sources/raw/media/amr/youtube-*/captions/*.vtt whitespace=-trailing-space,-blank-at-eof

@@ -1,0 +1,102 @@
+{
+  "captured_on": "2026-09-03",
+  "source": "https://a4mr.substack.com/",
+  "item_count": 133,
+  "receipts": [
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-000.json",
+      "size_bytes": 35349,
+      "sha256": "f710ba8edc6f60a74fe3b613c8a79353248a9b15dcea11b8e3034a7b8626cab9",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=0&limit=12",
+      "offset": 0,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-012.json",
+      "size_bytes": 37690,
+      "sha256": "f811eff7b9cd14114c2d248aa1a5550532b8eb38fd4eb042ece45080986bb993",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=12&limit=12",
+      "offset": 12,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-024.json",
+      "size_bytes": 34296,
+      "sha256": "a7fb02997a0ad34bc8d6a71bdf6a8c37dee0c7e2915c62201e138dcdbf5a759f",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=24&limit=12",
+      "offset": 24,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-036.json",
+      "size_bytes": 35159,
+      "sha256": "e15b90f3bd6985ca36655ac10f2d45d192d49a21927ce0c0f93ff263cb5b4906",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=36&limit=12",
+      "offset": 36,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-048.json",
+      "size_bytes": 39367,
+      "sha256": "50d8ab3a56106a146cd100e28f8dbc05a632eba80cc49b31f9a0c848d304f2c2",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=48&limit=12",
+      "offset": 48,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-060.json",
+      "size_bytes": 34886,
+      "sha256": "78f0715591c8d3b21fc6f0094ac8b09b97d0bedb1621427a434052d6f7b1d6cc",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=60&limit=12",
+      "offset": 60,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-072.json",
+      "size_bytes": 35750,
+      "sha256": "d22c47f1307d844ab035890a24f99ec1409a85fe4607a9ceaf190e9fbcab9f38",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=72&limit=12",
+      "offset": 72,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-084.json",
+      "size_bytes": 35062,
+      "sha256": "eaabe5ff526b91c61a6217276499348fd2acc2cfadd728c1c452cc0f97bcef39",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=84&limit=12",
+      "offset": 84,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-096.json",
+      "size_bytes": 33270,
+      "sha256": "f394c82b3b94a535b198628b8e767ddb4caa2405623a31d05f1c3dc1cf4e754d",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=96&limit=12",
+      "offset": 96,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-108.json",
+      "size_bytes": 35043,
+      "sha256": "4cf6e8e84c962c0bee90be13765fdf95b35e8843ce5e14382f6da4a5757e0e08",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=108&limit=12",
+      "offset": 108,
+      "record_count": 12
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/archive-offset-120.json",
+      "size_bytes": 24018,
+      "sha256": "84cc302ce4f4fc38bfde622012a8b34a95a94216068b842f8aaed767e67785ad",
+      "url": "https://a4mr.substack.com/api/v1/archive?sort=new&search=&offset=120&limit=12",
+      "offset": 120,
+      "record_count": 8
+    },
+    {
+      "local_file": "sources/raw/media/amr/substack-2026-09-03/feed.xml",
+      "size_bytes": 225853,
+      "sha256": "faea0e6a71803a6bffe3ef52e7058aa90259befea32d94967ec289309d746eae",
+      "url": "https://a4mr.substack.com/feed",
+      "format": "rss"
+    }
+  ]
+}
