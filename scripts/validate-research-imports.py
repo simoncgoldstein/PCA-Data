@@ -254,6 +254,33 @@ heal = publication_by_id.get("heal-us-emmanuel-2016", {})
 if "Jonathan Seda" not in heal.get("contributors", []) or "Jonathan Edgar" in heal.get("contributors", []):
     errors.append("Heal Us, Emmanuel: chapter 29 screenshot correction must remain Jonathan Seda")
 
+ruf_transitions = load("sources/normalized/institutions/ruf/role-transitions-2026.json")
+ruf_events = ruf_transitions.get("events", [])
+if len(ruf_events) != 213 or ruf_transitions.get("metadata", {}).get("record_count") != 213:
+    errors.append(f"RUF transitions: expected 213 events, found {len(ruf_events)}")
+expected_ruf_event_counts = {"started_role": 129, "transitioned_role": 10, "ended_role": 74}
+actual_ruf_event_counts = {key: sum(row.get("event_type") == key for row in ruf_events) for key in expected_ruf_event_counts}
+if actual_ruf_event_counts != expected_ruf_event_counts:
+    errors.append(f"RUF transitions: unexpected event counts {actual_ruf_event_counts}")
+if len({row.get("event_id") for row in ruf_events}) != len(ruf_events):
+    errors.append("RUF transitions: event IDs must be unique")
+for row in ruf_events:
+    if row.get("ideological_weight") != 0:
+        errors.append(f"RUF transition {row.get('event_id')}: institutional service must have zero ideological weight")
+    if not row.get("name_as_printed") or not row.get("source_line") or not row.get("source_url"):
+        errors.append(f"RUF transition {row.get('event_id')}: source fidelity field missing")
+    if row.get("source_class_as_printed") in {"2026 departing Campus Ministers and Campus Staff", "2026 departing Interns and Fellows"}:
+        if row.get("role_as_printed") is not None or row.get("campus_as_printed") is not None:
+            errors.append(f"RUF transition {row.get('event_id')}: departure source must not infer exact role or campus")
+cmda = [row for row in ruf_events if row.get("source_class_as_printed") == "2026 new Campus Ministers, Directors, and Assistants"]
+if len(cmda) != 20 or any(row.get("role_as_printed") is not None or not row.get("campus_as_printed") for row in cmda):
+    errors.append("RUF transitions: combined minister/director/assistant class must preserve campus without inventing exact roles")
+if len([row for row in ruf_events if row.get("name_as_printed") == "Tyler Luehrs"]) != 2:
+    errors.append("RUF transitions: duplicate Tyler Luehrs source rows must remain preserved")
+for required_name in ("Niko Fanin", "Niko Fannin", "Aiden Tuberville", "AidenTuberville", "Mike Park / Mike S. Park", "Matt Terrell", "Joy Beans"):
+    if not any(row.get("name_as_printed") == required_name for row in ruf_events):
+        errors.append(f"RUF transitions: preserved source form missing: {required_name}")
+
 identity = load("sources/normalized/identity/person-crosswalk.json")
 identity_rows = identity.get("records", [])
 allowed_statuses = {"exact_confirmed", "context_confirmed", "probable_requires_review", "ambiguous", "collision", "unmatched"}
@@ -289,8 +316,14 @@ if identity_record_count != len(identity_rows):
     errors.append(f"identity summary record_count mismatch: metadata={identity_record_count} crosswalk={len(identity_rows)}")
 if len(identity_rows) < 2799:
     errors.append(f"identity crosswalk regressed below established 2,799-row baseline: {len(identity_rows)} rows")
-if len(identity_summary.get("datasets", [])) != 28:
-    errors.append("identity summary: expected 28 source-bounded datasets")
+identity_datasets = identity_summary.get("datasets", [])
+if len(identity_datasets) < 28:
+    errors.append(f"identity summary regressed below established 28 source-bounded datasets: {len(identity_datasets)}")
+if len({row.get("source_dataset") for row in identity_datasets}) != len(identity_datasets):
+    errors.append("identity summary contains duplicate source-dataset entries")
+ruf_identity_summary = next((row for row in identity_datasets if row.get("source_dataset") == "ruf_staff_transitions_2026"), None)
+if not ruf_identity_summary or ruf_identity_summary.get("row_count") != 213:
+    errors.append("identity summary: expected 213 RUF 2026 staff-transition rows")
 amr_youtube_summary = next(
     (row for row in identity_summary.get("datasets", []) if row.get("source_dataset") == "amr_youtube_media_2023_2026"),
     None,

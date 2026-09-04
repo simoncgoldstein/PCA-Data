@@ -6,6 +6,72 @@
   },
   "people": [
     {
+      "canonical_person_id": "andrew-mauney",
+      "name": "Andrew Mauney",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:442:reformed-university-fellowship:line:75",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-022"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "caleb-hughes",
+      "name": "Caleb Hughes",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:438:reformed-university-fellowship:line:71",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-018"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "caleb-jakana",
+      "name": "Caleb Jakana",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:439:reformed-university-fellowship:line:72",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-019"
+        }
+      ]
+    },
+    {
       "canonical_person_id": "cameron-anderson",
       "name": "Cameron Anderson",
       "dated_institutional_role_edges": [
@@ -35,6 +101,28 @@
       ]
     },
     {
+      "canonical_person_id": "chad-turner",
+      "name": "Chad Turner",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:448:reformed-university-fellowship:line:81",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-028"
+        }
+      ]
+    },
+    {
       "canonical_person_id": "charles-mcknight",
       "name": "Charles McKnight",
       "dated_institutional_role_edges": [
@@ -53,6 +141,292 @@
           "relationship_type": "formal_protest_signature",
           "source_path": "sources/normalized/revoice/warhurst-protest-signers-2019.json",
           "source_locator": "print_order:2"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "iain-coston",
+      "name": "Iain Coston",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:434:reformed-university-fellowship:line:67",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-014"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "ian-deffenbaugh",
+      "name": "Ian Deffenbaugh",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:435:reformed-university-fellowship:line:68",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-015"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "isaac-noh",
+      "name": "Isaac Noh",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:445:reformed-university-fellowship:line:78",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-025"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "jackson-vanderark",
+      "name": "Jackson VanderArk",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:449:reformed-university-fellowship:line:82",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-029"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "jake-willeman",
+      "name": "Jake Willeman",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:451:reformed-university-fellowship:line:84",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-031"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "james-rantzow",
+      "name": "James Rantzow",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:447:reformed-university-fellowship:line:80",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-027"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "jared-brown",
+      "name": "Jared Brown",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:433:reformed-university-fellowship:line:66",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-013"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "jeff-neikirk",
+      "name": "Jeff Neikirk",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:444:reformed-university-fellowship:line:77",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-024"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "joelle-smith",
+      "name": "Joelle Smith",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:426:reformed-university-fellowship:line:51",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-137"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "jonah-brenner",
+      "name": "Jonah Brenner",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:432:reformed-university-fellowship:line:65",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-012"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "jordan-perkins",
+      "name": "Jordan Perkins",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:446:reformed-university-fellowship:line:79",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-026"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "katie-paterson",
+      "name": "Katie Paterson",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:428:reformed-university-fellowship:line:53",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-139"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "luke-wilkerson",
+      "name": "Luke Wilkerson",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:450:reformed-university-fellowship:line:83",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-030"
         }
       ]
     },
@@ -82,6 +456,50 @@
           "relationship_type": "public_letter_signature",
           "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json",
           "source_locator": "signature:26"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "nate-fowler",
+      "name": "Nate Fowler",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:437:reformed-university-fellowship:line:70",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-017"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "noah-lykins",
+      "name": "Noah Lykins",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:441:reformed-university-fellowship:line:74",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-021"
         }
       ]
     },
@@ -139,6 +557,28 @@
           "relationship_type": "formal_protest_signature",
           "source_path": "sources/normalized/revoice/warhurst-protest-signers-2019.json",
           "source_locator": "print_order:23"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "robert-kullberg",
+      "name": "Robert Kullberg",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:440:reformed-university-fellowship:line:73",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-020"
         }
       ]
     },
@@ -325,9 +765,80 @@
           "source_locator": "chapter:18:contributor:1"
         }
       ]
+    },
+    {
+      "canonical_person_id": "taylor-mcpherson",
+      "name": "Taylor McPherson",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:443:reformed-university-fellowship:line:76",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-023"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "thomas-hicks",
+      "name": "Thomas Hicks",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:425:reformed-university-fellowship:line:50",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-136"
+        }
+      ]
+    },
+    {
+      "canonical_person_id": "zach-fiol",
+      "name": "Zach Fiol",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "reformed-university-fellowship",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:436:reformed-university-fellowship:line:69",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "ruf_staff_transitions_2026",
+          "year": null,
+          "relationship_type": "ruf_started_role",
+          "source_path": "sources/normalized/institutions/ruf/role-transitions-2026.json",
+          "source_locator": "ruf-2026-transition-016"
+        }
+      ]
     }
   ],
   "common_role_to_dataset_cooccurrences": [
+    {
+      "institution": "reformed-university-fellowship",
+      "other_dataset": "ruf_staff_transitions_2026",
+      "confirmed_person_count": 23
+    },
     {
       "institution": "reformed-theological-seminary",
       "other_dataset": "amr_website_media_2023_2026",

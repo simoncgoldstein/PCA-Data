@@ -315,6 +315,28 @@ for index, row in enumerate(institution_data["roles"], 1):
     )
 
 
+# Dated RUF 2026 staff transitions remain a separate event dataset.
+relative = "sources/normalized/institutions/ruf/role-transitions-2026.json"
+ruf_transition_data = load(relative)
+for row in ruf_transition_data.get("events", []):
+    institutions = ["reformed-university-fellowship"]
+    if row.get("campus_as_printed"):
+        institutions.append(row["campus_as_printed"])
+    add_record(
+        dataset="ruf_staff_transitions_2026",
+        family="ruf_staff_transitions",
+        source_path=relative,
+        locator=row["event_id"],
+        printed_name=row["name_as_printed"],
+        row=None,
+        source_tier="official_institutional",
+        completeness="complete_official_2026_transition_announcements",
+        evidence_type=f"ruf_{row['event_type']}",
+        institutions=institutions,
+        backfill=False,
+    )
+
+
 # Publication chapter rosters, now backed by archived screenshots.
 relative = "data/publication_contributors.json"
 publication_data = register_json(relative)

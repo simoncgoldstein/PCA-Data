@@ -1,9 +1,9 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 2952,
-    "canonical_person_count": 207,
-    "new_person_count": 190,
+    "record_count": 3165,
+    "canonical_person_count": 230,
+    "new_person_count": 213,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -13,12 +13,12 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 312,
+    "ambiguous": 340,
     "collision": 10,
-    "context_confirmed": 555,
+    "context_confirmed": 601,
     "exact_confirmed": 119,
-    "probable_requires_review": 263,
-    "unmatched": 1693
+    "probable_requires_review": 272,
+    "unmatched": 1823
   },
   "datasets": [
     {
@@ -31,9 +31,9 @@
         "exact_confirmed": 13,
         "context_confirmed": 111,
         "probable_requires_review": 28,
-        "ambiguous": 59,
+        "ambiguous": 60,
         "collision": 1,
-        "unmatched": 359
+        "unmatched": 358
       },
       "percent_rows_resolved": 21.72,
       "source_tier": [
@@ -53,9 +53,9 @@
         "exact_confirmed": 13,
         "context_confirmed": 142,
         "probable_requires_review": 29,
-        "ambiguous": 64,
+        "ambiguous": 65,
         "collision": 1,
-        "unmatched": 488
+        "unmatched": 487
       },
       "percent_rows_resolved": 21.03,
       "source_tier": [
@@ -96,10 +96,10 @@
       "match_status_counts": {
         "exact_confirmed": 34,
         "context_confirmed": 0,
-        "probable_requires_review": 42,
+        "probable_requires_review": 43,
         "ambiguous": 46,
         "collision": 1,
-        "unmatched": 13
+        "unmatched": 12
       },
       "percent_rows_resolved": 25.0,
       "source_tier": [
@@ -118,10 +118,10 @@
       "match_status_counts": {
         "exact_confirmed": 12,
         "context_confirmed": 0,
-        "probable_requires_review": 23,
+        "probable_requires_review": 24,
         "ambiguous": 32,
         "collision": 0,
-        "unmatched": 16
+        "unmatched": 15
       },
       "percent_rows_resolved": 14.46,
       "source_tier": [
@@ -163,9 +163,9 @@
         "exact_confirmed": 0,
         "context_confirmed": 0,
         "probable_requires_review": 6,
-        "ambiguous": 1,
+        "ambiguous": 2,
         "collision": 0,
-        "unmatched": 41
+        "unmatched": 40
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
@@ -294,10 +294,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 1,
+        "probable_requires_review": 2,
         "ambiguous": 0,
         "collision": 0,
-        "unmatched": 18
+        "unmatched": 17
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
@@ -355,17 +355,17 @@
       "source_dataset": "institution_reformed-university-fellowship",
       "row_count": 33,
       "unique_printed_name_count": 33,
-      "confirmed_canonical_person_count": 1,
-      "confirmed_row_count": 1,
+      "confirmed_canonical_person_count": 24,
+      "confirmed_row_count": 24,
       "match_status_counts": {
         "exact_confirmed": 1,
-        "context_confirmed": 0,
+        "context_confirmed": 23,
         "probable_requires_review": 1,
-        "ambiguous": 0,
+        "ambiguous": 1,
         "collision": 0,
-        "unmatched": 31
+        "unmatched": 7
       },
-      "percent_rows_resolved": 3.03,
+      "percent_rows_resolved": 72.73,
       "source_tier": [
         "official_institutional"
       ],
@@ -448,10 +448,10 @@
       "match_status_counts": {
         "exact_confirmed": 2,
         "context_confirmed": 77,
-        "probable_requires_review": 14,
+        "probable_requires_review": 15,
         "ambiguous": 18,
         "collision": 1,
-        "unmatched": 91
+        "unmatched": 90
       },
       "percent_rows_resolved": 38.92,
       "source_tier": [
@@ -613,6 +613,28 @@
       ],
       "completeness_status": [
         "complete_visible_chapter_table"
+      ]
+    },
+    {
+      "source_dataset": "ruf_staff_transitions_2026",
+      "row_count": 213,
+      "unique_printed_name_count": 203,
+      "confirmed_canonical_person_count": 23,
+      "confirmed_row_count": 23,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 23,
+        "probable_requires_review": 5,
+        "ambiguous": 24,
+        "collision": 0,
+        "unmatched": 161
+      },
+      "percent_rows_resolved": 10.8,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "complete_official_2026_transition_announcements"
       ]
     },
     {
