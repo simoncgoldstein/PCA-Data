@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "dataset_id": "amr_2026_chuck_colson_lords_supper_distribution",
+    "organization": "Alliance for Mission & Renewal",
+    "source_family": "amr_colson_lords_supper_distribution_2026",
+    "source_type": "first_party_authored_article",
+    "published_on": "2026-06-16",
+    "normalized_on": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Record only positions Chuck Colson states in his authored article. Distinguish administration/consecration by the ordained minister from subsequent physical distribution or division of the elements by communicants, as Colson explicitly does.",
+    "identity_rule": "Name is preserved as printed. This dataset does not create or relax person-identity matches.",
+    "copyright_boundary": "Normalized records contain bounded factual paraphrases and section locators, not reproduced article text."
+  },
+  "source": {
+    "title": "Parsing a Passing Distinction",
+    "author_as_printed": "Chuck Colson",
+    "role_as_printed": "Lead Pastor, ChristChurch Presbyterian in Atlanta",
+    "url": "https://a4mr.org/parsing-a-passing-distinction/"
+  },
+  "positions": [
+    {
+      "position_id": "amr-2026-colson-serving-passing-distinction",
+      "person_name_as_stated": "Chuck Colson",
+      "normalized_person_id": null,
+      "topic": "lords_supper_serving_vs_passing_distinction",
+      "related_overtures": ["2026 Overture 31", "2026 Overture 60"],
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "oppose_restriction_based_on_serving_passing_distinction",
+      "summary": "Colson argues that the proposed distinction between 'serving' and 'merely passing' the Lord's Supper elements is too unclear to support the restrictions sought by Overtures 31 and 60. He contends that common PCA distribution practices make the boundary between the two actions indeterminate and that the distinction creates more confusion than clarity.",
+      "source_locators": [
+        "Distributing the Elements",
+        "Paragraph concluding that lack of clarity undermines the overtures' usefulness"
+      ],
+      "important_boundary": "This records Colson's objection to restricting distribution through the serving/passing distinction. It does not imply that he denies the ordained minister's distinctive responsibility to administer the sacrament.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-colson-minister-administers-people-distribute",
+      "person_name_as_stated": "Chuck Colson",
+      "normalized_person_id": null,
+      "topic": "lords_supper_administration_and_lay_distribution",
+      "related_overtures": ["2026 Overture 31", "2026 Overture 60"],
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_ordained_administration_with_distribution_by_communicants",
+      "summary": "Colson positively appeals to John Knox's communion order as a model in which the presiding ordained minister gives thanks, breaks and delivers the consecrated elements to the people, while the communicants then distribute and divide the elements among themselves. He argues that this physical distribution is not itself an exercise of the keys of the kingdom.",
+      "source_locators": [
+        "Recommendation for Distribution",
+        "Discussion of Knox's twofold distinction between ministerial delivery and distribution among the people"
+      ],
+      "important_boundary": "Colson retains a distinct ministerial act of administering and initially delivering the sacrament. His argument concerns the subsequent distribution/division of the elements, not lay consecration or lay sacramental administration.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-colson-distribution-not-keys",
+      "person_name_as_stated": "Chuck Colson",
+      "normalized_person_id": null,
+      "topic": "lords_supper_distribution_and_ecclesiastical_authority",
+      "related_overtures": ["2026 Overture 60"],
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "reject_necessary_connection_between_distribution_details_and_keys",
+      "summary": "Colson rejects a necessary connection between the detailed mechanics of distributing the Lord's Supper elements and the keys of the kingdom. He argues that requiring ordained officers to control those distribution details goes beyond Scripture and that denominational attention should focus instead on faithful administration, thanksgiving, and a Christ-centered communion ethos.",
+      "source_locators": [
+        "Recommendation for Distribution",
+        "Conclusion"
+      ],
+      "important_boundary": "This position concerns the mechanics of distribution after sacramental administration. It does not deny ordained oversight of the sacrament or the church's authority to regulate worship biblically.",
+      "ideological_weight": 0
+    }
+  ]
+}
