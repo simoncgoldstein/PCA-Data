@@ -5863,7 +5863,7 @@
       "state_or_region_as_printed": "SC",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Palmetto Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "sammy-rhodes",
       "details_as_printed": [
         "RUF Campus Minister",
         "University of South Carolina"
@@ -6043,7 +6043,7 @@
       "state_or_region_as_printed": "CA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Pacific Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "matthew-trexler",
       "details_as_printed": [
         "RUF Campus Minister",
         "University of California, Los Angeles"
@@ -6155,7 +6155,7 @@
       "state_or_region_as_printed": null,
       "country_as_printed": null,
       "presbytery_as_printed": "Metro Atlanta Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "george-hamm",
       "details_as_printed": [
         "RUF Campus Minister",
         "Emory University"
@@ -6506,7 +6506,7 @@
       "state_or_region_as_printed": "GA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Georgia Foothills Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "ben-coppedge",
       "details_as_printed": [
         "RUF Campus Minister",
         "The University of Georgia"
@@ -12897,7 +12897,7 @@
       "state_or_region_as_printed": "TN",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Covenant Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "john-craft",
       "details_as_printed": [
         "RUF Campus Minister",
         "Rhodes College"
@@ -15837,7 +15837,7 @@
       "state_or_region_as_printed": null,
       "country_as_printed": null,
       "presbytery_as_printed": "Southern New England Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "nathan-dicks",
       "details_as_printed": [
         "RUF Campus Minister",
         "Boston University"

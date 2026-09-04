@@ -8,11 +8,11 @@
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 124,
-      "unmatched_count": 358,
-      "probable_requires_review_count": 28,
-      "ambiguous_or_collision_count": 61,
-      "percentage_resolved": 21.72,
+      "confirmed_canonical_person_count": 128,
+      "unmatched_count": 348,
+      "probable_requires_review_count": 32,
+      "ambiguous_or_collision_count": 63,
+      "percentage_resolved": 22.42,
       "source_tier": [
         "first_party_archive"
       ],
@@ -24,11 +24,11 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 155,
-      "unmatched_count": 487,
-      "probable_requires_review_count": 29,
-      "ambiguous_or_collision_count": 66,
-      "percentage_resolved": 21.03,
+      "confirmed_canonical_person_count": 161,
+      "unmatched_count": 475,
+      "probable_requires_review_count": 33,
+      "ambiguous_or_collision_count": 68,
+      "percentage_resolved": 21.85,
       "source_tier": [
         "first_party_archive"
       ],
@@ -57,8 +57,8 @@
       "row_count": 136,
       "unique_printed_name_count": 60,
       "confirmed_canonical_person_count": 6,
-      "unmatched_count": 12,
-      "probable_requires_review_count": 43,
+      "unmatched_count": 11,
+      "probable_requires_review_count": 44,
       "ambiguous_or_collision_count": 47,
       "percentage_resolved": 25.0,
       "source_tier": [
@@ -313,8 +313,8 @@
       "row_count": 203,
       "unique_printed_name_count": 203,
       "confirmed_canonical_person_count": 79,
-      "unmatched_count": 90,
-      "probable_requires_review_count": 15,
+      "unmatched_count": 89,
+      "probable_requires_review_count": 16,
       "ambiguous_or_collision_count": 19,
       "percentage_resolved": 38.92,
       "source_tier": [
@@ -361,8 +361,8 @@
       "row_count": 199,
       "unique_printed_name_count": 199,
       "confirmed_canonical_person_count": 101,
-      "unmatched_count": 63,
-      "probable_requires_review_count": 13,
+      "unmatched_count": 59,
+      "probable_requires_review_count": 17,
       "ambiguous_or_collision_count": 22,
       "percentage_resolved": 50.75,
       "source_tier": [
@@ -377,8 +377,8 @@
       "row_count": 28,
       "unique_printed_name_count": 28,
       "confirmed_canonical_person_count": 15,
-      "unmatched_count": 4,
-      "probable_requires_review_count": 3,
+      "unmatched_count": 3,
+      "probable_requires_review_count": 4,
       "ambiguous_or_collision_count": 6,
       "percentage_resolved": 53.57,
       "source_tier": [
@@ -434,6 +434,22 @@
       ],
       "completeness_status": [
         "complete_visible_chapter_table"
+      ]
+    },
+    {
+      "source_dataset": "ruf_campus_catalog_2025",
+      "row_count": 414,
+      "unique_printed_name_count": 414,
+      "confirmed_canonical_person_count": 8,
+      "unmatched_count": 372,
+      "probable_requires_review_count": 20,
+      "ambiguous_or_collision_count": 14,
+      "percentage_resolved": 1.93,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "complete_catalog_listed_campus_roles_2025_10_01"
       ]
     },
     {
