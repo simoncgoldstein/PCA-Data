@@ -1,0 +1,81 @@
+{
+  "metadata": {
+    "dataset_id": "amr_2026_three_views_female_deacons",
+    "organization": "Alliance for Mission & Renewal",
+    "source_family": "amr_three_views_female_deacons_2026",
+    "source_type": "first_party_article_package_with_linked_author_essays",
+    "published_on": "2026-04-10",
+    "normalized_on": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Normalize each named author's stated position separately. The AMR package explicitly presents multiple views and does not establish one organizational position. Do not infer agreement among the three authors or from AMR publication itself.",
+    "identity_rule": "Names are preserved as printed in the source package. This dataset does not create or relax person-identity matches.",
+    "copyright_boundary": "Normalized records contain bounded factual paraphrases and source locators, not reproduced article text."
+  },
+  "package_source": {
+    "title": "Three Views on Female Deacons",
+    "url": "https://a4mr.org/three-views-on-female-deacons/",
+    "authors_as_printed": [
+      "Geoff Ziegler",
+      "Jared Nelson",
+      "Jeffrey Choi"
+    ],
+    "package_boundary": "AMR states that these articles are offered as three perspectives and not because AMR holds a single unified position on the diaconate."
+  },
+  "positions": [
+    {
+      "position_id": "amr-2026-female-deacons-jared-nelson",
+      "person_name_as_stated": "Jared Nelson",
+      "normalized_person_id": null,
+      "topic": "female_deacons_and_ordained_diaconate",
+      "related_overture": "2026 Overture 37",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "oppose_women_in_ordained_diaconate",
+      "summary": "Nelson argues for a male-only ordained diaconate. He treats Acts 6 and 1 Timothy 3 as supporting qualified men in the office, reads Romans 16:1 as compatible with Phoebe serving without holding the ordained diaconal office, and concludes that Overture 37 lacks compelling biblical and historical warrant. He affirms substantial service by women while distinguishing that service from the ordained office of deacon.",
+      "source_url": "https://a4mr.substack.com/p/against-allowing-women-to-be-deacons",
+      "source_locators": [
+        "Conclusion section: explicit rejection of an egalitarian diaconate and Overture 37",
+        "Final paragraphs: male-only diaconate maintained while affirming women's service"
+      ],
+      "important_boundary": "Nelson acknowledges respected theologians and NAPARC denominations that disagree and calls for respectful discussion. Do not model his view as opposition to women serving in the church generally.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-female-deacons-jeffrey-choi",
+      "person_name_as_stated": "Jeffrey Choi",
+      "normalized_person_id": null,
+      "topic": "female_deacons_and_local_discretion",
+      "related_overture": "2026 Overture 37",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_allowing_women_deacons_under_local_discretion",
+      "summary": "Choi argues that the biblical evidence does not justify a categorical prohibition on women serving in the diaconate. He distinguishes the non-ruling diaconate from elder authority, reads Romans 16:1 and 1 Timothy 3:11 as supporting an official diaconal role for women, treats Acts 6 as non-conclusive, and argues that local sessions should be permitted to decide whether to have women deacons rather than requiring the practice denomination-wide.",
+      "source_url": "https://a4mr.substack.com/p/in-favor-of-allowing-women-to-be",
+      "source_locators": [
+        "The Bigger Picture: PCA Wisdom",
+        "Conclusion"
+      ],
+      "important_boundary": "Choi does not argue that every PCA church must ordain women as deacons. His stated proposal is permissive and local-discretionary rather than mandatory.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-female-deacons-geoff-ziegler",
+      "person_name_as_stated": "Geoff Ziegler",
+      "normalized_person_id": null,
+      "topic": "female_deacons_denominational_forbearance_and_consensus",
+      "related_overture": "2026 Overture 37",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "oppose_overture_37_now_while_treating_women_deacons_as_permissible_view",
+      "summary": "Ziegler argues that the PCA should preserve room for continued disagreement over women in diaconal ministry. He states that women deacons are not equivalent to women elders and that having women deacons is within the bounds of conservative biblical interpretation. At the same time, he argues that members should submit to the PCA's current standards and that Overture 37 should not be enacted at present because such a significant change lacks sufficiently broad denominational consensus.",
+      "source_url": "https://a4mr.substack.com/p/how-to-navigate-our-ongoing-differencesgeoff",
+      "source_locators": [
+        "Principle 1: current standards and subjection",
+        "Principle 2: women deacons distinguished from women elders",
+        "Principle 3: widespread consensus and explicit Overture 37 conclusion"
+      ],
+      "important_boundary": "Ziegler deliberately does not resolve whether a church ought to appoint women deacons. His article supports continued discussion and treats the practice as biblically permissible while opposing this denominational change at this time for polity and consensus reasons.",
+      "ideological_weight": 0
+    }
+  ]
+}
