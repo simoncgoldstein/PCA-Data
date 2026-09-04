@@ -324,7 +324,7 @@ for row in ruf_transition_data.get("events", []):
         institutions.append(row["campus_as_printed"])
     add_record(
         dataset="ruf_staff_transitions_2026",
-        family="ruf_staff_transitions",
+        family="institution_reformed-university-fellowship",
         source_path=relative,
         locator=row["event_id"],
         printed_name=row["name_as_printed"],

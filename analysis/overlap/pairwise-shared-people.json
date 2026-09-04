@@ -8116,239 +8116,32 @@
     {
       "dataset_a": "institution_reformed-university-fellowship",
       "dataset_b": "ruf_staff_transitions_2026",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "andrew-mauney",
-          "name": "Andrew Mauney",
-          "dataset_a_locators": [
-            "role:442:reformed-university-fellowship:line:75"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-022"
-          ]
-        },
-        {
-          "canonical_person_id": "caleb-hughes",
-          "name": "Caleb Hughes",
-          "dataset_a_locators": [
-            "role:438:reformed-university-fellowship:line:71"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-018"
-          ]
-        },
-        {
-          "canonical_person_id": "caleb-jakana",
-          "name": "Caleb Jakana",
-          "dataset_a_locators": [
-            "role:439:reformed-university-fellowship:line:72"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-019"
-          ]
-        },
-        {
-          "canonical_person_id": "chad-turner",
-          "name": "Chad Turner",
-          "dataset_a_locators": [
-            "role:448:reformed-university-fellowship:line:81"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-028"
-          ]
-        },
-        {
-          "canonical_person_id": "iain-coston",
-          "name": "Iain Coston",
-          "dataset_a_locators": [
-            "role:434:reformed-university-fellowship:line:67"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-014"
-          ]
-        },
-        {
-          "canonical_person_id": "ian-deffenbaugh",
-          "name": "Ian Deffenbaugh",
-          "dataset_a_locators": [
-            "role:435:reformed-university-fellowship:line:68"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-015"
-          ]
-        },
-        {
-          "canonical_person_id": "isaac-noh",
-          "name": "Isaac Noh",
-          "dataset_a_locators": [
-            "role:445:reformed-university-fellowship:line:78"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-025"
-          ]
-        },
-        {
-          "canonical_person_id": "jackson-vanderark",
-          "name": "Jackson VanderArk",
-          "dataset_a_locators": [
-            "role:449:reformed-university-fellowship:line:82"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-029"
-          ]
-        },
-        {
-          "canonical_person_id": "jake-willeman",
-          "name": "Jake Willeman",
-          "dataset_a_locators": [
-            "role:451:reformed-university-fellowship:line:84"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-031"
-          ]
-        },
-        {
-          "canonical_person_id": "james-rantzow",
-          "name": "James Rantzow",
-          "dataset_a_locators": [
-            "role:447:reformed-university-fellowship:line:80"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-027"
-          ]
-        },
-        {
-          "canonical_person_id": "jared-brown",
-          "name": "Jared Brown",
-          "dataset_a_locators": [
-            "role:433:reformed-university-fellowship:line:66"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-013"
-          ]
-        },
-        {
-          "canonical_person_id": "jeff-neikirk",
-          "name": "Jeff Neikirk",
-          "dataset_a_locators": [
-            "role:444:reformed-university-fellowship:line:77"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-024"
-          ]
-        },
-        {
-          "canonical_person_id": "joelle-smith",
-          "name": "Joelle Smith",
-          "dataset_a_locators": [
-            "role:426:reformed-university-fellowship:line:51"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-137"
-          ]
-        },
-        {
-          "canonical_person_id": "jonah-brenner",
-          "name": "Jonah Brenner",
-          "dataset_a_locators": [
-            "role:432:reformed-university-fellowship:line:65"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-012"
-          ]
-        },
-        {
-          "canonical_person_id": "jordan-perkins",
-          "name": "Jordan Perkins",
-          "dataset_a_locators": [
-            "role:446:reformed-university-fellowship:line:79"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-026"
-          ]
-        },
-        {
-          "canonical_person_id": "katie-paterson",
-          "name": "Katie Paterson",
-          "dataset_a_locators": [
-            "role:428:reformed-university-fellowship:line:53"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-139"
-          ]
-        },
-        {
-          "canonical_person_id": "luke-wilkerson",
-          "name": "Luke Wilkerson",
-          "dataset_a_locators": [
-            "role:450:reformed-university-fellowship:line:83"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-030"
-          ]
-        },
-        {
-          "canonical_person_id": "nate-fowler",
-          "name": "Nate Fowler",
-          "dataset_a_locators": [
-            "role:437:reformed-university-fellowship:line:70"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-017"
-          ]
-        },
-        {
-          "canonical_person_id": "noah-lykins",
-          "name": "Noah Lykins",
-          "dataset_a_locators": [
-            "role:441:reformed-university-fellowship:line:74"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-021"
-          ]
-        },
-        {
-          "canonical_person_id": "robert-kullberg",
-          "name": "Robert Kullberg",
-          "dataset_a_locators": [
-            "role:440:reformed-university-fellowship:line:73"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-020"
-          ]
-        },
-        {
-          "canonical_person_id": "taylor-mcpherson",
-          "name": "Taylor McPherson",
-          "dataset_a_locators": [
-            "role:443:reformed-university-fellowship:line:76"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-023"
-          ]
-        },
-        {
-          "canonical_person_id": "thomas-hicks",
-          "name": "Thomas Hicks",
-          "dataset_a_locators": [
-            "role:425:reformed-university-fellowship:line:50"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-136"
-          ]
-        },
-        {
-          "canonical_person_id": "zach-fiol",
-          "name": "Zach Fiol",
-          "dataset_a_locators": [
-            "role:436:reformed-university-fellowship:line:69"
-          ],
-          "dataset_b_locators": [
-            "ruf-2026-transition-016"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andrew mauney",
+        "caleb hughes",
+        "caleb jakana",
+        "chad turner",
+        "iain coston",
+        "ian deffenbaugh",
+        "isaac noh",
+        "jackson vanderark",
+        "jake willeman",
+        "james rantzow",
+        "jared brown",
+        "jeff neikirk",
+        "joelle smith",
+        "jonah brenner",
+        "jordan perkins",
+        "katie paterson",
+        "luke wilkerson",
+        "nate fowler",
+        "noah lykins",
+        "robert kullberg",
+        "taylor mcpherson",
+        "thomas hicks",
+        "zach fiol"
+      ]
     },
     {
       "dataset_a": "institution_westminster-theological-seminary",

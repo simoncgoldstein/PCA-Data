@@ -2,8 +2,8 @@
   "metadata": {
     "generated_on": "2026-09-04",
     "record_count": 3165,
-    "canonical_person_count": 230,
-    "new_person_count": 213,
+    "canonical_person_count": 207,
+    "new_person_count": 190,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -15,10 +15,10 @@
   "overall_match_status_counts": {
     "ambiguous": 340,
     "collision": 10,
-    "context_confirmed": 601,
+    "context_confirmed": 555,
     "exact_confirmed": 119,
     "probable_requires_review": 272,
-    "unmatched": 1823
+    "unmatched": 1869
   },
   "datasets": [
     {
@@ -355,17 +355,17 @@
       "source_dataset": "institution_reformed-university-fellowship",
       "row_count": 33,
       "unique_printed_name_count": 33,
-      "confirmed_canonical_person_count": 24,
-      "confirmed_row_count": 24,
+      "confirmed_canonical_person_count": 1,
+      "confirmed_row_count": 1,
       "match_status_counts": {
         "exact_confirmed": 1,
-        "context_confirmed": 23,
+        "context_confirmed": 0,
         "probable_requires_review": 1,
         "ambiguous": 1,
         "collision": 0,
-        "unmatched": 7
+        "unmatched": 30
       },
-      "percent_rows_resolved": 72.73,
+      "percent_rows_resolved": 3.03,
       "source_tier": [
         "official_institutional"
       ],
@@ -619,17 +619,17 @@
       "source_dataset": "ruf_staff_transitions_2026",
       "row_count": 213,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 23,
-      "confirmed_row_count": 23,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
       "match_status_counts": {
         "exact_confirmed": 0,
-        "context_confirmed": 23,
+        "context_confirmed": 0,
         "probable_requires_review": 5,
         "ambiguous": 24,
         "collision": 0,
-        "unmatched": 161
+        "unmatched": 184
       },
-      "percent_rows_resolved": 10.8,
+      "percent_rows_resolved": 0.0,
       "source_tier": [
         "official_institutional"
       ],

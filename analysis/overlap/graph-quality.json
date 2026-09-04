@@ -4,7 +4,7 @@
     "graph_scope": "Confirmed identity-to-dataset bipartite graph plus counts of repository core node classes."
   },
   "nodes": {
-    "person_nodes": 231,
+    "person_nodes": 208,
     "dataset_nodes": 29,
     "organization_nodes": 21,
     "church_nodes": 1970,
@@ -12,48 +12,47 @@
     "event_nodes": 16
   },
   "edges": {
-    "confirmed_identity_dataset_edges": 720,
+    "confirmed_identity_dataset_edges": 674,
     "by_evidence_type": {
       "formal_organization_leadership": 6,
       "formal_organization_membership": 39,
       "formal_protest_signature": 171,
-      "institutional_role": 29,
+      "institutional_role": 6,
       "media_authorship_or_participation": 34,
       "media_participation": 12,
       "minority_report_signature": 15,
       "public_letter_signature": 279,
       "publication_contribution": 11,
-      "recorded_negative_vote": 101,
-      "ruf_started_role": 23
+      "recorded_negative_vote": 101
     },
     "by_source_tier": {
       "first_party": 52,
       "first_party_archive": 279,
-      "official_institutional": 52,
+      "official_institutional": 6,
       "official_primary": 287,
       "primary_archive": 39,
       "user_supplied_visual_receipt": 11
     },
-    "distinct_source_paths": 13
+    "distinct_source_paths": 12
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.10747873
+    "value": 0.1117374
   },
   "components": {
-    "count": 12,
-    "largest_component_nodes": 249,
+    "count": 13,
+    "largest_component_nodes": 225,
     "isolated_person_nodes": 1
   },
   "quality_gaps": {
-    "unresolved_identity_rows": 2445,
+    "unresolved_identity_rows": 2491,
     "unresolved_by_status": {
       "ambiguous": 340,
       "collision": 10,
       "probable_requires_review": 272,
-      "unmatched": 1823
+      "unmatched": 1869
     },
-    "confirmed_edges_missing_specific_event_year": 108,
+    "confirmed_edges_missing_specific_event_year": 85,
     "datasets_without_primary_or_official_tier": [
       "publication_co-laborers-co-heirs-2019",
       "publication_heal-us-emmanuel-2016",

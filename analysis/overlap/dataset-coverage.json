@@ -248,11 +248,11 @@
       "source_dataset": "institution_reformed-university-fellowship",
       "row_count": 33,
       "unique_printed_name_count": 33,
-      "confirmed_canonical_person_count": 24,
-      "unmatched_count": 7,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 30,
       "probable_requires_review_count": 1,
       "ambiguous_or_collision_count": 1,
-      "percentage_resolved": 72.73,
+      "percentage_resolved": 3.03,
       "source_tier": [
         "official_institutional"
       ],
@@ -440,11 +440,11 @@
       "source_dataset": "ruf_staff_transitions_2026",
       "row_count": 213,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 23,
-      "unmatched_count": 161,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 184,
       "probable_requires_review_count": 5,
       "ambiguous_or_collision_count": 24,
-      "percentage_resolved": 10.8,
+      "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
       ],
