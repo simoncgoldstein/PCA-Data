@@ -1,0 +1,28 @@
+name: Finish AMR Part 1 evidence
+on:
+  push:
+    branches: [research/amr-overtures-part13-2026-09-04]
+permissions:
+  contents: write
+jobs:
+  finish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: research/amr-overtures-part13-2026-09-04
+      - name: Validate bounded AMR evidence
+        run: |
+          python3 scripts/validate-amr-issue-evidence.py .
+          python3 scripts/validate-amr-part1-issue-evidence.py .
+          node scripts/validate-data.mjs
+          python3 scripts/validate-research-imports.py .
+      - name: Remove extraction scratch and workflow
+        run: |
+          rm -f research/amr-part13-candidate-passages.json research/amr-part13-attribution-windows.json
+          rm .github/workflows/finish-amr-part1-evidence.yml
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add -A
+          git commit -m "Finalize bounded AMR Part 1 evidence"
+          git push
