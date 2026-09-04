@@ -1,0 +1,63 @@
+{
+  "metadata": {
+    "organization": "Jude 3 & the PCA",
+    "captured": "2026-09-04",
+    "evidence_scope": "bounded first-party sexuality summary publication",
+    "raw_receipt": "sources/raw/publications/jude3-pca/sexuality-summary-source-2026-09-04.md",
+    "modeling_rule": "The accessible page is unbylined, so its claims are modeled as site-level published content rather than assigned to a named author or treated as a formal corporate confession.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "jude3-site-homosexual-acts-sinful",
+      "topic": "sexuality",
+      "position_type": "jude3_site_published_content",
+      "summary": "The Jude 3 sexuality summary describes homosexual acts as sinful and contrary to biblical sexual ethics.",
+      "source_title": "Homosexuality, a Summary",
+      "source_url": "https://jude3pca.org/homosexuality-a-qa-summary/",
+      "attribution_status": "no_named_author_exposed",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-site-homosexual-attraction-sinful",
+      "topic": "sexuality",
+      "position_type": "jude3_site_published_content",
+      "summary": "The Jude 3 sexuality summary describes homosexual attraction or orientation as sinful rather than morally neutral, while distinguishing attraction from outward acts.",
+      "source_title": "Homosexuality, a Summary",
+      "source_url": "https://jude3pca.org/homosexuality-a-qa-summary/",
+      "attribution_status": "no_named_author_exposed",
+      "boundary": "This record preserves the page's distinction between attraction and acts while recording that it morally evaluates both.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-site-homosexual-attraction-mortification",
+      "topic": "sexuality",
+      "position_type": "jude3_site_published_content",
+      "summary": "The Jude 3 sexuality summary says homosexual attraction should be mortified through the work of the Holy Spirit rather than accepted as a morally neutral permanent identity.",
+      "source_title": "Homosexuality, a Summary",
+      "source_url": "https://jude3pca.org/homosexuality-a-qa-summary/",
+      "attribution_status": "no_named_author_exposed",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-site-homosexual-self-identification-rejected",
+      "topic": "sexual-identity",
+      "position_type": "jude3_site_published_content",
+      "summary": "The Jude 3 sexuality summary rejects adopting homosexual desire or attraction as a positive self-identity or defining self-conception.",
+      "source_title": "Homosexuality, a Summary",
+      "source_url": "https://jude3pca.org/homosexuality-a-qa-summary/",
+      "attribution_status": "no_named_author_exposed",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-site-sex-gender-created-order",
+      "topic": "sex-and-gender",
+      "position_type": "jude3_site_published_content",
+      "summary": "The Jude 3 sexuality summary argues that inward self-conception and outward gender identity should conform to biological sex and treats male and female as rooted in the created order.",
+      "source_title": "Homosexuality, a Summary",
+      "source_url": "https://jude3pca.org/homosexuality-a-qa-summary/",
+      "attribution_status": "no_named_author_exposed",
+      "ideological_weight": 0
+    }
+  ]
+}
