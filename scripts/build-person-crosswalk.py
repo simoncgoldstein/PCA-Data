@@ -69,6 +69,17 @@ FIRST_NAME_VARIANTS = {
     "zack": "zachary",
 }
 
+# Explicit reviewed name-form equivalences. These are person-specific evidence
+# decisions, not a general nickname-merging rule. Printed names remain intact.
+REVIEWED_NAME_VARIANTS = {
+    "michael mclaughlin": {
+        "canonical_candidate": "mike mclaughlin",
+        "canonical_display_name": "Mike McLaughlin",
+        "evidence_receipt": "sources/raw/identity/mike-michael-mclaughlin-resolution-2026-09-04.json",
+        "note": "Official 2009 Southwest Presbytery evidence plus City Presbyterian Albuquerque's first-party history connects Michael/Mike McLaughlin from the Albuquerque church plant to his later move back to Missouri.",
+    },
+}
+
 
 def ascii_words(value: str) -> list[str]:
     value = value.replace("’", "'").replace("“", "").replace("”", "")
@@ -183,7 +194,9 @@ def add_record(
 ) -> None:
     if not printed_name or not normalize_name(printed_name):
         raise ValueError(f"{dataset}:{locator}: missing printable person name")
-    candidate = normalize_name(printed_name)
+    printed_candidate = normalize_name(printed_name)
+    reviewed_variant = REVIEWED_NAME_VARIANTS.get(printed_candidate)
+    candidate = reviewed_variant["canonical_candidate"] if reviewed_variant else printed_candidate
     valid_existing_id = None
     rejected_existing_id = REJECTED_SOURCE_ID_OVERRIDES.get((dataset, locator))
     if existing_id in seed_ids:
@@ -200,6 +213,8 @@ def add_record(
         "source_row_locator": locator,
         "name_as_printed": printed_name,
         "normalized_candidate": candidate,
+        "normalized_name_as_printed": printed_candidate,
+        "reviewed_name_variant": reviewed_variant,
         "source_tier": source_tier,
         "completeness_status": completeness,
         "evidence_type": evidence_type,
@@ -269,6 +284,7 @@ for event in formal_position_data.get("events", []):
             completeness="complete_named_signers",
             evidence_type="formal_report_concurrence",
             presbyteries=[row.get("presbytery_as_printed")],
+            office=(row.get("office_as_printed") or (row["name_as_printed"].split()[0] if row["name_as_printed"].split()[0] in {"TE", "RE"} else None)),
             existing_id=row.get("normalized_person_id"),
             backfill=False,
         )
@@ -607,6 +623,9 @@ for key in sorted(groups):
     elif len(families) >= 2 and (presbytery_support or institution_support or location_support) and not duplicate_in_dataset:
         # This is the only automatic path that creates a new canonical person.
         preferred = max((display_name(r["name_as_printed"]) for r in rows), key=lambda x: (len(normalize_name(x).split()), len(x), x))
+        reviewed_variant_rows = [r for r in rows if r.get("reviewed_name_variant")]
+        if reviewed_variant_rows:
+            preferred = reviewed_variant_rows[0]["reviewed_name_variant"]["canonical_display_name"]
         candidate_id = slug(preferred)
         if candidate_id in used_ids:
             status, method, confidence = "collision", "generated_id_collision", 0.0
@@ -658,7 +677,13 @@ for key in sorted(groups):
         # The row itself must either carry the reviewed seed ID, be covered by
         # an explicit manual alias, or share a disambiguator with an independent
         # source-family peer in the same exact-name group.
-        if canonical_id and not row.get("existing_id") and not manual:
+        if canonical_id and row.get("reviewed_name_variant"):
+            row_status = "context_confirmed"
+            row_method = "documented_reviewed_name_variant"
+            row_confidence = 0.98
+            row_note = row["reviewed_name_variant"]["note"]
+
+        if canonical_id and not row.get("existing_id") and not manual and not row.get("reviewed_name_variant"):
             if not any(rows_share_context(row, peer) for peer in rows if peer is not row):
                 row_id = None
                 row_status = "probable_requires_review"

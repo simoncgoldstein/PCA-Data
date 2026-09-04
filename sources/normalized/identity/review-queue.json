@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 984,
+    "record_count": 980,
     "rule": "Rows may appear because of unresolved status, a first/last variant collision key, or initials-only spelling. Review never implies identity."
   },
   "records": [
@@ -564,20 +564,6 @@
       "initials_only_name": false,
       "conflicting_fields": [],
       "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-00162",
-      "source_dataset": "a_faithful_pca_2021-06-11",
-      "source_row_locator": "signature:244",
-      "name_as_printed": "Rev. Mike McLaughlin",
-      "normalized_candidate": "mike mclaughlin",
-      "match_status": "ambiguous",
-      "variant_collision_key": "michael mclaughlin",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
       "crosswalk_id": "identity-row-00164",
@@ -2650,20 +2636,6 @@
       "initials_only_name": false,
       "conflicting_fields": [],
       "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-00753",
-      "source_dataset": "a_faithful_pca_2022-03-14",
-      "source_row_locator": "signature:262",
-      "name_as_printed": "Rev. Mike McLaughlin",
-      "normalized_candidate": "mike mclaughlin",
-      "match_status": "ambiguous",
-      "variant_collision_key": "michael mclaughlin",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
       "crosswalk_id": "identity-row-00755",
@@ -6816,20 +6788,6 @@
       "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
-      "crosswalk_id": "identity-row-01578",
-      "source_dataset": "formal_position_2009-overture-10-women-roles-study-minority-report",
-      "source_row_locator": "2009-overture-10-women-roles-study-minority-report:signer:18",
-      "name_as_printed": "TE Michael McLaughlin",
-      "normalized_candidate": "michael mclaughlin",
-      "match_status": "ambiguous",
-      "variant_collision_key": "michael mclaughlin",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
       "crosswalk_id": "identity-row-01582",
       "source_dataset": "formal_position_2009-overture-10-women-roles-study-minority-report",
       "source_row_locator": "2009-overture-10-women-roles-study-minority-report:signer:21",
@@ -6885,11 +6843,13 @@
       "source_row_locator": "2009-overture-10-women-roles-study-minority-report:signer:33",
       "name_as_printed": "RE E. J. Nusbaum",
       "normalized_candidate": "e j nusbaum",
-      "match_status": "context_confirmed",
+      "match_status": "collision",
       "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator."
+      "conflicting_fields": [
+        "both Teaching Elder and Ruling Elder appear for the same normalized name"
+      ],
+      "reviewer_note": "Office conflict prevents automatic identity resolution."
     },
     {
       "crosswalk_id": "identity-row-01600",
@@ -9555,11 +9515,13 @@
       "source_row_locator": "confirmed_member:52:ej nusbaum",
       "name_as_printed": "E.J. Nusbaum",
       "normalized_candidate": "e j nusbaum",
-      "match_status": "context_confirmed",
+      "match_status": "collision",
       "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator."
+      "conflicting_fields": [
+        "both Teaching Elder and Ruling Elder appear for the same normalized name"
+      ],
+      "reviewer_note": "Office conflict prevents automatic identity resolution."
     },
     {
       "crosswalk_id": "identity-row-02410",
@@ -11940,20 +11902,6 @@
         "same normalized name occurs more than once within a source dataset"
       ],
       "reviewer_note": "Possible duplicate signer or same-name collision; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-03448",
-      "source_dataset": "warhurst_protest_2019",
-      "source_row_locator": "print_order:100",
-      "name_as_printed": "Mike McLaughlin",
-      "normalized_candidate": "mike mclaughlin",
-      "match_status": "ambiguous",
-      "variant_collision_key": "michael mclaughlin",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
       "crosswalk_id": "identity-row-03453",

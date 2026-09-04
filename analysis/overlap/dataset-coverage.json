@@ -8,11 +8,11 @@
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 127,
+      "confirmed_canonical_person_count": 128,
       "unmatched_count": 348,
       "probable_requires_review_count": 32,
-      "ambiguous_or_collision_count": 64,
-      "percentage_resolved": 22.24,
+      "ambiguous_or_collision_count": 63,
+      "percentage_resolved": 22.42,
       "source_tier": [
         "first_party_archive"
       ],
@@ -24,11 +24,11 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 160,
+      "confirmed_canonical_person_count": 161,
       "unmatched_count": 475,
       "probable_requires_review_count": 33,
-      "ambiguous_or_collision_count": 69,
-      "percentage_resolved": 21.71,
+      "ambiguous_or_collision_count": 68,
+      "percentage_resolved": 21.85,
       "source_tier": [
         "first_party_archive"
       ],
@@ -376,11 +376,11 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 40,
+      "confirmed_canonical_person_count": 39,
       "unmatched_count": 69,
       "probable_requires_review_count": 30,
-      "ambiguous_or_collision_count": 12,
-      "percentage_resolved": 26.49,
+      "ambiguous_or_collision_count": 13,
+      "percentage_resolved": 25.83,
       "source_tier": [
         "primary_archive"
       ],
@@ -520,11 +520,11 @@
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 91,
+      "confirmed_canonical_person_count": 92,
       "unmatched_count": 69,
       "probable_requires_review_count": 15,
-      "ambiguous_or_collision_count": 28,
-      "percentage_resolved": 44.83,
+      "ambiguous_or_collision_count": 27,
+      "percentage_resolved": 45.32,
       "source_tier": [
         "official_primary"
       ],

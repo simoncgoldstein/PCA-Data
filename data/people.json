@@ -612,7 +612,7 @@
   {
     "id": "dan-carrell",
     "name": "Dan Carrell",
-    "ordination": null,
+    "ordination": "Ruling Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -652,7 +652,7 @@
   {
     "id": "david-dickson",
     "name": "David Dickson",
-    "ordination": null,
+    "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -742,16 +742,6 @@
   {
     "id": "doug-serven",
     "name": "Doug Serven",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "e-j-nusbaum",
-    "name": "E. J. Nusbaum",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -1072,7 +1062,7 @@
   {
     "id": "jeffrey-lancaster",
     "name": "Jeffrey Lancaster",
-    "ordination": null,
+    "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -1582,6 +1572,16 @@
   {
     "id": "mika-edmondson",
     "name": "Mika Edmondson",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "mike-mclaughlin",
+    "name": "Mike McLaughlin",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,

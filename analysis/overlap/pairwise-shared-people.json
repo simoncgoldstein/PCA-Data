@@ -930,6 +930,16 @@
           ]
         },
         {
+          "canonical_person_id": "mike-mclaughlin",
+          "name": "Mike McLaughlin",
+          "dataset_a_locators": [
+            "signature:244"
+          ],
+          "dataset_b_locators": [
+            "signature:262"
+          ]
+        },
+        {
           "canonical_person_id": "nicholas-davis",
           "name": "Nicholas Davis",
           "dataset_a_locators": [
@@ -1592,7 +1602,6 @@
         "michael j langer",
         "michael previtera",
         "mike bobell",
-        "mike mclaughlin",
         "miles gresham",
         "miles s cho",
         "mitch mcginnis",
@@ -1907,6 +1916,16 @@
           ],
           "dataset_b_locators": [
             "2009-overture-10-women-roles-study-minority-report:signer:2"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-mclaughlin",
+          "name": "Mike McLaughlin",
+          "dataset_a_locators": [
+            "signature:244"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:18"
           ]
         }
       ],
@@ -3933,6 +3952,16 @@
           ]
         },
         {
+          "canonical_person_id": "mike-mclaughlin",
+          "name": "Mike McLaughlin",
+          "dataset_a_locators": [
+            "signature:244"
+          ],
+          "dataset_b_locators": [
+            "print_order:100"
+          ]
+        },
+        {
           "canonical_person_id": "nicholas-davis",
           "name": "Nicholas Davis",
           "dataset_a_locators": [
@@ -4119,7 +4148,6 @@
         "greg ward",
         "hansoo jin",
         "jason cornwell",
-        "mike mclaughlin",
         "rob wootton",
         "steven brooks",
         "timothy r lecroy",
@@ -4317,6 +4345,16 @@
           ],
           "dataset_b_locators": [
             "2009-overture-10-women-roles-study-minority-report:signer:2"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-mclaughlin",
+          "name": "Mike McLaughlin",
+          "dataset_a_locators": [
+            "signature:262"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:18"
           ]
         }
       ],
@@ -6673,6 +6711,16 @@
           ]
         },
         {
+          "canonical_person_id": "mike-mclaughlin",
+          "name": "Mike McLaughlin",
+          "dataset_a_locators": [
+            "signature:262"
+          ],
+          "dataset_b_locators": [
+            "print_order:100"
+          ]
+        },
+        {
           "canonical_person_id": "nicholas-davis",
           "name": "Nicholas Davis",
           "dataset_a_locators": [
@@ -6939,7 +6987,6 @@
         "greg ward",
         "hansoo jin",
         "jason cornwell",
-        "mike mclaughlin",
         "rob wootton",
         "steven brooks",
         "timothy r lecroy",
@@ -8358,16 +8405,6 @@
           ]
         },
         {
-          "canonical_person_id": "e-j-nusbaum",
-          "name": "E. J. Nusbaum",
-          "dataset_a_locators": [
-            "2009-overture-10-women-roles-study-minority-report:signer:33"
-          ],
-          "dataset_b_locators": [
-            "confirmed_member:52:ej nusbaum"
-          ]
-        },
-        {
           "canonical_person_id": "kevin-twit",
           "name": "Kevin Twit",
           "dataset_a_locators": [
@@ -8382,6 +8419,7 @@
         "brad bradley",
         "bryan chapell",
         "charles garland",
+        "e j nusbaum",
         "james kessler",
         "larry hoop",
         "shane gibson"
@@ -8498,6 +8536,16 @@
           ],
           "dataset_b_locators": [
             "print_order:192"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-mclaughlin",
+          "name": "Mike McLaughlin",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:18"
+          ],
+          "dataset_b_locators": [
+            "print_order:100"
           ]
         }
       ],

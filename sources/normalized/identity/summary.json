@@ -13,9 +13,9 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 363,
-    "collision": 11,
-    "context_confirmed": 589,
+    "ambiguous": 359,
+    "collision": 13,
+    "context_confirmed": 591,
     "exact_confirmed": 119,
     "probable_requires_review": 319,
     "unmatched": 2247
@@ -25,17 +25,17 @@
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 127,
-      "confirmed_row_count": 127,
+      "confirmed_canonical_person_count": 128,
+      "confirmed_row_count": 128,
       "match_status_counts": {
         "exact_confirmed": 13,
-        "context_confirmed": 114,
+        "context_confirmed": 115,
         "probable_requires_review": 32,
-        "ambiguous": 63,
+        "ambiguous": 62,
         "collision": 1,
         "unmatched": 348
       },
-      "percent_rows_resolved": 22.24,
+      "percent_rows_resolved": 22.42,
       "source_tier": [
         "first_party_archive"
       ],
@@ -47,17 +47,17 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 160,
-      "confirmed_row_count": 160,
+      "confirmed_canonical_person_count": 161,
+      "confirmed_row_count": 161,
       "match_status_counts": {
         "exact_confirmed": 13,
-        "context_confirmed": 147,
+        "context_confirmed": 148,
         "probable_requires_review": 33,
-        "ambiguous": 68,
+        "ambiguous": 67,
         "collision": 1,
         "unmatched": 475
       },
-      "percent_rows_resolved": 21.71,
+      "percent_rows_resolved": 21.85,
       "source_tier": [
         "first_party_archive"
       ],
@@ -185,8 +185,8 @@
         "exact_confirmed": 0,
         "context_confirmed": 10,
         "probable_requires_review": 5,
-        "ambiguous": 3,
-        "collision": 0,
+        "ambiguous": 2,
+        "collision": 1,
         "unmatched": 16
       },
       "percent_rows_resolved": 29.41,
@@ -531,17 +531,17 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 40,
-      "confirmed_row_count": 40,
+      "confirmed_canonical_person_count": 39,
+      "confirmed_row_count": 39,
       "match_status_counts": {
         "exact_confirmed": 8,
-        "context_confirmed": 32,
+        "context_confirmed": 31,
         "probable_requires_review": 30,
         "ambiguous": 11,
-        "collision": 1,
+        "collision": 2,
         "unmatched": 69
       },
-      "percent_rows_resolved": 26.49,
+      "percent_rows_resolved": 25.83,
       "source_tier": [
         "primary_archive"
       ],
@@ -729,17 +729,17 @@
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 91,
-      "confirmed_row_count": 91,
+      "confirmed_canonical_person_count": 92,
+      "confirmed_row_count": 92,
       "match_status_counts": {
         "exact_confirmed": 6,
-        "context_confirmed": 85,
+        "context_confirmed": 86,
         "probable_requires_review": 15,
-        "ambiguous": 26,
+        "ambiguous": 25,
         "collision": 2,
         "unmatched": 69
       },
-      "percent_rows_resolved": 44.83,
+      "percent_rows_resolved": 45.32,
       "source_tier": [
         "official_primary"
       ],
