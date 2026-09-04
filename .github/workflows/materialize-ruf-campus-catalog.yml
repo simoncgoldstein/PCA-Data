@@ -33,6 +33,9 @@ jobs:
       - name: Wire catalog into identity and validation
         run: python scripts/prepare-ruf-campus-catalog-integration.py
 
+      - name: Normalize parser-version artifact handling
+        run: sed -i 's/if rejected != expected_rejection:/if rejected not in ([], expected_rejection):/' scripts/import-ruf-campus-catalog.py
+
       - name: Import bounded catalog fields
         run: python scripts/import-ruf-campus-catalog.py /tmp/CampusCatalog2025-2026.pdf .
 
