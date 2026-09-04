@@ -1,0 +1,103 @@
+name: Compact AMR overture passages
+
+on:
+  push:
+    branches: [research/amr-issue-extraction-2026-09-04]
+    paths: [.github/workflows/compact-amr-overture-passages.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  compact:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: research/amr-issue-extraction-2026-09-04
+      - name: Build compact topic excerpts
+        run: |
+          python3 - <<'PY'
+          import html, json, re
+          from pathlib import Path
+
+          base = Path('sources/raw/media/amr/youtube-2026-09-03/captions')
+          videos = {
+              'xezEYJN8aiM': 'Overtures Roundtable Discussion 2026 (Part 1)',
+              'JpsstSfx40U': 'Overtures Roundtable Discussion Part 2',
+              'cxQxeng9eow': 'Overtures Roundtable Discussion Part 3',
+              'bMj_pCd4U6U': 'After the General Assembly: Reflections on Trust, Unity, and the Work Ahead',
+          }
+          categories = {
+              'women_deacons': ['deacon', 'women', 'overture 37'],
+              'danvers_statement': ['danvers', 'overture 61'],
+              'lords_supper': ["lord's supper", 'lord’s supper', 'communion'],
+              'ordination_titles_officers': ['ordination', 'ordained', 'title', 'officer'],
+              'judicial_polity': ['original jurisdiction', '40-5', 'indict', 'judicial', 'complaint'],
+              'pca_health_trust_unity': ['trust', 'unity', 'statesmanship', 'online', 'health of the pca'],
+          }
+
+          def seconds(ts):
+              h,m,s=ts.split(':')
+              return int(h)*3600+int(m)*60+float(s)
+
+          def parse(path):
+              lines=path.read_text(encoding='utf-8').splitlines(); cues=[]; i=0
+              while i < len(lines):
+                  line=lines[i].strip()
+                  if '-->' not in line:
+                      i += 1; continue
+                  ts=line.split('-->')[0].strip(); i += 1; parts=[]
+                  while i < len(lines) and lines[i].strip() and '-->' not in lines[i]:
+                      s=html.unescape(re.sub(r'<[^>]+>','',lines[i])).strip()
+                      if s: parts.append(s)
+                      i += 1
+                  text=re.sub(r'\s+',' ',' '.join(parts)).strip()
+                  if text and (not cues or text != cues[-1]['text']):
+                      cues.append({'timestamp':ts,'seconds':seconds(ts),'text':text})
+                  i += 1
+              return cues
+
+          def merge_text(cues):
+              # Auto-caption cues overlap heavily. Keep each changed cue as a sentence-like fragment,
+              # collapsing exact repeats; this is a research excerpt, not a verbatim transcript.
+              out=[]
+              for c in cues:
+                  t=c['text']
+                  if not out or t != out[-1]: out.append(t)
+              return ' '.join(out)
+
+          result={'generated_on':'2026-09-04','status':'research_leads_not_normalized_positions','note':'Auto-caption excerpts are bounded candidate passages for manual speaker attribution and factual position extraction. Do not treat panel participation as agreement.','videos':[]}
+          for vid,title in videos.items():
+              cs=parse(base/f'{vid}-en-auto-1.vtt')
+              vr={'video_id':vid,'title':title,'caption_path':str(base/f'{vid}-en-auto-1.vtt'),'topics':{}}
+              for cat,terms in categories.items():
+                  hit_times=[]
+                  for c in cs:
+                      low=c['text'].lower()
+                      if any(term in low for term in terms): hit_times.append(c['seconds'])
+                  if not hit_times: continue
+                  clusters=[]
+                  for t in hit_times:
+                      if not clusters or t-clusters[-1][-1] > 90: clusters.append([t])
+                      else: clusters[-1].append(t)
+                  excerpts=[]
+                  for cluster in clusters[:12]:
+                      start=max(0,cluster[0]-20); end=cluster[-1]+45
+                      window=[c for c in cs if start <= c['seconds'] <= end]
+                      if not window: continue
+                      excerpts.append({'start_seconds':round(start,2),'end_seconds':round(end,2),'first_hit_seconds':round(cluster[0],2),'last_hit_seconds':round(cluster[-1],2),'text':merge_text(window)})
+                  vr['topics'][cat]=excerpts
+              result['videos'].append(vr)
+          Path('research/amr-overtures-topic-passages-2026-09-04.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
+      - name: Remove bulky lead file and one-time workflow, then commit
+        run: |
+          rm -f research/amr-overtures-caption-leads-2026-09-04.json
+          rm .github/workflows/compact-amr-overture-passages.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Compact AMR overture caption passages"
+          git push
