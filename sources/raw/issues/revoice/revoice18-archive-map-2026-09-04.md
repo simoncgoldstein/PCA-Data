@@ -34,6 +34,18 @@ The June 29 capture is pre-conference and therefore especially valuable for reco
 - The conference website stated its mission in terms of supporting/encouraging LGBT or same-sex-attracted Christians while observing the historic Christian doctrine/ethic of marriage and sexuality.
 - PCA judicial records later confirm that Memorial hosted the three-day Revoice 2018 conference and that TE Greg Johnson taught a breakout session.
 
+## Program-size completeness check
+
+A March 26, 2018 pre-conference interview with Revoice founder/organizer Nate Collins gives an important control on how incomplete the surviving fragments remain. Collins described the forthcoming event as a multi-day conference with **three keynote speakers and about 26 workshops**.
+
+Primary episode page:
+https://theologyintheraw.com/podcast/640-revoice-conference-and-faith-sexuality-and-gender-with-dr-nate-collins/
+
+Transcript preservation used to verify the statement:
+https://podscripts.co/podcasts/theology-in-the-raw/640-revoice-conference-and-faith-sexuality-and-gender-with-dr-nate-collins
+
+This does not establish the final program or prove that every advertised workshop occurred. It does establish that the handful of sessions reconstructed below are only fragments and must not be represented as a complete Revoice 2018 schedule.
+
 ## Confirmed pre-conference program fragment
 
 Spiritual Friendship announced a pre-conference on **July 26, 2018, 1:00–5:00 p.m.**, immediately before Revoice. The announcement names:
