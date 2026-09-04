@@ -33,13 +33,50 @@ jobs:
         run: python3 scripts/validate-research-imports.py .
 
       - name: Generate institution snapshot candidate
-        run: python3 scripts/normalize-institution-snapshots.py . /tmp/current-role-snapshots-candidate.json
+        run: |
+          python3 scripts/normalize-institution-snapshots.py . /tmp/current-role-snapshots-candidate.json
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
 
-      - name: Archive institution snapshot candidate
+          checked = json.loads(Path('sources/normalized/institutions/current-role-snapshots-2026-09-03.json').read_text())
+          candidate = json.loads(Path('/tmp/current-role-snapshots-candidate.json').read_text())
+          diagnostics = {
+              'metadata_equal': checked.get('metadata') == candidate.get('metadata'),
+              'coverage_equal': checked.get('coverage') == candidate.get('coverage'),
+              'checked_roles': len(checked.get('roles', [])),
+              'candidate_roles': len(candidate.get('roles', [])),
+              'role_differences': [],
+          }
+          left = checked.get('roles', [])
+          right = candidate.get('roles', [])
+          for index in range(max(len(left), len(right))):
+              a = left[index] if index < len(left) else None
+              b = right[index] if index < len(right) else None
+              if a == b:
+                  continue
+              keys = sorted(set((a or {}).keys()) | set((b or {}).keys()))
+              changed = {
+                  key: {'checked': (a or {}).get(key), 'candidate': (b or {}).get(key)}
+                  for key in keys
+                  if (a or {}).get(key) != (b or {}).get(key)
+              }
+              diagnostics['role_differences'].append({
+                  'index': index,
+                  'organization_id': (a or b or {}).get('organization_id'),
+                  'name_as_printed': (a or b or {}).get('name_as_printed'),
+                  'changed_fields': changed,
+              })
+          Path('/tmp/institution-snapshot-diff.json').write_text(json.dumps(diagnostics, indent=2) + '\n')
+          PY
+
+      - name: Archive institution snapshot parity diagnostics
         uses: actions/upload-artifact@v6
         with:
-          name: institution-snapshot-candidate
-          path: /tmp/current-role-snapshots-candidate.json
+          name: institution-snapshot-parity
+          path: |
+            /tmp/current-role-snapshots-candidate.json
+            /tmp/institution-snapshot-diff.json
 
       - name: Verify institution snapshot normalizer
         run: diff -u sources/normalized/institutions/current-role-snapshots-2026-09-03.json /tmp/current-role-snapshots-candidate.json
