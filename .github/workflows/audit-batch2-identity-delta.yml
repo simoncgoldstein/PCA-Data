@@ -1,0 +1,101 @@
+name: Audit Batch 2 identity delta
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    if: github.head_ref == 'research/formal-position-mining-batch2-2026-09-04'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out PR branch
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Audit newly canonical people against main
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json, subprocess
+          from collections import Counter
+          from pathlib import Path
+
+          def git_json(ref, path):
+              raw = subprocess.check_output(['git', 'show', f'{ref}:{path}'], text=True)
+              return json.loads(raw)
+
+          main_people = git_json('origin/main', 'data/people.json')
+          head_people = json.loads(Path('data/people.json').read_text(encoding='utf-8'))
+          crosswalk = json.loads(Path('sources/normalized/identity/person-crosswalk.json').read_text(encoding='utf-8'))
+
+          main_ids = {p['id'] for p in main_people}
+          head_by_id = {p['id']: p for p in head_people}
+          new_ids = sorted(set(head_by_id) - main_ids)
+          records_by_id = {}
+          for row in crosswalk['records']:
+              pid = row.get('canonical_person_id')
+              if pid in new_ids:
+                  records_by_id.setdefault(pid, []).append(row)
+
+          report = []
+          failures = []
+          family_patterns = Counter()
+          for pid in new_ids:
+              rows = records_by_id.get(pid, [])
+              families = sorted({r['source_family'] for r in rows})
+              datasets = sorted({r['source_dataset'] for r in rows})
+              confirmed_rows = [r for r in rows if r.get('match_status') in {'context_confirmed','exact_confirmed'}]
+              row_support = sorted({s for r in confirmed_rows for s in r.get('supporting_fields', [])})
+              methods = sorted({r.get('match_method') for r in rows})
+              offices = sorted({r.get('office') for r in rows if r.get('office')})
+              presbyteries = sorted({p for r in rows for p in r.get('presbyteries', [])})
+              family_patterns[tuple(families)] += 1
+
+              entry = {
+                  'id': pid,
+                  'name': head_by_id[pid]['name'],
+                  'ordination': head_by_id[pid].get('ordination'),
+                  'families': families,
+                  'datasets': datasets,
+                  'methods': methods,
+                  'offices': offices,
+                  'presbyteries': presbyteries,
+                  'supporting_fields': row_support,
+                  'record_count': len(rows),
+                  'confirmed_row_count': len(confirmed_rows),
+              }
+              report.append(entry)
+
+              if len(families) < 2:
+                  failures.append(f'{pid}: fewer than two independent source families: {families}')
+              if not row_support:
+                  failures.append(f'{pid}: no shared contextual support recorded')
+              if set(families) <= {'overture_37_2021'} or set(families) <= {'overture_15_2022'}:
+                  failures.append(f'{pid}: same-controversy self-corroboration: {families}')
+              if len(offices) > 1:
+                  failures.append(f'{pid}: conflicting office types: {offices}')
+              if any(r.get('match_status') == 'collision' for r in rows):
+                  failures.append(f'{pid}: collision row attached to canonical identity')
+
+          print(json.dumps({
+              'main_people': len(main_people),
+              'head_people': len(head_people),
+              'new_people_count': len(new_ids),
+              'family_pattern_counts': [
+                  {'families': list(k), 'count': v}
+                  for k, v in sorted(family_patterns.items(), key=lambda kv: (-kv[1], kv[0]))
+              ],
+              'new_people': report,
+              'failures': failures,
+          }, indent=2))
+
+          if len(new_ids) != 52:
+              failures.append(f'Expected 52 newly canonical people relative to main, found {len(new_ids)}')
+          if failures:
+              raise SystemExit('\n'.join(failures))
+          PY
