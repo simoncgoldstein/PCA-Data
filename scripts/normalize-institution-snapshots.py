@@ -26,10 +26,10 @@ CONFIG = [
     ("geneva-benefits", "sources/raw/institutions/geneva-benefits/team-board-2026-09-03.md", "2026-09-03", "https://genevabenefits.org/about-us/", ["Current leadership", "Current staff", "Current board"], True, "current official leadership, staff, and board"),
     ("greenville-presbyterian-theological-seminary", "sources/raw/institutions/greenville-presbyterian-theological-seminary/faculty-snapshot-2026-09-03.md", "2026-09-03", "https://www.gpts.edu/faculty", ["Resident faculty", "Visiting / adjunct faculty", "Current staff visible on official page"], True, "current faculty and staff"),
     ("mission-to-north-america", "sources/raw/institutions/mna/team-snapshot-2026-09-04.md", "2026-09-04", "https://www.pcamna.org/about", ["Current MNA Team"], False, "complete visible current MNA team roster with title and department where printed"),
-    ("mission-to-the-world", "sources/raw/institutions/mtw/leadership-and-strategy-2026-09-03.md", "2026-09-03", "https://mtw.org/about/", ["Current coordinator"], False, "coordinator only; no public executive roster captured"),
+    ("mission-to-the-world", "sources/raw/institutions/mtw/leadership-snapshot-2026-09-04.md", "2026-09-04", "https://mtw.org/about/", ["Current leadership confirmed by 2026/current official sources"], True, "10 currently corroborated leadership and senior/program roles; unresolved executive succession remains excluded"),
     ("pca-administrative-committee", "sources/raw/institutions/pca-administrative-committee/staff-snapshot-2026-09-03.md", "2026-09-03", "https://www.pcaac.org/staff/", ["Current staff listed by the Administrative Committee"], True, "complete visible current staff roster"),
     ("pca-foundation", "sources/raw/institutions/pca-foundation/team-board-2026-09-03.md", "2026-09-03", "https://pcafoundation.com/about/", ["Current team visible in official sources", "Board of Directors listed in 2025 Annual Report"], True, "current staff plus 2025 annual-report board"),
-    ("reformed-theological-seminary", "sources/raw/institutions/reformed-theological-seminary/faculty-snapshot-2026-09-03.md", "2026-09-03", "https://rts.edu/people/", ["Current high-value overlaps already in the PCA research universe"], True, "high-overlap subset only; campus-wide roster remains incomplete"),
+    ("reformed-theological-seminary", "sources/raw/institutions/reformed-theological-seminary/residential-faculty-snapshot-2026-09-04.md", "2026-09-04", "https://rts.edu/people/", ["Current residential-faculty union"], True, "46 unique current-site residential-faculty identities, including one explicitly emeritus classification"),
     ("ridge-haven", "sources/raw/institutions/ridge-haven/staff-snapshot-2026-09-03.md", "2026-09-03", "https://www.ridgehaven.org/staff", ["Current leadership and notable staff"], True, "current visible staff, including Ridge Haven Cono"),
     ("reformed-university-fellowship", "sources/raw/institutions/ruf/roster-and-pipeline-snapshot-2026-09-03.md", "2026-09-03", "https://ruf.org/about/", ["Current national leadership / historical coordinator line", "Current/visible national staff examples", "2026 new Campus Ministers / Directors / Assistants"], True, "coordinator history and selected 2026 hires; complete campus roster remains incomplete"),
     ("westminster-seminary-california", "sources/raw/institutions/westminster-seminary-california/faculty-snapshot-2026-09-03.md", "2026-09-03", "https://www.wscal.edu/faculty/", ["Current faculty", "Faculty emeriti", "2025–2026 visiting/adjunct/lecturer examples listed by official faculty page"], True, "current faculty, emeriti, and visible visiting/adjunct examples"),
@@ -37,6 +37,17 @@ CONFIG = [
 ]
 
 DEPARTMENT_SPLIT_ORGS = {"mission-to-north-america"}
+RTS_ORG = "reformed-theological-seminary"
+RTS_SECTION = "Current residential-faculty union"
+RTS_EVIDENCE_PREFIXES = (
+    "Current residential listing:",
+    "Current residential listings:",
+    "Current site classification:",
+    "Current institution-wide residential directory listing",
+    "Current campus pages also expose",
+    "RTS announced promotion",
+    "Treat the exact emeritus title",
+)
 
 people = json.loads((root / "data/people.json").read_text(encoding="utf-8"))
 
@@ -56,14 +67,93 @@ person_index = {}
 for person in people:
     person_index.setdefault(key(person["name"]), []).append(person["id"])
 
+
+def resolve_person(printed_name: str) -> str | None:
+    if printed_name.startswith("Sarah [surname not exposed"):
+        return None
+    candidates = person_index.get(key(printed_name), [])
+    return candidates[0] if len(candidates) == 1 else None
+
+
+def parse_rts(
+    lines: list[str],
+    organization_id: str,
+    relative: str,
+    snapshot_date: str,
+    source_url: str,
+) -> list[dict]:
+    """Parse the person-centered RTS receipt into one neutral role row per H3 person."""
+    parsed: list[dict] = []
+    in_section = False
+    current_name: str | None = None
+    current_line: int | None = None
+    role_lines: list[str] = []
+    evidence_lines: list[str] = []
+
+    def flush() -> None:
+        nonlocal current_name, current_line, role_lines, evidence_lines
+        if not current_name:
+            return
+        if not role_lines:
+            raise SystemExit(f"RTS receipt has no role title for {current_name}")
+        parsed.append({
+            "organization_id": organization_id,
+            "snapshot_date": snapshot_date,
+            "section_as_printed": RTS_SECTION,
+            "name_as_printed": current_name,
+            "role_as_printed": "; ".join(role_lines),
+            "listing_evidence_as_printed": evidence_lines,
+            "normalized_person_id": resolve_person(current_name),
+            "source_url": source_url,
+            "raw_receipt": relative,
+            "source_line": current_line,
+            "ideological_weight": 0,
+        })
+        current_name = None
+        current_line = None
+        role_lines = []
+        evidence_lines = []
+
+    for line_number, line in enumerate(lines, 1):
+        if line.startswith("## "):
+            if in_section:
+                flush()
+            in_section = line[3:].strip() == RTS_SECTION
+            continue
+        if not in_section:
+            continue
+        if line.startswith("### "):
+            flush()
+            current_name = clean(line[4:].strip())
+            current_line = line_number
+            continue
+        match = re.match(r"^- (.+)$", line)
+        if not match or not current_name:
+            continue
+        value = clean(match.group(1))
+        if value.startswith(RTS_EVIDENCE_PREFIXES):
+            evidence_lines.append(value)
+        else:
+            role_lines.append(value)
+    if in_section:
+        flush()
+    return parsed
+
+
 records = []
 coverage = []
 snapshot_dates = sorted({config[2] for config in CONFIG})
 
 for organization_id, relative, snapshot_date, source_url, allowed_h2, include_h3, status in CONFIG:
     lines = (root / relative).read_text(encoding="utf-8").splitlines()
-    h2 = h3 = None
     count_before = len(records)
+
+    if organization_id == RTS_ORG:
+        records.extend(parse_rts(lines, organization_id, relative, snapshot_date, source_url))
+        coverage.append({"organization_id": organization_id, "records": len(records) - count_before, "coverage_status": status, "source_url": source_url, "raw_receipt": relative})
+        continue
+
+    h2 = h3 = None
     for line_number, line in enumerate(lines, 1):
         if line.startswith("## "):
             h2, h3 = line[3:].strip(), None
@@ -101,18 +191,13 @@ for organization_id, relative, snapshot_date, source_url, allowed_h2, include_h3
             continue
         if not has_delimiter and printed_name[:1].islower():
             continue
-        if printed_name.startswith("Sarah [surname not exposed"):
-            resolved = None
-        else:
-            candidates = person_index.get(key(printed_name), [])
-            resolved = candidates[0] if len(candidates) == 1 else None
         record = {
             "organization_id": organization_id,
             "snapshot_date": snapshot_date,
             "section_as_printed": h3 or h2,
             "name_as_printed": printed_name,
             "role_as_printed": role,
-            "normalized_person_id": resolved,
+            "normalized_person_id": resolve_person(printed_name),
             "source_url": source_url,
             "raw_receipt": relative,
             "source_line": line_number,
