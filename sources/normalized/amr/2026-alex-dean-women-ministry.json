@@ -1,0 +1,100 @@
+{
+  "metadata": {
+    "dataset_id": "amr_2026_alex_dean_women_ministry",
+    "organization": "Alliance for Mission & Renewal",
+    "source_family": "amr_alex_dean_women_ministry_2026",
+    "source_type": "first_party_authored_article",
+    "published_on": "2026-01-08",
+    "normalized_on": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Record only positions Alex Dean states in his authored article. Distinguish his support for non-ordained public ministry roles from ordained office, and do not assign his views to AMR as an organization or to the 2017 committee beyond what he explicitly attributes to that report.",
+    "identity_rule": "Name is preserved as printed. This dataset does not create or relax person-identity matches.",
+    "copyright_boundary": "Normalized records contain bounded factual paraphrases and section locators, not reproduced article text."
+  },
+  "source": {
+    "title": "A Vision for Women in Ministry in the PCA—Recalling the 2017 Ad Interim Report",
+    "author_as_printed": "Alex Dean",
+    "role_as_printed": "Lead Pastor, New St. Peter’s PCA",
+    "url": "https://a4mr.org/a-vision-for-women-in-ministry-in-the-pca-recalling-the-2017-ad-interim-report/"
+  },
+  "positions": [
+    {
+      "position_id": "amr-2026-alex-dean-2017-report",
+      "person_name_as_stated": "Alex Dean",
+      "normalized_person_id": null,
+      "topic": "2017_women_in_ministry_report",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "strongly_affirm",
+      "summary": "Dean describes the 2017 Ad Interim Committee report on women serving in the ministry of the church as a highly encouraging General Assembly action and states that he regarded the recommendations adopted by the 45th General Assembly as faithful to Scripture, practical, helpful, and encouraging.",
+      "source_locators": [
+        "Opening paragraphs before 'Freedom in Worship'"
+      ],
+      "important_boundary": "This is Dean's stated evaluation of the report and its adopted recommendations. It does not establish unanimity in the PCA or AMR.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-alex-dean-lay-worship-leadership",
+      "person_name_as_stated": "Alex Dean",
+      "normalized_person_id": null,
+      "topic": "lay_men_and_women_in_public_worship",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_nonordained_men_and_women_leading_selected_worship_elements",
+      "summary": "Dean argues that within a complementarian framework non-ordained men and women may appropriately lead selected elements of corporate worship. He gives public Scripture reading, intercessory prayer, announcements or community engagement, thanksgiving, music leading, and ushering or passing communion elements after ministerial consecration as examples that churches may use according to context and conviction.",
+      "source_locators": [
+        "Freedom in Worship",
+        "Examples following 'What are some of those things?'"
+      ],
+      "important_boundary": "Dean does not collapse these activities into ordained preaching or ruling office. His argument is for contextual freedom in selected worship leadership by lay men and women.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-alex-dean-nonordained-deaconess",
+      "person_name_as_stated": "Alex Dean",
+      "normalized_person_id": null,
+      "topic": "nonordained_deaconess_and_diaconal_roles",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_nonordained_public_diaconal_role_for_women",
+      "summary": "Dean argues that PCA churches should have freedom to establish a public, non-ordained diaconal role for women and, where contextually helpful, to use terminology such as 'deaconess.' He explicitly distinguishes such a role from ordained office and presents it as compatible with maintaining the doctrine of ordination.",
+      "source_locators": [
+        "Freedom with Roles & Language",
+        "Diaconal Assistants, Deaconesses (non-ordained)"
+      ],
+      "important_boundary": "Dean's proposal is non-ordained. Do not model this as advocacy for ordaining women to the PCA diaconate.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-alex-dean-womens-leadership-team",
+      "person_name_as_stated": "Alex Dean",
+      "normalized_person_id": null,
+      "topic": "women_leadership_and_shepherding_roles",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_nonordained_women_leadership_roles",
+      "summary": "Dean positively describes a Women's Leadership Team in his church whose members teach Bible studies, organize discipleship, advise elders, participate in difficult shepherding matters, and engage in shepherding work alongside elders. He explicitly says they are leaders and partners while also stating that they are not elders.",
+      "source_locators": [
+        "Freedom with Roles & Language",
+        "Women's Leadership Team example"
+      ],
+      "important_boundary": "The source distinguishes this leadership and shepherding work from eldership. Do not normalize the team as an ordained or governing church office.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-alex-dean-catholicity-freedom",
+      "person_name_as_stated": "Alex Dean",
+      "normalized_person_id": null,
+      "topic": "pca_catholicity_and_local_practice",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "high",
+      "stance": "favor_broad_tent_local_freedom_within_confessional_bounds",
+      "summary": "Dean argues for denominational freedom and diversity of local practice on these women-in-ministry questions within the bounds of Scripture, historic Reformed doctrine, and PCA standards. He presents this as a form of catholicity that values unity without requiring uniformity of external forms.",
+      "source_locators": [
+        "Freedom For Catholicity"
+      ],
+      "important_boundary": "This is a polity and catholicity claim about room for differing local practices within stated doctrinal boundaries, not a claim that all practices are equally appropriate in every congregation.",
+      "ideological_weight": 0
+    }
+  ]
+}
