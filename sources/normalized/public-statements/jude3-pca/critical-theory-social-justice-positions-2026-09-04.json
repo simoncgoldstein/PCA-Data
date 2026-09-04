@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "organization": "Jude 3 & the PCA",
+    "captured": "2026-09-04",
+    "evidence_scope": "site-level framing of Critical Theory and Social Justice",
+    "raw_receipt": "sources/raw/publications/jude3-pca/critical-theory-social-justice-source-2026-09-04.md",
+    "modeling_rule": "Only the page's introductory framing is treated as Jude 3 site-level published content. Third-party excerpts and links are excluded from institutional attribution.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "jude3-critical-theory-marxist-revolutionary-framing",
+      "topic": "critical-theory",
+      "position_type": "jude3_site_published_content",
+      "summary": "Jude 3's Critical Theory page characterizes Critical Theory as rooted in Marxism and contemporary Social Justice as an application of Critical Theory directed toward revolutionary social change.",
+      "source_url": "https://jude3pca.org/critical-theory-and-social-justice/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-social-justice-identity-equality-framing",
+      "topic": "social-justice",
+      "position_type": "jude3_site_published_content",
+      "summary": "The page argues that contemporary progressive social-justice efforts pursue identity-based equality across sexual, gender, and racial categories through deconstruction of traditional norms and redistribution of power.",
+      "source_url": "https://jude3pca.org/critical-theory-and-social-justice/",
+      "boundary": "This records Jude 3's framing of the movement, not an independent research conclusion about all social-justice advocacy.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-critical-theory-present-in-pca-claim",
+      "topic": "pca-trajectory",
+      "position_type": "jude3_site_published_content",
+      "summary": "The page claims that similar Critical Theory and Social Justice efforts are evident within the PCA and other conservative denominations.",
+      "source_url": "https://jude3pca.org/critical-theory-and-social-justice/",
+      "boundary": "This is preserved as Jude 3's organizational claim; it does not independently establish the classification of any named PCA person, church, seminary, or ministry.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-critical-theory-destabilizes-institutions-claim",
+      "topic": "critical-theory",
+      "position_type": "jude3_site_published_content",
+      "summary": "The page describes the Critical Theory project as destabilizing traditional institutions, including Christian institutions, in the name of liberation or human flourishing.",
+      "source_url": "https://jude3pca.org/critical-theory-and-social-justice/",
+      "ideological_weight": 0
+    }
+  ]
+}
