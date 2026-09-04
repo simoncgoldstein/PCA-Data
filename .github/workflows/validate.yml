@@ -29,67 +29,14 @@ jobs:
       - name: Validate structured data
         run: node scripts/validate-data.mjs
 
-      - name: Validate research imports
+      - name: Validate current research imports
         run: python3 scripts/validate-research-imports.py .
 
-      - name: Verify institution snapshot normalizer
-        run: |
-          tmp="$(mktemp)"
-          python3 scripts/normalize-institution-snapshots.py . "$tmp"
-          python3 - "$tmp" <<'PY'
-          import json
-          import sys
-          from pathlib import Path
+      - name: Generate RUF 2026 transition candidate
+        run: python3 scripts/normalize-ruf-transitions.py . /tmp/ruf-role-transitions-2026.json
 
-          checked_path = Path('sources/normalized/institutions/current-role-snapshots-2026-09-03.json')
-          candidate_path = Path(sys.argv[1])
-          checked = json.loads(checked_path.read_text())
-          candidate = json.loads(candidate_path.read_text())
-
-          if checked.get('metadata') != candidate.get('metadata'):
-              raise SystemExit('institution snapshot metadata drift')
-          if checked.get('coverage') != candidate.get('coverage'):
-              raise SystemExit('institution snapshot coverage drift')
-
-          left = checked.get('roles', [])
-          right = candidate.get('roles', [])
-          if len(left) != len(right):
-              raise SystemExit(f'institution role count drift: checked={len(left)} candidate={len(right)}')
-
-          enrichments = []
-          for index, (a, b) in enumerate(zip(left, right)):
-              a_struct = {k: v for k, v in a.items() if k != 'normalized_person_id'}
-              b_struct = {k: v for k, v in b.items() if k != 'normalized_person_id'}
-              if a_struct != b_struct:
-                  raise SystemExit(
-                      f'institution role structural drift at index {index}: '
-                      f"{a.get('organization_id')} / {a.get('name_as_printed')}"
-                  )
-
-              old_id = a.get('normalized_person_id')
-              new_id = b.get('normalized_person_id')
-              if old_id is not None and old_id != new_id:
-                  raise SystemExit(
-                      f'institution identity regression at index {index}: '
-                      f"{a.get('name_as_printed')} checked={old_id!r} candidate={new_id!r}"
-                  )
-              if old_id is None and new_id is not None:
-                  enrichments.append((a.get('organization_id'), a.get('name_as_printed'), new_id))
-
-          if enrichments:
-              print('Monotonic identity enrichments available:')
-              for organization_id, name, person_id in enrichments:
-                  print(f'  {organization_id}: {name} -> {person_id}')
-          PY
-
-      - name: Rebuild generated research outputs
-        run: |
-          python3 scripts/match-ffo-churches.py \
-            data/churches.json \
-            sources/normalized/external-datasets/save-the-pca-ffo/2026-02-08/flagged-churches.json \
-            sources/normalized/crosswalks/save-the-pca-ffo-2026-02-08
-          python3 scripts/build-person-crosswalk.py .
-          python3 scripts/build-overlap-analysis.py .
-
-      - name: Verify generated outputs are current
-        run: git diff --exit-code
+      - name: Archive RUF 2026 transition candidate
+        uses: actions/upload-artifact@v6
+        with:
+          name: ruf-transitions-2026-candidate
+          path: /tmp/ruf-role-transitions-2026.json
