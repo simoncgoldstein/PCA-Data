@@ -1,0 +1,75 @@
+{
+  "metadata": {
+    "dataset_id": "amr_2026_overtures_roundtable_part1_issue_positions",
+    "organization": "Alliance for Mission & Renewal",
+    "source_family": "amr_2026_overtures_roundtable_part1",
+    "source_type": "first_party_video_with_archived_auto_captions",
+    "captured_on": "2026-09-03",
+    "normalized_on": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Record only speaker-specific positions directly supported by the archived caption turn and an explicit named handoff or immediate speaker transition. Panel participation does not imply agreement.",
+    "identity_rule": "Names are preserved as stated by the first-party video metadata. This dataset does not create or relax person-identity matches.",
+    "copyright_boundary": "No continuous transcript is reproduced; only timestamps and bounded factual paraphrases are retained."
+  },
+  "source": {
+    "video_id": "xezEYJN8aiM",
+    "stable_item_id": "youtube-xezEYJN8aiM",
+    "title": "Overtures Roundtable Discussion 2026 (Part 1)",
+    "url": "https://www.youtube.com/watch?v=xezEYJN8aiM",
+    "caption_path": "sources/raw/media/amr/youtube-2026-09-03/captions/xezEYJN8aiM-en-auto-1.vtt"
+  },
+  "positions": [
+    {
+      "position_id": "amr-2026-o7-howie-donahoe",
+      "person_name_as_stated": "Howie Donahoe",
+      "normalized_person_id": null,
+      "topic": "rules_of_assembly_operations_and_rpr_reporting",
+      "overture": "2026 Overture 7",
+      "evidence_class": "direct_first_person_issue_statement",
+      "position_specificity": "high",
+      "stance": "favor",
+      "summary": "After Radney explicitly asked Howie which overtures he wanted to see pass, Donahoe identified Pacific Northwest Overture 7 concerning the RPR report as a very good addition.",
+      "source_locators": [
+        "approximately 00:18:17 — Radney's named handoff to Howie immediately precedes Donahoe's favorable Overture 7 statement"
+      ],
+      "speaker_attribution_basis": "The moderator explicitly addresses Howie and asks what he wants to see pass; the following uninterrupted first-person turn contains the Overture 7 statement.",
+      "important_boundary": "This records Donahoe's stated favorable view of Overture 7 only. It does not assign that view to the other panelists.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-o27-howie-donahoe",
+      "person_name_as_stated": "Howie Donahoe",
+      "normalized_person_id": null,
+      "topic": "assumption_of_original_jurisdiction",
+      "overture": "2026 Westminster Overture 27 as stated in the video",
+      "evidence_class": "direct_first_person_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "oppose_as_written_support_if_materially_amended",
+      "summary": "Donahoe said he did not like Westminster Overture 27 as written because its threshold was too low and its wording problematic. He nevertheless said it could be amended into a workable assumption-of-original-jurisdiction proposal and indicated that a 20 percent presbytery threshold would be necessary for him to support it.",
+      "source_locators": [
+        "approximately 00:18:42 — Donahoe states that he does not like the overture as written and critiques the threshold and wording",
+        "same uninterrupted turn — Donahoe says it could be amended into a workable proposal and gives a 20 percent threshold condition"
+      ],
+      "speaker_attribution_basis": "The statement occurs within Donahoe's uninterrupted response immediately after Radney's named handoff to Howie.",
+      "important_boundary": "The record preserves both Donahoe's opposition to the text as written and his conditional support for a materially amended version.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-o50-david-coffin",
+      "person_name_as_stated": "David Coffin",
+      "normalized_person_id": null,
+      "topic": "fasting_prayer_revival_and_renewal",
+      "overture": "2026 Overture 50",
+      "evidence_class": "direct_first_person_issue_statement",
+      "position_specificity": "high",
+      "stance": "favorable",
+      "summary": "When Radney explicitly asked David about Mississippi Valley Overture 50 calling for fasting and prayer for revival and renewal, Coffin described the overture as eloquent, thoughtful in its framing and scriptural encouragements, and a pleasure to read.",
+      "source_locators": [
+        "approximately 00:23:50 — Radney identifies Overture 50 and directly asks David for his view; Coffin immediately gives the favorable assessment"
+      ],
+      "speaker_attribution_basis": "Radney directly addresses David immediately before Coffin's response.",
+      "important_boundary": "Coffin's comments are clearly favorable, but the bounded passage does not contain an explicit vote instruction. The stance is therefore recorded as favorable rather than as an inferred formal vote commitment.",
+      "ideological_weight": 0
+    }
+  ]
+}
