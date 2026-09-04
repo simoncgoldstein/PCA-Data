@@ -1,0 +1,218 @@
+name: Recover Revoice18 archived assets
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - name: Query complete 2018 Revoice Wayback asset index
+        run: |
+          mkdir -p /tmp/revoice18-assets/bodies
+          python3 - <<'PY'
+          import json
+          import time
+          import urllib.parse
+          import urllib.request
+          from pathlib import Path
+
+          out = Path('/tmp/revoice18-assets')
+          patterns = [
+              'http://revoice.us/*',
+              'https://revoice.us/*',
+              'http://www.revoice.us/*',
+              'https://www.revoice.us/*',
+          ]
+          fields = ['timestamp', 'original', 'mimetype', 'statuscode', 'digest', 'length']
+          rows = []
+
+          def fetch_json(url):
+              last = None
+              for attempt in range(5):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': 'PCA-Data research archive recovery/1.0'})
+                      with urllib.request.urlopen(req, timeout=75) as resp:
+                          return json.load(resp)
+                  except Exception as exc:
+                      last = exc
+                      time.sleep(2 ** attempt)
+              raise last
+
+          for pattern in patterns:
+              params = {
+                  'url': pattern,
+                  'from': '2018',
+                  'to': '2018',
+                  'output': 'json',
+                  'fl': ','.join(fields),
+                  'filter': 'statuscode:200',
+                  'collapse': 'digest',
+              }
+              url = 'https://web.archive.org/cdx/search/cdx?' + urllib.parse.urlencode(params)
+              payload = fetch_json(url)
+              if not payload:
+                  continue
+              header = payload[0]
+              for values in payload[1:]:
+                  rows.append(dict(zip(header, values)))
+
+          deduped = {}
+          for row in rows:
+              key = (row.get('timestamp'), row.get('original'), row.get('digest'))
+              deduped[key] = row
+          rows = sorted(deduped.values(), key=lambda r: (r.get('timestamp', ''), r.get('original', '')))
+          out.joinpath('all-2018-captures.json').write_text(json.dumps(rows, indent=2) + '\n')
+          out.joinpath('all-2018-urls.txt').write_text('\n'.join(r.get('original', '') for r in rows) + '\n')
+
+          keywords = (
+              'program', 'programme', 'schedule', 'agenda', 'workshop', 'session',
+              'revoice18', 'revoice-18', 'conference', 'packet', 'policy', 'policies',
+              'speaker', 'breakout', 'seminar', 'itinerary', 'announcement'
+          )
+          document_exts = ('.pdf', '.doc', '.docx', '.ppt', '.pptx', '.xls', '.xlsx', '.txt', '.rtf')
+          document_mimes = {
+              'application/pdf',
+              'application/msword',
+              'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+              'application/vnd.ms-powerpoint',
+              'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+          }
+          candidates = []
+          for row in rows:
+              original = (row.get('original') or '').lower()
+              mime = (row.get('mimetype') or '').lower()
+              score = 0
+              reasons = []
+              for keyword in keywords:
+                  if keyword in original:
+                      score += 10
+                      reasons.append(f'url_keyword:{keyword}')
+              if original.split('?', 1)[0].endswith(document_exts):
+                  score += 30
+                  reasons.append('document_extension')
+              if mime in document_mimes:
+                  score += 30
+                  reasons.append(f'document_mime:{mime}')
+              if '/wp-content/uploads/2018/' in original:
+                  score += 2
+                  reasons.append('2018_wordpress_upload')
+              if score:
+                  candidate = dict(row)
+                  candidate['candidate_score'] = score
+                  candidate['candidate_reasons'] = reasons
+                  candidates.append(candidate)
+
+          candidates.sort(key=lambda r: (-r['candidate_score'], r.get('timestamp', ''), r.get('original', '')))
+          out.joinpath('candidates.json').write_text(json.dumps(candidates, indent=2) + '\n')
+          out.joinpath('candidate-urls.txt').write_text('\n'.join(r.get('original', '') for r in candidates) + '\n')
+          print(json.dumps({'all_unique_2018_captures': len(rows), 'candidate_captures': len(candidates)}, indent=2))
+          PY
+
+      - name: Fetch highest-value archived candidate bodies
+        run: |
+          python3 - <<'PY'
+          import hashlib
+          import json
+          import re
+          import time
+          import urllib.request
+          from pathlib import Path
+
+          root = Path('/tmp/revoice18-assets')
+          bodies = root / 'bodies'
+          candidates = json.loads((root / 'candidates.json').read_text())
+          manifest = []
+
+          def fetch_bytes(url):
+              last = None
+              for attempt in range(4):
+                  try:
+                      req = urllib.request.Request(url, headers={'User-Agent': 'PCA-Data research archive recovery/1.0'})
+                      with urllib.request.urlopen(req, timeout=75) as resp:
+                          return resp.read(), resp.headers.get('Content-Type')
+                  except Exception as exc:
+                      last = exc
+                      time.sleep(2 ** attempt)
+              return None, repr(last)
+
+          for index, row in enumerate(candidates[:120], 1):
+              timestamp = row['timestamp']
+              original = row['original']
+              replay = f'https://web.archive.org/web/{timestamp}id_/{original}'
+              body, content_type = fetch_bytes(replay)
+              item = {
+                  'rank': index,
+                  'timestamp': timestamp,
+                  'original': original,
+                  'replay_url': replay,
+                  'candidate_score': row['candidate_score'],
+                  'candidate_reasons': row['candidate_reasons'],
+                  'declared_mimetype': row.get('mimetype'),
+              }
+              if body is None:
+                  item['fetch_error'] = content_type
+                  manifest.append(item)
+                  continue
+              digest = hashlib.sha256(body).hexdigest()
+              suffix = Path(original.split('?', 1)[0]).suffix.lower()
+              if not suffix or len(suffix) > 8:
+                  suffix = '.bin'
+              safe = re.sub(r'[^a-zA-Z0-9._-]+', '_', Path(original.split('?', 1)[0]).name)[:80] or 'capture'
+              filename = f'{index:03d}_{timestamp}_{safe}_{digest[:12]}{suffix if not safe.endswith(suffix) else ""}'
+              (bodies / filename).write_bytes(body)
+              item.update({
+                  'filename': filename,
+                  'bytes': len(body),
+                  'sha256': digest,
+                  'returned_content_type': content_type,
+              })
+              manifest.append(item)
+              time.sleep(0.15)
+
+          root.joinpath('fetched-manifest.json').write_text(json.dumps(manifest, indent=2) + '\n')
+          print(json.dumps({
+              'attempted': len(manifest),
+              'fetched': sum(1 for r in manifest if 'filename' in r),
+              'failed': sum(1 for r in manifest if 'fetch_error' in r),
+          }, indent=2))
+          PY
+
+      - name: Summarize candidate evidence
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          root = Path('/tmp/revoice18-assets')
+          candidates = json.loads((root / 'candidates.json').read_text())
+          manifest = json.loads((root / 'fetched-manifest.json').read_text())
+          lines = [
+              '# Revoice 2018 archived asset recovery',
+              '',
+              f'- Unique 2018 CDX captures: {len(json.loads((root / "all-2018-captures.json").read_text()))}',
+              f'- Candidate captures: {len(candidates)}',
+              f'- Candidate bodies fetched: {sum(1 for r in manifest if "filename" in r)}',
+              '',
+              '## Highest-ranked candidates',
+              '',
+          ]
+          for row in candidates[:100]:
+              lines.append(f"- {row['timestamp']} | score {row['candidate_score']} | {row['original']} | {', '.join(row['candidate_reasons'])}")
+          root.joinpath('SUMMARY.md').write_text('\n'.join(lines) + '\n')
+          PY
+          cat /tmp/revoice18-assets/SUMMARY.md
+
+      - name: Archive recovery artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: revoice18-asset-recovery
+          path: /tmp/revoice18-assets
+          if-no-files-found: error
+          retention-days: 30
