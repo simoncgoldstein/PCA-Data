@@ -32,6 +32,12 @@ jobs:
       - name: Validate research imports
         run: python3 scripts/validate-research-imports.py .
 
+      - name: Verify institution snapshot normalizer
+        run: |
+          tmp="$(mktemp)"
+          python3 scripts/normalize-institution-snapshots.py . "$tmp"
+          diff -u sources/normalized/institutions/current-role-snapshots-2026-09-03.json "$tmp"
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
