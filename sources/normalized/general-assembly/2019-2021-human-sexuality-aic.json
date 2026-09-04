@@ -14,13 +14,55 @@
     "ideological_weight": 0
   },
   "members": [
-    {"name":"Bryan Chapell","office":"TE","presbytery":"Northern Illinois","role":"Chair"},
-    {"name":"Derek Halvorson","office":"RE","presbytery":"Tennessee Valley","role":"Member"},
-    {"name":"Kevin DeYoung","office":"TE","presbytery":"Central Carolina","role":"Member"},
-    {"name":"Kyle Keating","office":"RE","presbytery":"Missouri","role":"Member"},
-    {"name":"Tim Keller","office":"TE","presbytery":"Metropolitan New York","role":"Member"},
-    {"name":"Jim Pocta","office":"RE","presbytery":"North Texas","role":"Member"},
-    {"name":"Jim Weidenaar","office":"TE","presbytery":"Pittsburgh","role":"Member"}
+    {
+      "name": "Bryan Chapell",
+      "office": "TE",
+      "presbytery": "Northern Illinois",
+      "role": "Chair",
+      "normalized_person_id": null
+    },
+    {
+      "name": "Derek Halvorson",
+      "office": "RE",
+      "presbytery": "Tennessee Valley",
+      "role": "Member",
+      "normalized_person_id": null
+    },
+    {
+      "name": "Kevin DeYoung",
+      "office": "TE",
+      "presbytery": "Central Carolina",
+      "role": "Member",
+      "normalized_person_id": null
+    },
+    {
+      "name": "Kyle Keating",
+      "office": "RE",
+      "presbytery": "Missouri",
+      "role": "Member",
+      "normalized_person_id": "kyle-keating"
+    },
+    {
+      "name": "Tim Keller",
+      "office": "TE",
+      "presbytery": "Metropolitan New York",
+      "role": "Member",
+      "normalized_person_id": null
+    },
+    {
+      "name": "Jim Pocta",
+      "office": "RE",
+      "presbytery": "North Texas",
+      "role": "Member",
+      "normalized_person_id": null
+    },
+    {
+      "name": "Jim Weidenaar",
+      "office": "TE",
+      "presbytery": "Pittsburgh",
+      "role": "Member",
+      "normalized_person_id": null
+    }
   ],
   "member_count": 7,
   "assigned_scope": [
@@ -46,7 +88,10 @@
       "position_id": "image_of_god",
       "title_as_printed": "IMAGE OF GOD",
       "summary": "Human beings are created male and female in God's image; the body is good and people should ordinarily live according to biological sex, while difficult cases and people experiencing gender confusion call for compassionate ministry.",
-      "pdf_pages": [7,8]
+      "pdf_pages": [
+        7,
+        8
+      ]
     },
     {
       "statement_number": 3,
@@ -67,7 +112,10 @@
       "position_id": "concupiscence",
       "title_as_printed": "CONCUPISCENCE",
       "summary": "Impure thoughts and desires can be sin prior to a conscious act of the will; the report rejects a view in which disordered desire becomes sin only upon consent, while recognizing that many such desires are experienced as unwanted or unbidden and require careful pastoral treatment.",
-      "pdf_pages": [9,10]
+      "pdf_pages": [
+        9,
+        10
+      ]
     },
     {
       "statement_number": 6,
@@ -88,7 +136,10 @@
       "position_id": "impeccability",
       "title_as_printed": "IMPECCABILITY",
       "summary": "Christ neither sinned nor could sin; he experienced real trials and temptations from without but not disordered inward desires, while remaining a sympathetic high priest who truly suffered.",
-      "pdf_pages": [11,12]
+      "pdf_pages": [
+        11,
+        12
+      ]
     },
     {
       "statement_number": 9,
@@ -116,7 +167,10 @@
       "position_id": "repentance_and_hope",
       "title_as_printed": "REPENTANCE AND HOPE",
       "summary": "The Christian life is one of repentance; the church should repent of mistreatment and misplaced shame, believers should repent of sinful thoughts, desires, words, and deeds, and the report gives thanks for believers pursuing chastity and obedience amid ongoing same-sex attraction.",
-      "pdf_pages": [13,14]
+      "pdf_pages": [
+        13,
+        14
+      ]
     }
   ],
   "collective_position_count": 12,

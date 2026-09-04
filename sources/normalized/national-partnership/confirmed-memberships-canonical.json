@@ -768,7 +768,7 @@
         "Brian Ferry",
         "Brian Ferry Jr."
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "brian-ferry",
       "first_evidence_date": "2014-02-04",
       "evidence_count": 4,
       "evidence": [
@@ -852,7 +852,7 @@
       "name_variants_as_printed": [
         "Bruce Terrell"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "bruce-terrell",
       "first_evidence_date": "2013-02-04",
       "evidence_count": 4,
       "evidence": [

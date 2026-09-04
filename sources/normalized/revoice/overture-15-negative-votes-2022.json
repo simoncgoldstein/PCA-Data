@@ -5,9 +5,12 @@
     "local_pdf_text": "sources/raw/general-assembly/2022/49th_pcaga_2022_vol01.txt",
     "extraction_start_marker": "Overture 15 – Negative Votes",
     "extraction_end_marker": "The Chairman resumed his report by moving Recommendation 8",
-    "expected_rows": null,
-    "parsed_rows": 199,
-    "identity_rule": "Only unique matches to existing data/people.json records are resolved; printed names and presbyteries remain unchanged."
+    "expected_rows": 200,
+    "parsed_rows": 200,
+    "identity_rule": "Only unique matches to existing data/people.json records are resolved; printed names and presbyteries remain unchanged.",
+    "original_49th_ga_rows": 199,
+    "correction_source": "https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf",
+    "correction_summary": "The 51st GA minutes add TE Danny Morgan, South Coast, whose name was inadvertently omitted from the 49th GA Overture 15 negative-vote roster."
   },
   "negative_votes": [
     {
@@ -118,7 +121,7 @@
       "print_order": 10,
       "pdf_page": 82,
       "printed_page": 80,
-      "normalized_person_id": null
+      "normalized_person_id": "john-bauer"
     },
     {
       "office_as_printed": "TE",
@@ -250,7 +253,7 @@
       "print_order": 22,
       "pdf_page": 83,
       "printed_page": 81,
-      "normalized_person_id": null
+      "normalized_person_id": "sam-brown"
     },
     {
       "office_as_printed": "TE",
@@ -327,7 +330,7 @@
       "print_order": 29,
       "pdf_page": 83,
       "printed_page": 81,
-      "normalized_person_id": "matt-clegg"
+      "normalized_person_id": null
     },
     {
       "office_as_printed": "TE",
@@ -602,7 +605,7 @@
       "print_order": 54,
       "pdf_page": 83,
       "printed_page": 81,
-      "normalized_person_id": null
+      "normalized_person_id": "andrew-goyzueta"
     },
     {
       "office_as_printed": "RE",
@@ -822,7 +825,7 @@
       "print_order": 74,
       "pdf_page": 84,
       "printed_page": 82,
-      "normalized_person_id": null
+      "normalized_person_id": "tim-inman"
     },
     {
       "office_as_printed": "TE",
@@ -855,7 +858,7 @@
       "print_order": 77,
       "pdf_page": 84,
       "printed_page": 82,
-      "normalized_person_id": null
+      "normalized_person_id": "david-jones"
     },
     {
       "office_as_printed": "TE",
@@ -888,7 +891,7 @@
       "print_order": 80,
       "pdf_page": 84,
       "printed_page": 82,
-      "normalized_person_id": null
+      "normalized_person_id": "darrell-jung"
     },
     {
       "office_as_printed": "TE",
@@ -910,7 +913,7 @@
       "print_order": 82,
       "pdf_page": 84,
       "printed_page": 82,
-      "normalized_person_id": null
+      "normalized_person_id": "kyle-keating"
     },
     {
       "office_as_printed": "TE",
@@ -1592,7 +1595,7 @@
       "print_order": 144,
       "pdf_page": 85,
       "printed_page": 83,
-      "normalized_person_id": null
+      "normalized_person_id": "ben-reed"
     },
     {
       "office_as_printed": "TE",
@@ -1658,7 +1661,7 @@
       "print_order": 150,
       "pdf_page": 86,
       "printed_page": 84,
-      "normalized_person_id": null
+      "normalized_person_id": "chandler-rowlen"
     },
     {
       "office_as_printed": "RE",
@@ -1713,7 +1716,7 @@
       "print_order": 155,
       "pdf_page": 86,
       "printed_page": 84,
-      "normalized_person_id": null
+      "normalized_person_id": "rob-scheele"
     },
     {
       "office_as_printed": "TE",
@@ -2010,7 +2013,7 @@
       "print_order": 182,
       "pdf_page": 86,
       "printed_page": 84,
-      "normalized_person_id": null
+      "normalized_person_id": "marq-toombs"
     },
     {
       "office_as_printed": "TE",
@@ -2131,7 +2134,7 @@
       "print_order": 193,
       "pdf_page": 87,
       "printed_page": 85,
-      "normalized_person_id": null
+      "normalized_person_id": "ben-winkler"
     },
     {
       "office_as_printed": "RE",
@@ -2197,6 +2200,20 @@
       "print_order": 199,
       "pdf_page": 87,
       "printed_page": 85,
+      "normalized_person_id": "heath-zuniga"
+    },
+    {
+      "office_as_printed": "TE",
+      "first_name_as_printed": "Danny",
+      "last_name_as_printed": "Morgan",
+      "name_as_printed": "Danny Morgan",
+      "presbytery_as_printed": "South Coast",
+      "print_order": 200,
+      "pdf_page": null,
+      "printed_page": null,
+      "correction_source": "https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf",
+      "correction_printed_page": 1217,
+      "correction_note": "51st GA Corrections to the Minutes of the 49th General Assembly: name inadvertently left off Overture 15 negative-vote roster.",
       "normalized_person_id": null
     }
   ]

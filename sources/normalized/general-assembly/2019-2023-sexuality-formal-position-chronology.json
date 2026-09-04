@@ -38,7 +38,11 @@
       "event_type": "assembly_commendation",
       "topic": "human_sexuality",
       "summary": "The Overtures Committee recommended answering Overture 38, Commend Human Sexuality Report, in the affirmative by 124-3-0. The 48th General Assembly then adopted Recommendation 38 in the affirmative by show of hands.",
-      "overtures_committee_vote": {"for": 124, "against": 3, "abstain": 0},
+      "overtures_committee_vote": {
+        "for": 124,
+        "against": 3,
+        "abstain": 0
+      },
       "assembly_vote_method": "show_of_hands_no_numeric_tally_published_in_journal_action",
       "person_level_inference": false,
       "primary_source": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf",
@@ -50,7 +54,11 @@
       "event_type": "committee_majority_recommendation",
       "topic": "officer_examination_and_remaining_sin",
       "summary": "The Overtures Committee recommended that Overture 37 be answered in the affirmative as amended, adding examination language concerning notorious concerns, sinful actions and desires, progress over sin, and reputation or self-profession according to remaining sinfulness.",
-      "committee_vote": {"for": 82, "against": 43, "abstain": 1},
+      "committee_vote": {
+        "for": 82,
+        "against": 43,
+        "abstain": 1
+      },
       "person_level_inference": false,
       "important_boundary": "The 82 commissioners in the majority are not individually identified by this aggregate vote and must not be inferred from non-signership on the minority report.",
       "primary_source": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf",
@@ -87,8 +95,14 @@
       "event_type": "general_assembly_vote",
       "topic": "officer_examination_and_remaining_sin",
       "summary": "The minority substitute was defeated 1209-617. The Assembly then answered Overture 37 in the affirmative as amended, reported contemporaneously as 1130-692.",
-      "minority_substitute_vote": {"for": 617, "against": 1209},
-      "final_affirmative_vote": {"for": 1130, "against": 692},
+      "minority_substitute_vote": {
+        "for": 617,
+        "against": 1209
+      },
+      "final_affirmative_vote": {
+        "for": 1130,
+        "against": 692
+      },
       "published_negative_votes": {
         "status": "official_roster_present_in_minutes_pending_local_normalization",
         "expected_secondary_count": 207,
@@ -116,8 +130,14 @@
       "event_type": "committee_and_general_assembly_action",
       "topic": "officer_qualification_fallen_desires_and_sanctification",
       "summary": "The Overtures Committee recommended Overture 29 in the affirmative as amended by 120-17. The amendment addressed officer qualification through confession and mortification of remaining sins, affirmation of the sinfulness of fallen desires, progressive sanctification, and pursuit of Spirit-empowered victory over sinful temptations, inclinations, and actions. The General Assembly adopted it 1922-200.",
-      "committee_vote": {"for": 120, "against": 17},
-      "assembly_vote": {"for": 1922, "against": 200},
+      "committee_vote": {
+        "for": 120,
+        "against": 17
+      },
+      "assembly_vote": {
+        "for": 1922,
+        "against": 200
+      },
       "person_level_inference": false,
       "primary_source": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022.pdf",
       "contemporaneous_source": "https://byfaithonline.com/overtures-committee-actions-for-june-20/"
@@ -128,7 +148,10 @@
       "event_type": "committee_majority_recommendation",
       "topic": "officer_self_description_and_homosexuality",
       "summary": "The Overtures Committee majority recommended answering Overture 15 with reference to its affirmative action on Overture 29 rather than adopting Overture 15's specific BCO 7 language.",
-      "committee_vote": {"for": 80, "against": 47},
+      "committee_vote": {
+        "for": 80,
+        "against": 47
+      },
       "person_level_inference": false,
       "important_boundary": "This is evidence for a procedural/substantive preference for addressing Overture 15 by reference to Overture 29. It is not evidence that the committee majority rejected the Human Sexuality Report or progressive-sanctification requirements.",
       "primary_source": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022.pdf",
@@ -164,9 +187,15 @@
       "event_type": "general_assembly_vote",
       "topic": "officer_self_description_and_homosexuality",
       "summary": "The Assembly adopted the proposal to make the minority report the main motion 1094-1044, then adopted the resulting minority recommendation 1167-978, effectively answering Overture 15 in the affirmative as amended.",
-      "minority_becomes_main_motion_vote": {"for": 1094, "against": 1044},
-      "final_affirmative_vote": {"for": 1167, "against": 978},
-      "published_negative_vote_count": 199,
+      "minority_becomes_main_motion_vote": {
+        "for": 1094,
+        "against": 1044
+      },
+      "final_affirmative_vote": {
+        "for": 1167,
+        "against": 978
+      },
+      "published_negative_vote_count": 200,
       "negative_vote_path": "sources/normalized/revoice/overture-15-negative-votes-2022.json",
       "named_roles": [
         {
@@ -177,7 +206,15 @@
         }
       ],
       "important_boundary": "A recorded negative vote establishes opposition to the final minority-derived Overture 15 motion. It does not, without separate evidence, establish the commissioner's rationale or opposition to Overture 29 or the Human Sexuality Report.",
-      "primary_source": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022_vol01.pdf"
+      "primary_source": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022_vol01.pdf",
+      "negative_vote_correction": {
+        "original_49th_ga_roster_count": 199,
+        "corrected_official_count": 200,
+        "added_name_as_printed": "TE Danny Morgan",
+        "presbytery_as_printed": "South Coast",
+        "correction_source": "https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf",
+        "correction_printed_page": 1217
+      }
     },
     {
       "event_id": "2023-overture-15-presbytery-disposition",
@@ -185,9 +222,25 @@
       "event_type": "constitutional_amendment_lifecycle",
       "topic": "officer_self_description_and_homosexuality",
       "summary": "The Overture 15 amendment failed to reach the required two-thirds presbytery threshold and therefore did not proceed to final General Assembly ratification as a BCO amendment.",
-      "official_reported_presbytery_tally": {"for": 39, "against": 29},
+      "official_reported_presbytery_tally": {
+        "for": 39,
+        "against": 29
+      },
       "person_level_inference": false,
-      "primary_source": "https://www.pcahistory.org/pca/ga/50th_pcaga_2023.pdf"
+      "primary_source": "https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf",
+      "official_corrected_presbytery_tally": {
+        "for": 48,
+        "against": 32
+      },
+      "number_of_presbyteries": 88,
+      "number_reporting": 80,
+      "two_thirds_approval_threshold": 59,
+      "superseded_50th_ga_printed_tally": {
+        "for": 39,
+        "against": 29,
+        "number_reporting": 68
+      },
+      "correction_note": "The 51st GA Corrections to Previous Minutes states that the 50th GA published tallies omitted the onsite revision reflecting the most up-to-date presbytery votes. The corrected official Overture 15 tally is 48-32 with 80 presbyteries reporting; 59 affirmative presbyteries were required."
     },
     {
       "event_id": "2023-overture-29-final-ratification",
@@ -195,7 +248,10 @@
       "event_type": "constitutional_amendment_lifecycle",
       "topic": "officer_qualification_fallen_desires_and_sanctification",
       "summary": "The amendment originating in 2022 Overture 29 received overwhelming presbytery approval and was finally adopted into BCO 16-4 at the 50th General Assembly.",
-      "reported_presbytery_tally": {"for": 79, "against": 1},
+      "reported_presbytery_tally": {
+        "for": 79,
+        "against": 1
+      },
       "person_level_inference": false,
       "primary_source": "https://www.pcahistory.org/pca/ga/50th_pcaga_2023.pdf"
     }
