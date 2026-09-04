@@ -1,0 +1,37 @@
+{
+  "metadata": {
+    "organization": "Jude 3 & the PCA",
+    "captured": "2026-09-04",
+    "evidence_scope": "explicit organization-level statements on confessional standards",
+    "raw_receipt": "sources/raw/publications/jude3-pca/confessional-standards-source-2026-09-04.md",
+    "modeling_rule": "Only statements explicitly framed by the page as Jude 3 & the PCA's own beliefs are normalized here. The adjacent Firm Foundation Partnership endorsement is excluded from Jude 3 attribution.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "jude3-westminster-standards-subordinate-summary",
+      "topic": "confessional-standards",
+      "position_type": "organizational_position",
+      "summary": "Jude 3 & the PCA states that periodic review and renewal of commitment to the Westminster Standards is healthy, and describes the Standards as subordinate to Scripture while serving as a good and necessary summary of Bible doctrine.",
+      "source_url": "https://jude3pca.org/pca-confessional-standards/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-rejects-critical-method-authority-in-doctrine",
+      "topic": "confessional-standards",
+      "position_type": "organizational_position",
+      "summary": "Jude 3 & the PCA rejects time-bound critical methods, Critical Theory, pervasive interpretive pluralism, and other culturally approved critical tools as authorities for determining Bible doctrine or reviewing the confessional standards.",
+      "source_url": "https://jude3pca.org/pca-confessional-standards/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-rejects-chronological-dismissal-westminster",
+      "topic": "confessional-standards",
+      "position_type": "organizational_position",
+      "summary": "Jude 3 & the PCA rejects dismissing the Westminster Standards on the ground that their authors were seventeenth-century churchmen, characterizing that move as chronological snobbery and emphasizing the divines' sustained Scriptural study and collaboration.",
+      "source_url": "https://jude3pca.org/pca-confessional-standards/",
+      "boundary": "This record does not import the following Firm Foundation Partnership statement about strict adherence into Jude 3's organizational position.",
+      "ideological_weight": 0
+    }
+  ]
+}
