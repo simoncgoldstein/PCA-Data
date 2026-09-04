@@ -16,7 +16,7 @@
       "name_as_printed": "Robert Binion Jr",
       "presbytery_as_printed": "Northern California",
       "presbytery_id": "northern-california",
-      "normalized_person_id": null,
+      "normalized_person_id": "robert-binion",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -26,7 +26,7 @@
       "name_as_printed": "Cal Boroughs III",
       "presbytery_as_printed": "Tennessee Valley Presbytery",
       "presbytery_id": "tennessee-valley",
-      "normalized_person_id": null,
+      "normalized_person_id": "cal-boroughs",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -66,7 +66,7 @@
       "name_as_printed": "Jason Cornwell",
       "presbytery_as_printed": "Palmetto Presbytery",
       "presbytery_id": "palmetto",
-      "normalized_person_id": null,
+      "normalized_person_id": "jason-cornwell",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -76,7 +76,7 @@
       "name_as_printed": "Brian Davis",
       "presbytery_as_printed": "North Texas Presbytery",
       "presbytery_id": "north-texas",
-      "normalized_person_id": null,
+      "normalized_person_id": "brian-davis",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -86,7 +86,7 @@
       "name_as_printed": "Jonathan Dorst",
       "presbytery_as_printed": "Hills and Plains Presbytery",
       "presbytery_id": "hills-and-plains",
-      "normalized_person_id": null,
+      "normalized_person_id": "jonathan-dorst",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -116,7 +116,7 @@
       "name_as_printed": "Bevan Houston",
       "presbytery_as_printed": "Hills and Plains Presbytery",
       "presbytery_id": "hills-and-plains",
-      "normalized_person_id": null,
+      "normalized_person_id": "bevan-houston",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -126,7 +126,7 @@
       "name_as_printed": "Tim Jackson",
       "presbytery_as_printed": "Missouri Presbytery",
       "presbytery_id": "missouri",
-      "normalized_person_id": null,
+      "normalized_person_id": "tim-jackson",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -146,7 +146,7 @@
       "name_as_printed": "Trevor Laurence",
       "presbytery_as_printed": "Piedmont Triad Presbytery",
       "presbytery_id": "piedmont-triad",
-      "normalized_person_id": null,
+      "normalized_person_id": "trevor-laurence",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -156,7 +156,7 @@
       "name_as_printed": "Brian LoPiccolo",
       "presbytery_as_printed": "Chesapeake Presbytery",
       "presbytery_id": "chesapeake",
-      "normalized_person_id": null,
+      "normalized_person_id": "brian-lopiccolo",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -186,7 +186,7 @@
       "name_as_printed": "Greg Poole",
       "presbytery_as_printed": "Evangel Presbytery",
       "presbytery_id": "evangel",
-      "normalized_person_id": null,
+      "normalized_person_id": "greg-poole",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -216,7 +216,7 @@
       "name_as_printed": "Peter Rowan",
       "presbytery_as_printed": "Susquehanna Presbytery",
       "presbytery_id": "susquehanna-valley",
-      "normalized_person_id": null,
+      "normalized_person_id": "peter-rowan",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },
@@ -226,7 +226,7 @@
       "name_as_printed": "Andrew Shank",
       "presbytery_as_printed": "Highlands Presbytery",
       "presbytery_id": "highlands",
-      "normalized_person_id": null,
+      "normalized_person_id": "andrew-shank",
       "pdf_page": 135,
       "printed_appendix_page": 10
     },

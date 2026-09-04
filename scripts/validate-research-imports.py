@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+import csv
 import hashlib
 import json
 import sys
@@ -107,6 +108,12 @@ hashes = {
     "sources/raw/media/jude3pca/home-2026-09-03.html": "eb5691757fa0dd417edfd2f55c81d3c785f78a101a81d7c63b9c4cefb25e9935",
     "sources/raw/media/pcapolity/home-2026-09-03.html": "307a7070c0830c5dcb31112100be8677fd3108ba51039f4f8dde8d267d281467",
     "sources/raw/media/pcapolity/secret-caucuses-2022-01-28.html": "9d0dad6baf7ab5d4f40bc6349f85c5883b089c52c2a08447c1efb610fa0b576a",
+    "sources/raw/publications/co-laborers-co-heirs/screenshots/chapters-01-13.png": "41e211ba3d1abef04a949eae9d8ff44a5e3156279355b4a01d480cf58240900a",
+    "sources/raw/publications/co-laborers-co-heirs/screenshots/chapters-14-26.png": "2a86ec913b05efa168c77feb31ec82fc82d137616b7ee35c88e48cb832c9f4b6",
+    "sources/raw/publications/heal-us-emmanuel/screenshots/chapters-01-15.png": "673646efee0055faae181d4093049b51f8791d53024de0d056680ebd5afe64ff",
+    "sources/raw/publications/heal-us-emmanuel/screenshots/chapters-16-30.png": "ce1283b905040da4cc201413ce838eac4db1822ef4dabb9a29e1cbd0f670d53c",
+    "sources/raw/publications/hear-us-emmanuel/screenshots/chapters-01-15.png": "edd6258142dbb5fe8fd02ad22eed79c76674aced9213ec8db4257854406d5eb9",
+    "sources/raw/publications/hear-us-emmanuel/screenshots/chapters-16-28.png": "0c3898c327a6febdd10a803bf4bdf3c20ab10f3cbea8dae170511df2f74fe081",
 }
 for relative, expected in hashes.items():
     path = root / relative
@@ -163,11 +170,92 @@ if not claims or any(row.get("do_not_model_as_fact") is not True for row in clai
 if augenstein.get("media_recovery", {}).get("status") != "blocked_missing_source":
     errors.append("Andrew Augenstein assessment: missing media must remain explicitly blocked")
 
+publication_contributors = load("data/publication_contributors.json")
+publication_by_id = {row.get("publication_id"): row for row in publication_contributors}
+expected_chapters = {
+    "heal-us-emmanuel-2016": 30,
+    "hear-us-emmanuel-2020": 28,
+    "co-laborers-co-heirs-2019": 26,
+}
+for publication_id, expected in expected_chapters.items():
+    chapters = publication_by_id.get(publication_id, {}).get("chapter_contributors", [])
+    if len(chapters) != expected or [row.get("chapter") for row in chapters] != list(range(1, expected + 1)):
+        errors.append(f"{publication_id}: expected {expected} consecutive screenshot-verified chapters")
+heal = publication_by_id.get("heal-us-emmanuel-2016", {})
+if "Jonathan Seda" not in heal.get("contributors", []) or "Jonathan Edgar" in heal.get("contributors", []):
+    errors.append("Heal Us, Emmanuel: chapter 29 screenshot correction must remain Jonathan Seda")
+
+identity = load("sources/normalized/identity/person-crosswalk.json")
+identity_rows = identity.get("records", [])
+allowed_statuses = {"exact_confirmed", "context_confirmed", "probable_requires_review", "ambiguous", "collision", "unmatched"}
+if len(identity_rows) < 2700:
+    errors.append(f"identity crosswalk unexpectedly sparse: {len(identity_rows)} rows")
+seen_crosswalk_ids: set[str] = set()
+seen_source_rows: set[tuple[str, str]] = set()
+for row in identity_rows:
+    crosswalk_id = row.get("crosswalk_id")
+    source_key = (row.get("source_dataset"), row.get("source_row_locator"))
+    if not crosswalk_id or crosswalk_id in seen_crosswalk_ids:
+        errors.append(f"identity crosswalk duplicate/missing ID: {crosswalk_id}")
+    seen_crosswalk_ids.add(crosswalk_id)
+    if source_key in seen_source_rows:
+        errors.append(f"identity crosswalk source row maps more than once: {source_key}")
+    seen_source_rows.add(source_key)
+    if not row.get("name_as_printed"):
+        errors.append(f"identity {crosswalk_id}: printed name lost")
+    if row.get("match_status") not in allowed_statuses:
+        errors.append(f"identity {crosswalk_id}: unsupported match status")
+    person_id = row.get("canonical_person_id")
+    if person_id and person_id not in people:
+        errors.append(f"identity {crosswalk_id}: nonexistent person ID {person_id}")
+    if person_id and row.get("match_status") not in {"exact_confirmed", "context_confirmed"}:
+        errors.append(f"identity {crosswalk_id}: unresolved/collision row received person ID")
+    if row.get("match_status") in {"ambiguous", "collision"} and person_id:
+        errors.append(f"identity {crosswalk_id}: confirmed collision key")
+identity_summary = load("sources/normalized/identity/summary.json")
+if sum(identity_summary.get("overall_match_status_counts", {}).values()) != len(identity_rows):
+    errors.append("identity summary status counts do not equal crosswalk row count")
+afp_2022 = load("sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json").get("signers", [])
+if afp_2022 and (afp_2022[5].get("name_as_printed") != "Rev. Steve Brown" or afp_2022[5].get("normalized_person_id") is not None):
+    errors.append("A Faithful PCA signature 6 must not carry Andrew Augenstein's ID")
+if len(afp_2022) >= 477 and afp_2022[476].get("normalized_person_id") != "andrew-augenstein":
+    errors.append("A Faithful PCA signature 477 should resolve to Andrew Augenstein")
+
+overlap_files = [
+    "analysis/overlap/dataset-coverage.json",
+    "analysis/overlap/pairwise-overlap.csv",
+    "analysis/overlap/pairwise-shared-people.json",
+    "analysis/overlap/person-recurrence.csv",
+    "analysis/overlap/presbytery-concentration.csv",
+    "analysis/overlap/church-concentration.csv",
+    "analysis/overlap/institutional-pipelines.json",
+    "analysis/overlap/graph-quality.json",
+]
+for relative in overlap_files:
+    if not (root / relative).exists():
+        errors.append(f"missing overlap output: {relative}")
+pairwise_path = root / "analysis/overlap/pairwise-overlap.csv"
+if pairwise_path.exists():
+    with pairwise_path.open(encoding="utf-8", newline="") as handle:
+        pairwise = list(csv.DictReader(handle))
+    dataset_count = len(identity_summary.get("datasets", []))
+    if len(pairwise) != dataset_count * (dataset_count - 1) // 2:
+        errors.append(f"pairwise overlap: expected all dataset pairs, found {len(pairwise)}")
+    for row in pairwise:
+        if float(row.get("jaccard_similarity", -1)) < 0 or float(row.get("jaccard_similarity", 2)) > 1:
+            errors.append(f"pairwise overlap invalid Jaccard: {row.get('dataset_a')} / {row.get('dataset_b')}")
+graph_quality = load("analysis/overlap/graph-quality.json")
+if graph_quality.get("quality_gaps", {}).get("unresolved_identity_rows") != sum(
+    count for status, count in identity_summary.get("overall_match_status_counts", {}).items()
+    if status not in {"exact_confirmed", "context_confirmed"}
+):
+    errors.append("graph quality unresolved-identity count is inconsistent with identity summary")
+
 if errors:
     print(f"Research import validation failed with {len(errors)} error(s):", file=sys.stderr)
     for error in errors:
         print(f"- {error}", file=sys.stderr)
     raise SystemExit(1)
-print("Validated research imports: P0 rosters and source families plus P1 institution roles, AMR blog archive, and Revoice/Missouri documents.")
+print("Validated research imports: P0/P1 source families, publication screenshots, identity crosswalk, and overlap analysis.")
 for note in notes:
     print(f"- {note}")

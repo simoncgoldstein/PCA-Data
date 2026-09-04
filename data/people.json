@@ -6,7 +6,9 @@
     "current_role": "Senior Pastor",
     "current_organization": "chapelgate",
     "denominational_status": "PCA",
-    "current_role_source_ids": ["src-chapelgate-khandjian-2026"],
+    "current_role_source_ids": [
+      "src-chapelgate-khandjian-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -16,7 +18,9 @@
     "current_role": "Lead Pastor",
     "current_organization": "grace-mosaic",
     "denominational_status": "PCA",
-    "current_role_source_ids": ["src-grace-mosaic-team-2026"],
+    "current_role_source_ids": [
+      "src-grace-mosaic-team-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -26,7 +30,10 @@
     "current_role": "Co-Chair, Board of Directors",
     "current_organization": "amr",
     "denominational_status": "PCA",
-    "current_role_source_ids": ["src-amr-team-2026", "src-amr-center-2026"],
+    "current_role_source_ids": [
+      "src-amr-team-2026",
+      "src-amr-center-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -36,7 +43,9 @@
     "current_role": "Lead Pastor",
     "current_organization": "spanish-river",
     "denominational_status": "PCA",
-    "current_role_source_ids": ["src-spanish-river-cassidy-2026"],
+    "current_role_source_ids": [
+      "src-spanish-river-cassidy-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -46,7 +55,9 @@
     "current_role": "Assistant Coordinator for Cross-Cultural Advancement",
     "current_organization": "ruf",
     "denominational_status": "PCA",
-    "current_role_source_ids": ["src-ruf-whitfield-2026"],
+    "current_role_source_ids": [
+      "src-ruf-whitfield-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -56,7 +67,9 @@
     "current_role": "Co-Founder & Chief of Strategic Partnerships & Development",
     "current_organization": "khora-collective",
     "denominational_status": "PCA-associated; current presbytery status not yet normalized",
-    "current_role_source_ids": ["src-khora-jun-2026"],
+    "current_role_source_ids": [
+      "src-khora-jun-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -76,7 +89,9 @@
     "current_role": "Executive Director, Voices Underground; Visiting Theologian for Mission, Grace Mosaic",
     "current_organization": "voices-underground",
     "denominational_status": "current PCA ministerial status not established in v0.1",
-    "current_role_source_ids": ["src-greg-thompson-uva"],
+    "current_role_source_ids": [
+      "src-greg-thompson-uva"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -96,7 +111,10 @@
     "current_role": "Executive Director, Pray March Act; Senior Pastor, Redeemer East Harlem",
     "current_organization": "pray-march-act",
     "denominational_status": "PCA",
-    "current_role_source_ids": ["src-pma-adour-2026", "src-pma-adour-bio-2026"],
+    "current_role_source_ids": [
+      "src-pma-adour-2026",
+      "src-pma-adour-bio-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -106,7 +124,9 @@
     "current_role": "UVA RUF Campus Minister (role stated in 2024 source; current-role refresh pending)",
     "current_organization": "ruf",
     "denominational_status": "PCA / Blue Ridge in 2024 source",
-    "current_role_source_ids": ["src-garris-letter-1"],
+    "current_role_source_ids": [
+      "src-garris-letter-1"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -116,7 +136,9 @@
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA in 2024 source; current role normalization pending",
-    "current_role_source_ids": ["src-garris-letter-1"],
+    "current_role_source_ids": [
+      "src-garris-letter-1"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -146,7 +168,9 @@
     "current_role": "Co-Chair, Board of Directors",
     "current_organization": "amr",
     "denominational_status": "PCA-associated",
-    "current_role_source_ids": ["src-amr-team-2026"],
+    "current_role_source_ids": [
+      "src-amr-team-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -156,7 +180,9 @@
     "current_role": "Content Team Standing Team Leader",
     "current_organization": "amr",
     "denominational_status": "PCA-associated",
-    "current_role_source_ids": ["src-amr-team-2026"],
+    "current_role_source_ids": [
+      "src-amr-team-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -166,7 +192,9 @@
     "current_role": "Secretary, Board of Directors",
     "current_organization": "amr",
     "denominational_status": "PCA-associated",
-    "current_role_source_ids": ["src-amr-team-2026"],
+    "current_role_source_ids": [
+      "src-amr-team-2026"
+    ],
     "profile_status": "seeded"
   },
   {
@@ -176,7 +204,1899 @@
     "current_role": "Ruling Elder/Clerk of the Session, Lake Nona Presbyterian Church",
     "current_organization": null,
     "denominational_status": "PCA / Central Florida Presbytery",
-    "current_role_source_ids": ["src-lake-nona-leadership-2026"],
+    "current_role_source_ids": [
+      "src-lake-nona-leadership-2026"
+    ],
     "profile_status": "source_assessed"
+  },
+  {
+    "id": "aaron-baker",
+    "name": "Aaron Baker",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "aaron-collier",
+    "name": "Aaron Collier",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "abraham-cho",
+    "name": "Abraham Cho",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "adam-lopez",
+    "name": "Adam Lopez",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "albert-young",
+    "name": "Albert Young",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "andrew-kim",
+    "name": "Andrew Kim",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "andrew-norquist",
+    "name": "Andrew Norquist",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "andrew-shank",
+    "name": "Andrew Shank",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "andy-gray",
+    "name": "Andy Gray",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "andy-moehn",
+    "name": "Andy Moehn",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "austin-pfeiffer",
+    "name": "Austin Pfeiffer",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ben-hein",
+    "name": "Ben Hein",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ben-jolliffe",
+    "name": "Ben Jolliffe",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ben-melchers",
+    "name": "Ben Melchers",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "bevan-houston",
+    "name": "Bevan Houston",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "bj-milgate",
+    "name": "BJ Milgate",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "bob-cargo",
+    "name": "Bob Cargo",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "bob-flayhart",
+    "name": "Bob Flayhart",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "bobby-suh",
+    "name": "Bobby Suh",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "brad-edwards",
+    "name": "Brad Edwards",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "brad-lucht",
+    "name": "Brad Lucht",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "bradley-barnes",
+    "name": "Bradley Barnes",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "brian-davis",
+    "name": "Brian Davis",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "brian-lopiccolo",
+    "name": "Brian LoPiccolo",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "bruce-o-neil",
+    "name": "Bruce O’Neil",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "bryce-hales",
+    "name": "Bryce Hales",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "cal-boroughs",
+    "name": "Cal Boroughs",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "caleb-click",
+    "name": "Caleb Click",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "cameron-anderson",
+    "name": "Cameron Anderson",
+    "ordination": null,
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "casey-shutt",
+    "name": "Casey Shutt",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "chris-accardy",
+    "name": "Chris Accardy",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "chris-horne",
+    "name": "Chris Horne",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "chris-polski",
+    "name": "Chris Polski",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "chris-sicks",
+    "name": "Chris Sicks",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "chris-smith",
+    "name": "Chris Smith",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "christopher-stokes",
+    "name": "Christopher Stokes",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "clay-holland",
+    "name": "Clay Holland",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "clay-wooten",
+    "name": "Clay Wooten",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "dan-katches",
+    "name": "Dan Katches",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "dave-abney",
+    "name": "Dave Abney",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-bisgrove",
+    "name": "David Bisgrove",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-driskill",
+    "name": "David Driskill",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-keithley",
+    "name": "David Keithley",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-palma",
+    "name": "David Palma",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-salsedo",
+    "name": "David Salsedo",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-schweissing",
+    "name": "David Schweissing",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-wallover",
+    "name": "David Wallover",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-westerfield",
+    "name": "David Westerfield",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "dawson-hunt",
+    "name": "Dawson Hunt",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "doug-serven",
+    "name": "Doug Serven",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "elliott-wood",
+    "name": "Elliott Wood",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ethan-smith",
+    "name": "Ethan Smith",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "geoff-bradford",
+    "name": "Geoff Bradford",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "george-koontz",
+    "name": "George Koontz",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "giorgio-hiatt",
+    "name": "Giorgio Hiatt",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "glenn-hoburg",
+    "name": "Glenn Hoburg",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "greg-blosser",
+    "name": "Greg Blosser",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "greg-meyer",
+    "name": "Greg Meyer",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "greg-poole",
+    "name": "Greg Poole",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "greg-schneeberger",
+    "name": "Greg Schneeberger",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "hace-cargo",
+    "name": "Hace Cargo",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "hansoo-jin",
+    "name": "Hansoo Jin",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "hector-sanchez",
+    "name": "Hector Sanchez",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "hugh-barlett",
+    "name": "Hugh Barlett",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jack-howell",
+    "name": "Jack Howell",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jack-watkins",
+    "name": "Jack Watkins",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jacob-spencer",
+    "name": "Jacob Spencer",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jake-patton",
+    "name": "Jake Patton",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "james-han",
+    "name": "James Han",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "james-martin",
+    "name": "James Martin",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "james-partridge",
+    "name": "James Partridge",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "james-pocta",
+    "name": "James Pocta",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jared-huffman",
+    "name": "Jared Huffman",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jason-bobo",
+    "name": "Jason Bobo",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jason-cornwell",
+    "name": "Jason Cornwell",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jason-polk",
+    "name": "Jason Polk",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jeff-suhr",
+    "name": "Jeff Suhr",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jeff-wreyford",
+    "name": "Jeff Wreyford",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jefferson-bennett",
+    "name": "Jefferson Bennett",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jeffrey-hynds",
+    "name": "Jeffrey Hynds",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jeremy-fair",
+    "name": "Jeremy Fair",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jeremy-kemp",
+    "name": "Jeremy Kemp",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jerry-stutzman",
+    "name": "Jerry Stutzman",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "joe-brand",
+    "name": "Joe Brand",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "joe-thompson",
+    "name": "Joe Thompson",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "joel-branscomb",
+    "name": "Joel Branscomb",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "john-baber",
+    "name": "John Baber",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "john-bourgeois",
+    "name": "John Bourgeois",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "john-standridge",
+    "name": "John Standridge",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jon-talley",
+    "name": "Jon Talley",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jonathan-dorst",
+    "name": "Jonathan Dorst",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jonathan-winfree",
+    "name": "Jonathan Winfree",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "josh-spears",
+    "name": "Josh Spears",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "joshua-reitano",
+    "name": "Joshua Reitano",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "joshua-torrey",
+    "name": "Joshua Torrey",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "justin-chappell",
+    "name": "Justin Chappell",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "justin-edgar",
+    "name": "Justin Edgar",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "justin-grimm",
+    "name": "Justin Grimm",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "justin-smith",
+    "name": "Justin Smith",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "justin-woodall",
+    "name": "Justin Woodall",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "keith-robinson",
+    "name": "Keith Robinson",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "keith-winder",
+    "name": "Keith Winder",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ken-kostrzewa",
+    "name": "Ken Kostrzewa",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "kevin-rogers",
+    "name": "Kevin Rogers",
+    "ordination": null,
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "kevin-timmons",
+    "name": "Kevin Timmons",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "kevin-twit",
+    "name": "Kevin Twit",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "kyle-bobos",
+    "name": "Kyle Bobos",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "kyle-edwards",
+    "name": "Kyle Edwards",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "kyle-hackmann",
+    "name": "Kyle Hackmann",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "larry-hoop",
+    "name": "Larry Hoop",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "leeeric-fesko",
+    "name": "LeeEric Fesko",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "loren-bell",
+    "name": "Loren Bell",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "luke-brodine",
+    "name": "Luke Brodine",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "luke-calvin",
+    "name": "Luke Calvin",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "luke-evans",
+    "name": "Luke Evans",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "lyndon-jost",
+    "name": "Lyndon Jost",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "mac-purdy",
+    "name": "Mac Purdy",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "mark-coddington",
+    "name": "Mark Coddington",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "mark-peach",
+    "name": "Mark Peach",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "marshall-wilmhoff",
+    "name": "Marshall Wilmhoff",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "matt-clegg",
+    "name": "Matt Clegg",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "matt-lietzen",
+    "name": "Matt Lietzen",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "matt-luchenbill",
+    "name": "Matt Luchenbill",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "matt-wiley",
+    "name": "Matt Wiley",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "matthew-armstrong",
+    "name": "Matthew Armstrong",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "michael-novak",
+    "name": "Michael Novak",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "michael-phillips",
+    "name": "Michael Phillips",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "mika-edmondson",
+    "name": "Mika Edmondson",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "mike-mclaughlin",
+    "name": "Mike McLaughlin",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "mike-tilley",
+    "name": "Mike Tilley",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "nate-conrad",
+    "name": "Nate Conrad",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "nathan-tircuit",
+    "name": "Nathan Tircuit",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "nicholas-davis",
+    "name": "Nicholas Davis",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "nick-angert",
+    "name": "Nick Angert",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "noah-wiersema",
+    "name": "Noah Wiersema",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "omar-ortiz",
+    "name": "Omar Ortiz",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "omari-hill",
+    "name": "Omari Hill",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "owen-tarantino",
+    "name": "Owen Tarantino",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "pablo-rosales",
+    "name": "Pablo Rosales",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "pat-hickman",
+    "name": "Pat Hickman",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "patrick-allen",
+    "name": "Patrick Allen",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "patrick-sewell",
+    "name": "Patrick Sewell",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "peter-kim",
+    "name": "Peter Kim",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "peter-rowan",
+    "name": "Peter Rowan",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "philip-kruis",
+    "name": "Philip Kruis",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "randy-lovelace",
+    "name": "Randy Lovelace",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ray-cortese",
+    "name": "Ray Cortese",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "richard-schwartz",
+    "name": "Richard Schwartz",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "robbie-schmidtberger",
+    "name": "Robbie Schmidtberger",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "robert-binion",
+    "name": "Robert Binion",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ron-lutjens",
+    "name": "Ron Lutjens",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ross-dixon",
+    "name": "Ross Dixon",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "russ-ramsey",
+    "name": "Russ Ramsey",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ryan-baker",
+    "name": "Ryan Baker",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "ryan-brown",
+    "name": "Ryan Brown",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "sam-kim",
+    "name": "Sam Kim",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "samuel-haist",
+    "name": "Samuel Haist",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "scott-brown",
+    "name": "Scott Brown",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "scott-sauls",
+    "name": "Scott Sauls",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "scott-seaton",
+    "name": "Scott Seaton",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "scott-stewart",
+    "name": "Scott Stewart",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "shane-gibson",
+    "name": "Shane Gibson",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "shane-hatfield",
+    "name": "Shane Hatfield",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "spencer-thomas",
+    "name": "Spencer Thomas",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "steven-chitty",
+    "name": "Steven Chitty",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "steven-cooper",
+    "name": "Steven Cooper",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "steven-nicoletti",
+    "name": "Steven Nicoletti",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "taylor-leachman",
+    "name": "Taylor Leachman",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "thurman-williams",
+    "name": "Thurman Williams",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "tim-jackson",
+    "name": "Tim Jackson",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "timothy-udouj",
+    "name": "Timothy Udouj",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "tino-imbesi",
+    "name": "Tino Imbesi",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "titus-bagby",
+    "name": "Titus Bagby",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "todd-phillips",
+    "name": "Todd Phillips",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "todd-teller",
+    "name": "Todd Teller",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "tom-drury",
+    "name": "Tom Drury",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "tony-howard",
+    "name": "Tony Howard",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "travis-drake",
+    "name": "Travis Drake",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "travis-marsh",
+    "name": "Travis Marsh",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "travis-scott",
+    "name": "Travis Scott",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "trevor-laurence",
+    "name": "Trevor Laurence",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "vincent-hoppe",
+    "name": "Vincent Hoppe",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "walter-lee",
+    "name": "Walter Lee",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "wayne-larson",
+    "name": "Wayne Larson",
+    "ordination": null,
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "william-brooke",
+    "name": "William Brooke",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "won-kwak",
+    "name": "Won Kwak",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "woonny-kim",
+    "name": "Woonny Kim",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "worth-carson",
+    "name": "Worth Carson",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "zach-pummill",
+    "name": "Zach Pummill",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
   }
 ]

@@ -4,7 +4,7 @@ This queue is intentionally source-first. New public-facing person/network claim
 
 ## Current phase
 
-**Source saturation before detective-view/UI expansion.**
+**Source saturation plus conservative identity/overlap analysis before detective-view/UI expansion.**
 
 Normal web/files/GitHub tools are still producing useful primary evidence. A ChatGPT Work/Chrome investigation pass should begin **after the checkpoint at the bottom of this file is substantially complete**, because that is when browser/computer access becomes most valuable for stubborn downloads, Wayback pages, YouTube transcripts, old church staff pages, and presbytery records.
 
@@ -124,9 +124,13 @@ Next:
 User-supplied source-audit screenshots for Heal Us, Hear Us, and Co-Laborers are attributed to:
 https://x.com/dokimazete
 
-Text transcriptions may be normalized now. The actual PNG files should be committed under the corresponding publication `screenshots/` folders when binary GitHub upload is available through Work/browser/manual upload.
+**COMPLETED 2026-09-04:** all six PNG files are archived under the corresponding publication `screenshots/` folders with SHA-256 manifests. All 84 chapter rows are normalized. The image audit corrected *Heal Us, Emmanuel* chapter 29 to Jonathan Seda.
 
 Do not rely on the screenshots' color/highlight as proof of NP membership unless the NP archive independently establishes the relationship.
+
+## P1 — identity resolution and overlap analysis
+
+**FIRST PASS COMPLETED 2026-09-04:** the reproducible identity crosswalk covers 2,716 source rows across 27 datasets and confirms 660 row mappings to 206 people. The first overlap outputs include all 351 dataset pairs, typed multi-roster recurrence, presbytery/church concentration, institutional co-occurrence pipelines, and graph-quality diagnostics. Continue with the 226 probable rows first, then the ambiguous/collision queue; do not loosen the contextual matching threshold.
 
 ## P1 — AMR media archive
 

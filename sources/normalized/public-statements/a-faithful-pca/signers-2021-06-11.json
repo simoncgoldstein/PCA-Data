@@ -367,7 +367,7 @@
       "sequence": 16,
       "name_as_printed": "Rev. Dr. Bob Flayhart",
       "normalized_name_candidate": "Bob Flayhart",
-      "normalized_person_id": null,
+      "normalized_person_id": "bob-flayhart",
       "pdf_pages": [
         5,
         6
@@ -413,7 +413,7 @@
       "sequence": 18,
       "name_as_printed": "Rev. Ray Cortese",
       "normalized_name_candidate": "Ray Cortese",
-      "normalized_person_id": null,
+      "normalized_person_id": "ray-cortese",
       "pdf_pages": [
         6
       ],
@@ -436,7 +436,7 @@
       "sequence": 19,
       "name_as_printed": "Rev. Bob Cargo",
       "normalized_name_candidate": "Bob Cargo",
-      "normalized_person_id": null,
+      "normalized_person_id": "bob-cargo",
       "pdf_pages": [
         6
       ],
@@ -459,7 +459,7 @@
       "sequence": 20,
       "name_as_printed": "Rev. Scott Sauls",
       "normalized_name_candidate": "Scott Sauls",
-      "normalized_person_id": null,
+      "normalized_person_id": "scott-sauls",
       "pdf_pages": [
         6,
         7
@@ -483,7 +483,7 @@
       "sequence": 21,
       "name_as_printed": "Rev. Glenn Hoburg",
       "normalized_name_candidate": "Glenn Hoburg",
-      "normalized_person_id": null,
+      "normalized_person_id": "glenn-hoburg",
       "pdf_pages": [
         7
       ],
@@ -550,7 +550,7 @@
       "sequence": 24,
       "name_as_printed": "Rev. Dr. Thurman Williams",
       "normalized_name_candidate": "Thurman Williams",
-      "normalized_person_id": null,
+      "normalized_person_id": "thurman-williams",
       "pdf_pages": [
         7,
         8
@@ -574,7 +574,7 @@
       "sequence": 25,
       "name_as_printed": "Rev. Cal Boroughs",
       "normalized_name_candidate": "Cal Boroughs",
-      "normalized_person_id": null,
+      "normalized_person_id": "cal-boroughs",
       "pdf_pages": [
         8
       ],
@@ -619,7 +619,7 @@
       "sequence": 27,
       "name_as_printed": "Rev. Justin Woodall",
       "normalized_name_candidate": "Justin Woodall",
-      "normalized_person_id": null,
+      "normalized_person_id": "justin-woodall",
       "pdf_pages": [
         8
       ],
@@ -780,7 +780,7 @@
       "sequence": 34,
       "name_as_printed": "Rev. Worth Carson",
       "normalized_name_candidate": "Worth Carson",
-      "normalized_person_id": null,
+      "normalized_person_id": "worth-carson",
       "pdf_pages": [
         10
       ],
@@ -895,7 +895,7 @@
       "sequence": 39,
       "name_as_printed": "Rev. Jack Howell",
       "normalized_name_candidate": "Jack Howell",
-      "normalized_person_id": null,
+      "normalized_person_id": "jack-howell",
       "pdf_pages": [
         11,
         12
@@ -941,7 +941,7 @@
       "sequence": 41,
       "name_as_printed": "Rev. Dr. David Wallover",
       "normalized_name_candidate": "David Wallover",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-wallover",
       "pdf_pages": [
         12
       ],
@@ -1054,7 +1054,7 @@
       "sequence": 46,
       "name_as_printed": "Rev. Scott Seaton",
       "normalized_name_candidate": "Scott Seaton",
-      "normalized_person_id": null,
+      "normalized_person_id": "scott-seaton",
       "pdf_pages": [
         13
       ],
@@ -1101,7 +1101,7 @@
       "sequence": 48,
       "name_as_printed": "Rev. Patrick Allen",
       "normalized_name_candidate": "Patrick Allen",
-      "normalized_person_id": null,
+      "normalized_person_id": "patrick-allen",
       "pdf_pages": [
         14
       ],
@@ -1147,7 +1147,7 @@
       "sequence": 50,
       "name_as_printed": "Rev. Andy Moehn",
       "normalized_name_candidate": "Andy Moehn",
-      "normalized_person_id": null,
+      "normalized_person_id": "andy-moehn",
       "pdf_pages": [
         14
       ],
@@ -1170,7 +1170,7 @@
       "sequence": 51,
       "name_as_printed": "Rev. Walter Lee",
       "normalized_name_candidate": "Walter Lee",
-      "normalized_person_id": null,
+      "normalized_person_id": "walter-lee",
       "pdf_pages": [
         14,
         15
@@ -1194,7 +1194,7 @@
       "sequence": 52,
       "name_as_printed": "Rev. Bobby Suh",
       "normalized_name_candidate": "Bobby Suh",
-      "normalized_person_id": null,
+      "normalized_person_id": "bobby-suh",
       "pdf_pages": [
         15
       ],
@@ -1239,7 +1239,7 @@
       "sequence": 54,
       "name_as_printed": "Rev. Greg Poole",
       "normalized_name_candidate": "Greg Poole",
-      "normalized_person_id": null,
+      "normalized_person_id": "greg-poole",
       "pdf_pages": [
         15
       ],
@@ -1578,7 +1578,7 @@
       "sequence": 69,
       "name_as_printed": "Ken Kostrzewa",
       "normalized_name_candidate": "Ken Kostrzewa",
-      "normalized_person_id": null,
+      "normalized_person_id": "ken-kostrzewa",
       "pdf_pages": [
         19
       ],
@@ -1601,7 +1601,7 @@
       "sequence": 70,
       "name_as_printed": "Rev. Kyle Hackmann",
       "normalized_name_candidate": "Kyle Hackmann",
-      "normalized_person_id": null,
+      "normalized_person_id": "kyle-hackmann",
       "pdf_pages": [
         19
       ],
@@ -2009,7 +2009,7 @@
       "sequence": 88,
       "name_as_printed": "Rev. Shane Gibson",
       "normalized_name_candidate": "Shane Gibson",
-      "normalized_person_id": null,
+      "normalized_person_id": "shane-gibson",
       "pdf_pages": [
         24
       ],
@@ -2212,7 +2212,7 @@
       "sequence": 97,
       "name_as_printed": "Rev. John Bourgeois",
       "normalized_name_candidate": "John Bourgeois",
-      "normalized_person_id": null,
+      "normalized_person_id": "john-bourgeois",
       "pdf_pages": [
         26
       ],
@@ -2301,7 +2301,7 @@
       "sequence": 101,
       "name_as_printed": "Rev. Austin Pfeiffer",
       "normalized_name_candidate": "Austin Pfeiffer",
-      "normalized_person_id": null,
+      "normalized_person_id": "austin-pfeiffer",
       "pdf_pages": [
         27
       ],
@@ -2324,7 +2324,7 @@
       "sequence": 102,
       "name_as_printed": "Rev. Caleb Click",
       "normalized_name_candidate": "Caleb Click",
-      "normalized_person_id": null,
+      "normalized_person_id": "caleb-click",
       "pdf_pages": [
         27
       ],
@@ -2778,7 +2778,7 @@
       "sequence": 122,
       "name_as_printed": "Rev. Bryce Hales",
       "normalized_name_candidate": "Bryce Hales",
-      "normalized_person_id": null,
+      "normalized_person_id": "bryce-hales",
       "pdf_pages": [
         32
       ],
@@ -2846,7 +2846,7 @@
       "sequence": 125,
       "name_as_printed": "Rev. Matt Wiley",
       "normalized_name_candidate": "Matt Wiley",
-      "normalized_person_id": null,
+      "normalized_person_id": "matt-wiley",
       "pdf_pages": [
         33
       ],
@@ -2869,7 +2869,7 @@
       "sequence": 126,
       "name_as_printed": "Rev. Doug Serven",
       "normalized_name_candidate": "Doug Serven",
-      "normalized_person_id": null,
+      "normalized_person_id": "doug-serven",
       "pdf_pages": [
         33
       ],
@@ -2914,7 +2914,7 @@
       "sequence": 128,
       "name_as_printed": "Rev. Ethan Smith",
       "normalized_name_candidate": "Ethan Smith",
-      "normalized_person_id": null,
+      "normalized_person_id": "ethan-smith",
       "pdf_pages": [
         34
       ],
@@ -2937,7 +2937,7 @@
       "sequence": 129,
       "name_as_printed": "Rev. Travis Scott",
       "normalized_name_candidate": "Travis Scott",
-      "normalized_person_id": null,
+      "normalized_person_id": "travis-scott",
       "pdf_pages": [
         34
       ],
@@ -3075,7 +3075,7 @@
       "sequence": 135,
       "name_as_printed": "Rev. Kevin Rogers",
       "normalized_name_candidate": "Kevin Rogers",
-      "normalized_person_id": null,
+      "normalized_person_id": "kevin-rogers",
       "pdf_pages": [
         35
       ],
@@ -3159,7 +3159,7 @@
       "sequence": 139,
       "name_as_printed": "Rev. Jason Cornwell",
       "normalized_name_candidate": "Jason Cornwell",
-      "normalized_person_id": null,
+      "normalized_person_id": "jason-cornwell",
       "pdf_pages": [
         36
       ],
@@ -3343,7 +3343,7 @@
       "sequence": 147,
       "name_as_printed": "Rev. Peter Rowan",
       "normalized_name_candidate": "Peter Rowan",
-      "normalized_person_id": null,
+      "normalized_person_id": "peter-rowan",
       "pdf_pages": [
         38
       ],
@@ -3366,7 +3366,7 @@
       "sequence": 148,
       "name_as_printed": "Rev. Hace Cargo",
       "normalized_name_candidate": "Hace Cargo",
-      "normalized_person_id": null,
+      "normalized_person_id": "hace-cargo",
       "pdf_pages": [
         39
       ],
@@ -3459,7 +3459,7 @@
       "sequence": 152,
       "name_as_printed": "Rev. David Salsedo",
       "normalized_name_candidate": "David Salsedo",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-salsedo",
       "pdf_pages": [
         40
       ],
@@ -3526,7 +3526,7 @@
       "sequence": 155,
       "name_as_printed": "Rev. Mark Peach",
       "normalized_name_candidate": "Mark Peach",
-      "normalized_person_id": null,
+      "normalized_person_id": "mark-peach",
       "pdf_pages": [
         40,
         41
@@ -3550,7 +3550,7 @@
       "sequence": 156,
       "name_as_printed": "Rev. Adam Lopez",
       "normalized_name_candidate": "Adam Lopez",
-      "normalized_person_id": null,
+      "normalized_person_id": "adam-lopez",
       "pdf_pages": [
         41
       ],
@@ -3618,7 +3618,7 @@
       "sequence": 159,
       "name_as_printed": "Rev. Brad Edwards",
       "normalized_name_candidate": "Brad Edwards",
-      "normalized_person_id": null,
+      "normalized_person_id": "brad-edwards",
       "pdf_pages": [
         41,
         42
@@ -3642,7 +3642,7 @@
       "sequence": 160,
       "name_as_printed": "Nick Angert",
       "normalized_name_candidate": "Nick Angert",
-      "normalized_person_id": null,
+      "normalized_person_id": "nick-angert",
       "pdf_pages": [
         42
       ],
@@ -3871,7 +3871,7 @@
       "sequence": 170,
       "name_as_printed": "Rev. Joshua Reitano",
       "normalized_name_candidate": "Joshua Reitano",
-      "normalized_person_id": null,
+      "normalized_person_id": "joshua-reitano",
       "pdf_pages": [
         44
       ],
@@ -3916,7 +3916,7 @@
       "sequence": 172,
       "name_as_printed": "Rev. Dave Abney",
       "normalized_name_candidate": "Dave Abney",
-      "normalized_person_id": null,
+      "normalized_person_id": "dave-abney",
       "pdf_pages": [
         45
       ],
@@ -4075,7 +4075,7 @@
       "sequence": 179,
       "name_as_printed": "Joe Thompson",
       "normalized_name_candidate": "Joe Thompson",
-      "normalized_person_id": null,
+      "normalized_person_id": "joe-thompson",
       "pdf_pages": [
         47
       ],
@@ -4140,7 +4140,7 @@
       "sequence": 182,
       "name_as_printed": "Rev. Scott Brown",
       "normalized_name_candidate": "Scott Brown",
-      "normalized_person_id": null,
+      "normalized_person_id": "scott-brown",
       "pdf_pages": [
         47
       ],
@@ -4163,7 +4163,7 @@
       "sequence": 183,
       "name_as_printed": "Rev. Luke Evans",
       "normalized_name_candidate": "Luke Evans",
-      "normalized_person_id": null,
+      "normalized_person_id": "luke-evans",
       "pdf_pages": [
         47,
         48
@@ -4324,7 +4324,7 @@
       "sequence": 190,
       "name_as_printed": "Rev. Keith Robinson",
       "normalized_name_candidate": "Keith Robinson",
-      "normalized_person_id": null,
+      "normalized_person_id": "keith-robinson",
       "pdf_pages": [
         49,
         50
@@ -4348,7 +4348,7 @@
       "sequence": 191,
       "name_as_printed": "Rev. Kevin Twit",
       "normalized_name_candidate": "Kevin Twit",
-      "normalized_person_id": null,
+      "normalized_person_id": "kevin-twit",
       "pdf_pages": [
         50
       ],
@@ -4417,7 +4417,7 @@
       "sequence": 194,
       "name_as_printed": "Rev. Justin Edgar",
       "normalized_name_candidate": "Justin Edgar",
-      "normalized_person_id": null,
+      "normalized_person_id": "justin-edgar",
       "pdf_pages": [
         50,
         51
@@ -4441,7 +4441,7 @@
       "sequence": 195,
       "name_as_printed": "Rev. Hansoo Jin",
       "normalized_name_candidate": "Hansoo Jin",
-      "normalized_person_id": null,
+      "normalized_person_id": "hansoo-jin",
       "pdf_pages": [
         51
       ],
@@ -4509,7 +4509,7 @@
       "sequence": 198,
       "name_as_printed": "Rev. Wayne Larson",
       "normalized_name_candidate": "Wayne Larson",
-      "normalized_person_id": null,
+      "normalized_person_id": "wayne-larson",
       "pdf_pages": [
         51,
         52
@@ -4625,7 +4625,7 @@
       "sequence": 203,
       "name_as_printed": "Rev. Randy Lovelace",
       "normalized_name_candidate": "Randy Lovelace",
-      "normalized_person_id": null,
+      "normalized_person_id": "randy-lovelace",
       "pdf_pages": [
         53
       ],
@@ -4853,7 +4853,7 @@
       "sequence": 213,
       "name_as_printed": "Rev. Jefferson Bennett",
       "normalized_name_candidate": "Jefferson Bennett",
-      "normalized_person_id": null,
+      "normalized_person_id": "jefferson-bennett",
       "pdf_pages": [
         55,
         56
@@ -4922,7 +4922,7 @@
       "sequence": 216,
       "name_as_printed": "Rev. Chris Sicks",
       "normalized_name_candidate": "Chris Sicks",
-      "normalized_person_id": null,
+      "normalized_person_id": "chris-sicks",
       "pdf_pages": [
         56
       ],
@@ -4945,7 +4945,7 @@
       "sequence": 217,
       "name_as_printed": "Rev. David Schweissing",
       "normalized_name_candidate": "David Schweissing",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-schweissing",
       "pdf_pages": [
         56,
         57
@@ -4969,7 +4969,7 @@
       "sequence": 218,
       "name_as_printed": "Rev. Robbie Schmidtberger",
       "normalized_name_candidate": "Robbie Schmidtberger",
-      "normalized_person_id": null,
+      "normalized_person_id": "robbie-schmidtberger",
       "pdf_pages": [
         57
       ],
@@ -5015,7 +5015,7 @@
       "sequence": 220,
       "name_as_printed": "Rev. Aaron Baker",
       "normalized_name_candidate": "Aaron Baker",
-      "normalized_person_id": null,
+      "normalized_person_id": "aaron-baker",
       "pdf_pages": [
         57
       ],
@@ -5424,7 +5424,7 @@
       "sequence": 238,
       "name_as_printed": "Rev. Dr. Jeremy Fair",
       "normalized_name_candidate": "Jeremy Fair",
-      "normalized_person_id": null,
+      "normalized_person_id": "jeremy-fair",
       "pdf_pages": [
         62
       ],
@@ -5470,7 +5470,7 @@
       "sequence": 240,
       "name_as_printed": "Rev. Chris Accardy",
       "normalized_name_candidate": "Chris Accardy",
-      "normalized_person_id": null,
+      "normalized_person_id": "chris-accardy",
       "pdf_pages": [
         62,
         63
@@ -5494,7 +5494,7 @@
       "sequence": 241,
       "name_as_printed": "Andy Gray",
       "normalized_name_candidate": "Andy Gray",
-      "normalized_person_id": null,
+      "normalized_person_id": "andy-gray",
       "pdf_pages": [
         63
       ],
@@ -5539,7 +5539,7 @@
       "sequence": 243,
       "name_as_printed": "Rev. Pat Hickman",
       "normalized_name_candidate": "Pat Hickman",
-      "normalized_person_id": null,
+      "normalized_person_id": "pat-hickman",
       "pdf_pages": [
         63
       ],
@@ -5562,7 +5562,7 @@
       "sequence": 244,
       "name_as_printed": "Rev. Mike McLaughlin",
       "normalized_name_candidate": "Mike McLaughlin",
-      "normalized_person_id": null,
+      "normalized_person_id": "mike-mclaughlin",
       "pdf_pages": [
         63,
         64
@@ -6040,7 +6040,7 @@
       "sequence": 265,
       "name_as_printed": "James Pocta",
       "normalized_name_candidate": "James Pocta",
-      "normalized_person_id": null,
+      "normalized_person_id": "james-pocta",
       "pdf_pages": [
         69
       ],
@@ -6152,7 +6152,7 @@
       "sequence": 270,
       "name_as_printed": "Rev. Brian Davis",
       "normalized_name_candidate": "Brian Davis",
-      "normalized_person_id": null,
+      "normalized_person_id": "brian-davis",
       "pdf_pages": [
         70
       ],
@@ -6199,7 +6199,7 @@
       "sequence": 272,
       "name_as_printed": "Rev. Dr. Abraham Cho",
       "normalized_name_candidate": "Abraham Cho",
-      "normalized_person_id": null,
+      "normalized_person_id": "abraham-cho",
       "pdf_pages": [
         71
       ],
@@ -6245,7 +6245,7 @@
       "sequence": 274,
       "name_as_printed": "Rev. Ryan Brown",
       "normalized_name_candidate": "Ryan Brown",
-      "normalized_person_id": null,
+      "normalized_person_id": "ryan-brown",
       "pdf_pages": [
         71
       ],
@@ -6292,7 +6292,7 @@
       "sequence": 276,
       "name_as_printed": "Patrick Sewell",
       "normalized_name_candidate": "Patrick Sewell",
-      "normalized_person_id": null,
+      "normalized_person_id": "patrick-sewell",
       "pdf_pages": [
         72
       ],
@@ -6451,7 +6451,7 @@
       "sequence": 283,
       "name_as_printed": "Ben Jolliffe",
       "normalized_name_candidate": "Ben Jolliffe",
-      "normalized_person_id": null,
+      "normalized_person_id": "ben-jolliffe",
       "pdf_pages": [
         74
       ],
@@ -6586,7 +6586,7 @@
       "sequence": 289,
       "name_as_printed": "Rev. Ron Lutjens",
       "normalized_name_candidate": "Ron Lutjens",
-      "normalized_person_id": null,
+      "normalized_person_id": "ron-lutjens",
       "pdf_pages": [
         75
       ],
@@ -6793,7 +6793,7 @@
       "sequence": 298,
       "name_as_printed": "Rev. Geoff Bradford",
       "normalized_name_candidate": "Geoff Bradford",
-      "normalized_person_id": null,
+      "normalized_person_id": "geoff-bradford",
       "pdf_pages": [
         77,
         78
@@ -7002,7 +7002,7 @@
       "sequence": 307,
       "name_as_printed": "Rev. Steven Chitty",
       "normalized_name_candidate": "Steven Chitty",
-      "normalized_person_id": null,
+      "normalized_person_id": "steven-chitty",
       "pdf_pages": [
         80
       ],
@@ -7164,7 +7164,7 @@
       "sequence": 314,
       "name_as_printed": "Rev. Kyle Edwards",
       "normalized_name_candidate": "Kyle Edwards",
-      "normalized_person_id": null,
+      "normalized_person_id": "kyle-edwards",
       "pdf_pages": [
         82
       ],
@@ -7437,7 +7437,7 @@
       "sequence": 326,
       "name_as_printed": "Rev. Cameron Anderson",
       "normalized_name_candidate": "Cameron Anderson",
-      "normalized_person_id": null,
+      "normalized_person_id": "cameron-anderson",
       "pdf_pages": [
         85
       ],
@@ -7667,7 +7667,7 @@
       "sequence": 336,
       "name_as_printed": "Rev. Hector Sanchez Jr",
       "normalized_name_candidate": "Hector Sanchez Jr",
-      "normalized_person_id": null,
+      "normalized_person_id": "hector-sanchez",
       "pdf_pages": [
         87,
         88
@@ -7691,7 +7691,7 @@
       "sequence": 337,
       "name_as_printed": "Rev. Matt Clegg",
       "normalized_name_candidate": "Matt Clegg",
-      "normalized_person_id": null,
+      "normalized_person_id": "matt-clegg",
       "pdf_pages": [
         88
       ],
@@ -7737,7 +7737,7 @@
       "sequence": 339,
       "name_as_printed": "Rev. James Han",
       "normalized_name_candidate": "James Han",
-      "normalized_person_id": null,
+      "normalized_person_id": "james-han",
       "pdf_pages": [
         88
       ],
@@ -7760,7 +7760,7 @@
       "sequence": 340,
       "name_as_printed": "Rev. Jason Polk",
       "normalized_name_candidate": "Jason Polk",
-      "normalized_person_id": null,
+      "normalized_person_id": "jason-polk",
       "pdf_pages": [
         89
       ],
@@ -7828,7 +7828,7 @@
       "sequence": 343,
       "name_as_printed": "Rev. Greg Blosser",
       "normalized_name_candidate": "Greg Blosser",
-      "normalized_person_id": null,
+      "normalized_person_id": "greg-blosser",
       "pdf_pages": [
         89
       ],
@@ -7990,7 +7990,7 @@
       "sequence": 350,
       "name_as_printed": "Rev. Giorgio Hiatt",
       "normalized_name_candidate": "Giorgio Hiatt",
-      "normalized_person_id": null,
+      "normalized_person_id": "giorgio-hiatt",
       "pdf_pages": [
         91
       ],
@@ -8127,7 +8127,7 @@
       "sequence": 356,
       "name_as_printed": "Rev. Jeff Suhr",
       "normalized_name_candidate": "Jeff Suhr",
-      "normalized_person_id": null,
+      "normalized_person_id": "jeff-suhr",
       "pdf_pages": [
         93
       ],
@@ -8219,7 +8219,7 @@
       "sequence": 360,
       "name_as_printed": "Brad Lucht",
       "normalized_name_candidate": "Brad Lucht",
-      "normalized_person_id": null,
+      "normalized_person_id": "brad-lucht",
       "pdf_pages": [
         94
       ],
@@ -8334,7 +8334,7 @@
       "sequence": 365,
       "name_as_printed": "Rev. David Bisgrove",
       "normalized_name_candidate": "David Bisgrove",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-bisgrove",
       "pdf_pages": [
         95
       ],
@@ -8426,7 +8426,7 @@
       "sequence": 369,
       "name_as_printed": "Rev. Jason Bobo",
       "normalized_name_candidate": "Jason Bobo",
-      "normalized_person_id": null,
+      "normalized_person_id": "jason-bobo",
       "pdf_pages": [
         96
       ],
@@ -8518,7 +8518,7 @@
       "sequence": 373,
       "name_as_printed": "Rev. Jonathan Dorst",
       "normalized_name_candidate": "Jonathan Dorst",
-      "normalized_person_id": null,
+      "normalized_person_id": "jonathan-dorst",
       "pdf_pages": [
         97
       ],
@@ -8565,7 +8565,7 @@
       "sequence": 375,
       "name_as_printed": "Rev. Russ Ramsey",
       "normalized_name_candidate": "Russ Ramsey",
-      "normalized_person_id": null,
+      "normalized_person_id": "russ-ramsey",
       "pdf_pages": [
         98
       ],
@@ -8611,7 +8611,7 @@
       "sequence": 377,
       "name_as_printed": "Rev. Brian LoPiccolo",
       "normalized_name_candidate": "Brian LoPiccolo",
-      "normalized_person_id": null,
+      "normalized_person_id": "brian-lopiccolo",
       "pdf_pages": [
         98
       ],
@@ -8724,7 +8724,7 @@
       "sequence": 382,
       "name_as_printed": "Rev. Ryan Baker",
       "normalized_name_candidate": "Ryan Baker",
-      "normalized_person_id": null,
+      "normalized_person_id": "ryan-baker",
       "pdf_pages": [
         100
       ],
@@ -8747,7 +8747,7 @@
       "sequence": 383,
       "name_as_printed": "Rev. Nicholas Davis",
       "normalized_name_candidate": "Nicholas Davis",
-      "normalized_person_id": null,
+      "normalized_person_id": "nicholas-davis",
       "pdf_pages": [
         100
       ],
@@ -8862,7 +8862,7 @@
       "sequence": 388,
       "name_as_printed": "Joshua Torrey",
       "normalized_name_candidate": "Joshua Torrey",
-      "normalized_person_id": null,
+      "normalized_person_id": "joshua-torrey",
       "pdf_pages": [
         101
       ],
@@ -8884,7 +8884,7 @@
       "sequence": 389,
       "name_as_printed": "Rev. Dr. Casey Shutt",
       "normalized_name_candidate": "Casey Shutt",
-      "normalized_person_id": null,
+      "normalized_person_id": "casey-shutt",
       "pdf_pages": [
         101,
         102
@@ -9046,7 +9046,7 @@
       "sequence": 396,
       "name_as_printed": "Rev. Michael Novak",
       "normalized_name_candidate": "Michael Novak",
-      "normalized_person_id": null,
+      "normalized_person_id": "michael-novak",
       "pdf_pages": [
         103
       ],
@@ -9113,7 +9113,7 @@
       "sequence": 399,
       "name_as_printed": "Rev. Kevin Timmons",
       "normalized_name_candidate": "Kevin Timmons",
-      "normalized_person_id": null,
+      "normalized_person_id": "kevin-timmons",
       "pdf_pages": [
         104
       ],
@@ -9206,7 +9206,7 @@
       "sequence": 403,
       "name_as_printed": "Rev. Richard Schwartz",
       "normalized_name_candidate": "Richard Schwartz",
-      "normalized_person_id": null,
+      "normalized_person_id": "richard-schwartz",
       "pdf_pages": [
         105
       ],
@@ -9250,7 +9250,7 @@
       "sequence": 405,
       "name_as_printed": "Rev. John Standridge",
       "normalized_name_candidate": "John Standridge",
-      "normalized_person_id": null,
+      "normalized_person_id": "john-standridge",
       "pdf_pages": [
         106
       ],
@@ -9659,7 +9659,7 @@
       "sequence": 423,
       "name_as_printed": "Rev. Travis Drake",
       "normalized_name_candidate": "Travis Drake",
-      "normalized_person_id": null,
+      "normalized_person_id": "travis-drake",
       "pdf_pages": [
         110
       ],
@@ -9843,7 +9843,7 @@
       "sequence": 431,
       "name_as_printed": "Elliott Wood",
       "normalized_name_candidate": "Elliott Wood",
-      "normalized_person_id": null,
+      "normalized_person_id": "elliott-wood",
       "pdf_pages": [
         112
       ],
@@ -10113,7 +10113,7 @@
       "sequence": 443,
       "name_as_printed": "Rev. Peter Kim",
       "normalized_name_candidate": "Peter Kim",
-      "normalized_person_id": null,
+      "normalized_person_id": "peter-kim",
       "pdf_pages": [
         115
       ],
@@ -10342,7 +10342,7 @@
       "sequence": 453,
       "name_as_printed": "Rev. Chris Smith",
       "normalized_name_candidate": "Chris Smith",
-      "normalized_person_id": null,
+      "normalized_person_id": "chris-smith",
       "pdf_pages": [
         118
       ],
@@ -10504,7 +10504,7 @@
       "sequence": 460,
       "name_as_printed": "Rev. David Driskill",
       "normalized_name_candidate": "David Driskill",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-driskill",
       "pdf_pages": [
         120
       ],
@@ -10571,7 +10571,7 @@
       "sequence": 463,
       "name_as_printed": "Rev. Clay Holland",
       "normalized_name_candidate": "Clay Holland",
-      "normalized_person_id": null,
+      "normalized_person_id": "clay-holland",
       "pdf_pages": [
         120
       ],
@@ -10731,7 +10731,7 @@
       "sequence": 470,
       "name_as_printed": "Rev. Spencer Thomas",
       "normalized_name_candidate": "Spencer Thomas",
-      "normalized_person_id": null,
+      "normalized_person_id": "spencer-thomas",
       "pdf_pages": [
         122
       ],
@@ -10801,7 +10801,7 @@
       "sequence": 473,
       "name_as_printed": "Andrew Augenstein",
       "normalized_name_candidate": "Andrew Augenstein",
-      "normalized_person_id": null,
+      "normalized_person_id": "andrew-augenstein",
       "pdf_pages": [
         123
       ],
@@ -11121,7 +11121,7 @@
       "sequence": 487,
       "name_as_printed": "Rev. Taylor Leachman",
       "normalized_name_candidate": "Taylor Leachman",
-      "normalized_person_id": null,
+      "normalized_person_id": "taylor-leachman",
       "pdf_pages": [
         127
       ],
@@ -11189,7 +11189,7 @@
       "sequence": 490,
       "name_as_printed": "Rev. Scott Stewart",
       "normalized_name_candidate": "Scott Stewart",
-      "normalized_person_id": null,
+      "normalized_person_id": "scott-stewart",
       "pdf_pages": [
         127
       ],
@@ -11302,7 +11302,7 @@
       "sequence": 495,
       "name_as_printed": "Rev. Greg Meyer",
       "normalized_name_candidate": "Greg Meyer",
-      "normalized_person_id": null,
+      "normalized_person_id": "greg-meyer",
       "pdf_pages": [
         129
       ],
@@ -11372,7 +11372,7 @@
       "sequence": 498,
       "name_as_printed": "Rev. Clay Wooten",
       "normalized_name_candidate": "Clay Wooten",
-      "normalized_person_id": null,
+      "normalized_person_id": "clay-wooten",
       "pdf_pages": [
         129,
         130
@@ -11532,7 +11532,7 @@
       "sequence": 505,
       "name_as_printed": "Rev. Dawson Hunt",
       "normalized_name_candidate": "Dawson Hunt",
-      "normalized_person_id": null,
+      "normalized_person_id": "dawson-hunt",
       "pdf_pages": [
         131
       ],
@@ -11578,7 +11578,7 @@
       "sequence": 507,
       "name_as_printed": "Rev. Noah Wiersema",
       "normalized_name_candidate": "Noah Wiersema",
-      "normalized_person_id": null,
+      "normalized_person_id": "noah-wiersema",
       "pdf_pages": [
         132
       ],
@@ -11826,7 +11826,7 @@
       "sequence": 518,
       "name_as_printed": "Rev. BJ Milgate",
       "normalized_name_candidate": "BJ Milgate",
-      "normalized_person_id": null,
+      "normalized_person_id": "bj-milgate",
       "pdf_pages": [
         134,
         135
@@ -11940,7 +11940,7 @@
       "sequence": 523,
       "name_as_printed": "Rev. Steven Cooper",
       "normalized_name_candidate": "Steven Cooper",
-      "normalized_person_id": null,
+      "normalized_person_id": "steven-cooper",
       "pdf_pages": [
         136
       ],
@@ -12006,7 +12006,7 @@
       "sequence": 526,
       "name_as_printed": "Rev. Tim Jackson",
       "normalized_name_candidate": "Tim Jackson",
-      "normalized_person_id": null,
+      "normalized_person_id": "tim-jackson",
       "pdf_pages": [
         136,
         137
@@ -12098,7 +12098,7 @@
       "sequence": 530,
       "name_as_printed": "Rev. Albert Young",
       "normalized_name_candidate": "Albert Young",
-      "normalized_person_id": null,
+      "normalized_person_id": "albert-young",
       "pdf_pages": [
         137,
         138
@@ -12214,7 +12214,7 @@
       "sequence": 535,
       "name_as_printed": "Rev. Jonathan Winfree",
       "normalized_name_candidate": "Jonathan Winfree",
-      "normalized_person_id": null,
+      "normalized_person_id": "jonathan-winfree",
       "pdf_pages": [
         139
       ],
@@ -12260,7 +12260,7 @@
       "sequence": 537,
       "name_as_printed": "Rev. Dr. Mika Edmondson",
       "normalized_name_candidate": "Mika Edmondson",
-      "normalized_person_id": null,
+      "normalized_person_id": "mika-edmondson",
       "pdf_pages": [
         139
       ],
@@ -12827,7 +12827,7 @@
       "sequence": 562,
       "name_as_printed": "Rev. Vincent Hoppe",
       "normalized_name_candidate": "Vincent Hoppe",
-      "normalized_person_id": null,
+      "normalized_person_id": "vincent-hoppe",
       "pdf_pages": [
         146
       ],
