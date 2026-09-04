@@ -103,6 +103,9 @@ jobs:
       - name: Verify Alex Dean women-in-ministry boundaries
         run: python3 scripts/validate-amr-alex-dean-women-ministry.py .
 
+      - name: Verify Kyle Wells women-in-ministry boundaries
+        run: python3 scripts/validate-amr-kyle-wells-women-ministry.py .
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
