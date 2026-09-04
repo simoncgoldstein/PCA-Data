@@ -337,6 +337,29 @@ for row in ruf_transition_data.get("events", []):
     )
 
 
+# Dated RUF 2025-2026 Internship Campus Catalog. This remains a separate
+# historical dataset but shares the RUF source family so RUF cannot corroborate
+# itself when the identity layer creates canonical people.
+relative = "sources/normalized/institutions/ruf/campus-role-snapshot-2025-10-01.json"
+ruf_catalog_data = load(relative)
+for index, row in enumerate(ruf_catalog_data.get("roles", []), 1):
+    institutions = ["reformed-university-fellowship", row.get("campus_as_printed")]
+    add_record(
+        dataset="ruf_campus_catalog_2025",
+        family="institution_reformed-university-fellowship",
+        source_path=relative,
+        locator=f"catalog-role:{index}:page:{row.get('catalog_page')}",
+        printed_name=row["name_as_printed"],
+        row=None,
+        source_tier="official_institutional",
+        completeness="complete_catalog_listed_campus_roles_2025_10_01",
+        evidence_type="ruf_campus_role_snapshot",
+        institutions=[value for value in institutions if value],
+        location=row.get("location_as_printed"),
+        backfill=False,
+    )
+
+
 # Publication chapter rosters, now backed by archived screenshots.
 relative = "data/publication_contributors.json"
 publication_data = register_json(relative)

@@ -1,0 +1,34 @@
+{
+  "source_title": "CampusCatalog2025-2026.pdf",
+  "source_url": "https://drive.google.com/file/d/1qAYDUxeK-qcfqBfZdVNSXiK7MTqVCWda/view?usp=sharing",
+  "drive_file_id": "1qAYDUxeK-qcfqBfZdVNSXiK7MTqVCWda",
+  "snapshot_date": "2025-10-01",
+  "pdf_metadata_creation_date": "D:20251001223907+00'00'",
+  "pdf_pages": 390,
+  "pdf_bytes": 59252175,
+  "pdf_sha256": "c9556efc40756f77466f1960437c19933d20f29b044e1082f0d743ff77457509",
+  "catalog_campus_count": 162,
+  "ruf_campus_entries": 138,
+  "ruf_international_entries": 24,
+  "role_row_count": 414,
+  "role_counts": {
+    "Campus Associate": 9,
+    "Interns": 151,
+    "Campus Minister": 151,
+    "Campus Staff": 75,
+    "Associate Campus Minister": 10,
+    "Fellow": 5,
+    "Campus Assistant": 6,
+    "Fellows": 6,
+    "Campus Minister Assistant": 1
+  },
+  "extraction_scope": "TOC-linked campus names plus first-page Location and printed staff-role fields only; narrative ministry answers excluded.",
+  "excluded_non_name_lines": [
+    {
+      "campus": "Baylor University",
+      "page": 18,
+      "role": "Interns",
+      "text": "I try to lead well by casting vision, listening to and"
+    }
+  ]
+}

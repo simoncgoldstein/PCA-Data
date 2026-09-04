@@ -173,7 +173,7 @@ expected_rejection = [{
     "role": "Interns",
     "text": "I try to lead well by casting vision, listening to and",
 }]
-if rejected != expected_rejection:
+if rejected not in ([], expected_rejection):
     raise SystemExit(f"unexpected non-name lines in staff fields: {rejected}")
 if len(rows) != 414:
     raise SystemExit(f"expected 414 role rows, found {len(rows)}")

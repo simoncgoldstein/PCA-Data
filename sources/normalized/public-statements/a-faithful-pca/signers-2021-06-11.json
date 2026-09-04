@@ -5654,7 +5654,7 @@
       "sequence": 248,
       "name_as_printed": "Rev. Sammy Rhodes",
       "normalized_name_candidate": "Sammy Rhodes",
-      "normalized_person_id": null,
+      "normalized_person_id": "sammy-rhodes",
       "pdf_pages": [
         64,
         65
@@ -5836,7 +5836,7 @@
       "sequence": 256,
       "name_as_printed": "Rev. Matthew Trexler",
       "normalized_name_candidate": "Matthew Trexler",
-      "normalized_person_id": null,
+      "normalized_person_id": "matthew-trexler",
       "pdf_pages": [
         67
       ],
@@ -5950,7 +5950,7 @@
       "sequence": 261,
       "name_as_printed": "Rev. George Hamm",
       "normalized_name_candidate": "George Hamm",
-      "normalized_person_id": null,
+      "normalized_person_id": "george-hamm",
       "pdf_pages": [
         68
       ],
@@ -6361,7 +6361,7 @@
       "sequence": 279,
       "name_as_printed": "Rev. Ben Coppedge",
       "normalized_name_candidate": "Ben Coppedge",
-      "normalized_person_id": null,
+      "normalized_person_id": "ben-coppedge",
       "pdf_pages": [
         73
       ],

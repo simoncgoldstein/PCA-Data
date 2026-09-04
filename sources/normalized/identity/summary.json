@@ -1,9 +1,9 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 3165,
-    "canonical_person_count": 207,
-    "new_person_count": 190,
+    "record_count": 3579,
+    "canonical_person_count": 213,
+    "new_person_count": 196,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -13,29 +13,29 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 340,
-    "collision": 10,
-    "context_confirmed": 555,
+    "ambiguous": 357,
+    "collision": 11,
+    "context_confirmed": 573,
     "exact_confirmed": 119,
-    "probable_requires_review": 272,
-    "unmatched": 1869
+    "probable_requires_review": 307,
+    "unmatched": 2212
   },
   "datasets": [
     {
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 124,
-      "confirmed_row_count": 124,
+      "confirmed_canonical_person_count": 128,
+      "confirmed_row_count": 128,
       "match_status_counts": {
         "exact_confirmed": 13,
-        "context_confirmed": 111,
-        "probable_requires_review": 28,
-        "ambiguous": 60,
+        "context_confirmed": 115,
+        "probable_requires_review": 32,
+        "ambiguous": 62,
         "collision": 1,
-        "unmatched": 358
+        "unmatched": 348
       },
-      "percent_rows_resolved": 21.72,
+      "percent_rows_resolved": 22.42,
       "source_tier": [
         "first_party_archive"
       ],
@@ -47,17 +47,17 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 155,
-      "confirmed_row_count": 155,
+      "confirmed_canonical_person_count": 161,
+      "confirmed_row_count": 161,
       "match_status_counts": {
         "exact_confirmed": 13,
-        "context_confirmed": 142,
-        "probable_requires_review": 29,
-        "ambiguous": 65,
+        "context_confirmed": 148,
+        "probable_requires_review": 33,
+        "ambiguous": 67,
         "collision": 1,
-        "unmatched": 487
+        "unmatched": 475
       },
-      "percent_rows_resolved": 21.03,
+      "percent_rows_resolved": 21.85,
       "source_tier": [
         "first_party_archive"
       ],
@@ -96,10 +96,10 @@
       "match_status_counts": {
         "exact_confirmed": 34,
         "context_confirmed": 0,
-        "probable_requires_review": 43,
+        "probable_requires_review": 44,
         "ambiguous": 46,
         "collision": 1,
-        "unmatched": 12
+        "unmatched": 11
       },
       "percent_rows_resolved": 25.0,
       "source_tier": [
@@ -448,10 +448,10 @@
       "match_status_counts": {
         "exact_confirmed": 2,
         "context_confirmed": 77,
-        "probable_requires_review": 15,
+        "probable_requires_review": 16,
         "ambiguous": 18,
         "collision": 1,
-        "unmatched": 90
+        "unmatched": 89
       },
       "percent_rows_resolved": 38.92,
       "source_tier": [
@@ -514,10 +514,10 @@
       "match_status_counts": {
         "exact_confirmed": 7,
         "context_confirmed": 94,
-        "probable_requires_review": 13,
+        "probable_requires_review": 17,
         "ambiguous": 20,
         "collision": 2,
-        "unmatched": 63
+        "unmatched": 59
       },
       "percent_rows_resolved": 50.75,
       "source_tier": [
@@ -536,10 +536,10 @@
       "match_status_counts": {
         "exact_confirmed": 3,
         "context_confirmed": 12,
-        "probable_requires_review": 3,
+        "probable_requires_review": 4,
         "ambiguous": 5,
         "collision": 1,
-        "unmatched": 4
+        "unmatched": 3
       },
       "percent_rows_resolved": 53.57,
       "source_tier": [
@@ -613,6 +613,28 @@
       ],
       "completeness_status": [
         "complete_visible_chapter_table"
+      ]
+    },
+    {
+      "source_dataset": "ruf_campus_catalog_2025",
+      "row_count": 414,
+      "unique_printed_name_count": 414,
+      "confirmed_canonical_person_count": 8,
+      "confirmed_row_count": 8,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 8,
+        "probable_requires_review": 20,
+        "ambiguous": 13,
+        "collision": 1,
+        "unmatched": 372
+      },
+      "percent_rows_resolved": 1.93,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "complete_catalog_listed_campus_roles_2025_10_01"
       ]
     },
     {

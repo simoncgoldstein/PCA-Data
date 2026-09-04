@@ -100,6 +100,16 @@
           ]
         },
         {
+          "canonical_person_id": "ben-coppedge",
+          "name": "Ben Coppedge",
+          "dataset_a_locators": [
+            "signature:279"
+          ],
+          "dataset_b_locators": [
+            "signature:295"
+          ]
+        },
+        {
           "canonical_person_id": "ben-jolliffe",
           "name": "Ben Jolliffe",
           "dataset_a_locators": [
@@ -447,6 +457,16 @@
           ],
           "dataset_b_locators": [
             "signature:176"
+          ]
+        },
+        {
+          "canonical_person_id": "george-hamm",
+          "name": "George Hamm",
+          "dataset_a_locators": [
+            "signature:261"
+          ],
+          "dataset_b_locators": [
+            "signature:279"
           ]
         },
         {
@@ -870,6 +890,16 @@
           ]
         },
         {
+          "canonical_person_id": "matthew-trexler",
+          "name": "Matthew Trexler",
+          "dataset_a_locators": [
+            "signature:256"
+          ],
+          "dataset_b_locators": [
+            "signature:274"
+          ]
+        },
+        {
           "canonical_person_id": "michael-novak",
           "name": "Michael Novak",
           "dataset_a_locators": [
@@ -1080,6 +1110,16 @@
           ]
         },
         {
+          "canonical_person_id": "sammy-rhodes",
+          "name": "Sammy Rhodes",
+          "dataset_a_locators": [
+            "signature:248"
+          ],
+          "dataset_b_locators": [
+            "signature:266"
+          ]
+        },
+        {
           "canonical_person_id": "scott-brown",
           "name": "Scott Brown",
           "dataset_a_locators": [
@@ -1274,7 +1314,6 @@
         "arthur mosher",
         "arun venkatesan",
         "barry parker",
-        "ben coppedge",
         "ben frade",
         "ben hailey",
         "benjamin kim",
@@ -1413,7 +1452,6 @@
         "gene k joo",
         "gentri williams",
         "geoff henderson",
-        "george hamm",
         "george k essien umanah",
         "glenn dowling",
         "glenn parkinson",
@@ -1556,7 +1594,6 @@
         "matthew purcell",
         "matthew terrell",
         "matthew tiscareno",
-        "matthew trexler",
         "mckay caston",
         "michael a graham",
         "michael blackburn",
@@ -1610,7 +1647,6 @@
         "ryan moore",
         "ryan zhang",
         "sam desocio",
-        "sammy rhodes",
         "samuel ham",
         "samuel n graham",
         "samuel p smith",
@@ -3345,6 +3381,70 @@
         "hace cargo",
         "mark peach",
         "ryan zhang"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "ben-coppedge",
+          "name": "Ben Coppedge",
+          "dataset_a_locators": [
+            "signature:279"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:265:page:259"
+          ]
+        },
+        {
+          "canonical_person_id": "george-hamm",
+          "name": "George Hamm",
+          "dataset_a_locators": [
+            "signature:261"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:64:page:71"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "signature:191"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:19:page:23"
+          ]
+        },
+        {
+          "canonical_person_id": "matthew-trexler",
+          "name": "Matthew Trexler",
+          "dataset_a_locators": [
+            "signature:256"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:248:page:236"
+          ]
+        },
+        {
+          "canonical_person_id": "sammy-rhodes",
+          "name": "Sammy Rhodes",
+          "dataset_a_locators": [
+            "signature:248"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:329:page:316"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "andrew whitaker",
+        "bruce clark",
+        "josiah carey",
+        "kirk norris",
+        "solomon kim",
+        "willis weatherford"
       ]
     },
     {
@@ -5855,6 +5955,101 @@
     },
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "ben-coppedge",
+          "name": "Ben Coppedge",
+          "dataset_a_locators": [
+            "signature:295"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:265:page:259"
+          ]
+        },
+        {
+          "canonical_person_id": "chris-horne",
+          "name": "Chris Horne",
+          "dataset_a_locators": [
+            "signature:589"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:389:page:370"
+          ]
+        },
+        {
+          "canonical_person_id": "george-hamm",
+          "name": "George Hamm",
+          "dataset_a_locators": [
+            "signature:279"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:64:page:71"
+          ]
+        },
+        {
+          "canonical_person_id": "john-craft",
+          "name": "John Craft",
+          "dataset_a_locators": [
+            "signature:586"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:169:page:165"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "signature:210"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:19:page:23"
+          ]
+        },
+        {
+          "canonical_person_id": "matthew-trexler",
+          "name": "Matthew Trexler",
+          "dataset_a_locators": [
+            "signature:274"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:248:page:236"
+          ]
+        },
+        {
+          "canonical_person_id": "nathan-dicks",
+          "name": "Nathan Dicks",
+          "dataset_a_locators": [
+            "signature:724"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:24:page:29"
+          ]
+        },
+        {
+          "canonical_person_id": "sammy-rhodes",
+          "name": "Sammy Rhodes",
+          "dataset_a_locators": [
+            "signature:266"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:329:page:316"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "andrew whitaker",
+        "bruce clark",
+        "josiah carey",
+        "kirk norris",
+        "solomon kim",
+        "titus bagby",
+        "willis weatherford"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
       "dataset_b": "ruf_staff_transitions_2026",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -7504,6 +7699,17 @@
     },
     {
       "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andrew terrell",
+        "jeff jou",
+        "kevin twit",
+        "laura straka"
+      ]
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
       "dataset_b": "ruf_staff_transitions_2026",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -7765,6 +7971,14 @@
       ],
       "unresolved_exact_name_keys": [
         "mike khandjian"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "joy beans"
       ]
     },
     {
@@ -8039,10 +8253,26 @@
     },
     {
       "dataset_a": "institution_pca-administrative-committee",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andy jones"
+      ]
+    },
+    {
+      "dataset_a": "institution_pca-administrative-committee",
       "dataset_b": "ruf_staff_transitions_2026",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "andy jones"
+      ]
+    },
+    {
+      "dataset_a": "institution_pca-foundation",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "solomon kim"
       ]
     },
     {
@@ -8112,6 +8342,20 @@
         }
       ],
       "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "institution_reformed-university-fellowship",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andrew mauney",
+        "james rantzow",
+        "jeff neikirk",
+        "luke wilkerson",
+        "robert kullberg",
+        "thomas hicks",
+        "zach fiol"
+      ]
     },
     {
       "dataset_a": "institution_reformed-university-fellowship",
@@ -8808,6 +9052,16 @@
     },
     {
       "dataset_a": "nae_withdrawal_protest_2022",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andrew terrell",
+        "nick bratcher",
+        "trip beans"
+      ]
+    },
+    {
+      "dataset_a": "nae_withdrawal_protest_2022",
       "dataset_b": "ruf_staff_transitions_2026",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -9275,6 +9529,23 @@
     },
     {
       "dataset_a": "national_partnership_confirmed_members",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "confirmed_member:96:kevin twit"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:19:page:23"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "national_partnership_confirmed_members",
       "dataset_b": "warhurst_protest_2019",
       "confirmed_shared_people": [
         {
@@ -9600,6 +9871,41 @@
     },
     {
       "dataset_a": "overture_15_negative_votes_2022",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "chris-horne",
+          "name": "Chris Horne",
+          "dataset_a_locators": [
+            "print_order:68"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:389:page:370"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "print_order:183"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:19:page:23"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "andrew goyzueta",
+        "andrew shank",
+        "andrew terrell",
+        "chandler rowlen",
+        "justin smith",
+        "ryan bratt",
+        "sam kennedy"
+      ]
+    },
+    {
+      "dataset_a": "overture_15_negative_votes_2022",
       "dataset_b": "warhurst_protest_2019",
       "confirmed_shared_people": [
         {
@@ -9921,6 +10227,15 @@
     },
     {
       "dataset_a": "overture_37_minority_2021",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andrew shank",
+        "jonathan clark"
+      ]
+    },
+    {
+      "dataset_a": "overture_37_minority_2021",
       "dataset_b": "warhurst_protest_2019",
       "confirmed_shared_people": [
         {
@@ -10081,6 +10396,14 @@
     },
     {
       "dataset_a": "publication_heal-us-emmanuel-2016",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "kevin twit"
+      ]
+    },
+    {
+      "dataset_a": "publication_heal-us-emmanuel-2016",
       "dataset_b": "warhurst_protest_2019",
       "confirmed_shared_people": [
         {
@@ -10139,6 +10462,92 @@
       ],
       "unresolved_exact_name_keys": [
         "hace cargo"
+      ]
+    },
+    {
+      "dataset_a": "ruf_campus_catalog_2025",
+      "dataset_b": "ruf_staff_transitions_2026",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "abbay kocsis",
+        "abby agan",
+        "adelyn sun",
+        "aiden tuberville",
+        "alise berrojo",
+        "andrew mauney",
+        "andy jones",
+        "anna claire kullberg",
+        "ariana smartt",
+        "ben floyd",
+        "brady ryden",
+        "cadey floyd",
+        "caeden watrous",
+        "caroline newsom",
+        "caroline shockley",
+        "chelsea kelly",
+        "cindy cook",
+        "david barnes",
+        "david prather",
+        "duncan joyner",
+        "eleanor campbell",
+        "elizabeth fortune",
+        "ellacait downs",
+        "ellie hubach",
+        "emma greene",
+        "grace nelson",
+        "gracie mauney",
+        "henry schuhmacher",
+        "ian clarke",
+        "jackie lee",
+        "jacob hatfield",
+        "james rantzow",
+        "jeff jou",
+        "jeff neikirk",
+        "jiwon kim",
+        "jon podraza",
+        "joy beans",
+        "kolten ackerman",
+        "kyusik choi",
+        "lorena silva",
+        "lucy camp",
+        "luke wilkerson",
+        "mary jones",
+        "matt esswein",
+        "matthew berry",
+        "mckenna smith",
+        "melanie word",
+        "micah coleman",
+        "miller williams",
+        "miranda meredith",
+        "naomi slater",
+        "niko fannin",
+        "noah hendrick",
+        "paige jackson",
+        "rae paulson",
+        "robbie kurtz",
+        "robby barnes",
+        "robert kullberg",
+        "sam stackler",
+        "sarah diemer",
+        "skye green",
+        "sydney fort",
+        "thomas hicks",
+        "ticia king",
+        "titus bagby",
+        "tommy park",
+        "trip beans",
+        "tyler luehrs",
+        "wes calton",
+        "zach fiol"
+      ]
+    },
+    {
+      "dataset_a": "ruf_campus_catalog_2025",
+      "dataset_b": "warhurst_protest_2019",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "justin smith",
+        "titus bagby"
       ]
     },
     {
