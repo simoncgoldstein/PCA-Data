@@ -1,0 +1,20 @@
+{
+  "source_url": "https://www.youtube.com/watch?v=KzjCJIitP9A",
+  "speaker": "Mary Beth McGreevy",
+  "issue": "women serving in the ministry of the church",
+  "relationship_to_2017_committee": "Voting Member",
+  "transcript_provenance": "user-supplied transcript reviewed in chat on 2026-09-04",
+  "transcript_sha256": "9b55b81f355a6ecc22140eaf7f973cece41b2db50f150cbee04a656e6f9b0eb1",
+  "transcript_line_count": 857,
+  "full_transcript_committed": false,
+  "reason_full_transcript_not_committed": "Preserve a bounded provenance/hash receipt and normalized claims rather than republishing a complete third-party transcript.",
+  "normalized_evidence_path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+  "reviewed_position_windows": [
+    {"topic": "complementarianism_and_headship", "transcript_lines": "71-193; 197-275"},
+    {"topic": "support_for_2017_report_direction", "transcript_lines": "323-389"},
+    {"topic": "authoritative_pulpit_and_sacraments", "transcript_lines": "617-637"},
+    {"topic": "teaching_and_mixed_groups", "transcript_lines": "641-665"},
+    {"topic": "paid_ministry_roles", "transcript_lines": "683-707"},
+    {"topic": "session_meeting_consultation", "transcript_lines": "809-851"}
+  ]
+}
