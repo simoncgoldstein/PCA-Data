@@ -1,0 +1,164 @@
+{
+  "metadata": {
+    "research_date": "2026-09-04",
+    "archive_capture_timestamp": "20190707073156",
+    "archive_page_title": "Revoice18",
+    "record_count": 12,
+    "source_receipt": "sources/raw/issues/revoice/revoice18-wayback-recovery-2026-09-04.json",
+    "general_session_transcript_receipt": "sources/raw/issues/revoice/revoice18-general-session-transcript-receipt-2026-09-04.json",
+    "modeling_rule": "This is a post-event first-party media-page extraction, not a reconstruction of the original advertised Revoice 2018 program. Year classification requires evidence beyond mere placement in the 2019 page's gallery where contamination is known.",
+    "graph_rule": "No participant/session edge is added from this file automatically. Confirmed 2018 records remain source evidence pending reconciliation with the broader Revoice chronology; confirmed 2019 records are explicitly excluded from Revoice18 participation."
+  },
+  "records": [
+    {
+      "page_section": "General Sessions",
+      "youtube_id": "xC4u02b9-gk",
+      "title_as_printed": "Revoice 2018 – General Session 1: Praise | Eve Tushnet & Amber Carol",
+      "participants_as_printed": [
+        {"name": "Amber Carol", "role": "testimony"},
+        {"name": "Eve Tushnet", "role": "message"}
+      ],
+      "resolved_participants": [
+        {"name": "Amber Carroll", "role": "testimony", "basis": "user-supplied primary-media transcript"},
+        {"name": "Eve Tushnet", "role": "message", "basis": "first-party media title plus user-supplied primary-media transcript"}
+      ],
+      "additional_named_session_roles": [
+        {"name": "Greg Johnson", "role": "opening_welcome", "basis": "user-supplied primary-media transcript"},
+        {"name": "Chris Gillum", "role": "conference_chaplain_opening_prayer", "basis": "user-supplied primary-media transcript"}
+      ],
+      "year_status": "confirmed_2018",
+      "year_basis": "The first-party media title explicitly identifies the item as Revoice 2018; the user-supplied transcript independently confirms the event and Praise theme.",
+      "revoice18_graph_status": "eligible_after_reconciliation"
+    },
+    {
+      "page_section": "General Sessions",
+      "youtube_id": "SHe2y2SVjIc",
+      "title_as_printed": "Revoice 2018 – General Session 2: Lament | Nate Collins & Ray",
+      "participants_as_printed": [
+        {"name": "Ray", "role": "testimony"},
+        {"name": "Nate Collins", "role": "message"}
+      ],
+      "resolved_participants": [
+        {"name": "Ray Low", "role": "testimony", "basis": "first-party title plus user transcript plus independent contemporaneous/current corroboration", "transcript_name_note": "The supplied transcript renders the surname as Lowe; independent sources consistently identify Ray Low."},
+        {"name": "Nate Collins", "role": "message", "basis": "first-party media title plus matching transcript/message citations"}
+      ],
+      "year_status": "confirmed_2018",
+      "year_basis": "The first-party media title explicitly identifies the item as Revoice 2018. The supplied transcript independently identifies the recording as Revoice's second evening and fixes the theme as Lament.",
+      "program_artifact_evidence": "The transcript directs attendees to a care-team phone number on the last page of the printed program or program-like packet, establishing that a physical/distributed program artifact existed.",
+      "revoice18_graph_status": "eligible_after_reconciliation"
+    },
+    {
+      "page_section": "General Sessions",
+      "youtube_id": "ImESpqDCfhQ",
+      "title_as_printed": "Revoice 2018 – General Session 3: Hope | Wesley Hill & Bekah",
+      "participants_as_printed": [
+        {"name": "Bekah", "role": "testimony"},
+        {"name": "Wesley Hill", "role": "message"}
+      ],
+      "resolved_participants": [
+        {"name": "Wesley Hill", "role": "message", "basis": "first-party media title"}
+      ],
+      "held_name_resolution": {"printed_name": "Bekah", "candidate": "Bekah Mason", "reason": "Later sources attribute General Session 3 testimony language to Bekah Mason, but a primary Session 3 transcript or equivalent first-party full-name evidence has not yet been preserved."},
+      "year_status": "confirmed_2018",
+      "year_basis": "The first-party media title explicitly identifies the item as Revoice 2018.",
+      "revoice18_graph_status": "eligible_after_reconciliation"
+    },
+    {
+      "page_section": "Workshops",
+      "youtube_id": "Msbsg1vE-qI",
+      "title_as_printed": "Rekindling Hope as a Sexual Minority in the Church — Jeb Ralston",
+      "participants_as_printed": [
+        {"name": "Jeb Ralston", "role": "speaker_as_title"}
+      ],
+      "year_status": "unresolved",
+      "year_basis": "The recovered 2019 gallery does not print a year for this item, and the gallery is known to mix conference years.",
+      "revoice18_graph_status": "hold"
+    },
+    {
+      "page_section": "Workshops",
+      "youtube_id": "ijGQEJOHMP8",
+      "title_as_printed": "Redeeming Queer Culture: An Adventure",
+      "participants_as_printed": [],
+      "independently_confirmed_participants": [
+        {"name": "Grant Hartley", "role": "speaker"}
+      ],
+      "year_status": "confirmed_2018",
+      "year_basis": "Contemporaneous reporting and later PCA evidentiary material independently identify this title/video as Grant Hartley's Revoice 2018 workshop.",
+      "revoice18_graph_status": "eligible_after_reconciliation"
+    },
+    {
+      "page_section": "Workshops",
+      "youtube_id": "nEtLYGZB280",
+      "title_as_printed": "What do you need? Understanding core needs",
+      "participants_as_printed": [],
+      "year_status": "unresolved",
+      "year_basis": "The recovered 2019 gallery does not print a year for this item, and the gallery is known to mix conference years.",
+      "revoice18_graph_status": "hold"
+    },
+    {
+      "page_section": "Workshops",
+      "youtube_id": "PGOA2P2Xtwc",
+      "title_as_printed": "Experiencing intimacy with God & others as the antidote for shame in your sexuality",
+      "participants_as_printed": [],
+      "independently_confirmed_participants": [
+        {"name": "Ty Wyss", "role": "speaker"}
+      ],
+      "year_status": "confirmed_2019",
+      "year_basis": "Independent Revoice-related sources identify this exact video/title as Ty Wyss at Revoice 2019.",
+      "revoice18_graph_status": "exclude_from_revoice18"
+    },
+    {
+      "page_section": "Spiritual Friendship Preconference",
+      "youtube_id": "vqgKUYCbXg4",
+      "title_as_printed": "Spiritual Friendship Pre-Conference: Ron Belgau",
+      "participants_as_printed": [
+        {"name": "Ron Belgau", "role": "speaker_as_title"}
+      ],
+      "year_status": "confirmed_2018_related_preconference",
+      "year_basis": "A contemporaneous Spiritual Friendship announcement independently identifies Ron Belgau in the July 26, 2018 preconference.",
+      "revoice18_graph_status": "related_event_not_main_conference"
+    },
+    {
+      "page_section": "Spiritual Friendship Preconference",
+      "youtube_id": "K4CGXuJpWXI",
+      "title_as_printed": "Spiritual Friendship Pre-Conference: Matthew Lee Anderson",
+      "participants_as_printed": [
+        {"name": "Matthew Lee Anderson", "role": "speaker_as_title"}
+      ],
+      "year_status": "confirmed_2018_related_preconference",
+      "year_basis": "A contemporaneous Spiritual Friendship announcement independently identifies Matthew Lee Anderson in the July 26, 2018 preconference.",
+      "revoice18_graph_status": "related_event_not_main_conference"
+    },
+    {
+      "page_section": "Spiritual Friendship Preconference",
+      "youtube_id": "FG0fev-WtQE",
+      "title_as_printed": "Spiritual Friendship Pre-Conference: Johanna Finegan",
+      "participants_as_printed": [
+        {"name": "Johanna Finegan", "role": "speaker_as_title"}
+      ],
+      "year_status": "confirmed_2018_related_preconference",
+      "year_basis": "A contemporaneous Spiritual Friendship announcement independently identifies Johanna Finegan in the July 26, 2018 preconference.",
+      "revoice18_graph_status": "related_event_not_main_conference"
+    },
+    {
+      "page_section": "Spiritual Friendship Preconference",
+      "youtube_id": "3lcLTpdJAuw",
+      "title_as_printed": "Spiritual Friendship Pre-Conference: Brother Trout",
+      "participants_as_printed": [
+        {"name": "Brother Trout", "role": "speaker_as_title"}
+      ],
+      "year_status": "confirmed_2018_related_preconference",
+      "year_basis": "A contemporaneous Spiritual Friendship announcement independently identifies Br. Joe Trout, OP, in the July 26, 2018 preconference; the recovered media title uses Brother Trout.",
+      "revoice18_graph_status": "related_event_not_main_conference"
+    },
+    {
+      "page_section": "Spiritual Friendship Preconference",
+      "youtube_id": "-upw6WjZGpk",
+      "title_as_printed": "Spiritual Friendship Pre-Conference: Panel Discussion",
+      "participants_as_printed": [],
+      "year_status": "probable_2018_related_preconference",
+      "year_basis": "The first-party Revoice18 media page groups this video with four independently confirmed July 26, 2018 preconference speaker videos, but no separate primary record has yet fixed the panel's date or participants.",
+      "revoice18_graph_status": "hold_related_event"
+    }
+  ]
+}

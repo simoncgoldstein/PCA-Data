@@ -88,6 +88,9 @@ jobs:
           python3 scripts/normalize-ruf-transitions.py . "$tmp"
           diff -u sources/normalized/institutions/ruf/role-transitions-2026.json "$tmp"
 
+      - name: Verify Revoice18 recovery boundaries
+        run: python3 scripts/validate-revoice18-recovery.py .
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
