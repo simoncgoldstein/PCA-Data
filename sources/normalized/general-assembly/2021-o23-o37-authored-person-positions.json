@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "created_on": "2026-09-04",
+    "purpose": "Preserve direct authored person-level positions on PCA Overtures 23 and 37 without propagating those positions to affiliated organizations or other people.",
+    "raw_receipt": "sources/raw/issues/o23-o37-authored-positions-2021-12-16.md",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "jon-payne-o23-support-2021",
+      "year": 2021,
+      "name_as_printed": "Jon D. Payne",
+      "normalized_person_id": null,
+      "topic": "overture_23",
+      "stance": "support",
+      "evidence_type": "direct_authored_position",
+      "summary": "Payne advocates ratification of Overture 23, arguing that it provides needed constitutional clarity concerning officer qualifications, identity language, fallen desires, progressive sanctification, and pursuit of holiness.",
+      "source": "https://byfaithonline.com/recommending-overtures-23-and-37/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jon-payne-o37-support-2021",
+      "year": 2021,
+      "name_as_printed": "Jon D. Payne",
+      "normalized_person_id": null,
+      "topic": "overture_37",
+      "stance": "support",
+      "evidence_type": "direct_authored_position",
+      "summary": "Payne advocates ratification of Overture 37, arguing that it appropriately strengthens and clarifies officer-examination standards and gives sessions and presbyteries useful guidance.",
+      "source": "https://byfaithonline.com/recommending-overtures-23-and-37/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "david-coffin-o23-oppose-2021",
+      "year": 2021,
+      "name_as_printed": "David Coffin",
+      "normalized_person_id": null,
+      "topic": "overture_23",
+      "stance": "oppose",
+      "evidence_type": "direct_authored_position",
+      "summary": "Coffin argues against ratification of Overture 23, contending that the amendment is not clearly necessary, was not given sufficiently mature consideration, and introduces difficult identity-language constructions into the BCO.",
+      "source": "https://byfaithonline.com/against-overtures-23-and-37/",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "david-coffin-o37-oppose-2021",
+      "year": 2021,
+      "name_as_printed": "David Coffin",
+      "normalized_person_id": null,
+      "topic": "overture_37",
+      "stance": "oppose",
+      "evidence_type": "direct_authored_position",
+      "summary": "Coffin argues against ratification of Overture 37, contending that its examination language is unclear and likely to create interpretive difficulty, while the existing BCO examination standards remain sufficient absent demonstrated necessity for amendment.",
+      "source": "https://byfaithonline.com/against-overtures-23-and-37/",
+      "ideological_weight": 0
+    }
+  ]
+}

@@ -93,6 +93,18 @@ When a future research pass encounters another known-but-inaccessible source, ad
 
 **Recovery path:** Manual/local browser capture of the original site or a faithful first-party/archive snapshot. Preserve the page text and signer list before normalization. Do not reconstruct the statement or signer roster from hostile or sympathetic secondary commentary.
 
+### 7. 2021 Overture 37 recorded-negative-vote roster
+
+**Primary source:** `https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf`, Minutes pp. 91-96.
+
+**Current blocker:** The repository chronology records that 207 commissioners requested their negative votes on the final Overture 37 action be recorded, and the official minutes are text-indexed in the current web environment. However, the PDF page-image/screenshot interface could not open the relevant pages, so the complete 207-name roster could not be safely transcribed and verified here. Secondary summaries confirm the count but are not sufficient to reconstruct the official roster.
+
+**Still needed:** The complete 207-name recorded-negative-vote roster exactly as printed, including office and presbytery labels where present.
+
+**Already preserved:** The event-level action and 207-person count are represented in `sources/normalized/general-assembly/2019-2023-sexuality-formal-position-chronology.json`. The 28-name Overture 37 minority-report signer roster is separately normalized and must not be substituted for the negative-vote roster.
+
+**Recovery path:** Manual/local inspection of Minutes pp. 91-96 from the repository's existing 2021 GA PDF or a locally downloaded official copy; transcribe the printed roster and normalize only after page-image verification. Do not spend automated research cycles on alternate extraction workarounds.
+
 ## Current partial-evaluation items
 
 These are not wholly inaccessible sources, but their evidence is incomplete enough that future work should not mistake current coverage for source saturation.
