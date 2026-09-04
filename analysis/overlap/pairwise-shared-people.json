@@ -10928,10 +10928,20 @@
     {
       "dataset_a": "formal_position_2012-scim-part-one-unanimous-report",
       "dataset_b": "formal_position_2013-scim-committee-report",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "2013-scim-committee-report:signer:1"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "bill nikides",
-        "david b garner",
         "jonathan mitchell",
         "robert berman"
       ]
@@ -10939,18 +10949,37 @@
     {
       "dataset_a": "formal_position_2012-scim-part-one-unanimous-report",
       "dataset_b": "formal_position_2013-scim-jabbour-minority-report",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "nabeel t jabbour"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "nabeel-t-jabbour",
+          "name": "Nabeel T. Jabbour",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:3"
+          ],
+          "dataset_b_locators": [
+            "2013-scim-jabbour-minority-report:signer:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2012-scim-part-one-unanimous-report",
       "dataset_b": "formal_position_2014-scim-committee-report",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "2014-scim-committee-report:signer:1"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "bill nikides",
-        "david b garner",
         "jonathan mitchell",
         "robert berman"
       ]
@@ -10958,87 +10987,365 @@
     {
       "dataset_a": "formal_position_2012-scim-part-one-unanimous-report",
       "dataset_b": "formal_position_2014-scim-jabbour-seelinger-minority-report",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "nabeel-t-jabbour",
+          "name": "Nabeel T. Jabbour",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:3"
+          ],
+          "dataset_b_locators": [
+            "2014-scim-jabbour-seelinger-minority-report:signer:1"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "tom seelinger"
       ]
+    },
+    {
+      "dataset_a": "formal_position_2012-scim-part-one-unanimous-report",
+      "dataset_b": "insider_movements_committee_membership_changes_2012",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "membership_change:2"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2012-scim-part-one-unanimous-report",
       "dataset_b": "insider_movements_named_report_roles_2013_2014",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "named_report_role:1:2013",
+            "named_report_role:3:2014"
+          ]
+        },
+        {
+          "canonical_person_id": "nabeel-t-jabbour",
+          "name": "Nabeel T. Jabbour",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:3"
+          ],
+          "dataset_b_locators": [
+            "named_report_role:2:2013",
+            "named_report_role:4:2014"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
-        "david b garner",
-        "nabeel t jabbour",
         "tom seelinger"
       ]
     },
     {
       "dataset_a": "formal_position_2012-scim-part-one-unanimous-report",
+      "dataset_b": "institution_westminster-theological-seminary",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "role:483:westminster-theological-seminary:line:32"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2012-scim-part-one-unanimous-report",
       "dataset_b": "women_study_committee_procedural_registration_2016",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david b garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2012-scim-part-one-unanimous-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:44"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2013-scim-committee-report",
       "dataset_b": "formal_position_2014-scim-committee-report",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2013-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "2014-scim-committee-report:signer:1"
+          ]
+        },
+        {
+          "canonical_person_id": "guy-prentiss-waters",
+          "name": "Guy Prentiss Waters",
+          "dataset_a_locators": [
+            "2013-scim-committee-report:signer:5"
+          ],
+          "dataset_b_locators": [
+            "2014-scim-committee-report:signer:5"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "bill nikides",
-        "david b garner",
-        "guy prentiss waters",
         "jonathan mitchell",
         "robert berman"
       ]
     },
     {
       "dataset_a": "formal_position_2013-scim-committee-report",
+      "dataset_b": "insider_movements_committee_membership_changes_2012",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2013-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "membership_change:2"
+          ]
+        },
+        {
+          "canonical_person_id": "guy-prentiss-waters",
+          "name": "Guy Prentiss Waters",
+          "dataset_a_locators": [
+            "2013-scim-committee-report:signer:5"
+          ],
+          "dataset_b_locators": [
+            "membership_change:3"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2013-scim-committee-report",
       "dataset_b": "insider_movements_named_report_roles_2013_2014",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david b garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2013-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "named_report_role:1:2013",
+            "named_report_role:3:2014"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2013-scim-committee-report",
+      "dataset_b": "institution_westminster-theological-seminary",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2013-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "role:483:westminster-theological-seminary:line:32"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2013-scim-committee-report",
       "dataset_b": "women_study_committee_procedural_registration_2016",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david b garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2013-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:44"
+          ]
+        },
+        {
+          "canonical_person_id": "guy-prentiss-waters",
+          "name": "Guy Prentiss Waters",
+          "dataset_a_locators": [
+            "2013-scim-committee-report:signer:5"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:163"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2013-scim-jabbour-minority-report",
+      "dataset_b": "formal_position_2014-scim-jabbour-seelinger-minority-report",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "nabeel-t-jabbour",
+          "name": "Nabeel T. Jabbour",
+          "dataset_a_locators": [
+            "2013-scim-jabbour-minority-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "2014-scim-jabbour-seelinger-minority-report:signer:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2013-scim-jabbour-minority-report",
       "dataset_b": "insider_movements_named_report_roles_2013_2014",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "nabeel t jabbour"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "nabeel-t-jabbour",
+          "name": "Nabeel T. Jabbour",
+          "dataset_a_locators": [
+            "2013-scim-jabbour-minority-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "named_report_role:2:2013",
+            "named_report_role:4:2014"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2014-scim-committee-report",
+      "dataset_b": "insider_movements_committee_membership_changes_2012",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2014-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "membership_change:2"
+          ]
+        },
+        {
+          "canonical_person_id": "guy-prentiss-waters",
+          "name": "Guy Prentiss Waters",
+          "dataset_a_locators": [
+            "2014-scim-committee-report:signer:5"
+          ],
+          "dataset_b_locators": [
+            "membership_change:3"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2014-scim-committee-report",
       "dataset_b": "insider_movements_named_report_roles_2013_2014",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david b garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2014-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "named_report_role:1:2013",
+            "named_report_role:3:2014"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2014-scim-committee-report",
+      "dataset_b": "institution_westminster-theological-seminary",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2014-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "role:483:westminster-theological-seminary:line:32"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2014-scim-committee-report",
       "dataset_b": "women_study_committee_procedural_registration_2016",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david b garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "2014-scim-committee-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:44"
+          ]
+        },
+        {
+          "canonical_person_id": "guy-prentiss-waters",
+          "name": "Guy Prentiss Waters",
+          "dataset_a_locators": [
+            "2014-scim-committee-report:signer:5"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:163"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2014-scim-jabbour-seelinger-minority-report",
       "dataset_b": "insider_movements_named_report_roles_2013_2014",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "nabeel-t-jabbour",
+          "name": "Nabeel T. Jabbour",
+          "dataset_a_locators": [
+            "2014-scim-jabbour-seelinger-minority-report:signer:1"
+          ],
+          "dataset_b_locators": [
+            "named_report_role:2:2013",
+            "named_report_role:4:2014"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
-        "nabeel jabbour",
         "tom seelinger"
       ]
     },
@@ -11188,42 +11495,100 @@
     {
       "dataset_a": "insider_movements_committee_membership_changes_2012",
       "dataset_b": "insider_movements_named_report_roles_2013_2014",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "membership_change:2"
+          ],
+          "dataset_b_locators": [
+            "named_report_role:1:2013",
+            "named_report_role:3:2014"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "insider_movements_committee_membership_changes_2012",
       "dataset_b": "institution_westminster-theological-seminary",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "membership_change:2"
+          ],
+          "dataset_b_locators": [
+            "role:483:westminster-theological-seminary:line:32"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "insider_movements_committee_membership_changes_2012",
       "dataset_b": "women_study_committee_procedural_registration_2016",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "guy waters"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "membership_change:2"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:44"
+          ]
+        },
+        {
+          "canonical_person_id": "guy-prentiss-waters",
+          "name": "Guy Prentiss Waters",
+          "dataset_a_locators": [
+            "membership_change:3"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:163"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "insider_movements_named_report_roles_2013_2014",
       "dataset_b": "institution_westminster-theological-seminary",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "named_report_role:1:2013",
+            "named_report_role:3:2014"
+          ],
+          "dataset_b_locators": [
+            "role:483:westminster-theological-seminary:line:32"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "insider_movements_named_report_roles_2013_2014",
       "dataset_b": "women_study_committee_procedural_registration_2016",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "david b garner"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "named_report_role:1:2013",
+            "named_report_role:3:2014"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:44"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "institution_cdm",
@@ -11716,7 +12081,18 @@
     {
       "dataset_a": "institution_westminster-theological-seminary",
       "dataset_b": "women_study_committee_procedural_registration_2016",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-b-garner",
+          "name": "David B. Garner",
+          "dataset_a_locators": [
+            "role:483:westminster-theological-seminary:line:32"
+          ],
+          "dataset_b_locators": [
+            "procedural_registration:44"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "stephen coleman"
       ]

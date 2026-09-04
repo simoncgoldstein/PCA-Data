@@ -46,7 +46,7 @@
           "name_as_printed": "David B. Garner",
           "office_as_printed": "TE",
           "role_as_printed": "Chairman",
-          "normalized_person_id": null
+          "normalized_person_id": "david-b-garner"
         },
         {
           "print_order": 2,
@@ -60,7 +60,7 @@
           "name_as_printed": "Nabeel T. Jabbour",
           "office_as_printed": "TE",
           "role_as_printed": null,
-          "normalized_person_id": null
+          "normalized_person_id": "nabeel-t-jabbour"
         },
         {
           "print_order": 4,
@@ -116,7 +116,7 @@
           "name_as_printed": "David B. Garner",
           "office_as_printed": "TE",
           "role_as_printed": "Chairman",
-          "normalized_person_id": null
+          "normalized_person_id": "david-b-garner"
         },
         {
           "print_order": 2,
@@ -144,7 +144,7 @@
           "name_as_printed": "Guy Prentiss Waters",
           "office_as_printed": "TE",
           "role_as_printed": null,
-          "normalized_person_id": null
+          "normalized_person_id": "guy-prentiss-waters"
         }
       ],
       "assembly_disposition": {
@@ -180,7 +180,7 @@
           "name_as_printed": "Nabeel T. Jabbour",
           "office_as_printed": "TE",
           "role_as_printed": "Minority Report author/presenter",
-          "normalized_person_id": null
+          "normalized_person_id": "nabeel-t-jabbour"
         }
       ],
       "assembly_disposition": {
@@ -215,7 +215,7 @@
           "name_as_printed": "David B. Garner",
           "office_as_printed": "TE",
           "role_as_printed": "Chairman",
-          "normalized_person_id": null
+          "normalized_person_id": "david-b-garner"
         },
         {
           "print_order": 2,
@@ -243,7 +243,7 @@
           "name_as_printed": "Guy Prentiss Waters",
           "office_as_printed": "TE",
           "role_as_printed": null,
-          "normalized_person_id": null
+          "normalized_person_id": "guy-prentiss-waters"
         }
       ],
       "assembly_disposition": {
@@ -274,7 +274,7 @@
           "name_as_printed": "Nabeel Jabbour",
           "office_as_printed": "TE",
           "role_as_printed": "Minority Report co-author/signatory",
-          "normalized_person_id": null
+          "normalized_person_id": "nabeel-t-jabbour"
         },
         {
           "print_order": 2,
@@ -298,7 +298,7 @@
       "name_as_printed": "David Garner",
       "office_as_printed": "TE",
       "role": "presented committee report to the 41st General Assembly",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-b-garner",
       "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf"
     },
     {
@@ -306,7 +306,7 @@
       "name_as_printed": "Nabeel T. Jabbour",
       "office_as_printed": "TE",
       "role": "moved minority report as substitute at the 41st General Assembly",
-      "normalized_person_id": null,
+      "normalized_person_id": "nabeel-t-jabbour",
       "source_url": "https://www.pcahistory.org/pca/ga/41st_pcaga_2013.pdf"
     },
     {
@@ -314,7 +314,7 @@
       "name_as_printed": "David B. Garner",
       "office_as_printed": "TE",
       "role": "committee chairman and report presenter to the 42nd General Assembly",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-b-garner",
       "source_url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf"
     },
     {
@@ -322,7 +322,7 @@
       "name_as_printed": "Nabeel Jabbour",
       "office_as_printed": "TE",
       "role": "presented 2014 minority report with Tom Seelinger",
-      "normalized_person_id": null,
+      "normalized_person_id": "nabeel-t-jabbour",
       "source_url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf"
     },
     {
@@ -368,7 +368,7 @@
       "name_as_printed": "David Garner",
       "office_as_printed": "TE",
       "role": "elected chairman after Wade Bradshaw withdrew",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-b-garner",
       "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
       "ideological_weight": 0
     },
@@ -377,7 +377,7 @@
       "name_as_printed": "Guy Waters",
       "office_as_printed": "TE",
       "role": "appointed in April 2012 to fill the vacant seventh committee position for Part Two work pending extension",
-      "normalized_person_id": null,
+      "normalized_person_id": "guy-prentiss-waters",
       "source_url": "https://pcahistory.org/pca/digest/studies/scim01_2012.pdf",
       "ideological_weight": 0
     }

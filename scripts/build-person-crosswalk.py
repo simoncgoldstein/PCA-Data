@@ -72,6 +72,42 @@ FIRST_NAME_VARIANTS = {
 # Explicit reviewed name-form equivalences. These are person-specific evidence
 # decisions, not a general nickname-merging rule. Printed names remain intact.
 REVIEWED_NAME_VARIANTS = {
+    "david b garner": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+    },
+    "david garner": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+    },
+    "guy prentiss waters": {
+        "canonical_candidate": "guy prentiss waters",
+        "canonical_display_name": "Guy Prentiss Waters",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
+    },
+    "guy waters": {
+        "canonical_candidate": "guy prentiss waters",
+        "canonical_display_name": "Guy Prentiss Waters",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
+    },
+    "nabeel t jabbour": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+    },
+    "nabeel jabbour": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+    },
     "paul richardson": {
         "canonical_candidate": "paul richardson",
         "canonical_display_name": "Paul Richardson",

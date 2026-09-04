@@ -2,8 +2,8 @@
   "metadata": {
     "generated_on": "2026-09-04",
     "record_count": 4315,
-    "canonical_person_count": 277,
-    "new_person_count": 260,
+    "canonical_person_count": 280,
+    "new_person_count": 263,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -60695,7 +60695,12 @@
       "normalized_candidate": "david b garner",
       "normalized_name_as_printed": "david b garner",
       "normalized_matching_name": "david b garner",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_printed_report_signers",
       "evidence_type": "formal_report_signature",
@@ -60704,16 +60709,16 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-b-garner",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "david garner",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
       "initials_only_name": true
     },
     {
@@ -60755,7 +60760,12 @@
       "normalized_candidate": "nabeel t jabbour",
       "normalized_name_as_printed": "nabeel t jabbour",
       "normalized_matching_name": "nabeel t jabbour",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_printed_report_signers",
       "evidence_type": "formal_report_signature",
@@ -60764,16 +60774,16 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "nabeel-t-jabbour",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "nabeel jabbour",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
       "initials_only_name": true
     },
     {
@@ -60873,7 +60883,12 @@
       "normalized_candidate": "david b garner",
       "normalized_name_as_printed": "david b garner",
       "normalized_matching_name": "david b garner",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_printed_report_signers",
       "evidence_type": "formal_report_signature",
@@ -60882,16 +60897,16 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-b-garner",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "david garner",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
       "initials_only_name": true
     },
     {
@@ -60991,7 +61006,12 @@
       "normalized_candidate": "guy prentiss waters",
       "normalized_name_as_printed": "guy prentiss waters",
       "normalized_matching_name": "guy prentiss waters",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "guy prentiss waters",
+        "canonical_display_name": "Guy Prentiss Waters",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_printed_report_signers",
       "evidence_type": "formal_report_signature",
@@ -61000,15 +61020,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "guy-prentiss-waters",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
       "variant_collision_key": "guy waters",
       "initials_only_name": false
     },
@@ -61022,7 +61042,12 @@
       "normalized_candidate": "nabeel t jabbour",
       "normalized_name_as_printed": "nabeel t jabbour",
       "normalized_matching_name": "nabeel t jabbour",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_printed_report_signers",
       "evidence_type": "formal_report_signature",
@@ -61031,16 +61056,16 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "nabeel-t-jabbour",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "nabeel jabbour",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
       "initials_only_name": true
     },
     {
@@ -61053,7 +61078,12 @@
       "normalized_candidate": "david b garner",
       "normalized_name_as_printed": "david b garner",
       "normalized_matching_name": "david b garner",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_printed_report_signers",
       "evidence_type": "formal_report_signature",
@@ -61062,16 +61092,16 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-b-garner",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "david garner",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
       "initials_only_name": true
     },
     {
@@ -61171,7 +61201,12 @@
       "normalized_candidate": "guy prentiss waters",
       "normalized_name_as_printed": "guy prentiss waters",
       "normalized_matching_name": "guy prentiss waters",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "guy prentiss waters",
+        "canonical_display_name": "Guy Prentiss Waters",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_printed_report_signers",
       "evidence_type": "formal_report_signature",
@@ -61180,15 +61215,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "guy-prentiss-waters",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
       "variant_collision_key": "guy waters",
       "initials_only_name": false
     },
@@ -61199,10 +61234,15 @@
       "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
       "source_row_locator": "2014-scim-jabbour-seelinger-minority-report:signer:1",
       "name_as_printed": "Nabeel Jabbour",
-      "normalized_candidate": "nabeel jabbour",
+      "normalized_candidate": "nabeel t jabbour",
       "normalized_name_as_printed": "nabeel jabbour",
       "normalized_matching_name": "nabeel jabbour",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_printed_report_signers",
       "evidence_type": "formal_report_signature",
@@ -61211,17 +61251,17 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "nabeel-t-jabbour",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "nabeel jabbour",
-      "initials_only_name": false
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-01812",
@@ -61639,10 +61679,15 @@
       "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
       "source_row_locator": "membership_change:2",
       "name_as_printed": "David Garner",
-      "normalized_candidate": "david garner",
+      "normalized_candidate": "david b garner",
       "normalized_name_as_printed": "david garner",
       "normalized_matching_name": "david garner",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_membership_changes_explicit_in_part_one_history",
       "evidence_type": "study_committee_membership_change",
@@ -61651,17 +61696,17 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-b-garner",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "david garner",
-      "initials_only_name": false
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-01826",
@@ -61670,10 +61715,15 @@
       "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
       "source_row_locator": "membership_change:3",
       "name_as_printed": "Guy Waters",
-      "normalized_candidate": "guy waters",
+      "normalized_candidate": "guy prentiss waters",
       "normalized_name_as_printed": "guy waters",
       "normalized_matching_name": "guy waters",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "guy prentiss waters",
+        "canonical_display_name": "Guy Prentiss Waters",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_membership_changes_explicit_in_part_one_history",
       "evidence_type": "study_committee_membership_change",
@@ -61682,15 +61732,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "guy-prentiss-waters",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
       "variant_collision_key": "guy waters",
       "initials_only_name": false
     },
@@ -61701,10 +61751,15 @@
       "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
       "source_row_locator": "named_report_role:1:2013",
       "name_as_printed": "David Garner",
-      "normalized_candidate": "david garner",
+      "normalized_candidate": "david b garner",
       "normalized_name_as_printed": "david garner",
       "normalized_matching_name": "david garner",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_floor_report_roles_in_normalized_family",
       "evidence_type": "named_report_role",
@@ -61713,17 +61768,17 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-b-garner",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "david garner",
-      "initials_only_name": false
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-01828",
@@ -61735,7 +61790,12 @@
       "normalized_candidate": "nabeel t jabbour",
       "normalized_name_as_printed": "nabeel t jabbour",
       "normalized_matching_name": "nabeel t jabbour",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_floor_report_roles_in_normalized_family",
       "evidence_type": "named_report_role",
@@ -61744,16 +61804,16 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "nabeel-t-jabbour",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "nabeel jabbour",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
       "initials_only_name": true
     },
     {
@@ -61766,7 +61826,12 @@
       "normalized_candidate": "david b garner",
       "normalized_name_as_printed": "david b garner",
       "normalized_matching_name": "david b garner",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_floor_report_roles_in_normalized_family",
       "evidence_type": "named_report_role",
@@ -61775,16 +61840,16 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-b-garner",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "david garner",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
       "initials_only_name": true
     },
     {
@@ -61794,10 +61859,15 @@
       "source_path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
       "source_row_locator": "named_report_role:4:2014",
       "name_as_printed": "Nabeel Jabbour",
-      "normalized_candidate": "nabeel jabbour",
+      "normalized_candidate": "nabeel t jabbour",
       "normalized_name_as_printed": "nabeel jabbour",
       "normalized_matching_name": "nabeel jabbour",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "nabeel t jabbour",
+        "canonical_display_name": "Nabeel T. Jabbour",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_floor_report_roles_in_normalized_family",
       "evidence_type": "named_report_role",
@@ -61806,17 +61876,17 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "nabeel-t-jabbour",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "nabeel jabbour",
-      "initials_only_name": false
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-01831",
@@ -76871,10 +76941,15 @@
       "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
       "source_row_locator": "role:483:westminster-theological-seminary:line:32",
       "name_as_printed": "David Garner",
-      "normalized_candidate": "david garner",
+      "normalized_candidate": "david b garner",
       "normalized_name_as_printed": "david garner",
       "normalized_matching_name": "david garner",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_institutional",
       "completeness_status": "current faculty, affiliate faculty, counseling faculty, and theological-writing staff with exact titles",
       "evidence_type": "institutional_role",
@@ -76885,17 +76960,17 @@
       "location": null,
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-b-garner",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "david garner",
-      "initials_only_name": false
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
+      "initials_only_name": true
     },
     {
       "crosswalk_id": "identity-row-02315",
@@ -137657,10 +137732,15 @@
       "source_path": "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json",
       "source_row_locator": "procedural_registration:163",
       "name_as_printed": "Guy Waters",
-      "normalized_candidate": "guy waters",
+      "normalized_candidate": "guy prentiss waters",
       "normalized_name_as_printed": "guy waters",
       "normalized_matching_name": "guy waters",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "guy prentiss waters",
+        "canonical_display_name": "Guy Prentiss Waters",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_173_commissioner_registration",
       "evidence_type": "recorded_procedural_position",
@@ -137671,15 +137751,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "guy-prentiss-waters",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only.",
       "variant_collision_key": "guy waters",
       "initials_only_name": false
     },
@@ -138945,7 +139025,12 @@
       "normalized_candidate": "david b garner",
       "normalized_name_as_printed": "david b garner",
       "normalized_matching_name": "david b garner",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "david b garner",
+        "canonical_display_name": "David B. Garner",
+        "evidence_receipt": "sources/raw/identity/reviewed-scim-name-variants-2026-09-04.json",
+        "note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_named_173_commissioner_registration",
       "evidence_type": "recorded_procedural_position",
@@ -138956,16 +139041,16 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-b-garner",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "explicit reviewed person-specific identity equivalence"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "david garner",
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
       "initials_only_name": true
     },
     {

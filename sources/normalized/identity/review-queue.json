@@ -8577,13 +8577,11 @@
       "source_row_locator": "2012-scim-part-one-unanimous-report:signer:1",
       "name_as_printed": "David B. Garner",
       "normalized_candidate": "david b garner",
-      "match_status": "ambiguous",
-      "variant_collision_key": "david garner",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01796",
@@ -8591,13 +8589,11 @@
       "source_row_locator": "2012-scim-part-one-unanimous-report:signer:3",
       "name_as_printed": "Nabeel T. Jabbour",
       "normalized_candidate": "nabeel t jabbour",
-      "match_status": "ambiguous",
-      "variant_collision_key": "nabeel jabbour",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01800",
@@ -8605,13 +8601,11 @@
       "source_row_locator": "2013-scim-committee-report:signer:1",
       "name_as_printed": "David B. Garner",
       "normalized_candidate": "david b garner",
-      "match_status": "ambiguous",
-      "variant_collision_key": "david garner",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01804",
@@ -8619,13 +8613,11 @@
       "source_row_locator": "2013-scim-committee-report:signer:5",
       "name_as_printed": "Guy Prentiss Waters",
       "normalized_candidate": "guy prentiss waters",
-      "match_status": "ambiguous",
+      "match_status": "context_confirmed",
       "variant_collision_key": "guy waters",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01805",
@@ -8633,13 +8625,11 @@
       "source_row_locator": "2013-scim-jabbour-minority-report:signer:1",
       "name_as_printed": "Nabeel T. Jabbour",
       "normalized_candidate": "nabeel t jabbour",
-      "match_status": "ambiguous",
-      "variant_collision_key": "nabeel jabbour",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01806",
@@ -8647,13 +8637,11 @@
       "source_row_locator": "2014-scim-committee-report:signer:1",
       "name_as_printed": "David B. Garner",
       "normalized_candidate": "david b garner",
-      "match_status": "ambiguous",
-      "variant_collision_key": "david garner",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01810",
@@ -8661,27 +8649,23 @@
       "source_row_locator": "2014-scim-committee-report:signer:5",
       "name_as_printed": "Guy Prentiss Waters",
       "normalized_candidate": "guy prentiss waters",
-      "match_status": "ambiguous",
+      "match_status": "context_confirmed",
       "variant_collision_key": "guy waters",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01811",
       "source_dataset": "formal_position_2014-scim-jabbour-seelinger-minority-report",
       "source_row_locator": "2014-scim-jabbour-seelinger-minority-report:signer:1",
       "name_as_printed": "Nabeel Jabbour",
-      "normalized_candidate": "nabeel jabbour",
-      "match_status": "ambiguous",
-      "variant_collision_key": "nabeel jabbour",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "normalized_candidate": "nabeel t jabbour",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
+      "initials_only_name": true,
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01813",
@@ -8752,42 +8736,36 @@
       "source_dataset": "insider_movements_committee_membership_changes_2012",
       "source_row_locator": "membership_change:2",
       "name_as_printed": "David Garner",
-      "normalized_candidate": "david garner",
-      "match_status": "ambiguous",
-      "variant_collision_key": "david garner",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "normalized_candidate": "david b garner",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
+      "initials_only_name": true,
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01826",
       "source_dataset": "insider_movements_committee_membership_changes_2012",
       "source_row_locator": "membership_change:3",
       "name_as_printed": "Guy Waters",
-      "normalized_candidate": "guy waters",
-      "match_status": "ambiguous",
+      "normalized_candidate": "guy prentiss waters",
+      "match_status": "context_confirmed",
       "variant_collision_key": "guy waters",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01827",
       "source_dataset": "insider_movements_named_report_roles_2013_2014",
       "source_row_locator": "named_report_role:1:2013",
       "name_as_printed": "David Garner",
-      "normalized_candidate": "david garner",
-      "match_status": "ambiguous",
-      "variant_collision_key": "david garner",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "normalized_candidate": "david b garner",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
+      "initials_only_name": true,
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01828",
@@ -8795,13 +8773,11 @@
       "source_row_locator": "named_report_role:2:2013",
       "name_as_printed": "Nabeel T. Jabbour",
       "normalized_candidate": "nabeel t jabbour",
-      "match_status": "ambiguous",
-      "variant_collision_key": "nabeel jabbour",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01829",
@@ -8809,27 +8785,23 @@
       "source_row_locator": "named_report_role:3:2014",
       "name_as_printed": "David B. Garner",
       "normalized_candidate": "david b garner",
-      "match_status": "ambiguous",
-      "variant_collision_key": "david garner",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01830",
       "source_dataset": "insider_movements_named_report_roles_2013_2014",
       "source_row_locator": "named_report_role:4:2014",
       "name_as_printed": "Nabeel Jabbour",
-      "normalized_candidate": "nabeel jabbour",
-      "match_status": "ambiguous",
-      "variant_collision_key": "nabeel jabbour",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "normalized_candidate": "nabeel t jabbour",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
+      "initials_only_name": true,
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Nabeel Jabbour and Nabeel T. Jabbour are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-01838",
@@ -10680,14 +10652,12 @@
       "source_dataset": "institution_westminster-theological-seminary",
       "source_row_locator": "role:483:westminster-theological-seminary:line:32",
       "name_as_printed": "David Garner",
-      "normalized_candidate": "david garner",
-      "match_status": "ambiguous",
-      "variant_collision_key": "david garner",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "normalized_candidate": "david b garner",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
+      "initials_only_name": true,
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-02317",
@@ -16016,14 +15986,12 @@
       "source_dataset": "women_study_committee_procedural_registration_2016",
       "source_row_locator": "procedural_registration:163",
       "name_as_printed": "Guy Waters",
-      "normalized_candidate": "guy waters",
-      "match_status": "ambiguous",
+      "normalized_candidate": "guy prentiss waters",
+      "match_status": "context_confirmed",
       "variant_collision_key": "guy waters",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: Guy Waters and Guy Prentiss Waters are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-04216",
@@ -16267,13 +16235,11 @@
       "source_row_locator": "procedural_registration:44",
       "name_as_printed": "David B. Garner",
       "normalized_candidate": "david b garner",
-      "match_status": "ambiguous",
-      "variant_collision_key": "david garner",
+      "match_status": "context_confirmed",
+      "variant_collision_key": null,
       "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "User-reviewed identity resolution: David Garner and David B. Garner are the same person. This is a person-specific decision only."
     },
     {
       "crosswalk_id": "identity-row-04262",
