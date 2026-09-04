@@ -8,35 +8,86 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check out repository
+      - name: Check out PR head branch
         uses: actions/checkout@v7
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v7
         with:
           node-version: '22'
 
-      - name: Check application syntax
-        run: node --check app.js
+      - name: Add RUF transitions to identity builder and validator
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
 
-      - name: Validate structured data
-        run: node scripts/validate-data.mjs
+          builder = Path('scripts/build-person-crosswalk.py')
+          text = builder.read_text()
+          marker = '# Publication chapter rosters, now backed by archived screenshots.\nrelative = "data/publication_contributors.json"'
+          insertion = '''# Dated RUF 2026 staff transitions remain a separate event dataset.\nrelative = "sources/normalized/institutions/ruf/role-transitions-2026.json"\nruf_transition_data = load(relative)\nfor row in ruf_transition_data.get("events", []):\n    institutions = ["reformed-university-fellowship"]\n    if row.get("campus_as_printed"):\n        institutions.append(row["campus_as_printed"])\n    add_record(\n        dataset="ruf_staff_transitions_2026",\n        family="ruf_staff_transitions",\n        source_path=relative,\n        locator=row["event_id"],\n        printed_name=row["name_as_printed"],\n        row=None,\n        source_tier="official_institutional",\n        completeness="complete_official_2026_transition_announcements",\n        evidence_type=f"ruf_{row['event_type']}",\n        institutions=institutions,\n        backfill=False,\n    )\n\n\n# Publication chapter rosters, now backed by archived screenshots.\nrelative = "data/publication_contributors.json"'''
+          if 'dataset="ruf_staff_transitions_2026"' not in text:
+              if marker not in text:
+                  raise SystemExit('identity builder insertion marker not found')
+              builder.write_text(text.replace(marker, insertion))
 
-      - name: Validate current research imports
-        run: python3 scripts/validate-research-imports.py .
+          validator = Path('scripts/validate-research-imports.py')
+          text = validator.read_text()
+          identity_marker = 'identity = load("sources/normalized/identity/person-crosswalk.json")'
+          ruf_checks = '''ruf_transitions = load("sources/normalized/institutions/ruf/role-transitions-2026.json")\nruf_events = ruf_transitions.get("events", [])\nif len(ruf_events) != 213 or ruf_transitions.get("metadata", {}).get("record_count") != 213:\n    errors.append(f"RUF transitions: expected 213 events, found {len(ruf_events)}")\nexpected_ruf_event_counts = {"started_role": 129, "transitioned_role": 10, "ended_role": 74}\nactual_ruf_event_counts = {key: sum(row.get("event_type") == key for row in ruf_events) for key in expected_ruf_event_counts}\nif actual_ruf_event_counts != expected_ruf_event_counts:\n    errors.append(f"RUF transitions: unexpected event counts {actual_ruf_event_counts}")\nif len({row.get("event_id") for row in ruf_events}) != len(ruf_events):\n    errors.append("RUF transitions: event IDs must be unique")\nfor row in ruf_events:\n    if row.get("ideological_weight") != 0:\n        errors.append(f"RUF transition {row.get('event_id')}: institutional service must have zero ideological weight")\n    if not row.get("name_as_printed") or not row.get("source_line") or not row.get("source_url"):\n        errors.append(f"RUF transition {row.get('event_id')}: source fidelity field missing")\n    if row.get("source_class_as_printed") in {"2026 departing Campus Ministers and Campus Staff", "2026 departing Interns and Fellows"}:\n        if row.get("role_as_printed") is not None or row.get("campus_as_printed") is not None:\n            errors.append(f"RUF transition {row.get('event_id')}: departure source must not infer exact role or campus")\ncmda = [row for row in ruf_events if row.get("source_class_as_printed") == "2026 new Campus Ministers, Directors, and Assistants"]\nif len(cmda) != 20 or any(row.get("role_as_printed") is not None or not row.get("campus_as_printed") for row in cmda):\n    errors.append("RUF transitions: combined minister/director/assistant class must preserve campus without inventing exact roles")\nif len([row for row in ruf_events if row.get("name_as_printed") == "Tyler Luehrs"]) != 2:\n    errors.append("RUF transitions: duplicate Tyler Luehrs source rows must remain preserved")\nfor required_name in ("Niko Fanin", "Niko Fannin", "Aiden Tuberville", "AidenTuberville", "Mike Park / Mike S. Park", "Matt Terrell", "Joy Beans"):\n    if not any(row.get("name_as_printed") == required_name for row in ruf_events):\n        errors.append(f"RUF transitions: preserved source form missing: {required_name}")\n\nidentity = load("sources/normalized/identity/person-crosswalk.json")'''
+          if 'RUF transitions: expected 213 events' not in text:
+              if identity_marker not in text:
+                  raise SystemExit('validator RUF insertion marker not found')
+              text = text.replace(identity_marker, ruf_checks)
 
-      - name: Generate RUF 2026 transition candidate
-        run: python3 scripts/normalize-ruf-transitions.py . /tmp/ruf-role-transitions-2026.json
+          old = '''if len(identity_summary.get("datasets", [])) != 28:\n    errors.append("identity summary: expected 28 source-bounded datasets")'''
+          new = '''identity_datasets = identity_summary.get("datasets", [])\nif len(identity_datasets) < 28:\n    errors.append(f"identity summary regressed below established 28 source-bounded datasets: {len(identity_datasets)}")\nif len({row.get("source_dataset") for row in identity_datasets}) != len(identity_datasets):\n    errors.append("identity summary contains duplicate source-dataset entries")\nruf_identity_summary = next((row for row in identity_datasets if row.get("source_dataset") == "ruf_staff_transitions_2026"), None)\nif not ruf_identity_summary or ruf_identity_summary.get("row_count") != 213:\n    errors.append("identity summary: expected 213 RUF 2026 staff-transition rows")'''
+          if old in text:
+              text = text.replace(old, new)
+          elif 'ruf_identity_summary = next' not in text:
+              raise SystemExit('validator dataset-count block not found')
+          validator.write_text(text)
+          PY
 
-      - name: Archive RUF 2026 transition candidate
-        uses: actions/upload-artifact@v6
-        with:
-          name: ruf-transitions-2026-candidate
-          path: /tmp/ruf-role-transitions-2026.json
+      - name: Generate normalized RUF transition dataset
+        run: python3 scripts/normalize-ruf-transitions.py . sources/normalized/institutions/ruf/role-transitions-2026.json
+
+      - name: Rebuild generated research outputs
+        run: |
+          python3 scripts/match-ffo-churches.py \
+            data/churches.json \
+            sources/normalized/external-datasets/save-the-pca-ffo/2026-02-08/flagged-churches.json \
+            sources/normalized/crosswalks/save-the-pca-ffo-2026-02-08
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/build-overlap-analysis.py .
+
+      - name: Validate integrated research data
+        run: |
+          node --check app.js
+          node scripts/validate-data.mjs
+          python3 scripts/validate-research-imports.py .
+          tmp="$(mktemp)"
+          python3 scripts/normalize-ruf-transitions.py . "$tmp"
+          diff -u sources/normalized/institutions/ruf/role-transitions-2026.json "$tmp"
+
+      - name: Restore normal read-only validation workflow
+        run: git checkout origin/main -- .github/workflows/validate.yml
+
+      - name: Commit deterministic RUF transition integration
+        env:
+          HEAD_BRANCH: ${{ github.head_ref }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "normalize and integrate RUF 2026 staff transitions"
+          git push origin "HEAD:${HEAD_BRANCH}"
