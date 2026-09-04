@@ -1,0 +1,40 @@
+{
+  "metadata": {
+    "organization": "Jude 3 & the PCA",
+    "captured": "2026-09-04",
+    "evidence_scope": "site-level Regulative Principle of Worship formulation",
+    "raw_receipt": "sources/raw/publications/jude3-pca/worship-rpw-source-2026-09-04.md",
+    "modeling_rule": "The accessible page exposes no named author, so claims are modeled as site-level published content rather than assigned to an individual or automatically applied to every Jude 3-linked worship resource.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "jude3-rpw-second-commandment-regulates-worship",
+      "topic": "worship",
+      "position_type": "jude3_site_published_content",
+      "summary": "The Jude 3 page states that the Second Commandment regulates the entirety of how God is worshiped and identifies this principle as the Regulative Principle of Worship.",
+      "source_url": "https://jude3pca.org/worshipping-gods-way-deuteronomy-12/",
+      "attribution_status": "no_named_author_exposed",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-rpw-positive-negative-form",
+      "topic": "worship",
+      "position_type": "jude3_site_published_content",
+      "summary": "The page formulates the Regulative Principle positively as practicing what God has appointed in Scripture for worship and negatively as refusing modes of worship God has not appointed.",
+      "source_url": "https://jude3pca.org/worshipping-gods-way-deuteronomy-12/",
+      "attribution_status": "no_named_author_exposed",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "jude3-rpw-westminster-confessional-basis",
+      "topic": "worship",
+      "position_type": "jude3_site_published_content",
+      "summary": "The page presents Westminster Confession of Faith 21.1 and Westminster Shorter Catechism 50–51 as confessional formulations of the Regulative Principle of Worship.",
+      "source_url": "https://jude3pca.org/worshipping-gods-way-deuteronomy-12/",
+      "attribution_status": "no_named_author_exposed",
+      "boundary": "This record captures Jude 3's appeal to the Standards and does not infer a position on every disputed application of the RPW.",
+      "ideological_weight": 0
+    }
+  ]
+}
