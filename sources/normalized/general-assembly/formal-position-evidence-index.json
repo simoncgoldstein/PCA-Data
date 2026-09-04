@@ -275,12 +275,57 @@
       "path": "sources/normalized/general-assembly/2002-2007-subscription-federal-vision-chronology.json",
       "coverage": "7 named committee members and 9 declarations explicitly identified by the report as unanimous.",
       "important_boundary": "The explicit unanimity supports assigning the nine declarations to all seven members, but not every sentence, footnote, or characterization in the report."
+    },
+    {
+      "evidence_id": "2012-scim-part-one-unanimous-report",
+      "year": 2012,
+      "topic": "divine_familial_language_in_bible_translation",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+      "coverage": "six printed Part One report names; report states SCIM unanimously presented Part One and its five recommendations",
+      "important_boundary": "Guy Waters was appointed for Part Two work but is not printed in the six-name Part One report group; do not back-project him into the Part One signature set."
+    },
+    {
+      "evidence_id": "2013-scim-committee-report",
+      "year": 2013,
+      "topic": "insider_movements",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+      "coverage": "five printed Committee Report signatories",
+      "important_boundary": "The 41st GA recommitted the entire matter after aggregate votes; no commissioner-level vote is inferred."
+    },
+    {
+      "evidence_id": "2013-scim-jabbour-minority-report",
+      "year": 2013,
+      "topic": "insider_movements",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+      "coverage": "Nabeel T. Jabbour as sole printed Minority Report 2013 signer/author",
+      "important_boundary": "Jabbour explicitly described his paper as concurring with most of the committee report while supplementing it; do not encode it as total rejection of the committee report."
+    },
+    {
+      "evidence_id": "2014-scim-committee-report",
+      "year": 2014,
+      "topic": "insider_movements",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+      "coverage": "five printed Committee Report signatories; 42nd GA adopted Committee Recommendations 1-3",
+      "important_boundary": "The PCA Historical Center explicitly cautions that only the three Committee Recommendations were adopted, not the report narrative as a constitutional statement."
+    },
+    {
+      "evidence_id": "2014-scim-jabbour-seelinger-minority-report",
+      "year": 2014,
+      "topic": "insider_movements",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json",
+      "coverage": "Nabeel Jabbour and Tom Seelinger as the two printed 2014 minority-report signatories",
+      "important_boundary": "The 2014 minority signers stated that they did not support the 2013 minority report; keep the two minority reports as distinct person-position events."
     }
   ],
   "priority_backlog": [
     {
       "priority": 1,
-      "target": "Older major PCA majority/minority study-report families, beginning with Insider Movements, baptism, paedocommunion, and other reports with named authors/signers",
+      "target": "Older major PCA majority/minority study-report families, beginning with baptism, paedocommunion, and other reports with named authors/signers",
       "reason": "These provide longitudinal high-specificity evidence and test the schema across issues beyond the current controversies."
     },
     {

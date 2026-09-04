@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 4288,
+    "record_count": 4315,
     "canonical_person_count": 277,
     "new_person_count": 260,
     "rules": {
@@ -13,12 +13,12 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 490,
+    "ambiguous": 504,
     "collision": 16,
     "context_confirmed": 793,
     "exact_confirmed": 127,
     "probable_requires_review": 368,
-    "unmatched": 2494
+    "unmatched": 2507
   },
   "datasets": [
     {
@@ -374,6 +374,116 @@
       ]
     },
     {
+      "source_dataset": "formal_position_2012-scim-part-one-unanimous-report",
+      "row_count": 6,
+      "unique_printed_name_count": 6,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 2,
+        "collision": 0,
+        "unmatched": 4
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2013-scim-committee-report",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 2,
+        "collision": 0,
+        "unmatched": 3
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2013-scim-jabbour-minority-report",
+      "row_count": 1,
+      "unique_printed_name_count": 1,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 1,
+        "collision": 0,
+        "unmatched": 0
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2014-scim-committee-report",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 2,
+        "collision": 0,
+        "unmatched": 3
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2014-scim-jabbour-seelinger-minority-report",
+      "row_count": 2,
+      "unique_printed_name_count": 2,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 1,
+        "collision": 0,
+        "unmatched": 1
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_printed_report_signers"
+      ]
+    },
+    {
       "source_dataset": "formal_role_overture_15",
       "row_count": 2,
       "unique_printed_name_count": 2,
@@ -437,6 +547,50 @@
       ],
       "completeness_status": [
         "complete_official_committee_roster"
+      ]
+    },
+    {
+      "source_dataset": "insider_movements_committee_membership_changes_2012",
+      "row_count": 3,
+      "unique_printed_name_count": 3,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 2,
+        "collision": 0,
+        "unmatched": 1
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_membership_changes_explicit_in_part_one_history"
+      ]
+    },
+    {
+      "source_dataset": "insider_movements_named_report_roles_2013_2014",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 4,
+        "collision": 0,
+        "unmatched": 1
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_floor_report_roles_in_normalized_family"
       ]
     },
     {
