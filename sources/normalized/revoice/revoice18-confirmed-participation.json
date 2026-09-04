@@ -1,0 +1,239 @@
+{
+  "metadata": {
+    "research_date": "2026-09-04",
+    "event_id": "evt-revoice-2018",
+    "conference_start_date": "2018-07-26",
+    "conference_end_date": "2018-07-28",
+    "record_count": 15,
+    "unique_printed_name_count": 13,
+    "session_fragment_count": 6,
+    "scope": "Confirmed named appearances in the Revoice 2018 main conference only. The related Spiritual Friendship preconference remains outside this dataset.",
+    "completeness_status": "confirmed_fragments_only_not_full_program",
+    "modeling_rule": "A named appearance establishes only the printed role in the stated session. It does not imply conference-wide endorsement, organizational membership, ideological agreement, attendance at other sessions, or any other relationship.",
+    "scoring_rule": "All rows carry ideological_weight 0 and are not intended to contribute to a Network Involvement Index until a separate methodology decision explicitly says otherwise."
+  },
+  "sessions": [
+    {
+      "session_id": "revoice18-gs1-praise",
+      "session_type": "general_session",
+      "date": "2018-07-26",
+      "title": "General Session 1: Praise",
+      "date_basis": "The user-supplied primary-media transcript identifies this as the first night; the conference date range begins July 26, 2018.",
+      "source_basis": [
+        "sources/raw/issues/revoice/revoice18-general-session-transcript-receipt-2026-09-04.json",
+        "sources/normalized/revoice/revoice18-recovered-media-2019-07.json"
+      ],
+      "appearances": [
+        {
+          "appearance_id": "revoice18-gs1-greg-johnson-welcome",
+          "name_as_printed": "Greg Johnson",
+          "role_as_printed": "opening welcome",
+          "identity_status": "full_name_direct_primary_transcript",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "Primary transcript introduces Johnson as pastor of the host church and records his welcome."
+        },
+        {
+          "appearance_id": "revoice18-gs1-chris-gillum-prayer",
+          "name_as_printed": "Chris Gillum",
+          "role_as_printed": "conference chaplain; opening prayer",
+          "identity_status": "full_name_direct_primary_transcript",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "Primary transcript also states that Gillum was one of Revoice's founding board members; that organization-role claim is preserved in the transcript receipt and is not collapsed into this event-participation edge."
+        },
+        {
+          "appearance_id": "revoice18-gs1-amber-carroll-testimony",
+          "name_as_printed": "Amber Carroll",
+          "role_as_printed": "Praise testimony",
+          "identity_status": "full_name_direct_primary_transcript",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "The recovered first-party media title spells the surname 'Carol'; the supplied transcript clearly renders 'Carroll'. Both source forms remain preserved in their original receipts."
+        },
+        {
+          "appearance_id": "revoice18-gs1-eve-tushnet-message",
+          "name_as_printed": "Eve Tushnet",
+          "role_as_printed": "Praise message",
+          "identity_status": "full_name_direct_primary_transcript",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "Primary transcript introduces Tushnet and records her speaking on Praise; the recovered first-party media title independently names her."
+        }
+      ]
+    },
+    {
+      "session_id": "revoice18-gs2-lament",
+      "session_type": "general_session",
+      "date": "2018-07-27",
+      "title": "General Session 2: Lament",
+      "date_basis": "The user-supplied primary-media transcript identifies this as the second evening; the conference began July 26, 2018.",
+      "source_basis": [
+        "sources/raw/issues/revoice/revoice18-general-session-transcript-receipt-2026-09-04.json",
+        "sources/normalized/revoice/revoice18-recovered-media-2019-07.json",
+        "https://churchleaders.com/news/329927-heres-what-actually-happened-at-revoice.html/2"
+      ],
+      "appearances": [
+        {
+          "appearance_id": "revoice18-gs2-ray-low-testimony",
+          "name_as_printed": "Ray Low",
+          "role_as_printed": "Lament testimony",
+          "identity_status": "full_name_combined_evidence",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "The transcript renders the surname as 'Lowe'; contemporaneous reporting and Revoice material consistently identify the testimony speaker as Ray Low. The discrepancy remains documented."
+        },
+        {
+          "appearance_id": "revoice18-gs2-nate-collins-message",
+          "name_as_printed": "Nate Collins",
+          "role_as_printed": "Lament message",
+          "identity_status": "full_name_first_party_media_plus_matching_message_evidence",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "Recovered first-party media title names Nate Collins and Ray; independent contemporaneous citations attribute the matching main Lament message to Collins."
+        }
+      ]
+    },
+    {
+      "session_id": "revoice18-gs3-hope",
+      "session_type": "general_session",
+      "date": "2018-07-28",
+      "title": "General Session 3: Hope",
+      "date_basis": "The conference ran July 26-28 and the recovered first-party media title identifies this as General Session 3; the first-night transcript independently states that Saturday night would focus on Hope.",
+      "source_basis": [
+        "sources/normalized/revoice/revoice18-recovered-media-2019-07.json",
+        "https://churchleaders.com/news/329927-heres-what-actually-happened-at-revoice.html/2"
+      ],
+      "appearances": [
+        {
+          "appearance_id": "revoice18-gs3-wesley-hill-message",
+          "name_as_printed": "Wesley Hill",
+          "role_as_printed": "Hope message",
+          "identity_status": "full_name_first_party_media",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "Recovered first-party media title explicitly names Wesley Hill."
+        },
+        {
+          "appearance_id": "revoice18-gs3-bekah-testimony",
+          "name_as_printed": "Bekah",
+          "role_as_printed": "Hope testimony",
+          "identity_status": "printed_first_name_only_full_name_held",
+          "resolved_name_candidate": "Bekah Mason",
+          "normalized_person_id": null,
+          "graph_status": "hold_identity_edge",
+          "ideological_weight": 0,
+          "evidence_note": "The recovered first-party media title prints only Bekah. Contemporary reporting identifies the testimony speaker as Bekah Mason, but the full-name resolution remains held until a primary Session 3 transcript or equivalent first-party full-name evidence is preserved."
+        }
+      ]
+    },
+    {
+      "session_id": "revoice18-workshop-redeeming-queer-culture",
+      "session_type": "workshop",
+      "date": "2018-07-27",
+      "title": "Redeeming Queer Culture: An Adventure",
+      "source_basis": [
+        "https://religionnews.com/2018/08/16/beaty-oped-2/",
+        "sources/normalized/revoice/revoice18-recovered-media-2019-07.json"
+      ],
+      "appearances": [
+        {
+          "appearance_id": "revoice18-workshop-grant-hartley",
+          "name_as_printed": "Grant Hartley",
+          "role_as_printed": "workshop speaker",
+          "identity_status": "full_name_contemporaneous_report_with_first_party_media_match",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "Religion News Service contemporaneously identifies Hartley teaching this workshop at Revoice on July 27, 2018; the recovered first-party media gallery preserves the matching workshop title/video."
+        }
+      ]
+    },
+    {
+      "session_id": "revoice18-workshop-church-haven",
+      "session_type": "workshop",
+      "date": null,
+      "date_status": "confirmed_within_2018_conference_exact_day_unresolved",
+      "title": "Making the Church a Haven for Sexual Minorities",
+      "source_basis": [
+        "https://1ar.s3.amazonaws.com/2020/08/2020.07.21-MOP-BCO-31-2-investigation-of-TE-Greg-Johnson-CRM.pdf",
+        "https://drive.google.com/file/d/1U-T5Xg4yRLAclmlidMO4wEnz4PWsOI8G/view?usp=drivesdk"
+      ],
+      "appearances": [
+        {
+          "appearance_id": "revoice18-workshop-greg-johnson",
+          "name_as_printed": "Greg Johnson",
+          "role_as_printed": "workshop speaker",
+          "identity_status": "full_name_primary_presbytery_evidence",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0,
+          "evidence_note": "The 2020 Missouri Presbytery BCO 31-2 report explicitly calls this Johnson's 'Revoice 2018 talk' and separately describes it as his workshop talk at Revoice 18, with the preserved Google Drive recording."
+        }
+      ]
+    },
+    {
+      "session_id": "revoice18-panel-race-sexuality-intersectionality",
+      "session_type": "panel",
+      "date": "2018-07-27",
+      "title": "Race, Sexuality, and Intersectionality: A Panel Discussion",
+      "source_basis": [
+        "https://www.sueannshiah.com/speaker"
+      ],
+      "appearances": [
+        {
+          "appearance_id": "revoice18-panel-branden-polk",
+          "name_as_printed": "Branden Polk",
+          "role_as_printed": "panel member",
+          "identity_status": "full_name_participant_first_party_page",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0
+        },
+        {
+          "appearance_id": "revoice18-panel-ray-low",
+          "name_as_printed": "Ray Low",
+          "role_as_printed": "panel member",
+          "identity_status": "full_name_participant_first_party_page",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0
+        },
+        {
+          "appearance_id": "revoice18-panel-merelyn-becker",
+          "name_as_printed": "Merelyn Becker",
+          "role_as_printed": "panel member",
+          "identity_status": "full_name_participant_first_party_page",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0
+        },
+        {
+          "appearance_id": "revoice18-panel-sueann-shiah",
+          "name_as_printed": "SueAnn Shiah",
+          "role_as_printed": "panel member",
+          "identity_status": "full_name_participant_first_party_page",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0
+        },
+        {
+          "appearance_id": "revoice18-panel-dawn-jones",
+          "name_as_printed": "Dawn Jones",
+          "role_as_printed": "moderator",
+          "identity_status": "full_name_participant_first_party_page",
+          "normalized_person_id": null,
+          "graph_status": "confirmed_participation_edge_candidate",
+          "ideological_weight": 0
+        }
+      ]
+    }
+  ]
+}
