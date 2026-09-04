@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "dataset_id": "amr_2026_katie_polski_women_ministry",
+    "organization": "Alliance for Mission & Renewal",
+    "source_family": "amr_katie_polski_women_ministry_2026",
+    "source_type": "first_party_authored_article",
+    "published_on": "2026-09-02",
+    "normalized_on": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Record only positions Katie Polski states in her authored article. Preserve her explicit affirmation of male-only ordained elder and deacon offices while separately recording the non-ordained ministry, teaching, worship, counseling, discipleship, and leadership opportunities she commends for women.",
+    "identity_rule": "Name is preserved as printed. This dataset does not create or relax person-identity matches.",
+    "copyright_boundary": "Normalized records contain bounded factual paraphrases and section locators, not reproduced article text."
+  },
+  "source": {
+    "title": "Daughters and Disciples: The Expansive Calling of Women in Christ’s Church",
+    "author_as_printed": "Katie Polski",
+    "role_as_printed": "Director of Music Ministries and Special Events, Trinity Church in St. Louis, MO",
+    "url": "https://a4mr.org/1770-2/"
+  },
+  "positions": [
+    {
+      "position_id": "amr-2026-katie-polski-male-ordained-offices",
+      "person_name_as_stated": "Katie Polski",
+      "normalized_person_id": null,
+      "topic": "male_only_ordained_elder_and_deacon_offices",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_male_only_ordained_elder_and_deacon_offices",
+      "summary": "Polski states that the PCA recognizes elder and deacon as its two ordinary and perpetual offices and that, according to the denomination's understanding of Scripture, both ordained offices are reserved for qualified men. She presents this office restriction as compatible with extensive ministry by women outside ordination.",
+      "source_locators": [
+        "What the PCA Affirms (and Why That Matters)"
+      ],
+      "important_boundary": "Polski explicitly distinguishes ordained office from ministry. Do not treat her advocacy for broad women's ministry as support for women holding ordained elder or deacon office.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-katie-polski-gift-based-ministry",
+      "person_name_as_stated": "Katie Polski",
+      "normalized_person_id": null,
+      "topic": "gift_based_ministry_by_women",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_expansive_nonordained_ministry_by_women",
+      "summary": "Polski argues that much New Testament ministry is gift-based and Spirit-empowered rather than office-based and that women therefore have a broad field of meaningful ministry within a confessional Reformed framework. She highlights hospitality, prayer, generosity, teaching, encouragement, witness, counseling, mentoring, mercy ministry, discipleship, and theological study as significant forms of women's ministry.",
+      "source_locators": [
+        "What the PCA Affirms (and Why That Matters)",
+        "The Vast 'Yes': Where Women’s Callings Flourish"
+      ],
+      "important_boundary": "This record concerns non-ordained ministry in the body and does not erase Polski's separate affirmation of male-only ordained offices.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-katie-polski-worship-and-formation",
+      "person_name_as_stated": "Katie Polski",
+      "normalized_person_id": null,
+      "topic": "women_in_worship_planning_music_and_formation",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_women_in_worship_planning_music_leadership_and_formation",
+      "summary": "Polski argues that women are needed in worship and formation ministries. Drawing on her own work as a worship director, she commends women helping pastors shape liturgy and music, training musicians in worship leadership, and shaping the church's doctrinal vocabulary through the writing and introduction of theologically sound music.",
+      "source_locators": [
+        "The Vast 'Yes': Worship and Formation"
+      ],
+      "important_boundary": "The article discusses worship planning, music leadership, and formation. It does not in this section claim that women should exercise the ordained preaching or governing functions of elders.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-katie-polski-visible-leadership-pathways",
+      "person_name_as_stated": "Katie Polski",
+      "normalized_person_id": null,
+      "topic": "visible_pathways_for_womens_ministry_leadership",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "high",
+      "stance": "favor_visible_training_and_service_pathways_for_women",
+      "summary": "Polski urges pastors and church leaders to cultivate visible pathways for women to serve and develop as ministry leaders. She specifically encourages inviting women into theological conversations, including women staff members at General Assembly, encouraging formal training, and publicly recognizing women's official and unofficial ministry work.",
+      "source_locators": [
+        "A Vision Forward: Cultivating a Culture of Optimism"
+      ],
+      "important_boundary": "This is an argument for intentional development, recognition, and service opportunities for women within her stated male-office framework, not for changing PCA ordination standards.",
+      "ideological_weight": 0
+    }
+  ]
+}
