@@ -72,6 +72,12 @@ FIRST_NAME_VARIANTS = {
 # Explicit reviewed name-form equivalences. These are person-specific evidence
 # decisions, not a general nickname-merging rule. Printed names remain intact.
 REVIEWED_NAME_VARIANTS = {
+    "larry c hoop": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
+    },
     "michael mclaughlin": {
         "canonical_candidate": "mike mclaughlin",
         "canonical_display_name": "Mike McLaughlin",

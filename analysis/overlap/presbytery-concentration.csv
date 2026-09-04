@@ -154,7 +154,7 @@ formal_position_2008-overture-9-deaconess-study-minority-report,eastern canada,e
 formal_position_2008-overture-9-deaconess-study-minority-report,eastern carolina,eastern-carolina,current_exact,1,1,0,0.00,0,0.00
 formal_position_2008-overture-9-deaconess-study-minority-report,georgia foothills,georgia-foothills,current_exact,1,1,0,0.00,0,0.00
 formal_position_2008-overture-9-deaconess-study-minority-report,illiana,illiana,current_exact,1,1,1,100.00,1,100.00
-formal_position_2008-overture-9-deaconess-study-minority-report,iowa,iowa,current_exact,1,1,0,0.00,0,0.00
+formal_position_2008-overture-9-deaconess-study-minority-report,iowa,iowa,current_exact,1,1,1,100.00,1,100.00
 formal_position_2008-overture-9-deaconess-study-minority-report,james river,james-river,current_exact,2,2,2,100.00,2,100.00
 formal_position_2008-overture-9-deaconess-study-minority-report,louisiana,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
 formal_position_2008-overture-9-deaconess-study-minority-report,metro new york,metropolitan-new-york,known_alias,1,1,0,0.00,0,0.00
@@ -181,7 +181,7 @@ formal_position_2009-overture-10-women-roles-study-minority-report,georgia footh
 formal_position_2009-overture-10-women-roles-study-minority-report,great lakes,great-lakes,current_exact,1,1,0,0.00,0,0.00
 formal_position_2009-overture-10-women-roles-study-minority-report,houston metro,houston-metro,current_exact,1,1,0,0.00,0,0.00
 formal_position_2009-overture-10-women-roles-study-minority-report,illiana,illiana,current_exact,1,1,1,100.00,1,100.00
-formal_position_2009-overture-10-women-roles-study-minority-report,iowa,iowa,current_exact,2,2,0,0.00,0,0.00
+formal_position_2009-overture-10-women-roles-study-minority-report,iowa,iowa,current_exact,2,2,1,50.00,1,100.00
 formal_position_2009-overture-10-women-roles-study-minority-report,james river,james-river,current_exact,2,2,2,100.00,2,100.00
 formal_position_2009-overture-10-women-roles-study-minority-report,louisiana,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
 formal_position_2009-overture-10-women-roles-study-minority-report,metro atlanta,metro-atlanta,current_exact,2,2,0,0.00,0,0.00
@@ -253,7 +253,7 @@ nae_withdrawal_protest_2022,north florida,north-florida,current_exact,2,2,0,0.00
 nae_withdrawal_protest_2022,north texas,north-texas,current_exact,2,2,1,50.00,1,100.00
 nae_withdrawal_protest_2022,northern california,northern-california,current_exact,7,7,3,42.86,3,100.00
 nae_withdrawal_protest_2022,ohio,ohio,current_exact,1,1,1,100.00,1,100.00
-nae_withdrawal_protest_2022,ohio valley,ohio-valley,current_exact,2,2,0,0.00,0,0.00
+nae_withdrawal_protest_2022,ohio valley,ohio-valley,current_exact,2,2,1,50.00,1,100.00
 nae_withdrawal_protest_2022,pacific,pacific,current_exact,1,1,0,0.00,0,0.00
 nae_withdrawal_protest_2022,pacific northwest,pacific-northwest,current_exact,1,1,1,100.00,1,100.00
 nae_withdrawal_protest_2022,palmetto,palmetto,current_exact,1,1,0,0.00,0,0.00
@@ -402,7 +402,7 @@ overture_15_negative_votes_2022,north florida,north-florida,current_exact,1,1,1,
 overture_15_negative_votes_2022,north texas,north-texas,current_exact,6,6,5,83.33,5,100.00
 overture_15_negative_votes_2022,northern california,northern-california,current_exact,8,8,3,37.50,3,100.00
 overture_15_negative_votes_2022,northern illinois,northern-illinois,current_exact,2,2,2,100.00,2,100.00
-overture_15_negative_votes_2022,ohio valley,ohio-valley,current_exact,5,5,1,20.00,1,100.00
+overture_15_negative_votes_2022,ohio valley,ohio-valley,current_exact,5,5,2,40.00,2,100.00
 overture_15_negative_votes_2022,pacific,pacific,current_exact,1,1,0,0.00,0,0.00
 overture_15_negative_votes_2022,pacific northwest,pacific-northwest,current_exact,2,2,1,50.00,1,100.00
 overture_15_negative_votes_2022,palmetto,palmetto,current_exact,1,1,1,100.00,1,100.00
@@ -478,7 +478,7 @@ overture_37_negative_votes_2021,northern california,northern-california,current_
 overture_37_negative_votes_2021,northern illinois,northern-illinois,current_exact,4,4,2,50.00,2,100.00
 overture_37_negative_votes_2021,northern new england,northern-new-england,current_exact,3,3,0,0.00,0,0.00
 overture_37_negative_votes_2021,ohio,ohio,current_exact,1,1,1,100.00,1,100.00
-overture_37_negative_votes_2021,ohio valley,ohio-valley,current_exact,6,6,4,66.67,4,100.00
+overture_37_negative_votes_2021,ohio valley,ohio-valley,current_exact,6,6,5,83.33,5,100.00
 overture_37_negative_votes_2021,pacific,pacific,current_exact,3,3,2,66.67,2,100.00
 overture_37_negative_votes_2021,pacific northwest,pacific-northwest,current_exact,8,8,4,50.00,4,100.00
 overture_37_negative_votes_2021,palmetto,palmetto,current_exact,5,5,2,40.00,2,100.00
@@ -559,7 +559,7 @@ warhurst_protest_2019,northern illinois,northern-illinois,current_exact,1,1,1,10
 warhurst_protest_2019,northern new england,northern-new-england,current_exact,1,1,0,0.00,0,0.00
 warhurst_protest_2019,northwest georgia,northwest-georgia,current_exact,1,1,0,0.00,0,0.00
 warhurst_protest_2019,ohio,ohio,current_exact,2,2,1,50.00,1,100.00
-warhurst_protest_2019,ohio valley,ohio-valley,current_exact,2,2,0,0.00,0,0.00
+warhurst_protest_2019,ohio valley,ohio-valley,current_exact,2,2,1,50.00,1,100.00
 warhurst_protest_2019,pacific,pacific,current_exact,2,2,1,50.00,1,100.00
 warhurst_protest_2019,pacific northwest,pacific-northwest,current_exact,2,2,0,0.00,0,0.00
 warhurst_protest_2019,palmetto,palmetto,current_exact,1,1,0,0.00,0,0.00
@@ -672,7 +672,7 @@ ALL_TRACKED_DATASETS,hills and plains,hills-and-plains,current_exact,58,26,13,50
 ALL_TRACKED_DATASETS,houston metro,houston-metro,current_exact,35,22,4,18.18,4,100.00
 ALL_TRACKED_DATASETS,iliana,illiana,known_alias,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,illiana,illiana,current_exact,4,3,1,33.33,1,100.00
-ALL_TRACKED_DATASETS,iowa,iowa,current_exact,16,11,1,9.09,1,100.00
+ALL_TRACKED_DATASETS,iowa,iowa,current_exact,16,11,2,18.18,2,100.00
 ALL_TRACKED_DATASETS,james river,james-river,current_exact,36,23,2,8.70,2,100.00
 ALL_TRACKED_DATASETS,korean capital,korean-capital,current_exact,46,16,8,50.00,8,100.00
 ALL_TRACKED_DATASETS,korean capitol,korean-capital,known_alias,2,2,0,0.00,0,0.00
@@ -707,7 +707,7 @@ ALL_TRACKED_DATASETS,northern new england,northern-new-england,current_exact,13,
 ALL_TRACKED_DATASETS,northwest georgia,northwest-georgia,current_exact,7,6,1,16.67,1,100.00
 ALL_TRACKED_DATASETS,of northern illinois,northern-illinois,known_alias,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,ohio,ohio,current_exact,12,8,3,37.50,3,100.00
-ALL_TRACKED_DATASETS,ohio valley,ohio-valley,current_exact,49,27,5,18.52,5,100.00
+ALL_TRACKED_DATASETS,ohio valley,ohio-valley,current_exact,49,27,6,22.22,6,100.00
 ALL_TRACKED_DATASETS,pacific,pacific,current_exact,22,12,2,16.67,2,100.00
 ALL_TRACKED_DATASETS,pacific northwest,pacific-northwest,current_exact,26,16,5,31.25,5,100.00
 ALL_TRACKED_DATASETS,palmetto,palmetto,current_exact,22,14,3,21.43,3,100.00

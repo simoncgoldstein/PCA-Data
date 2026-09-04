@@ -4,7 +4,7 @@
     "graph_scope": "Confirmed identity-to-dataset bipartite graph plus counts of repository core node classes."
   },
   "nodes": {
-    "person_nodes": 274,
+    "person_nodes": 275,
     "dataset_nodes": 52,
     "organization_nodes": 20,
     "church_nodes": 1970,
@@ -12,21 +12,21 @@
     "event_nodes": 16
   },
   "edges": {
-    "confirmed_identity_dataset_edges": 901,
+    "confirmed_identity_dataset_edges": 908,
     "by_evidence_type": {
       "first_person_authorship_and_presentation_statement": 1,
       "first_person_drafting_statement": 1,
       "formal_organization_leadership": 6,
       "formal_organization_membership": 41,
-      "formal_protest_signature": 176,
-      "formal_report_concurrence": 15,
+      "formal_protest_signature": 178,
+      "formal_report_concurrence": 17,
       "institutional_role": 6,
       "media_authorship_or_participation": 34,
       "media_participation": 12,
-      "minority_report_signature": 19,
+      "minority_report_signature": 20,
       "public_letter_signature": 339,
       "publication_contribution": 11,
-      "recorded_negative_vote": 225,
+      "recorded_negative_vote": 227,
       "recorded_procedural_position": 6,
       "ruf_campus_role_snapshot": 8,
       "study_committee_service": 1
@@ -36,30 +36,30 @@
       "first_party_archive": 339,
       "official_institutional": 14,
       "official_or_first_person_primary": 2,
-      "official_primary": 442,
+      "official_primary": 449,
       "primary_archive": 41,
       "user_supplied_visual_receipt": 11
     },
-    "distinct_source_paths": 19
+    "distinct_source_paths": 20
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.06323695
+    "value": 0.0634965
   },
   "components": {
-    "count": 27,
-    "largest_component_nodes": 300,
+    "count": 26,
+    "largest_component_nodes": 302,
     "isolated_person_nodes": 1
   },
   "quality_gaps": {
-    "unresolved_identity_rows": 3387,
+    "unresolved_identity_rows": 3380,
     "unresolved_by_status": {
-      "ambiguous": 509,
+      "ambiguous": 501,
       "collision": 16,
-      "probable_requires_review": 368,
+      "probable_requires_review": 369,
       "unmatched": 2494
     },
-    "confirmed_edges_missing_specific_event_year": 231,
+    "confirmed_edges_missing_specific_event_year": 235,
     "datasets_without_primary_or_official_tier": [
       "formal_position_2001-wim-majority-mans-duty-to-protect-woman",
       "formal_position_2001-wim-minority-wise-counsel",

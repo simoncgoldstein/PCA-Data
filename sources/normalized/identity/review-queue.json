@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 1302,
+    "record_count": 1295,
     "rule": "Rows may appear because of unresolved status, a first/last variant collision key, or initials-only spelling. Review never implies identity."
   },
   "records": [
@@ -8410,20 +8410,6 @@
       "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
-      "crosswalk_id": "identity-row-01742",
-      "source_dataset": "formal_position_2008-overture-9-deaconess-study-minority-report",
-      "source_row_locator": "2008-overture-9-deaconess-study-minority-report:signer:25",
-      "name_as_printed": "TE Larry Hoop",
-      "normalized_candidate": "larry hoop",
-      "match_status": "ambiguous",
-      "variant_collision_key": "larry hoop",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
       "crosswalk_id": "identity-row-01744",
       "source_dataset": "formal_position_2008-overture-9-deaconess-study-minority-report",
       "source_row_locator": "2008-overture-9-deaconess-study-minority-report:signer:27",
@@ -8521,20 +8507,6 @@
       "normalized_candidate": "james wert",
       "match_status": "ambiguous",
       "variant_collision_key": "james wert",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
-      "crosswalk_id": "identity-row-01765",
-      "source_dataset": "formal_position_2009-overture-10-women-roles-study-minority-report",
-      "source_row_locator": "2009-overture-10-women-roles-study-minority-report:signer:14",
-      "name_as_printed": "TE Larry Hoop",
-      "normalized_candidate": "larry hoop",
-      "match_status": "ambiguous",
-      "variant_collision_key": "larry hoop",
       "initials_only_name": false,
       "conflicting_fields": [
         "multiple full-name or initial variants share this first/last-name key"
@@ -11010,20 +10982,6 @@
       "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
-      "crosswalk_id": "identity-row-02478",
-      "source_dataset": "nae_withdrawal_protest_2022",
-      "source_row_locator": "print_order:69",
-      "name_as_printed": "Larry Hoop",
-      "normalized_candidate": "larry hoop",
-      "match_status": "ambiguous",
-      "variant_collision_key": "larry hoop",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
       "crosswalk_id": "identity-row-02492",
       "source_dataset": "nae_withdrawal_protest_2022",
       "source_row_locator": "print_order:81",
@@ -11611,13 +11569,11 @@
       "source_row_locator": "confirmed_member:98:larry hoop",
       "name_as_printed": "Larry Hoop",
       "normalized_candidate": "larry hoop",
-      "match_status": "ambiguous",
-      "variant_collision_key": "larry hoop",
+      "match_status": "probable_requires_review",
+      "variant_collision_key": null,
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-02661",
@@ -12223,20 +12179,6 @@
       "normalized_candidate": "morgan angert",
       "match_status": "ambiguous",
       "variant_collision_key": "morgan angert",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
-      "crosswalk_id": "identity-row-02872",
-      "source_dataset": "overture_15_negative_votes_2022",
-      "source_row_locator": "print_order:66",
-      "name_as_printed": "Larry Hoop",
-      "normalized_candidate": "larry hoop",
-      "match_status": "ambiguous",
-      "variant_collision_key": "larry hoop",
       "initials_only_name": false,
       "conflicting_fields": [
         "multiple full-name or initial variants share this first/last-name key"
@@ -13136,20 +13078,6 @@
       "initials_only_name": false,
       "conflicting_fields": [],
       "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-03127",
-      "source_dataset": "overture_37_negative_votes_2021",
-      "source_row_locator": "print_order:84",
-      "name_as_printed": "Larry Hoop",
-      "normalized_candidate": "larry hoop",
-      "match_status": "ambiguous",
-      "variant_collision_key": "larry hoop",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
       "crosswalk_id": "identity-row-03129",
@@ -15032,20 +14960,6 @@
       "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
-      "crosswalk_id": "identity-row-03898",
-      "source_dataset": "subscription_overture_16_minority_report_2003",
-      "source_row_locator": "overture16_minority_signer:9",
-      "name_as_printed": "Larry C. Hoop",
-      "normalized_candidate": "larry c hoop",
-      "match_status": "ambiguous",
-      "variant_collision_key": "larry hoop",
-      "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
       "crosswalk_id": "identity-row-03899",
       "source_dataset": "subscription_overture_16_negative_vote_2003",
       "source_row_locator": "overture16_adopted_minority_negative_vote",
@@ -15329,20 +15243,6 @@
       "normalized_candidate": "lance lewis",
       "match_status": "ambiguous",
       "variant_collision_key": "lance lewis",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
-      "crosswalk_id": "identity-row-04003",
-      "source_dataset": "warhurst_protest_2019",
-      "source_row_locator": "print_order:192",
-      "name_as_printed": "Larry Hoop",
-      "normalized_candidate": "larry hoop",
-      "match_status": "ambiguous",
-      "variant_collision_key": "larry hoop",
       "initials_only_name": false,
       "conflicting_fields": [
         "multiple full-name or initial variants share this first/last-name key"

@@ -1258,7 +1258,7 @@
         "office_as_printed": "TE",
         "name_as_printed": "Larry C. Hoop",
         "identity_name": "Larry C. Hoop",
-        "normalized_person_id": null
+        "normalized_person_id": "larry-hoop"
       },
       {
         "print_order": 10,

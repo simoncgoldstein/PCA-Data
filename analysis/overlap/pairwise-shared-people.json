@@ -10290,11 +10290,19 @@
           "dataset_b_locators": [
             "2009-overture-10-women-roles-study-minority-report:signer:11"
           ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "larry hoop"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
@@ -10324,10 +10332,19 @@
     {
       "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
       "dataset_b": "nae_withdrawal_protest_2022",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "larry hoop"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "print_order:69"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
@@ -10352,11 +10369,20 @@
           "dataset_b_locators": [
             "print_order:83"
           ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "print_order:66"
+          ]
         }
       ],
       "unresolved_exact_name_keys": [
-        "giorgio hiatt",
-        "larry hoop"
+        "giorgio hiatt"
       ]
     },
     {
@@ -10389,11 +10415,19 @@
           "dataset_b_locators": [
             "print_order:102"
           ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "print_order:84"
+          ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "larry hoop"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
@@ -10413,6 +10447,23 @@
     },
     {
       "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:9"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
       "dataset_b": "warhurst_protest_2019",
       "confirmed_shared_people": [
         {
@@ -10424,11 +10475,19 @@
           "dataset_b_locators": [
             "print_order:6"
           ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "larry hoop"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2008-rpr-women-scripture-reading-minority-report",
@@ -10473,10 +10532,19 @@
     {
       "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
       "dataset_b": "nae_withdrawal_protest_2022",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "larry hoop"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "print_order:69"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
@@ -10543,11 +10611,20 @@
           "dataset_b_locators": [
             "print_order:183"
           ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "print_order:66"
+          ]
         }
       ],
       "unresolved_exact_name_keys": [
-        "hunter bailey",
-        "larry hoop"
+        "hunter bailey"
       ]
     },
     {
@@ -10580,11 +10657,20 @@
           "dataset_b_locators": [
             "print_order:194"
           ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "print_order:84"
+          ]
         }
       ],
       "unresolved_exact_name_keys": [
-        "james kessler",
-        "larry hoop"
+        "james kessler"
       ]
     },
     {
@@ -10615,6 +10701,23 @@
     },
     {
       "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:9"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
       "dataset_b": "warhurst_protest_2019",
       "confirmed_shared_people": [
         {
@@ -10628,6 +10731,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
+        },
+        {
           "canonical_person_id": "mike-mclaughlin",
           "name": "Mike McLaughlin",
           "dataset_a_locators": [
@@ -10638,9 +10751,7 @@
           ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "larry hoop"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
@@ -11617,6 +11728,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:69"
+          ],
+          "dataset_b_locators": [
+            "print_order:66"
+          ]
+        },
+        {
           "canonical_person_id": "leeeric-fesko",
           "name": "LeeEric Fesko",
           "dataset_a_locators": [
@@ -11876,7 +11997,6 @@
         "jeremy king",
         "keith ledford",
         "ken leggett",
-        "larry hoop",
         "mark samuel",
         "morgan angert",
         "moses lee",
@@ -12070,6 +12190,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:69"
+          ],
+          "dataset_b_locators": [
+            "print_order:84"
+          ]
+        },
+        {
           "canonical_person_id": "loren-bell",
           "name": "Loren Bell",
           "dataset_a_locators": [
@@ -12165,7 +12295,6 @@
         "ben lyon",
         "chris talley",
         "curran bishop",
-        "larry hoop",
         "mark samuel"
       ]
     },
@@ -12205,6 +12334,23 @@
       "unresolved_exact_name_keys": [
         "trip beans"
       ]
+    },
+    {
+      "dataset_a": "nae_withdrawal_protest_2022",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:69"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:9"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "nae_withdrawal_protest_2022",
@@ -12351,6 +12497,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:69"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
+        },
+        {
           "canonical_person_id": "loren-bell",
           "name": "Loren Bell",
           "dataset_a_locators": [
@@ -12435,7 +12591,6 @@
         "chris talley",
         "jeffrey birch",
         "jeremy kemp",
-        "larry hoop",
         "omar ortiz",
         "steven brooks",
         "tom patton"
@@ -12821,6 +12976,14 @@
         }
       ],
       "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "national_partnership_confirmed_members",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "larry hoop"
+      ]
     },
     {
       "dataset_a": "national_partnership_confirmed_members",
@@ -13426,6 +13589,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:66"
+          ],
+          "dataset_b_locators": [
+            "print_order:84"
+          ]
+        },
+        {
           "canonical_person_id": "mark-peach",
           "name": "Mark Peach",
           "dataset_a_locators": [
@@ -13597,7 +13770,6 @@
         "jeremy king",
         "john chung",
         "jonathan eagin",
-        "larry hoop",
         "mark samuel",
         "randy lovelace",
         "rob wootton",
@@ -13700,6 +13872,23 @@
         "ryan bratt",
         "sam kennedy"
       ]
+    },
+    {
+      "dataset_a": "overture_15_negative_votes_2022",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:66"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:9"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "overture_15_negative_votes_2022",
@@ -13916,6 +14105,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:66"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
+        },
+        {
           "canonical_person_id": "owen-lee",
           "name": "Owen Lee",
           "dataset_a_locators": [
@@ -14005,7 +14204,6 @@
         "jeffrey birch",
         "jeremy kemp",
         "lance lewis",
-        "larry hoop",
         "omar ortiz",
         "randy lovelace",
         "rob wootton",
@@ -14300,7 +14498,18 @@
     {
       "dataset_a": "overture_37_negative_votes_2021",
       "dataset_b": "subscription_overture_16_minority_report_2003",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:84"
+          ],
+          "dataset_b_locators": [
+            "overture16_minority_signer:9"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "paul richardson"
       ]
@@ -14520,6 +14729,16 @@
           ]
         },
         {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "print_order:84"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
+        },
+        {
           "canonical_person_id": "loren-bell",
           "name": "Loren Bell",
           "dataset_a_locators": [
@@ -14729,7 +14948,6 @@
         "james pocta",
         "jason cornwell",
         "kenneth leggett",
-        "larry hoop",
         "paul richardson",
         "rob wootton",
         "sean roberts"
@@ -15031,7 +15249,18 @@
     {
       "dataset_a": "subscription_overture_16_minority_report_2003",
       "dataset_b": "warhurst_protest_2019",
-      "confirmed_shared_people": [],
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "overture16_minority_signer:9"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
+        }
+      ],
       "unresolved_exact_name_keys": [
         "paul richardson"
       ]
