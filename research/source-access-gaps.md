@@ -77,6 +77,22 @@ When a future research pass encounters another known-but-inaccessible source, ad
 
 **Recovery path:** Search attendee archives, scans, photographs, contemporary social-media images, archived attachments/assets, and personal copies. If a complete copy surfaces, preserve the original artifact before normalization.
 
+### 6. PCA “A Call to Prayer & Lament” original statement and signer page
+
+**Known primary source:** `https://www.pcaprayerandlament.com/`
+
+**Current blocker:** The original site was not retrievable in the 2026-09-04 research environment. Search results expose secondary critiques, reports, and descriptions of the statement, but those sources are not an acceptable substitute for the original statement text or original signer page.
+
+**Still needed:**
+
+- the complete first-party text of `A Call to Prayer & Lament`
+- the original named signatory list and role labels from a stable first-party capture
+- any first-party explanation of the authorship/organizing group and the separate later `Committed to Prayer & Lament` list if that list remains distinct
+
+**Already preserved:** Secondary sources establish that the statement existed and was publicly signed, but no statement-level or signer-level records have been normalized from those secondary descriptions.
+
+**Recovery path:** Manual/local browser capture of the original site or a faithful first-party/archive snapshot. Preserve the page text and signer list before normalization. Do not reconstruct the statement or signer roster from hostile or sympathetic secondary commentary.
+
 ## Current partial-evaluation items
 
 These are not wholly inaccessible sources, but their evidence is incomplete enough that future work should not mistake current coverage for source saturation.
