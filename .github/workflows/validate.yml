@@ -109,6 +109,9 @@ jobs:
       - name: Verify Katie Polski women-in-ministry boundaries
         run: python3 scripts/validate-amr-katie-polski-women-ministry.py .
 
+      - name: Verify Chuck Colson Lord's Supper boundaries
+        run: python3 scripts/validate-amr-colson-lords-supper.py .
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
