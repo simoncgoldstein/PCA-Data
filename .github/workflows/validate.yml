@@ -112,6 +112,9 @@ jobs:
       - name: Verify Chuck Colson Lord's Supper boundaries
         run: python3 scripts/validate-amr-colson-lords-supper.py .
 
+      - name: Verify AMR organizational vision boundaries
+        run: python3 scripts/validate-amr-organizational-vision.py .
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
