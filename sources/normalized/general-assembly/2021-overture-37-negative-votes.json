@@ -1,0 +1,1676 @@
+{
+  "metadata": {
+    "event": "48th General Assembly — Overture 37 Recorded Negative Votes",
+    "year": 2021,
+    "primary_source": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf",
+    "local_pdf": "sources/raw/general-assembly/2021/48th_pcaga_2021.pdf",
+    "local_pdf_text": "sources/raw/general-assembly/2021/48th_pcaga_2021.txt",
+    "recommendation_37_line_1_based": 4293,
+    "extraction_start_line_1_based": 4308,
+    "extraction_end_before_line_1_based": 4550,
+    "expected_rows": 207,
+    "parsed_rows": 207,
+    "identity_rule": "Printed office, name, and presbytery are preserved from the official minutes; canonical IDs are resolved only through the conservative identity layer.",
+    "vote_semantics": "A recorded negative vote establishes opposition to the final adopted Overture 37 recommendation at the 48th General Assembly. It does not establish the commissioner’s rationale or position on every related overture.",
+    "procedural_vote_guardrail": "The immediately preceding 1349-443 tally was the motion to close debate and is not the Overture 37 adoption tally.",
+    "ideological_weight": 0
+  },
+  "negative_votes": [
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Dan Adamson",
+      "presbytery_as_printed": "Chicago Metro",
+      "print_order": 1,
+      "source_text_line_1_based": 4311,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jimmy Agan",
+      "presbytery_as_printed": "Metro Atlanta",
+      "print_order": 2,
+      "source_text_line_1_based": 4312,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "J. Patrick Allen",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 3,
+      "source_text_line_1_based": 4313,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Daniel Anderson",
+      "presbytery_as_printed": "Covenant",
+      "print_order": 4,
+      "source_text_line_1_based": 4314,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Charles Anderson",
+      "presbytery_as_printed": "Central Indiana",
+      "print_order": 5,
+      "source_text_line_1_based": 4315,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Scott Armstrong",
+      "presbytery_as_printed": "Metro Atlanta",
+      "print_order": 6,
+      "source_text_line_1_based": 4316,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Andrew Augenstein",
+      "presbytery_as_printed": "Central Florida",
+      "print_order": 7,
+      "source_text_line_1_based": 4317,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Titus Bagby",
+      "presbytery_as_printed": "South Texas",
+      "print_order": 8,
+      "source_text_line_1_based": 4318,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ryan Baker",
+      "presbytery_as_printed": "Hills and Plains",
+      "print_order": 9,
+      "source_text_line_1_based": 4319,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "R. Aaron Baker",
+      "presbytery_as_printed": "Chicago Metro",
+      "print_order": 10,
+      "source_text_line_1_based": 4320,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Luke Banner",
+      "presbytery_as_printed": "Tennessee Valley",
+      "print_order": 11,
+      "source_text_line_1_based": 4321,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "John Bauer",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 12,
+      "source_text_line_1_based": 4322,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Frank (Trip) Beans",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 13,
+      "source_text_line_1_based": 4323,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Loren Bell",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 14,
+      "source_text_line_1_based": 4324,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Andrew Berg",
+      "presbytery_as_printed": "Nashville",
+      "print_order": 15,
+      "source_text_line_1_based": 4325,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Billingslea",
+      "presbytery_as_printed": "North Texas",
+      "print_order": 16,
+      "source_text_line_1_based": 4326,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jeff Birch",
+      "presbytery_as_printed": "Central Georgia",
+      "print_order": 17,
+      "source_text_line_1_based": 4327,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Curran Bishop",
+      "presbytery_as_printed": "Southern New England",
+      "print_order": 18,
+      "source_text_line_1_based": 4328,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Mike Bobell",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 19,
+      "source_text_line_1_based": 4329,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Kyle Bobos",
+      "presbytery_as_printed": "Houston Metro",
+      "print_order": 20,
+      "source_text_line_1_based": 4330,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "L. John Bourgeois",
+      "presbytery_as_printed": "Piedmont Triad",
+      "print_order": 21,
+      "source_text_line_1_based": 4331,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Nathan Boyette",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 22,
+      "source_text_line_1_based": 4332,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Michael Brandenstein",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 23,
+      "source_text_line_1_based": 4333,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Joel Branscomb",
+      "presbytery_as_printed": "Piedmont Triad",
+      "print_order": 24,
+      "source_text_line_1_based": 4334,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Austin Braasch",
+      "presbytery_as_printed": "Covenant",
+      "print_order": 25,
+      "source_text_line_1_based": 4335,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Sam Brown",
+      "presbytery_as_printed": "Tennessee Valley",
+      "print_order": 26,
+      "source_text_line_1_based": 4336,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Scott Brown",
+      "presbytery_as_printed": "Arizona",
+      "print_order": 27,
+      "source_text_line_1_based": 4337,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Joshua Burdette",
+      "presbytery_as_printed": "Pacific",
+      "print_order": 28,
+      "source_text_line_1_based": 4338,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Luke Calvin",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 29,
+      "source_text_line_1_based": 4339,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Raymond Cannata",
+      "presbytery_as_printed": "Southern Louisiana",
+      "print_order": 30,
+      "source_text_line_1_based": 4340,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Josiah Carey",
+      "presbytery_as_printed": "Southern Louisiana",
+      "print_order": 31,
+      "source_text_line_1_based": 4341,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brett Carl",
+      "presbytery_as_printed": "Tidewater",
+      "print_order": 32,
+      "source_text_line_1_based": 4342,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Tim Carroll",
+      "presbytery_as_printed": "Potomac",
+      "print_order": 33,
+      "source_text_line_1_based": 4343,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Ben Christmann",
+      "presbytery_as_printed": "Tennessee Valley",
+      "print_order": 34,
+      "source_text_line_1_based": 4350,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "John Chung",
+      "presbytery_as_printed": "Korean Capital",
+      "print_order": 35,
+      "source_text_line_1_based": 4351,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Church",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 36,
+      "source_text_line_1_based": 4352,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Matthew Clegg",
+      "presbytery_as_printed": "Evangel",
+      "print_order": 37,
+      "source_text_line_1_based": 4353,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Coffin",
+      "presbytery_as_printed": "Potomac",
+      "print_order": 38,
+      "source_text_line_1_based": 4354,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jack Collins",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 39,
+      "source_text_line_1_based": 4355,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "J. Andrew Conrad",
+      "presbytery_as_printed": "James River",
+      "print_order": 40,
+      "source_text_line_1_based": 4356,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Steven Cooper",
+      "presbytery_as_printed": "South Coast",
+      "print_order": 41,
+      "source_text_line_1_based": 4357,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brent Corbin",
+      "presbytery_as_printed": "Hills and Plains",
+      "print_order": 42,
+      "source_text_line_1_based": 4358,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jason Cornwell",
+      "presbytery_as_printed": "Palmetto",
+      "print_order": 43,
+      "source_text_line_1_based": 4359,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brian Davis",
+      "presbytery_as_printed": "North Texas",
+      "print_order": 44,
+      "source_text_line_1_based": 4360,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Nicholas Davis",
+      "presbytery_as_printed": "South Coast",
+      "print_order": 45,
+      "source_text_line_1_based": 4361,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jason Davison",
+      "presbytery_as_printed": "Pacific Northwest",
+      "print_order": 46,
+      "source_text_line_1_based": 4362,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Todd Dawkins",
+      "presbytery_as_printed": "Central Indiana",
+      "print_order": 47,
+      "source_text_line_1_based": 4363,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Troy DeBruin",
+      "presbytery_as_printed": "Susquehanna Valley",
+      "print_order": 48,
+      "source_text_line_1_based": 4364,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jay Denton",
+      "presbytery_as_printed": "Pacific Northwest",
+      "print_order": 49,
+      "source_text_line_1_based": 4365,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Josh Desch",
+      "presbytery_as_printed": "Palmetto",
+      "print_order": 50,
+      "source_text_line_1_based": 4366,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Sam DeSocio",
+      "presbytery_as_printed": "Heritage",
+      "print_order": 51,
+      "source_text_line_1_based": 4367,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ross Dixon",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 52,
+      "source_text_line_1_based": 4368,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Travis Drake",
+      "presbytery_as_printed": "Philadelphia",
+      "print_order": 53,
+      "source_text_line_1_based": 4369,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Driskill",
+      "presbytery_as_printed": "Evangel",
+      "print_order": 54,
+      "source_text_line_1_based": 4370,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Tom Drury",
+      "presbytery_as_printed": "Nashville",
+      "print_order": 55,
+      "source_text_line_1_based": 4371,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Terry Dykstra",
+      "presbytery_as_printed": "South Texas",
+      "print_order": 56,
+      "source_text_line_1_based": 4372,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jonathan Eagin",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 57,
+      "source_text_line_1_based": 4373,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "C. Brad Edwards",
+      "presbytery_as_printed": "Rocky Mountain",
+      "print_order": 58,
+      "source_text_line_1_based": 4374,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Elliott Everitt",
+      "presbytery_as_printed": "Central Georgia",
+      "print_order": 59,
+      "source_text_line_1_based": 4375,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jeremy Fair",
+      "presbytery_as_printed": "Hills and Plains",
+      "print_order": 60,
+      "source_text_line_1_based": 4376,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brian Ferry",
+      "presbytery_as_printed": "Ohio Valley",
+      "print_order": 61,
+      "source_text_line_1_based": 4377,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Hector Flores",
+      "presbytery_as_printed": "South Texas",
+      "print_order": 62,
+      "source_text_line_1_based": 4378,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Ben Frade",
+      "presbytery_as_printed": "Ohio Valley",
+      "print_order": 63,
+      "source_text_line_1_based": 4379,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brian Frey",
+      "presbytery_as_printed": "Pacific Northwest",
+      "print_order": 64,
+      "source_text_line_1_based": 4380,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Kevin Fulmer",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 65,
+      "source_text_line_1_based": 4381,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Dave Garber",
+      "presbytery_as_printed": "Houston Metro",
+      "print_order": 66,
+      "source_text_line_1_based": 4382,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Shawn Gendall",
+      "presbytery_as_printed": "Pacific",
+      "print_order": 67,
+      "source_text_line_1_based": 4383,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Rich Good",
+      "presbytery_as_printed": "Georgia Foothills",
+      "print_order": 68,
+      "source_text_line_1_based": 4384,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Andrew Goyzueta",
+      "presbytery_as_printed": "Catawba Valley",
+      "print_order": 69,
+      "source_text_line_1_based": 4385,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Josiah Green",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 70,
+      "source_text_line_1_based": 4386,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Justin Grimm",
+      "presbytery_as_printed": "Columbus Metro",
+      "print_order": 71,
+      "source_text_line_1_based": 4387,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brian Habig",
+      "presbytery_as_printed": "Calvary",
+      "print_order": 72,
+      "source_text_line_1_based": 4388,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Samuel Haist",
+      "presbytery_as_printed": "Central Indiana",
+      "print_order": 73,
+      "source_text_line_1_based": 4389,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "George Hamm",
+      "presbytery_as_printed": "Ohio Valley",
+      "print_order": 74,
+      "source_text_line_1_based": 4390,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Caleb Harlan",
+      "presbytery_as_printed": "Hills and Plains",
+      "print_order": 75,
+      "source_text_line_1_based": 4397,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Frank Harrell",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 76,
+      "source_text_line_1_based": 4398,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Craig Harris",
+      "presbytery_as_printed": "Pacific Northwest",
+      "print_order": 77,
+      "source_text_line_1_based": 4399,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Addison Hawkins",
+      "presbytery_as_printed": "Great Lakes",
+      "print_order": 78,
+      "source_text_line_1_based": 4400,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Hein",
+      "presbytery_as_printed": "Central Indiana",
+      "print_order": 79,
+      "source_text_line_1_based": 4401,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Joshua Henderson",
+      "presbytery_as_printed": "Northern New England",
+      "print_order": 80,
+      "source_text_line_1_based": 4402,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Bryce Hales",
+      "presbytery_as_printed": "Rocky Mountain",
+      "print_order": 81,
+      "source_text_line_1_based": 4403,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Richard Hollen",
+      "presbytery_as_printed": "Northern New England",
+      "print_order": 82,
+      "source_text_line_1_based": 4404,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Joahua Holowell",
+      "presbytery_as_printed": "Central Indiana",
+      "print_order": 83,
+      "source_text_line_1_based": 4405,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Larry Hoop",
+      "presbytery_as_printed": "Ohio Valley",
+      "print_order": 84,
+      "source_text_line_1_based": 4406,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Vincent Hoppe",
+      "presbytery_as_printed": "Rocky Mountain",
+      "print_order": 85,
+      "source_text_line_1_based": 4407,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brooks Harwood",
+      "presbytery_as_printed": "Houston Metro",
+      "print_order": 86,
+      "source_text_line_1_based": 4408,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Mark Howard",
+      "presbytery_as_printed": "Eastern PA",
+      "print_order": 87,
+      "source_text_line_1_based": 4409,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Irwyn Ince",
+      "presbytery_as_printed": "Potomac",
+      "print_order": 88,
+      "source_text_line_1_based": 4410,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Tim Inman",
+      "presbytery_as_printed": "Eastern Carolina",
+      "print_order": 89,
+      "source_text_line_1_based": 4411,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Daniel Iverson IV",
+      "presbytery_as_printed": "Metro Atlanta",
+      "print_order": 90,
+      "source_text_line_1_based": 4412,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Trey Jackson",
+      "presbytery_as_printed": "Central Georgia",
+      "print_order": 91,
+      "source_text_line_1_based": 4413,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Tim Jackson",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 92,
+      "source_text_line_1_based": 4414,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Hansoo Jin",
+      "presbytery_as_printed": "Korean Capital",
+      "print_order": 93,
+      "source_text_line_1_based": 4415,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Greg Johnson",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 94,
+      "source_text_line_1_based": 4416,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Charles Johnson",
+      "presbytery_as_printed": "Evangel",
+      "print_order": 95,
+      "source_text_line_1_based": 4417,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Jones",
+      "presbytery_as_printed": "Northern California",
+      "print_order": 96,
+      "source_text_line_1_based": 4418,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Darrell Jung",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 97,
+      "source_text_line_1_based": 4419,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Eric Kapur",
+      "presbytery_as_printed": "South Coast",
+      "print_order": 98,
+      "source_text_line_1_based": 4420,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Dan Katches",
+      "presbytery_as_printed": "Northern California",
+      "print_order": 99,
+      "source_text_line_1_based": 4421,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Jason Kang",
+      "presbytery_as_printed": "Metro Atlanta",
+      "print_order": 100,
+      "source_text_line_1_based": 4422,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Kyle Keating",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 101,
+      "source_text_line_1_based": 4423,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Keithley",
+      "presbytery_as_printed": "Northern Illinois",
+      "print_order": 102,
+      "source_text_line_1_based": 4424,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ewan Kennedy",
+      "presbytery_as_printed": "Metro Atlanta",
+      "print_order": 103,
+      "source_text_line_1_based": 4425,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "James Kessler",
+      "presbytery_as_printed": "Columbus Metro",
+      "print_order": 104,
+      "source_text_line_1_based": 4426,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Mike Khandjian",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 105,
+      "source_text_line_1_based": 4427,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Iron Kim",
+      "presbytery_as_printed": "Northern California",
+      "print_order": 106,
+      "source_text_line_1_based": 4428,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jeremy King",
+      "presbytery_as_printed": "Ohio",
+      "print_order": 107,
+      "source_text_line_1_based": 4429,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Adam Kirkton",
+      "presbytery_as_printed": "Pittsburgh",
+      "print_order": 108,
+      "source_text_line_1_based": 4430,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jason Kriaski",
+      "presbytery_as_printed": "Metro Atlanta",
+      "print_order": 109,
+      "source_text_line_1_based": 4431,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Evin Langley",
+      "presbytery_as_printed": "Pacific Northwest",
+      "print_order": 110,
+      "source_text_line_1_based": 4432,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ryan Laughlin",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 111,
+      "source_text_line_1_based": 4433,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Trevor Laurence",
+      "presbytery_as_printed": "Piedmont Triad",
+      "print_order": 112,
+      "source_text_line_1_based": 4434,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Timothy LeCroy",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 113,
+      "source_text_line_1_based": 4435,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Luke Le Duc",
+      "presbytery_as_printed": "Susquehanna Valley",
+      "print_order": 114,
+      "source_text_line_1_based": 4436,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Kenneth Leggett",
+      "presbytery_as_printed": "Nashville",
+      "print_order": 115,
+      "source_text_line_1_based": 4437,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Charles Lewis",
+      "presbytery_as_printed": "James River",
+      "print_order": 116,
+      "source_text_line_1_based": 4444,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Joel Littlepage",
+      "presbytery_as_printed": "Potomac",
+      "print_order": 117,
+      "source_text_line_1_based": 4445,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ross Lockwood",
+      "presbytery_as_printed": "South Texas",
+      "print_order": 118,
+      "source_text_line_1_based": 4446,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Caleb Long",
+      "presbytery_as_printed": "Hills and Plains",
+      "print_order": 119,
+      "source_text_line_1_based": 4447,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Adam Lopez",
+      "presbytery_as_printed": "South Texas",
+      "print_order": 120,
+      "source_text_line_1_based": 4448,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brian LoPiccolo",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 121,
+      "source_text_line_1_based": 4449,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Matt Lorish",
+      "presbytery_as_printed": "James River",
+      "print_order": 122,
+      "source_text_line_1_based": 4450,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Randy Lovelace",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 123,
+      "source_text_line_1_based": 4451,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Brad Lucht",
+      "presbytery_as_printed": "Northern Illinois",
+      "print_order": 124,
+      "source_text_line_1_based": 4452,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Lyon",
+      "presbytery_as_printed": "Tidewater",
+      "print_order": 125,
+      "source_text_line_1_based": 4453,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Paul May",
+      "presbytery_as_printed": "Potomac",
+      "print_order": 126,
+      "source_text_line_1_based": 4454,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ronald May",
+      "presbytery_as_printed": "Chicago Metro",
+      "print_order": 127,
+      "source_text_line_1_based": 4455,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Randy McLaren",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 128,
+      "source_text_line_1_based": 4456,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ross Meyer",
+      "presbytery_as_printed": "Central Florida",
+      "print_order": 129,
+      "source_text_line_1_based": 4457,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Greg Meyer",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 130,
+      "source_text_line_1_based": 4458,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Roderick Miles",
+      "presbytery_as_printed": "Northern California",
+      "print_order": 131,
+      "source_text_line_1_based": 4459,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Milner",
+      "presbytery_as_printed": "Piedmont Triad",
+      "print_order": 132,
+      "source_text_line_1_based": 4460,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Matthew Mobley",
+      "presbytery_as_printed": "Northern California",
+      "print_order": 133,
+      "source_text_line_1_based": 4461,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "J. Andy Moehn",
+      "presbytery_as_printed": "Westminster",
+      "print_order": 134,
+      "source_text_line_1_based": 4462,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Chuck Nelson",
+      "presbytery_as_printed": "West Hudson",
+      "print_order": 135,
+      "source_text_line_1_based": 4463,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Ronald Nelson",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 136,
+      "source_text_line_1_based": 4464,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Shaynor Newsome",
+      "presbytery_as_printed": "Pacific Northwest",
+      "print_order": 137,
+      "source_text_line_1_based": 4465,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "David ODell",
+      "presbytery_as_printed": "Evangel",
+      "print_order": 138,
+      "source_text_line_1_based": 4466,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Nick Owens",
+      "presbytery_as_printed": "Chicago Metro",
+      "print_order": 139,
+      "source_text_line_1_based": 4467,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jong Park",
+      "presbytery_as_printed": "Chicago Metro",
+      "print_order": 140,
+      "source_text_line_1_based": 4468,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Daniel Passerelli",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 141,
+      "source_text_line_1_based": 4469,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Mark Peach",
+      "presbytery_as_printed": "Northern California",
+      "print_order": 142,
+      "source_text_line_1_based": 4470,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Greg Perry",
+      "presbytery_as_printed": "Central Florida",
+      "print_order": 143,
+      "source_text_line_1_based": 4471,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Austin Pfeiffer",
+      "presbytery_as_printed": "Piedmont Triad",
+      "print_order": 144,
+      "source_text_line_1_based": 4472,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Michael Phillips",
+      "presbytery_as_printed": "Metro Atlanta",
+      "print_order": 145,
+      "source_text_line_1_based": 4473,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jason Pittman",
+      "presbytery_as_printed": "Palmetto",
+      "print_order": 146,
+      "source_text_line_1_based": 4474,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "James Pocta",
+      "presbytery_as_printed": "North Texas",
+      "print_order": 147,
+      "source_text_line_1_based": 4475,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jonathan Price",
+      "presbytery_as_printed": "Pittsburgh",
+      "print_order": 148,
+      "source_text_line_1_based": 4476,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Zach Pummill",
+      "presbytery_as_printed": "North Texas",
+      "print_order": 149,
+      "source_text_line_1_based": 4477,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Dan Quakkelaar",
+      "presbytery_as_printed": "Wisconsin",
+      "print_order": 150,
+      "source_text_line_1_based": 4478,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Derek Radney",
+      "presbytery_as_printed": "Piedmont Triad",
+      "print_order": 151,
+      "source_text_line_1_based": 4479,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Russ Ramsey",
+      "presbytery_as_printed": "Nashville",
+      "print_order": 152,
+      "source_text_line_1_based": 4480,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Reed",
+      "presbytery_as_printed": "Central Indiana",
+      "print_order": 153,
+      "source_text_line_1_based": 4481,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Joshua Reitano",
+      "presbytery_as_printed": "Ohio Valley",
+      "print_order": 154,
+      "source_text_line_1_based": 4482,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Peter Render",
+      "presbytery_as_printed": "Heritage",
+      "print_order": 155,
+      "source_text_line_1_based": 4483,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Paul Richardson",
+      "presbytery_as_printed": "Nashville",
+      "print_order": 156,
+      "source_text_line_1_based": 4484,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Richmon",
+      "presbytery_as_printed": "Pacific Northwest",
+      "print_order": 157,
+      "source_text_line_1_based": 4491,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "David Richter",
+      "presbytery_as_printed": "Nashville",
+      "print_order": 158,
+      "source_text_line_1_based": 4492,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jeff Ridgway",
+      "presbytery_as_printed": "West Hudson",
+      "print_order": 159,
+      "source_text_line_1_based": 4493,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Sean Roberts",
+      "presbytery_as_printed": "Northern New England",
+      "print_order": 160,
+      "source_text_line_1_based": 4494,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Keith Robinson",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 161,
+      "source_text_line_1_based": 4495,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Peter Rowan",
+      "presbytery_as_printed": "Susquehanna Valley",
+      "print_order": 162,
+      "source_text_line_1_based": 4496,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Chandler Rowlen",
+      "presbytery_as_printed": "Tennessee Valley",
+      "print_order": 163,
+      "source_text_line_1_based": 4497,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Israel Ruiz",
+      "presbytery_as_printed": "Heritage",
+      "print_order": 164,
+      "source_text_line_1_based": 4498,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Mark Samuel",
+      "presbytery_as_printed": "Chesapeake",
+      "print_order": 165,
+      "source_text_line_1_based": 4499,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Scott Sauls",
+      "presbytery_as_printed": "Nashville",
+      "print_order": 166,
+      "source_text_line_1_based": 4500,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Rob Scheele",
+      "presbytery_as_printed": "North Texas",
+      "print_order": 167,
+      "source_text_line_1_based": 4501,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Marc Scheibe",
+      "presbytery_as_printed": "Covenant",
+      "print_order": 168,
+      "source_text_line_1_based": 4502,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Robert Schmidtberg",
+      "presbytery_as_printed": "Philadelphia Metro West",
+      "print_order": 169,
+      "source_text_line_1_based": 4503,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Travis Scott",
+      "presbytery_as_printed": "Pittsburgh",
+      "print_order": 170,
+      "source_text_line_1_based": 4504,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Zachary Seal",
+      "presbytery_as_printed": "North Florida",
+      "print_order": 171,
+      "source_text_line_1_based": 4505,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Scott Seaton",
+      "presbytery_as_printed": "Potomac",
+      "print_order": 172,
+      "source_text_line_1_based": 4506,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Doug Serven",
+      "presbytery_as_printed": "Hills and Plains",
+      "print_order": 173,
+      "source_text_line_1_based": 4507,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Sinnard",
+      "presbytery_as_printed": "Wisconsin",
+      "print_order": 174,
+      "source_text_line_1_based": 4508,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Jonathan Smart",
+      "presbytery_as_printed": "Northern Illinois",
+      "print_order": 175,
+      "source_text_line_1_based": 4509,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Justin Smith",
+      "presbytery_as_printed": "North Texas",
+      "print_order": 176,
+      "source_text_line_1_based": 4510,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Dan Smith",
+      "presbytery_as_printed": "Arizona",
+      "print_order": 177,
+      "source_text_line_1_based": 4511,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Chris Smith",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 178,
+      "source_text_line_1_based": 4512,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Will Spink",
+      "presbytery_as_printed": "Providence",
+      "print_order": 179,
+      "source_text_line_1_based": 4513,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jeff Suhr",
+      "presbytery_as_printed": "South Coast",
+      "print_order": 180,
+      "source_text_line_1_based": 4514,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "R. Kent Suits",
+      "presbytery_as_printed": "Palmetto",
+      "print_order": 181,
+      "source_text_line_1_based": 4515,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Chris Talley",
+      "presbytery_as_printed": "Tennessee Valley",
+      "print_order": 182,
+      "source_text_line_1_based": 4516,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Andrew Terrell",
+      "presbytery_as_printed": "Metro New York",
+      "print_order": 183,
+      "source_text_line_1_based": 4517,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Bruce Terrell",
+      "presbytery_as_printed": "Metro New York",
+      "print_order": 184,
+      "source_text_line_1_based": 4518,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Spencer Thomas",
+      "presbytery_as_printed": "Wisconsin",
+      "print_order": 185,
+      "source_text_line_1_based": 4519,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Paul Thompson",
+      "presbytery_as_printed": "Wisconsin",
+      "print_order": 186,
+      "source_text_line_1_based": 4520,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Nathaniel Thompson",
+      "presbytery_as_printed": "Pacific Northwest",
+      "print_order": 187,
+      "source_text_line_1_based": 4521,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Joe Thompson",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 188,
+      "source_text_line_1_based": 4522,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Kevin Timmons",
+      "presbytery_as_printed": "Northern California",
+      "print_order": 189,
+      "source_text_line_1_based": 4523,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Marq Toombs",
+      "presbytery_as_printed": "North Texas",
+      "print_order": 190,
+      "source_text_line_1_based": 4524,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Matthew Trexler",
+      "presbytery_as_printed": "Pacific",
+      "print_order": 191,
+      "source_text_line_1_based": 4525,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Oliver Trimiew",
+      "presbytery_as_printed": "Tennessee Valley",
+      "print_order": 192,
+      "source_text_line_1_based": 4526,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Timothy Trouten",
+      "presbytery_as_printed": "Northern Illinois",
+      "print_order": 193,
+      "source_text_line_1_based": 4527,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Kevin Twit",
+      "presbytery_as_printed": "Nashville",
+      "print_order": 194,
+      "source_text_line_1_based": 4528,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Theo Vander Velde",
+      "presbytery_as_printed": "Missouri",
+      "print_order": 195,
+      "source_text_line_1_based": 4529,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Gregory Ward",
+      "presbytery_as_printed": "South Texas",
+      "print_order": 196,
+      "source_text_line_1_based": 4530,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Clay Warden",
+      "presbytery_as_printed": "Tidewater",
+      "print_order": 197,
+      "source_text_line_1_based": 4531,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Andrew Whitaker",
+      "presbytery_as_printed": "Palmetto",
+      "print_order": 198,
+      "source_text_line_1_based": 4538,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Jeff White",
+      "presbytery_as_printed": "Rio Grande",
+      "print_order": 199,
+      "source_text_line_1_based": 4539,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "RE",
+      "name_as_printed": "Robert Whittaker",
+      "presbytery_as_printed": "Hills and Plains",
+      "print_order": 200,
+      "source_text_line_1_based": 4540,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Eric Whitley",
+      "presbytery_as_printed": "Central Indiana",
+      "print_order": 201,
+      "source_text_line_1_based": 4541,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Keith Winder",
+      "presbytery_as_printed": "Susquehanna Valley",
+      "print_order": 202,
+      "source_text_line_1_based": 4542,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ben Winkler",
+      "presbytery_as_printed": "Covenant",
+      "print_order": 203,
+      "source_text_line_1_based": 4543,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Rob Wootton",
+      "presbytery_as_printed": "Rocky Mountain",
+      "print_order": 204,
+      "source_text_line_1_based": 4544,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Ryan Zhang",
+      "presbytery_as_printed": "Ohio Valley",
+      "print_order": 205,
+      "source_text_line_1_based": 4545,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Geoff Ziegler",
+      "presbytery_as_printed": "Chicago Metro",
+      "print_order": 206,
+      "source_text_line_1_based": 4546,
+      "normalized_person_id": null
+    },
+    {
+      "office_as_printed": "TE",
+      "name_as_printed": "Heath Zuniga",
+      "presbytery_as_printed": "Central Florida",
+      "print_order": 207,
+      "source_text_line_1_based": 4547,
+      "normalized_person_id": null
+    }
+  ]
+}
