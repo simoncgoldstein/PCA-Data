@@ -52,7 +52,7 @@ def validate_roster(relative: str, row_key: str, count: int, order_key: str) -> 
 
 validate_roster("sources/normalized/revoice/warhurst-protest-signers-2019.json", "signers", 203, "print_order")
 validate_roster("sources/normalized/revoice/overture-15-minority-report-signers-2022.json", "signers", 46, "print_order")
-validate_roster("sources/normalized/revoice/overture-15-negative-votes-2022.json", "negative_votes", 199, "print_order")
+validate_roster("sources/normalized/revoice/overture-15-negative-votes-2022.json", "negative_votes", 200, "print_order")
 validate_roster("sources/normalized/nae/withdrawal-protest-signers-2022.json", "signers", 203, "print_order")
 validate_roster("sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json", "signers", 28, "print_order")
 validate_roster("sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json", "signers", 737, "sequence_number")
@@ -61,11 +61,16 @@ validate_roster("sources/normalized/public-statements/a-faithful-pca/signers-202
 ratification = load("sources/normalized/revoice/overture-15-presbytery-ratification-2023.json")
 votes = ratification.get("presbytery_votes", [])
 if len(votes) != 88 or [r.get("print_order") for r in votes] != list(range(1, 89)):
-    errors.append("overture-15-presbytery-ratification-2023: expected 88 consecutive rows")
+    errors.append("overture-15-presbytery-ratification-2023: expected 88 consecutive rows in preserved 50th-GA snapshot")
 if sum(r.get("reported") is True for r in votes) != 68:
-    errors.append("overture-15-presbytery-ratification-2023: expected 68 reporting rows")
+    errors.append("overture-15-presbytery-ratification-2023: preserved 50th-GA snapshot should contain 68 reporting rows")
 if sum(r.get("passed") is True for r in votes) != 39 or sum(r.get("not_passed") is True for r in votes) != 29:
-    errors.append("overture-15-presbytery-ratification-2023: official result mismatch")
+    errors.append("overture-15-presbytery-ratification-2023: preserved 50th-GA snapshot should reproduce 39-29")
+rm = ratification.get("metadata", {})
+if rm.get("status") != "superseded_by_51st_ga_correction":
+    errors.append("overture-15-presbytery-ratification-2023: superseded-snapshot status missing")
+if rm.get("corrected_official_totals") != {"for": 48, "against": 32, "presbyteries": 88, "reporting": 80, "two_thirds_needed": 59}:
+    errors.append("overture-15-presbytery-ratification-2023: corrected 51st-GA totals missing")
 for row in votes:
     if row.get("presbytery_id") and row["presbytery_id"] not in presbyteries:
         errors.append(f"ratification:{row.get('print_order')}: unknown presbytery_id {row['presbytery_id']}")
