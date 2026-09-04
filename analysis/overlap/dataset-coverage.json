@@ -9,9 +9,9 @@
       "row_count": 571,
       "unique_printed_name_count": 561,
       "confirmed_canonical_person_count": 123,
-      "unmatched_count": 361,
-      "probable_requires_review_count": 28,
-      "ambiguous_or_collision_count": 59,
+      "unmatched_count": 359,
+      "probable_requires_review_count": 29,
+      "ambiguous_or_collision_count": 60,
       "percentage_resolved": 21.54,
       "source_tier": [
         "first_party_archive"
@@ -25,9 +25,9 @@
       "row_count": 737,
       "unique_printed_name_count": 736,
       "confirmed_canonical_person_count": 154,
-      "unmatched_count": 490,
-      "probable_requires_review_count": 29,
-      "ambiguous_or_collision_count": 64,
+      "unmatched_count": 488,
+      "probable_requires_review_count": 30,
+      "ambiguous_or_collision_count": 65,
       "percentage_resolved": 20.9,
       "source_tier": [
         "first_party_archive"
@@ -90,8 +90,8 @@
       "unique_printed_name_count": 30,
       "confirmed_canonical_person_count": 0,
       "unmatched_count": 23,
-      "probable_requires_review_count": 2,
-      "ambiguous_or_collision_count": 9,
+      "probable_requires_review_count": 4,
+      "ambiguous_or_collision_count": 7,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
@@ -102,18 +102,18 @@
     },
     {
       "source_dataset": "institution_covenant-college",
-      "row_count": 1,
-      "unique_printed_name_count": 1,
+      "row_count": 48,
+      "unique_printed_name_count": 48,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 1,
-      "probable_requires_review_count": 0,
+      "unmatched_count": 42,
+      "probable_requires_review_count": 6,
       "ambiguous_or_collision_count": 0,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "president only; senior administration and trustees remain blocked"
+        "complete visible current senior administration, board officers, trustees, and trustee advisors"
       ]
     },
     {
@@ -166,18 +166,18 @@
     },
     {
       "source_dataset": "institution_mission-to-north-america",
-      "row_count": 47,
-      "unique_printed_name_count": 47,
-      "confirmed_canonical_person_count": 1,
-      "unmatched_count": 38,
-      "probable_requires_review_count": 7,
-      "ambiguous_or_collision_count": 1,
-      "percentage_resolved": 2.13,
+      "row_count": 95,
+      "unique_printed_name_count": 95,
+      "confirmed_canonical_person_count": 2,
+      "unmatched_count": 83,
+      "probable_requires_review_count": 8,
+      "ambiguous_or_collision_count": 2,
+      "percentage_resolved": 2.11,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "high-signal partial roster; large regional Disaster Response and Metanoia teams remain incomplete"
+        "complete visible current MNA team roster with title and department where printed"
       ]
     },
     {
@@ -294,18 +294,18 @@
     },
     {
       "source_dataset": "institution_westminster-theological-seminary",
-      "row_count": 21,
-      "unique_printed_name_count": 21,
+      "row_count": 32,
+      "unique_printed_name_count": 32,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 20,
-      "probable_requires_review_count": 0,
-      "ambiguous_or_collision_count": 1,
+      "unmatched_count": 31,
+      "probable_requires_review_count": 1,
+      "ambiguous_or_collision_count": 0,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "current names; exact titles and individual bios remain incomplete"
+        "current faculty, affiliate faculty, counseling faculty, and theological-writing staff with exact titles"
       ]
     },
     {
@@ -313,8 +313,8 @@
       "row_count": 203,
       "unique_printed_name_count": 203,
       "confirmed_canonical_person_count": 79,
-      "unmatched_count": 92,
-      "probable_requires_review_count": 13,
+      "unmatched_count": 91,
+      "probable_requires_review_count": 14,
       "ambiguous_or_collision_count": 19,
       "percentage_resolved": 38.92,
       "source_tier": [
@@ -329,8 +329,8 @@
       "row_count": 151,
       "unique_printed_name_count": 151,
       "confirmed_canonical_person_count": 39,
-      "unmatched_count": 73,
-      "probable_requires_review_count": 27,
+      "unmatched_count": 72,
+      "probable_requires_review_count": 28,
       "ambiguous_or_collision_count": 12,
       "percentage_resolved": 25.83,
       "source_tier": [
@@ -425,8 +425,8 @@
       "row_count": 29,
       "unique_printed_name_count": 29,
       "confirmed_canonical_person_count": 3,
-      "unmatched_count": 13,
-      "probable_requires_review_count": 10,
+      "unmatched_count": 12,
+      "probable_requires_review_count": 11,
       "ambiguous_or_collision_count": 3,
       "percentage_resolved": 10.34,
       "source_tier": [
@@ -442,8 +442,8 @@
       "unique_printed_name_count": 203,
       "confirmed_canonical_person_count": 92,
       "unmatched_count": 69,
-      "probable_requires_review_count": 14,
-      "ambiguous_or_collision_count": 28,
+      "probable_requires_review_count": 15,
+      "ambiguous_or_collision_count": 27,
       "percentage_resolved": 45.32,
       "source_tier": [
         "official_primary"

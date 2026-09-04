@@ -12,12 +12,12 @@
     "event_nodes": 16
   },
   "edges": {
-    "confirmed_identity_dataset_edges": 672,
+    "confirmed_identity_dataset_edges": 673,
     "by_evidence_type": {
       "formal_organization_leadership": 6,
       "formal_organization_membership": 39,
       "formal_protest_signature": 171,
-      "institutional_role": 6,
+      "institutional_role": 7,
       "media_authorship_or_participation": 34,
       "media_participation": 12,
       "minority_report_signature": 15,
@@ -28,7 +28,7 @@
     "by_source_tier": {
       "first_party": 52,
       "first_party_archive": 277,
-      "official_institutional": 6,
+      "official_institutional": 7,
       "official_primary": 287,
       "primary_archive": 39,
       "user_supplied_visual_receipt": 11
@@ -37,7 +37,7 @@
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.11594203
+    "value": 0.11611456
   },
   "components": {
     "count": 13,
@@ -45,12 +45,12 @@
     "isolated_person_nodes": 1
   },
   "quality_gaps": {
-    "unresolved_identity_rows": 2127,
+    "unresolved_identity_rows": 2232,
     "unresolved_by_status": {
-      "ambiguous": 309,
+      "ambiguous": 308,
       "collision": 10,
-      "probable_requires_review": 252,
-      "unmatched": 1556
+      "probable_requires_review": 268,
+      "unmatched": 1646
     },
     "confirmed_edges_missing_specific_event_year": 85,
     "datasets_without_primary_or_official_tier": [

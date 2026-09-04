@@ -284,8 +284,11 @@ for row in identity_rows:
 identity_summary = load("sources/normalized/identity/summary.json")
 if sum(identity_summary.get("overall_match_status_counts", {}).values()) != len(identity_rows):
     errors.append("identity summary status counts do not equal crosswalk row count")
-if identity_summary.get("metadata", {}).get("record_count") != 2799:
-    errors.append("identity summary: expected 2,799 source rows after AMR YouTube participant ingestion")
+identity_record_count = identity_summary.get("metadata", {}).get("record_count")
+if identity_record_count != len(identity_rows):
+    errors.append(f"identity summary record_count mismatch: metadata={identity_record_count} crosswalk={len(identity_rows)}")
+if len(identity_rows) < 2799:
+    errors.append(f"identity crosswalk regressed below established 2,799-row baseline: {len(identity_rows)} rows")
 if len(identity_summary.get("datasets", [])) != 28:
     errors.append("identity summary: expected 28 source-bounded datasets")
 amr_youtube_summary = next(

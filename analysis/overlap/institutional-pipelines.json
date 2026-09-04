@@ -13,7 +13,7 @@
           "organization": "ridge-haven",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:260:ridge-haven:line:11",
+          "source_locator": "role:355:ridge-haven:line:11",
           "relationship_type": "institutional_role"
         }
       ],
@@ -42,7 +42,7 @@
           "organization": "mission-to-north-america",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:165:mission-to-north-america:line:21",
+          "source_locator": "role:296:mission-to-north-america:line:107",
           "relationship_type": "institutional_role"
         }
       ],
@@ -64,7 +64,7 @@
           "organization": "reformed-theological-seminary",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:254:reformed-theological-seminary:line:31",
+          "source_locator": "role:349:reformed-theological-seminary:line:31",
           "relationship_type": "institutional_role"
         }
       ],
@@ -156,7 +156,7 @@
           "organization": "reformed-theological-seminary",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:253:reformed-theological-seminary:line:30",
+          "source_locator": "role:348:reformed-theological-seminary:line:30",
           "relationship_type": "institutional_role"
         }
       ],
@@ -206,6 +206,63 @@
       ]
     },
     {
+      "canonical_person_id": "owen-lee",
+      "name": "Owen Lee",
+      "dated_institutional_role_edges": [
+        {
+          "organization": "mission-to-north-america",
+          "snapshot_date": "2026-09-03",
+          "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
+          "source_locator": "role:220:mission-to-north-america:line:31",
+          "relationship_type": "institutional_role"
+        }
+      ],
+      "other_documented_edges": [
+        {
+          "dataset": "a_faithful_pca_2021-06-11",
+          "year": 2021,
+          "relationship_type": "public_letter_signature",
+          "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json",
+          "source_locator": "signature:15"
+        },
+        {
+          "dataset": "a_faithful_pca_2022-03-14",
+          "year": 2022,
+          "relationship_type": "public_letter_signature",
+          "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json",
+          "source_locator": "signature:15"
+        },
+        {
+          "dataset": "nae_withdrawal_protest_2022",
+          "year": 2022,
+          "relationship_type": "formal_protest_signature",
+          "source_path": "sources/normalized/nae/withdrawal-protest-signers-2022.json",
+          "source_locator": "print_order:105"
+        },
+        {
+          "dataset": "overture_15_negative_votes_2022",
+          "year": 2022,
+          "relationship_type": "recorded_negative_vote",
+          "source_path": "sources/normalized/revoice/overture-15-negative-votes-2022.json",
+          "source_locator": "print_order:107"
+        },
+        {
+          "dataset": "overture_37_minority_2021",
+          "year": 2021,
+          "relationship_type": "minority_report_signature",
+          "source_path": "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json",
+          "source_locator": "print_order:16"
+        },
+        {
+          "dataset": "warhurst_protest_2019",
+          "year": 2019,
+          "relationship_type": "formal_protest_signature",
+          "source_path": "sources/normalized/revoice/warhurst-protest-signers-2019.json",
+          "source_locator": "print_order:23"
+        }
+      ]
+    },
+    {
       "canonical_person_id": "russ-whitfield",
       "name": "Russ Whitfield",
       "dated_institutional_role_edges": [
@@ -213,7 +270,7 @@
           "organization": "reformed-university-fellowship",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:287:reformed-university-fellowship:line:57",
+          "source_locator": "role:382:reformed-university-fellowship:line:57",
           "relationship_type": "institutional_role"
         }
       ],
@@ -270,7 +327,7 @@
           "organization": "reformed-theological-seminary",
           "snapshot_date": "2026-09-03",
           "source_path": "sources/normalized/institutions/current-role-snapshots-2026-09-03.json",
-          "source_locator": "role:252:reformed-theological-seminary:line:29",
+          "source_locator": "role:347:reformed-theological-seminary:line:29",
           "relationship_type": "institutional_role"
         }
       ],
@@ -412,6 +469,11 @@
       "confirmed_person_count": 3
     },
     {
+      "institution": "mission-to-north-america",
+      "other_dataset": "warhurst_protest_2019",
+      "confirmed_person_count": 2
+    },
+    {
       "institution": "reformed-theological-seminary",
       "other_dataset": "a_faithful_pca_2021-06-11",
       "confirmed_person_count": 2
@@ -433,7 +495,27 @@
     },
     {
       "institution": "mission-to-north-america",
-      "other_dataset": "warhurst_protest_2019",
+      "other_dataset": "a_faithful_pca_2021-06-11",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "mission-to-north-america",
+      "other_dataset": "a_faithful_pca_2022-03-14",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "mission-to-north-america",
+      "other_dataset": "nae_withdrawal_protest_2022",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "mission-to-north-america",
+      "other_dataset": "overture_15_negative_votes_2022",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "mission-to-north-america",
+      "other_dataset": "overture_37_minority_2021",
       "confirmed_person_count": 1
     },
     {

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 2799,
+    "record_count": 2905,
     "canonical_person_count": 206,
     "new_person_count": 189,
     "rules": {
@@ -13,12 +13,12 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 309,
+    "ambiguous": 308,
     "collision": 10,
     "context_confirmed": 552,
-    "exact_confirmed": 120,
-    "probable_requires_review": 252,
-    "unmatched": 1556
+    "exact_confirmed": 121,
+    "probable_requires_review": 268,
+    "unmatched": 1646
   },
   "datasets": [
     {
@@ -30,10 +30,10 @@
       "match_status_counts": {
         "exact_confirmed": 13,
         "context_confirmed": 110,
-        "probable_requires_review": 28,
-        "ambiguous": 58,
+        "probable_requires_review": 29,
+        "ambiguous": 59,
         "collision": 1,
-        "unmatched": 361
+        "unmatched": 359
       },
       "percent_rows_resolved": 21.54,
       "source_tier": [
@@ -52,10 +52,10 @@
       "match_status_counts": {
         "exact_confirmed": 13,
         "context_confirmed": 141,
-        "probable_requires_review": 29,
-        "ambiguous": 63,
+        "probable_requires_review": 30,
+        "ambiguous": 64,
         "collision": 1,
-        "unmatched": 490
+        "unmatched": 488
       },
       "percent_rows_resolved": 20.9,
       "source_tier": [
@@ -140,8 +140,8 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 2,
-        "ambiguous": 9,
+        "probable_requires_review": 4,
+        "ambiguous": 7,
         "collision": 0,
         "unmatched": 23
       },
@@ -155,24 +155,24 @@
     },
     {
       "source_dataset": "institution_covenant-college",
-      "row_count": 1,
-      "unique_printed_name_count": 1,
+      "row_count": 48,
+      "unique_printed_name_count": 48,
       "confirmed_canonical_person_count": 0,
       "confirmed_row_count": 0,
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 0,
+        "probable_requires_review": 6,
         "ambiguous": 0,
         "collision": 0,
-        "unmatched": 1
+        "unmatched": 42
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "president only; senior administration and trustees remain blocked"
+        "complete visible current senior administration, board officers, trustees, and trustee advisors"
       ]
     },
     {
@@ -243,24 +243,24 @@
     },
     {
       "source_dataset": "institution_mission-to-north-america",
-      "row_count": 47,
-      "unique_printed_name_count": 47,
-      "confirmed_canonical_person_count": 1,
-      "confirmed_row_count": 1,
+      "row_count": 95,
+      "unique_printed_name_count": 95,
+      "confirmed_canonical_person_count": 2,
+      "confirmed_row_count": 2,
       "match_status_counts": {
-        "exact_confirmed": 1,
+        "exact_confirmed": 2,
         "context_confirmed": 0,
-        "probable_requires_review": 7,
-        "ambiguous": 1,
+        "probable_requires_review": 8,
+        "ambiguous": 2,
         "collision": 0,
-        "unmatched": 38
+        "unmatched": 83
       },
-      "percent_rows_resolved": 2.13,
+      "percent_rows_resolved": 2.11,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "high-signal partial roster; large regional Disaster Response and Metanoia teams remain incomplete"
+        "complete visible current MNA team roster with title and department where printed"
       ]
     },
     {
@@ -419,24 +419,24 @@
     },
     {
       "source_dataset": "institution_westminster-theological-seminary",
-      "row_count": 21,
-      "unique_printed_name_count": 21,
+      "row_count": 32,
+      "unique_printed_name_count": 32,
       "confirmed_canonical_person_count": 0,
       "confirmed_row_count": 0,
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 0,
-        "ambiguous": 1,
+        "probable_requires_review": 1,
+        "ambiguous": 0,
         "collision": 0,
-        "unmatched": 20
+        "unmatched": 31
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
         "official_institutional"
       ],
       "completeness_status": [
-        "current names; exact titles and individual bios remain incomplete"
+        "current faculty, affiliate faculty, counseling faculty, and theological-writing staff with exact titles"
       ]
     },
     {
@@ -448,10 +448,10 @@
       "match_status_counts": {
         "exact_confirmed": 2,
         "context_confirmed": 77,
-        "probable_requires_review": 13,
+        "probable_requires_review": 14,
         "ambiguous": 18,
         "collision": 1,
-        "unmatched": 92
+        "unmatched": 91
       },
       "percent_rows_resolved": 38.92,
       "source_tier": [
@@ -470,10 +470,10 @@
       "match_status_counts": {
         "exact_confirmed": 8,
         "context_confirmed": 31,
-        "probable_requires_review": 27,
+        "probable_requires_review": 28,
         "ambiguous": 11,
         "collision": 1,
-        "unmatched": 73
+        "unmatched": 72
       },
       "percent_rows_resolved": 25.83,
       "source_tier": [
@@ -602,10 +602,10 @@
       "match_status_counts": {
         "exact_confirmed": 3,
         "context_confirmed": 0,
-        "probable_requires_review": 10,
+        "probable_requires_review": 11,
         "ambiguous": 3,
         "collision": 0,
-        "unmatched": 13
+        "unmatched": 12
       },
       "percent_rows_resolved": 10.34,
       "source_tier": [
@@ -624,8 +624,8 @@
       "match_status_counts": {
         "exact_confirmed": 6,
         "context_confirmed": 86,
-        "probable_requires_review": 14,
-        "ambiguous": 26,
+        "probable_requires_review": 15,
+        "ambiguous": 25,
         "collision": 2,
         "unmatched": 69
       },
