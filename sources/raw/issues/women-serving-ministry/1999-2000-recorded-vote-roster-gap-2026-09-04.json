@@ -1,0 +1,60 @@
+{
+  "recorded_on": "2026-09-04",
+  "issue": "women_speaking_teaching_and_public_worship",
+  "status": "event_level_actions_verified_person_level_rosters_not_recovered",
+  "verified_actions": [
+    {
+      "year": 1999,
+      "locator": "27th GA p. 117, 27-31 III.1",
+      "action": "MNA staff vindication recommendation concerning women leadership/speaking in MNA seminars",
+      "recorded_individual_vote_count": 61,
+      "vote_side": "negative",
+      "names_recovered": false
+    },
+    {
+      "year": 1999,
+      "locator": "27th GA p. 170, 27-44 III.10",
+      "action": "substitute motion to answer Overture 16 affirmatively regarding women preaching/teaching Scripture in worship",
+      "recorded_individual_vote_count": 144,
+      "vote_side": "affirmative_on_defeated_substitute",
+      "names_recovered": false
+    },
+    {
+      "year": 1999,
+      "locator": "27th GA pp. 211-212, 27-57",
+      "action": "Protests 3 and 4 related to the women preaching/teaching controversy",
+      "recorded_individual_vote_count": null,
+      "names_recovered": false
+    },
+    {
+      "year": 2000,
+      "locator": "28th GA p. 101, 28-31 III.9",
+      "action": "defeated amendment to MNA women speaking/teaching recommendation",
+      "recorded_individual_vote_count": 16,
+      "vote_side": "affirmative_on_defeated_amendment",
+      "names_recovered": false
+    },
+    {
+      "year": 2000,
+      "locator": "28th GA p. 101, 28-31 III.9",
+      "action": "adoption of MNA Recommendation 9 on women speaking/teaching",
+      "recorded_individual_vote_count": 20,
+      "vote_side": "negative",
+      "names_recovered": false
+    }
+  ],
+  "event_level_primary_source": "https://pcahistory.org/pca/digest/v4/PCA_Digest_1999-2018.pdf",
+  "original_minutes_urls_attempted": [
+    "https://pcahistory.org/pca/ga/27th_pcaga_1999.pdf",
+    "https://pcahistory.org/pca/ga/28th_pcaga_2000.pdf"
+  ],
+  "access_limitation": "The PCA Digest exposes the action descriptions and recorded-vote counts but not the printed commissioner names. The original 27th and 28th GA PDF journals are very large and were not retrievable through the current source-access path. Search-engine and contemporaneous-news passes did not yield complete primary transcriptions of the named rosters.",
+  "required_for_completion": [
+    "27th GA 1999 page 117",
+    "27th GA 1999 page 170",
+    "27th GA 1999 pages 211-212",
+    "28th GA 2000 page 101"
+  ],
+  "modeling_rule": "Until the original named blocks are recovered, preserve only event-level counts. Do not infer any individual's vote or protest signership from reputation, presbytery, contemporary advocacy, or absence from another list.",
+  "ideological_weight": 0
+}
