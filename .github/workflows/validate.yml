@@ -91,6 +91,9 @@ jobs:
       - name: Verify Revoice18 recovery boundaries
         run: python3 scripts/validate-revoice18-recovery.py .
 
+      - name: Verify AMR issue-evidence boundaries
+        run: python3 scripts/validate-amr-issue-evidence.py .
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \

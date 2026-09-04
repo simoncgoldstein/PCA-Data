@@ -1,0 +1,103 @@
+{
+  "metadata": {
+    "dataset_id": "amr_2026_overtures_roundtable_issue_positions",
+    "organization": "Alliance for Mission & Renewal",
+    "source_family": "amr_2026_overtures_roundtable_part2",
+    "source_type": "first_party_video_with_archived_auto_captions",
+    "captured_on": "2026-09-03",
+    "normalized_on": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Record only speaker-specific positions directly supported by the archived caption turn and its explicit introduction or immediate speaker transition. Panel participation, silence, laughter, or another participant's statement never implies agreement. Auto-caption wording is used only as a locator/evidence aid; normalized records paraphrase the bounded claim rather than treating the caption track as a polished transcript.",
+    "identity_rule": "Names are preserved as stated by the first-party video metadata. This dataset does not create or relax person-identity matches.",
+    "copyright_boundary": "No continuous transcript is reproduced in normalized data; only timestamps and bounded factual paraphrases are retained."
+  },
+  "source": {
+    "video_id": "JpsstSfx40U",
+    "stable_item_id": "youtube-JpsstSfx40U",
+    "title": "2026 Overtures Roundtable Part 2",
+    "published_at": "2026-05-29T12:14:27-07:00",
+    "url": "https://www.youtube.com/watch?v=JpsstSfx40U",
+    "caption_path": "sources/raw/media/amr/youtube-2026-09-03/captions/JpsstSfx40U-en-auto-1.vtt",
+    "caption_kind": "English auto-generated VTT archived from the public player response",
+    "participants_as_stated": [
+      "Derek Radney",
+      "Steve Tipton",
+      "David Coffin",
+      "Howie Donahoe"
+    ]
+  },
+  "positions": [
+    {
+      "position_id": "amr-2026-o37-steve-tipton",
+      "person_name_as_stated": "Steve Tipton",
+      "normalized_person_id": null,
+      "topic": "women_deacons_and_ordained_office",
+      "overture": "2026 Overture 37",
+      "evidence_class": "direct_first_person_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "oppose",
+      "summary": "Tipton explicitly opposed Overture 37. He argued that the PCA has historically understood God to call men to the office of deacon, that the diaconate is not open to women, and that changing this would conflict with his understanding of Scripture and the PCA's historical polity.",
+      "source_locators": [
+        "00:01:21.759 — male-only office claim",
+        "00:01:53.920 — explicit opposition to the overture"
+      ],
+      "speaker_attribution_basis": "Derek Radney explicitly introduced Steve as the first respondent and stated that Steve opposed Overture 37; the following uninterrupted first-person turn contains the cited claims.",
+      "important_boundary": "This records Tipton's stated position on the ordained diaconate and Overture 37. It does not assign his reasoning to other panelists.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-o37-david-coffin",
+      "person_name_as_stated": "David Coffin",
+      "normalized_person_id": null,
+      "topic": "women_deacons_and_overture_burden",
+      "overture": "2026 Overture 37",
+      "evidence_class": "direct_first_person_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "oppose",
+      "summary": "Coffin explicitly agreed with Tipton's preceding opposition and added that even commissioners who favor women deacons should vote against this overture because, in his judgment, it failed to make the scriptural case required for such a change.",
+      "source_locators": [
+        "00:04:42.639 — Radney addresses David and Coffin states agreement",
+        "00:05:09.440 — Coffin's critique of the overture's scriptural argument"
+      ],
+      "speaker_attribution_basis": "Radney addresses David immediately before Coffin's first-person response; the turn explicitly states agreement with the preceding position and adds a separate argument.",
+      "important_boundary": "Coffin's statement that even advocates of women deacons should reject this particular overture is an argument about the overture's burden as well as a stated agreement with Tipton. Do not reduce the record to the procedural argument alone.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-o37-howie-donahoe",
+      "person_name_as_stated": "Howie Donahoe",
+      "normalized_person_id": null,
+      "topic": "women_deacons_and_ordained_office",
+      "overture": "2026 Overture 37",
+      "evidence_class": "direct_first_person_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "oppose",
+      "summary": "Donahoe stated that he is not in favor of ordaining women as deacons and is not in favor of Overture 37. He simultaneously urged the PCA to lower the rhetorical temperature toward Christians who differ, pointing to NAPARC member denominations that ordain women deacons.",
+      "source_locators": [
+        "00:07:01.440 — explicit statement that he does not favor ordaining women as deacons",
+        "00:07:20.319 — explicit statement that he does not favor the overture"
+      ],
+      "speaker_attribution_basis": "Radney directly invites Howie to respond before Donahoe's first-person turn; the cited statements occur within that turn.",
+      "important_boundary": "Donahoe combines substantive opposition with an explicit call for moderation toward denominations holding a different diaconal position. Preserve both parts of the statement.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-o61-howie-donahoe-danvers",
+      "person_name_as_stated": "Howie Donahoe",
+      "normalized_person_id": null,
+      "topic": "danvers_statement_and_extra_constitutional_declarations",
+      "overture": "2026 Overture 61",
+      "evidence_class": "direct_first_person_issue_statement",
+      "position_specificity": "high",
+      "stance": "critical_of_proposed_declaration",
+      "summary": "When asked about Overture 61's proposal to declare the Danvers Statement biblically faithful, Donahoe objected to the practice of such declarations and questioned treating a single General Assembly majority as an enduring statement of the PCA. He also said the Danvers Statement itself could be made more biblically faithful by revision.",
+      "source_locators": [
+        "00:27:38.640 — Radney introduces Overture 61 and asks Howie to begin",
+        "00:27:43.279 — Donahoe begins his direct critique of declarations and the Danvers proposal"
+      ],
+      "speaker_attribution_basis": "Radney names Howie when introducing the Overture 61 question; Donahoe immediately begins the cited first-person response.",
+      "important_boundary": "The archived passage directly supports criticism of the proposed declaration and aspects of the Danvers text. This record does not infer rejection of complementarianism or every proposition in the Danvers Statement.",
+      "ideological_weight": 0
+    }
+  ]
+}
