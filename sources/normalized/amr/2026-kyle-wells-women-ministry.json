@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "dataset_id": "amr_2026_kyle_wells_women_ministry",
+    "organization": "Alliance for Mission & Renewal",
+    "source_family": "amr_kyle_wells_women_ministry_2026",
+    "source_type": "first_party_authored_article",
+    "published_on": "2026-02-11",
+    "normalized_on": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Record only positions Kyle Wells states in his authored article. Preserve his distinction between male governing office and other forms of public instruction, leadership, authority, and structured service by women.",
+    "identity_rule": "Name is preserved as printed. This dataset does not create or relax person-identity matches.",
+    "copyright_boundary": "Normalized records contain bounded factual paraphrases and section locators, not reproduced article text."
+  },
+  "source": {
+    "title": "Ten Overlooked Biblical Considerations Regarding Women’s Participation in the Ministry of the Church",
+    "author_as_printed": "Kyle Wells",
+    "role_as_printed": "Lead Pastor, Christ Presbyterian Church, Santa Barbara",
+    "url": "https://a4mr.org/ten-overlooked-biblical-considerations-regarding-womens-participation-in-the-ministry-of-the-church/"
+  },
+  "positions": [
+    {
+      "position_id": "amr-2026-kyle-wells-male-governing-office",
+      "person_name_as_stated": "Kyle Wells",
+      "normalized_person_id": null,
+      "topic": "male_governing_church_office",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_male_governing_office",
+      "summary": "Wells affirms that Scripture appoints qualified men to the office that bears the keys of the kingdom and exercises governing oversight in the church. He treats the binding doctrinal and adjudicative authority restricted in 1 Timothy 2 as belonging to pastors and elders rather than as a prohibition on every form of female ministry or leadership.",
+      "source_locators": [
+        "Introductory framing",
+        "Consideration 7: Paul’s Prohibition in 1 Timothy 2:12 Is Theological, but not Absolute"
+      ],
+      "important_boundary": "Wells's argument retains male governing office while rejecting broader restrictions that would exclude women from all public instruction, leadership, or ministry authority.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-kyle-wells-women-public-prayer-instruction",
+      "person_name_as_stated": "Kyle Wells",
+      "normalized_person_id": null,
+      "topic": "women_public_prayer_prophecy_and_instruction",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_public_instructional_ministry_by_women_outside_elder_authority",
+      "summary": "Wells argues that Paul assumes women pray and prophesy in gathered worship and that this represents a public, Spirit-governed instructional ministry. He therefore rejects reading 1 Timothy 2:12 as a prohibition on every form of public or spiritual instruction by women, limiting the restriction instead to office-bearing doctrinal and governing authority.",
+      "source_locators": [
+        "Consideration 4: Women Prayed and Instructed in the Assembly",
+        "Consideration 7: Paul’s Prohibition in 1 Timothy 2:12 Is Theological, but not Absolute"
+      ],
+      "important_boundary": "This does not state that women may exercise the binding teaching or governing authority of elders; Wells explicitly distinguishes those functions.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-kyle-wells-women-authority-leadership",
+      "person_name_as_stated": "Kyle Wells",
+      "normalized_person_id": null,
+      "topic": "women_leadership_and_nonelder_authority",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_real_nonelder_authority_and_leadership_by_women",
+      "summary": "Wells argues from biblical examples including prophets, judges, co-laborers, and Phoebe that women may exercise genuine leadership, instruction, influence, and ordered authority without occupying the male priestly or governing office. He presents this as a recurring biblical distinction rather than as an exception that collapses office distinctions.",
+      "source_locators": [
+        "Consideration 2: Women Exercised Prophetic and Judicial Authority Without Holding the Priesthood",
+        "Consideration 5: Women Served as Co-Laborers to whom Submission is Commanded",
+        "Consideration 6: Phoebe Exercised Recognized Authority"
+      ],
+      "important_boundary": "The source distinguishes these forms of authority and leadership from the binding pastoral and governing authority assigned to elders.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-kyle-wells-structured-womens-diaconal-service",
+      "person_name_as_stated": "Kyle Wells",
+      "normalized_person_id": null,
+      "topic": "structured_womens_diaconal_service",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "high",
+      "stance": "affirm_structured_recognized_diaconal_service_by_women",
+      "summary": "Wells argues that Romans 16:1 and 1 Timothy 3:11 point toward a recognizable, structured form of women's service in the church. He reads Phoebe's designation in relation to the church at Cenchreae as more than a vague description of helpfulness and treats 'women likewise' as evidence for an identifiable group within ordered ministry, while leaving the precise scope of that role open to interpretation.",
+      "source_locators": [
+        "Consideration 8: The New Testament Recognizes Structured Forms of Women’s Service"
+      ],
+      "important_boundary": "Wells argues for structured and recognized female service but does not, in this article, resolve every polity question about ordination or the exact status of that role.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-2026-kyle-wells-public-recognition-womens-ministry",
+      "person_name_as_stated": "Kyle Wells",
+      "normalized_person_id": null,
+      "topic": "public_recognition_of_womens_ministry",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "high",
+      "stance": "favor_visible_public_recognition_of_womens_ministry",
+      "summary": "Wells argues that the Pauline churches publicly recognized women as individual co-workers whose ministries were visible and known across congregations. He presents this pattern as warrant for contemporary churches to consider whether women’s gifts and ministries receive similarly visible and personal recognition rather than being treated as marginal or derivative of marital proximity to male officers.",
+      "source_locators": [
+        "Consideration 10: The Public and Personal Recognition of Women’s Ministry in the Pauline Churches"
+      ],
+      "important_boundary": "This record concerns public recognition and stewardship of ministry gifts, not ordination to elder office.",
+      "ideological_weight": 0
+    }
+  ]
+}
