@@ -1,0 +1,209 @@
+church_id,church_name,presbytery_id,source_dataset,observed_roster_rows,unique_printed_name_denominator,confirmed_person_count,confirmed_resolution_rate,multi_roster_person_count,multi_roster_rate_among_confirmed
+city-presbyterian-church-25bb74,City Presbyterian Church,hills-and-plains,a_faithful_pca_2022-03-14,6,6,5,83.33,5,100.00
+chesterfield-presbyterian-church-a90883,Chesterfield Presbyterian Church,missouri,a_faithful_pca_2022-03-14,13,13,4,30.77,4,100.00
+christ-central-presbyterian-church-e74cea,Christ Central Presbyterian Church,korean-capital,a_faithful_pca_2022-03-14,5,5,4,80.00,4,100.00
+covenant-presbyterian-church-a11070,Covenant Presbyterian Church,chicago-metro,a_faithful_pca_2022-03-14,5,5,3,60.00,3,100.00
+perimeter-church-7907f1,Perimeter Church,metro-atlanta,a_faithful_pca_2022-03-14,8,8,3,37.50,3,100.00
+chapelgate-presbyterian-church-705d73,Chapelgate Presbyterian Church,chesapeake,a_faithful_pca_2022-03-14,15,15,2,13.33,2,100.00
+christ-presbyterian-church-62998c,Christ Presbyterian Church,hills-and-plains,a_faithful_pca_2022-03-14,2,2,2,100.00,2,100.00
+christ-presbyterian-church-66ac3c,Christ Presbyterian Church,nashville,a_faithful_pca_2022-03-14,5,5,2,40.00,2,100.00
+covenant-presbyterian-church-b449c7,Covenant Presbyterian Church,missouri,a_faithful_pca_2022-03-14,5,5,2,40.00,2,100.00
+lake-nona-presbyterian-church-068012,Lake Nona Presbyterian Church,central-florida,a_faithful_pca_2022-03-14,2,2,2,100.00,2,100.00
+memorial-presbyterian-church-ed4386,Memorial Presbyterian Church,highlands,a_faithful_pca_2022-03-14,7,7,2,28.57,2,100.00
+trinity-presbyterian-church-03748c,Trinity Presbyterian Church,southern-new-england,a_faithful_pca_2022-03-14,4,4,2,50.00,2,100.00
+canyon-creek-presbyterian-church-adec72,Canyon Creek Presbyterian Church,northern-california,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+christ-church-intown-9fe503,Christ Church Intown,north-florida,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+christ-church-pca-cadaaa,Christ Church PCA,northern-illinois,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+christ-community-church-34e63c,Christ Community Church,nashville,a_faithful_pca_2022-03-14,13,13,1,7.69,1,100.00
+christ-the-king-presbyterian-church-e16713,Christ The King Presbyterian Church,southern-new-england,a_faithful_pca_2022-03-14,3,3,1,33.33,1,100.00
+christ-the-king-presbyterian-church-e4aa76,Christ The King Presbyterian Church,eastern-carolina,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+christ-the-king-church-newton-8ee728,Christ the King Church Newton,southern-new-england,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+christ-the-king-presbyterian-church-96488b,Christ the King Presbyterian Church,rio-grande,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+christ-the-king-presbyterian-church-9e784c,Christ the King Presbyterian Church,houston-metro,a_faithful_pca_2022-03-14,4,4,1,25.00,1,100.00
+city-church-b5d03b,City Church,pacific-northwest,a_faithful_pca_2022-03-14,5,5,1,20.00,1,100.00
+columbia-presbyterian-church-074d69,Columbia Presbyterian Church,chesapeake,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+deep-run-church-ddb221,Deep Run Church,chesapeake,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+emmanuel-presbyterian-church-18a9c3,Emmanuel Presbyterian Church,south-texas,a_faithful_pca_2022-03-14,5,5,1,20.00,1,100.00
+emmanuel-presbyterian-church-219aa0,Emmanuel Presbyterian Church,potomac,a_faithful_pca_2022-03-14,3,3,1,33.33,1,100.00
+ethos-presbyterian-church-43db9b,Ethos Presbyterian Church,chicago-metro,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+first-presbyterian-church-7feb36,First Presbyterian Church,central-georgia,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+fountain-square-presbyterian-church-04bf3c,Fountain Square Presbyterian Church,central-indiana,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+grace-peace-5f3998,Grace & Peace,wisconsin,a_faithful_pca_2022-03-14,3,3,1,33.33,1,100.00
+grace-central-presbyterian-church-c95064,Grace Central Presbyterian Church,ohio-valley,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+grace-presbyterian-church-d2585c,Grace Presbyterian Church,missouri,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+grace-presbyterian-church-fe5fd2,Grace Presbyterian Church,hills-and-plains,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+grace-south-bay-a455fd,Grace South Bay,northern-california,a_faithful_pca_2022-03-14,3,3,1,33.33,1,100.00
+grace-and-peace-church-500984,Grace and Peace Church,rocky-mountain,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+granada-presbyterian-church-210d9f,Granada Presbyterian Church,south-florida,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+harvest-presbyterian-church-00108e,Harvest Presbyterian Church,ohio,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+harvest-presbyterian-church-d51bae,Harvest Presbyterian Church,korean-capital,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+hope-presbyterian-church-3f087c,Hope Presbyterian Church,ohio-valley,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+hope-presbyterian-church-e6ef45,Hope Presbyterian Church,piedmont-triad,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+intown-community-church-b7c71a,Intown Community Church,metro-atlanta,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+iron-works-church-west-chester-a08005,Iron Works Church West Chester,philadelphia-metro-west,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+midtown-presbyterian-church-19d8a1,Midtown Presbyterian Church,missouri,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+new-city-church-7a22e3,New City Church,metro-atlanta,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+new-city-presbyterian-church-1661e7,New City Presbyterian Church,ohio-valley,a_faithful_pca_2022-03-14,5,5,1,20.00,1,100.00
+new-life-church-of-irvine-6267b9,New Life Church of Irvine,south-coast,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+new-life-presbyterian-church-of-orange-county-efad1c,New Life Presbyterian Church of Orange County,korean-southwest-orange-county,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+new-valley-church-edd0cb,New Valley Church,arizona,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+north-augusta-fellowship-37c416,North Augusta Fellowship,palmetto,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+old-orchard-church-f645a2,Old Orchard Church,missouri,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+one-voice-fellowship-d78830,One Voice Fellowship,potomac,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+ponce-presbyterian-church-52b890,Ponce Presbyterian Church,metro-atlanta,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+red-mountain-church-7adad6,Red Mountain Church,evangel,a_faithful_pca_2022-03-14,3,3,1,33.33,1,100.00
+redeemer-presbyterian-church-a18860,Redeemer Presbyterian Church,korean-southwest,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+redeemer-presbyterian-church-bc8f71,Redeemer Presbyterian Church,iowa,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+redeemer-presbyterian-church-d11e43,Redeemer Presbyterian Church,piedmont-triad,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+redeemer-presbyterian-church-east-side-631b40,Redeemer Presbyterian Church East Side,metropolitan-new-york,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+redeemer-presbyterian-church-west-side-82f1aa,Redeemer Presbyterian Church West Side,metropolitan-new-york,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+resurrection-church-211f4d,Resurrection Church,eastern-canada,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+resurrection-indiana-95dba7,Resurrection Indiana,pittsburgh,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+rincon-mountain-presbyterian-church-28fb77,Rincon Mountain Presbyterian Church,arizona,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+riveroaks-presbyterian-church-2e400b,RiverOaks Presbyterian Church,hills-and-plains,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+second-city-church-c8ffcb,Second City Church,susquehanna-valley,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+seven-hills-presbyterian-church-550fd5,Seven Hills Presbyterian Church,southern-new-england,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+shawnee-presbyterian-church-689e99,Shawnee Presbyterian Church,hills-and-plains,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+south-baton-rouge-presbyterian-church-7f4fc6,South Baton Rouge Presbyterian Church,southern-louisiana,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+spanish-river-church-4baafe,Spanish River Church,gulfstream,a_faithful_pca_2022-03-14,8,8,1,12.50,1,100.00
+st-elmo-presbyterian-church-72eed8,St. Elmo Presbyterian Church,tennessee-valley,a_faithful_pca_2022-03-14,3,3,1,33.33,1,100.00
+st-roch-community-church-9476f9,St. Roch Community Church,southern-louisiana,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+the-table-church-9e5bae,The Table Church,rocky-mountain,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+trinity-grace-church-5bb759,Trinity Grace Church,south-texas,a_faithful_pca_2022-03-14,1,1,1,100.00,1,100.00
+trinity-presbyterian-100b48,Trinity Presbyterian,north-texas,a_faithful_pca_2022-03-14,4,4,1,25.00,1,100.00
+trinity-presbyterian-church-813566,Trinity Presbyterian Church,tidewater,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+wheatland-presbyterian-church-15f804,Wheatland Presbyterian Church,susquehanna-valley,a_faithful_pca_2022-03-14,2,2,1,50.00,1,100.00
+redeemer-east-harlem-3bc07d,Redeemer East Harlem,metropolitan-new-york,a_faithful_pca_2022-03-14,1,1,1,100.00,0,0.00
+all-saints-presbyterian-church-c7b188,All Saints Presbyterian Church,south-texas,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+altadena-valley-presbyterian-church-098e4d,Altadena Valley Presbyterian Church,evangel,a_faithful_pca_2022-03-14,4,4,0,0.00,0,0.00
+atlanta-westside-presbyterian-church-fb15d2,Atlanta Westside Presbyterian Church,metro-atlanta,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+boise-presbyterian-church-285da3,Boise Presbyterian Church,pacific-northwest,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+boulevard-presbyterian-church-541dcd,Boulevard Presbyterian Church,chicago-metro,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+brookhaven-presbyterian-church-08ce03,Brookhaven Presbyterian Church,metro-atlanta,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+catalina-foothills-church-03ccca,Catalina Foothills Church,arizona,a_faithful_pca_2022-03-14,3,3,0,0.00,0,0.00
+central-hope-church-a7a795,Central Hope Church,arkansas,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+chinese-christian-church-of-virginia-f18216,Chinese Christian Church of Virginia,potomac,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+christ-central-buffalo-4e72ff,Christ Central Buffalo,new-york-state,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+christ-central-church-26a842,Christ Central Church,central-carolina,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+christ-church-presbyterian-199bb7,Christ Church Presbyterian,north-florida,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+christ-community-church-425ab9,Christ Community Church,central-indiana,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+christ-community-church-aa15b8,Christ Community Church,hills-and-plains,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+christ-presbyterian-church-7e7bd7,Christ Presbyterian Church,south-texas,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+christ-presbyterian-church-dd3b32,Christ Presbyterian Church,south-coast,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+christ-the-king-df8d69,Christ the King,georgia-foothills,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+christ-the-king-dorchester-76a8c5,Christ the King  - Dorchester,southern-new-england,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+christ-the-redeemer-b9ab7d,Christ the Redeemer,heartland,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+christ-the-redeemer-presbyterian-church-5bd4cd,Christ the Redeemer Presbyterian Church,northern-new-england,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+christchurch-presbyterian-7ff8df,ChristChurch Presbyterian,metro-atlanta,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+church-of-the-good-shepherd-6610f5,Church of the Good Shepherd,eastern-carolina,a_faithful_pca_2022-03-14,4,4,0,0.00,0,0.00
+church-of-the-redeemer-27b32b,Church of the Redeemer,new-york-state,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+church-of-the-redeemer-537a1b,Church of the Redeemer,metro-atlanta,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+city-church-eastside-8a5c8a,City Church - Eastside,metro-atlanta,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+citylife-presbyterian-church-009483,Citylife Presbyterian Church,southern-new-england,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+clemson-presbyterian-church-21a93c,Clemson Presbyterian Church,calvary,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+colfax-center-presbyterian-church-32ecc3,Colfax Center Presbyterian Church,iowa,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+coram-deo-5e8cd5,Coram Deo,rio-grande,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+cornerstone-presbyterian-church-5d7e57,Cornerstone Presbyterian Church,potomac,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+cornerstone-presbyterian-church-60969a,Cornerstone Presbyterian Church,palmetto,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+cornerstone-presbyterian-church-7b07d2,Cornerstone Presbyterian Church,heritage,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+covenant-church-9cc2a0,Covenant Church,central-florida,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+covenant-community-church-5f3f21,Covenant Community Church,palmetto,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+covenant-presbyterian-church-a04abc,Covenant Presbyterian Church,evangel,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+covenant-of-grace-presbyterian-church-b02bcd,Covenant of Grace Presbyterian Church,chesapeake,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+crossroads-community-church-63121d,Crossroads Community Church,central-indiana,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+crossroads-presbyterian-fellowship-fed598,Crossroads Presbyterian Fellowship,missouri,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+dayspring-presbyterian-church-42ee9c,DaySpring Presbyterian Church,chesapeake,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+denver-presbyterian-church-10da8f,Denver Presbyterian Church,rocky-mountain,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+downtown-presbyterian-church-6681e3,Downtown Presbyterian Church,calvary,a_faithful_pca_2022-03-14,4,4,0,0.00,0,0.00
+edgemont-presbyterian-church-a1ec14,Edgemont Presbyterian Church,westminster,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+evangelical-presbyterian-church-1236e4,Evangelical Presbyterian Church,chesapeake,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+exilic-church-5f7fce,Exilic Church,metropolitan-new-york,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+fair-hill-church-ff8b29,Fair Hill Church,heritage,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+faith-presbyterian-church-1a9a83,Faith Presbyterian Church,georgia-foothills,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+faith-presbyterian-church-d53562,Faith Presbyterian Church,south-texas,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+forestgate-presbyterian-church-cb3484,Forestgate Presbyterian Church,rocky-mountain,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+friend-of-sinners-church-048921,Friend of Sinners Church,wisconsin,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+global-mission-church-ac96f7,Global Mission Church,korean-southwest,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+good-news-church-815332,Good News Church,heritage,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+good-shepherd-presbyterian-7362e6,Good Shepherd Presbyterian,siouxlands,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+good-shepherd-presbyterian-church-f6b4fc,Good Shepherd Presbyterian Church,georgia-foothills,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+gospel-church-for-all-nations-adfbee,Gospel Church for All Nations,heritage,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+grace-presbyterian-church-8402ea,Grace Presbyterian Church,south-texas,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+grace-presbyterian-fellowship-2a8067,Grace Presbyterian Fellowship,missouri,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+greenwood-presbyterian-church-f14ae6,Greenwood Presbyterian Church,calvary,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+hanover-valley-presbyterian-church-22ce51,Hanover Valley Presbyterian Church,susquehanna-valley,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+harbor-community-church-c215e3,Harbor Community Church,suncoast-florida,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+hawaii-central-presbyterian-church-228b76,Hawaii Central Presbyterian Church,korean-northwest,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+holy-cross-church-83177e,Holy Cross Church,arizona,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+homewood-community-church-dcb599,Homewood Community Church,evangel,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+hope-community-church-4a1d91,Hope Community Church,central-carolina,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+hope-presbyterian-church-5d0fdf,Hope Presbyterian Church,west-hudson,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+hope-presbyterian-church-of-crozet-1966bb,Hope Presbyterian Church of Crozet,blue-ridge,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+horizon-church-e5b972,Horizon Church,calvary,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+hunt-valley-church-8b16d7,Hunt Valley Church,chesapeake,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+immanuel-church-d743f9,Immanuel Church,philadelphia,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+independent-presbyterian-church-19dc1b,Independent Presbyterian Church,covenant,a_faithful_pca_2022-03-14,3,3,0,0.00,0,0.00
+korean-covenant-presbyterian-church-293a08,Korean Covenant Presbyterian Church,korean-southeastern,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+lake-baldwin-church-9cbe5f,Lake Baldwin Church,central-florida,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+lake-oconee-presbyterian-church-be598e,Lake Oconee Presbyterian Church,central-georgia,a_faithful_pca_2022-03-14,4,4,0,0.00,0,0.00
+lake-trails-presbyterian-church-a42ee6,Lake Trails Presbyterian Church,wisconsin,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+lakeway-presbyterian-church-373a8e,Lakeway Presbyterian Church,tennessee-valley,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+living-fellowship-church-15ee44,Living Fellowship Church,metro-atlanta,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+lookout-mountain-presbyterian-church-1a5b1c,Lookout Mountain Presbyterian Church,tennessee-valley,a_faithful_pca_2022-03-14,4,4,0,0.00,0,0.00
+midtown-community-church-88f5ce,Midtown Community Church,eastern-carolina,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+midtown-presbyterian-church-c33f38,Midtown Presbyterian Church,arizona,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+mosaic-church-e449af,Mosaic Church,rio-grande,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+new-church-of-atlanta-3a632d,New Church of Atlanta,korean-southeastern,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+new-city-fellowship-39d36a,New City Fellowship,lowcountry,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+new-city-fellowship-443769,New City Fellowship,james-river,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+new-city-fellowship-f9db3a,New City Fellowship,tennessee-valley,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+new-creation-church-089b0e,New Creation Church,pacific,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+new-life-mission-church-of-fremont-a8d66d,New Life Mission Church of Fremont,northern-california,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+new-life-presbyterian-church-657270,New Life Presbyterian Church,eastern-pennsylvania,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+new-song-church-7b5a79,New Song Church,korean-southwest-orange-county,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+new-song-community-church-3ca8bd,New Song Community Church,chesapeake,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+newcity-orlando-c8be20,NewCity Orlando,central-florida,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+north-cincinnati-community-church-769573,North Cincinnati Community Church,ohio-valley,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+north-macon-presbyterian-church-760978,North Macon Presbyterian Church,central-georgia,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+one-ancient-hope-presbyterian-church-e39a76,One Ancient Hope Presbyterian Church,iowa,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+orangewood-church-eab72e,Orangewood Church,central-florida,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+orlando-chinese-evangelical-christian-church-b2fdb0,Orlando Chinese Evangelical Christian Church,central-florida,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+orlando-korean-presbyterian-church-in-america-f425e0,Orlando Korean Presbyterian Church in America,korean-southeastern,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+pacific-crossroads-church-e29b2f,Pacific Crossroads Church,pacific,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+pilgrim-church-8e9330,Pilgrim Church,philadelphia,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+redeemer-presbyterian-church-442be1,Redeemer Presbyterian Church,houston-metro,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+redeemer-presbyterian-church-edef55,Redeemer Presbyterian Church,south-coast,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+redeemer-presbyterian-church-fe61f7,Redeemer Presbyterian Church,lowcountry,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+redlands-community-church-a11d36,Redlands Community Church,south-florida,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+restoration-community-church-d3d175,Restoration Community Church,missouri,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+resurrection-community-church-99eee6,Resurrection Community Church,tidewater,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+rocky-mountain-presbyterian-church-49a62c,Rocky Mountain Presbyterian Church,rocky-mountain,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+safe-harbor-presbyterian-church-9d9f44,Safe Harbor Presbyterian Church,gulf-coast,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+salem-presbyterian-church-a83840,Salem Presbyterian Church,piedmont-triad,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+servant-church-of-san-diego-bd23fd,Servant Church of San Diego,south-coast,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+seven-rivers-presbyterian-church-8f1ab6,Seven Rivers Presbyterian Church,central-florida,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+severna-park-evangelical-presbyterian-church-9574c0,Severna Park Evangelical Presbyterian Church,chesapeake,a_faithful_pca_2022-03-14,4,4,0,0.00,0,0.00
+southpointe-community-church-28b972,Southpointe Community Church,nashville,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+southwood-presbyterian-church-14fbf1,Southwood Presbyterian Church,providence,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+sycamore-presbyterian-church-0e8ef2,Sycamore Presbyterian Church,james-river,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+the-heights-presbyterian-church-ed8639,The Heights Presbyterian Church,ohio,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+the-redemption-church-376567,The Redemption Church,chicago-metro,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+the-village-church-ae5159,The Village Church,providence,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+trinity-church-c66223,Trinity Church,south-florida,a_faithful_pca_2022-03-14,3,3,0,0.00,0,0.00
+trinity-church-seattle-5e18e8,Trinity Church Seattle,pacific-northwest,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+trinity-park-church-2a3002,Trinity Park Church,eastern-carolina,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+trinity-presbyterian-church-159fca,Trinity Presbyterian Church,chicago-metro,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+trinity-presbyterian-church-2e8ac4,Trinity Presbyterian Church,metropolitan-new-york,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+trinity-presbyterian-church-41fc73,Trinity Presbyterian Church,south-texas,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+trinity-presbyterian-church-73e834,Trinity Presbyterian Church,iowa,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+trinity-presbyterian-church-7dd92f,Trinity Presbyterian Church,nashville,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+twin-oaks-presbyterian-church-c5f32b,Twin Oaks Presbyterian Church,missouri,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+two-rivers-presbyterian-church-81dba6,Two Rivers Presbyterian Church,lowcountry,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+valley-presbyterian-church-1d6bdc,Valley Presbyterian Church,providence,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+village-seven-presbyterian-church-926de6,Village Seven Presbyterian Church,rocky-mountain,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+walnut-creek-presbyterian-church-e15f3d,Walnut Creek Presbyterian Church,ohio-valley,a_faithful_pca_2022-03-14,3,3,0,0.00,0,0.00
+waypoint-church-7d65ad,Waypoint Church,rocky-mountain,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+west-end-community-church-c87b78,West End Community Church,nashville,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+westminster-presbyterian-church-a29e5b,Westminster Presbyterian Church,westminster,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00
+westminster-presbyterian-church-a854f9,Westminster Presbyterian Church,fellowship,a_faithful_pca_2022-03-14,2,2,0,0.00,0,0.00
+westminster-presbyterian-church-d1dc2f,Westminster Presbyterian Church,central-georgia,a_faithful_pca_2022-03-14,1,1,0,0.00,0,0.00

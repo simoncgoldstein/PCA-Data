@@ -1,0 +1,440 @@
+{
+  "metadata": {
+    "generated_on": "2026-09-04",
+    "measurement": "Resolution coverage for the exact source rows included in the identity crosswalk; percentages are row-resolution rates, not population estimates."
+  },
+  "datasets": [
+    {
+      "source_dataset": "a_faithful_pca_2021-06-11",
+      "row_count": 571,
+      "unique_printed_name_count": 561,
+      "confirmed_canonical_person_count": 123,
+      "unmatched_count": 363,
+      "probable_requires_review_count": 27,
+      "ambiguous_or_collision_count": 58,
+      "percentage_resolved": 21.54,
+      "source_tier": [
+        "first_party_archive"
+      ],
+      "completeness_status": [
+        "complete"
+      ]
+    },
+    {
+      "source_dataset": "a_faithful_pca_2022-03-14",
+      "row_count": 737,
+      "unique_printed_name_count": 736,
+      "confirmed_canonical_person_count": 154,
+      "unmatched_count": 492,
+      "probable_requires_review_count": 28,
+      "ambiguous_or_collision_count": 63,
+      "percentage_resolved": 20.9,
+      "source_tier": [
+        "first_party_archive"
+      ],
+      "completeness_status": [
+        "complete"
+      ]
+    },
+    {
+      "source_dataset": "amr_leadership_current",
+      "row_count": 6,
+      "unique_printed_name_count": 6,
+      "confirmed_canonical_person_count": 6,
+      "unmatched_count": 0,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 100.0,
+      "source_tier": [
+        "first_party"
+      ],
+      "completeness_status": [
+        "complete_current_core_leadership"
+      ]
+    },
+    {
+      "source_dataset": "amr_website_media_2023_2026",
+      "row_count": 136,
+      "unique_printed_name_count": 60,
+      "confirmed_canonical_person_count": 6,
+      "unmatched_count": 13,
+      "probable_requires_review_count": 42,
+      "ambiguous_or_collision_count": 47,
+      "percentage_resolved": 25.0,
+      "source_tier": [
+        "first_party"
+      ],
+      "completeness_status": [
+        "complete_website_index_byline_field"
+      ]
+    },
+    {
+      "source_dataset": "institution_cdm",
+      "row_count": 34,
+      "unique_printed_name_count": 30,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 23,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 9,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "substantial current staff and Women's Ministry leadership snapshot"
+      ]
+    },
+    {
+      "source_dataset": "institution_covenant-college",
+      "row_count": 1,
+      "unique_printed_name_count": 1,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "president only; senior administration and trustees remain blocked"
+      ]
+    },
+    {
+      "source_dataset": "institution_covenant-theological-seminary",
+      "row_count": 51,
+      "unique_printed_name_count": 51,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 34,
+      "probable_requires_review_count": 10,
+      "ambiguous_or_collision_count": 7,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "current faculty, emeriti, incoming faculty, and trustee classes"
+      ]
+    },
+    {
+      "source_dataset": "institution_geneva-benefits",
+      "row_count": 46,
+      "unique_printed_name_count": 46,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 43,
+      "probable_requires_review_count": 3,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "current official leadership, staff, and board"
+      ]
+    },
+    {
+      "source_dataset": "institution_greenville-presbyterian-theological-seminary",
+      "row_count": 29,
+      "unique_printed_name_count": 29,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 27,
+      "probable_requires_review_count": 1,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "current faculty and staff"
+      ]
+    },
+    {
+      "source_dataset": "institution_mission-to-north-america",
+      "row_count": 47,
+      "unique_printed_name_count": 47,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 38,
+      "probable_requires_review_count": 7,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 2.13,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "high-signal partial roster; large regional Disaster Response and Metanoia teams remain incomplete"
+      ]
+    },
+    {
+      "source_dataset": "institution_mission-to-the-world",
+      "row_count": 1,
+      "unique_printed_name_count": 1,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 0,
+      "probable_requires_review_count": 1,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "coordinator only; no public executive roster captured"
+      ]
+    },
+    {
+      "source_dataset": "institution_pca-administrative-committee",
+      "row_count": 19,
+      "unique_printed_name_count": 19,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 19,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "complete visible current staff roster"
+      ]
+    },
+    {
+      "source_dataset": "institution_pca-foundation",
+      "row_count": 23,
+      "unique_printed_name_count": 23,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 22,
+      "probable_requires_review_count": 1,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "current staff plus 2025 annual-report board"
+      ]
+    },
+    {
+      "source_dataset": "institution_reformed-theological-seminary",
+      "row_count": 8,
+      "unique_printed_name_count": 8,
+      "confirmed_canonical_person_count": 3,
+      "unmatched_count": 3,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 37.5,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "high-overlap subset only; campus-wide roster remains incomplete"
+      ]
+    },
+    {
+      "source_dataset": "institution_reformed-university-fellowship",
+      "row_count": 33,
+      "unique_printed_name_count": 33,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 30,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 3.03,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "coordinator history and selected 2026 hires; complete campus roster remains incomplete"
+      ]
+    },
+    {
+      "source_dataset": "institution_ridge-haven",
+      "row_count": 17,
+      "unique_printed_name_count": 17,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 16,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 5.88,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "current visible staff, including Ridge Haven Cono"
+      ]
+    },
+    {
+      "source_dataset": "institution_westminster-seminary-california",
+      "row_count": 21,
+      "unique_printed_name_count": 21,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 21,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "current faculty, emeriti, and visible visiting/adjunct examples"
+      ]
+    },
+    {
+      "source_dataset": "institution_westminster-theological-seminary",
+      "row_count": 21,
+      "unique_printed_name_count": 21,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 20,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_institutional"
+      ],
+      "completeness_status": [
+        "current names; exact titles and individual bios remain incomplete"
+      ]
+    },
+    {
+      "source_dataset": "nae_withdrawal_protest_2022",
+      "row_count": 203,
+      "unique_printed_name_count": 203,
+      "confirmed_canonical_person_count": 79,
+      "unmatched_count": 92,
+      "probable_requires_review_count": 13,
+      "ambiguous_or_collision_count": 19,
+      "percentage_resolved": 38.92,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete"
+      ]
+    },
+    {
+      "source_dataset": "national_partnership_confirmed_members",
+      "row_count": 151,
+      "unique_printed_name_count": 151,
+      "confirmed_canonical_person_count": 39,
+      "unmatched_count": 73,
+      "probable_requires_review_count": 27,
+      "ambiguous_or_collision_count": 12,
+      "percentage_resolved": 25.83,
+      "source_tier": [
+        "primary_archive"
+      ],
+      "completeness_status": [
+        "complete_explicit_membership_extraction"
+      ]
+    },
+    {
+      "source_dataset": "overture_15_minority_2022",
+      "row_count": 46,
+      "unique_printed_name_count": 46,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 43,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete"
+      ]
+    },
+    {
+      "source_dataset": "overture_15_negative_votes_2022",
+      "row_count": 199,
+      "unique_printed_name_count": 199,
+      "confirmed_canonical_person_count": 101,
+      "unmatched_count": 63,
+      "probable_requires_review_count": 13,
+      "ambiguous_or_collision_count": 22,
+      "percentage_resolved": 50.75,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete"
+      ]
+    },
+    {
+      "source_dataset": "overture_37_minority_2021",
+      "row_count": 28,
+      "unique_printed_name_count": 28,
+      "confirmed_canonical_person_count": 15,
+      "unmatched_count": 4,
+      "probable_requires_review_count": 3,
+      "ambiguous_or_collision_count": 6,
+      "percentage_resolved": 53.57,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete"
+      ]
+    },
+    {
+      "source_dataset": "publication_co-laborers-co-heirs-2019",
+      "row_count": 26,
+      "unique_printed_name_count": 26,
+      "confirmed_canonical_person_count": 1,
+      "unmatched_count": 17,
+      "probable_requires_review_count": 5,
+      "ambiguous_or_collision_count": 3,
+      "percentage_resolved": 3.85,
+      "source_tier": [
+        "user_supplied_visual_receipt"
+      ],
+      "completeness_status": [
+        "complete_visible_chapter_table"
+      ]
+    },
+    {
+      "source_dataset": "publication_heal-us-emmanuel-2016",
+      "row_count": 30,
+      "unique_printed_name_count": 30,
+      "confirmed_canonical_person_count": 7,
+      "unmatched_count": 5,
+      "probable_requires_review_count": 13,
+      "ambiguous_or_collision_count": 5,
+      "percentage_resolved": 23.33,
+      "source_tier": [
+        "user_supplied_visual_receipt"
+      ],
+      "completeness_status": [
+        "complete_visible_chapter_table"
+      ]
+    },
+    {
+      "source_dataset": "publication_hear-us-emmanuel-2020",
+      "row_count": 29,
+      "unique_printed_name_count": 29,
+      "confirmed_canonical_person_count": 3,
+      "unmatched_count": 13,
+      "probable_requires_review_count": 10,
+      "ambiguous_or_collision_count": 3,
+      "percentage_resolved": 10.34,
+      "source_tier": [
+        "user_supplied_visual_receipt"
+      ],
+      "completeness_status": [
+        "complete_visible_chapter_table"
+      ]
+    },
+    {
+      "source_dataset": "warhurst_protest_2019",
+      "row_count": 203,
+      "unique_printed_name_count": 203,
+      "confirmed_canonical_person_count": 92,
+      "unmatched_count": 69,
+      "probable_requires_review_count": 14,
+      "ambiguous_or_collision_count": 28,
+      "percentage_resolved": 45.32,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete"
+      ]
+    }
+  ]
+}
