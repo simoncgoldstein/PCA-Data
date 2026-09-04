@@ -1,0 +1,67 @@
+{
+  "metadata": {
+    "dataset_id": "a_faithful_pca_looking_forward_together_2021_positions",
+    "statement_title": "Looking Forward - Together",
+    "statement_date": "2021",
+    "source_receipt": "sources/raw/public-statements/a-faithful-pca/looking-forward-together-2021.md",
+    "evidence_scope": "signed_public_statement",
+    "ideological_weight": 0,
+    "modeling_rule": "These records summarize explicit commitments in the signed public letter. They apply to the statement/signatory coalition as evidenced by signature, not automatically to every later person associated with A Faithful PCA, every PCA moderate, or every organization with overlapping personnel."
+  },
+  "positions": [
+    {
+      "position_id": "afpca-2021-confessional-good-faith-subscription",
+      "issue": "confessional_subscription",
+      "stance": "affirm_good_faith_system_subscription",
+      "summary": "The letter describes its signers as wholeheartedly confessional, affirming the Westminster Standards as the PCA's constitutional system of doctrine, and explicitly defends Good Faith Subscription as a means of strengthening confessional adherence while allowing carefully examined and recorded exceptions.",
+      "source_locators": ["opening confessional self-description", "Good Faith Subscription section"],
+      "important_boundary": "The statement rejects the claim that the PCA was historically a universal full-or-strict-subscription denomination; it does not reject confessional subscription or presbytery examination of exceptions.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "afpca-2021-worship-contextual-latitude",
+      "issue": "worship_and_local_practice",
+      "stance": "affirm_contextual_worship_variation_within_scripture_and_polity",
+      "summary": "The letter says faithful PCA churches may differ in the expression of their orthodoxy in worship and in day-to-day practices shaped by local cultural context, provided those practices remain within Scripture and PCA polity.",
+      "source_locators": ["Where may we differ with one another?"],
+      "important_boundary": "This is a claim for bounded local variation, not an assertion that every worship practice or contextual adaptation is permissible.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "afpca-2021-sexual-ethics-and-celibate-ssa",
+      "issue": "sexuality_and_ordination",
+      "stance": "affirm_traditional_sexual_ethics_and_purity_for_ministry",
+      "summary": "The letter rejects ordination of persons engaged in homosexual practice, affirms marriage as between one man and one woman, and argues that Christians who experience same-sex attraction may live faithful and fruitful lives through purity and obedience, while acknowledging legitimate discussion over how obedience and purity are assessed for ministry leaders.",
+      "source_locators": ["practicing homosexuals allegation section", "Nashville Statement Article 8 discussion", "marriage/confessional solidarity section"],
+      "important_boundary": "The statement distinguishes same-sex attraction from homosexual practice and does not say that every question about fitness for ordained ministry is thereby settled.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "afpca-2021-racial-refugee-women-mercy-priorities",
+      "issue": "mission_and_social_concerns",
+      "stance": "affirm_biblical_attention_to_racial_reconciliation_refugee_care_women_and_mercy",
+      "summary": "The letter positively describes a growing PCA consciousness regarding racial reconciliation, refugee care, domestic violence, the vital role of women in advancing the church's mission, mercy ministries, crisis care, and covenant care amid sexual and family brokenness, while insisting these emphases need not sacrifice biblical integrity or polity.",
+      "source_locators": ["future is bright / healthy biblical consciousness section"],
+      "important_boundary": "The statement identifies these concerns as biblically healthy priorities; it does not define one required political program or one exhaustive policy response for every church.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "afpca-2021-trust-church-courts-over-online-accusation",
+      "issue": "church_polity_and_public_dispute",
+      "stance": "favor_personal_and_ecclesiastical_process_over_unproven_online_accusation",
+      "summary": "The letter criticizes online accusation, innuendo, and suspicion without proof and urges PCA members to rely on personal engagement, sessions, presbyteries, and judicial processes when alleged compromise or sin can be substantiated.",
+      "source_locators": ["online blogs and social media criticism section", "local churches Sessions and presbyteries section"],
+      "important_boundary": "The letter explicitly allows that real doctrinal or moral error should be opposed and adjudicated; its objection is to unsupported accusation and politicized suspicion, not to church discipline itself.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "afpca-2021-unity-mission-and-nonextreme-rhetoric",
+      "issue": "denominational_posture",
+      "stance": "favor_confessional_unity_charitable_dialogue_and_missional_cooperation",
+      "summary": "The letter presents PCA unity, charitable dialogue, trust, evangelism, church planting, missions, and local ministry as central goods and argues against defining the denomination by its most extreme internal factions or by inflammatory public rhetoric.",
+      "source_locators": ["future is bright section", "unity and dialogue conclusion"],
+      "important_boundary": "The statement does not claim doctrinal differences are irrelevant; it argues that disagreements within shared confessional bounds should not be exaggerated into proof of wholesale denominational apostasy.",
+      "ideological_weight": 0
+    }
+  ]
+}

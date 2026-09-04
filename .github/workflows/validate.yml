@@ -118,6 +118,9 @@ jobs:
       - name: Verify National Partnership organizing-action boundaries
         run: python3 scripts/validate-national-partnership-organizing-actions.py .
 
+      - name: Verify A Faithful PCA signed-statement boundaries
+        run: python3 scripts/validate-a-faithful-pca-2021-positions.py .
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
