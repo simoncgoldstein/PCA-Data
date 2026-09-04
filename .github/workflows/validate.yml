@@ -97,6 +97,9 @@ jobs:
       - name: Verify AMR Part 1 issue-evidence boundaries
         run: python3 scripts/validate-amr-part1-issue-evidence.py .
 
+      - name: Verify AMR three-views female-deacons boundaries
+        run: python3 scripts/validate-amr-three-views-female-deacons.py .
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
