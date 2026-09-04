@@ -1,0 +1,58 @@
+{
+  "metadata": {
+    "created_on": "2026-09-04",
+    "purpose": "Preserve named authorship, drafting, editorial, and presentation roles separately from report signership.",
+    "ideological_weight": 0,
+    "identity_rule": "A named formal role establishes only the documented role and associated report action; it does not expand the source beyond its stated scope."
+  },
+  "roles": [
+    {
+      "year": 2021,
+      "topic": "overture_37",
+      "name_as_printed": "Trevor Laurence",
+      "office_as_printed": "RE",
+      "presbytery_as_printed": "Piedmont Triad",
+      "role": "principal_author_and_presenter",
+      "evidence_type": "first_person_authorship_and_presentation_statement",
+      "source_family": "laurence_o37_first_person_article",
+      "source": "https://mereorthodoxy.com/pca-overture-37-minority-report/",
+      "normalized_person_id": "trevor-laurence"
+    },
+    {
+      "year": 2021,
+      "topic": "overture_37",
+      "name_as_printed": "Derek Radney",
+      "office_as_printed": "TE",
+      "presbytery_as_printed": "Piedmont Triad",
+      "role": "substantial_editorial_contributor",
+      "evidence_type": "credited_by_principal_author",
+      "source_family": "laurence_o37_first_person_article",
+      "source": "https://mereorthodoxy.com/pca-overture-37-minority-report/",
+      "normalized_person_id": null
+    },
+    {
+      "year": 2022,
+      "topic": "overture_15",
+      "name_as_printed": "Matthew D. Fender",
+      "office_as_printed": "RE",
+      "presbytery_as_printed": "James River",
+      "role": "minority_report_presenter",
+      "evidence_type": "official_journal_presentation_record",
+      "source_family": "overture_15_2022",
+      "source": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022.pdf",
+      "normalized_person_id": null
+    },
+    {
+      "year": 2022,
+      "topic": "overture_15",
+      "name_as_printed": "Joe Cristman",
+      "office_as_printed": "TE",
+      "presbytery_as_printed": "Chicago Metro",
+      "role": "drafting_committee_member",
+      "evidence_type": "first_person_drafting_statement",
+      "source_family": "cristman_o15_first_person_article",
+      "source": "https://www.redeemerpresbyterianchurch.com/blog/post/one-pastors-thoughts-on-this-years-overtures",
+      "normalized_person_id": "joe-cristman"
+    }
+  ]
+}

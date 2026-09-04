@@ -237,9 +237,10 @@ def register_json(relative: str) -> Any:
 # Official/formal rosters.
 roster_specs = [
     ("warhurst_protest_2019", "warhurst_protest_2019", "sources/normalized/revoice/warhurst-protest-signers-2019.json", "signers", "print_order", "formal_protest_signature"),
-    ("overture_37_minority_2021", "overture_37_minority_2021", "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json", "signers", "print_order", "minority_report_signature"),
-    ("overture_15_minority_2022", "overture_15_minority_2022", "sources/normalized/revoice/overture-15-minority-report-signers-2022.json", "signers", "print_order", "minority_report_signature"),
-    ("overture_15_negative_votes_2022", "overture_15_negative_votes_2022", "sources/normalized/revoice/overture-15-negative-votes-2022.json", "negative_votes", "print_order", "recorded_negative_vote"),
+    ("overture_37_minority_2021", "overture_37_2021", "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json", "signers", "print_order", "minority_report_signature"),
+    ("overture_37_negative_votes_2021", "overture_37_2021", "sources/normalized/general-assembly/2021-overture-37-negative-votes.json", "negative_votes", "print_order", "recorded_negative_vote"),
+    ("overture_15_minority_2022", "overture_15_2022", "sources/normalized/revoice/overture-15-minority-report-signers-2022.json", "signers", "print_order", "minority_report_signature"),
+    ("overture_15_negative_votes_2022", "overture_15_2022", "sources/normalized/revoice/overture-15-negative-votes-2022.json", "negative_votes", "print_order", "recorded_negative_vote"),
     ("nae_withdrawal_protest_2022", "nae_withdrawal_protest_2022", "sources/normalized/nae/withdrawal-protest-signers-2022.json", "signers", "print_order", "formal_protest_signature"),
 ]
 for dataset, family, relative, row_key, order_key, evidence_type in roster_specs:
@@ -259,6 +260,47 @@ for dataset, family, relative, row_key, order_key, evidence_type in roster_specs
             office=row.get("office_as_printed"),
             existing_id=row.get("normalized_person_id"),
         )
+
+
+# Human Sexuality AIC committee service. The committee source family is
+# independent of later General Assembly overture actions.
+relative = "sources/normalized/general-assembly/2019-2021-human-sexuality-aic.json"
+aic_data = register_json(relative)
+for index, row in enumerate(aic_data.get("members", []), 1):
+    add_record(
+        dataset="human_sexuality_aic_2019_2021",
+        family="human_sexuality_aic",
+        source_path=relative,
+        locator=f"committee_member:{index}",
+        printed_name=row["name"],
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_official_committee_roster",
+        evidence_type="study_committee_service",
+        presbyteries=[row.get("presbytery")],
+        office=row.get("office"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+# Named authorship, drafting, editorial, and presentation roles are modeled
+# separately from report signership.
+relative = "sources/normalized/general-assembly/2021-2022-sexuality-named-formal-roles.json"
+role_data = register_json(relative)
+for index, row in enumerate(role_data.get("roles", []), 1):
+    add_record(
+        dataset=f"formal_role_{row['topic']}",
+        family=row["source_family"],
+        source_path=relative,
+        locator=f"role:{index}:{row['role']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_or_first_person_primary",
+        completeness="complete_named_roles_in_current_batch",
+        evidence_type=row["evidence_type"],
+        presbyteries=[row.get("presbytery_as_printed")],
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
 
 
 # 2008-2009 named formal-position records. Records from the same General

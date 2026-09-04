@@ -97,8 +97,8 @@
       "topic": "human_sexuality",
       "evidence_class": "study_committee_consensus_participation",
       "path": "sources/normalized/general-assembly/2019-2021-human-sexuality-aic.json",
-      "coverage": "official committee roster; report-position extraction remains a separate future pass",
-      "important_boundary": "Committee membership is not automatically treated as agreement with every later interpretation or use of the report."
+      "coverage": "7-member official roster plus 12 collective Preamble/Twelve-Statement positions; report contains no formal recommendations",
+      "important_boundary": "The report says the Preamble and Twelve Statements summarize the committee’s discussions and convictions, while explicitly declining to endorse every thought/expression in later member essays or bibliography resources."
     },
     {
       "evidence_id": "2021-overture-37-minority-report",
@@ -106,7 +106,7 @@
       "topic": "overture_37_officer_self_description",
       "evidence_class": "signed_formal_report_or_minority_report",
       "path": "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json",
-      "coverage": "28 verified minority-report signers",
+      "coverage": "28 verified minority-report signers plus separately modeled principal authorship/presentation and editorial roles",
       "important_boundary": "Records minority-report signership only."
     },
     {
@@ -115,7 +115,7 @@
       "topic": "overture_15_officer_self_description_and_homosexuality",
       "evidence_class": "signed_formal_report_or_minority_report",
       "path": "sources/normalized/revoice/overture-15-minority-report-signers-2022.json",
-      "coverage": "46 verified minority-report signers",
+      "coverage": "46 verified minority-report signers plus separately modeled presenter and drafting roles",
       "important_boundary": "Records minority-report signership only."
     },
     {
@@ -124,7 +124,7 @@
       "topic": "overture_15_officer_self_description_and_homosexuality",
       "evidence_class": "recorded_vote_or_formal_protest_signature",
       "path": "sources/normalized/revoice/overture-15-negative-votes-2022.json",
-      "coverage": "official recorded negative-vote roster",
+      "coverage": "200 corrected official recorded negative votes: 199 in the 49th GA roster plus TE Danny Morgan added by the 51st GA correction",
       "important_boundary": "A recorded negative vote establishes the vote, not a complete account of the commissioner's rationale."
     },
     {
@@ -135,21 +135,43 @@
       "path": "sources/normalized/nae/withdrawal-protest-signers-2022.json",
       "coverage": "formal protest signer roster",
       "important_boundary": "Protest signership records objection to the PCA withdrawal action and should not be generalized beyond the protest's stated grounds."
+    },
+    {
+      "evidence_id": "2021-overture-37-recorded-negative-votes",
+      "year": 2021,
+      "topic": "overture_37_officer_examination_and_remaining_sin",
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "path": "sources/normalized/general-assembly/2021-overture-37-negative-votes.json",
+      "coverage": "207 recorded negative votes extracted directly from the official 48th GA minutes",
+      "important_boundary": "The immediately preceding 1349-443 tally was the motion to close debate, not the final adoption tally; each named negative vote establishes only the recorded vote on Recommendation 37."
+    },
+    {
+      "evidence_id": "2021-2022-sexuality-named-formal-roles",
+      "year": 2022,
+      "topic": "overture_37_and_overture_15_named_report_roles",
+      "evidence_class": "first_person_issue_statement",
+      "path": "sources/normalized/general-assembly/2021-2022-sexuality-named-formal-roles.json",
+      "coverage": "Trevor Laurence principal author/presenter; Derek Radney substantial editorial contributor; Matthew D. Fender minority presenter; Joe Cristman drafting-committee member",
+      "important_boundary": "Role evidence remains distinct from report signership and is attributed only to the named person and documented role."
+    },
+    {
+      "evidence_id": "2019-2023-sexuality-formal-position-chronology",
+      "year": 2023,
+      "topic": "human_sexuality_and_officer_qualification_chronology",
+      "evidence_class": "committee_membership_only",
+      "path": "sources/normalized/general-assembly/2019-2023-sexuality-formal-position-chronology.json",
+      "coverage": "AIC report, O38 commendation, O37 majority/minority and GA actions, O29, O15 majority/minority and GA actions, and corrected amendment disposition",
+      "important_boundary": "Aggregate vote totals remain event-level evidence and never identify unnamed individual voters."
     }
   ],
   "priority_backlog": [
     {
       "priority": 1,
-      "target": "Human Sexuality AIC report-position extraction and corresponding majority/committee outcomes for Overture 37 and Overture 15",
-      "reason": "These are already central to the graph and should have report-level positions and event outcomes represented symmetrically with existing minority signers."
-    },
-    {
-      "priority": 2,
       "target": "Older major PCA majority/minority study-report families, beginning with Women in the Military, Insider Movements, baptism, paedocommunion, and other reports with named authors/signers",
       "reason": "These provide longitudinal high-specificity evidence and test the schema across issues beyond the current controversies."
     },
     {
-      "priority": 3,
+      "priority": 2,
       "target": "Published individual votes, concurrences, dissents, SJC dissent/concurrence records, and first-person explanations by report authors/signers",
       "reason": "These are the strongest person-specific evidence where the official record actually names the individual action."
     }

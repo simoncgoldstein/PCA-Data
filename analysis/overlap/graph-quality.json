@@ -4,58 +4,64 @@
     "graph_scope": "Confirmed identity-to-dataset bipartite graph plus counts of repository core node classes."
   },
   "nodes": {
-    "person_nodes": 219,
-    "dataset_nodes": 33,
+    "person_nodes": 271,
+    "dataset_nodes": 37,
     "organization_nodes": 21,
     "church_nodes": 1970,
     "presbytery_nodes": 88,
     "event_nodes": 16
   },
   "edges": {
-    "confirmed_identity_dataset_edges": 710,
+    "confirmed_identity_dataset_edges": 900,
     "by_evidence_type": {
+      "first_person_authorship_and_presentation_statement": 1,
+      "first_person_drafting_statement": 1,
       "formal_organization_leadership": 6,
-      "formal_organization_membership": 39,
-      "formal_protest_signature": 171,
+      "formal_organization_membership": 41,
+      "formal_protest_signature": 179,
       "formal_report_concurrence": 17,
       "institutional_role": 6,
       "media_authorship_or_participation": 34,
       "media_participation": 12,
-      "minority_report_signature": 16,
-      "public_letter_signature": 289,
+      "minority_report_signature": 17,
+      "public_letter_signature": 339,
       "publication_contribution": 11,
-      "recorded_negative_vote": 101,
-      "ruf_campus_role_snapshot": 8
+      "recorded_negative_vote": 227,
+      "ruf_campus_role_snapshot": 8,
+      "study_committee_service": 1
     },
     "by_source_tier": {
       "first_party": 52,
-      "first_party_archive": 289,
+      "first_party_archive": 339,
       "official_institutional": 14,
-      "official_primary": 305,
-      "primary_archive": 39,
+      "official_or_first_person_primary": 2,
+      "official_primary": 441,
+      "primary_archive": 41,
       "user_supplied_visual_receipt": 11
     },
-    "distinct_source_paths": 15
+    "distinct_source_paths": 18
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.0982427
+    "value": 0.08975765
   },
   "components": {
     "count": 13,
-    "largest_component_nodes": 240,
+    "largest_component_nodes": 296,
     "isolated_person_nodes": 1
   },
   "quality_gaps": {
-    "unresolved_identity_rows": 2938,
+    "unresolved_identity_rows": 2967,
     "unresolved_by_status": {
-      "ambiguous": 359,
-      "collision": 13,
-      "probable_requires_review": 319,
-      "unmatched": 2247
+      "ambiguous": 398,
+      "collision": 16,
+      "probable_requires_review": 324,
+      "unmatched": 2229
     },
-    "confirmed_edges_missing_specific_event_year": 110,
+    "confirmed_edges_missing_specific_event_year": 229,
     "datasets_without_primary_or_official_tier": [
+      "formal_role_overture_15",
+      "formal_role_overture_37",
       "publication_co-laborers-co-heirs-2019",
       "publication_heal-us-emmanuel-2016",
       "publication_hear-us-emmanuel-2020"
@@ -65,6 +71,7 @@
     "unresolved_historical_or_noncanonical_presbytery_names": [
       "build that wall",
       "columbus metro",
+      "eastern pa",
       "korean southwest orange",
       "korean southwestern",
       "louisiana",

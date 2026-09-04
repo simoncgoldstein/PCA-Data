@@ -738,7 +738,7 @@
       "state_or_region_as_printed": null,
       "country_as_printed": null,
       "presbytery_as_printed": "North Texas Presbytery",
-      "normalized_person_id": "james-pocta",
+      "normalized_person_id": null,
       "details_as_printed": [
         "Human Sexuality AIC Member",
         "New St Peter’s Presbyterian Church"
@@ -988,7 +988,7 @@
       "state_or_region_as_printed": "GA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Metro Atlanta Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "jimmy-agan",
       "details_as_printed": [
         "Pastor",
         "Intown Community Church"
@@ -2941,7 +2941,7 @@
       "state_or_region_as_printed": "GA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Metro Atlanta Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "ewan-kennedy",
       "details_as_printed": [
         "Pastor",
         "Church of the Redeemer"
@@ -3552,7 +3552,7 @@
       "state_or_region_as_printed": "GA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Metro Atlanta Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "scott-armstrong",
       "details_as_printed": [
         "Lead Pastor",
         "City Church-Eastside"
@@ -3598,7 +3598,7 @@
       "state_or_region_as_printed": "OR",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Pacific Northwest Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "shaynor-newsome",
       "details_as_printed": [
         "Pastor",
         "City Church"
@@ -3713,7 +3713,7 @@
       "state_or_region_as_printed": "WA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Pacific Northwest Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-richmon",
       "details_as_printed": [
         "Pastor",
         "Trinity Church"
@@ -5498,7 +5498,7 @@
       "state_or_region_as_printed": null,
       "country_as_printed": null,
       "presbytery_as_printed": "Missouri Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "mike-bobell",
       "details_as_printed": [
         "Pastor",
         "New Life Presbyterian Church",
@@ -6244,7 +6244,7 @@
       "state_or_region_as_printed": "SC",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Palmetto Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "andrew-whitaker",
       "details_as_printed": [
         "Assistant Pastor",
         "Lexington Preabyterian Church"
@@ -6265,7 +6265,7 @@
       "state_or_region_as_printed": "AL",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Evangel Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-odell",
       "details_as_printed": [
         "Covenant Presbyterian Church"
       ],
@@ -6747,7 +6747,7 @@
       "state_or_region_as_printed": "AL",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Evangel Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "charles-johnson",
       "details_as_printed": [
         "Pastor",
         "Red Mountain Church"
@@ -7581,7 +7581,7 @@
       "state_or_region_as_printed": "IL",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Chicago Metro Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "jong-park",
       "details_as_printed": [
         "Pastor",
         "The Redemption Church"
@@ -7604,7 +7604,7 @@
       "state_or_region_as_printed": "CA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "South Coast Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "eric-kapur",
       "details_as_printed": [
         "Pastor",
         "Trinity Presbyterian Church"
@@ -7805,7 +7805,7 @@
       "state_or_region_as_printed": "AL",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Evangel Presbytery",
-      "normalized_person_id": "matt-clegg",
+      "normalized_person_id": null,
       "details_as_printed": [
         "Associate Pastor",
         "Red Mountain Church"
@@ -7986,7 +7986,7 @@
       "state_or_region_as_printed": "GA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Central Georgia Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "elliott-everitt",
       "details_as_printed": [
         "Assistant Pastor",
         "First Presbyterian Church"
@@ -8122,7 +8122,7 @@
       "state_or_region_as_printed": "MO",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Missouri Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "ronald-nelson",
       "details_as_printed": [
         "Old Orchard Presbyterian Church"
       ],
@@ -8640,7 +8640,7 @@
       "state_or_region_as_printed": "AR",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Covenant Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "daniel-anderson",
       "details_as_printed": [
         "Pastor",
         "Central Hope Church"
@@ -9298,7 +9298,7 @@
       "state_or_region_as_printed": "WI",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Wisconsin Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "dan-quakkelaar",
       "details_as_printed": [
         "Pastor",
         "Friend of Sinners Church"
@@ -9342,7 +9342,7 @@
       "state_or_region_as_printed": "PA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Pittsburgh Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "adam-kirkton",
       "details_as_printed": [
         "Covenant Community Presbyterian"
       ],
@@ -9493,7 +9493,7 @@
       "state_or_region_as_printed": "OH",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Ohio Valley Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "ryan-zhang",
       "details_as_printed": [
         "Assistant Pastor",
         "New City Presbyterian Church"
@@ -9651,7 +9651,7 @@
       "state_or_region_as_printed": "TN",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Tennessee Valley Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "luke-banner",
       "details_as_printed": [
         "Lead Pastor",
         "Mosaic Fellowship"
@@ -9841,7 +9841,7 @@
       "state_or_region_as_printed": "OR",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Pacific Northwest Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "evin-langley",
       "details_as_printed": [
         "City Church"
       ],
@@ -10188,7 +10188,7 @@
       "state_or_region_as_printed": "IL",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Chicago Metro Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "nick-owens",
       "details_as_printed": [
         "Associate Pastor",
         "Trinity Presbyterian Church"
@@ -10295,7 +10295,7 @@
       "state_or_region_as_printed": null,
       "country_as_printed": null,
       "presbytery_as_printed": "Korean Capital Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "john-chung",
       "details_as_printed": [],
       "source_locator": "signature #466"
     },
@@ -10510,7 +10510,7 @@
       "state_or_region_as_printed": "MO",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Missouri Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "josiah-green",
       "details_as_printed": [
         "Pastor",
         "Crossroads Presbyterian Fellowship"
@@ -11241,7 +11241,7 @@
       "state_or_region_as_printed": "CA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Northern California Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "matthew-mobley",
       "details_as_printed": [
         "Assistant Pastor",
         "Valley Springs Presbyterian Church"
@@ -11849,7 +11849,7 @@
       "state_or_region_as_printed": "DE",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Heritage Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "sam-desocio",
       "details_as_printed": [
         "Lead Pastor",
         "Good News Church"
@@ -12282,7 +12282,7 @@
       "state_or_region_as_printed": "OH",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Ohio Valley Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "ben-frade",
       "details_as_printed": [
         "New City Presbyterian Church"
       ],
@@ -14694,7 +14694,7 @@
       "state_or_region_as_printed": "DC",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Potomac Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "joel-littlepage",
       "details_as_printed": [
         "Assistant Pastor",
         "Grace DC"
@@ -14912,7 +14912,7 @@
       "state_or_region_as_printed": "GA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Metro Atlanta Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "daniel-iverson",
       "details_as_printed": [
         "Pastor",
         "Grace Shalom Church"
@@ -15768,7 +15768,7 @@
       "state_or_region_as_printed": "ID",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Pacific Northwest Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "brian-frey",
       "details_as_printed": [
         "Pastor and Church Planter",
         "Boise Presbyterian Church"
@@ -16101,7 +16101,7 @@
       "state_or_region_as_printed": "GA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Metro Atlanta Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "jason-kriaski",
       "details_as_printed": [
         "Youth Pastor",
         "Atlanta Westside Presbyterian Church"

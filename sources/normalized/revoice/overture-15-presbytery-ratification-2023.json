@@ -5,20 +5,31 @@
     "primary_source": "https://www.pcahistory.org/pca/ga/50th_pcaga_2023.pdf",
     "local_pdf": "sources/raw/general-assembly/2023/50th_pcaga_2023.pdf",
     "local_pdf_text": "sources/raw/general-assembly/2023/50th_pcaga_2023.txt",
-    "official_totals": {
-      "for": 39,
-      "against": 29,
-      "presbyteries": 88,
-      "reporting": 68,
-      "two_thirds_needed": 59
-    },
     "result": "not_ratified",
     "scope_note": "These are presbytery-level actions and must not be attributed to every minister or member in a presbytery.",
     "transcription_note": "Spacing artifacts in North Texas, Piedmont Triad, South Texas, Tennessee Valley, and Tidewater are preserved in presbytery_as_printed and mapped explicitly to canonical IDs.",
     "unresolved_presbyteries": [
       "Columbus Metro"
     ],
-    "unresolved_note": "Columbus Metro appears in the 2023 official table but is absent from the repository's 2026 current-presbytery backbone; it remains unresolved rather than being silently mapped to a successor."
+    "unresolved_note": "Columbus Metro appears in the 2023 official table but is absent from the repository's 2026 current-presbytery backbone; it remains unresolved rather than being silently mapped to a successor.",
+    "published_50th_ga_totals": {
+      "for": 39,
+      "against": 29,
+      "presbyteries": 88,
+      "reporting": 68,
+      "two_thirds_needed": 59
+    },
+    "status": "superseded_by_51st_ga_correction",
+    "superseded_by": "51st General Assembly Corrections to Previous Minutes, printed pages 1217-1219",
+    "correction_source": "https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf",
+    "corrected_official_totals": {
+      "for": 48,
+      "against": 32,
+      "presbyteries": 88,
+      "reporting": 80,
+      "two_thirds_needed": 59
+    },
+    "correction_note": "The 51st GA states that the 50th GA published tallies omitted the onsite revision reflecting the most up-to-date presbytery votes. The 88 per-presbytery rows below remain a preserved transcription of the superseded 50th-GA published table, not the corrected final table."
   },
   "presbytery_votes": [
     {

@@ -44,7 +44,7 @@
       "print_order": 4,
       "pdf_page": 82,
       "printed_page": 80,
-      "normalized_person_id": null
+      "normalized_person_id": "charles-anderson"
     },
     {
       "office_as_printed": "TE",
@@ -359,7 +359,7 @@
       "print_order": 39,
       "pdf_page": 83,
       "printed_page": 81,
-      "normalized_person_id": "james-pocta"
+      "normalized_person_id": null
     },
     {
       "office_as_printed": "TE",
@@ -449,7 +449,7 @@
       "print_order": 49,
       "pdf_page": 83,
       "printed_page": 81,
-      "normalized_person_id": null
+      "normalized_person_id": "clay-warden"
     },
     {
       "office_as_printed": "TE",
@@ -503,7 +503,7 @@
       "print_order": 55,
       "pdf_page": 84,
       "printed_page": 82,
-      "normalized_person_id": null
+      "normalized_person_id": "joshua-burdette"
     },
     {
       "office_as_printed": "TE",
@@ -530,7 +530,7 @@
       "print_order": 58,
       "pdf_page": 84,
       "printed_page": 82,
-      "normalized_person_id": null
+      "normalized_person_id": "ryan-laughlin"
     },
     {
       "office_as_printed": "TE",
@@ -773,7 +773,7 @@
       "print_order": 85,
       "pdf_page": 84,
       "printed_page": 82,
-      "normalized_person_id": null
+      "normalized_person_id": "paul-may"
     },
     {
       "office_as_printed": "TE",
@@ -1142,7 +1142,7 @@
       "print_order": 126,
       "pdf_page": 85,
       "printed_page": 83,
-      "normalized_person_id": null
+      "normalized_person_id": "jason-kang"
     },
     {
       "office_as_printed": "TE",
