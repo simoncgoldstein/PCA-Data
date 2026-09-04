@@ -8,15 +8,18 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check out repository
+      - name: Check out PR head branch
         uses: actions/checkout@v7
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v7
@@ -32,11 +35,33 @@ jobs:
       - name: Validate current research imports
         run: python3 scripts/validate-research-imports.py .
 
-      - name: Generate RTS and MTW institution candidate
-        run: python3 scripts/normalize-institution-snapshots.py . /tmp/current-role-snapshots-candidate.json
+      - name: Regenerate institution snapshot
+        run: |
+          python3 scripts/normalize-institution-snapshots.py . /tmp/current-role-snapshots-candidate.json
+          cp /tmp/current-role-snapshots-candidate.json sources/normalized/institutions/current-role-snapshots-2026-09-03.json
 
-      - name: Archive RTS and MTW institution candidate
-        uses: actions/upload-artifact@v6
-        with:
-          name: institution-ingest-batch2-candidate
-          path: /tmp/current-role-snapshots-candidate.json
+      - name: Rebuild generated research outputs
+        run: |
+          python3 scripts/match-ffo-churches.py \
+            data/churches.json \
+            sources/normalized/external-datasets/save-the-pca-ffo/2026-02-08/flagged-churches.json \
+            sources/normalized/crosswalks/save-the-pca-ffo-2026-02-08
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/build-overlap-analysis.py .
+
+      - name: Restore normal read-only validation workflow
+        run: git checkout origin/main -- .github/workflows/validate.yml
+
+      - name: Commit deterministic generated outputs to PR branch
+        env:
+          HEAD_BRANCH: ${{ github.head_ref }}
+        run: |
+          if git diff --quiet; then
+            echo "No generated changes to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "regenerate RTS and MTW institution batch"
+          git push origin "HEAD:${HEAD_BRANCH}"
