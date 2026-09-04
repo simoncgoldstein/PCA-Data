@@ -1,0 +1,238 @@
+name: Finalize formal position batch 2
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    if: github.head_ref == 'research/formal-position-mining-batch2-2026-09-04'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out PR branch
+        uses: actions/checkout@v7
+        with:
+          ref: research/formal-position-mining-batch2-2026-09-04
+          fetch-depth: 0
+
+      - name: Apply official corrections and formal-role evidence
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import json
+
+          def load(path):
+              return json.loads(Path(path).read_text(encoding='utf-8'))
+          def write(path, value):
+              Path(path).write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          # 51st GA correction to the 49th GA Overture 15 negative-vote roster.
+          o15_path = 'sources/normalized/revoice/overture-15-negative-votes-2022.json'
+          o15 = load(o15_path)
+          votes = o15['negative_votes']
+          if any(v.get('name_as_printed') == 'Danny Morgan' for v in votes):
+              raise SystemExit('Danny Morgan correction already present unexpectedly')
+          if len(votes) != 199:
+              raise SystemExit(f'Expected 199 original O15 negative votes, found {len(votes)}')
+          votes.append({
+              'office_as_printed': 'TE',
+              'first_name_as_printed': 'Danny',
+              'last_name_as_printed': 'Morgan',
+              'name_as_printed': 'Danny Morgan',
+              'presbytery_as_printed': 'South Coast',
+              'print_order': 200,
+              'pdf_page': None,
+              'printed_page': None,
+              'correction_source': 'https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf',
+              'correction_printed_page': 1217,
+              'correction_note': '51st GA Corrections to the Minutes of the 49th General Assembly: name inadvertently left off Overture 15 negative-vote roster.',
+              'normalized_person_id': None,
+          })
+          meta = o15['metadata']
+          meta['expected_rows'] = 200
+          meta['parsed_rows'] = 200
+          meta['original_49th_ga_rows'] = 199
+          meta['correction_source'] = 'https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf'
+          meta['correction_summary'] = 'The 51st GA minutes add TE Danny Morgan, South Coast, whose name was inadvertently omitted from the 49th GA Overture 15 negative-vote roster.'
+          write(o15_path, o15)
+
+          # Correct the constitutional-amendment lifecycle and vote-count metadata.
+          chronology_path = 'sources/normalized/general-assembly/2019-2023-sexuality-formal-position-chronology.json'
+          chronology = load(chronology_path)
+          events = {e['event_id']: e for e in chronology['events']}
+          o15_action = events['2022-overture-15-assembly-action']
+          o15_action['published_negative_vote_count'] = 200
+          o15_action['negative_vote_correction'] = {
+              'original_49th_ga_roster_count': 199,
+              'corrected_official_count': 200,
+              'added_name_as_printed': 'TE Danny Morgan',
+              'presbytery_as_printed': 'South Coast',
+              'correction_source': 'https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf',
+              'correction_printed_page': 1217
+          }
+          lifecycle = events['2023-overture-15-presbytery-disposition']
+          lifecycle['official_corrected_presbytery_tally'] = {'for': 48, 'against': 32}
+          lifecycle['number_of_presbyteries'] = 88
+          lifecycle['number_reporting'] = 80
+          lifecycle['two_thirds_approval_threshold'] = 59
+          lifecycle['superseded_50th_ga_printed_tally'] = {'for': 39, 'against': 29, 'number_reporting': 68}
+          lifecycle['correction_note'] = 'The 51st GA Corrections to Previous Minutes states that the 50th GA published tallies omitted the onsite revision reflecting the most up-to-date presbytery votes. The corrected official Overture 15 tally is 48-32 with 80 presbyteries reporting; 59 affirmative presbyteries were required.'
+          lifecycle['primary_source'] = 'https://www.pcahistory.org/pca/ga/51st_pcaga_2024.pdf'
+          write(chronology_path, chronology)
+
+          roles_path = 'sources/normalized/general-assembly/2021-2022-sexuality-named-formal-roles.json'
+          roles = {
+              'metadata': {
+                  'created_on': '2026-09-04',
+                  'purpose': 'Preserve named authorship, drafting, editorial, and presentation roles separately from report signership.',
+                  'ideological_weight': 0,
+                  'identity_rule': 'A named formal role establishes only the documented role and associated report action; it does not expand the source beyond its stated scope.'
+              },
+              'roles': [
+                  {
+                      'year': 2021,
+                      'topic': 'overture_37',
+                      'name_as_printed': 'Trevor Laurence',
+                      'office_as_printed': 'RE',
+                      'presbytery_as_printed': 'Piedmont Triad',
+                      'role': 'principal_author_and_presenter',
+                      'evidence_type': 'first_person_authorship_and_presentation_statement',
+                      'source_family': 'laurence_o37_first_person_article',
+                      'source': 'https://mereorthodoxy.com/pca-overture-37-minority-report/',
+                      'normalized_person_id': 'trevor-laurence'
+                  },
+                  {
+                      'year': 2021,
+                      'topic': 'overture_37',
+                      'name_as_printed': 'Derek Radney',
+                      'office_as_printed': 'TE',
+                      'presbytery_as_printed': 'Piedmont Triad',
+                      'role': 'substantial_editorial_contributor',
+                      'evidence_type': 'credited_by_principal_author',
+                      'source_family': 'laurence_o37_first_person_article',
+                      'source': 'https://mereorthodoxy.com/pca-overture-37-minority-report/',
+                      'normalized_person_id': None
+                  },
+                  {
+                      'year': 2022,
+                      'topic': 'overture_15',
+                      'name_as_printed': 'Matthew D. Fender',
+                      'office_as_printed': 'RE',
+                      'presbytery_as_printed': 'James River',
+                      'role': 'minority_report_presenter',
+                      'evidence_type': 'official_journal_presentation_record',
+                      'source_family': 'overture_15_2022',
+                      'source': 'https://www.pcahistory.org/pca/ga/49th_pcaga_2022.pdf',
+                      'normalized_person_id': None
+                  },
+                  {
+                      'year': 2022,
+                      'topic': 'overture_15',
+                      'name_as_printed': 'Joe Cristman',
+                      'office_as_printed': 'TE',
+                      'presbytery_as_printed': 'Chicago Metro',
+                      'role': 'drafting_committee_member',
+                      'evidence_type': 'first_person_drafting_statement',
+                      'source_family': 'cristman_o15_first_person_article',
+                      'source': 'https://www.redeemerpresbyterianchurch.com/blog/post/one-pastors-thoughts-on-this-years-overtures',
+                      'normalized_person_id': None
+                  }
+              ]
+          }
+          write(roles_path, roles)
+
+          # Update the formal-position index symmetrically.
+          index_path = 'sources/normalized/general-assembly/formal-position-evidence-index.json'
+          index = load(index_path)
+          indexed = {r['evidence_id']: r for r in index['normalized_position_sources']}
+          indexed['2019-2021-human-sexuality-aic']['coverage'] = '7-member official roster plus 12 collective Preamble/Twelve-Statement positions; report contains no formal recommendations'
+          indexed['2019-2021-human-sexuality-aic']['important_boundary'] = 'The report says the Preamble and Twelve Statements summarize the committee’s discussions and convictions, while explicitly declining to endorse every thought/expression in later member essays or bibliography resources.'
+          indexed['2021-overture-37-minority-report']['coverage'] = '28 verified minority-report signers plus separately modeled principal authorship/presentation and editorial roles'
+          indexed['2022-overture-15-minority-report']['coverage'] = '46 verified minority-report signers plus separately modeled presenter and drafting roles'
+          indexed['2022-overture-15-recorded-negative-votes']['coverage'] = '200 corrected official recorded negative votes: 199 in the 49th GA roster plus TE Danny Morgan added by the 51st GA correction'
+          new_entries = [
+              {
+                  'evidence_id': '2021-overture-37-recorded-negative-votes',
+                  'year': 2021,
+                  'topic': 'overture_37_officer_examination_and_remaining_sin',
+                  'evidence_class': 'recorded_vote_or_formal_protest_signature',
+                  'path': 'sources/normalized/general-assembly/2021-overture-37-negative-votes.json',
+                  'coverage': '207 recorded negative votes extracted directly from the official 48th GA minutes',
+                  'important_boundary': 'The immediately preceding 1349-443 tally was the motion to close debate, not the final adoption tally; each named negative vote establishes only the recorded vote on Recommendation 37.'
+              },
+              {
+                  'evidence_id': '2021-2022-sexuality-named-formal-roles',
+                  'year': 2022,
+                  'topic': 'overture_37_and_overture_15_named_report_roles',
+                  'evidence_class': 'first_person_issue_statement',
+                  'path': roles_path,
+                  'coverage': 'Trevor Laurence principal author/presenter; Derek Radney substantial editorial contributor; Matthew D. Fender minority presenter; Joe Cristman drafting-committee member',
+                  'important_boundary': 'Role evidence remains distinct from report signership and is attributed only to the named person and documented role.'
+              },
+              {
+                  'evidence_id': '2019-2023-sexuality-formal-position-chronology',
+                  'year': 2023,
+                  'topic': 'human_sexuality_and_officer_qualification_chronology',
+                  'evidence_class': 'committee_membership_only',
+                  'path': chronology_path,
+                  'coverage': 'AIC report, O38 commendation, O37 majority/minority and GA actions, O29, O15 majority/minority and GA actions, and corrected amendment disposition',
+                  'important_boundary': 'Aggregate vote totals remain event-level evidence and never identify unnamed individual voters.'
+              }
+          ]
+          existing_ids = {r['evidence_id'] for r in index['normalized_position_sources']}
+          index['normalized_position_sources'].extend(r for r in new_entries if r['evidence_id'] not in existing_ids)
+          index['priority_backlog'] = [r for r in index['priority_backlog'] if r.get('priority') != 1]
+          for i, row in enumerate(index['priority_backlog'], 1):
+              row['priority'] = i
+          write(index_path, index)
+
+          # Identity integration: same controversy/Assembly = same source family.
+          builder_path = Path('scripts/build-person-crosswalk.py')
+          text = builder_path.read_text(encoding='utf-8')
+          text = text.replace(
+              '("overture_37_minority_2021", "overture_37_minority_2021", "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json", "signers", "print_order", "minority_report_signature"),',
+              '("overture_37_minority_2021", "overture_37_2021", "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json", "signers", "print_order", "minority_report_signature"),\n    ("overture_37_negative_votes_2021", "overture_37_2021", "sources/normalized/general-assembly/2021-overture-37-negative-votes.json", "negative_votes", "print_order", "recorded_negative_vote"),'
+          )
+          text = text.replace(
+              '("overture_15_minority_2022", "overture_15_minority_2022", "sources/normalized/revoice/overture-15-minority-report-signers-2022.json", "signers", "print_order", "minority_report_signature"),\n    ("overture_15_negative_votes_2022", "overture_15_negative_votes_2022", "sources/normalized/revoice/overture-15-negative-votes-2022.json", "negative_votes", "print_order", "recorded_negative_vote"),',
+              '("overture_15_minority_2022", "overture_15_2022", "sources/normalized/revoice/overture-15-minority-report-signers-2022.json", "signers", "print_order", "minority_report_signature"),\n    ("overture_15_negative_votes_2022", "overture_15_2022", "sources/normalized/revoice/overture-15-negative-votes-2022.json", "negative_votes", "print_order", "recorded_negative_vote"),'
+          )
+          anchor = '# 2008-2009 named formal-position records.'
+          if 'human_sexuality_aic_2019_2021' not in text:
+              block = '''# Human Sexuality AIC committee service. The committee source family is\n# independent of later General Assembly overture actions.\nrelative = "sources/normalized/general-assembly/2019-2021-human-sexuality-aic.json"\naic_data = register_json(relative)\nfor index, row in enumerate(aic_data.get("members", []), 1):\n    add_record(\n        dataset="human_sexuality_aic_2019_2021",\n        family="human_sexuality_aic",\n        source_path=relative,\n        locator=f"committee_member:{index}",\n        printed_name=row["name"],\n        row=row,\n        source_tier="official_primary",\n        completeness="complete_official_committee_roster",\n        evidence_type="study_committee_service",\n        presbyteries=[row.get("presbytery")],\n        office=row.get("office"),\n        existing_id=row.get("normalized_person_id"),\n    )\n\n# Named authorship, drafting, editorial, and presentation roles are modeled\n# separately from report signership.\nrelative = "sources/normalized/general-assembly/2021-2022-sexuality-named-formal-roles.json"\nrole_data = register_json(relative)\nfor index, row in enumerate(role_data.get("roles", []), 1):\n    add_record(\n        dataset=f"formal_role_{row['topic']}",\n        family=row["source_family"],\n        source_path=relative,\n        locator=f"role:{index}:{row['role']}",\n        printed_name=row["name_as_printed"],\n        row=row,\n        source_tier="official_or_first_person_primary",\n        completeness="complete_named_roles_in_current_batch",\n        evidence_type=row["evidence_type"],\n        presbyteries=[row.get("presbytery_as_printed")],\n        office=row.get("office_as_printed"),\n        existing_id=row.get("normalized_person_id"),\n    )\n\n\n'''
+              text = text.replace(anchor, block + anchor, 1)
+          builder_path.write_text(text, encoding='utf-8')
+
+          # Extend permanent validation with Batch 2 invariants.
+          validator_path = Path('scripts/validate-formal-position-evidence.py')
+          v = validator_path.read_text(encoding='utf-8')
+          load_anchor = 'batch1 = json.loads(batch1_path.read_text(encoding="utf-8"))\n'
+          if 'batch2_chronology_path' not in v:
+              load_block = '''batch2_chronology_path = root / "sources/normalized/general-assembly/2019-2023-sexuality-formal-position-chronology.json"\naic_path = root / "sources/normalized/general-assembly/2019-2021-human-sexuality-aic.json"\no37_votes_path = root / "sources/normalized/general-assembly/2021-overture-37-negative-votes.json"\no15_votes_path = root / "sources/normalized/revoice/overture-15-negative-votes-2022.json"\nformal_roles_path = root / "sources/normalized/general-assembly/2021-2022-sexuality-named-formal-roles.json"\nbatch2_chronology = json.loads(batch2_chronology_path.read_text(encoding="utf-8"))\naic = json.loads(aic_path.read_text(encoding="utf-8"))\no37_votes = json.loads(o37_votes_path.read_text(encoding="utf-8"))\no15_votes = json.loads(o15_votes_path.read_text(encoding="utf-8"))\nformal_roles = json.loads(formal_roles_path.read_text(encoding="utf-8"))\n'''
+              v = v.replace(load_anchor, load_anchor + load_block, 1)
+          check_anchor = 'hierarchy = {row.get("evidence_class"): row for row in index.get("evidence_hierarchy", [])}\n'
+          if '# Batch 2: Human Sexuality / O37 / O15.' not in v:
+              checks = '''# Batch 2: Human Sexuality / O37 / O15.\nif len(aic.get("members", [])) != 7 or aic.get("member_count") != 7:\n    raise SystemExit("Human Sexuality AIC: expected 7 members")\nif aic.get("collective_position_count") != 12 or len(aic.get("collective_report_positions", [])) != 12:\n    raise SystemExit("Human Sexuality AIC: expected 12 collective positions")\nif aic.get("metadata", {}).get("formal_recommendations") is not False:\n    raise SystemExit("Human Sexuality AIC: report must remain recorded as having no formal recommendations")\nif aic.get("metadata", {}).get("ideological_weight") != 0:\n    raise SystemExit("Human Sexuality AIC: ideological_weight must remain 0")\n\nif o37_votes.get("metadata", {}).get("parsed_rows") != 207 or len(o37_votes.get("negative_votes", [])) != 207:\n    raise SystemExit("Overture 37: expected 207 official recorded negative votes")\nif "1349-443" not in o37_votes.get("metadata", {}).get("procedural_vote_guardrail", ""):\n    raise SystemExit("Overture 37: close-debate vote guardrail missing")\nif o37_votes.get("metadata", {}).get("ideological_weight") != 0:\n    raise SystemExit("Overture 37 votes: ideological_weight must remain 0")\n\nif o15_votes.get("metadata", {}).get("parsed_rows") != 200 or len(o15_votes.get("negative_votes", [])) != 200:\n    raise SystemExit("Overture 15: expected corrected total of 200 recorded negative votes")\ndanny = [r for r in o15_votes.get("negative_votes", []) if r.get("name_as_printed") == "Danny Morgan"]\nif len(danny) != 1 or danny[0].get("presbytery_as_printed") != "South Coast":\n    raise SystemExit("Overture 15: 51st GA Danny Morgan correction missing")\n\nchron = {e.get("event_id"): e for e in batch2_chronology.get("events", [])}\nif chron["2021-overture-37-overtures-committee-majority"].get("committee_vote") != {"for": 82, "against": 43, "abstain": 1}:\n    raise SystemExit("Overture 37: committee vote drift")\nif chron["2021-overture-37-assembly-action"].get("minority_substitute_vote") != {"for": 617, "against": 1209}:\n    raise SystemExit("Overture 37: minority substitute vote drift")\nif chron["2021-overture-37-assembly-action"].get("final_affirmative_vote") != {"for": 1130, "against": 692}:\n    raise SystemExit("Overture 37: final adoption tally drift")\nif chron["2022-overture-29-overtures-committee-and-ga"].get("assembly_vote") != {"for": 1922, "against": 200}:\n    raise SystemExit("Overture 29: Assembly vote drift")\nif chron["2022-overture-15-overtures-committee-majority"].get("committee_vote") != {"for": 80, "against": 47}:\n    raise SystemExit("Overture 15: committee majority vote drift")\nif chron["2022-overture-15-assembly-action"].get("minority_becomes_main_motion_vote") != {"for": 1094, "against": 1044}:\n    raise SystemExit("Overture 15: minority-becomes-main-motion tally drift")\nif chron["2022-overture-15-assembly-action"].get("final_affirmative_vote") != {"for": 1167, "against": 978}:\n    raise SystemExit("Overture 15: final adoption tally drift")\nlifecycle = chron["2023-overture-15-presbytery-disposition"]\nif lifecycle.get("official_corrected_presbytery_tally") != {"for": 48, "against": 32}:\n    raise SystemExit("Overture 15: corrected presbytery tally must be 48-32")\nif lifecycle.get("number_reporting") != 80 or lifecycle.get("two_thirds_approval_threshold") != 59:\n    raise SystemExit("Overture 15: corrected presbytery reporting/threshold drift")\nif lifecycle.get("superseded_50th_ga_printed_tally") != {"for": 39, "against": 29, "number_reporting": 68}:\n    raise SystemExit("Overture 15: superseded 50th GA tally guardrail missing")\n\nroles_by_name = {r.get("name_as_printed"): r for r in formal_roles.get("roles", [])}\nfor name, role in {"Trevor Laurence":"principal_author_and_presenter", "Derek Radney":"substantial_editorial_contributor", "Matthew D. Fender":"minority_report_presenter", "Joe Cristman":"drafting_committee_member"}.items():\n    if roles_by_name.get(name, {}).get("role") != role:\n        raise SystemExit(f"formal roles: missing {name} / {role}")\nif formal_roles.get("metadata", {}).get("ideological_weight") != 0:\n    raise SystemExit("formal roles: ideological_weight must remain 0")\n\n'''
+              v = v.replace(check_anchor, checks + check_anchor, 1)
+          validator_path.write_text(v, encoding='utf-8')
+          PY
+
+      - name: Rebuild identity and overlap outputs
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/build-overlap-analysis.py .
+          python3 scripts/validate-formal-position-evidence.py .
+          python3 scripts/validate-research-imports.py .
+
+      - name: Remove one-time workflow and commit exact generated state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git rm .github/workflows/finalize-formal-position-batch2.yml
+          git add scripts/build-person-crosswalk.py scripts/validate-formal-position-evidence.py data/people.json sources/normalized analysis/overlap
+          git status --short
+          git commit -m 'Integrate Human Sexuality and Overture formal positions'
+          git push origin HEAD:research/formal-position-mining-batch2-2026-09-04
