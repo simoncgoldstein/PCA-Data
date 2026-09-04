@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "dataset_id": "amr_2026_organizational_theological_vision",
+    "organization": "Alliance for Mission & Renewal",
+    "source_family": "amr_board_organizational_vision_2026",
+    "source_type": "first_party_board_statements",
+    "normalized_on": "2026-09-04",
+    "ideological_weight": 0,
+    "modeling_rule": "Record only positions explicitly presented by the AMR Board as organizational commitments or diagnoses. These are organization-level positions, not inferred positions of every AMR member, contributor, participant, or affiliated person.",
+    "copyright_boundary": "Normalized records contain bounded factual paraphrases and section locators, not reproduced article text."
+  },
+  "sources": [
+    {
+      "source_id": "amr-board-confessional-missional-center-2026-04-14",
+      "title": "Toward Recovering the Confessional – Missional Center of the PCA",
+      "author_as_printed": "The Board of AMR",
+      "published_on": "2026-04-14",
+      "url": "https://a4mr.org/toward-recovering-the-confessional-missional-center-of-the-pca/"
+    },
+    {
+      "source_id": "amr-board-theological-vision-2026-04-29",
+      "title": "Theological Vision: The Alliance for Mission and Renewal",
+      "author_as_printed": "The Board of AMR",
+      "published_on": "2026-04-29",
+      "url": "https://a4mr.org/theological-vision-the-alliance-for-mission-and-renewal/"
+    }
+  ],
+  "positions": [
+    {
+      "position_id": "amr-org-2026-biblical-authority",
+      "organization_id": "amr",
+      "topic": "biblical_authority_and_conscience",
+      "evidence_class": "direct_organizational_board_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_inerrant_scripture_and_oppose_extra_biblical_constraints",
+      "summary": "AMR's Theological Vision submits to Scripture as the holy and inerrant, infallible rule of faith and practice. It explicitly rejects both progressive drift that subtracts from Scripture and forms of fundamentalist perfectionism or extrabiblical constraint that bind conscience where Scripture does not.",
+      "source_ids": ["amr-board-theological-vision-2026-04-29"],
+      "source_locators": ["Identity: Biblical"],
+      "important_boundary": "This is an explicit AMR Board commitment. It does not determine how every disputed application of Scripture should be resolved.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-org-2026-reformed-subscription",
+      "organization_id": "amr",
+      "topic": "westminster_subscription_and_forbearance",
+      "evidence_class": "direct_organizational_board_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_system_subscription_between_substance_and_strict_subscription",
+      "summary": "AMR receives the Westminster Standards as containing the system of doctrine taught in Scripture, emphasizes the riches of the broader Reformed tradition, and calls for mutual forbearance on truths and forms where faithful men may differ. It explicitly rejects both substance subscription as too lax and strict subscription as too narrow.",
+      "source_ids": ["amr-board-theological-vision-2026-04-29"],
+      "source_locators": ["Identity: Reformed"],
+      "important_boundary": "The source describes AMR's desired subscription posture; it does not specify the permissibility of every possible exception to the Standards.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-org-2026-presbyterian-process",
+      "organization_id": "amr",
+      "topic": "presbyterian_polity_and_discipline",
+      "evidence_class": "direct_organizational_board_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_constitutional_presbyterian_process_and_oppose_mob_adjudication",
+      "summary": "AMR commits to the inherited Presbyterian institution, discipline, and government of the PCA and to pursuing purity, peace, and unity through orderly constitutional processes. It rejects divisive substitutes such as empty proceduralism and mob-like adjudication.",
+      "source_ids": ["amr-board-theological-vision-2026-04-29"],
+      "source_locators": ["Identity: Presbyterian"],
+      "important_boundary": "Criticism of proceduralism does not amount to rejection of church courts or constitutional process; the statement expressly affirms those structures.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-org-2026-elders-and-whole-body-ministry",
+      "organization_id": "amr",
+      "topic": "male_eldership_and_whole_body_ministry",
+      "evidence_class": "direct_organizational_board_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_male_eldership_and_gifts_of_all_members",
+      "summary": "AMR states that Christ pastors his church through carefully ordained elders described as godly men, while also committing to ministry structures that encourage all members to exercise spiritual gifts. It explicitly rejects both egalitarianism that erases Christ-ordained order and clericalism that devalues whole-congregation ministry.",
+      "source_ids": ["amr-board-theological-vision-2026-04-29"],
+      "source_locators": ["Mission: Christ-Shaped Elders", "Mission: Christ-Filled Ministry"],
+      "important_boundary": "The statement explicitly affirms male elders but does not in this section define the ordained diaconate or every permissible non-elder role.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-org-2026-regulated-adapted-worship",
+      "organization_id": "amr",
+      "topic": "regulative_principle_and_local_worship_adaptation",
+      "evidence_class": "direct_organizational_board_statement",
+      "position_specificity": "very_high",
+      "stance": "affirm_regulated_worship_with_contextual_adaptation_and_scriptural_freedom",
+      "summary": "AMR commits to worship conforming to Christ's instructions and centered on the ordinary means of grace: Word, sacrament, and prayer. It also states that these means should be appropriately adapted to particular local gatherings through the gifts of Christ's people under officer authority, opposing both unregulated worship elements and restrictions that bind where Scripture gives freedom.",
+      "source_ids": ["amr-board-theological-vision-2026-04-29"],
+      "source_locators": ["Mission: Christ-Saturated Worship"],
+      "important_boundary": "The statement affirms regulation by Scripture and officer authority while also asserting contextual freedom. It does not enumerate every permissible participant or circumstance.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-org-2026-confessional-missional-big-tent",
+      "organization_id": "amr",
+      "topic": "pca_confessional_missional_breadth",
+      "evidence_class": "direct_organizational_board_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_confessional_missional_big_tent_and_resist_unnecessary_narrowing",
+      "summary": "AMR's April board statement argues that confessional seriousness and missional breadth belong together and describes its desired PCA as confessionally faithful and big-tent confident. It resists unnecessary tent-tightening and the elevation of prudential or secondary judgments into constitutional identity markers beyond what AMR believes the standards require.",
+      "source_ids": ["amr-board-confessional-missional-center-2026-04-14"],
+      "source_locators": ["Our Present Need for Renewal", "Why Renewal Requires a Center Weight"],
+      "important_boundary": "AMR presents this as preservation of confessional fidelity with Presbyterian breadth, not as doctrinal minimalism or indifference to constitutional questions.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-org-2026-political-tribalism-christian-nationalism",
+      "organization_id": "amr",
+      "topic": "political_tribalism_and_christian_nationalism",
+      "evidence_class": "direct_organizational_board_statement",
+      "position_specificity": "high",
+      "stance": "critical_of_political_tribalism_and_forms_of_christian_nationalism",
+      "summary": "AMR's board expresses concern that political instincts, fear, reaction, and tribal energy can improperly govern ecclesial life. It also criticizes forms of Christian nationalism that bind Christian identity too closely to national identity, political imagination, or cultural nostalgia and thereby risk confusing God's kingdom with political projects.",
+      "source_ids": ["amr-board-confessional-missional-center-2026-04-14"],
+      "source_locators": ["Our Present Need for Renewal"],
+      "important_boundary": "The statement criticizes specified forms and tendencies of Christian nationalism; it does not define or reject every use of the term or every Christian political theology.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "amr-org-2026-women-minorities-trust-concerns",
+      "organization_id": "amr",
+      "topic": "women_minority_experience_and_denominational_trust",
+      "evidence_class": "direct_organizational_board_statement",
+      "position_specificity": "high",
+      "stance": "call_for_attention_to_women_and_minority_concerns_and_rebuilding_trust",
+      "summary": "AMR's board identifies concerns reported by women serving in the church about being treated with suspicion rather than as co-laborers and concerns reported by minority members about racially insensitive words, actions, and dismissal of their experiences. It treats these reports as part of a broader denominational trust problem requiring relational and institutional renewal.",
+      "source_ids": ["amr-board-confessional-missional-center-2026-04-14"],
+      "source_locators": ["Our Present Need for Renewal"],
+      "important_boundary": "This records the Board's diagnosis and response posture. It does not independently verify every underlying reported incident or assign fault to unnamed people.",
+      "ideological_weight": 0
+    }
+  ]
+}
