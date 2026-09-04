@@ -115,6 +115,9 @@ jobs:
       - name: Verify AMR organizational vision boundaries
         run: python3 scripts/validate-amr-organizational-vision.py .
 
+      - name: Verify National Partnership organizing-action boundaries
+        run: python3 scripts/validate-national-partnership-organizing-actions.py .
+
       - name: Rebuild generated research outputs
         run: |
           python3 scripts/match-ffo-churches.py \
