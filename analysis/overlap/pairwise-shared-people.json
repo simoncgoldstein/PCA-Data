@@ -930,16 +930,6 @@
           ]
         },
         {
-          "canonical_person_id": "mike-mclaughlin",
-          "name": "Mike McLaughlin",
-          "dataset_a_locators": [
-            "signature:244"
-          ],
-          "dataset_b_locators": [
-            "signature:262"
-          ]
-        },
-        {
           "canonical_person_id": "nicholas-davis",
           "name": "Nicholas Davis",
           "dataset_a_locators": [
@@ -1602,6 +1592,7 @@
         "michael j langer",
         "michael previtera",
         "mike bobell",
+        "mike mclaughlin",
         "miles gresham",
         "miles s cho",
         "mitch mcginnis",
@@ -1863,6 +1854,66 @@
         "paul kim",
         "ray cortese",
         "tom gibbs"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "signature:25"
+          ],
+          "dataset_b_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:5"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "giorgio hiatt"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "aaron-baker",
+          "name": "Aaron Baker",
+          "dataset_a_locators": [
+            "signature:220"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:27"
+          ]
+        },
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "signature:25"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:4"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "signature:191"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:2"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "charles garland",
+        "james kessler",
+        "shane gibson"
       ]
     },
     {
@@ -3882,16 +3933,6 @@
           ]
         },
         {
-          "canonical_person_id": "mike-mclaughlin",
-          "name": "Mike McLaughlin",
-          "dataset_a_locators": [
-            "signature:244"
-          ],
-          "dataset_b_locators": [
-            "print_order:100"
-          ]
-        },
-        {
           "canonical_person_id": "nicholas-davis",
           "name": "Nicholas Davis",
           "dataset_a_locators": [
@@ -4078,6 +4119,7 @@
         "greg ward",
         "hansoo jin",
         "jason cornwell",
+        "mike mclaughlin",
         "rob wootton",
         "steven brooks",
         "timothy r lecroy",
@@ -4222,6 +4264,66 @@
         "paul kim",
         "ray cortese",
         "tom gibbs"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "signature:25"
+          ],
+          "dataset_b_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:5"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "giorgio hiatt"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "aaron-baker",
+          "name": "Aaron Baker",
+          "dataset_a_locators": [
+            "signature:238"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:27"
+          ]
+        },
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "signature:25"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:4"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "signature:210"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:2"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "charles garland",
+        "james kessler",
+        "shane gibson"
       ]
     },
     {
@@ -6571,16 +6673,6 @@
           ]
         },
         {
-          "canonical_person_id": "mike-mclaughlin",
-          "name": "Mike McLaughlin",
-          "dataset_a_locators": [
-            "signature:262"
-          ],
-          "dataset_b_locators": [
-            "print_order:100"
-          ]
-        },
-        {
           "canonical_person_id": "nicholas-davis",
           "name": "Nicholas Davis",
           "dataset_a_locators": [
@@ -6847,6 +6939,7 @@
         "greg ward",
         "hansoo jin",
         "jason cornwell",
+        "mike mclaughlin",
         "rob wootton",
         "steven brooks",
         "timothy r lecroy",
@@ -7341,6 +7434,14 @@
         "ray cortese",
         "steve tipton",
         "zack eswine"
+      ]
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "kevin twit"
       ]
     },
     {
@@ -8008,6 +8109,399 @@
       "unresolved_exact_name_keys": [
         "derek radney"
       ]
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "bryan-chapell",
+          "name": "Bryan Chapell",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:13"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:8"
+          ]
+        },
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:5"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:4"
+          ]
+        },
+        {
+          "canonical_person_id": "dan-carrell",
+          "name": "Dan Carrell",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:11"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:15"
+          ]
+        },
+        {
+          "canonical_person_id": "david-dickson",
+          "name": "David Dickson",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:17"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:22"
+          ]
+        },
+        {
+          "canonical_person_id": "jeffrey-lancaster",
+          "name": "Jeffrey Lancaster",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:4"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:11"
+          ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "institution_covenant-theological-seminary",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "bryan chapell"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "institution_pca-administrative-committee",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andy jones",
+        "doug warren"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "nae_withdrawal_protest_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "print_order:69"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "national_partnership_confirmed_members",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "bryan chapell",
+        "charles godwin",
+        "larry hoop"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "overture_15_negative_votes_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-keithley",
+          "name": "David Keithley",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:83"
+          ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "print_order:66"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "giorgio hiatt"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "overture_37_minority_2021",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:5"
+          ],
+          "dataset_b_locators": [
+            "print_order:2"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andy jones"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "ruf_staff_transitions_2026",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "andy jones"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "warhurst_protest_2019",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-keithley",
+          "name": "David Keithley",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:6"
+          ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:25"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "institution_covenant-theological-seminary",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "bryan chapell"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "institution_mission-to-north-america",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "steve dowling"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "nae_withdrawal_protest_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "print_order:69"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "national_partnership_confirmed_members",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "aaron-baker",
+          "name": "Aaron Baker",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:27"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:1:aaron baker"
+          ]
+        },
+        {
+          "canonical_person_id": "e-j-nusbaum",
+          "name": "E. J. Nusbaum",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:33"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:52:ej nusbaum"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:2"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:96:kevin twit"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "brad bradley",
+        "bryan chapell",
+        "charles garland",
+        "james kessler",
+        "larry hoop",
+        "shane gibson"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "overture_15_minority_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "steve-dowling",
+          "name": "Steve Dowling",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:3"
+          ],
+          "dataset_b_locators": [
+            "print_order:5"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "overture_15_negative_votes_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:183"
+          ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "print_order:66"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "hunter bailey"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "overture_37_minority_2021",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:4"
+          ],
+          "dataset_b_locators": [
+            "print_order:2"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "publication_heal-us-emmanuel-2016",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "kevin twit",
+        "sam wheatley"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:2"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:19:page:23"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "warhurst_protest_2019",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "aaron-baker",
+          "name": "Aaron Baker",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:27"
+          ],
+          "dataset_b_locators": [
+            "print_order:177"
+          ]
+        },
+        {
+          "canonical_person_id": "larry-hoop",
+          "name": "Larry Hoop",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:14"
+          ],
+          "dataset_b_locators": [
+            "print_order:192"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "institution_cdm",

@@ -246,6 +246,34 @@ for dataset, family, relative, row_key, order_key, evidence_type in roster_specs
         )
 
 
+# 2008-2009 named formal-position records. Records from the same General
+# Assembly share one source family so parallel committee actions in the same
+# minutes cannot corroborate each other into a new identity. The 2009 Assembly
+# is a separate source family and may independently corroborate a repeated name
+# plus context one year later.
+relative = "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json"
+formal_position_data = load(relative)
+for event in formal_position_data.get("events", []):
+    year = event["year"]
+    family = f"ga_{year}_formal_positions"
+    dataset = f"formal_position_{event['event_id']}"
+    for index, row in enumerate(event.get("signers", []), 1):
+        add_record(
+            dataset=dataset,
+            family=family,
+            source_path=relative,
+            locator=f"{event['event_id']}:signer:{index}",
+            printed_name=row["name_as_printed"],
+            row=None,
+            source_tier="official_primary",
+            completeness="complete_named_signers",
+            evidence_type="formal_report_concurrence",
+            presbyteries=[row.get("presbytery_as_printed")],
+            existing_id=row.get("normalized_person_id"),
+            backfill=False,
+        )
+
+
 # A Faithful PCA snapshots remain separate datasets but one source family.
 for date, relative, order_key in [
     ("2021-06-11", "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json", "sequence"),

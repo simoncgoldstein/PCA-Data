@@ -470,6 +470,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "bryan-chapell",
+    "name": "Bryan Chapell",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "bryce-hales",
     "name": "Bryce Hales",
     "ordination": "Teaching Elder",
@@ -600,6 +610,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "dan-carrell",
+    "name": "Dan Carrell",
+    "ordination": null,
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "dan-katches",
     "name": "Dan Katches",
     "ordination": "Teaching Elder",
@@ -623,6 +643,16 @@
     "id": "david-bisgrove",
     "name": "David Bisgrove",
     "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-dickson",
+    "name": "David Dickson",
+    "ordination": null,
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -712,6 +742,16 @@
   {
     "id": "doug-serven",
     "name": "Doug Serven",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "e-j-nusbaum",
+    "name": "E. J. Nusbaum",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -1023,6 +1063,16 @@
     "id": "jeffrey-hynds",
     "name": "Jeffrey Hynds",
     "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jeffrey-lancaster",
+    "name": "Jeffrey Lancaster",
+    "ordination": null,
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -1540,16 +1590,6 @@
     "profile_status": "identity_crosswalk"
   },
   {
-    "id": "mike-mclaughlin",
-    "name": "Mike McLaughlin",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
     "id": "mike-tilley",
     "name": "Mike Tilley",
     "ordination": "Teaching Elder",
@@ -1913,6 +1953,16 @@
     "id": "spencer-thomas",
     "name": "Spencer Thomas",
     "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "steve-dowling",
+    "name": "Steve Dowling",
+    "ordination": "Ruling Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",

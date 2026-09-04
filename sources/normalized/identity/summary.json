@@ -1,9 +1,9 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 3579,
-    "canonical_person_count": 213,
-    "new_person_count": 196,
+    "record_count": 3648,
+    "canonical_person_count": 218,
+    "new_person_count": 201,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -13,29 +13,29 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 357,
+    "ambiguous": 363,
     "collision": 11,
-    "context_confirmed": 573,
+    "context_confirmed": 589,
     "exact_confirmed": 119,
-    "probable_requires_review": 307,
-    "unmatched": 2212
+    "probable_requires_review": 319,
+    "unmatched": 2247
   },
   "datasets": [
     {
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 128,
-      "confirmed_row_count": 128,
+      "confirmed_canonical_person_count": 127,
+      "confirmed_row_count": 127,
       "match_status_counts": {
         "exact_confirmed": 13,
-        "context_confirmed": 115,
+        "context_confirmed": 114,
         "probable_requires_review": 32,
-        "ambiguous": 62,
+        "ambiguous": 63,
         "collision": 1,
         "unmatched": 348
       },
-      "percent_rows_resolved": 22.42,
+      "percent_rows_resolved": 22.24,
       "source_tier": [
         "first_party_archive"
       ],
@@ -47,17 +47,17 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 161,
-      "confirmed_row_count": 161,
+      "confirmed_canonical_person_count": 160,
+      "confirmed_row_count": 160,
       "match_status_counts": {
         "exact_confirmed": 13,
-        "context_confirmed": 148,
+        "context_confirmed": 147,
         "probable_requires_review": 33,
-        "ambiguous": 67,
+        "ambiguous": 68,
         "collision": 1,
         "unmatched": 475
       },
-      "percent_rows_resolved": 21.85,
+      "percent_rows_resolved": 21.71,
       "source_tier": [
         "first_party_archive"
       ],
@@ -129,6 +129,72 @@
       ],
       "completeness_status": [
         "complete_public_channel_participants_where_stated"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "row_count": 27,
+      "unique_printed_name_count": 27,
+      "confirmed_canonical_person_count": 7,
+      "confirmed_row_count": 7,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 7,
+        "probable_requires_review": 4,
+        "ambiguous": 0,
+        "collision": 0,
+        "unmatched": 16
+      },
+      "percent_rows_resolved": 25.93,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2008-rpr-women-scripture-reading-minority-report",
+      "row_count": 8,
+      "unique_printed_name_count": 8,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 0,
+        "collision": 0,
+        "unmatched": 8
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "row_count": 34,
+      "unique_printed_name_count": 34,
+      "confirmed_canonical_person_count": 10,
+      "confirmed_row_count": 10,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 10,
+        "probable_requires_review": 5,
+        "ambiguous": 3,
+        "collision": 0,
+        "unmatched": 16
+      },
+      "percent_rows_resolved": 29.41,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_signers"
       ]
     },
     {
@@ -294,10 +360,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 2,
+        "probable_requires_review": 3,
         "ambiguous": 0,
         "collision": 0,
-        "unmatched": 17
+        "unmatched": 16
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
@@ -465,17 +531,17 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 39,
-      "confirmed_row_count": 39,
+      "confirmed_canonical_person_count": 40,
+      "confirmed_row_count": 40,
       "match_status_counts": {
         "exact_confirmed": 8,
-        "context_confirmed": 31,
-        "probable_requires_review": 28,
+        "context_confirmed": 32,
+        "probable_requires_review": 30,
         "ambiguous": 11,
         "collision": 1,
-        "unmatched": 72
+        "unmatched": 69
       },
-      "percent_rows_resolved": 25.83,
+      "percent_rows_resolved": 26.49,
       "source_tier": [
         "primary_archive"
       ],
@@ -487,17 +553,17 @@
       "source_dataset": "overture_15_minority_2022",
       "row_count": 46,
       "unique_printed_name_count": 46,
-      "confirmed_canonical_person_count": 0,
-      "confirmed_row_count": 0,
+      "confirmed_canonical_person_count": 1,
+      "confirmed_row_count": 1,
       "match_status_counts": {
         "exact_confirmed": 0,
-        "context_confirmed": 0,
-        "probable_requires_review": 2,
+        "context_confirmed": 1,
+        "probable_requires_review": 1,
         "ambiguous": 1,
         "collision": 0,
         "unmatched": 43
       },
-      "percent_rows_resolved": 0.0,
+      "percent_rows_resolved": 2.17,
       "source_tier": [
         "official_primary"
       ],
@@ -580,10 +646,10 @@
       "match_status_counts": {
         "exact_confirmed": 7,
         "context_confirmed": 0,
-        "probable_requires_review": 13,
+        "probable_requires_review": 14,
         "ambiguous": 5,
         "collision": 0,
-        "unmatched": 5
+        "unmatched": 4
       },
       "percent_rows_resolved": 23.33,
       "source_tier": [
@@ -663,17 +729,17 @@
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 92,
-      "confirmed_row_count": 92,
+      "confirmed_canonical_person_count": 91,
+      "confirmed_row_count": 91,
       "match_status_counts": {
         "exact_confirmed": 6,
-        "context_confirmed": 86,
+        "context_confirmed": 85,
         "probable_requires_review": 15,
-        "ambiguous": 25,
+        "ambiguous": 26,
         "collision": 2,
         "unmatched": 69
       },
-      "percent_rows_resolved": 45.32,
+      "percent_rows_resolved": 44.83,
       "source_tier": [
         "official_primary"
       ],
