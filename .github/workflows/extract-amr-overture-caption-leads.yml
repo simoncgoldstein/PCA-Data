@@ -1,0 +1,96 @@
+name: Extract AMR overture caption leads
+
+on:
+  push:
+    branches: [research/amr-issue-extraction-2026-09-04]
+    paths: [.github/workflows/extract-amr-overture-caption-leads.yml]
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: research/amr-issue-extraction-2026-09-04
+      - name: Extract timestamped keyword windows
+        run: |
+          python3 - <<'PY'
+          import html, json, re
+          from pathlib import Path
+
+          base = Path('sources/raw/media/amr/youtube-2026-09-03/captions')
+          videos = {
+              'xezEYJN8aiM': 'Overtures Roundtable Discussion 2026 (Part 1)',
+              'JpsstSfx40U': 'Overtures Roundtable Discussion Part 2',
+              'cxQxeng9eow': 'Overtures Roundtable Discussion Part 3',
+              'bMj_pCd4U6U': 'After the General Assembly: Reflections on Trust, Unity, and the Work Ahead',
+          }
+          keywords = [
+              'deacon', 'women', 'danvers', 'ordination', 'officer', 'lord’s supper', "lord's supper",
+              'communion', 'overture 37', 'overture 61', 'overture', 'assistant pastor',
+              'original jurisdiction', '40-5', 'indict', 'presbytery', 'general assembly',
+              'trust', 'unity', 'statesmanship', 'online', 'mission', 'confession',
+          ]
+
+          def cues(path):
+              lines = path.read_text(encoding='utf-8').splitlines()
+              out=[]
+              i=0
+              while i < len(lines):
+                  line=lines[i].strip()
+                  if '-->' not in line:
+                      i += 1
+                      continue
+                  ts=line.split('-->')[0].strip()
+                  i += 1
+                  text=[]
+                  while i < len(lines) and lines[i].strip() and '-->' not in lines[i]:
+                      s=html.unescape(re.sub(r'<[^>]+>', '', lines[i])).strip()
+                      if s:
+                          text.append(s)
+                      i += 1
+                  joined=' '.join(text)
+                  joined=re.sub(r'\s+', ' ', joined).strip()
+                  if joined and (not out or joined != out[-1]['text']):
+                      out.append({'timestamp': ts, 'text': joined})
+                  i += 1
+              return out
+
+          result={'generated_on':'2026-09-04','purpose':'candidate windows for manual speaker-specific AMR issue extraction; not normalized positions','videos':[]}
+          for vid,title in videos.items():
+              path=base/f'{vid}-en-auto-1.vtt'
+              cs=cues(path)
+              hits=[]
+              for idx,cue in enumerate(cs):
+                  low=cue['text'].lower()
+                  matched=sorted({k for k in keywords if k in low})
+                  if not matched:
+                      continue
+                  lo=max(0,idx-4); hi=min(len(cs),idx+5)
+                  window=cs[lo:hi]
+                  signature=(window[0]['timestamp'], window[-1]['timestamp'])
+                  if hits and hits[-1]['window_start']==signature[0] and hits[-1]['window_end']==signature[1]:
+                      hits[-1]['matched_keywords']=sorted(set(hits[-1]['matched_keywords'])|set(matched))
+                      continue
+                  hits.append({
+                      'hit_timestamp':cue['timestamp'],
+                      'matched_keywords':matched,
+                      'window_start':signature[0],
+                      'window_end':signature[1],
+                      'cues':window,
+                  })
+              result['videos'].append({'video_id':vid,'title':title,'caption_path':str(path),'cue_count':len(cs),'hits':hits})
+          Path('research/amr-overtures-caption-leads-2026-09-04.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          PY
+      - name: Remove one-time workflow and commit leads
+        run: |
+          rm .github/workflows/extract-amr-overture-caption-leads.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Extract AMR overture caption leads"
+          git push
