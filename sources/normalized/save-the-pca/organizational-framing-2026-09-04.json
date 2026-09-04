@@ -1,0 +1,77 @@
+{
+  "metadata": {
+    "organization": "Save the PCA",
+    "captured": "2026-09-04",
+    "evidence_scope": "first-party organizational framing and methodology",
+    "raw_receipt": "sources/raw/organizations/save-the-pca/first-party-framing-2026-09-04.md",
+    "modeling_rule": "These are Save the PCA's stated positions and methodological definitions, not independent adjudications of every church or person in its datasets.",
+    "ideological_weight": 0
+  },
+  "positions": [
+    {
+      "position_id": "save-the-pca-organizational-purpose-2026",
+      "topic": "organizational-purpose",
+      "position_type": "organizational_self_description",
+      "summary": "Save the PCA describes its purpose as organizing PCA members to resist practices it regards as left-wing and not rooted in Scripture, specifically naming female ordination as a development it seeks to prevent.",
+      "source_url": "https://www.savethepca.com/about/",
+      "source_date_status": "current page captured 2026-09-04",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "save-the-pca-functional-female-officer-definition-2025",
+      "topic": "women-church-office",
+      "position_type": "organizational_methodological_definition",
+      "summary": "For its report, Save the PCA defines a functional female officer as a named female role that combines one or more functions it regards as typically reserved to elders or deacons with a commissioning or ordination-like initiation process.",
+      "source_url": "https://www.savethepca.com/ffofollowup/",
+      "published_date": "2025-10-10",
+      "boundary": "The definition is Save the PCA's analytical category, not a PCA constitutional category established by this dataset.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "save-the-pca-ffo-assistant-exclusions-2025",
+      "topic": "women-church-office",
+      "position_type": "organizational_methodology",
+      "summary": "Save the PCA says it excludes roles described merely as assistants to the diaconate from its functional-female-deacon classification and explicitly omits ordinary women's ministry coordinator roles from its functional-female-elder data.",
+      "source_url": "https://www.savethepca.com/ffofollowup/",
+      "published_date": "2025-10-10",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "save-the-pca-public-worship-governance-concern-2025",
+      "topic": "women-public-worship-governance",
+      "position_type": "organizational_position",
+      "summary": "Save the PCA argues that women performing officer-like functions in public worship or governance, especially when paired with examination, election, commissioning, public vows, shepherding, or advisory authority, can amount to functional female office despite the absence of formal ordination language.",
+      "source_url": "https://www.savethepca.com/",
+      "published_date": "2025-10-04",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "save-the-pca-female-eldership-trajectory-2025",
+      "topic": "women-church-office",
+      "position_type": "organizational_trajectory_claim",
+      "summary": "Save the PCA argues that normalization of functional female officer practices creates a trajectory toward formal female eldership in the PCA.",
+      "source_url": "https://www.savethepca.com/",
+      "published_date": "2025-10-04",
+      "boundary": "This is the organization's stated causal/trajectory analysis, not an independently established result of this research project.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "save-the-pca-verification-awareness-method-2025",
+      "topic": "research-method-and-advocacy",
+      "position_type": "organizational_methodology",
+      "summary": "Save the PCA says its report relies on publicly available church websites, livestreams, and documents, and calls for raising awareness while expanding the dataset through verifiable evidence rather than speculation.",
+      "source_url": "https://www.savethepca.com/",
+      "published_date": "2025-10-04",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "save-the-pca-row-vs-classification-boundary-2025",
+      "topic": "research-method-and-advocacy",
+      "position_type": "organizational_methodology",
+      "summary": "Save the PCA explicitly distinguishes raw person/role entries in its supporting data from the separate church-level determination that a functional female officer exists; a row's presence alone does not establish that classification.",
+      "source_url": "https://www.savethepca.com/ffofollowup/",
+      "published_date": "2025-10-10",
+      "ideological_weight": 0
+    }
+  ]
+}
