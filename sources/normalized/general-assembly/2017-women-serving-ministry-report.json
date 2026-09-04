@@ -1,0 +1,104 @@
+{
+  "metadata": {
+    "event": "45th General Assembly — Ad Interim Committee on Women Serving in the Ministry of the Church",
+    "year": 2017,
+    "primary_source": "https://www.pcahistory.org/pca/digest/v4/part04-studies.pdf",
+    "alternate_report_copy": "https://theweeflea.com/wp-content/uploads/2017/05/pca-report-on-women-in-ministry.pdf",
+    "source_status": "official PCA study-report text verified",
+    "report_form": "committee consensus report",
+    "consensus_wording_as_printed": "overwhelming consensus",
+    "minority_report_in_published_final_report": false,
+    "committee_member_count": 12,
+    "voting_member_count": 7,
+    "advisory_member_count": 5,
+    "modeling_rule": "Committee participation is evidence of service on the body that produced the report, but the report itself states that the committee contained two schools of thought on some subsidiary questions. Do not infer that every member agreed with every sentence or held the same view on women teaching men. First-person statements and signed formal positions are modeled separately.",
+    "ideological_weight": 0
+  },
+  "committee_members": [
+    {"name_as_printed": "TE Leon Brown", "name": "Leon Brown", "office_as_printed": "TE", "committee_status": "Advisory Member", "normalized_person_id": null},
+    {"name_as_printed": "TE William Castro", "name": "William Castro", "office_as_printed": "TE", "committee_status": "Advisory Member", "normalized_person_id": null},
+    {"name_as_printed": "TE Jeffrey Choi", "name": "Jeffrey Choi", "office_as_printed": "TE", "committee_status": "Voting Member", "normalized_person_id": null},
+    {"name_as_printed": "TE Dan Doriani", "name": "Dan Doriani", "office_as_printed": "TE", "committee_status": "Advisory Member", "normalized_person_id": null},
+    {"name_as_printed": "TE Ligon Duncan", "name": "Ligon Duncan", "office_as_printed": "TE", "committee_status": "Voting Member", "normalized_person_id": null},
+    {"name_as_printed": "TE Irwyn Ince", "name": "Irwyn Ince", "office_as_printed": "TE", "committee_status": "Voting Member", "normalized_person_id": "irwyn-ince"},
+    {"name_as_printed": "Mrs. Lani Jones", "name": "Lani Jones", "office_as_printed": null, "committee_status": "Advisory Member", "normalized_person_id": null},
+    {"name_as_printed": "Mrs. Kathy Keller", "name": "Kathy Keller", "office_as_printed": null, "committee_status": "Voting Member", "normalized_person_id": null},
+    {"name_as_printed": "Mrs. Mary Beth McGreevy", "name": "Mary Beth McGreevy", "office_as_printed": null, "committee_status": "Voting Member", "normalized_person_id": null},
+    {"name_as_printed": "TE Bruce O’Neil", "name": "Bruce O’Neil", "office_as_printed": "TE", "committee_status": "Voting Member", "normalized_person_id": null},
+    {"name_as_printed": "TE Harry Reeder", "name": "Harry Reeder", "office_as_printed": "TE", "committee_status": "Voting Member", "normalized_person_id": null},
+    {"name_as_printed": "TE Roy Taylor", "name": "Roy Taylor", "office_as_printed": "TE", "committee_status": "Advisory Member", "normalized_person_id": null}
+  ],
+  "report_level_positions": [
+    {
+      "position_id": "male-only-eldership",
+      "summary": "The report affirms that qualified men compose the eldership and are entrusted with authoritative teaching and ruling.",
+      "scope": "report-level consensus framing",
+      "source_pages": [1]
+    },
+    {
+      "position_id": "no-bco-change-recommended",
+      "summary": "The committee did not recommend Book of Church Order changes and instead offered prudential recommendations to sessions and presbyteries.",
+      "scope": "report-level committee recommendation",
+      "source_pages": [2]
+    },
+    {
+      "position_id": "two-schools-women-teaching-men",
+      "summary": "The report records two schools of thought within the committee: one permitting women to teach men under session oversight and another restricting women from a formal ongoing teaching role over men while allowing informal or isolated instruction. Both schools agreed on session oversight.",
+      "scope": "explicit internal diversity; do not assign either school to an individual member without separate evidence",
+      "source_pages": [56]
+    },
+    {
+      "position_id": "public-worship-prayer-and-scripture-suggestions",
+      "summary": "The report suggests that men and women might lead prayers of petition or praise other than prayers a session reserves for elders, and that sessions might authorize various persons to read Scripture in worship in settings such as responsive readings.",
+      "scope": "report-level practical suggestion; not an individually attributed member position",
+      "source_pages": [61]
+    }
+  ],
+  "first_person_position_evidence": [
+    {
+      "evidence_id": "mary-beth-mcgreevy-video-kzjcjitp9a",
+      "person_name": "Mary Beth McGreevy",
+      "normalized_person_id": null,
+      "source_type": "first_person_video_statement",
+      "source_url": "https://www.youtube.com/watch?v=KzjCJIitP9A",
+      "user_supplied_transcript_sha256": "9b55b81f355a6ecc22140eaf7f973cece41b2db50f150cbee04a656e6f9b0eb1",
+      "user_supplied_transcript_line_count": 857,
+      "transcript_status": "reviewed_user_supplied_text",
+      "relationship_to_report": "Voting member of the 2017 committee who explicitly expresses hope that the committee report will broaden the PCA's understanding and practice within what she regards as biblical complementarian parameters.",
+      "position_specificity": "high",
+      "ideological_weight": 0,
+      "positions": [
+        {
+          "topic": "complementarianism_and_headship",
+          "summary": "Affirms male headship and complementarianism as biblical and beneficial while criticizing both male abdication and unnecessarily restrictive practice.",
+          "transcript_lines": "71-193; 197-275"
+        },
+        {
+          "topic": "support_for_2017_report_direction",
+          "summary": "States that she hopes the committee report will expand the denomination's imagination and biblical understanding of women's service within scriptural parameters.",
+          "transcript_lines": "323-389"
+        },
+        {
+          "topic": "authoritative_pulpit_and_sacraments",
+          "summary": "States that women should not authoritatively preach from the pulpit and cannot administer the sacraments.",
+          "transcript_lines": "617-637"
+        },
+        {
+          "topic": "teaching_and_mixed_groups",
+          "summary": "Describes extensive teaching opportunities for women and says women may be invited to speak to mixed groups depending on the church.",
+          "transcript_lines": "641-665"
+        },
+        {
+          "topic": "paid_ministry_roles",
+          "summary": "Advocates substantial paid church-staff opportunities for trained women, including women's ministry, children's ministry, assimilation, discipleship, counseling, and adult education roles.",
+          "transcript_lines": "683-707"
+        },
+        {
+          "topic": "session_meeting_consultation",
+          "summary": "Positively describes women staff attending session meetings until executive session so elders can receive their information, expertise, and advice.",
+          "transcript_lines": "809-851"
+        }
+      ]
+    }
+  ]
+}
