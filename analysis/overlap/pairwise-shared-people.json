@@ -1778,6 +1778,50 @@
     },
     {
       "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "amr_youtube_media_2023_2026",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "signature:12"
+          ],
+          "dataset_b_locators": [
+            "video:1DIUuWkKsAo:participant:3"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "signature:124"
+          ],
+          "dataset_b_locators": [
+            "video:1DIUuWkKsAo:participant:2",
+            "video:aT6rzfPhCRo:participant:2"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "signature:157"
+          ],
+          "dataset_b_locators": [
+            "video:bMj_pCd4U6U:participant:2"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "derek radney",
+        "mike khandjian",
+        "paul kim",
+        "ray cortese",
+        "tom gibbs"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
       "dataset_b": "institution_covenant-theological-seminary",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -4015,6 +4059,50 @@
         "paul kim",
         "ray cortese",
         "thurman williams"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "amr_youtube_media_2023_2026",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "signature:12"
+          ],
+          "dataset_b_locators": [
+            "video:1DIUuWkKsAo:participant:3"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "signature:143"
+          ],
+          "dataset_b_locators": [
+            "video:1DIUuWkKsAo:participant:2",
+            "video:aT6rzfPhCRo:participant:2"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "signature:176"
+          ],
+          "dataset_b_locators": [
+            "video:bMj_pCd4U6U:participant:2"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "derek radney",
+        "mike khandjian",
+        "paul kim",
+        "ray cortese",
+        "tom gibbs"
       ]
     },
     {
@@ -6629,6 +6717,79 @@
     },
     {
       "dataset_a": "amr_leadership_current",
+      "dataset_b": "amr_youtube_media_2023_2026",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "aff-cassidy-amr-current"
+          ],
+          "dataset_b_locators": [
+            "video:1DIUuWkKsAo:participant:3"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "aff-richter-amr-current"
+          ],
+          "dataset_b_locators": [
+            "video:1DIUuWkKsAo:participant:2",
+            "video:aT6rzfPhCRo:participant:2"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "aff-ziegler-amr-current"
+          ],
+          "dataset_b_locators": [
+            "video:bMj_pCd4U6U:participant:2"
+          ]
+        },
+        {
+          "canonical_person_id": "joel-st-clair",
+          "name": "Joel St. Clair",
+          "dataset_a_locators": [
+            "aff-stclair-amr-current"
+          ],
+          "dataset_b_locators": [
+            "video:D-SF45Bd62E:participant:4",
+            "video:Y86FgB4lytc:participant:3",
+            "video:Z_toUjmYEOc:participant:4",
+            "video:bqt1SSgo-Yo:participant:4",
+            "video:zYRv7vG5xKA:participant:2"
+          ]
+        },
+        {
+          "canonical_person_id": "russ-whitfield",
+          "name": "Russ Whitfield",
+          "dataset_a_locators": [
+            "aff-whitfield-amr-current"
+          ],
+          "dataset_b_locators": [
+            "video:5oxfx1O4Gjs:participant:1"
+          ]
+        },
+        {
+          "canonical_person_id": "sean-lucas",
+          "name": "Sean Lucas",
+          "dataset_a_locators": [
+            "aff-lucas-amr-current"
+          ],
+          "dataset_b_locators": [
+            "video:mHrRbj6BSKM:participant:2",
+            "video:zYRv7vG5xKA:participant:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "amr_leadership_current",
       "dataset_b": "institution_reformed-theological-seminary",
       "confirmed_shared_people": [
         {
@@ -6842,6 +7003,122 @@
         }
       ],
       "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "amr_youtube_media_2023_2026",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "item:114:contributor:3:https://a4mr.org/uniting-the-tribes-david-strain-david-richter-and-david-cassidy-discuss-bco-overture-23/",
+            "item:120:contributor:1:https://a4mr.org/engaging-our-current-moment-as-an-alliance-for-mission-renewal/",
+            "item:27:contributor:1:https://a4mr.org/obedient-to-the-great-commission-the-pcas-evangelistic-and-missionary-calling/",
+            "item:77:contributor:1:https://a4mr.org/a-reflection-on-church-planting-movements-in-the-early-21st-century/",
+            "item:86:contributor:1:https://a4mr.org/beyond-politics-navigating-election-season-together-with-grace/",
+            "item:96:contributor:1:https://a4mr.org/tim-keller-and-lesslie-newbigin-an-appreciative-comparison/"
+          ],
+          "dataset_b_locators": [
+            "video:1DIUuWkKsAo:participant:3"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "item:114:contributor:2:https://a4mr.org/uniting-the-tribes-david-strain-david-richter-and-david-cassidy-discuss-bco-overture-23/",
+            "item:21:contributor:2:https://a4mr.org/what-kind-of-church-are-we-becoming/",
+            "item:31:contributor:1:https://a4mr.org/formed-or-deformed-discipleship-in-a-distracted-age/"
+          ],
+          "dataset_b_locators": [
+            "video:1DIUuWkKsAo:participant:2",
+            "video:aT6rzfPhCRo:participant:2"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "item:18:contributor:1:https://a4mr.org/gratitude-theological-vision-part-two/",
+            "item:20:contributor:1:https://a4mr.org/introduction-to-amrs-theological-vision-statement/",
+            "item:23:contributor:1:https://a4mr.org/three-views-on-female-deacons/",
+            "item:28:contributor:1:https://a4mr.org/true-to-the-reformed-faith-the-confessional-identity-of-the-pca/",
+            "item:7:contributor:2:https://a4mr.org/after-the-general-assembly-reflections-on-trust-unity-and-the-work-ahead/"
+          ],
+          "dataset_b_locators": [
+            "video:bMj_pCd4U6U:participant:2"
+          ]
+        },
+        {
+          "canonical_person_id": "joel-st-clair",
+          "name": "Joel St. Clair",
+          "dataset_a_locators": [
+            "item:102:contributor:2:https://a4mr.org/the-genesis-of-the-fellowship-gathering/",
+            "item:108:contributor:1:https://a4mr.org/838-2/",
+            "item:38:contributor:1:https://a4mr.org/taking-the-temperature-of-the-pca/",
+            "item:51:contributor:2:https://a4mr.org/from-sunday-to-monday-why-connecting-vocation-and-discipleship-is-central-to-the-christian-life/",
+            "item:57:contributor:2:https://a4mr.org/general-assembly-recap-the-good-the-adequate-and-the-ugly/",
+            "item:61:contributor:1:https://a4mr.org/overtures-discussion-with-david-coffin-howie-donahoe-fred-greco-and-joel-st-clair-general-assembly-2025/",
+            "item:67:contributor:1:https://a4mr.org/the-fellowship-gathering-2025-an-invitation-to-connect/"
+          ],
+          "dataset_b_locators": [
+            "video:D-SF45Bd62E:participant:4",
+            "video:Y86FgB4lytc:participant:3",
+            "video:Z_toUjmYEOc:participant:4",
+            "video:bqt1SSgo-Yo:participant:4",
+            "video:zYRv7vG5xKA:participant:2"
+          ]
+        },
+        {
+          "canonical_person_id": "russ-whitfield",
+          "name": "Russ Whitfield",
+          "dataset_a_locators": [
+            "item:103:contributor:1:https://a4mr.org/the-ministry-of-encouragement/",
+            "item:115:contributor:1:https://a4mr.org/the-lords-supper-soul-food/",
+            "item:52:contributor:1:https://a4mr.org/preaching-the-good-news-in-a-changing-world-a-conversation-with-russ-whitfield-aaron-chung-and-paul-kim/"
+          ],
+          "dataset_b_locators": [
+            "video:5oxfx1O4Gjs:participant:1"
+          ]
+        },
+        {
+          "canonical_person_id": "sean-lucas",
+          "name": "Sean Lucas",
+          "dataset_a_locators": [
+            "item:100:contributor:1:https://a4mr.org/courtesy-and-civility-how-christians-ought-to-engage-each-other-and-the-public-square/",
+            "item:104:contributor:1:https://a4mr.org/hope-full-presbyterianism/",
+            "item:29:contributor:1:https://a4mr.org/faithful-to-the-scriptures-the-pcas-bedrock-commitment/",
+            "item:37:contributor:1:https://a4mr.org/all-for-loves-sake/",
+            "item:47:contributor:1:https://a4mr.org/working-for-the-unity-of-the-church-during-the-reformation/",
+            "item:51:contributor:1:https://a4mr.org/from-sunday-to-monday-why-connecting-vocation-and-discipleship-is-central-to-the-christian-life/",
+            "item:57:contributor:1:https://a4mr.org/general-assembly-recap-the-good-the-adequate-and-the-ugly/",
+            "item:62:contributor:1:https://a4mr.org/theological-triage-at-the-pca-general-assembly/",
+            "item:64:contributor:1:https://a4mr.org/presbyterianism-is-good-for-you/",
+            "item:8:contributor:1:https://a4mr.org/presbyterian-theological-vision-part-seven/"
+          ],
+          "dataset_b_locators": [
+            "video:mHrRbj6BSKM:participant:2",
+            "video:zYRv7vG5xKA:participant:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "aaron chung",
+        "christine gordon",
+        "david coffin",
+        "david strain",
+        "derek radney",
+        "erik bonkovsky",
+        "howie donahoe",
+        "jenilyn swett",
+        "katie polski",
+        "mike khandjian",
+        "paul kim",
+        "ray cortese",
+        "steve tipton",
+        "zack eswine"
+      ]
     },
     {
       "dataset_a": "amr_website_media_2023_2026",
@@ -7229,6 +7506,267 @@
         "derek radney",
         "irwyn ince",
         "justin chappell"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "institution_cdm",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "katie polski"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "institution_pca-administrative-committee",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "fred greco"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "institution_reformed-theological-seminary",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "video:bMj_pCd4U6U:participant:2"
+          ],
+          "dataset_b_locators": [
+            "role:254:reformed-theological-seminary:line:31"
+          ]
+        },
+        {
+          "canonical_person_id": "sean-lucas",
+          "name": "Sean Lucas",
+          "dataset_a_locators": [
+            "video:mHrRbj6BSKM:participant:2",
+            "video:zYRv7vG5xKA:participant:1"
+          ],
+          "dataset_b_locators": [
+            "role:252:reformed-theological-seminary:line:29"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "institution_reformed-university-fellowship",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "russ-whitfield",
+          "name": "Russ Whitfield",
+          "dataset_a_locators": [
+            "video:5oxfx1O4Gjs:participant:1"
+          ],
+          "dataset_b_locators": [
+            "role:287:reformed-university-fellowship:line:57"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "national_partnership_confirmed_members",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "video:1DIUuWkKsAo:participant:2",
+            "video:aT6rzfPhCRo:participant:2"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:42:david richter"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "video:bMj_pCd4U6U:participant:2"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:58:geoff ziegler"
+          ]
+        },
+        {
+          "canonical_person_id": "joel-st-clair",
+          "name": "Joel St. Clair",
+          "dataset_a_locators": [
+            "video:D-SF45Bd62E:participant:4",
+            "video:Y86FgB4lytc:participant:3",
+            "video:Z_toUjmYEOc:participant:4",
+            "video:bqt1SSgo-Yo:participant:4",
+            "video:zYRv7vG5xKA:participant:2"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:80:joel st clair"
+          ]
+        },
+        {
+          "canonical_person_id": "sean-lucas",
+          "name": "Sean Lucas",
+          "dataset_a_locators": [
+            "video:mHrRbj6BSKM:participant:2",
+            "video:zYRv7vG5xKA:participant:1"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:132:sean lucas"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "erik bonkovsky",
+        "mike khandjian",
+        "ray cortese"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "overture_15_negative_votes_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "video:1DIUuWkKsAo:participant:3"
+          ],
+          "dataset_b_locators": [
+            "print_order:23"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "video:1DIUuWkKsAo:participant:2",
+            "video:aT6rzfPhCRo:participant:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:145"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "aaron chung",
+        "mike khandjian"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "overture_37_minority_2021",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "video:1DIUuWkKsAo:participant:3"
+          ],
+          "dataset_b_locators": [
+            "print_order:4"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "video:bMj_pCd4U6U:participant:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:28"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "derek radney",
+        "erik bonkovsky"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "publication_co-laborers-co-heirs-2019",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "sean-lucas",
+          "name": "Sean Lucas",
+          "dataset_a_locators": [
+            "video:mHrRbj6BSKM:participant:2",
+            "video:zYRv7vG5xKA:participant:1"
+          ],
+          "dataset_b_locators": [
+            "chapter:21:contributor:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "publication_heal-us-emmanuel-2016",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "joel-st-clair",
+          "name": "Joel St. Clair",
+          "dataset_a_locators": [
+            "video:D-SF45Bd62E:participant:4",
+            "video:Y86FgB4lytc:participant:3",
+            "video:Z_toUjmYEOc:participant:4",
+            "video:bqt1SSgo-Yo:participant:4",
+            "video:zYRv7vG5xKA:participant:2"
+          ],
+          "dataset_b_locators": [
+            "chapter:30:contributor:1"
+          ]
+        },
+        {
+          "canonical_person_id": "russ-whitfield",
+          "name": "Russ Whitfield",
+          "dataset_a_locators": [
+            "video:5oxfx1O4Gjs:participant:1"
+          ],
+          "dataset_b_locators": [
+            "chapter:28:contributor:1"
+          ]
+        },
+        {
+          "canonical_person_id": "sean-lucas",
+          "name": "Sean Lucas",
+          "dataset_a_locators": [
+            "video:mHrRbj6BSKM:participant:2",
+            "video:zYRv7vG5xKA:participant:1"
+          ],
+          "dataset_b_locators": [
+            "chapter:18:contributor:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "mike khandjian"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "warhurst_protest_2019",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "video:1DIUuWkKsAo:participant:2",
+            "video:aT6rzfPhCRo:participant:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:93"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "derek radney"
       ]
     },
     {

@@ -2,7 +2,7 @@
 
 ## Result
 
-The first reproducible identity layer covers 2,716 printed-name rows across 27 dated or source-bounded datasets. It confirms 660 row-to-person mappings representing 206 canonical people. The builder added 189 recurring public-person nodes to the 18 previously reviewed core records; one existing core person does not occur in the current crosswalk inputs.
+The reproducible identity layer covers 2,799 printed-name rows across 28 dated or source-bounded datasets. It confirms 672 row-to-person mappings representing 206 canonical people. The builder added 189 recurring public-person nodes to the 18 previously reviewed core records; one existing core person does not occur in the current crosswalk inputs.
 
 No probable, ambiguous, collision, or unmatched row receives a canonical ID.
 
@@ -10,18 +10,18 @@ No probable, ambiguous, collision, or unmatched row receives a canonical ID.
 
 | Status | Rows | Meaning |
 |---|---:|---|
-| `exact_confirmed` | 108 | The row already carried a reviewed seed-person ID whose printed name matched the seed or a documented alias. |
+| `exact_confirmed` | 120 | The row already carried a reviewed seed-person ID whose printed name matched the seed or a documented alias. |
 | `context_confirmed` | 552 | The exact normalized name was supported across independent source families by a matching presbytery, institution, or location, or by one of two documented seed-name aliases. |
-| `probable_requires_review` | 226 | The exact name recurs, but the row itself lacks a shared disambiguator. |
-| `ambiguous` | 276 | A duplicate, middle-name/initial variant, or common first-name variant cannot be safely collapsed. |
+| `probable_requires_review` | 252 | The exact name recurs, but the row itself lacks a shared disambiguator. |
+| `ambiguous` | 309 | A duplicate, middle-name/initial variant, or common first-name variant cannot be safely collapsed. |
 | `collision` | 10 | Conflicting offices, identifiers, or other explicit collision evidence prevents a match. |
-| `unmatched` | 1,544 | No confirming cross-source context was found. |
+| `unmatched` | 1,556 | No confirming cross-source context was found. |
 
-The review queue contains 763 rows. It includes unresolved statuses plus initials-only and first/last variant keys, so its count is intentionally broader than the ambiguous/collision count.
+The review queue contains 823 rows. It includes unresolved statuses plus initials-only and first/last variant keys, so its count is intentionally broader than the ambiguous/collision count.
 
 ## Inputs
 
-The builder ingests both A Faithful PCA snapshots; confirmed National Partnership memberships; the 2019 Warhurst protest; the 2021 Overture 37 minority report; the 2022 Overture 15 minority report and recorded negative votes; the 2022 NAE-withdrawal protest; 14 institutional snapshot families; current AMR leadership; the 120-item AMR website index's bylines; and the three screenshot-backed publication chapter rosters.
+The builder ingests both A Faithful PCA snapshots; confirmed National Partnership memberships; the 2019 Warhurst protest; the 2021 Overture 37 minority report; the 2022 Overture 15 minority report and recorded negative votes; the 2022 NAE-withdrawal protest; 14 institutional snapshot families; current AMR leadership; the 120-item AMR website index's bylines; 83 reviewed participant appearances from the 31-video AMR YouTube inventory; and the three screenshot-backed publication chapter rosters.
 
 The publication images are preserved under each publication's `screenshots/` directory. During image-to-data verification, chapter 29 of *Heal Us, Emmanuel* was corrected from `Jonathan Edgar` to the visible `Jonathan Seda`.
 
@@ -54,4 +54,4 @@ The builder was run twice after generation with byte-identical results.
 
 ## Remaining identity work
 
-The largest gains will come from opening individual institutional bios, completing RUF/RTS/MNA/MTW rosters with profile URLs, and adding dated church/presbytery context to publication and AMR media participants. The 226 probable rows are the fastest review set because their names already recur; the 276 ambiguous and 10 collision rows require stronger context rather than looser matching.
+The largest gains will come from opening individual institutional bios, completing RUF/RTS/MNA/MTW rosters with profile URLs, and adding dated church/presbytery context to publication and AMR media participants. The 252 probable rows are the fastest review set because their names already recur; the 309 ambiguous and 10 collision rows require stronger context rather than looser matching.

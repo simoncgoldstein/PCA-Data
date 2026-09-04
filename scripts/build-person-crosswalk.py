@@ -392,6 +392,28 @@ for item_index, item in enumerate(amr_data["items"], 1):
         )
 
 
+# YouTube participants are reviewed from official titles/descriptions and, when
+# necessary, opening caption passages. Platform duplication remains in the same
+# AMR source family so it cannot inflate independent-family recurrence.
+relative = "sources/normalized/amr/youtube-index-2023-2026.json"
+amr_youtube = load(relative)
+for item_index, item in enumerate(amr_youtube["items"], 1):
+    for participant_index, participant in enumerate(item.get("participants_as_stated", []), 1):
+        add_record(
+            dataset="amr_youtube_media_2023_2026",
+            family="amr_media",
+            source_path=relative,
+            locator=f"video:{item['video_id']}:participant:{participant_index}",
+            printed_name=participant["name_as_printed"],
+            row=None,
+            source_tier="first_party",
+            completeness="complete_public_channel_participants_where_stated",
+            evidence_type="media_participation",
+            institutions=["amr"],
+            backfill=False,
+        )
+
+
 # Ensure row locators are one-to-one before matching.
 locator_counts = Counter((r["source_dataset"], r["source_row_locator"]) for r in records)
 duplicate_locators = [key for key, count in locator_counts.items() if count > 1]

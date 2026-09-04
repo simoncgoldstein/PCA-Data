@@ -130,7 +130,7 @@ Do not rely on the screenshots' color/highlight as proof of NP membership unless
 
 ## P1 — identity resolution and overlap analysis
 
-**FIRST PASS COMPLETED 2026-09-04:** the reproducible identity crosswalk covers 2,716 source rows across 27 datasets and confirms 660 row mappings to 206 people. The first overlap outputs include all 351 dataset pairs, typed multi-roster recurrence, presbytery/church concentration, institutional co-occurrence pipelines, and graph-quality diagnostics. Continue with the 226 probable rows first, then the ambiguous/collision queue; do not loosen the contextual matching threshold.
+**FIRST PASS COMPLETED 2026-09-04:** the reproducible identity crosswalk covers 2,799 source rows across 28 datasets and confirms 672 row mappings to 206 people. The first overlap outputs include all 378 dataset pairs, typed multi-roster recurrence, presbytery/church concentration, institutional co-occurrence pipelines, and graph-quality diagnostics. Continue with the 252 probable rows first, then the ambiguous/collision queue; do not loosen the contextual matching threshold.
 
 ## P1 — AMR media archive
 
@@ -151,7 +151,7 @@ For each item preserve title, date, authors/hosts/guests, stated roles, topic ta
 
 Official YouTube captions, `.vtt`, `.srt`, or plain transcript exports are all acceptable as research inputs if the video URL/title/date accompany the transcript.
 
-**PLATFORM INVENTORIES COMPLETED 2026-09-04:** the repository now preserves 128 Substack archive records, five RSS-only podcast companion records, 31 YouTube video records, and English caption VTT receipts for all 31 videos. Exact-title cross-posting is normalized separately. Next work should extract stated participants and source-bounded passages from the highest-priority captions; it should not treat a guest's statement as an AMR-wide position.
+**PLATFORM INVENTORIES COMPLETED 2026-09-04:** the repository now preserves 128 Substack archive records, five RSS-only podcast companion records, 31 YouTube video records, and English caption VTT receipts for all 31 videos. Exact-title cross-posting is normalized separately. Official titles, descriptions, and opening captions establish 83 participant appearances across 30 videos and 40 distinct printed names; one video remains unnamed rather than inferred. Next work should extract source-bounded passages from the highest-priority captions; it should not treat a guest's statement as an AMR-wide position.
 
 ## P2 — current-role/trajectory resolution
 

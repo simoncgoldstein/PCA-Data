@@ -9,9 +9,9 @@
       "row_count": 571,
       "unique_printed_name_count": 561,
       "confirmed_canonical_person_count": 123,
-      "unmatched_count": 363,
-      "probable_requires_review_count": 27,
-      "ambiguous_or_collision_count": 58,
+      "unmatched_count": 361,
+      "probable_requires_review_count": 28,
+      "ambiguous_or_collision_count": 59,
       "percentage_resolved": 21.54,
       "source_tier": [
         "first_party_archive"
@@ -25,9 +25,9 @@
       "row_count": 737,
       "unique_printed_name_count": 736,
       "confirmed_canonical_person_count": 154,
-      "unmatched_count": 492,
-      "probable_requires_review_count": 28,
-      "ambiguous_or_collision_count": 63,
+      "unmatched_count": 490,
+      "probable_requires_review_count": 29,
+      "ambiguous_or_collision_count": 64,
       "percentage_resolved": 20.9,
       "source_tier": [
         "first_party_archive"
@@ -66,6 +66,22 @@
       ],
       "completeness_status": [
         "complete_website_index_byline_field"
+      ]
+    },
+    {
+      "source_dataset": "amr_youtube_media_2023_2026",
+      "row_count": 83,
+      "unique_printed_name_count": 40,
+      "confirmed_canonical_person_count": 6,
+      "unmatched_count": 17,
+      "probable_requires_review_count": 23,
+      "ambiguous_or_collision_count": 31,
+      "percentage_resolved": 14.46,
+      "source_tier": [
+        "first_party"
+      ],
+      "completeness_status": [
+        "complete_public_channel_participants_where_stated"
       ]
     },
     {
@@ -185,8 +201,8 @@
       "row_count": 19,
       "unique_printed_name_count": 19,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 19,
-      "probable_requires_review_count": 0,
+      "unmatched_count": 18,
+      "probable_requires_review_count": 1,
       "ambiguous_or_collision_count": 0,
       "percentage_resolved": 0.0,
       "source_tier": [

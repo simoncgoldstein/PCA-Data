@@ -5,53 +5,54 @@
   },
   "nodes": {
     "person_nodes": 207,
-    "dataset_nodes": 27,
+    "dataset_nodes": 28,
     "organization_nodes": 21,
     "church_nodes": 1970,
     "presbytery_nodes": 88,
     "event_nodes": 16
   },
   "edges": {
-    "confirmed_identity_dataset_edges": 660,
+    "confirmed_identity_dataset_edges": 672,
     "by_evidence_type": {
       "formal_organization_leadership": 6,
       "formal_organization_membership": 39,
       "formal_protest_signature": 171,
       "institutional_role": 6,
       "media_authorship_or_participation": 34,
+      "media_participation": 12,
       "minority_report_signature": 15,
       "public_letter_signature": 277,
       "publication_contribution": 11,
       "recorded_negative_vote": 101
     },
     "by_source_tier": {
-      "first_party": 40,
+      "first_party": 52,
       "first_party_archive": 277,
       "official_institutional": 6,
       "official_primary": 287,
       "primary_archive": 39,
       "user_supplied_visual_receipt": 11
     },
-    "distinct_source_paths": 11
+    "distinct_source_paths": 12
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.1180891
+    "value": 0.11594203
   },
   "components": {
     "count": 13,
-    "largest_component_nodes": 222,
+    "largest_component_nodes": 223,
     "isolated_person_nodes": 1
   },
   "quality_gaps": {
-    "unresolved_identity_rows": 2056,
+    "unresolved_identity_rows": 2127,
     "unresolved_by_status": {
-      "ambiguous": 276,
+      "ambiguous": 309,
       "collision": 10,
-      "probable_requires_review": 226,
-      "unmatched": 1544
+      "probable_requires_review": 252,
+      "unmatched": 1556
     },
-    "confirmed_edges_missing_specific_event_year": 73,
+    "confirmed_edges_missing_specific_event_year": 85,
     "datasets_without_primary_or_official_tier": [
       "publication_co-laborers-co-heirs-2019",
       "publication_heal-us-emmanuel-2016",

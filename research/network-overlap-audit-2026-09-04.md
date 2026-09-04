@@ -2,9 +2,9 @@
 
 ## 1. What is measured
 
-This first overlap pass measures shared **confirmed canonical people** across 27 source-bounded rosters and role/media datasets. It does not measure ideology, agreement with every co-participant, or the unobserved PCA population.
+This first overlap pass measures shared **confirmed canonical people** across 28 source-bounded rosters and role/media datasets. It does not measure ideology, agreement with every co-participant, or the unobserved PCA population.
 
-The analysis contains 351 pairwise comparisons, 204 people recurring across at least two independent source families, 559 dataset/presbytery concentration rows, 208 exactly matched current-directory churches from the structured 2022 A Faithful PCA fields, six confirmed institution-to-action pipeline people, and 660 confirmed identity-to-dataset graph edges.
+The analysis contains 378 pairwise comparisons, 204 people recurring across at least two independent source families, 559 dataset/presbytery concentration rows, 208 exactly matched current-directory churches from the structured 2022 A Faithful PCA fields, six confirmed institution-to-action pipeline people, and 672 confirmed identity-to-dataset graph edges.
 
 Every pairwise result reports two percentage types:
 
@@ -27,7 +27,7 @@ The most recurrent confirmed people in the present source universe include David
 
 ## 3. Denominator and identity limits
 
-Resolution remains incomplete: 2,056 of 2,716 crosswalk rows do not have a confirmed ID. The key large-roster resolved-person coverage is 154 of 737 rows for the 2022 A Faithful PCA snapshot, 101 of 199 for the Overture 15 negative-vote roster, 92 of 203 for the Warhurst protest, 79 of 203 for the NAE-withdrawal protest, and 39 of 151 for confirmed National Partnership printed-name records.
+Resolution remains incomplete: 2,127 of 2,799 crosswalk rows do not have a confirmed ID. The key large-roster resolved-person coverage is 154 of 737 rows for the 2022 A Faithful PCA snapshot, 101 of 199 for the Overture 15 negative-vote roster, 92 of 203 for the Warhurst protest, 79 of 203 for the NAE-withdrawal protest, and 39 of 151 for confirmed National Partnership printed-name records.
 
 Accordingly, confirmed-subset percentages can be much higher than whole-roster lower bounds and must never be presented as full-roster rates. Unresolved exact-name possibilities are displayed separately and excluded from all confirmed intersections, unions, recurrence counts, concentration counts, and graph edges.
 
@@ -36,9 +36,9 @@ Presbytery and church rates use observed roster names as denominators. They are 
 ## 4. Source families that would most improve the graph
 
 1. Complete official RUF, RTS, MNA, MTW, Covenant College, and WTS profiles with exact roles, locations, and profile URLs.
-2. Distinct AMR Substack and YouTube inventories with stable item/video IDs, participants, and official captions.
+2. Dated church, presbytery, or institutional context for unresolved AMR publication and video participants.
 3. An original or reconstructed primary-source Revoice 2018 program.
-4. Primary church/presbytery context for the 226 probable identity rows and stronger disambiguation for 276 ambiguous rows.
+4. Primary church/presbytery context for the 252 probable identity rows and stronger disambiguation for 309 ambiguous rows.
 5. Current and historical church crosswalks for organization strings that do not exactly match the 2026 PCA directory.
 
 ## 5. Findings safe for a future interface

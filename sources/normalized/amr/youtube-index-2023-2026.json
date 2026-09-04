@@ -39,7 +39,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/HEqGUZ83hlQ-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Ligon Duncan",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "Tom Gibbs",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "participant"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-VRBhE_guBVQ",
@@ -71,7 +86,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/VRBhE_guBVQ-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Mel Duncan",
+          "role_in_item": "guest"
+        },
+        {
+          "name_as_printed": "Howie Donahoe",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-bMj_pCd4U6U",
@@ -104,7 +134,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/bMj_pCd4U6U-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "Geoff Ziegler",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "Erik Bonkovsky",
+          "role_in_item": "participant"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-YMxX_eDvYWw",
@@ -134,7 +179,26 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/YMxX_eDvYWw-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "David Coffin",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Steve Tipton",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Howie Donahoe",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "panelist"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-cxQxeng9eow",
@@ -167,7 +231,26 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/cxQxeng9eow-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Steve Tipton",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "David Coffin",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Howie Donahoe",
+          "role_in_item": "panelist"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-JpsstSfx40U",
@@ -199,7 +282,26 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/JpsstSfx40U-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Steve Tipton",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "David Coffin",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Howie Donahoe",
+          "role_in_item": "panelist"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-Y86FgB4lytc",
@@ -230,7 +332,26 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/Y86FgB4lytc-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Nate Shurden",
+          "role_in_item": "guest"
+        },
+        {
+          "name_as_printed": "Joel St. Clair",
+          "role_in_item": "guest"
+        },
+        {
+          "name_as_printed": "Chad Van Dixhoorn",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-xezEYJN8aiM",
@@ -260,7 +381,26 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/xezEYJN8aiM-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Steve Tipton",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "David Coffin",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Howie Donahoe",
+          "role_in_item": "panelist"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-aT6rzfPhCRo",
@@ -290,7 +430,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/aT6rzfPhCRo-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "David Richter",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-EbiiKQaoYGY",
@@ -320,7 +471,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/EbiiKQaoYGY-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Casey Cockrum",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-ZAc4Pv_FjM0",
@@ -350,7 +512,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/ZAc4Pv_FjM0-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Charles McGowan",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-Mj_Tdopui1Y",
@@ -380,7 +553,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/Mj_Tdopui1Y-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Kathy Clow",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-mHrRbj6BSKM",
@@ -410,7 +594,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/mHrRbj6BSKM-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Derek Radney",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Sean Michael Lucas",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-MhUwGG6x-zs",
@@ -440,7 +635,9 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/MhUwGG6x-zs-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [],
+      "participant_evidence": "names not established in available metadata"
     },
     {
       "stable_item_id": "youtube-oEee-1PK2Jw",
@@ -470,7 +667,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/oEee-1PK2Jw-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Denine Blevins",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-hSsD98y2toQ",
@@ -500,7 +708,14 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/hSsD98y2toQ-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Zack Eswine",
+          "role_in_item": "featured_speaker"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-8SUKmIfQyDc",
@@ -530,7 +745,14 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/8SUKmIfQyDc-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Aaron Chung",
+          "role_in_item": "featured_speaker"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-5oxfx1O4Gjs",
@@ -560,7 +782,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/5oxfx1O4Gjs-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Russ Whitfield",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "Aaron Chung",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "Paul Kim",
+          "role_in_item": "participant"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-zYRv7vG5xKA",
@@ -591,7 +828,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/zYRv7vG5xKA-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Sean Lucas",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "Joel St. Clair",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "Jenilyn Swett",
+          "role_in_item": "participant"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-w4JhTtFHsOE",
@@ -621,7 +873,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/w4JhTtFHsOE-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Judie Puckett",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-YfrBuVTcClw",
@@ -651,7 +914,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/YfrBuVTcClw-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Mike Khandjian",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Elliot Cherry",
+          "role_in_item": "guest"
+        },
+        {
+          "name_as_printed": "Michael Keller",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-bqt1SSgo-Yo",
@@ -681,7 +959,26 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/bqt1SSgo-Yo-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Fred Greco",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "David Coffin",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Howie Donahoe",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Joel St. Clair",
+          "role_in_item": "panelist"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-D-SF45Bd62E",
@@ -711,7 +1008,26 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/D-SF45Bd62E-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Fred Greco",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "David Coffin",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Howie Donahoe",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Joel St. Clair",
+          "role_in_item": "panelist"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-Z_toUjmYEOc",
@@ -741,7 +1057,26 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/Z_toUjmYEOc-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Fred Greco",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "David Coffin",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Howie Donahoe",
+          "role_in_item": "panelist"
+        },
+        {
+          "name_as_printed": "Joel St. Clair",
+          "role_in_item": "panelist"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-pNBUWVKL_Ak",
@@ -771,7 +1106,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/pNBUWVKL_Ak-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Katie Polski",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-3Z4Xj-Q6lsA",
@@ -801,7 +1147,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/3Z4Xj-Q6lsA-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Allie Vining",
+          "role_in_item": "guest"
+        },
+        {
+          "name_as_printed": "Linda Lloyd",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-EUYsWl3xLpE",
@@ -831,7 +1192,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/EUYsWl3xLpE-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Joy Beans",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-SKsoGFLRy0Y",
@@ -861,7 +1233,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/SKsoGFLRy0Y-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Melody Perkins",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-j3bBD1FkDTQ",
@@ -891,7 +1274,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/j3bBD1FkDTQ-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Christine Gordon",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Kathy Jenke",
+          "role_in_item": "guest"
+        },
+        {
+          "name_as_printed": "Rachel Stevener",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-dmLUxxh827w",
@@ -921,7 +1319,18 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/dmLUxxh827w-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "Mike Khandjian",
+          "role_in_item": "interviewer"
+        },
+        {
+          "name_as_printed": "Ray Cortese",
+          "role_in_item": "guest"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     },
     {
       "stable_item_id": "youtube-1DIUuWkKsAo",
@@ -951,7 +1360,22 @@
       "caption_receipts": [
         "sources/raw/media/amr/youtube-2026-09-03/captions/1DIUuWkKsAo-en-auto-1.vtt"
       ],
-      "playability_status_at_capture": "OK"
+      "playability_status_at_capture": "OK",
+      "participants_as_stated": [
+        {
+          "name_as_printed": "David Strain",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "David Richter",
+          "role_in_item": "participant"
+        },
+        {
+          "name_as_printed": "David Cassidy",
+          "role_in_item": "participant"
+        }
+      ],
+      "participant_evidence": "official title, description, or opening caption passage"
     }
   ]
 }

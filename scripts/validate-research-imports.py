@@ -173,6 +173,27 @@ if len(youtube_items) != 31 or len({row.get("video_id") for row in youtube_items
     errors.append("AMR YouTube index: expected 31 unique videos")
 if any(row.get("caption_status") != "available_archived" or not row.get("caption_receipts") for row in youtube_items):
     errors.append("AMR YouTube index: every captured video should retain an English caption receipt")
+youtube_participants = [
+    participant
+    for row in youtube_items
+    for participant in row.get("participants_as_stated", [])
+]
+allowed_youtube_roles = {"participant", "panelist", "interviewer", "guest", "featured_speaker"}
+if len(youtube_participants) != 83:
+    errors.append(f"AMR YouTube index: expected 83 stated participant appearances, found {len(youtube_participants)}")
+if len({row.get("name_as_printed") for row in youtube_participants}) != 40:
+    errors.append("AMR YouTube index: expected 40 unique stated participant names")
+if sum(bool(row.get("participants_as_stated")) for row in youtube_items) != 30:
+    errors.append("AMR YouTube index: expected stated participants for 30 of 31 videos")
+for index, row in enumerate(youtube_items, 1):
+    participants = row.get("participants_as_stated", [])
+    if participants and row.get("participant_evidence") != "official title, description, or opening caption passage":
+        errors.append(f"AMR YouTube item {index}: missing bounded participant evidence note")
+    for participant in participants:
+        if not participant.get("name_as_printed"):
+            errors.append(f"AMR YouTube item {index}: blank participant name")
+        if participant.get("role_in_item") not in allowed_youtube_roles:
+            errors.append(f"AMR YouTube item {index}: invalid participant role {participant.get('role_in_item')}")
 youtube_manifest = load("sources/raw/media/amr/youtube-2026-09-03/manifest.json")
 if youtube_manifest.get("video_count") != 31 or youtube_manifest.get("captioned_video_count") != 31:
     errors.append("AMR YouTube manifest: expected 31 videos with 31 captioned videos")
@@ -263,6 +284,16 @@ for row in identity_rows:
 identity_summary = load("sources/normalized/identity/summary.json")
 if sum(identity_summary.get("overall_match_status_counts", {}).values()) != len(identity_rows):
     errors.append("identity summary status counts do not equal crosswalk row count")
+if identity_summary.get("metadata", {}).get("record_count") != 2799:
+    errors.append("identity summary: expected 2,799 source rows after AMR YouTube participant ingestion")
+if len(identity_summary.get("datasets", [])) != 28:
+    errors.append("identity summary: expected 28 source-bounded datasets")
+amr_youtube_summary = next(
+    (row for row in identity_summary.get("datasets", []) if row.get("source_dataset") == "amr_youtube_media_2023_2026"),
+    None,
+)
+if not amr_youtube_summary or amr_youtube_summary.get("row_count") != 83:
+    errors.append("identity summary: expected 83 AMR YouTube participant rows")
 afp_2022 = load("sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json").get("signers", [])
 if afp_2022 and (afp_2022[5].get("name_as_printed") != "Rev. Steve Brown" or afp_2022[5].get("normalized_person_id") is not None):
     errors.append("A Faithful PCA signature 6 must not carry Andrew Augenstein's ID")

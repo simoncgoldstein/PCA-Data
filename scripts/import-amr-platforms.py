@@ -104,6 +104,43 @@ def topic_tags(title: str) -> list[str]:
     return found or ["uncategorized"]
 
 
+# Reviewed against each official title/description and, where needed, the
+# opening caption passage. A generic participant edge records appearance only;
+# it does not attribute another speaker's views or an AMR-wide position.
+YOUTUBE_PARTICIPANTS: dict[str, list[dict[str, str]]] = {
+    "HEqGUZ83hlQ": [{"name_as_printed": name, "role_in_item": "participant"} for name in ["Ligon Duncan", "Tom Gibbs", "Derek Radney"]],
+    "VRBhE_guBVQ": [{"name_as_printed": "Derek Radney", "role_in_item": "interviewer"}, {"name_as_printed": "Mel Duncan", "role_in_item": "guest"}, {"name_as_printed": "Howie Donahoe", "role_in_item": "guest"}],
+    "bMj_pCd4U6U": [{"name_as_printed": name, "role_in_item": "participant"} for name in ["Derek Radney", "Geoff Ziegler", "Erik Bonkovsky"]],
+    "YMxX_eDvYWw": [{"name_as_printed": name, "role_in_item": "panelist"} for name in ["David Coffin", "Steve Tipton", "Howie Donahoe", "Derek Radney"]],
+    "cxQxeng9eow": [{"name_as_printed": name, "role_in_item": "panelist"} for name in ["Derek Radney", "Steve Tipton", "David Coffin", "Howie Donahoe"]],
+    "JpsstSfx40U": [{"name_as_printed": name, "role_in_item": "panelist"} for name in ["Derek Radney", "Steve Tipton", "David Coffin", "Howie Donahoe"]],
+    "Y86FgB4lytc": [{"name_as_printed": "Derek Radney", "role_in_item": "interviewer"}, *({"name_as_printed": name, "role_in_item": "guest"} for name in ["Nate Shurden", "Joel St. Clair", "Chad Van Dixhoorn"])],
+    "xezEYJN8aiM": [{"name_as_printed": name, "role_in_item": "panelist"} for name in ["Derek Radney", "Steve Tipton", "David Coffin", "Howie Donahoe"]],
+    "aT6rzfPhCRo": [{"name_as_printed": "Derek Radney", "role_in_item": "interviewer"}, {"name_as_printed": "David Richter", "role_in_item": "guest"}],
+    "EbiiKQaoYGY": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, {"name_as_printed": "Casey Cockrum", "role_in_item": "guest"}],
+    "ZAc4Pv_FjM0": [{"name_as_printed": "Derek Radney", "role_in_item": "interviewer"}, {"name_as_printed": "Charles McGowan", "role_in_item": "guest"}],
+    "Mj_Tdopui1Y": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, {"name_as_printed": "Kathy Clow", "role_in_item": "guest"}],
+    "mHrRbj6BSKM": [{"name_as_printed": "Derek Radney", "role_in_item": "interviewer"}, {"name_as_printed": "Sean Michael Lucas", "role_in_item": "guest"}],
+    "oEee-1PK2Jw": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, {"name_as_printed": "Denine Blevins", "role_in_item": "guest"}],
+    "hSsD98y2toQ": [{"name_as_printed": "Zack Eswine", "role_in_item": "featured_speaker"}],
+    "8SUKmIfQyDc": [{"name_as_printed": "Aaron Chung", "role_in_item": "featured_speaker"}],
+    "5oxfx1O4Gjs": [{"name_as_printed": name, "role_in_item": "participant"} for name in ["Russ Whitfield", "Aaron Chung", "Paul Kim"]],
+    "zYRv7vG5xKA": [{"name_as_printed": name, "role_in_item": "participant"} for name in ["Sean Lucas", "Joel St. Clair", "Jenilyn Swett"]],
+    "w4JhTtFHsOE": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, {"name_as_printed": "Judie Puckett", "role_in_item": "guest"}],
+    "YfrBuVTcClw": [{"name_as_printed": "Mike Khandjian", "role_in_item": "interviewer"}, *({"name_as_printed": name, "role_in_item": "guest"} for name in ["Elliot Cherry", "Michael Keller"])],
+    "bqt1SSgo-Yo": [{"name_as_printed": name, "role_in_item": "panelist"} for name in ["Fred Greco", "David Coffin", "Howie Donahoe", "Joel St. Clair"]],
+    "D-SF45Bd62E": [{"name_as_printed": name, "role_in_item": "panelist"} for name in ["Fred Greco", "David Coffin", "Howie Donahoe", "Joel St. Clair"]],
+    "Z_toUjmYEOc": [{"name_as_printed": name, "role_in_item": "panelist"} for name in ["Fred Greco", "David Coffin", "Howie Donahoe", "Joel St. Clair"]],
+    "pNBUWVKL_Ak": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, {"name_as_printed": "Katie Polski", "role_in_item": "guest"}],
+    "3Z4Xj-Q6lsA": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, *({"name_as_printed": name, "role_in_item": "guest"} for name in ["Allie Vining", "Linda Lloyd"])],
+    "EUYsWl3xLpE": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, {"name_as_printed": "Joy Beans", "role_in_item": "guest"}],
+    "SKsoGFLRy0Y": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, {"name_as_printed": "Melody Perkins", "role_in_item": "guest"}],
+    "j3bBD1FkDTQ": [{"name_as_printed": "Christine Gordon", "role_in_item": "interviewer"}, *({"name_as_printed": name, "role_in_item": "guest"} for name in ["Kathy Jenke", "Rachel Stevener"])],
+    "dmLUxxh827w": [{"name_as_printed": "Mike Khandjian", "role_in_item": "interviewer"}, {"name_as_printed": "Ray Cortese", "role_in_item": "guest"}],
+    "1DIUuWkKsAo": [{"name_as_printed": name, "role_in_item": "participant"} for name in ["David Strain", "David Richter", "David Cassidy"]],
+}
+
+
 def archive_substack() -> tuple[list[dict[str, Any]], list[dict[str, Any]], list[dict[str, Any]]]:
     receipts: list[dict[str, Any]] = []
     posts: list[dict[str, Any]] = []
@@ -382,6 +419,8 @@ def main() -> None:
             "hosts_as_stated": None,
             "guests_as_stated": None,
             "roles_as_stated": None,
+            "participants_as_stated": YOUTUBE_PARTICIPANTS.get(video["video_id"], []),
+            "participant_evidence": "official title, description, or opening caption passage" if video["video_id"] in YOUTUBE_PARTICIPANTS else "names not established in available metadata",
             "description": video.get("description"),
             "media_type": "video",
             "duration_seconds": video.get("duration_seconds"),

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 2716,
+    "record_count": 2799,
     "canonical_person_count": 206,
     "new_person_count": 189,
     "rules": {
@@ -13,12 +13,12 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 276,
+    "ambiguous": 309,
     "collision": 10,
     "context_confirmed": 552,
-    "exact_confirmed": 108,
-    "probable_requires_review": 226,
-    "unmatched": 1544
+    "exact_confirmed": 120,
+    "probable_requires_review": 252,
+    "unmatched": 1556
   },
   "datasets": [
     {
@@ -30,10 +30,10 @@
       "match_status_counts": {
         "exact_confirmed": 13,
         "context_confirmed": 110,
-        "probable_requires_review": 27,
-        "ambiguous": 57,
+        "probable_requires_review": 28,
+        "ambiguous": 58,
         "collision": 1,
-        "unmatched": 363
+        "unmatched": 361
       },
       "percent_rows_resolved": 21.54,
       "source_tier": [
@@ -52,10 +52,10 @@
       "match_status_counts": {
         "exact_confirmed": 13,
         "context_confirmed": 141,
-        "probable_requires_review": 28,
-        "ambiguous": 62,
+        "probable_requires_review": 29,
+        "ambiguous": 63,
         "collision": 1,
-        "unmatched": 492
+        "unmatched": 490
       },
       "percent_rows_resolved": 20.9,
       "source_tier": [
@@ -107,6 +107,28 @@
       ],
       "completeness_status": [
         "complete_website_index_byline_field"
+      ]
+    },
+    {
+      "source_dataset": "amr_youtube_media_2023_2026",
+      "row_count": 83,
+      "unique_printed_name_count": 40,
+      "confirmed_canonical_person_count": 6,
+      "confirmed_row_count": 12,
+      "match_status_counts": {
+        "exact_confirmed": 12,
+        "context_confirmed": 0,
+        "probable_requires_review": 23,
+        "ambiguous": 31,
+        "collision": 0,
+        "unmatched": 17
+      },
+      "percent_rows_resolved": 14.46,
+      "source_tier": [
+        "first_party"
+      ],
+      "completeness_status": [
+        "complete_public_channel_participants_where_stated"
       ]
     },
     {
@@ -272,10 +294,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 0,
+        "probable_requires_review": 1,
         "ambiguous": 0,
         "collision": 0,
-        "unmatched": 19
+        "unmatched": 18
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [

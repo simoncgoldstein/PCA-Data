@@ -126,6 +126,13 @@
           "source_locator": "item:7:contributor:2:https://a4mr.org/after-the-general-assembly-reflections-on-trust-unity-and-the-work-ahead/"
         },
         {
+          "dataset": "amr_youtube_media_2023_2026",
+          "year": null,
+          "relationship_type": "media_participation",
+          "source_path": "sources/normalized/amr/youtube-index-2023-2026.json",
+          "source_locator": "video:bMj_pCd4U6U:participant:2"
+        },
+        {
           "dataset": "national_partnership_confirmed_members",
           "year": null,
           "relationship_type": "formal_organization_membership",
@@ -240,6 +247,13 @@
           "source_locator": "item:52:contributor:1:https://a4mr.org/preaching-the-good-news-in-a-changing-world-a-conversation-with-russ-whitfield-aaron-chung-and-paul-kim/"
         },
         {
+          "dataset": "amr_youtube_media_2023_2026",
+          "year": null,
+          "relationship_type": "media_participation",
+          "source_path": "sources/normalized/amr/youtube-index-2023-2026.json",
+          "source_locator": "video:5oxfx1O4Gjs:participant:1"
+        },
+        {
           "dataset": "publication_heal-us-emmanuel-2016",
           "year": 2016,
           "relationship_type": "publication_contribution",
@@ -339,6 +353,20 @@
           "source_locator": "item:8:contributor:1:https://a4mr.org/presbyterian-theological-vision-part-seven/"
         },
         {
+          "dataset": "amr_youtube_media_2023_2026",
+          "year": null,
+          "relationship_type": "media_participation",
+          "source_path": "sources/normalized/amr/youtube-index-2023-2026.json",
+          "source_locator": "video:mHrRbj6BSKM:participant:2"
+        },
+        {
+          "dataset": "amr_youtube_media_2023_2026",
+          "year": null,
+          "relationship_type": "media_participation",
+          "source_path": "sources/normalized/amr/youtube-index-2023-2026.json",
+          "source_locator": "video:zYRv7vG5xKA:participant:1"
+        },
+        {
           "dataset": "national_partnership_confirmed_members",
           "year": null,
           "relationship_type": "formal_organization_membership",
@@ -367,6 +395,11 @@
       "institution": "reformed-theological-seminary",
       "other_dataset": "amr_website_media_2023_2026",
       "confirmed_person_count": 15
+    },
+    {
+      "institution": "reformed-theological-seminary",
+      "other_dataset": "amr_youtube_media_2023_2026",
+      "confirmed_person_count": 3
     },
     {
       "institution": "reformed-theological-seminary",
@@ -426,6 +459,11 @@
     {
       "institution": "reformed-university-fellowship",
       "other_dataset": "amr_leadership_current",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "reformed-university-fellowship",
+      "other_dataset": "amr_youtube_media_2023_2026",
       "confirmed_person_count": 1
     },
     {
