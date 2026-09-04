@@ -22,6 +22,12 @@ wim_path = root / "sources/normalized/general-assembly/2001-2002-women-military-
 wim = json.loads(wim_path.read_text(encoding="utf-8"))
 women2016_path = root / "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
 women2016 = json.loads(women2016_path.read_text(encoding="utf-8"))
+subscription2003_path = root / "sources/normalized/general-assembly/2003-subscription-formal-position-records.json"
+subscription2003 = json.loads(subscription2003_path.read_text(encoding="utf-8"))
+subscription_fv_path = root / "sources/normalized/general-assembly/2002-2007-subscription-federal-vision-chronology.json"
+subscription_fv = json.loads(subscription_fv_path.read_text(encoding="utf-8"))
+subscription2002_gap_path = root / "sources/raw/general-assembly/2002-subscription-negative-vote-roster-gap-2026-09-04.json"
+subscription2002_gap = json.loads(subscription2002_gap_path.read_text(encoding="utf-8"))
 batch2_chronology_path = root / "sources/normalized/general-assembly/2019-2023-sexuality-formal-position-chronology.json"
 aic_path = root / "sources/normalized/general-assembly/2019-2021-human-sexuality-aic.json"
 o37_votes_path = root / "sources/normalized/general-assembly/2021-overture-37-negative-votes.json"
@@ -219,6 +225,62 @@ if any(r.get("name_as_printed") == "Joseph Pipa" for r in protest2016.get("added
 if women2016.get("assembly_disposition", {}).get("permanent_committee_recommendation_to_form_study_committee") != {"for": 767, "against": 375, "abstain": 12}:
     raise SystemExit("2016 women study committee: final Assembly tally drift")
 
+# 2002-2007 Good Faith Subscription / Federal Vision formal-position family.
+sm = subscription2003.get("metadata", {})
+if sm.get("ideological_weight") != 0:
+    raise SystemExit("2003 subscription: ideological_weight must remain 0")
+discrepancy = sm.get("count_discrepancy", {})
+if discrepancy.get("primary_minutes_recorded_negative_vote_count") != 71 or discrepancy.get("pca_digest_recorded_negative_vote_count") != 70 or discrepancy.get("controlling_count") != 71:
+    raise SystemExit("2003 subscription: primary-minutes/Digest count discrepancy guardrail drift")
+if sm.get("source_family") != "ga_2003_subscription_formal_positions":
+    raise SystemExit("2003 subscription: same-journal source-family guardrail drift")
+
+votes2003 = subscription2003.get("bco_21_4_recorded_negative_votes", {})
+if votes2003.get("vote_count") != 71 or len(votes2003.get("votes", [])) != 71:
+    raise SystemExit("2003 subscription: expected 71 primary recorded negative votes")
+if len({r.get("name_as_printed") for r in votes2003.get("votes", [])}) != 71:
+    raise SystemExit("2003 subscription: recorded-negative-vote names must be unique")
+
+protest2003 = subscription2003.get("bco_21_4_full_subscription_protest", {})
+if protest2003.get("author_presenter", {}).get("name_as_printed") != "Morton H. Smith":
+    raise SystemExit("2003 subscription protest: Morton H. Smith author/presenter missing")
+if protest2003.get("joiner_count") != 93 or len(protest2003.get("joiners", [])) != 93:
+    raise SystemExit("2003 subscription protest: expected 93 additional joiners")
+if any(r.get("name_as_printed") == "Morton H. Smith" for r in protest2003.get("joiners", [])):
+    raise SystemExit("2003 subscription protest: author must remain distinct from 93 joiners")
+
+minority2003 = subscription2003.get("overture_16_subscription_study_minority_report", {})
+if minority2003.get("signer_count") != 14 or len(minority2003.get("signers", [])) != 14:
+    raise SystemExit("2003 Overture 16 minority: expected 14 signers")
+if minority2003.get("assembly_vote_on_minority_report") != {"for": 530, "against": 477}:
+    raise SystemExit("2003 Overture 16 minority: 530-477 Assembly tally drift")
+single2003 = subscription2003.get("overture_16_minority_report_recorded_negative_vote", {})
+if single2003.get("vote_count") != 1 or single2003.get("voter", {}).get("name_as_printed") != "Chris A. Hutchinson":
+    raise SystemExit("2003 Overture 16 minority: Chris A. Hutchinson recorded negative vote missing")
+
+if subscription2002_gap.get("recorded_negative_vote_count") != 127 or subscription2002_gap.get("names_recovered") is not False:
+    raise SystemExit("2002 subscription: preserve 127-vote event-level gap without invented names")
+
+sfv_events = {e.get("event_id"): e for e in subscription_fv.get("events", [])}
+rat2003 = sfv_events.get("2003-good-faith-subscription-ratification", {})
+if rat2003.get("recorded_negative_vote_count") != 71:
+    raise SystemExit("2003 subscription chronology: primary count must be 71")
+if rat2003.get("count_discrepancy") != {"primary_minutes": 71, "pca_digest": 70, "controlling_count": 71, "note": "Original 31st GA minutes control over later Digest summary."}:
+    raise SystemExit("2003 subscription chronology: discrepancy metadata drift")
+
+fv2007 = sfv_events.get("2007-fv-npp-study-report", {})
+if fv2007.get("committee_member_count") != 7 or len(fv2007.get("committee_members", [])) != 7:
+    raise SystemExit("2007 FV/NPP report: expected 7 committee members")
+expected_fv_names = {"Paul Fowler", "Grover Gunn", "Ligon Duncan", "Sean Lucas", "Robert Mattes", "William Mueller", "John White"}
+if {r.get("name_as_printed") for r in fv2007.get("committee_members", [])} != expected_fv_names:
+    raise SystemExit("2007 FV/NPP report: committee roster drift")
+if fv2007.get("declaration_consensus") != "unanimous" or len(fv2007.get("declarations", [])) != 9:
+    raise SystemExit("2007 FV/NPP report: unanimous nine-declaration guardrail drift")
+if len(fv2007.get("committee_recommendations", [])) != 5:
+    raise SystemExit("2007 FV/NPP report: expected five recommendations")
+if fv2007.get("ideological_weight") != 0:
+    raise SystemExit("2007 FV/NPP report: ideological_weight must remain 0")
+
 # 2001-2002 Women in the Military report family.
 if wim.get("metadata", {}).get("ideological_weight") != 0:
     raise SystemExit("Women in the Military: ideological_weight must remain 0")
@@ -272,6 +334,11 @@ for required in (
 
 indexed = {row.get("evidence_id"): row for row in index.get("normalized_position_sources", [])}
 for required in (
+    "2003-bco-21-4-recorded-negative-votes",
+    "2003-bco-21-4-full-subscription-protest",
+    "2003-subscription-study-minority-report",
+    "2003-subscription-overture-16-recorded-negative-vote",
+    "2007-fv-npp-unanimous-study-report",
     "2001-wim-consensus-report",
     "2001-wim-majority-duty-report",
     "2001-wim-minority-wise-counsel-report",

@@ -230,6 +230,51 @@
       "path": "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json",
       "coverage": "4 named minority-report names; minority substitute defeated",
       "important_boundary": "The four names establish the minority position; no unnamed commissioner’s position is inferred from the Assembly outcome."
+    },
+    {
+      "evidence_id": "2003-bco-21-4-recorded-negative-votes",
+      "year": 2003,
+      "topic": "good_faith_subscription_bco_21_4",
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "path": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
+      "coverage": "71 individually recorded negative votes from the original 31st GA minutes; later PCA Digest says 70, with the primary 71 controlling.",
+      "important_boundary": "A recorded negative vote establishes the vote on BCO 21-4, not a complete rationale."
+    },
+    {
+      "evidence_id": "2003-bco-21-4-full-subscription-protest",
+      "year": 2003,
+      "topic": "good_faith_subscription_bco_21_4",
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "path": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
+      "coverage": "Morton H. Smith as author/presenter plus 93 named commissioners who joined the protest.",
+      "important_boundary": "Author/presenter and joiner are preserved as distinct roles; signership establishes agreement with the protest at that time."
+    },
+    {
+      "evidence_id": "2003-subscription-study-minority-report",
+      "year": 2003,
+      "topic": "confessional_subscription_study_committee",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
+      "coverage": "14 named minority-report signers; minority report adopted 530-477.",
+      "important_boundary": "Signership establishes support for the report and recommendation, not every broader subscription inference."
+    },
+    {
+      "evidence_id": "2003-subscription-overture-16-recorded-negative-vote",
+      "year": 2003,
+      "topic": "confessional_subscription_study_committee",
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "path": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
+      "coverage": "TE Chris A. Hutchinson recorded a negative vote on the adopted minority-report action.",
+      "important_boundary": "Records the vote only."
+    },
+    {
+      "evidence_id": "2007-fv-npp-unanimous-study-report",
+      "year": 2007,
+      "topic": "federal_vision_new_perspective_auburn_avenue",
+      "evidence_class": "study_committee_consensus_participation",
+      "path": "sources/normalized/general-assembly/2002-2007-subscription-federal-vision-chronology.json",
+      "coverage": "7 named committee members and 9 declarations explicitly identified by the report as unanimous.",
+      "important_boundary": "The explicit unanimity supports assigning the nine declarations to all seven members, but not every sentence, footnote, or characterization in the report."
     }
   ],
   "priority_backlog": [

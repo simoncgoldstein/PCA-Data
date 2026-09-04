@@ -1,0 +1,1317 @@
+{
+  "metadata": {
+    "dataset_id": "ga_2003_subscription_formal_position_records",
+    "title": "31st General Assembly subscription formal-position records",
+    "year": 2003,
+    "primary_source": "https://www.pcahistory.org/pca/ga/31st_pcaga_2003.pdf",
+    "source_family": "ga_2003_subscription_formal_positions",
+    "modeling_rule": "All records come from the same General Assembly journal and therefore cannot independently corroborate one another for identity resolution. Printed names are preserved exactly; identity_name removes only parenthetical nickname insertions for conservative matching.",
+    "count_discrepancy": {
+      "primary_minutes_recorded_negative_vote_count": 71,
+      "pca_digest_recorded_negative_vote_count": 70,
+      "controlling_count": 71,
+      "rule": "The original 31st GA minutes control over the later Digest summary; the discrepancy is preserved rather than silently harmonized."
+    },
+    "ideological_weight": 0
+  },
+  "bco_21_4_recorded_negative_votes": {
+    "event_id": "2003-bco-21-4-recorded-negative-votes",
+    "evidence_class": "recorded_vote_or_formal_protest_signature",
+    "action": "Recorded negative vote on final Assembly adoption of the Good Faith Subscription amendment to BCO 21-4 after the 816-545 aggregate vote.",
+    "vote_count": 71,
+    "votes": [
+      {
+        "print_order": 1,
+        "office_as_printed": "TE",
+        "name_as_printed": "K. Hugh Acton",
+        "identity_name": "K. Hugh Acton",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 2,
+        "office_as_printed": "TE",
+        "name_as_printed": "Jon C. Anderson",
+        "identity_name": "Jon C. Anderson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 3,
+        "office_as_printed": "TE",
+        "name_as_printed": "Larry E. Ball",
+        "identity_name": "Larry E. Ball",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 4,
+        "office_as_printed": "TE",
+        "name_as_printed": "David G. Barker",
+        "identity_name": "David G. Barker",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 5,
+        "office_as_printed": "TE",
+        "name_as_printed": "Timothy B. (Tim) Bayly",
+        "identity_name": "Timothy B. Bayly",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 6,
+        "office_as_printed": "RE",
+        "name_as_printed": "Tom Bingham",
+        "identity_name": "Tom Bingham",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 7,
+        "office_as_printed": "TE",
+        "name_as_printed": "Craig S. Bulkeley",
+        "identity_name": "Craig S. Bulkeley",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 8,
+        "office_as_printed": "TE",
+        "name_as_printed": "David F. Coffin",
+        "identity_name": "David F. Coffin",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 9,
+        "office_as_printed": "TE",
+        "name_as_printed": "Michael Coleman",
+        "identity_name": "Michael Coleman",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 10,
+        "office_as_printed": "RE",
+        "name_as_printed": "Barry S. Cureton",
+        "identity_name": "Barry S. Cureton",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 11,
+        "office_as_printed": "RE",
+        "name_as_printed": "Perry F. Denniston",
+        "identity_name": "Perry F. Denniston",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 12,
+        "office_as_printed": "TE",
+        "name_as_printed": "Paul S. Dixon",
+        "identity_name": "Paul S. Dixon",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 13,
+        "office_as_printed": "TE",
+        "name_as_printed": "A. Trevor Downie",
+        "identity_name": "A. Trevor Downie",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 14,
+        "office_as_printed": "TE",
+        "name_as_printed": "Julian D. (Skip) Dusenbury",
+        "identity_name": "Julian D. Dusenbury",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 15,
+        "office_as_printed": "RE",
+        "name_as_printed": "Terrill I. (Terry) Elniff",
+        "identity_name": "Terrill I. Elniff",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 16,
+        "office_as_printed": "TE",
+        "name_as_printed": "Henry Fernandez",
+        "identity_name": "Henry Fernandez",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 17,
+        "office_as_printed": "RE",
+        "name_as_printed": "Robert T. (Tim) France",
+        "identity_name": "Robert T. France",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 18,
+        "office_as_printed": "RE",
+        "name_as_printed": "Eugene H. (Gene) Friedline",
+        "identity_name": "Eugene H. Friedline",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 19,
+        "office_as_printed": "RE",
+        "name_as_printed": "Peter Gagliardi",
+        "identity_name": "Peter Gagliardi",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 20,
+        "office_as_printed": "TE",
+        "name_as_printed": "David P. Gilleran",
+        "identity_name": "David P. Gilleran",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 21,
+        "office_as_printed": "TE",
+        "name_as_printed": "Eric Allen Greene",
+        "identity_name": "Eric Allen Greene",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 22,
+        "office_as_printed": "RE",
+        "name_as_printed": "Vaughn R. Hamilton",
+        "identity_name": "Vaughn R. Hamilton",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 23,
+        "office_as_printed": "TE",
+        "name_as_printed": "Malcolm Douglas (Doug) Hart",
+        "identity_name": "Malcolm Douglas Hart",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 24,
+        "office_as_printed": "TE",
+        "name_as_printed": "Mark A. Herzer",
+        "identity_name": "Mark A. Herzer",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 25,
+        "office_as_printed": "TE",
+        "name_as_printed": "Carl C. Howell Jr.",
+        "identity_name": "Carl C. Howell Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 26,
+        "office_as_printed": "TE",
+        "name_as_printed": "Benjamin T. Inman",
+        "identity_name": "Benjamin T. Inman",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 27,
+        "office_as_printed": "TE",
+        "name_as_printed": "David C. Innes",
+        "identity_name": "David C. Innes",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 28,
+        "office_as_printed": "TE",
+        "name_as_printed": "Daniel J. Jarstfer",
+        "identity_name": "Daniel J. Jarstfer",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 29,
+        "office_as_printed": "TE",
+        "name_as_printed": "Arnold C. Johnson",
+        "identity_name": "Arnold C. Johnson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 30,
+        "office_as_printed": "RE",
+        "name_as_printed": "Marshall Joiner",
+        "identity_name": "Marshall Joiner",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 31,
+        "office_as_printed": "RE",
+        "name_as_printed": "Flynt Jones",
+        "identity_name": "Flynt Jones",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 32,
+        "office_as_printed": "TE",
+        "name_as_printed": "Larry Stephen Jones",
+        "identity_name": "Larry Stephen Jones",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 33,
+        "office_as_printed": "TE",
+        "name_as_printed": "James A. (Jim) Jones Jr.",
+        "identity_name": "James A. Jones Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 34,
+        "office_as_printed": "TE",
+        "name_as_printed": "Arthur L. (Ozzie) Kenyon",
+        "identity_name": "Arthur L. Kenyon",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 35,
+        "office_as_printed": "RE",
+        "name_as_printed": "Richard R. Larson",
+        "identity_name": "Richard R. Larson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 36,
+        "office_as_printed": "TE",
+        "name_as_printed": "William (Bill) Leuzinger",
+        "identity_name": "William Leuzinger",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 37,
+        "office_as_printed": "RE",
+        "name_as_printed": "James Linton",
+        "identity_name": "James Linton",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 38,
+        "office_as_printed": "RE",
+        "name_as_printed": "John Mardirosian",
+        "identity_name": "John Mardirosian",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 39,
+        "office_as_printed": "TE",
+        "name_as_printed": "Joshua A. (Josh) Martin",
+        "identity_name": "Joshua A. Martin",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 40,
+        "office_as_printed": "TE",
+        "name_as_printed": "James E. McGoldrick",
+        "identity_name": "James E. McGoldrick",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 41,
+        "office_as_printed": "TE",
+        "name_as_printed": "Erwin Morrison",
+        "identity_name": "Erwin Morrison",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 42,
+        "office_as_printed": "TE",
+        "name_as_printed": "Frank D. Moser",
+        "identity_name": "Frank D. Moser",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 43,
+        "office_as_printed": "TE",
+        "name_as_printed": "Mark A. O'Neill",
+        "identity_name": "Mark A. O'Neill",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 44,
+        "office_as_printed": "RE",
+        "name_as_printed": "David O'Steen",
+        "identity_name": "David O'Steen",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 45,
+        "office_as_printed": "RE",
+        "name_as_printed": "Herbert Parker",
+        "identity_name": "Herbert Parker",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 46,
+        "office_as_printed": "TE",
+        "name_as_printed": "Randolph H. (Randy) Patterson",
+        "identity_name": "Randolph H. Patterson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 47,
+        "office_as_printed": "RE",
+        "name_as_printed": "Neill H. Payne",
+        "identity_name": "Neill H. Payne",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 48,
+        "office_as_printed": "TE",
+        "name_as_printed": "Richard D. Phillips",
+        "identity_name": "Richard D. Phillips",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 49,
+        "office_as_printed": "TE",
+        "name_as_printed": "Joseph A. (Joey) Pipa Jr.",
+        "identity_name": "Joseph A. Pipa Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 50,
+        "office_as_printed": "TE",
+        "name_as_printed": "James E. Pitts",
+        "identity_name": "James E. Pitts",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 51,
+        "office_as_printed": "TE",
+        "name_as_printed": "John R. (Randy) Riddle",
+        "identity_name": "John R. Riddle",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 52,
+        "office_as_printed": "RE",
+        "name_as_printed": "Christopher Robertson",
+        "identity_name": "Christopher Robertson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 53,
+        "office_as_printed": "TE",
+        "name_as_printed": "Gary N. Roop",
+        "identity_name": "Gary N. Roop",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 54,
+        "office_as_printed": "RE",
+        "name_as_printed": "Kenneth E. Scheffter",
+        "identity_name": "Kenneth E. Scheffter",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 55,
+        "office_as_printed": "TE",
+        "name_as_printed": "Mark A. Scholten",
+        "identity_name": "Mark A. Scholten",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 56,
+        "office_as_printed": "TE",
+        "name_as_printed": "Benjamin (Ben) Shaw",
+        "identity_name": "Benjamin Shaw",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 57,
+        "office_as_printed": "TE",
+        "name_as_printed": "Robert L. (Bob) Slimp",
+        "identity_name": "Robert L. Slimp",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 58,
+        "office_as_printed": "TE",
+        "name_as_printed": "Frank J. Smith",
+        "identity_name": "Frank J. Smith",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 59,
+        "office_as_printed": "TE",
+        "name_as_printed": "Morton H. Smith",
+        "identity_name": "Morton H. Smith",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 60,
+        "office_as_printed": "TE",
+        "name_as_printed": "L. Byron Snapp",
+        "identity_name": "L. Byron Snapp",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 61,
+        "office_as_printed": "RE",
+        "name_as_printed": "Eugene (Gene) Speer",
+        "identity_name": "Eugene Speer",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 62,
+        "office_as_printed": "TE",
+        "name_as_printed": "Stephen O. (Steve) Stout",
+        "identity_name": "Stephen O. Stout",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 63,
+        "office_as_printed": "TE",
+        "name_as_printed": "Jason Strong",
+        "identity_name": "Jason Strong",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 64,
+        "office_as_printed": "TE",
+        "name_as_printed": "Philip B. Strong",
+        "identity_name": "Philip B. Strong",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 65,
+        "office_as_printed": "TE",
+        "name_as_printed": "Ronald L. (Ron) Swafford",
+        "identity_name": "Ronald L. Swafford",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 66,
+        "office_as_printed": "TE",
+        "name_as_printed": "W. Eugene (Gene) Thompson",
+        "identity_name": "W. Eugene Thompson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 67,
+        "office_as_printed": "TE",
+        "name_as_printed": "Theodore W. (Ted) Trefsgar Jr.",
+        "identity_name": "Theodore W. Trefsgar Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 68,
+        "office_as_printed": "TE",
+        "name_as_printed": "John C. Van Dyke",
+        "identity_name": "John C. Van Dyke",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 69,
+        "office_as_printed": "TE",
+        "name_as_printed": "Bernie van Eyk",
+        "identity_name": "Bernie van Eyk",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 70,
+        "office_as_printed": "TE",
+        "name_as_printed": "Andrew J. (Andy) Webb",
+        "identity_name": "Andrew J. Webb",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 71,
+        "office_as_printed": "TE",
+        "name_as_printed": "C. N. (Nick) Willborn",
+        "identity_name": "C. N. Willborn",
+        "normalized_person_id": null
+      }
+    ],
+    "important_boundary": "The recorded negative vote establishes the vote on this constitutional amendment, not every possible rationale for opposition.",
+    "ideological_weight": 0
+  },
+  "bco_21_4_full_subscription_protest": {
+    "event_id": "2003-bco-21-4-full-subscription-protest",
+    "evidence_class": "recorded_vote_or_formal_protest_signature",
+    "author_presenter": {
+      "office_as_printed": "TE",
+      "name_as_printed": "Morton H. Smith",
+      "identity_name": "Morton H. Smith",
+      "normalized_person_id": null
+    },
+    "joiner_count": 93,
+    "joiners": [
+      {
+        "print_order": 1,
+        "office_as_printed": "TE",
+        "name_as_printed": "K. Hugh Acton",
+        "identity_name": "K. Hugh Acton",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 2,
+        "office_as_printed": "TE",
+        "name_as_printed": "Todd W. Allen",
+        "identity_name": "Todd W. Allen",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 3,
+        "office_as_printed": "TE",
+        "name_as_printed": "John T. Appleton",
+        "identity_name": "John T. Appleton",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 4,
+        "office_as_printed": "TE",
+        "name_as_printed": "Daniel J. (Dan) Bartel",
+        "identity_name": "Daniel J. Bartel",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 5,
+        "office_as_printed": "TE",
+        "name_as_printed": "Matthew Baugh",
+        "identity_name": "Matthew Baugh",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 6,
+        "office_as_printed": "RE",
+        "name_as_printed": "Tom Bingham",
+        "identity_name": "Tom Bingham",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 7,
+        "office_as_printed": "TE",
+        "name_as_printed": "James M. (Jim) Bowen",
+        "identity_name": "James M. Bowen",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 8,
+        "office_as_printed": "TE",
+        "name_as_printed": "G. Brent Bradley",
+        "identity_name": "G. Brent Bradley",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 9,
+        "office_as_printed": "TE",
+        "name_as_printed": "David R. Brown",
+        "identity_name": "David R. Brown",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 10,
+        "office_as_printed": "TE",
+        "name_as_printed": "Tom Brown",
+        "identity_name": "Tom Brown",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 11,
+        "office_as_printed": "TE",
+        "name_as_printed": "Michael J. Brown",
+        "identity_name": "Michael J. Brown",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 12,
+        "office_as_printed": "RE",
+        "name_as_printed": "Mark A. Buckner",
+        "identity_name": "Mark A. Buckner",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 13,
+        "office_as_printed": "TE",
+        "name_as_printed": "Craig S. Bulkeley",
+        "identity_name": "Craig S. Bulkeley",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 14,
+        "office_as_printed": "RE",
+        "name_as_printed": "E.C. Burnett",
+        "identity_name": "E.C. Burnett",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 15,
+        "office_as_printed": "TE",
+        "name_as_printed": "Robert N. Burridge",
+        "identity_name": "Robert N. Burridge",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 16,
+        "office_as_printed": "RE",
+        "name_as_printed": "Kim D. Conner",
+        "identity_name": "Kim D. Conner",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 17,
+        "office_as_printed": "RE",
+        "name_as_printed": "Alfred (Al) Cooper",
+        "identity_name": "Alfred Cooper",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 18,
+        "office_as_printed": "TE",
+        "name_as_printed": "King Allen Counts",
+        "identity_name": "King Allen Counts",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 19,
+        "office_as_printed": "RE",
+        "name_as_printed": "Perry Denniston",
+        "identity_name": "Perry Denniston",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 20,
+        "office_as_printed": "TE",
+        "name_as_printed": "Paul S. Dixon",
+        "identity_name": "Paul S. Dixon",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 21,
+        "office_as_printed": "TE",
+        "name_as_printed": "A. Trevor Downie",
+        "identity_name": "A. Trevor Downie",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 22,
+        "office_as_printed": "TE",
+        "name_as_printed": "Thomas T. Ellis",
+        "identity_name": "Thomas T. Ellis",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 23,
+        "office_as_printed": "RE",
+        "name_as_printed": "Terrill I. (Terry) Elniff",
+        "identity_name": "Terrill I. Elniff",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 24,
+        "office_as_printed": "RE",
+        "name_as_printed": "Paul English",
+        "identity_name": "Paul English",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 25,
+        "office_as_printed": "RE",
+        "name_as_printed": "Dean Ezell",
+        "identity_name": "Dean Ezell",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 26,
+        "office_as_printed": "TE",
+        "name_as_printed": "George G. Felton Sr.",
+        "identity_name": "George G. Felton Sr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 27,
+        "office_as_printed": "TE",
+        "name_as_printed": "Henry Fernandez",
+        "identity_name": "Henry Fernandez",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 28,
+        "office_as_printed": "RE",
+        "name_as_printed": "Fred Fisher",
+        "identity_name": "Fred Fisher",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 29,
+        "office_as_printed": "TE",
+        "name_as_printed": "Scott L. Fleming",
+        "identity_name": "Scott L. Fleming",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 30,
+        "office_as_printed": "TE",
+        "name_as_printed": "David M. Frierson",
+        "identity_name": "David M. Frierson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 31,
+        "office_as_printed": "RE",
+        "name_as_printed": "Peter D. (Pete) Gagliardi",
+        "identity_name": "Peter D. Gagliardi",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 32,
+        "office_as_printed": "TE",
+        "name_as_printed": "Warren E. Gardner",
+        "identity_name": "Warren E. Gardner",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 33,
+        "office_as_printed": "RE",
+        "name_as_printed": "John George",
+        "identity_name": "John George",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 34,
+        "office_as_printed": "TE",
+        "name_as_printed": "Keith N. Goode",
+        "identity_name": "Keith N. Goode",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 35,
+        "office_as_printed": "RE",
+        "name_as_printed": "Frank Griffith",
+        "identity_name": "Frank Griffith",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 36,
+        "office_as_printed": "RE",
+        "name_as_printed": "Vaughn R. Hamilton",
+        "identity_name": "Vaughn R. Hamilton",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 37,
+        "office_as_printed": "TE",
+        "name_as_printed": "William W. (Bill) Harrell Jr.",
+        "identity_name": "William W. Harrell Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 38,
+        "office_as_printed": "RE",
+        "name_as_printed": "William M. Harris IV",
+        "identity_name": "William M. Harris IV",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 39,
+        "office_as_printed": "TE",
+        "name_as_printed": "Mark A. Herzer",
+        "identity_name": "Mark A. Herzer",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 40,
+        "office_as_printed": "TE",
+        "name_as_printed": "Scott E. Hill",
+        "identity_name": "Scott E. Hill",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 41,
+        "office_as_printed": "TE",
+        "name_as_printed": "William Wesley (Wesley) Holland",
+        "identity_name": "William Wesley Holland",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 42,
+        "office_as_printed": "TE",
+        "name_as_printed": "Mark Horne",
+        "identity_name": "Mark Horne",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 43,
+        "office_as_printed": "TE",
+        "name_as_printed": "Daniel Jarstfer",
+        "identity_name": "Daniel Jarstfer",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 44,
+        "office_as_printed": "RE",
+        "name_as_printed": "Marshall Joiner",
+        "identity_name": "Marshall Joiner",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 45,
+        "office_as_printed": "TE",
+        "name_as_printed": "James A. (Jim) Jones Jr.",
+        "identity_name": "James A. Jones Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 46,
+        "office_as_printed": "TE",
+        "name_as_printed": "Arthur L. (Ozzie) Kenyon",
+        "identity_name": "Arthur L. Kenyon",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 47,
+        "office_as_printed": "RE",
+        "name_as_printed": "David (Dave) Lewis",
+        "identity_name": "David Lewis",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 48,
+        "office_as_printed": "RE",
+        "name_as_printed": "John Liczbinski",
+        "identity_name": "John Liczbinski",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 49,
+        "office_as_printed": "RE",
+        "name_as_printed": "James Linton",
+        "identity_name": "James Linton",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 50,
+        "office_as_printed": "RE",
+        "name_as_printed": "John Mardirosian",
+        "identity_name": "John Mardirosian",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 51,
+        "office_as_printed": "RE",
+        "name_as_printed": "Doug McConkey",
+        "identity_name": "Doug McConkey",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 52,
+        "office_as_printed": "TE",
+        "name_as_printed": "Gary D. McMillan",
+        "identity_name": "Gary D. McMillan",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 53,
+        "office_as_printed": "RE",
+        "name_as_printed": "Bob Meyers",
+        "identity_name": "Bob Meyers",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 54,
+        "office_as_printed": "RE",
+        "name_as_printed": "James Miller",
+        "identity_name": "James Miller",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 55,
+        "office_as_printed": "TE",
+        "name_as_printed": "Erwin Morrison",
+        "identity_name": "Erwin Morrison",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 56,
+        "office_as_printed": "RE",
+        "name_as_printed": "J. Wayne Morrison",
+        "identity_name": "J. Wayne Morrison",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 57,
+        "office_as_printed": "TE",
+        "name_as_printed": "Frank D. Moser",
+        "identity_name": "Frank D. Moser",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 58,
+        "office_as_printed": "TE",
+        "name_as_printed": "John C. Neville Jr.",
+        "identity_name": "John C. Neville Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 59,
+        "office_as_printed": "TE",
+        "name_as_printed": "John Olson",
+        "identity_name": "John Olson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 60,
+        "office_as_printed": "RE",
+        "name_as_printed": "David A. O'Steen",
+        "identity_name": "David A. O'Steen",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 61,
+        "office_as_printed": "RE",
+        "name_as_printed": "Herbert Parker",
+        "identity_name": "Herbert Parker",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 62,
+        "office_as_printed": "RE",
+        "name_as_printed": "Walter J. Parrish III",
+        "identity_name": "Walter J. Parrish III",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 63,
+        "office_as_printed": "RE",
+        "name_as_printed": "Neill H. Payne",
+        "identity_name": "Neill H. Payne",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 64,
+        "office_as_printed": "TE",
+        "name_as_printed": "Robert Charles Peterson",
+        "identity_name": "Robert Charles Peterson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 65,
+        "office_as_printed": "TE",
+        "name_as_printed": "James E. Pitts",
+        "identity_name": "James E. Pitts",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 66,
+        "office_as_printed": "RE",
+        "name_as_printed": "J.L. (Joe) Reynolds",
+        "identity_name": "J.L. Reynolds",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 67,
+        "office_as_printed": "TE",
+        "name_as_printed": "John R. (Randy) Riddle",
+        "identity_name": "John R. Riddle",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 68,
+        "office_as_printed": "RE",
+        "name_as_printed": "Christopher Robertson",
+        "identity_name": "Christopher Robertson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 69,
+        "office_as_printed": "TE",
+        "name_as_printed": "Kenneth G. (Ken) Robinson",
+        "identity_name": "Kenneth G. Robinson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 70,
+        "office_as_printed": "TE",
+        "name_as_printed": "Gary N. Roop",
+        "identity_name": "Gary N. Roop",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 71,
+        "office_as_printed": "RE",
+        "name_as_printed": "Kenneth E. Scheffter",
+        "identity_name": "Kenneth E. Scheffter",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 72,
+        "office_as_printed": "RE",
+        "name_as_printed": "Amzi Sherling",
+        "identity_name": "Amzi Sherling",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 73,
+        "office_as_printed": "TE",
+        "name_as_printed": "Ronald L. Siegenthaler",
+        "identity_name": "Ronald L. Siegenthaler",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 74,
+        "office_as_printed": "TE",
+        "name_as_printed": "Frank J. Smith",
+        "identity_name": "Frank J. Smith",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 75,
+        "office_as_printed": "RE",
+        "name_as_printed": "Eugene (Gene) Speer",
+        "identity_name": "Eugene Speer",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 76,
+        "office_as_printed": "TE",
+        "name_as_printed": "Robert F. (Bob) Sprinkle Jr.",
+        "identity_name": "Robert F. Sprinkle Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 77,
+        "office_as_printed": "TE",
+        "name_as_printed": "Decherd Stevens",
+        "identity_name": "Decherd Stevens",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 78,
+        "office_as_printed": "RE",
+        "name_as_printed": "Darrel Stilwell",
+        "identity_name": "Darrel Stilwell",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 79,
+        "office_as_printed": "TE",
+        "name_as_printed": "Jason Strong",
+        "identity_name": "Jason Strong",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 80,
+        "office_as_printed": "TE",
+        "name_as_printed": "Philip B. Strong",
+        "identity_name": "Philip B. Strong",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 81,
+        "office_as_printed": "RE",
+        "name_as_printed": "Hugh Sung",
+        "identity_name": "Hugh Sung",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 82,
+        "office_as_printed": "TE",
+        "name_as_printed": "Ron L. Swafford Sr.",
+        "identity_name": "Ron L. Swafford Sr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 83,
+        "office_as_printed": "RE",
+        "name_as_printed": "Earl Sykes",
+        "identity_name": "Earl Sykes",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 84,
+        "office_as_printed": "TE",
+        "name_as_printed": "Richard M. Thomas",
+        "identity_name": "Richard M. Thomas",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 85,
+        "office_as_printed": "TE",
+        "name_as_printed": "W. Eugene (Gene) Thompson",
+        "identity_name": "W. Eugene Thompson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 86,
+        "office_as_printed": "TE",
+        "name_as_printed": "Theodore W. (Ted) Trefsgar Jr.",
+        "identity_name": "Theodore W. Trefsgar Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 87,
+        "office_as_printed": "RE",
+        "name_as_printed": "Timothy J. Verner",
+        "identity_name": "Timothy J. Verner",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 88,
+        "office_as_printed": "TE",
+        "name_as_printed": "Steven E. Warhurst",
+        "identity_name": "Steven E. Warhurst",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 89,
+        "office_as_printed": "TE",
+        "name_as_printed": "John M. Warren Jr.",
+        "identity_name": "John M. Warren Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 90,
+        "office_as_printed": "TE",
+        "name_as_printed": "Andrew J. (Andy) Webb",
+        "identity_name": "Andrew J. Webb",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 91,
+        "office_as_printed": "TE",
+        "name_as_printed": "Charles L. Wilson",
+        "identity_name": "Charles L. Wilson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 92,
+        "office_as_printed": "RE",
+        "name_as_printed": "Daniel A. Witcher",
+        "identity_name": "Daniel A. Witcher",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 93,
+        "office_as_printed": "RE",
+        "name_as_printed": "Frank C. Young Jr.",
+        "identity_name": "Frank C. Young Jr.",
+        "normalized_person_id": null
+      }
+    ],
+    "position_summary": "The protest opposed the revision of BCO 21-4, appealed to the PCA founding commitment to Southern Presbyterian / Old School subscription, characterized that heritage as full or strict subscription, and warned that the revised language lacked adequate safeguards against doctrinal decline.",
+    "important_boundary": "Morton H. Smith is the protest author/presenter; the 93 listed commissioners are joiners. Preserve those roles separately.",
+    "ideological_weight": 0
+  },
+  "overture_16_subscription_study_minority_report": {
+    "event_id": "2003-subscription-overture-16-minority-report",
+    "evidence_class": "signed_formal_report_or_minority_report",
+    "assembly_vote_on_minority_report": {
+      "for": 530,
+      "against": 477
+    },
+    "signer_count": 14,
+    "signers": [
+      {
+        "print_order": 1,
+        "office_as_printed": "TE",
+        "name_as_printed": "Marvin J. (Mark) Bates III",
+        "identity_name": "Marvin J. Bates III",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 2,
+        "office_as_printed": "TE",
+        "name_as_printed": "David M. Bryan",
+        "identity_name": "David M. Bryan",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 3,
+        "office_as_printed": "RE",
+        "name_as_printed": "R. Mike Cox",
+        "identity_name": "R. Mike Cox",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 4,
+        "office_as_printed": "TE",
+        "name_as_printed": "David A. Currence",
+        "identity_name": "David A. Currence",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 5,
+        "office_as_printed": "TE",
+        "name_as_printed": "Stephen Thomas Estock",
+        "identity_name": "Stephen Thomas Estock",
+        "normalized_person_id": "stephen-estock"
+      },
+      {
+        "print_order": 6,
+        "office_as_printed": "TE",
+        "name_as_printed": "Robert M. Ferguson Jr.",
+        "identity_name": "Robert M. Ferguson Jr.",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 7,
+        "office_as_printed": "TE",
+        "name_as_printed": "Freddy Fritz",
+        "identity_name": "Freddy Fritz",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 8,
+        "office_as_printed": "TE",
+        "name_as_printed": "John Haralson",
+        "identity_name": "John Haralson",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 9,
+        "office_as_printed": "TE",
+        "name_as_printed": "Larry C. Hoop",
+        "identity_name": "Larry C. Hoop",
+        "normalized_person_id": "larry-hoop"
+      },
+      {
+        "print_order": 10,
+        "office_as_printed": "TE",
+        "name_as_printed": "Harry D. Long",
+        "identity_name": "Harry D. Long",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 11,
+        "office_as_printed": "TE",
+        "name_as_printed": "K. Eric (Rick) Perrin",
+        "identity_name": "K. Eric Perrin",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 12,
+        "office_as_printed": "RE",
+        "name_as_printed": "Paul Richardson",
+        "identity_name": "Paul Richardson",
+        "normalized_person_id": "paul-richardson"
+      },
+      {
+        "print_order": 13,
+        "office_as_printed": "TE",
+        "name_as_printed": "Mark A. Rowden",
+        "identity_name": "Mark A. Rowden",
+        "normalized_person_id": "mark-rowden"
+      },
+      {
+        "print_order": 14,
+        "office_as_printed": "RE",
+        "name_as_printed": "John E. Spencer",
+        "identity_name": "John E. Spencer",
+        "normalized_person_id": null
+      }
+    ],
+    "position_summary": "The minority report recommended answering the subscription study-committee overtures in the negative and allowing the newly adopted Good Faith Subscription framework to operate for a period before commissioning another study.",
+    "important_boundary": "Signership establishes support for this minority report and its stated recommendation; it does not by itself establish a complete theory of confessional subscription.",
+    "ideological_weight": 0
+  },
+  "overture_16_minority_report_recorded_negative_vote": {
+    "event_id": "2003-subscription-overture-16-recorded-negative-vote",
+    "evidence_class": "recorded_vote_or_formal_protest_signature",
+    "vote_count": 1,
+    "voter": {
+      "office_as_printed": "TE",
+      "name_as_printed": "Chris A. Hutchinson",
+      "identity_name": "Chris A. Hutchinson",
+      "normalized_person_id": null
+    },
+    "action": "Recorded negative vote after the minority report was adopted as the Assembly action.",
+    "important_boundary": "The vote establishes opposition to the adopted minority-report action, not every proposition of the defeated alternative.",
+    "ideological_weight": 0
+  }
+}

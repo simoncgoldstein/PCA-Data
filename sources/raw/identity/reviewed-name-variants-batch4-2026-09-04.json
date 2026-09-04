@@ -1,0 +1,27 @@
+{
+  "reviewed_on": "2026-09-04",
+  "status": "user_reviewed_name_variant_links",
+  "ideological_weight": 0,
+  "identity_links": [
+    {
+      "canonical_name_form": "Paul Richardson",
+      "canonical_id": "paul-richardson",
+      "alias_name_form": "Paul D. Richardson",
+      "reasoning_boundary": "Explicit user-reviewed equivalence for this person only."
+    },
+    {
+      "canonical_name_form": "Mark Rowden",
+      "canonical_id": "mark-rowden",
+      "alias_name_form": "Mark A. Rowden",
+      "reasoning_boundary": "Explicit user-reviewed equivalence for this person only."
+    },
+    {
+      "canonical_name_form": "Stephen Estock",
+      "canonical_id": "stephen-estock",
+      "alias_name_form": "Stephen Thomas Estock",
+      "reasoning_boundary": "Explicit user-reviewed equivalence for this person only."
+    }
+  ],
+  "review_basis": "User explicitly instructed the repository to match all three previously surfaced name-form pairs on 2026-09-04.",
+  "generalization_boundary": "These links do not create a global rule for middle initials, middle names, or omitted middle names. Future cases still require review."
+}

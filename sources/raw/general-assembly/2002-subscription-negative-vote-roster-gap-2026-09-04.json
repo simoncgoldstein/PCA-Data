@@ -1,0 +1,15 @@
+{
+  "recorded_on": "2026-09-04",
+  "issue": "good_faith_subscription_bco_21_4",
+  "year": 2002,
+  "status": "event_level_count_verified_person_level_roster_not_recovered",
+  "primary_minutes_url": "https://www.pcahistory.org/pca/ga/30th_pcaga_2002.pdf",
+  "digest_url": "https://pcahistory.org/pca/digest/v4/PCA_Digest_1999-2018.pdf",
+  "locator": "30th GA p. 218, 30-47",
+  "recorded_negative_vote_count": 127,
+  "names_recovered": false,
+  "access_limitation": "The original 30th GA journal is extremely large and the relevant named roster was not retrievable through the current source-access path. The Digest confirms the 127 count but does not print the names.",
+  "required_for_completion": "30th GA 2002 page 218",
+  "modeling_rule": "Do not infer any individual vote until the primary named roster is recovered.",
+  "ideological_weight": 0
+}

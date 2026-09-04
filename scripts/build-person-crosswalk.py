@@ -72,6 +72,54 @@ FIRST_NAME_VARIANTS = {
 # Explicit reviewed name-form equivalences. These are person-specific evidence
 # decisions, not a general nickname-merging rule. Printed names remain intact.
 REVIEWED_NAME_VARIANTS = {
+    "paul richardson": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
+    },
+    "paul d richardson": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
+    },
+    "mark rowden": {
+        "canonical_candidate": "mark rowden",
+        "canonical_display_name": "Mark Rowden",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only.",
+    },
+    "mark a rowden": {
+        "canonical_candidate": "mark rowden",
+        "canonical_display_name": "Mark Rowden",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only.",
+    },
+    "stephen estock": {
+        "canonical_candidate": "stephen estock",
+        "canonical_display_name": "Stephen Estock",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
+    },
+    "stephen thomas estock": {
+        "canonical_candidate": "stephen estock",
+        "canonical_display_name": "Stephen Estock",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
+    },
+    "larry hoop": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
+    },
+    "larry c hoop": {
+        "canonical_candidate": "larry hoop",
+        "canonical_display_name": "Larry Hoop",
+        "evidence_receipt": "sources/raw/identity/larry-larry-c-hoop-resolution-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Larry C. Hoop and Larry Hoop are the same person. This person-specific decision does not create a general middle-initial matching rule.",
+    },
     "michael mclaughlin": {
         "canonical_candidate": "mike mclaughlin",
         "canonical_display_name": "Mike McLaughlin",
@@ -185,6 +233,7 @@ def add_record(
     source_tier: str,
     completeness: str,
     evidence_type: str,
+    matching_name: str | None = None,
     presbyteries: list[str] | None = None,
     institutions: list[str] | None = None,
     location: str | None = None,
@@ -195,8 +244,9 @@ def add_record(
     if not printed_name or not normalize_name(printed_name):
         raise ValueError(f"{dataset}:{locator}: missing printable person name")
     printed_candidate = normalize_name(printed_name)
-    reviewed_variant = REVIEWED_NAME_VARIANTS.get(printed_candidate)
-    candidate = reviewed_variant["canonical_candidate"] if reviewed_variant else printed_candidate
+    matching_candidate = normalize_name(matching_name) if matching_name else printed_candidate
+    reviewed_variant = REVIEWED_NAME_VARIANTS.get(matching_candidate)
+    candidate = reviewed_variant["canonical_candidate"] if reviewed_variant else matching_candidate
     valid_existing_id = None
     rejected_existing_id = REJECTED_SOURCE_ID_OVERRIDES.get((dataset, locator))
     if existing_id in seed_ids:
@@ -214,6 +264,7 @@ def add_record(
         "name_as_printed": printed_name,
         "normalized_candidate": candidate,
         "normalized_name_as_printed": printed_candidate,
+        "normalized_matching_name": matching_candidate,
         "reviewed_name_variant": reviewed_variant,
         "source_tier": source_tier,
         "completeness_status": completeness,
@@ -385,6 +436,120 @@ add_record(
     office=author.get("office_as_printed"),
     existing_id=author.get("normalized_person_id"),
 )
+
+
+# 2003 Good Faith Subscription person-level evidence. Every action below is
+# drawn from the same 31st General Assembly journal and therefore shares one
+# source family; repeated appearance in a vote, protest, or report cannot
+# self-corroborate a new identity.
+relative = "sources/normalized/general-assembly/2003-subscription-formal-position-records.json"
+subscription2003 = register_json(relative)
+family2003 = "ga_2003_subscription_formal_positions"
+
+vote_block = subscription2003["bco_21_4_recorded_negative_votes"]
+for row in vote_block.get("votes", []):
+    add_record(
+        dataset="bco_21_4_negative_votes_2003",
+        family=family2003,
+        source_path=relative,
+        locator=f"bco21_4_negative:{row['print_order']}",
+        printed_name=row["name_as_printed"],
+        matching_name=row.get("identity_name"),
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_71_name_primary_roster",
+        evidence_type="recorded_negative_vote",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+protest = subscription2003["bco_21_4_full_subscription_protest"]
+author = protest["author_presenter"]
+add_record(
+    dataset="bco_21_4_subscription_protest_author_2003",
+    family=family2003,
+    source_path=relative,
+    locator="subscription_protest_author_presenter",
+    printed_name=author["name_as_printed"],
+    matching_name=author.get("identity_name"),
+    row=author,
+    source_tier="official_primary",
+    completeness="complete_named_author_presenter",
+    evidence_type="formal_protest_author_presenter",
+    office=author.get("office_as_printed"),
+    existing_id=author.get("normalized_person_id"),
+)
+for row in protest.get("joiners", []):
+    add_record(
+        dataset="bco_21_4_subscription_protest_joiners_2003",
+        family=family2003,
+        source_path=relative,
+        locator=f"subscription_protest_joiner:{row['print_order']}",
+        printed_name=row["name_as_printed"],
+        matching_name=row.get("identity_name"),
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_93_joiner_primary_roster",
+        evidence_type="formal_protest_signature",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+minority = subscription2003["overture_16_subscription_study_minority_report"]
+for row in minority.get("signers", []):
+    add_record(
+        dataset="subscription_overture_16_minority_report_2003",
+        family=family2003,
+        source_path=relative,
+        locator=f"overture16_minority_signer:{row['print_order']}",
+        printed_name=row["name_as_printed"],
+        matching_name=row.get("identity_name"),
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_14_signer_primary_roster",
+        evidence_type="minority_report_signature",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+single_vote = subscription2003["overture_16_minority_report_recorded_negative_vote"]["voter"]
+add_record(
+    dataset="subscription_overture_16_negative_vote_2003",
+    family=family2003,
+    source_path=relative,
+    locator="overture16_adopted_minority_negative_vote",
+    printed_name=single_vote["name_as_printed"],
+    matching_name=single_vote.get("identity_name"),
+    row=single_vote,
+    source_tier="official_primary",
+    completeness="complete_single_recorded_vote",
+    evidence_type="recorded_negative_vote",
+    office=single_vote.get("office_as_printed"),
+    existing_id=single_vote.get("normalized_person_id"),
+)
+
+
+# 2007 Federal Vision / New Perspective / Auburn Avenue committee. The report
+# explicitly says the nine declarations are unanimous, so committee service is
+# stronger than generic membership here. It remains a separate source family
+# from later votes, networks, or institutional roles.
+relative = "sources/normalized/general-assembly/2002-2007-subscription-federal-vision-chronology.json"
+fv_chronology = register_json(relative)
+fv_report = next(e for e in fv_chronology["events"] if e["event_id"] == "2007-fv-npp-study-report")
+for index, row in enumerate(fv_report.get("committee_members", []), 1):
+    add_record(
+        dataset="federal_vision_study_committee_2007",
+        family="ga_2007_fv_npp_study_report",
+        source_path=relative,
+        locator=f"committee_member:{index}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_7_member_unanimous_report_roster",
+        evidence_type="unanimous_study_committee_report",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
 
 
 # 2001-2002 Women in the Military study-committee evidence. All committee,
@@ -756,6 +921,40 @@ for key in sorted(groups):
         status, method, confidence = "context_confirmed", "documented_manual_alias", 0.98
         support.append("explicit documented name-form alias")
         note = manual["note"]
+    elif any(r.get("reviewed_name_variant") for r in rows):
+        reviewed = next(r["reviewed_name_variant"] for r in rows if r.get("reviewed_name_variant"))
+        preferred = reviewed["canonical_display_name"]
+        if len(exact_seed_ids) > 1:
+            status, method, confidence = "collision", "duplicate_seed_name", 0.0
+            conflicts.append("multiple seed people have the same normalized name")
+            note = "Requires manual review; no ID assigned."
+        elif len(exact_seed_ids) == 1:
+            canonical_id = next(iter(exact_seed_ids))
+            status, method, confidence = "context_confirmed", "documented_reviewed_identity", 0.99
+            support.append("explicit reviewed person-specific identity equivalence")
+            note = reviewed["note"]
+        else:
+            candidate_id = slug(preferred)
+            if candidate_id in used_ids:
+                status, method, confidence = "collision", "generated_id_collision", 0.0
+                conflicts.append(f"generated ID {candidate_id} is already in use")
+                note = "Requires manual review; no ID assigned."
+            else:
+                canonical_id = candidate_id
+                used_ids.add(candidate_id)
+                status, method, confidence = "context_confirmed", "documented_reviewed_identity", 0.99
+                support.append("explicit reviewed person-specific identity equivalence")
+                note = reviewed["note"]
+                generated_people.append({
+                    "id": canonical_id,
+                    "name": preferred,
+                    "ordination": infer_ordination(rows),
+                    "current_role": None,
+                    "current_organization": None,
+                    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+                    "current_role_source_ids": [],
+                    "profile_status": "identity_crosswalk",
+                })
     elif len(exact_seed_ids) == 1 and len(families) >= 2 and (presbytery_support or institution_support):
         canonical_id = next(iter(exact_seed_ids))
         status, method, confidence = "context_confirmed", "seed_name_plus_shared_context", 0.97

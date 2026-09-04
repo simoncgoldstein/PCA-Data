@@ -116,7 +116,7 @@
       "section_as_printed": "Current CDM program staff",
       "name_as_printed": "Stephen Estock",
       "role_as_printed": "CDM Coordinator",
-      "normalized_person_id": null,
+      "normalized_person_id": "stephen-estock",
       "source_url": "https://pcacdm.org/about-cdm/cdm-staff/",
       "raw_receipt": "sources/raw/institutions/cdm/staff-and-womens-ministry-2026-09-03.md",
       "source_line": 18,

@@ -13,7 +13,11 @@
       "year": 2002,
       "assembly": "30th General Assembly",
       "event_type": "constitutional_overture_and_minority_report",
-      "topic_tags": ["confessional_subscription", "bco_21_4", "ordination_exceptions"],
+      "topic_tags": [
+        "confessional_subscription",
+        "bco_21_4",
+        "ordination_exceptions"
+      ],
       "assembly_action": "The Assembly answered Overture 10 from Ohio Valley Presbytery in the affirmative as amended, proposing BCO 21-4 language clarifying that a minister need not affirm every proposition in the Standards and that Presbytery determines whether declared differences are allowable. Seven other overtures were answered by reference to this action.",
       "minority_report_action": "A minority report recommending referral of the subscription questions to an ad interim committee was debated and defeated.",
       "recorded_vote_block": {
@@ -33,17 +37,65 @@
       "year": 2003,
       "assembly": "31st General Assembly",
       "event_type": "constitutional_ratification_and_recorded_vote",
-      "topic_tags": ["confessional_subscription", "bco_21_4", "ordination_exceptions"],
-      "presbytery_tally": {"for": 45, "against": 19},
-      "assembly_vote": {"for": 816, "against": 545},
-      "recorded_negative_vote_count": 70,
-      "recorded_vote_roster_status": "published_in_minutes_not_yet_normalized",
+      "topic_tags": [
+        "confessional_subscription",
+        "bco_21_4",
+        "ordination_exceptions"
+      ],
+      "presbytery_tally": {
+        "for": 45,
+        "against": 19
+      },
+      "assembly_vote": {
+        "for": 816,
+        "against": 545
+      },
+      "recorded_negative_vote_count": 71,
+      "recorded_vote_roster_status": "complete_primary_roster_normalized",
       "assembly_action": "After presbytery approval, the Assembly adopted the Good Faith Subscription amendment to BCO 21-4.",
-      "person_level_rule": "The 70 recorded negative votes are person-level evidence only after direct roster extraction. The 816-545 tally is aggregate only.",
+      "person_level_rule": "The 71 named negative votes are normalized from the original minutes; the 816-545 tally remains aggregate.",
       "source": {
         "url": "https://pcahistory.org/pca/digest/v4/PCA_Digest_1999-2018.pdf",
         "locator": "2003 pp. 50, 54; 31-11"
       },
+      "ideological_weight": 0,
+      "count_discrepancy": {
+        "primary_minutes": 71,
+        "pca_digest": 70,
+        "controlling_count": 71,
+        "note": "Original 31st GA minutes control over later Digest summary."
+      },
+      "person_level_source": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json"
+    },
+    {
+      "event_id": "2003-subscription-overture-16-minority-report",
+      "year": 2003,
+      "assembly": "31st General Assembly",
+      "event_type": "minority_report_and_assembly_action",
+      "topic_tags": [
+        "confessional_subscription",
+        "study_committee",
+        "good_faith_subscription"
+      ],
+      "assembly_action": "A minority report recommending that the subscription study-committee overtures be answered in the negative was adopted 530-477 and became the Assembly action.",
+      "named_signer_count": 14,
+      "recorded_negative_voter": "TE Chris A. Hutchinson",
+      "person_level_source": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
+      "ideological_weight": 0
+    },
+    {
+      "event_id": "2003-bco-21-4-full-subscription-protest",
+      "year": 2003,
+      "assembly": "31st General Assembly",
+      "event_type": "formal_protest",
+      "topic_tags": [
+        "confessional_subscription",
+        "bco_21_4",
+        "strict_subscription"
+      ],
+      "author_presenter": "TE Morton H. Smith",
+      "additional_joiner_count": 93,
+      "person_level_source": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
       "ideological_weight": 0
     },
     {
@@ -51,7 +103,12 @@
       "year": 2006,
       "assembly": "34th General Assembly",
       "event_type": "ad_interim_study_committee_formation",
-      "topic_tags": ["federal_vision", "new_perspective_on_paul", "auburn_avenue", "confessional_subscription"],
+      "topic_tags": [
+        "federal_vision",
+        "new_perspective_on_paul",
+        "auburn_avenue",
+        "confessional_subscription"
+      ],
       "assembly_action": "The 34th General Assembly appointed an ad interim committee to study the soteriology of the Federal Vision, New Perspective, and Auburn Avenue theologies, determine conformity with the Westminster Standards and whether the formulations are hostile to or strike at the vitals of religion, and present a declaration or statement in light of the Standards.",
       "source": {
         "url": "https://www.pcahistory.org/pca/studies/07-fvreport.pdf",
@@ -64,28 +121,97 @@
       "year": 2007,
       "assembly": "35th General Assembly",
       "event_type": "unanimous_ad_interim_committee_report",
-      "topic_tags": ["federal_vision", "new_perspective_on_paul", "auburn_avenue", "westminster_standards", "justification", "covenant"],
+      "topic_tags": [
+        "federal_vision",
+        "new_perspective_on_paul",
+        "auburn_avenue",
+        "westminster_standards",
+        "justification",
+        "covenant"
+      ],
       "committee_members": [
-        {"name_as_printed": "Paul Fowler", "office_as_printed": "TE", "committee_role": "Chairman", "normalized_person_id": null},
-        {"name_as_printed": "Grover Gunn", "office_as_printed": "TE", "committee_role": "Secretary", "normalized_person_id": null},
-        {"name_as_printed": "Ligon Duncan", "office_as_printed": "TE", "committee_role": "Member", "normalized_person_id": null},
-        {"name_as_printed": "Sean Lucas", "office_as_printed": "TE", "committee_role": "Member", "normalized_person_id": null},
-        {"name_as_printed": "Robert Mattes", "office_as_printed": "RE", "committee_role": "Member", "normalized_person_id": null},
-        {"name_as_printed": "William Mueller", "office_as_printed": "RE", "committee_role": "Member", "normalized_person_id": null},
-        {"name_as_printed": "John White", "office_as_printed": "RE", "committee_role": "Member", "normalized_person_id": null}
+        {
+          "name_as_printed": "Paul Fowler",
+          "office_as_printed": "TE",
+          "committee_role": "Chairman",
+          "normalized_person_id": null
+        },
+        {
+          "name_as_printed": "Grover Gunn",
+          "office_as_printed": "TE",
+          "committee_role": "Secretary",
+          "normalized_person_id": null
+        },
+        {
+          "name_as_printed": "Ligon Duncan",
+          "office_as_printed": "TE",
+          "committee_role": "Member",
+          "normalized_person_id": null
+        },
+        {
+          "name_as_printed": "Sean Lucas",
+          "office_as_printed": "TE",
+          "committee_role": "Member",
+          "normalized_person_id": null
+        },
+        {
+          "name_as_printed": "Robert Mattes",
+          "office_as_printed": "RE",
+          "committee_role": "Member",
+          "normalized_person_id": null
+        },
+        {
+          "name_as_printed": "William Mueller",
+          "office_as_printed": "RE",
+          "committee_role": "Member",
+          "normalized_person_id": null
+        },
+        {
+          "name_as_printed": "John White",
+          "office_as_printed": "RE",
+          "committee_role": "Member",
+          "normalized_person_id": null
+        }
       ],
       "committee_member_count": 7,
       "declaration_consensus": "unanimous",
       "declarations": [
-        {"declaration_id": 1, "summary": "Rejecting the substance of the Westminster Standards' first/second covenant or bi-covenantal structure is contrary to the Standards."},
-        {"declaration_id": 2, "summary": "Treating visible-church membership as an election carrying justification, adoption, and sanctification that can later be lost is contrary to the Standards."},
-        {"declaration_id": 3, "summary": "Denying Christ as representative head whose perfect obedience and satisfaction are imputed to believers is contrary to the Standards."},
-        {"declaration_id": 4, "summary": "Rejecting the imputation of Christ's merits is contrary to the Standards."},
-        {"declaration_id": 5, "summary": "Treating union with Christ as rendering imputation redundant is contrary to the Standards."},
-        {"declaration_id": 6, "summary": "Teaching that water baptism gives every baptized person a saving covenantal union including regeneration, justification, and sanctification is contrary to the Standards."},
-        {"declaration_id": 7, "summary": "Teaching that one may be effectually united to Christ without receiving all benefits of Christ's mediation, including perseverance, is contrary to the Standards."},
-        {"declaration_id": 8, "summary": "Teaching that one may receive saving benefits such as regeneration and justification and yet fail to persevere is contrary to the Standards."},
-        {"declaration_id": 9, "summary": "Basing justification or a final verdict of justification on anything other than Christ's perfect obedience and satisfaction received through faith alone is contrary to the Standards."}
+        {
+          "declaration_id": 1,
+          "summary": "Rejecting the substance of the Westminster Standards' first/second covenant or bi-covenantal structure is contrary to the Standards."
+        },
+        {
+          "declaration_id": 2,
+          "summary": "Treating visible-church membership as an election carrying justification, adoption, and sanctification that can later be lost is contrary to the Standards."
+        },
+        {
+          "declaration_id": 3,
+          "summary": "Denying Christ as representative head whose perfect obedience and satisfaction are imputed to believers is contrary to the Standards."
+        },
+        {
+          "declaration_id": 4,
+          "summary": "Rejecting the imputation of Christ's merits is contrary to the Standards."
+        },
+        {
+          "declaration_id": 5,
+          "summary": "Treating union with Christ as rendering imputation redundant is contrary to the Standards."
+        },
+        {
+          "declaration_id": 6,
+          "summary": "Teaching that water baptism gives every baptized person a saving covenantal union including regeneration, justification, and sanctification is contrary to the Standards."
+        },
+        {
+          "declaration_id": 7,
+          "summary": "Teaching that one may be effectually united to Christ without receiving all benefits of Christ's mediation, including perseverance, is contrary to the Standards."
+        },
+        {
+          "declaration_id": 8,
+          "summary": "Teaching that one may receive saving benefits such as regeneration and justification and yet fail to persevere is contrary to the Standards."
+        },
+        {
+          "declaration_id": 9,
+          "summary": "Basing justification or a final verdict of justification on anything other than Christ's perfect obedience and satisfaction received through faith alone is contrary to the Standards."
+        }
       ],
       "person_level_rule": "Because the report explicitly says the committee unanimously makes these nine declarations, each named committee member may be linked to this collective declaration set at the report date. This does not establish agreement with every characterization, footnote, or sentence elsewhere in the report.",
       "committee_recommendations": [
@@ -97,7 +223,11 @@
       ],
       "source": {
         "url": "https://www.pcahistory.org/pca/studies/07-fvreport.pdf",
-        "locators": ["committee roster p. 2204", "declarations pp. 2235-2236", "recommendations p. 2236"]
+        "locators": [
+          "committee roster p. 2204",
+          "declarations pp. 2235-2236",
+          "recommendations p. 2236"
+        ]
       },
       "ideological_weight": 0
     },
@@ -106,7 +236,12 @@
       "year": 2007,
       "assembly": "35th General Assembly",
       "event_type": "general_assembly_adoption_of_study_report_recommendations",
-      "topic_tags": ["federal_vision", "new_perspective_on_paul", "auburn_avenue", "westminster_standards"],
+      "topic_tags": [
+        "federal_vision",
+        "new_perspective_on_paul",
+        "auburn_avenue",
+        "westminster_standards"
+      ],
       "assembly_action": "The Assembly adopted all five recommendations of the Federal Vision/New Perspective/Auburn Avenue Study Committee, including recommending the nine declarations as a faithful exposition of the Westminster Standards.",
       "individual_vote_status": "no_complete_named_roll_call_normalized_in_current_pass",
       "important_boundary": "The Assembly's adoption is denominational event-level evidence. It must not be converted into a claim that every commissioner personally affirmed every declaration unless an individual vote or signed action is published.",

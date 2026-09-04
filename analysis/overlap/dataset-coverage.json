@@ -8,11 +8,11 @@
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 151,
+      "confirmed_canonical_person_count": 152,
       "unmatched_count": 323,
       "probable_requires_review_count": 26,
-      "ambiguous_or_collision_count": 71,
-      "percentage_resolved": 26.44,
+      "ambiguous_or_collision_count": 70,
+      "percentage_resolved": 26.62,
       "source_tier": [
         "first_party_archive"
       ],
@@ -24,11 +24,11 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 188,
+      "confirmed_canonical_person_count": 189,
       "unmatched_count": 441,
       "probable_requires_review_count": 27,
-      "ambiguous_or_collision_count": 81,
-      "percentage_resolved": 25.51,
+      "ambiguous_or_collision_count": 80,
+      "percentage_resolved": 25.64,
       "source_tier": [
         "first_party_archive"
       ],
@@ -56,11 +56,11 @@
       "source_dataset": "amr_website_media_2023_2026",
       "row_count": 136,
       "unique_printed_name_count": 60,
-      "confirmed_canonical_person_count": 6,
+      "confirmed_canonical_person_count": 7,
       "unmatched_count": 10,
-      "probable_requires_review_count": 48,
-      "ambiguous_or_collision_count": 44,
-      "percentage_resolved": 25.0,
+      "probable_requires_review_count": 44,
+      "ambiguous_or_collision_count": 47,
+      "percentage_resolved": 25.74,
       "source_tier": [
         "first_party"
       ],
@@ -73,15 +73,79 @@
       "row_count": 83,
       "unique_printed_name_count": 40,
       "confirmed_canonical_person_count": 6,
-      "unmatched_count": 14,
-      "probable_requires_review_count": 32,
-      "ambiguous_or_collision_count": 25,
+      "unmatched_count": 13,
+      "probable_requires_review_count": 26,
+      "ambiguous_or_collision_count": 32,
       "percentage_resolved": 14.46,
       "source_tier": [
         "first_party"
       ],
       "completeness_status": [
         "complete_public_channel_participants_where_stated"
+      ]
+    },
+    {
+      "source_dataset": "bco_21_4_negative_votes_2003",
+      "row_count": 71,
+      "unique_printed_name_count": 71,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 53,
+      "probable_requires_review_count": 5,
+      "ambiguous_or_collision_count": 13,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_71_name_primary_roster"
+      ]
+    },
+    {
+      "source_dataset": "bco_21_4_subscription_protest_author_2003",
+      "row_count": 1,
+      "unique_printed_name_count": 1,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_author_presenter"
+      ]
+    },
+    {
+      "source_dataset": "bco_21_4_subscription_protest_joiners_2003",
+      "row_count": 93,
+      "unique_printed_name_count": 93,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 77,
+      "probable_requires_review_count": 4,
+      "ambiguous_or_collision_count": 12,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_93_joiner_primary_roster"
+      ]
+    },
+    {
+      "source_dataset": "federal_vision_study_committee_2007",
+      "row_count": 7,
+      "unique_printed_name_count": 7,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 4,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_7_member_unanimous_report_roster"
       ]
     },
     {
@@ -169,9 +233,9 @@
       "row_count": 8,
       "unique_printed_name_count": 8,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 6,
-      "probable_requires_review_count": 1,
-      "ambiguous_or_collision_count": 1,
+      "unmatched_count": 3,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 3,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_primary"
@@ -248,11 +312,11 @@
       "source_dataset": "institution_cdm",
       "row_count": 34,
       "unique_printed_name_count": 30,
-      "confirmed_canonical_person_count": 0,
+      "confirmed_canonical_person_count": 1,
       "unmatched_count": 23,
-      "probable_requires_review_count": 4,
+      "probable_requires_review_count": 3,
       "ambiguous_or_collision_count": 7,
-      "percentage_resolved": 0.0,
+      "percentage_resolved": 2.94,
       "source_tier": [
         "official_institutional"
       ],
@@ -313,9 +377,9 @@
       "row_count": 29,
       "unique_printed_name_count": 29,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 24,
+      "unmatched_count": 23,
       "probable_requires_review_count": 2,
-      "ambiguous_or_collision_count": 3,
+      "ambiguous_or_collision_count": 4,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
@@ -472,11 +536,11 @@
       "source_dataset": "nae_withdrawal_protest_2022",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 82,
+      "confirmed_canonical_person_count": 83,
       "unmatched_count": 87,
-      "probable_requires_review_count": 15,
+      "probable_requires_review_count": 14,
       "ambiguous_or_collision_count": 19,
-      "percentage_resolved": 40.39,
+      "percentage_resolved": 40.89,
       "source_tier": [
         "official_primary"
       ],
@@ -488,11 +552,11 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 41,
+      "confirmed_canonical_person_count": 42,
       "unmatched_count": 66,
-      "probable_requires_review_count": 31,
+      "probable_requires_review_count": 30,
       "ambiguous_or_collision_count": 13,
-      "percentage_resolved": 27.15,
+      "percentage_resolved": 27.81,
       "source_tier": [
         "primary_archive"
       ],
@@ -505,9 +569,9 @@
       "row_count": 46,
       "unique_printed_name_count": 46,
       "confirmed_canonical_person_count": 5,
-      "unmatched_count": 38,
+      "unmatched_count": 35,
       "probable_requires_review_count": 2,
-      "ambiguous_or_collision_count": 1,
+      "ambiguous_or_collision_count": 4,
       "percentage_resolved": 10.87,
       "source_tier": [
         "official_primary"
@@ -552,11 +616,11 @@
       "source_dataset": "overture_37_negative_votes_2021",
       "row_count": 207,
       "unique_printed_name_count": 207,
-      "confirmed_canonical_person_count": 113,
+      "confirmed_canonical_person_count": 114,
       "unmatched_count": 53,
-      "probable_requires_review_count": 9,
+      "probable_requires_review_count": 8,
       "ambiguous_or_collision_count": 32,
-      "percentage_resolved": 54.59,
+      "percentage_resolved": 55.07,
       "source_tier": [
         "official_primary"
       ],
@@ -569,9 +633,9 @@
       "row_count": 28,
       "unique_printed_name_count": 28,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 22,
-      "probable_requires_review_count": 2,
-      "ambiguous_or_collision_count": 4,
+      "unmatched_count": 18,
+      "probable_requires_review_count": 5,
+      "ambiguous_or_collision_count": 5,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_primary"
@@ -601,8 +665,8 @@
       "row_count": 26,
       "unique_printed_name_count": 26,
       "confirmed_canonical_person_count": 1,
-      "unmatched_count": 17,
-      "probable_requires_review_count": 5,
+      "unmatched_count": 16,
+      "probable_requires_review_count": 6,
       "ambiguous_or_collision_count": 3,
       "percentage_resolved": 3.85,
       "source_tier": [
@@ -677,14 +741,46 @@
       ]
     },
     {
+      "source_dataset": "subscription_overture_16_minority_report_2003",
+      "row_count": 14,
+      "unique_printed_name_count": 14,
+      "confirmed_canonical_person_count": 4,
+      "unmatched_count": 8,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 28.57,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_14_signer_primary_roster"
+      ]
+    },
+    {
+      "source_dataset": "subscription_overture_16_negative_vote_2003",
+      "row_count": 1,
+      "unique_printed_name_count": 1,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 1,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 0,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_single_recorded_vote"
+      ]
+    },
+    {
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 96,
-      "unmatched_count": 65,
-      "probable_requires_review_count": 13,
-      "ambiguous_or_collision_count": 29,
-      "percentage_resolved": 47.29,
+      "confirmed_canonical_person_count": 97,
+      "unmatched_count": 64,
+      "probable_requires_review_count": 14,
+      "ambiguous_or_collision_count": 28,
+      "percentage_resolved": 47.78,
       "source_tier": [
         "official_primary"
       ],
@@ -728,11 +824,11 @@
       "source_dataset": "women_study_committee_procedural_registration_2016",
       "row_count": 173,
       "unique_printed_name_count": 173,
-      "confirmed_canonical_person_count": 6,
-      "unmatched_count": 143,
-      "probable_requires_review_count": 11,
-      "ambiguous_or_collision_count": 13,
-      "percentage_resolved": 3.47,
+      "confirmed_canonical_person_count": 7,
+      "unmatched_count": 131,
+      "probable_requires_review_count": 16,
+      "ambiguous_or_collision_count": 19,
+      "percentage_resolved": 4.05,
       "source_tier": [
         "official_primary"
       ],
