@@ -2,8 +2,8 @@
   "metadata": {
     "generated_on": "2026-09-04",
     "record_count": 4288,
-    "canonical_person_count": 274,
-    "new_person_count": 257,
+    "canonical_person_count": 275,
+    "new_person_count": 258,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -20150,10 +20150,15 @@
       "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json",
       "source_row_locator": "signature:82",
       "name_as_printed": "Paul D. Richardson",
-      "normalized_candidate": "paul d richardson",
+      "normalized_candidate": "paul richardson",
       "normalized_name_as_printed": "paul d richardson",
       "normalized_matching_name": "paul d richardson",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only."
+      },
       "source_tier": "first_party_archive",
       "completeness_status": "complete",
       "evidence_type": "public_letter_signature",
@@ -20168,17 +20173,17 @@
       "location": "nashville tn",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "paul-richardson",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "matching presbytery: nashville"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "paul richardson",
-      "initials_only_name": true
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
+      "initials_only_name": false
     },
     {
       "crosswalk_id": "identity-row-00554",
@@ -20964,10 +20969,15 @@
       "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json",
       "source_row_locator": "signature:102",
       "name_as_printed": "Paul D. Richardson",
-      "normalized_candidate": "paul d richardson",
+      "normalized_candidate": "paul richardson",
       "normalized_name_as_printed": "paul d richardson",
       "normalized_matching_name": "paul d richardson",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only."
+      },
       "source_tier": "first_party_archive",
       "completeness_status": "complete",
       "evidence_type": "public_letter_signature",
@@ -20980,17 +20990,17 @@
       "location": "nashville tn",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "paul-richardson",
+      "match_status": "context_confirmed",
+      "match_method": "documented_reviewed_name_variant",
+      "supporting_fields": [
+        "matching presbytery: nashville"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "paul richardson",
-      "initials_only_name": true
+      "conflicting_fields": [],
+      "confidence": 0.98,
+      "reviewer_note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
+      "variant_collision_key": null,
+      "initials_only_name": false
     },
     {
       "crosswalk_id": "identity-row-00577",
@@ -49984,15 +49994,13 @@
       "office": null,
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "stephen estock",
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -61345,15 +61353,13 @@
       "office": null,
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "stephen estock",
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -81341,15 +81347,13 @@
       "office": "teaching_elder",
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "stephen estock",
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -98840,16 +98844,16 @@
       "location": null,
       "office": "ruling_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "paul-richardson",
+      "match_status": "context_confirmed",
+      "match_method": "exact_name_plus_shared_context",
+      "supporting_fields": [
+        "matching presbytery: nashville"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "paul richardson",
+      "conflicting_fields": [],
+      "confidence": 0.95,
+      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -127255,15 +127259,13 @@
       "office": "ruling_elder",
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_row_level_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "paul richardson",
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -127273,10 +127275,15 @@
       "source_path": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
       "source_row_locator": "overture16_minority_signer:13",
       "name_as_printed": "Mark A. Rowden",
-      "normalized_candidate": "mark a rowden",
+      "normalized_candidate": "mark rowden",
       "normalized_name_as_printed": "mark a rowden",
       "normalized_matching_name": "mark a rowden",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "mark rowden",
+        "canonical_display_name": "Mark Rowden",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_14_signer_primary_roster",
       "evidence_type": "minority_report_signature",
@@ -127286,16 +127293,14 @@
       "office": "teaching_elder",
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "mark rowden",
-      "initials_only_name": true
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "variant_collision_key": null,
+      "initials_only_name": false
     },
     {
       "crosswalk_id": "identity-row-03890",
@@ -127420,10 +127425,15 @@
       "source_path": "sources/normalized/general-assembly/2003-subscription-formal-position-records.json",
       "source_row_locator": "overture16_minority_signer:5",
       "name_as_printed": "Stephen Thomas Estock",
-      "normalized_candidate": "stephen thomas estock",
+      "normalized_candidate": "stephen estock",
       "normalized_name_as_printed": "stephen thomas estock",
       "normalized_matching_name": "stephen thomas estock",
-      "reviewed_name_variant": null,
+      "reviewed_name_variant": {
+        "canonical_candidate": "stephen estock",
+        "canonical_display_name": "Stephen Estock",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only."
+      },
       "source_tier": "official_primary",
       "completeness_status": "complete_14_signer_primary_roster",
       "evidence_type": "minority_report_signature",
@@ -127433,15 +127443,13 @@
       "office": "teaching_elder",
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "stephen estock",
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -133060,16 +133068,16 @@
       "location": null,
       "office": "ruling_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "paul-richardson",
+      "match_status": "context_confirmed",
+      "match_method": "exact_name_plus_shared_context",
+      "supporting_fields": [
+        "matching presbytery: nashville"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "paul richardson",
+      "conflicting_fields": [],
+      "confidence": 0.95,
+      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {
@@ -135703,15 +135711,13 @@
       "office": "teaching_elder",
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
-      "variant_collision_key": "mark rowden",
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "variant_collision_key": null,
       "initials_only_name": false
     },
     {

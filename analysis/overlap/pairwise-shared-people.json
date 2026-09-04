@@ -1190,6 +1190,16 @@
           ]
         },
         {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "signature:82"
+          ],
+          "dataset_b_locators": [
+            "signature:102"
+          ]
+        },
+        {
           "canonical_person_id": "peter-kim",
           "name": "Peter Kim",
           "dataset_a_locators": [
@@ -1827,7 +1837,6 @@
         "p d mayfield",
         "patric knaak",
         "patrick donohue",
-        "paul d richardson",
         "paul hahn",
         "paul kalfa",
         "paul kim",
@@ -4039,6 +4048,16 @@
           ]
         },
         {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "signature:82"
+          ],
+          "dataset_b_locators": [
+            "print_order:156"
+          ]
+        },
+        {
           "canonical_person_id": "peter-rowan",
           "name": "Peter Rowan",
           "dataset_a_locators": [
@@ -4401,6 +4420,14 @@
         "kirk norris",
         "solomon kim",
         "willis weatherford"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "paul richardson"
       ]
     },
     {
@@ -4855,6 +4882,16 @@
           ],
           "dataset_b_locators": [
             "print_order:186"
+          ]
+        },
+        {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "signature:82"
+          ],
+          "dataset_b_locators": [
+            "print_order:69"
           ]
         },
         {
@@ -7448,6 +7485,16 @@
           ]
         },
         {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "signature:102"
+          ],
+          "dataset_b_locators": [
+            "print_order:156"
+          ]
+        },
+        {
           "canonical_person_id": "peter-rowan",
           "name": "Peter Rowan",
           "dataset_a_locators": [
@@ -7892,6 +7939,14 @@
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "titus bagby"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "paul richardson"
       ]
     },
     {
@@ -8436,6 +8491,16 @@
           ],
           "dataset_b_locators": [
             "print_order:186"
+          ]
+        },
+        {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "signature:102"
+          ],
+          "dataset_b_locators": [
+            "print_order:69"
           ]
         },
         {
@@ -9654,6 +9719,14 @@
       "unresolved_exact_name_keys": [
         "jeff jou",
         "matt terrell"
+      ]
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "stephen estock"
       ]
     },
     {
@@ -10940,6 +11013,14 @@
     {
       "dataset_a": "institution_cdm",
       "dataset_b": "nae_withdrawal_protest_2022",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "stephen estock"
+      ]
+    },
+    {
+      "dataset_a": "institution_cdm",
+      "dataset_b": "subscription_overture_16_minority_report_2003",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "stephen estock"
@@ -12350,7 +12431,9 @@
           ]
         }
       ],
-      "unresolved_exact_name_keys": []
+      "unresolved_exact_name_keys": [
+        "stephen estock"
+      ]
     },
     {
       "dataset_a": "nae_withdrawal_protest_2022",
@@ -14789,6 +14872,16 @@
           ]
         },
         {
+          "canonical_person_id": "paul-richardson",
+          "name": "Paul Richardson",
+          "dataset_a_locators": [
+            "print_order:156"
+          ],
+          "dataset_b_locators": [
+            "print_order:69"
+          ]
+        },
+        {
           "canonical_person_id": "peter-rowan",
           "name": "Peter Rowan",
           "dataset_a_locators": [
@@ -14948,7 +15041,6 @@
         "james pocta",
         "jason cornwell",
         "kenneth leggett",
-        "paul richardson",
         "rob wootton",
         "sean roberts"
       ]
@@ -15270,7 +15362,8 @@
       "dataset_b": "women_study_committee_procedural_registration_2016",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
-        "freddy fritz"
+        "freddy fritz",
+        "mark rowden"
       ]
     },
     {

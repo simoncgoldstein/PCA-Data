@@ -8,11 +8,11 @@
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 151,
+      "confirmed_canonical_person_count": 152,
       "unmatched_count": 323,
       "probable_requires_review_count": 26,
-      "ambiguous_or_collision_count": 71,
-      "percentage_resolved": 26.44,
+      "ambiguous_or_collision_count": 70,
+      "percentage_resolved": 26.62,
       "source_tier": [
         "first_party_archive"
       ],
@@ -24,11 +24,11 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 188,
+      "confirmed_canonical_person_count": 189,
       "unmatched_count": 441,
       "probable_requires_review_count": 27,
-      "ambiguous_or_collision_count": 81,
-      "percentage_resolved": 25.51,
+      "ambiguous_or_collision_count": 80,
+      "percentage_resolved": 25.64,
       "source_tier": [
         "first_party_archive"
       ],
@@ -58,8 +58,8 @@
       "unique_printed_name_count": 60,
       "confirmed_canonical_person_count": 6,
       "unmatched_count": 10,
-      "probable_requires_review_count": 44,
-      "ambiguous_or_collision_count": 48,
+      "probable_requires_review_count": 45,
+      "ambiguous_or_collision_count": 47,
       "percentage_resolved": 25.0,
       "source_tier": [
         "first_party"
@@ -314,8 +314,8 @@
       "unique_printed_name_count": 30,
       "confirmed_canonical_person_count": 0,
       "unmatched_count": 23,
-      "probable_requires_review_count": 3,
-      "ambiguous_or_collision_count": 8,
+      "probable_requires_review_count": 4,
+      "ambiguous_or_collision_count": 7,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
@@ -538,8 +538,8 @@
       "unique_printed_name_count": 203,
       "confirmed_canonical_person_count": 82,
       "unmatched_count": 87,
-      "probable_requires_review_count": 14,
-      "ambiguous_or_collision_count": 20,
+      "probable_requires_review_count": 15,
+      "ambiguous_or_collision_count": 19,
       "percentage_resolved": 40.39,
       "source_tier": [
         "official_primary"
@@ -616,11 +616,11 @@
       "source_dataset": "overture_37_negative_votes_2021",
       "row_count": 207,
       "unique_printed_name_count": 207,
-      "confirmed_canonical_person_count": 113,
+      "confirmed_canonical_person_count": 114,
       "unmatched_count": 53,
       "probable_requires_review_count": 8,
-      "ambiguous_or_collision_count": 33,
-      "percentage_resolved": 54.59,
+      "ambiguous_or_collision_count": 32,
+      "percentage_resolved": 55.07,
       "source_tier": [
         "official_primary"
       ],
@@ -746,8 +746,8 @@
       "unique_printed_name_count": 14,
       "confirmed_canonical_person_count": 1,
       "unmatched_count": 8,
-      "probable_requires_review_count": 2,
-      "ambiguous_or_collision_count": 3,
+      "probable_requires_review_count": 5,
+      "ambiguous_or_collision_count": 0,
       "percentage_resolved": 7.14,
       "source_tier": [
         "official_primary"
@@ -776,11 +776,11 @@
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 96,
+      "confirmed_canonical_person_count": 97,
       "unmatched_count": 64,
       "probable_requires_review_count": 14,
-      "ambiguous_or_collision_count": 29,
-      "percentage_resolved": 47.29,
+      "ambiguous_or_collision_count": 28,
+      "percentage_resolved": 47.78,
       "source_tier": [
         "official_primary"
       ],
@@ -826,8 +826,8 @@
       "unique_printed_name_count": 173,
       "confirmed_canonical_person_count": 6,
       "unmatched_count": 131,
-      "probable_requires_review_count": 16,
-      "ambiguous_or_collision_count": 20,
+      "probable_requires_review_count": 17,
+      "ambiguous_or_collision_count": 19,
       "percentage_resolved": 3.47,
       "source_tier": [
         "official_primary"

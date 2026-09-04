@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 1295,
+    "record_count": 1291,
     "rule": "Rows may appear because of unresolved status, a first/last variant collision key, or initials-only spelling. Review never implies identity."
   },
   "records": [
@@ -1958,20 +1958,6 @@
       "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
-      "crosswalk_id": "identity-row-00553",
-      "source_dataset": "a_faithful_pca_2021-06-11",
-      "source_row_locator": "signature:82",
-      "name_as_printed": "Paul D. Richardson",
-      "normalized_candidate": "paul d richardson",
-      "match_status": "ambiguous",
-      "variant_collision_key": "paul richardson",
-      "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
       "crosswalk_id": "identity-row-00558",
       "source_dataset": "a_faithful_pca_2021-06-11",
       "source_row_locator": "signature:87",
@@ -2029,20 +2015,6 @@
       "normalized_candidate": "shawn d gendall",
       "match_status": "ambiguous",
       "variant_collision_key": "shawn gendall",
-      "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
-      "crosswalk_id": "identity-row-00576",
-      "source_dataset": "a_faithful_pca_2022-03-14",
-      "source_row_locator": "signature:102",
-      "name_as_printed": "Paul D. Richardson",
-      "normalized_candidate": "paul d richardson",
-      "match_status": "ambiguous",
-      "variant_collision_key": "paul richardson",
       "initials_only_name": true,
       "conflicting_fields": [
         "multiple full-name or initial variants share this first/last-name key"
@@ -5819,13 +5791,11 @@
       "source_row_locator": "item:94:contributor:3:https://a4mr.org/growing-together-webinar-preparing-for-the-harvest/",
       "name_as_printed": "Stephen Estock",
       "normalized_candidate": "stephen estock",
-      "match_status": "ambiguous",
-      "variant_collision_key": "stephen estock",
+      "match_status": "probable_requires_review",
+      "variant_collision_key": null,
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-01444",
@@ -8709,13 +8679,11 @@
       "source_row_locator": "role:1:cdm:line:18",
       "name_as_printed": "Stephen Estock",
       "normalized_candidate": "stephen estock",
-      "match_status": "ambiguous",
-      "variant_collision_key": "stephen estock",
+      "match_status": "probable_requires_review",
+      "variant_collision_key": null,
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-01818",
@@ -10893,13 +10861,11 @@
       "source_row_locator": "print_order:46",
       "name_as_printed": "Stephen Estock",
       "normalized_candidate": "stephen estock",
-      "match_status": "ambiguous",
-      "variant_collision_key": "stephen estock",
+      "match_status": "probable_requires_review",
+      "variant_collision_key": null,
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-02457",
@@ -12648,20 +12614,6 @@
       "initials_only_name": false,
       "conflicting_fields": [],
       "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-03000",
-      "source_dataset": "overture_37_negative_votes_2021",
-      "source_row_locator": "print_order:156",
-      "name_as_printed": "Paul Richardson",
-      "normalized_candidate": "paul richardson",
-      "match_status": "ambiguous",
-      "variant_collision_key": "paul richardson",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
       "crosswalk_id": "identity-row-03004",
@@ -14839,27 +14791,23 @@
       "source_row_locator": "overture16_minority_signer:12",
       "name_as_printed": "Paul Richardson",
       "normalized_candidate": "paul richardson",
-      "match_status": "ambiguous",
-      "variant_collision_key": "paul richardson",
+      "match_status": "probable_requires_review",
+      "variant_collision_key": null,
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-03889",
       "source_dataset": "subscription_overture_16_minority_report_2003",
       "source_row_locator": "overture16_minority_signer:13",
       "name_as_printed": "Mark A. Rowden",
-      "normalized_candidate": "mark a rowden",
-      "match_status": "ambiguous",
-      "variant_collision_key": "mark rowden",
-      "initials_only_name": true,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "normalized_candidate": "mark rowden",
+      "match_status": "probable_requires_review",
+      "variant_collision_key": null,
+      "initials_only_name": false,
+      "conflicting_fields": [],
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-03890",
@@ -14914,14 +14862,12 @@
       "source_dataset": "subscription_overture_16_minority_report_2003",
       "source_row_locator": "overture16_minority_signer:5",
       "name_as_printed": "Stephen Thomas Estock",
-      "normalized_candidate": "stephen thomas estock",
-      "match_status": "ambiguous",
-      "variant_collision_key": "stephen estock",
+      "normalized_candidate": "stephen estock",
+      "match_status": "probable_requires_review",
+      "variant_collision_key": null,
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-03895",
@@ -15488,20 +15434,6 @@
       "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
-      "crosswalk_id": "identity-row-04069",
-      "source_dataset": "warhurst_protest_2019",
-      "source_row_locator": "print_order:69",
-      "name_as_printed": "Paul Richardson",
-      "normalized_candidate": "paul richardson",
-      "match_status": "ambiguous",
-      "variant_collision_key": "paul richardson",
-      "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
       "crosswalk_id": "identity-row-04073",
       "source_dataset": "warhurst_protest_2019",
       "source_row_locator": "print_order:72",
@@ -15833,13 +15765,11 @@
       "source_row_locator": "procedural_registration:132",
       "name_as_printed": "Mark Rowden",
       "normalized_candidate": "mark rowden",
-      "match_status": "ambiguous",
-      "variant_collision_key": "mark rowden",
+      "match_status": "probable_requires_review",
+      "variant_collision_key": null,
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-04155",

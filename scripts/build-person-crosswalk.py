@@ -72,6 +72,24 @@ FIRST_NAME_VARIANTS = {
 # Explicit reviewed name-form equivalences. These are person-specific evidence
 # decisions, not a general nickname-merging rule. Printed names remain intact.
 REVIEWED_NAME_VARIANTS = {
+    "paul d richardson": {
+        "canonical_candidate": "paul richardson",
+        "canonical_display_name": "Paul Richardson",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Paul D. Richardson and Paul Richardson are the same person. This is a person-specific decision only.",
+    },
+    "mark a rowden": {
+        "canonical_candidate": "mark rowden",
+        "canonical_display_name": "Mark Rowden",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Mark A. Rowden and Mark Rowden are the same person. This is a person-specific decision only.",
+    },
+    "stephen thomas estock": {
+        "canonical_candidate": "stephen estock",
+        "canonical_display_name": "Stephen Estock",
+        "evidence_receipt": "sources/raw/identity/reviewed-name-variants-batch4-2026-09-04.json",
+        "note": "User-reviewed identity resolution: Stephen Thomas Estock and Stephen Estock are the same person. This is a person-specific decision only.",
+    },
     "larry c hoop": {
         "canonical_candidate": "larry hoop",
         "canonical_display_name": "Larry Hoop",

@@ -2180,6 +2180,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "paul-richardson",
+    "name": "Paul Richardson",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "peter-kim",
     "name": "Peter Kim",
     "ordination": "Ruling Elder",
