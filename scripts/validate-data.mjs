@@ -96,6 +96,15 @@ for (const affiliation of affiliations) {
   if (typeof affiliation.weight !== 'number' || affiliation.weight < 0) {
     errors.push(`affiliations:${affiliation.id}: weight must be a nonnegative number`);
   }
+
+  const targetOrganization = affiliation.target_type === 'organization' ? organizationMap.get(affiliation.target_id) : null;
+  const ordinaryInstitutionalTarget =
+    affiliation.target_type === 'church' ||
+    affiliation.target_type === 'presbytery' ||
+    ['church', 'presbytery'].includes(targetOrganization?.type);
+  if (ordinaryInstitutionalTarget && (affiliation.weight !== 0 || affiliation.score_included !== false)) {
+    errors.push(`affiliations:${affiliation.id}: ordinary church/presbytery affiliation must have weight 0 and score_included false`);
+  }
   checkSources(`affiliations:${affiliation.id}`, affiliation.source_ids);
 }
 
