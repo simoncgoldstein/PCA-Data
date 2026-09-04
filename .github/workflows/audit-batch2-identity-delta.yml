@@ -94,8 +94,8 @@ jobs:
               'failures': failures,
           }, indent=2))
 
-          if len(new_ids) != 52:
-              failures.append(f'Expected 52 newly canonical people relative to main, found {len(new_ids)}')
+          if len(new_ids) != 54:
+              failures.append(f'Expected 54 newly canonical people relative to current main, found {len(new_ids)}')
           if failures:
               raise SystemExit('\n'.join(failures))
           PY
