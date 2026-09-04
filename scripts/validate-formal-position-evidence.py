@@ -12,10 +12,12 @@ root = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
 report_path = root / "sources/normalized/general-assembly/2017-women-serving-ministry-report.json"
 index_path = root / "sources/normalized/general-assembly/formal-position-evidence-index.json"
 receipt_path = root / "sources/raw/issues/women-serving-ministry/mcgreevy-video-transcript-receipt-2026-09-04.json"
+batch1_path = root / "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json"
 
 report = json.loads(report_path.read_text(encoding="utf-8"))
 index = json.loads(index_path.read_text(encoding="utf-8"))
 receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
+batch1 = json.loads(batch1_path.read_text(encoding="utf-8"))
 
 meta = report["metadata"]
 if meta.get("report_form") != "committee consensus report":
@@ -81,6 +83,53 @@ if receipt.get("transcript_line_count") != mcgreevy.get("user_supplied_transcrip
 if receipt.get("full_transcript_committed") is not False:
     raise SystemExit("McGreevy evidence: full third-party transcript should not be committed")
 
+# 2008-2009 formal-position batch.
+if batch1.get("metadata", {}).get("ideological_weight") != 0:
+    raise SystemExit("2008-2009 women batch: metadata ideological_weight must remain 0")
+events = {row.get("event_id"): row for row in batch1.get("events", [])}
+expected_event_counts = {
+    "2008-overture-9-deaconess-study-minority-report": 27,
+    "2008-rpr-women-scripture-reading-minority-report": 8,
+    "2009-overture-10-women-roles-study-minority-report": 34,
+}
+if set(events) != set(expected_event_counts):
+    raise SystemExit(f"2008-2009 women batch: event set drift: {sorted(events)}")
+for event_id, expected_signers in expected_event_counts.items():
+    event = events[event_id]
+    if event.get("evidence_class") != "signed_formal_report_or_minority_report":
+        raise SystemExit(f"{event_id}: evidence class drift")
+    if event.get("ideological_weight") != 0:
+        raise SystemExit(f"{event_id}: ideological_weight must remain 0")
+    signers = event.get("signers", [])
+    if event.get("signer_count") != expected_signers or len(signers) != expected_signers:
+        raise SystemExit(f"{event_id}: expected {expected_signers} signers, found {len(signers)}")
+    printed = [row.get("name_as_printed") for row in signers]
+    if any(not value for value in printed) or len(printed) != len(set(printed)):
+        raise SystemExit(f"{event_id}: signer names must be nonblank and unique within event")
+
+if "wide variety of positions and practices" not in events["2008-overture-9-deaconess-study-minority-report"].get("important_boundary", ""):
+    raise SystemExit("2008 Overture 9: do not turn study-committee signership into a female-ordination claim")
+if events["2008-overture-9-deaconess-study-minority-report"].get("named_presenter", {}).get("name") != "Bryan Chapell":
+    raise SystemExit("2008 Overture 9: Bryan Chapell presenter record missing")
+
+worship = events["2008-rpr-women-scripture-reading-minority-report"]
+required_worship_signers = {
+    "TE K. Hugh Acton", "RE Gene Friedline", "TE John Carroll", "RE David Marshall",
+    "TE Lane Keister", "RE David O'Steen", "TE Bob Peterson", "TE Richard Wheeler",
+}
+if {row.get("name_as_printed") for row in worship.get("signers", [])} != required_worship_signers:
+    raise SystemExit("2008 RPR worship minority: signer set drift")
+if "reading Scripture or exhorting" not in worship.get("position_summary", ""):
+    raise SystemExit("2008 RPR worship minority: position summary drift")
+
+women2009 = events["2009-overture-10-women-roles-study-minority-report"]
+if women2009.get("assembly_outcome") != "Minority report defeated 427-446; Recommendation 8 answering Overture 10 in the negative was adopted.":
+    raise SystemExit("2009 Overture 10: aggregate Assembly outcome drift")
+if women2009.get("named_presenter", {}).get("name") != "David Coffin":
+    raise SystemExit("2009 Overture 10: David Coffin presenter record missing")
+if women2009.get("named_floor_supporter", {}).get("name") != "E. J. Nusbaum":
+    raise SystemExit("2009 Overture 10: E. J. Nusbaum floor-support record missing")
+
 hierarchy = {row.get("evidence_class"): row for row in index.get("evidence_hierarchy", [])}
 for required in (
     "signed_formal_report_or_minority_report",
@@ -95,6 +144,9 @@ for required in (
 
 indexed = {row.get("evidence_id"): row for row in index.get("normalized_position_sources", [])}
 for required in (
+    "2008-overture-9-deaconess-study-minority-report",
+    "2008-rpr-women-scripture-reading-minority-report",
+    "2009-overture-10-women-roles-study-minority-report",
     "2017-women-serving-ministry-consensus-report",
     "2017-mary-beth-mcgreevy-first-person-women-ministry",
     "2019-2021-human-sexuality-aic",
@@ -110,11 +162,15 @@ for required in (
 
 if index.get("metadata", {}).get("ideological_weight") != 0:
     raise SystemExit("formal position index: evidence framework must remain ideological_weight 0")
+if "Aggregate votes are event-level evidence" not in index.get("metadata", {}).get("modeling_rule", ""):
+    raise SystemExit("formal position index: aggregate-vote guardrail missing")
 
 print(json.dumps({
     "committee_members": len(members),
     "committee_status_counts": dict(counts),
     "report_positions": len(positions),
     "mcgreevy_position_topics": len(actual_topics),
+    "batch1_events": len(events),
+    "batch1_signers": sum(len(row.get("signers", [])) for row in events.values()),
     "indexed_position_sources": len(indexed),
 }, indent=2))

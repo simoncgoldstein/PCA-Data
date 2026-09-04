@@ -1,7 +1,7 @@
 {
   "metadata": {
     "purpose": "Index high-specificity evidence that bears directly on a person's documented denominational position, while preserving the distinction between signed positions, recorded votes, committee service, and first-person explanation.",
-    "modeling_rule": "Formal position evidence is stronger for identifying a documented view than network proximity or generic event participation, but no evidence type should be collapsed into a total ideological label. Committee membership alone does not prove agreement with every line of a report, especially where a report records internal disagreement.",
+    "modeling_rule": "Formal position evidence is stronger for identifying a documented view than network proximity or generic event participation, but no evidence type should be collapsed into a total ideological label. Committee membership alone does not prove agreement with every line of a report, especially where a report records internal disagreement. Aggregate votes are event-level evidence unless individual votes are actually published; non-signership on a minority report is not proof of a majority vote.",
     "ideological_weight": 0
   },
   "evidence_hierarchy": [
@@ -13,7 +13,7 @@
     {
       "evidence_class": "recorded_vote_or_formal_protest_signature",
       "position_specificity": "very_high",
-      "rule": "A recorded vote or signed protest directly establishes the recorded action, but not every broader theological inference someone might draw from it."
+      "rule": "A recorded individual vote or signed protest directly establishes the recorded action, but not every broader theological inference someone might draw from it. Aggregate vote totals are not person-level evidence."
     },
     {
       "evidence_class": "first_person_issue_statement",
@@ -37,6 +37,33 @@
     }
   ],
   "normalized_position_sources": [
+    {
+      "evidence_id": "2008-overture-9-deaconess-study-minority-report",
+      "year": 2008,
+      "topic": "women_in_diaconal_ministry",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json",
+      "coverage": "27 named minority-report signers plus named presenter and Assembly outcome",
+      "important_boundary": "The report explicitly says its signers represented a wide variety of positions and practices. Signership establishes support for study and the report's grounds, not support for female ordination."
+    },
+    {
+      "evidence_id": "2008-rpr-women-scripture-reading-minority-report",
+      "year": 2008,
+      "topic": "women_reading_scripture_and_exhorting_in_public_worship",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json",
+      "coverage": "8 named minority-report signers",
+      "important_boundary": "The eight signers explicitly argued that women reading Scripture or exhorting in public worship exercises the authority of the Word and is forbidden by 1 Timothy 2. No individual majority roll call is inferred."
+    },
+    {
+      "evidence_id": "2009-overture-10-women-roles-study-minority-report",
+      "year": 2009,
+      "topic": "women_roles_in_the_church",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json",
+      "coverage": "34 named concurring minority-report signers, named presenter/supporter, and 427-446 Assembly defeat",
+      "important_boundary": "Signership establishes support for the proposed study committee and pastoral letter, not a specific position on female ordination or every disputed practice. The 427-446 vote is aggregate only."
+    },
     {
       "evidence_id": "2017-women-serving-ministry-consensus-report",
       "year": 2017,
@@ -113,18 +140,18 @@
   "priority_backlog": [
     {
       "priority": 1,
-      "target": "Corresponding majority/committee reports for controversies where a minority report is already normalized",
-      "reason": "Majority and minority positions should be represented symmetrically when the official minutes identify named authors, signers, committee members, or recorded votes."
+      "target": "Human Sexuality AIC report-position extraction and corresponding majority/committee outcomes for Overture 37 and Overture 15",
+      "reason": "These are already central to the graph and should have report-level positions and event outcomes represented symmetrically with existing minority signers."
     },
     {
       "priority": 2,
-      "target": "Major PCA study reports with identifiable committee members, concurrences, dissents, minority reports, or signed recommendations",
-      "reason": "These sources provide high-specificity evidence of documented denominational positions and should be normalized before lower-signal network expansion."
+      "target": "Older major PCA majority/minority study-report families, beginning with Women in the Military, Insider Movements, baptism, paedocommunion, and other reports with named authors/signers",
+      "reason": "These provide longitudinal high-specificity evidence and test the schema across issues beyond the current controversies."
     },
     {
       "priority": 3,
-      "target": "First-person explanations by report authors, signers, or dissenters",
-      "reason": "These can clarify the person's actual rationale where a formal vote or committee role alone is underdetermined."
+      "target": "Published individual votes, concurrences, dissents, SJC dissent/concurrence records, and first-person explanations by report authors/signers",
+      "reason": "These are the strongest person-specific evidence where the official record actually names the individual action."
     }
   ]
 }

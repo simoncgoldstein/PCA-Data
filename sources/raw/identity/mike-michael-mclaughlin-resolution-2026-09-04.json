@@ -1,0 +1,35 @@
+{
+  "reviewed_on": "2026-09-04",
+  "identity": "Mike McLaughlin / Michael McLaughlin",
+  "canonical_name_form": "Mike McLaughlin",
+  "canonical_id": "mike-mclaughlin",
+  "alias_name_form": "Michael McLaughlin",
+  "status": "reviewed_name_variant_link",
+  "evidence": [
+    {
+      "source_type": "official_pca_general_assembly_minutes",
+      "url": "https://www.pcahistory.org/pca/ga/37th_pcaga_2009.pdf",
+      "fact": "The 2009 Overture 10 minority-report concurrence list includes TE Michael McLaughlin of Southwest Presbytery."
+    },
+    {
+      "source_type": "first_party_church_history",
+      "url": "https://www.citypresabq.com/our-story",
+      "fact": "City Presbyterian Church of Albuquerque identifies Mike McLaughlin as its founding pastor, serving the Albuquerque church from its 2004 founding until he was called back to Missouri."
+    },
+    {
+      "source_type": "tracked_2019_formal_protest_record",
+      "path": "sources/normalized/revoice/warhurst-protest-signers-2019.json",
+      "fact": "The tracked 2019 record identifies TE Mike McLaughlin in Missouri Presbytery."
+    },
+    {
+      "source_type": "tracked_public_statement_records",
+      "paths": [
+        "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json",
+        "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json"
+      ],
+      "fact": "Later tracked A Faithful PCA snapshots use the Mike McLaughlin name form."
+    }
+  ],
+  "reasoning_boundary": "This is a reviewed identity equivalence for this one person, not a general rule that Mike and Michael name forms are interchangeable across the dataset. The 2009 Southwest Presbytery record aligns with the first-party Albuquerque church history, and that history explicitly connects Mike McLaughlin's New Mexico ministry to a later move back to Missouri, matching the later tracked PCA records.",
+  "ideological_weight": 0
+}

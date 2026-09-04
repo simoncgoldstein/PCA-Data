@@ -4,23 +4,24 @@
     "graph_scope": "Confirmed identity-to-dataset bipartite graph plus counts of repository core node classes."
   },
   "nodes": {
-    "person_nodes": 214,
-    "dataset_nodes": 30,
+    "person_nodes": 219,
+    "dataset_nodes": 33,
     "organization_nodes": 21,
     "church_nodes": 1970,
     "presbytery_nodes": 88,
     "event_nodes": 16
   },
   "edges": {
-    "confirmed_identity_dataset_edges": 692,
+    "confirmed_identity_dataset_edges": 710,
     "by_evidence_type": {
       "formal_organization_leadership": 6,
       "formal_organization_membership": 39,
       "formal_protest_signature": 171,
+      "formal_report_concurrence": 17,
       "institutional_role": 6,
       "media_authorship_or_participation": 34,
       "media_participation": 12,
-      "minority_report_signature": 15,
+      "minority_report_signature": 16,
       "public_letter_signature": 289,
       "publication_contribution": 11,
       "recorded_negative_vote": 101,
@@ -30,30 +31,30 @@
       "first_party": 52,
       "first_party_archive": 289,
       "official_institutional": 14,
-      "official_primary": 287,
+      "official_primary": 305,
       "primary_archive": 39,
       "user_supplied_visual_receipt": 11
     },
-    "distinct_source_paths": 13
+    "distinct_source_paths": 15
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.10778816
+    "value": 0.0982427
   },
   "components": {
     "count": 13,
-    "largest_component_nodes": 232,
+    "largest_component_nodes": 240,
     "isolated_person_nodes": 1
   },
   "quality_gaps": {
-    "unresolved_identity_rows": 2887,
+    "unresolved_identity_rows": 2938,
     "unresolved_by_status": {
-      "ambiguous": 357,
-      "collision": 11,
-      "probable_requires_review": 307,
-      "unmatched": 2212
+      "ambiguous": 359,
+      "collision": 13,
+      "probable_requires_review": 319,
+      "unmatched": 2247
     },
-    "confirmed_edges_missing_specific_event_year": 93,
+    "confirmed_edges_missing_specific_event_year": 110,
     "datasets_without_primary_or_official_tier": [
       "publication_co-laborers-co-heirs-2019",
       "publication_heal-us-emmanuel-2016",
@@ -66,9 +67,14 @@
       "columbus metro",
       "korean southwest orange",
       "korean southwestern",
+      "louisiana",
       "lowcountry",
       "maryland",
+      "n new england",
+      "southeast louisiana",
       "southwest",
+      "susq valley",
+      "sw florida",
       "western canada"
     ]
   },
