@@ -51,7 +51,7 @@ for pid, stance in expected.items():
         raise SystemExit(f"{pid}: summary unexpectedly long")
 
 male_office_summary = by_id["amr-2026-kyle-wells-male-governing-office"]["summary"]
-if "qualified men" not in male_office_summary or "governing office" not in male_office_summary:
+if "qualified men" not in male_office_summary or "governing oversight" not in male_office_summary:
     raise SystemExit("Kyle Wells AMR evidence: male-office affirmation drift")
 if "does not" not in by_id["amr-2026-kyle-wells-structured-womens-diaconal-service"]["important_boundary"]:
     raise SystemExit("Kyle Wells AMR evidence: diaconal-status boundary drift")
