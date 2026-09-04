@@ -31,7 +31,7 @@ Resolution remains incomplete: 2,056 of 2,716 crosswalk rows do not have a confi
 
 Accordingly, confirmed-subset percentages can be much higher than whole-roster lower bounds and must never be presented as full-roster rates. Unresolved exact-name possibilities are displayed separately and excluded from all confirmed intersections, unions, recurrence counts, concentration counts, and graph edges.
 
-Presbytery and church rates use observed roster names as denominators. They are not rates among all PCA ministers, elders, churches, or members. Current institutional snapshots are dated neutral role observations, and the current-directory church match excludes non-unique or non-exact strings.
+Presbytery and church rates use observed roster names as denominators. They are not rates among all PCA ministers, elders, churches, or members. Presbytery rows distinguish current exact names, documented aliases, and unresolved historical/noncanonical source labels; none is silently coerced. Current institutional snapshots are dated neutral role observations, and the current-directory church match excludes non-unique or non-exact strings.
 
 ## 4. Source families that would most improve the graph
 

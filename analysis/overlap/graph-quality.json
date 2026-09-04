@@ -58,7 +58,17 @@
       "publication_hear-us-emmanuel-2020"
     ],
     "unmatched_structured_church_strings_2022_afp": 290,
-    "ambiguous_structured_church_strings_2022_afp": 54
+    "ambiguous_structured_church_strings_2022_afp": 54,
+    "unresolved_historical_or_noncanonical_presbytery_names": [
+      "build that wall",
+      "columbus metro",
+      "korean southwest orange",
+      "korean southwestern",
+      "lowcountry",
+      "maryland",
+      "southwest",
+      "western canada"
+    ]
   },
   "claims_excluded_from_scoring": [
     "probable, ambiguous, collision, and unmatched identity rows",

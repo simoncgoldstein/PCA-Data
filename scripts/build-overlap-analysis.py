@@ -26,13 +26,19 @@ def load(relative: str) -> Any:
     return json.loads((ROOT / relative).read_text(encoding="utf-8"))
 
 
+def norm(value: str) -> str:
+    value = unicodedata.normalize("NFKD", value)
+    value = "".join(ch for ch in value if not unicodedata.combining(ch))
+    return " ".join(re.findall(r"[a-z0-9]+", value.lower()))
+
+
 def write_json(name: str, value: Any) -> None:
     (OUT / name).write_text(json.dumps(value, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def write_csv(name: str, fieldnames: list[str], rows: list[dict[str, Any]]) -> None:
     with (OUT / name).open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -171,6 +177,26 @@ recurring_ids = {r["canonical_person_id"] for r in recurrence_rows}
 
 
 # Presbytery concentration: dataset-level observed denominators and an aggregate.
+presbytery_entities = load("data/presbyteries.json")
+presbytery_id_by_name = {norm(row["name"]): row["id"] for row in presbytery_entities}
+presbytery_aliases = {
+    "iliana": "illiana",
+    "korean capitol": "korean-capital",
+    "metro new york": "metropolitan-new-york",
+    "new york metro": "metropolitan-new-york",
+    "of northern illinois": "northern-illinois",
+    "pnw": "pacific-northwest",
+    "rocky mtn": "rocky-mountain",
+    "s new england": "southern-new-england",
+    "se alabama": "southeast-alabama",
+    "se louisiana": "southern-louisiana",
+    "siouxland": "siouxlands",
+    "sothern new england": "southern-new-england",
+    "southcoast": "south-coast",
+    "suncoast": "suncoast-florida",
+    "susquehanna": "susquehanna-valley",
+    "tvp": "tennessee-valley",
+}
 presbytery_rows = []
 for dataset in datasets + ["ALL_TRACKED_DATASETS"]:
     subset = records if dataset == "ALL_TRACKED_DATASETS" else by_dataset[dataset]
@@ -180,9 +206,13 @@ for dataset in datasets + ["ALL_TRACKED_DATASETS"]:
         printed_keys = {r["normalized_candidate"] for r in local}
         confirmed_ids = {r["canonical_person_id"] for r in local if r["canonical_person_id"] and r["match_status"] in confirmed_statuses}
         recurrent = confirmed_ids & recurring_ids
+        presbytery_id = presbytery_id_by_name.get(presbytery) or presbytery_aliases.get(presbytery)
+        canonicalization_status = "current_exact" if presbytery in presbytery_id_by_name else ("known_alias" if presbytery in presbytery_aliases else "unresolved_historical_or_noncanonical")
         presbytery_rows.append({
             "source_dataset": dataset,
             "presbytery_normalized": presbytery,
+            "presbytery_id": presbytery_id or "",
+            "canonicalization_status": canonicalization_status,
             "observed_roster_rows": len(local),
             "unique_printed_name_denominator": len(printed_keys),
             "confirmed_person_count": len(confirmed_ids),
@@ -192,18 +222,12 @@ for dataset in datasets + ["ALL_TRACKED_DATASETS"]:
         })
 write_csv(
     "presbytery-concentration.csv",
-    ["source_dataset", "presbytery_normalized", "observed_roster_rows", "unique_printed_name_denominator", "confirmed_person_count", "confirmed_resolution_rate", "multi_roster_person_count", "multi_roster_rate_among_confirmed"],
+    ["source_dataset", "presbytery_normalized", "presbytery_id", "canonicalization_status", "observed_roster_rows", "unique_printed_name_denominator", "confirmed_person_count", "confirmed_resolution_rate", "multi_roster_person_count", "multi_roster_rate_among_confirmed"],
     presbytery_rows,
 )
 
 
 # Exact current-directory church matching for the structured 2022 AFP snapshot.
-def norm(value: str) -> str:
-    value = unicodedata.normalize("NFKD", value)
-    value = "".join(ch for ch in value if not unicodedata.combining(ch))
-    return " ".join(re.findall(r"[a-z0-9]+", value.lower()))
-
-
 churches = load("data/churches.json")
 church_index: dict[str, list[dict[str, Any]]] = defaultdict(list)
 for church in churches:
@@ -378,7 +402,7 @@ write_json("graph-quality.json", {
         "dataset_nodes": len(dataset_nodes),
         "organization_nodes": len(load("data/organizations.json")),
         "church_nodes": len(churches),
-        "presbytery_nodes": len(load("data/presbyteries.json")),
+        "presbytery_nodes": len(presbytery_entities),
         "event_nodes": len(load("data/events.json")),
     },
     "edges": {
@@ -403,6 +427,10 @@ write_json("graph-quality.json", {
         "datasets_without_primary_or_official_tier": non_primary_datasets,
         "unmatched_structured_church_strings_2022_afp": sum(unmatched_church_strings.values()),
         "ambiguous_structured_church_strings_2022_afp": sum(ambiguous_church_strings.values()),
+        "unresolved_historical_or_noncanonical_presbytery_names": sorted({
+            row["presbytery_normalized"] for row in presbytery_rows
+            if row["canonicalization_status"] == "unresolved_historical_or_noncanonical"
+        }),
     },
     "claims_excluded_from_scoring": [
         "probable, ambiguous, collision, and unmatched identity rows",
