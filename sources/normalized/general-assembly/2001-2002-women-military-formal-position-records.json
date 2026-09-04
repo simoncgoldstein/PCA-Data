@@ -1,0 +1,159 @@
+{
+  "metadata": {
+    "dataset_id": "women_military_formal_positions_2001_2002",
+    "title": "PCA Ad Interim Study Committee on Women in the Military, formal-position evidence, 2001-2002",
+    "source_family": "women_military_aic_2001_2002",
+    "source_type": "official_pca_historical_center_transcription_of_general_assembly_minutes",
+    "primary_index_url": "https://www.pcahistory.org/pca/studies/aiscwim.html",
+    "ideological_weight": 0,
+    "modeling_rule": "Distinguish unanimous committee consensus, signed majority/minority papers, named presentation roles, final Assembly actions, and aggregate or individually recorded votes. Committee membership alone does not assign either disputed position. The same committee/report family cannot corroborate itself for identity resolution.",
+    "completeness_status": "complete_named_committee_and_signed_report_roles;_2002_recorded_negative_vote_roster_pending"
+  },
+  "committee_roster": {
+    "year": 2001,
+    "evidence_class": "study_committee_consensus_participation",
+    "source_url": "https://www.pcahistory.org/pca/studies/01-258.html",
+    "source_locator": "Consensus Report, Committee roster; Minutes of 29th GA, 29-57, pp. 259-278",
+    "consensus_scope": "Sections I through XI were submitted by the entire committee with no dissent. The committee explicitly said its unresolved issue was whether the counsel against women serving in offensive combat rose to the level of binding scriptural duty or remained wise pastoral counsel.",
+    "important_boundary": "Consensus participation establishes agreement with the consensus section only. It does not establish which side an individual held on the disputed duty-versus-wise-counsel question unless separately signed or otherwise named.",
+    "member_count": 10,
+    "members": [
+      {"print_order": 1, "name_as_printed": "Stephen Leonard", "office_as_printed": "TE", "normalized_person_id": null},
+      {"print_order": 2, "name_as_printed": "Stephen Clark", "office_as_printed": "TE", "normalized_person_id": null},
+      {"print_order": 3, "name_as_printed": "Ron Swafford", "office_as_printed": "TE", "normalized_person_id": null},
+      {"print_order": 4, "name_as_printed": "Beryl Hubbard", "office_as_printed": "TE", "normalized_person_id": null},
+      {"print_order": 5, "name_as_printed": "Bentley Rayburn", "office_as_printed": "RE", "normalized_person_id": null},
+      {"print_order": 6, "name_as_printed": "Peter Lillback", "office_as_printed": "TE", "normalized_person_id": null},
+      {"print_order": 7, "name_as_printed": "Tim Bayly", "office_as_printed": "TE", "normalized_person_id": null},
+      {"print_order": 8, "name_as_printed": "Charlie Morrison", "office_as_printed": "TE", "normalized_person_id": null},
+      {"print_order": 9, "name_as_printed": "Keith Stoeber", "office_as_printed": "RE", "normalized_person_id": null},
+      {"print_order": 10, "name_as_printed": "Don Weyburn", "office_as_printed": "RE", "normalized_person_id": null}
+    ],
+    "ideological_weight": 0
+  },
+  "formal_positions": [
+    {
+      "event_id": "2001-wim-majority-mans-duty-to-protect-woman",
+      "year": 2001,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "report_label": "Majority Report: Man's Duty to Protect Woman",
+      "source_url": "https://www.pcahistory.org/pca/studies/1-278.html",
+      "source_locator": "Minutes of 29th GA, 29-57, pp. 278-308; signature block",
+      "position_summary": "The signers endorsed the consensus report but argued that man's duty to protect woman is a binding scriptural duty and that this supplies a clear and compelling rationale for principled opposition to women serving in military combat positions.",
+      "important_boundary": "This is a signed position on the duty-versus-wise-counsel dispute. Do not generalize it into positions on ecclesiastical office or every question involving women outside the military context.",
+      "signer_count": 5,
+      "signers": [
+        {"print_order": 1, "name_as_printed": "Timothy B. Bayly", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 2, "name_as_printed": "Bentley B. Rayburn", "office_as_printed": "RE", "normalized_person_id": null},
+        {"print_order": 3, "name_as_printed": "Donald B. Weyburn", "office_as_printed": "RE", "normalized_person_id": null},
+        {"print_order": 4, "name_as_printed": "Stephen W. Leonard", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 5, "name_as_printed": "Keith Stoeber", "office_as_printed": "RE", "normalized_person_id": null}
+      ],
+      "ideological_weight": 0
+    },
+    {
+      "event_id": "2001-wim-minority-wise-counsel",
+      "year": 2001,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "report_label": "Minority Report: Recommendations for the Wise Counsel of the Church",
+      "source_url": "https://www.pcahistory.org/pca/studies/01-308.html",
+      "source_locator": "Minutes of 29th GA, 29-57, pp. 308-320; lines labeled Signed",
+      "position_summary": "The signers affirmed the consensus section and counseled against women in combat, but argued that the biblical case did not justify binding all members' consciences by elevating that counsel to universal command or duty.",
+      "important_boundary": "The minority paper did not advocate women in combat as wise or preferable; its dispute with the majority concerned whether the church could bind consciences by declaring the position a scriptural duty.",
+      "signer_count": 4,
+      "signers": [
+        {"print_order": 1, "name_as_printed": "Stephen Clark", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 2, "name_as_printed": "Charles Morrison", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 3, "name_as_printed": "Beryl Hubbard", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 4, "name_as_printed": "Ronald Swafford", "office_as_printed": "TE", "normalized_person_id": null}
+      ],
+      "ideological_weight": 0
+    },
+    {
+      "event_id": "2002-wim-majority-final-recommendations",
+      "year": 2002,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "report_label": "Final Recommendations of AISCOWIM to 30th Assembly, majority position",
+      "source_url": "https://www.pcahistory.org/pca/studies/aiscwim.html",
+      "source_locator": "30-54 and 30-57; Final Recommendations and names following Recommendation 4",
+      "position_summary": "The majority recommendations declared policies placing potentially pregnant women in military combat to violate God's moral law, declared it the biblical duty of man to defend woman, condemned women as military combatants and conscription of women, framed the action as pastoral counsel, and supported conscientious objection to such conscription or combat use.",
+      "assembly_disposition": "The minority substitute was defeated and Recommendations 1-4 of the majority position were adopted by the 30th General Assembly.",
+      "signer_count": 6,
+      "signers": [
+        {"print_order": 1, "name_as_printed": "Steve Leonard", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 2, "name_as_printed": "Bentley Rayburn", "office_as_printed": "RE", "normalized_person_id": null},
+        {"print_order": 3, "name_as_printed": "Tim Bayly", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 4, "name_as_printed": "Keith Stoeber", "office_as_printed": "RE", "normalized_person_id": null},
+        {"print_order": 5, "name_as_printed": "Peter Lillback", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 6, "name_as_printed": "Don Weyburn", "office_as_printed": "RE", "normalized_person_id": null}
+      ],
+      "ideological_weight": 0
+    },
+    {
+      "event_id": "2002-wim-minority-pastoral-counsel",
+      "year": 2002,
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "report_label": "Minority Report to the 30th General Assembly",
+      "source_url": "https://www.pcahistory.org/pca/studies/aiscwim.html",
+      "source_locator": "30-57; Minority Report to the 30th General Assembly",
+      "position_summary": "The minority acknowledged plausible scriptural and constitutional grounds for members to conclude women may not serve in various military circumstances or be conscripted, but said those grounds were insufficient to require the same conviction of all members; it proposed pastoral counsel and protection for conscientious objection.",
+      "assembly_disposition": "Presented by TE Stephen Clark as a substitute for Recommendations 1-4; the substitute was defeated.",
+      "signer_count": 4,
+      "signers": [
+        {"print_order": 1, "name_as_printed": "Steven Clark", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 2, "name_as_printed": "Beryl Hubbard", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 3, "name_as_printed": "Charles Morrison", "office_as_printed": "TE", "normalized_person_id": null},
+        {"print_order": 4, "name_as_printed": "Ronald Swafford", "office_as_printed": "TE", "normalized_person_id": null}
+      ],
+      "ideological_weight": 0
+    }
+  ],
+  "named_report_roles": [
+    {
+      "year": 2001,
+      "name_as_printed": "Peter Lillback",
+      "office_as_printed": "TE",
+      "role": "committee chairman presenting report and moving committee process",
+      "source_url": "https://www.pcahistory.org/pca/studies/aiscwim.html",
+      "important_boundary": "Peter Lillback is on the unanimous committee roster but is not in either published 2001 signature block. Do not assign him the 2001 majority or minority position from committee chairmanship alone.",
+      "normalized_person_id": null
+    },
+    {
+      "year": 2002,
+      "name_as_printed": "Stephen Leonard",
+      "office_as_printed": "TE",
+      "role": "committee chairman; presented majority position",
+      "source_url": "https://www.pcahistory.org/pca/studies/aiscwim.html",
+      "normalized_person_id": null
+    },
+    {
+      "year": 2002,
+      "name_as_printed": "Stephen Clark",
+      "office_as_printed": "TE",
+      "role": "presented minority report as substitute",
+      "source_url": "https://www.pcahistory.org/pca/studies/aiscwim.html",
+      "normalized_person_id": null
+    }
+  ],
+  "assembly_actions": [
+    {
+      "year": 2001,
+      "summary": "The 29th General Assembly adopted consensus Recommendations 1-4 and 8-11, referred the reports to presbyteries for study, and recommitted disputed Recommendations 5-7, Item 3, and dismissal of the committee for further deliberation and a 2002 report.",
+      "person_level_evidence": false,
+      "source_url": "https://www.pcahistory.org/pca/studies/aiscwim.html"
+    },
+    {
+      "year": 2002,
+      "summary": "The 30th General Assembly defeated the minority substitute, adopted majority Recommendations 1-4, and dismissed the committee with thanks.",
+      "recorded_negative_vote_count": 77,
+      "recorded_negative_vote_roster_status": "official_count_confirmed_names_not_recovered_from_current_accessible_html",
+      "person_level_evidence_for_77": false,
+      "source_url": "https://www.pcahistory.org/pca/studies/aiscwim.html"
+    }
+  ],
+  "identity_guardrails": [
+    "Stephen Leonard / Stephen W. Leonard / Steve Leonard are preserved as printed forms until the identity builder resolves them using independent evidence; this report family alone cannot self-corroborate.",
+    "Stephen Clark / Steven Clark are preserved as printed forms until independently resolved.",
+    "Ron Swafford / Ronald Swafford, Tim Bayly / Timothy B. Bayly, Bentley Rayburn / Bentley B. Rayburn, Don Weyburn / Donald B. Weyburn, and Charlie Morrison / Charles Morrison remain source forms rather than automatic same-family identity merges."
+  ]
+}
