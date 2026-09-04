@@ -1,9 +1,9 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 3867,
-    "canonical_person_count": 270,
-    "new_person_count": 253,
+    "record_count": 4101,
+    "canonical_person_count": 274,
+    "new_person_count": 257,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -13,12 +13,12 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 398,
+    "ambiguous": 444,
     "collision": 16,
-    "context_confirmed": 773,
+    "context_confirmed": 780,
     "exact_confirmed": 127,
-    "probable_requires_review": 324,
-    "unmatched": 2229
+    "probable_requires_review": 358,
+    "unmatched": 2376
   },
   "datasets": [
     {
@@ -30,10 +30,10 @@
       "match_status_counts": {
         "exact_confirmed": 13,
         "context_confirmed": 138,
-        "probable_requires_review": 25,
-        "ambiguous": 68,
+        "probable_requires_review": 26,
+        "ambiguous": 70,
         "collision": 1,
-        "unmatched": 326
+        "unmatched": 323
       },
       "percent_rows_resolved": 26.44,
       "source_tier": [
@@ -52,10 +52,10 @@
       "match_status_counts": {
         "exact_confirmed": 13,
         "context_confirmed": 175,
-        "probable_requires_review": 26,
-        "ambiguous": 76,
+        "probable_requires_review": 27,
+        "ambiguous": 80,
         "collision": 1,
-        "unmatched": 446
+        "unmatched": 441
       },
       "percent_rows_resolved": 25.51,
       "source_tier": [
@@ -96,10 +96,10 @@
       "match_status_counts": {
         "exact_confirmed": 34,
         "context_confirmed": 0,
-        "probable_requires_review": 47,
+        "probable_requires_review": 48,
         "ambiguous": 43,
         "collision": 1,
-        "unmatched": 11
+        "unmatched": 10
       },
       "percent_rows_resolved": 25.0,
       "source_tier": [
@@ -118,10 +118,10 @@
       "match_status_counts": {
         "exact_confirmed": 12,
         "context_confirmed": 0,
-        "probable_requires_review": 31,
+        "probable_requires_review": 32,
         "ambiguous": 25,
         "collision": 0,
-        "unmatched": 15
+        "unmatched": 14
       },
       "percent_rows_resolved": 14.46,
       "source_tier": [
@@ -129,6 +129,94 @@
       ],
       "completeness_status": [
         "complete_public_channel_participants_where_stated"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2001-wim-majority-mans-duty-to-protect-woman",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 3,
+        "collision": 0,
+        "unmatched": 2
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2001-wim-minority-wise-counsel",
+      "row_count": 4,
+      "unique_printed_name_count": 4,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 1,
+        "ambiguous": 1,
+        "collision": 0,
+        "unmatched": 2
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2002-wim-majority-final-recommendations",
+      "row_count": 6,
+      "unique_printed_name_count": 6,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 1,
+        "ambiguous": 3,
+        "collision": 0,
+        "unmatched": 2
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2002-wim-minority-pastoral-counsel",
+      "row_count": 4,
+      "unique_printed_name_count": 4,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 1,
+        "collision": 0,
+        "unmatched": 3
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_report_signers"
       ]
     },
     {
@@ -162,10 +250,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 0,
-        "ambiguous": 0,
+        "probable_requires_review": 1,
+        "ambiguous": 1,
         "collision": 0,
-        "unmatched": 8
+        "unmatched": 6
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
@@ -184,10 +272,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 10,
-        "probable_requires_review": 5,
+        "probable_requires_review": 6,
         "ambiguous": 2,
         "collision": 1,
-        "unmatched": 16
+        "unmatched": 15
       },
       "percent_rows_resolved": 29.41,
       "source_tier": [
@@ -316,10 +404,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 10,
-        "ambiguous": 7,
+        "probable_requires_review": 11,
+        "ambiguous": 8,
         "collision": 0,
-        "unmatched": 34
+        "unmatched": 32
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
@@ -360,10 +448,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 1,
-        "ambiguous": 1,
+        "probable_requires_review": 2,
+        "ambiguous": 3,
         "collision": 0,
-        "unmatched": 27
+        "unmatched": 24
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
@@ -470,10 +558,10 @@
       "match_status_counts": {
         "exact_confirmed": 1,
         "context_confirmed": 0,
-        "probable_requires_review": 0,
-        "ambiguous": 3,
+        "probable_requires_review": 1,
+        "ambiguous": 4,
         "collision": 0,
-        "unmatched": 42
+        "unmatched": 40
       },
       "percent_rows_resolved": 2.17,
       "source_tier": [
@@ -558,10 +646,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 0,
-        "probable_requires_review": 1,
-        "ambiguous": 0,
+        "probable_requires_review": 3,
+        "ambiguous": 1,
         "collision": 0,
-        "unmatched": 31
+        "unmatched": 28
       },
       "percent_rows_resolved": 0.0,
       "source_tier": [
@@ -619,17 +707,17 @@
       "source_dataset": "overture_15_minority_2022",
       "row_count": 46,
       "unique_printed_name_count": 46,
-      "confirmed_canonical_person_count": 2,
-      "confirmed_row_count": 2,
+      "confirmed_canonical_person_count": 5,
+      "confirmed_row_count": 5,
       "match_status_counts": {
         "exact_confirmed": 0,
-        "context_confirmed": 2,
-        "probable_requires_review": 1,
+        "context_confirmed": 5,
+        "probable_requires_review": 2,
         "ambiguous": 1,
         "collision": 0,
-        "unmatched": 42
+        "unmatched": 38
       },
-      "percent_rows_resolved": 4.35,
+      "percent_rows_resolved": 10.87,
       "source_tier": [
         "official_primary"
       ],
@@ -641,17 +729,17 @@
       "source_dataset": "overture_15_negative_votes_2022",
       "row_count": 200,
       "unique_printed_name_count": 200,
-      "confirmed_canonical_person_count": 113,
-      "confirmed_row_count": 113,
+      "confirmed_canonical_person_count": 114,
+      "confirmed_row_count": 114,
       "match_status_counts": {
         "exact_confirmed": 7,
-        "context_confirmed": 106,
+        "context_confirmed": 107,
         "probable_requires_review": 15,
         "ambiguous": 21,
         "collision": 2,
-        "unmatched": 49
+        "unmatched": 48
       },
-      "percent_rows_resolved": 56.5,
+      "percent_rows_resolved": 57.0,
       "source_tier": [
         "official_primary"
       ],
@@ -663,17 +751,17 @@
       "source_dataset": "overture_37_minority_2021",
       "row_count": 28,
       "unique_printed_name_count": 28,
-      "confirmed_canonical_person_count": 15,
-      "confirmed_row_count": 15,
+      "confirmed_canonical_person_count": 14,
+      "confirmed_row_count": 14,
       "match_status_counts": {
         "exact_confirmed": 3,
-        "context_confirmed": 12,
+        "context_confirmed": 11,
         "probable_requires_review": 4,
-        "ambiguous": 5,
+        "ambiguous": 6,
         "collision": 2,
         "unmatched": 2
       },
-      "percent_rows_resolved": 53.57,
+      "percent_rows_resolved": 50.0,
       "source_tier": [
         "official_primary"
       ],
@@ -685,22 +773,66 @@
       "source_dataset": "overture_37_negative_votes_2021",
       "row_count": 207,
       "unique_printed_name_count": 207,
-      "confirmed_canonical_person_count": 114,
-      "confirmed_row_count": 114,
+      "confirmed_canonical_person_count": 113,
+      "confirmed_row_count": 113,
       "match_status_counts": {
         "exact_confirmed": 8,
-        "context_confirmed": 106,
-        "probable_requires_review": 8,
-        "ambiguous": 29,
+        "context_confirmed": 105,
+        "probable_requires_review": 9,
+        "ambiguous": 30,
         "collision": 2,
-        "unmatched": 54
+        "unmatched": 53
       },
-      "percent_rows_resolved": 55.07,
+      "percent_rows_resolved": 54.59,
       "source_tier": [
         "official_primary"
       ],
       "completeness_status": [
         "complete"
+      ]
+    },
+    {
+      "source_dataset": "pipa_women_study_committee_protest_2016",
+      "row_count": 28,
+      "unique_printed_name_count": 28,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 2,
+        "ambiguous": 4,
+        "collision": 0,
+        "unmatched": 22
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_28_added_signers"
+      ]
+    },
+    {
+      "source_dataset": "pipa_women_study_committee_protest_author_2016",
+      "row_count": 1,
+      "unique_printed_name_count": 1,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 0,
+        "ambiguous": 1,
+        "collision": 0,
+        "unmatched": 0
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_author_presenter"
       ]
     },
     {
@@ -778,10 +910,10 @@
       "match_status_counts": {
         "exact_confirmed": 0,
         "context_confirmed": 8,
-        "probable_requires_review": 23,
+        "probable_requires_review": 25,
         "ambiguous": 13,
         "collision": 1,
-        "unmatched": 369
+        "unmatched": 367
       },
       "percent_rows_resolved": 1.93,
       "source_tier": [
@@ -817,22 +949,88 @@
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 97,
-      "confirmed_row_count": 97,
+      "confirmed_canonical_person_count": 96,
+      "confirmed_row_count": 96,
       "match_status_counts": {
         "exact_confirmed": 6,
-        "context_confirmed": 91,
+        "context_confirmed": 90,
         "probable_requires_review": 13,
-        "ambiguous": 26,
+        "ambiguous": 27,
         "collision": 2,
         "unmatched": 65
       },
-      "percent_rows_resolved": 47.78,
+      "percent_rows_resolved": 47.29,
       "source_tier": [
         "official_primary"
       ],
       "completeness_status": [
         "complete"
+      ]
+    },
+    {
+      "source_dataset": "women_military_committee_2001",
+      "row_count": 10,
+      "unique_printed_name_count": 10,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 2,
+        "ambiguous": 4,
+        "collision": 0,
+        "unmatched": 4
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_10_member_roster"
+      ]
+    },
+    {
+      "source_dataset": "women_military_named_report_roles_2001_2002",
+      "row_count": 3,
+      "unique_printed_name_count": 3,
+      "confirmed_canonical_person_count": 0,
+      "confirmed_row_count": 0,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 0,
+        "probable_requires_review": 2,
+        "ambiguous": 1,
+        "collision": 0,
+        "unmatched": 0
+      },
+      "percent_rows_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_roles_in_normalized_report_family"
+      ]
+    },
+    {
+      "source_dataset": "women_study_committee_procedural_registration_2016",
+      "row_count": 173,
+      "unique_printed_name_count": 173,
+      "confirmed_canonical_person_count": 6,
+      "confirmed_row_count": 6,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 6,
+        "probable_requires_review": 11,
+        "ambiguous": 13,
+        "collision": 0,
+        "unmatched": 143
+      },
+      "percent_rows_resolved": 3.47,
+      "source_tier": [
+        "official_primary"
+      ],
+      "completeness_status": [
+        "complete_named_173_commissioner_registration"
       ]
     }
   ]

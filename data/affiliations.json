@@ -9,7 +9,10 @@
     "evidence_kind": "network_participation",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-pcapolity-secret-caucuses", "src-np-index"],
+    "source_ids": [
+      "src-pcapolity-secret-caucuses",
+      "src-np-index"
+    ],
     "notes": "Secondary synthesis explicitly distinguishes Khandjian's Fellowship from the NP while describing his participation and recruitment. Specific archival message pin is still to be added."
   },
   {
@@ -22,7 +25,9 @@
     "evidence_kind": "network_leadership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-pcapolity-secret-caucuses"],
+    "source_ids": [
+      "src-pcapolity-secret-caucuses"
+    ],
     "notes": "Documented as a distinct fellowship from the National Partnership."
   },
   {
@@ -35,7 +40,9 @@
     "evidence_kind": "network_leadership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-amr-founding"]
+    "source_ids": [
+      "src-amr-founding"
+    ]
   },
   {
     "id": "aff-khandjian-garris1",
@@ -47,7 +54,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-garris-letter-1"]
+    "source_ids": [
+      "src-garris-letter-1"
+    ]
   },
   {
     "id": "aff-ince-np",
@@ -59,7 +68,9 @@
     "evidence_kind": "network_membership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-np-index"],
+    "source_ids": [
+      "src-np-index"
+    ],
     "notes": "The 2017 archive explicitly describes Ince as an NP member; v0.1 still needs the exact message/page represented as a dedicated source record."
   },
   {
@@ -72,7 +83,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-garris-letter-1"]
+    "source_ids": [
+      "src-garris-letter-1"
+    ]
   },
   {
     "id": "aff-ince-prayer-initial",
@@ -84,7 +97,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-prayer-lament"]
+    "source_ids": [
+      "src-prayer-lament"
+    ]
   },
   {
     "id": "aff-ince-prayer-organizer",
@@ -96,7 +111,9 @@
     "evidence_kind": "coalition_organizing",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-grace-mosaic-prayer-2026"]
+    "source_ids": [
+      "src-grace-mosaic-prayer-2026"
+    ]
   },
   {
     "id": "aff-richter-np",
@@ -108,7 +125,9 @@
     "evidence_kind": "network_membership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-np-index"],
+    "source_ids": [
+      "src-np-index"
+    ],
     "notes": "Specific 2015 archival page/message pin remains to be normalized."
   },
   {
@@ -121,7 +140,9 @@
     "evidence_kind": "network_leadership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-amr-founding"]
+    "source_ids": [
+      "src-amr-founding"
+    ]
   },
   {
     "id": "aff-richter-amr-current",
@@ -133,7 +154,10 @@
     "evidence_kind": "network_leadership_continuity",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-amr-team-2026", "src-amr-center-2026"]
+    "source_ids": [
+      "src-amr-team-2026",
+      "src-amr-center-2026"
+    ]
   },
   {
     "id": "aff-richter-garris1",
@@ -145,7 +169,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-garris-letter-1"]
+    "source_ids": [
+      "src-garris-letter-1"
+    ]
   },
   {
     "id": "aff-cassidy-amr-founding",
@@ -157,7 +183,9 @@
     "evidence_kind": "network_leadership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-amr-founding"]
+    "source_ids": [
+      "src-amr-founding"
+    ]
   },
   {
     "id": "aff-cassidy-amr-current",
@@ -169,7 +197,9 @@
     "evidence_kind": "network_leadership_continuity",
     "weight": 2,
     "score_included": true,
-    "source_ids": ["src-amr-team-2026"]
+    "source_ids": [
+      "src-amr-team-2026"
+    ]
   },
   {
     "id": "aff-cassidy-garris1",
@@ -181,7 +211,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-garris-letter-1"]
+    "source_ids": [
+      "src-garris-letter-1"
+    ]
   },
   {
     "id": "aff-whitfield-amr-founding",
@@ -193,7 +225,9 @@
     "evidence_kind": "network_leadership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-amr-founding"]
+    "source_ids": [
+      "src-amr-founding"
+    ]
   },
   {
     "id": "aff-whitfield-amr-current",
@@ -205,7 +239,9 @@
     "evidence_kind": "network_leadership_continuity",
     "weight": 2,
     "score_included": true,
-    "source_ids": ["src-amr-team-2026"]
+    "source_ids": [
+      "src-amr-team-2026"
+    ]
   },
   {
     "id": "aff-whitfield-prayer-initial",
@@ -217,7 +253,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-prayer-lament"]
+    "source_ids": [
+      "src-prayer-lament"
+    ]
   },
   {
     "id": "aff-whitfield-prayer-organizer",
@@ -229,7 +267,9 @@
     "evidence_kind": "coalition_organizing",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-grace-mosaic-prayer-2026"]
+    "source_ids": [
+      "src-grace-mosaic-prayer-2026"
+    ]
   },
   {
     "id": "aff-jun-amr-founding",
@@ -241,7 +281,9 @@
     "evidence_kind": "network_leadership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-amr-founding"]
+    "source_ids": [
+      "src-amr-founding"
+    ]
   },
   {
     "id": "aff-jun-khora",
@@ -253,7 +295,9 @@
     "evidence_kind": "current_external_role",
     "weight": 0,
     "score_included": false,
-    "source_ids": ["src-khora-jun-2026"]
+    "source_ids": [
+      "src-khora-jun-2026"
+    ]
   },
   {
     "id": "aff-kessler-np",
@@ -265,7 +309,10 @@
     "evidence_kind": "network_founder",
     "weight": 5,
     "score_included": true,
-    "source_ids": ["src-pcapolity-secret-caucuses", "src-np-index"]
+    "source_ids": [
+      "src-pcapolity-secret-caucuses",
+      "src-np-index"
+    ]
   },
   {
     "id": "aff-thompson-grace-mosaic",
@@ -277,7 +324,9 @@
     "evidence_kind": "current_external_role",
     "weight": 0,
     "score_included": false,
-    "source_ids": ["src-greg-thompson-uva"]
+    "source_ids": [
+      "src-greg-thompson-uva"
+    ]
   },
   {
     "id": "aff-thompson-voices",
@@ -289,7 +338,9 @@
     "evidence_kind": "current_external_role",
     "weight": 0,
     "score_included": false,
-    "source_ids": ["src-greg-thompson-uva"]
+    "source_ids": [
+      "src-greg-thompson-uva"
+    ]
   },
   {
     "id": "aff-thompson-kwon",
@@ -301,7 +352,9 @@
     "evidence_kind": "collaboration",
     "weight": 1,
     "score_included": true,
-    "source_ids": ["src-greg-thompson-uva"]
+    "source_ids": [
+      "src-greg-thompson-uva"
+    ]
   },
   {
     "id": "aff-kwon-prayer-initial",
@@ -313,7 +366,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-prayer-lament"]
+    "source_ids": [
+      "src-prayer-lament"
+    ]
   },
   {
     "id": "aff-kwon-prayer-organizer",
@@ -325,7 +380,9 @@
     "evidence_kind": "coalition_organizing",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-grace-mosaic-prayer-2026"]
+    "source_ids": [
+      "src-grace-mosaic-prayer-2026"
+    ]
   },
   {
     "id": "aff-adour-prayer-initial",
@@ -337,7 +394,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-prayer-lament"]
+    "source_ids": [
+      "src-prayer-lament"
+    ]
   },
   {
     "id": "aff-adour-garris2",
@@ -349,7 +408,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-garris-letter-2"]
+    "source_ids": [
+      "src-garris-letter-2"
+    ]
   },
   {
     "id": "aff-adour-pma",
@@ -361,7 +422,9 @@
     "evidence_kind": "current_external_role",
     "weight": 0,
     "score_included": false,
-    "source_ids": ["src-pma-adour-2026"]
+    "source_ids": [
+      "src-pma-adour-2026"
+    ]
   },
   {
     "id": "aff-carey-garris1",
@@ -373,19 +436,23 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-garris-letter-1"]
+    "source_ids": [
+      "src-garris-letter-1"
+    ]
   },
   {
     "id": "aff-carey-blue-ridge",
     "person_id": "josiah-carey",
-    "target_type": "organization",
-    "target_id": "blue-ridge-presbytery",
+    "target_type": "presbytery",
+    "target_id": "blue-ridge",
     "role": "Teaching Elder affiliation stated in 2024 letter",
     "confidence": "confirmed_for_2024",
     "evidence_kind": "geographic_affiliation",
     "weight": 0,
     "score_included": false,
-    "source_ids": ["src-garris-letter-1"]
+    "source_ids": [
+      "src-garris-letter-1"
+    ]
   },
   {
     "id": "aff-adamson-garris1",
@@ -397,7 +464,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-garris-letter-1"]
+    "source_ids": [
+      "src-garris-letter-1"
+    ]
   },
   {
     "id": "aff-owen-lee-prayer",
@@ -409,7 +478,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-prayer-lament"]
+    "source_ids": [
+      "src-prayer-lament"
+    ]
   },
   {
     "id": "aff-mcknight-prayer",
@@ -421,7 +492,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-prayer-lament"]
+    "source_ids": [
+      "src-prayer-lament"
+    ]
   },
   {
     "id": "aff-stclair-amr-founding",
@@ -433,7 +506,9 @@
     "evidence_kind": "network_leadership",
     "weight": 4,
     "score_included": true,
-    "source_ids": ["src-amr-founding"]
+    "source_ids": [
+      "src-amr-founding"
+    ]
   },
   {
     "id": "aff-stclair-amr-current",
@@ -445,7 +520,9 @@
     "evidence_kind": "network_leadership_continuity",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-amr-team-2026"]
+    "source_ids": [
+      "src-amr-team-2026"
+    ]
   },
   {
     "id": "aff-lucas-amr-current",
@@ -457,7 +534,9 @@
     "evidence_kind": "network_leadership",
     "weight": 2,
     "score_included": true,
-    "source_ids": ["src-amr-team-2026"]
+    "source_ids": [
+      "src-amr-team-2026"
+    ]
   },
   {
     "id": "aff-ziegler-amr-current",
@@ -469,7 +548,9 @@
     "evidence_kind": "network_leadership",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-amr-team-2026"]
+    "source_ids": [
+      "src-amr-team-2026"
+    ]
   },
   {
     "id": "aff-ziegler-garris1",
@@ -481,7 +562,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-garris-letter-1"]
+    "source_ids": [
+      "src-garris-letter-1"
+    ]
   },
   {
     "id": "aff-augenstein-lake-nona",
@@ -493,7 +576,9 @@
     "evidence_kind": "current_church_role",
     "weight": 0,
     "score_included": false,
-    "source_ids": ["src-lake-nona-leadership-2026"]
+    "source_ids": [
+      "src-lake-nona-leadership-2026"
+    ]
   },
   {
     "id": "aff-augenstein-faithful-pca",
@@ -505,7 +590,9 @@
     "evidence_kind": "public_coalition_action",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-a-faithful-pca-signers-wayback"],
+    "source_ids": [
+      "src-a-faithful-pca-signers-wayback"
+    ],
     "notes": "Appears as signature 477 in the 2022-03-14 archived 737-name snapshot."
   },
   {
@@ -518,7 +605,9 @@
     "evidence_kind": "general_assembly_recorded_vote",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-ga49-2022"],
+    "source_ids": [
+      "src-ga49-2022"
+    ],
     "notes": "Official minutes, printed page 80, negative-vote roster print order 6."
   },
   {
@@ -531,6 +620,8 @@
     "evidence_kind": "general_assembly_protest_signature",
     "weight": 3,
     "score_included": true,
-    "source_ids": ["src-ga49-vol1-nae"]
+    "source_ids": [
+      "src-ga49-vol1-nae"
+    ]
   }
 ]

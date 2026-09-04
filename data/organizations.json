@@ -39,7 +39,7 @@
   },
   {
     "id": "a-faithful-pca",
-    "name": "A Faithful PCA / Looking Forward – Together",
+    "name": "A Faithful PCA / Looking Forward \u2013 Together",
     "short_name": "A Faithful PCA",
     "type": "public_coalition",
     "status": "historical",
@@ -138,12 +138,6 @@
   {
     "id": "metro-ny-presbytery",
     "name": "Metro New York Presbytery",
-    "type": "presbytery",
-    "status": "active"
-  },
-  {
-    "id": "blue-ridge-presbytery",
-    "name": "Blue Ridge Presbytery",
     "type": "presbytery",
     "status": "active"
   }

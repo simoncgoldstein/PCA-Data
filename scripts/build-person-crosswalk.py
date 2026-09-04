@@ -332,6 +332,113 @@ for event in formal_position_data.get("events", []):
         )
 
 
+# 2016 women-serving study-committee formal actions. Both the procedural
+# registration and later protest are one General Assembly source family, so
+# repeated names inside these minutes cannot self-corroborate an identity.
+relative = "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
+women2016 = register_json(relative)
+procedural2016 = women2016["procedural_point_of_order_registration"]
+for row in procedural2016.get("commissioners", []):
+    add_record(
+        dataset="women_study_committee_procedural_registration_2016",
+        family="ga_2016_formal_positions",
+        source_path=relative,
+        locator=f"procedural_registration:{row['print_order']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_named_173_commissioner_registration",
+        evidence_type="recorded_procedural_position",
+        presbyteries=[row.get("presbytery_as_printed")],
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+protest2016 = women2016["pipa_protest_against_study_committee"]
+for row in protest2016.get("added_signers", []):
+    add_record(
+        dataset="pipa_women_study_committee_protest_2016",
+        family="ga_2016_formal_positions",
+        source_path=relative,
+        locator=f"protest_added_signer:{row['print_order']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary",
+        completeness="complete_28_added_signers",
+        evidence_type="formal_protest_signature",
+        presbyteries=[row.get("presbytery_as_printed")],
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+author = protest2016["author_presenter"]
+add_record(
+    dataset="pipa_women_study_committee_protest_author_2016",
+    family="ga_2016_formal_positions",
+    source_path=relative,
+    locator="protest_author_presenter",
+    printed_name=author["name_as_printed"],
+    row=author,
+    source_tier="official_primary",
+    completeness="complete_named_author_presenter",
+    evidence_type="formal_protest_author_presenter",
+    office=author.get("office_as_printed"),
+    existing_id=author.get("normalized_person_id"),
+)
+
+
+# 2001-2002 Women in the Military study-committee evidence. All committee,
+# majority, minority, and named presentation records are one source family so
+# repeated name forms inside the same committee/report history cannot
+# self-corroborate a new identity.
+relative = "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+wim_data = register_json(relative)
+committee = wim_data["committee_roster"]
+for row in committee.get("members", []):
+    add_record(
+        dataset="women_military_committee_2001",
+        family="women_military_aic_2001_2002",
+        source_path=relative,
+        locator=f"committee_member:{row['print_order']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary_transcription",
+        completeness="complete_10_member_roster",
+        evidence_type="study_committee_consensus_service",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+for event in wim_data.get("formal_positions", []):
+    for row in event.get("signers", []):
+        add_record(
+            dataset=f"formal_position_{event['event_id']}",
+            family="women_military_aic_2001_2002",
+            source_path=relative,
+            locator=f"{event['event_id']}:signer:{row['print_order']}",
+            printed_name=row["name_as_printed"],
+            row=row,
+            source_tier="official_primary_transcription",
+            completeness="complete_named_report_signers",
+            evidence_type="formal_report_signature",
+            office=row.get("office_as_printed"),
+            existing_id=row.get("normalized_person_id"),
+        )
+for index, row in enumerate(wim_data.get("named_report_roles", []), 1):
+    add_record(
+        dataset="women_military_named_report_roles_2001_2002",
+        family="women_military_aic_2001_2002",
+        source_path=relative,
+        locator=f"named_role:{index}:{row['year']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary_transcription",
+        completeness="complete_named_roles_in_normalized_report_family",
+        evidence_type="named_report_role",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+
 # A Faithful PCA snapshots remain separate datasets but one source family.
 for date, relative, order_key in [
     ("2021-06-11", "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json", "sequence"),

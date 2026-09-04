@@ -1009,7 +1009,7 @@
       "sequence": 44,
       "name_as_printed": "Rev. Eddie Lim",
       "normalized_name_candidate": "Eddie Lim",
-      "normalized_person_id": null,
+      "normalized_person_id": "eddie-lim",
       "pdf_pages": [
         13
       ],
@@ -6152,7 +6152,7 @@
       "sequence": 270,
       "name_as_printed": "Rev. Brian Davis",
       "normalized_name_candidate": "Brian Davis",
-      "normalized_person_id": "brian-davis",
+      "normalized_person_id": null,
       "pdf_pages": [
         70
       ],

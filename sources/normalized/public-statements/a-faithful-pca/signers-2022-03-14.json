@@ -1458,7 +1458,7 @@
       "state_or_region_as_printed": "GA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Korean Southeastern Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "eddie-lim",
       "details_as_printed": [
         "Assistant Pastor",
         "Grace Community Presbyterian Church"
@@ -6332,7 +6332,7 @@
       "state_or_region_as_printed": "TX",
       "country_as_printed": "United States",
       "presbytery_as_printed": "North Texas Presbytery",
-      "normalized_person_id": "brian-davis",
+      "normalized_person_id": null,
       "details_as_printed": [
         "Pastor",
         "Trinity Presbyterian Church"
