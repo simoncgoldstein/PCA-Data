@@ -16,6 +16,11 @@
       "rule": "A recorded individual vote or signed protest directly establishes the recorded action, but not every broader theological inference someone might draw from it. Aggregate vote totals are not person-level evidence."
     },
     {
+      "evidence_class": "recorded_procedural_position",
+      "position_specificity": "high_but_issue_limited",
+      "rule": "A named procedural registration directly establishes the recorded procedural position. It does not establish the person’s view on the underlying merits unless the record also states that view."
+    },
+    {
       "evidence_class": "first_person_issue_statement",
       "position_specificity": "high",
       "rule": "Use the speaker's actual stated position and preserve limits or qualifications rather than reducing the statement to a generic label."
@@ -162,6 +167,24 @@
       "path": "sources/normalized/general-assembly/2019-2023-sexuality-formal-position-chronology.json",
       "coverage": "AIC report, O38 commendation, O37 majority/minority and GA actions, O29, O15 majority/minority and GA actions, and corrected amendment disposition",
       "important_boundary": "Aggregate vote totals remain event-level evidence and never identify unnamed individual voters."
+    },
+    {
+      "evidence_id": "2016-women-study-committee-point-of-order-registration",
+      "year": 2016,
+      "topic": "women_serving_study_committee_procedural_jurisdiction",
+      "evidence_class": "recorded_procedural_position",
+      "path": "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json",
+      "coverage": "173 commissioners named in the official minutes as agreeing with the point of order and disagreeing with the Moderator’s ruling",
+      "important_boundary": "This establishes the procedural position only, not opposition to the study committee on its merits."
+    },
+    {
+      "evidence_id": "2016-pipa-protest-women-study-committee",
+      "year": 2016,
+      "topic": "women_serving_study_committee",
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "path": "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json",
+      "coverage": "Joseph Pipa named as protest presenter plus 28 commissioners explicitly listed as adding their names",
+      "important_boundary": "Preserve Pipa’s author/presenter role separately from the 28 added signers; do not silently call the added-signature roster 29 names."
     }
   ],
   "priority_backlog": [

@@ -15,7 +15,11 @@
       "year": 1973,
       "assembly": "1st General Assembly",
       "event_type": "assembly_adopted_ministry_structure",
-      "topic_tags": ["women_in_church", "women_ministry", "denominational_structure"],
+      "topic_tags": [
+        "women_in_church",
+        "women_ministry",
+        "denominational_structure"
+      ],
       "report_status": "assembly_action",
       "assembly_action": "The founding Assembly encouraged congregations to organize Women in the Church and established an advisory women-in-the-church structure under the Christian Education Committee, including presbyterial nominations and observer participation with General Assembly committees.",
       "position_summary": "The action formally created supervised, non-ordained structures for women's ministry and denominational participation rather than an ecclesiastical office.",
@@ -31,7 +35,11 @@
       "year": 1973,
       "assembly": "1st General Assembly",
       "event_type": "assembly_adopted_ministry_structure",
-      "topic_tags": ["women_in_church", "presbytery", "women_ministry"],
+      "topic_tags": [
+        "women_in_church",
+        "presbytery",
+        "women_ministry"
+      ],
       "report_status": "assembly_appendix_and_approved_structure",
       "assembly_action": "The Assembly provided a presbyterial Women in the Church organizational structure operating under presbytery supervision.",
       "position_summary": "Women could organize for evangelistic, teaching, service, and cooperative work within a supervised non-ordained structure at local and presbyterial levels.",
@@ -47,14 +55,29 @@
       "year": 1979,
       "assembly": "7th General Assembly",
       "event_type": "ad_interim_committee_report_and_assembly_action",
-      "topic_tags": ["church_office", "elders", "deacons", "preaching", "sacraments"],
+      "topic_tags": [
+        "church_office",
+        "elders",
+        "deacons",
+        "preaching",
+        "sacraments"
+      ],
       "report_status": "report_adopted_as_amended",
       "assembly_action": "The Assembly adopted the committee report as amended. Among its adopted recommendations, it affirmed Elder and Deacon as the perpetual classes of special office, called attention to BCO procedures for electing men to ruling eldership and diaconate, reaffirmed that only properly ordained or licensed men may preach in PCA pulpits, and affirmed that only properly ordained Teaching Elders may administer the sacraments.",
       "position_summary": "This action is a foundational PCA office-and-ministry boundary for later women-in-ministry disputes: ecclesiastical office, pulpit preaching, and sacramental administration were tied to qualified male officers, while unordained personnel of both sexes were separately contemplated under church-court jurisdiction.",
       "named_roles": [
-        {"name_as_printed": "Donald A. Dunkerley", "role": "committee member and presenter / author of appended paper"},
-        {"name_as_printed": "Robert H. Kirksey", "role": "committee chairman / author of appended paper"},
-        {"name_as_printed": "George W. Knight, III", "role": "invited contributor / author of appended paper"}
+        {
+          "name_as_printed": "Donald A. Dunkerley",
+          "role": "committee member and presenter / author of appended paper"
+        },
+        {
+          "name_as_printed": "Robert H. Kirksey",
+          "role": "committee chairman / author of appended paper"
+        },
+        {
+          "name_as_printed": "George W. Knight, III",
+          "role": "invited contributor / author of appended paper"
+        }
       ],
       "person_level_evidence_status": "named_report_roles_only_not_full_committee_roster",
       "source": {
@@ -68,12 +91,21 @@
       "year": 1999,
       "assembly": "27th General Assembly",
       "event_type": "assembly_action_and_recorded_vote_block",
-      "topic_tags": ["women_teaching", "women_speaking", "mna", "public_ministry"],
+      "topic_tags": [
+        "women_teaching",
+        "women_speaking",
+        "mna",
+        "public_ministry"
+      ],
       "report_status": "assembly_action",
       "assembly_action": "In answer to a personal resolution from TE Jeff Black, the Assembly approved the MNA Committee of Commissioners recommendation finding that MNA staff had not violated the prior Assembly statement concerning women's leadership in MNA seminars. The Assembly also directed MNA to study women speaking and teaching in public and to present guidelines applying 1 Timothy 2:11-12 and other Scripture.",
       "position_summary": "The Assembly distinguished the disputed MNA seminar practice from a finding of constitutional violation while directing further denominational study of women speaking and teaching in public ministry settings.",
       "named_roles": [
-        {"name_as_printed": "Jeff Black", "office_as_printed": "TE", "role": "author of personal resolution"}
+        {
+          "name_as_printed": "Jeff Black",
+          "office_as_printed": "TE",
+          "role": "author of personal resolution"
+        }
       ],
       "recorded_vote_blocks": [
         {
@@ -93,7 +125,12 @@
       "year": 1999,
       "assembly": "27th General Assembly",
       "event_type": "overture_assembly_action_recorded_vote_and_protests",
-      "topic_tags": ["women_teaching", "women_preaching", "public_worship", "first_timothy_2"],
+      "topic_tags": [
+        "women_teaching",
+        "women_preaching",
+        "public_worship",
+        "first_timothy_2"
+      ],
       "report_status": "overture_answered_negative",
       "originating_body": "Western Carolina Presbytery",
       "assembly_action": "The Assembly answered Overture 16 in the negative. The overture sought Assembly advice that Sessions and Presbyteries not allow women to preach or teach Scripture in worship services; the stated ground for the negative answer was that alleged violations of 1 Timothy 2:12 and the Standards should first be addressed by lower courts.",
@@ -106,8 +143,16 @@
         }
       ],
       "related_formal_actions": [
-        {"type": "protest", "label": "Protest 3", "roster_status": "pending_primary_extraction"},
-        {"type": "protest", "label": "Protest 4", "roster_status": "pending_primary_extraction"}
+        {
+          "type": "protest",
+          "label": "Protest 3",
+          "roster_status": "pending_primary_extraction"
+        },
+        {
+          "type": "protest",
+          "label": "Protest 4",
+          "roster_status": "pending_primary_extraction"
+        }
       ],
       "source": {
         "url": "https://www.pcahistory.org/pca/digest/v4/part01-actions.pdf",
@@ -120,7 +165,13 @@
       "year": 2000,
       "assembly": "28th General Assembly",
       "event_type": "permanent_committee_response_and_assembly_action",
-      "topic_tags": ["women_teaching", "women_speaking", "mna", "public_worship", "seminars"],
+      "topic_tags": [
+        "women_teaching",
+        "women_speaking",
+        "mna",
+        "public_worship",
+        "seminars"
+      ],
       "report_status": "committee_response_approved_by_assembly",
       "assembly_action": "The Assembly approved MNA's response to the prior year's directive. The response limited its scope to women speaking and teaching in MNA seminars, conferences, and worship services; as to worship it affirmed the sufficiency of Scripture and the subordinate standards for ordering public worship and stated that preaching of the Word is conducted by elders. It distinguished non-worship seminar teaching as not necessarily carrying the authority contemplated by 1 Timothy 2:11-12.",
       "recorded_vote_blocks": [
@@ -146,7 +197,12 @@
       "year": 2001,
       "assembly": "29th General Assembly",
       "event_type": "overture_assembly_action",
-      "topic_tags": ["women_teaching", "women_preaching", "public_worship", "church_courts"],
+      "topic_tags": [
+        "women_teaching",
+        "women_preaching",
+        "public_worship",
+        "church_courts"
+      ],
       "report_status": "overture_answered_negative",
       "originating_body": "Grace Presbytery",
       "assembly_action": "The Assembly declined to make the requested declaration that a woman may not preach or teach in corporate worship of a church or worship conducted by a church court, board, committee, or agency.",
@@ -162,7 +218,12 @@
       "year": 2008,
       "assembly": "36th General Assembly",
       "event_type": "overture_majority_minority_action",
-      "topic_tags": ["women_deacons", "deaconesses", "diaconal_ministry", "study_committee"],
+      "topic_tags": [
+        "women_deacons",
+        "deaconesses",
+        "diaconal_ministry",
+        "study_committee"
+      ],
       "report_status": "majority_recommendation_adopted_minority_report_defeated",
       "originating_body": "Philadelphia Presbytery",
       "assembly_action": "The Assembly declined to erect a study committee on women's involvement in diaconal ministry, citing existing BCO provisions as sufficient and leaving presbyteries to work through local implications. A minority report seeking to grant the study-committee request was defeated.",
@@ -187,7 +248,12 @@
       "year": 2008,
       "assembly": "36th General Assembly",
       "event_type": "review_of_presbytery_records_minority_report",
-      "topic_tags": ["women_scripture_reading", "public_worship", "first_timothy_2", "first_corinthians_14"],
+      "topic_tags": [
+        "women_scripture_reading",
+        "public_worship",
+        "first_timothy_2",
+        "first_corinthians_14"
+      ],
       "report_status": "minority_report_submitted",
       "position_summary": "The minority report argued that public reading/exhortation from Scripture in worship exercises the authority of the Word and applied the biblical restrictions on women teaching/exercising authority in the gathered church to that act.",
       "person_level_evidence": {
@@ -205,7 +271,11 @@
       "year": 2009,
       "assembly": "37th General Assembly",
       "event_type": "overture_majority_minority_action",
-      "topic_tags": ["women_ministry", "study_committee", "church_roles"],
+      "topic_tags": [
+        "women_ministry",
+        "study_committee",
+        "church_roles"
+      ],
       "report_status": "study_request_defeated_with_minority_report",
       "originating_body": "Susquehanna Valley Presbytery",
       "assembly_action": "The Assembly declined the request for a study committee concerning roles women may fill in the PCA and related models, accountability, and possible constitutional changes.",
@@ -229,35 +299,55 @@
       "year": 2016,
       "assembly": "44th General Assembly",
       "event_type": "study_committee_formation_and_formal_protest",
-      "topic_tags": ["women_ministry", "study_committee", "deaconesses", "ordination"],
+      "topic_tags": [
+        "women_ministry",
+        "study_committee",
+        "deaconesses",
+        "ordination"
+      ],
       "report_status": "study_committee_approved",
       "assembly_action": "The Assembly approved formation of a study committee on women serving in the ministry of the church, including ordination/commissioning questions and the biblical, theological, historical, and constitutional dimensions of the issue. A substitute to answer the recommendation in the negative was defeated.",
       "recorded_vote_blocks": [
         {
           "position": "disagreement_with_moderator_ruling_that_point_of_order_was_not_well_taken",
           "count": 173,
-          "roster_status": "published_in_minutes_not_yet_normalized"
+          "roster_status": "normalized_from_official_minutes",
+          "normalized_source": "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
         }
       ],
       "related_formal_actions": [
         {
           "type": "protest_against_study_committee_formation_action",
           "named_signer_count": 28,
-          "roster_status": "published_in_minutes_not_yet_normalized"
+          "roster_status": "normalized_from_official_minutes",
+          "normalized_source": "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json",
+          "role_boundary": "Joseph Pipa is separately modeled as protest author/presenter; 28 commissioners are explicitly listed as having added their names."
         }
       ],
       "source": {
         "url": "https://www.pcahistory.org/pca/digest/v4/part01-actions.pdf",
         "locator": "2016, pp. 51, 58, 69; 44-38, III.3; 44-43"
       },
-      "ideological_weight": 0
+      "ideological_weight": 0,
+      "person_level_evidence": {
+        "procedural_registration_count": 173,
+        "protest_added_signer_count": 28,
+        "protest_author_presenter": "Joseph Pipa",
+        "normalized_source": "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
+      }
     },
     {
       "event_id": "2017-women-serving-ministry-report-and-actions",
       "year": 2017,
       "assembly": "45th General Assembly",
       "event_type": "ad_interim_committee_report_and_assembly_actions",
-      "topic_tags": ["women_ministry", "public_worship", "deaconesses", "church_worker", "committee_service"],
+      "topic_tags": [
+        "women_ministry",
+        "public_worship",
+        "deaconesses",
+        "church_worker",
+        "committee_service"
+      ],
       "report_status": "committee_report_received_with_recommendations_actually_voted_separately",
       "assembly_action": "The Assembly rejected an overture seeking to declare the prior Assembly's formation of the committee erroneous and dismiss it. It then adopted the study committee's principal recommendations, including recognition of varied non-ordained service practices, developing women's gifts, establishing ordained male diaconates where possible, considering inclusion of non-ordained men and women in worship consistent with Scripture, appointing godly women and men to assist ordained deacons, considering a commissioned church-worker category for unordained men and women, and affirming underrepresented women.",
       "interpretive_guardrail": "The report described an overwhelming complementarian consensus but also acknowledged two schools of thought within the committee on women teaching men. Committee membership therefore does not establish each member's view on every subsidiary question.",
@@ -295,11 +385,6 @@
       "year": 2000,
       "action": "16 affirmative votes on defeated amendment and 20 negative votes on MNA Recommendation 9",
       "priority": "high"
-    },
-    {
-      "year": 2016,
-      "action": "173 recorded disagreements on point-of-order ruling and 28 protest signers concerning creation of the women-serving study committee",
-      "priority": "very_high"
     }
   ]
 }

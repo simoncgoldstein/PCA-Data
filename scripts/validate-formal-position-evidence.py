@@ -18,6 +18,8 @@ report = json.loads(report_path.read_text(encoding="utf-8"))
 index = json.loads(index_path.read_text(encoding="utf-8"))
 receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
 batch1 = json.loads(batch1_path.read_text(encoding="utf-8"))
+women2016_path = root / "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
+women2016 = json.loads(women2016_path.read_text(encoding="utf-8"))
 batch2_chronology_path = root / "sources/normalized/general-assembly/2019-2023-sexuality-formal-position-chronology.json"
 aic_path = root / "sources/normalized/general-assembly/2019-2021-human-sexuality-aic.json"
 o37_votes_path = root / "sources/normalized/general-assembly/2021-overture-37-negative-votes.json"
@@ -193,6 +195,28 @@ for name, role in {"Trevor Laurence":"principal_author_and_presenter", "Derek Ra
 if formal_roles.get("metadata", {}).get("ideological_weight") != 0:
     raise SystemExit("formal roles: ideological_weight must remain 0")
 
+# 2016 women-serving study-committee formal actions.
+if women2016.get("metadata", {}).get("ideological_weight") != 0:
+    raise SystemExit("2016 women formal actions: ideological_weight must remain 0")
+proc2016 = women2016.get("procedural_point_of_order_registration", {})
+if proc2016.get("registered_commissioner_count") != 173 or len(proc2016.get("commissioners", [])) != 173:
+    raise SystemExit("2016 women procedural registration: expected 173 named commissioners")
+if proc2016.get("evidence_class") != "recorded_procedural_position":
+    raise SystemExit("2016 women procedural registration: evidence class drift")
+if "procedural registration only" not in proc2016.get("important_boundary", ""):
+    raise SystemExit("2016 women procedural registration: merits guardrail missing")
+if proc2016.get("commissioners", [])[70].get("name_as_printed") != "David T. Irving" or proc2016.get("commissioners", [])[70].get("office_as_printed") is not None:
+    raise SystemExit("2016 women procedural registration: preserve David T. Irving office omission as printed")
+protest2016 = women2016.get("pipa_protest_against_study_committee", {})
+if protest2016.get("added_signer_count") != 28 or len(protest2016.get("added_signers", [])) != 28:
+    raise SystemExit("2016 Pipa protest: expected exactly 28 commissioners explicitly listed as adding names")
+if protest2016.get("author_presenter", {}).get("name_as_printed") != "Joseph Pipa":
+    raise SystemExit("2016 Pipa protest: Joseph Pipa author/presenter record missing")
+if any(r.get("name_as_printed") == "Joseph Pipa" for r in protest2016.get("added_signers", [])):
+    raise SystemExit("2016 Pipa protest: do not collapse author/presenter into the 28-name added-signers list")
+if women2016.get("assembly_disposition", {}).get("permanent_committee_recommendation_to_form_study_committee") != {"for": 767, "against": 375, "abstain": 12}:
+    raise SystemExit("2016 women study committee: final Assembly tally drift")
+
 hierarchy = {row.get("evidence_class"): row for row in index.get("evidence_hierarchy", [])}
 for required in (
     "signed_formal_report_or_minority_report",
@@ -201,6 +225,7 @@ for required in (
     "study_committee_consensus_participation",
     "committee_membership_only",
     "conference_or_network_participation",
+    "recorded_procedural_position",
 ):
     if required not in hierarchy:
         raise SystemExit(f"formal position index: missing evidence class {required}")
@@ -210,6 +235,8 @@ for required in (
     "2008-overture-9-deaconess-study-minority-report",
     "2008-rpr-women-scripture-reading-minority-report",
     "2009-overture-10-women-roles-study-minority-report",
+    "2016-women-study-committee-point-of-order-registration",
+    "2016-pipa-protest-women-study-committee",
     "2017-women-serving-ministry-consensus-report",
     "2017-mary-beth-mcgreevy-first-person-women-ministry",
     "2019-2021-human-sexuality-aic",

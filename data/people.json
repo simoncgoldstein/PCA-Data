@@ -500,16 +500,6 @@
     "profile_status": "identity_crosswalk"
   },
   {
-    "id": "brian-davis",
-    "name": "Brian Davis",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
     "id": "brian-ferry",
     "name": "Brian Ferry",
     "ordination": "Teaching Elder",
@@ -740,6 +730,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "d-trefsgar",
+    "name": "d Trefsgar",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "dan-carrell",
     "name": "Dan Carrell",
     "ordination": "Ruling Elder",
@@ -832,6 +832,16 @@
   {
     "id": "david-driskill",
     "name": "David Driskill",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "david-gilbert",
+    "name": "David Gilbert",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -942,6 +952,16 @@
   {
     "id": "doug-serven",
     "name": "Doug Serven",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "eddie-lim",
+    "name": "Eddie Lim",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -2470,6 +2490,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "stephen-iler",
+    "name": "Stephen Iler",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "steve-dowling",
     "name": "Steve Dowling",
     "ordination": "Ruling Elder",
@@ -2662,6 +2692,16 @@
   {
     "id": "vincent-hoppe",
     "name": "Vincent Hoppe",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "vincent-wood",
+    "name": "Vincent Wood",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
