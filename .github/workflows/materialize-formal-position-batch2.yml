@@ -18,79 +18,28 @@ jobs:
           ref: research/formal-position-mining-batch2-2026-09-04
           fetch-depth: 0
 
-      - name: Extract official Overture 37 recorded negative votes
+      - name: Inspect official Overture 37 vote text layout
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          import json, re
+          import re
 
           source = Path('sources/raw/general-assembly/2021/48th_pcaga_2021.txt')
           text = source.read_text(encoding='utf-8', errors='replace')
+          lines = text.splitlines()
 
-          marker_candidates = [
-              'Overture 37 – Negative Votes',
-              'Overture 37 - Negative Votes',
-              'Overture 37 — Negative Votes',
-              'The following negative votes were recorded by commissioners on the front side tables.'
-          ]
-          starts = [(text.find(marker), marker) for marker in marker_candidates if text.find(marker) >= 0]
-          if not starts:
-              raise SystemExit('Could not locate Overture 37 negative-vote section')
-          start, marker = min(starts, key=lambda item: item[0])
-          segment = text[start:start + 60000]
+          hits = []
+          for i, line in enumerate(lines):
+              low = re.sub(r'\s+', ' ', line.lower()).strip()
+              if ('negative' in low and 'vote' in low) or ('overture 37' in low) or ('recommendation 37' in low):
+                  hits.append(i)
 
-          dash_pattern = re.compile(r'^\s*(TE|RE)\s+(.+?)\s+[—–-]\s+(.+?)\s*$')
-          rows = []
-          raw_matches = []
-          for line in segment.splitlines():
-              match = dash_pattern.match(line)
-              if not match:
-                  continue
-              office, name, presbytery = (part.strip() for part in match.groups())
-              # Avoid consuming unrelated later tables if the section window happens to run long.
-              if rows and len(rows) >= 207:
-                  break
-              raw_matches.append(line.rstrip())
-              rows.append({
-                  'office_as_printed': office,
-                  'name_as_printed': name,
-                  'presbytery_as_printed': presbytery,
-                  'print_order': len(rows) + 1,
-                  'normalized_person_id': None,
-              })
-
-          if len(rows) != 207:
-              print('Marker:', repr(marker))
-              print('Parsed count:', len(rows))
-              print('First matches:', raw_matches[:10])
-              print('Last matches:', raw_matches[-10:])
-              raise SystemExit('Expected exactly 207 Overture 37 recorded negative votes')
-
-          out = {
-              'metadata': {
-                  'event': '48th General Assembly — Overture 37 Recorded Negative Votes',
-                  'primary_source': 'https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf',
-                  'local_pdf': 'sources/raw/general-assembly/2021/48th_pcaga_2021.pdf',
-                  'local_pdf_text': str(source),
-                  'extraction_marker': marker,
-                  'expected_rows': 207,
-                  'parsed_rows': len(rows),
-                  'identity_rule': 'Printed office, name, and presbytery are preserved from the official minutes; canonical IDs are resolved only through the conservative identity layer.',
-                  'vote_semantics': 'A recorded negative vote establishes opposition to the final adopted Overture 37 recommendation at the 48th General Assembly. It does not establish the commissioner’s rationale or position on every related overture.',
-                  'ideological_weight': 0
-              },
-              'negative_votes': rows
-          }
-          target = Path('sources/normalized/general-assembly/2021-overture-37-negative-votes.json')
-          target.write_text(json.dumps(out, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
-          print(json.dumps({'rows': len(rows), 'first': rows[0], 'last': rows[-1]}, indent=2))
+          print('line_count', len(lines))
+          print('hit_count', len(hits))
+          for i in hits[-40:]:
+              print(f'--- context around line {i+1} ---')
+              for j in range(max(0, i-3), min(len(lines), i+8)):
+                  print(f'{j+1}: {lines[j]!r}')
+          if not hits:
+              raise SystemExit('No Overture 37 / negative-vote text hits found')
           PY
-
-      - name: Remove one-time workflow and commit extraction
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git rm .github/workflows/materialize-formal-position-batch2.yml
-          git add sources/normalized/general-assembly/2021-overture-37-negative-votes.json
-          git commit -m 'Extract 2021 Overture 37 recorded negative votes'
-          git push origin HEAD:research/formal-position-mining-batch2-2026-09-04
