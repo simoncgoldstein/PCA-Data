@@ -1,0 +1,113 @@
+{
+  "research_date": "2026-09-04",
+  "source_type": "user-supplied primary-media transcript receipt",
+  "copyright_boundary": "The full transcripts are not reproduced in-repository. This receipt preserves only source metadata and bounded factual event evidence extracted from the user-supplied transcripts.",
+  "sessions": [
+    {
+      "session_number": 1,
+      "theme": "Praise",
+      "video_url": "https://www.dropbox.com/scl/fi/zlw4v35tv0xenq5g7g46a/Revoice-2018_-General-Session-1.mp4?rlkey=s2mqhd769c3wxno4oxbp7d7aa&e=1&dl=0",
+      "transcript_sha256": "bcdaff28872c598583b8036e36c845050662de08ede0c7efd7eca314c65aafe2",
+      "transcript_line_count": 634,
+      "transcript_status": "reviewed_user_supplied_text",
+      "facts": [
+        {
+          "fact": "Greg Johnson gave the opening welcome as pastor of the church hosting the gathering.",
+          "confidence": "direct_transcript"
+        },
+        {
+          "fact": "Greg Johnson announced Wesley Hill as the guest preacher for the church's Sunday worship service.",
+          "confidence": "direct_transcript",
+          "modeling_note": "This is a church-service announcement, not itself a Revoice conference-session edge."
+        },
+        {
+          "fact": "Chris Gillum was introduced as conference chaplain and as one of Revoice's founding board members, then opened Revoice 18 in prayer.",
+          "confidence": "direct_transcript"
+        },
+        {
+          "fact": "The conference's three nightly themes were Praise, Lament, and Hope, in that order.",
+          "confidence": "direct_transcript"
+        },
+        {
+          "fact": "Amber Carroll gave the first-night testimony on Praise.",
+          "confidence": "direct_transcript",
+          "name_note": "The recovered 2019 first-party media title prints 'Amber Carol'; the user-supplied transcript clearly renders 'Amber Carroll'. Preserve the media title verbatim but use Carroll only as a separately resolved name."
+        },
+        {
+          "fact": "Eve Tushnet was introduced as the principal speaker for the first night and spoke on Praise.",
+          "confidence": "direct_transcript"
+        },
+        {
+          "fact": "A Spiritual Friendship preconference had taken place earlier that day.",
+          "confidence": "direct_transcript",
+          "modeling_note": "Related event, not automatically part of the main conference program."
+        },
+        {
+          "fact": "Organizers said they were recording as much conference content as possible and asked attendees not to make their own voice or video recordings of workshop content.",
+          "confidence": "direct_transcript",
+          "modeling_note": "Useful provenance for why some workshop recordings may survive while others do not."
+        },
+        {
+          "fact": "The schedule included substantial afternoon free time.",
+          "confidence": "direct_transcript"
+        }
+      ]
+    },
+    {
+      "session_number": 2,
+      "theme": "Lament",
+      "video_url": "https://www.dropbox.com/scl/fi/vmrct3yvbajkpwn0c6waw/Revoice-2018_-General-Session-2.mp4?rlkey=h0ci9w2wh4hwsus375pe2b0i6&e=1&dl=0",
+      "transcript_sha256": "aa70e45f2488043820860323cd8608c5591a67fecbeec03b82fd549dfa5bd0e9",
+      "transcript_line_count": 508,
+      "transcript_status": "reviewed_user_supplied_text",
+      "facts": [
+        {
+          "fact": "The recording explicitly identifies itself as the second evening of Revoice 18.",
+          "confidence": "direct_transcript"
+        },
+        {
+          "fact": "The second-night theme was Lament.",
+          "confidence": "direct_transcript"
+        },
+        {
+          "fact": "Ray Low gave the Lament testimony before the principal message.",
+          "confidence": "combined_evidence",
+          "name_note": "The user-supplied transcript renders the surname as 'Lowe', but contemporaneous reporting, current Revoice material, and the person's current ministry biography consistently identify him as Ray Low. The recovered first-party media title prints only 'Ray'."
+        },
+        {
+          "fact": "Nate Collins gave the principal Lament message following the testimony and corporate lament sequence.",
+          "confidence": "combined_evidence",
+          "basis_note": "The transcript does not audibly introduce the post-liturgy speaker by full name in the text supplied, but the recovered first-party media title names Nate Collins and contemporaneous citations attribute the matching message language to him."
+        },
+        {
+          "fact": "Multiple workshops and workshop presenters had already been active that day before General Session 2.",
+          "confidence": "direct_transcript"
+        },
+        {
+          "fact": "A printed program or program-like packet existed; the speaker directs attendees to a care-team phone number on its last page.",
+          "confidence": "direct_transcript",
+          "research_value": "high",
+          "modeling_note": "This is direct evidence that a distributed program artifact existed even though the original web program page has not been recovered."
+        }
+      ]
+    },
+    {
+      "session_number": 3,
+      "theme": "Hope",
+      "video_url": "https://www.dropbox.com/scl/fo/govkn8y27s10l82d3be6j/AMGpko4FLQZ4q9sJdzHj3gY/Revoice%202018_%20General%20Session%203.mp4?rlkey=ylvv82p2biywjuhfekv0epkv1&e=4&dl=0",
+      "transcript_status": "not_available_in_current_chat",
+      "facts": [
+        {
+          "fact": "The recovered first-party media page identifies General Session 3 as Hope, with Wesley Hill and a testimony participant printed only as Bekah.",
+          "confidence": "first_party_post_event_media"
+        },
+        {
+          "fact": "Separate later sources identify the testimony participant as Bekah Mason, but a primary Session 3 transcript or equivalent first-party identity evidence is still preferred before normalizing that full-name resolution.",
+          "confidence": "secondary_corroboration_only"
+        }
+      ]
+    }
+  ],
+  "program_recovery_implication": "The General Session 2 transcript establishes that attendees possessed a printed program or program-like packet. Recovery efforts should therefore target photographs, scans, PDFs, attendee archives, and social-media images of the physical packet in addition to the lost revoice.us event page.",
+  "graph_rule": "This receipt does not infer anonymous attendee identities, endorsement, or workshop participation. Only expressly named event roles may be candidates for later normalized edges."
+}
