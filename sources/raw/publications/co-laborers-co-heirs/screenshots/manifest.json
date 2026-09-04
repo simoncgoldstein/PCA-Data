@@ -1,0 +1,21 @@
+{
+  "publication_id": "co-laborers-co-heirs-2019",
+  "source_attribution": "https://x.com/dokimazete",
+  "receipt_type": "user_supplied_source_audit_screenshot",
+  "access_date": "2026-09-03",
+  "screenshots": [
+    {
+      "file": "chapters-01-13.png",
+      "dimensions": "2048x1151",
+      "sha256": "41e211ba3d1abef04a949eae9d8ff44a5e3156279355b4a01d480cf58240900a",
+      "visible_scope": "chapters 1-13"
+    },
+    {
+      "file": "chapters-14-26.png",
+      "dimensions": "2048x1151",
+      "sha256": "2a86ec913b05efa168c77feb31ec82fc82d137616b7ee35c88e48cb832c9f4b6",
+      "visible_scope": "chapters 14-26"
+    }
+  ],
+  "use_limit": "The screenshots support the visible bibliographic roster and annotations. Pink highlighting is not independent evidence of National Partnership association."
+}

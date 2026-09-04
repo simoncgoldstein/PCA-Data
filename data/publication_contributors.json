@@ -2,7 +2,248 @@
   {
     "publication_id": "heal-us-emmanuel-2016",
     "contributors": [
-      "Lance Lewis", "Howard Brown", "Alexander Jun", "Mike Higgins", "Stan Long", "Timothy R. LeCroy", "Otis W. Pickett", "Sam Wheatley", "Dennis Hermerding", "Mark Peach", "Samuel N. Graham", "Jonathan Price", "Walter Henegar", "Chris Granberry", "Kevin Twit", "Doug Serven", "Bobby Griffith", "Sean Michael Lucas", "Craig Garriott", "William Castro", "Gregory A. Ward", "Barry Henning", "Irwyn Ince", "Duke L. Kwon", "Mike Khandjian", "Kenneth Foster", "Scott Sauls", "Russ Whitfield", "Jonathan Edgar", "Joel St. Clair"
+      "Lance Lewis",
+      "Howard Brown",
+      "Alexander Jun",
+      "Mike Higgins",
+      "Stan Long",
+      "Timothy R. LeCroy",
+      "Otis W. Pickett",
+      "Sam Wheatley",
+      "Dennis Hermerding",
+      "Mark Peach",
+      "Samuel N. Graham",
+      "Jonathan Price",
+      "Walter Henegar",
+      "Chris Granberry",
+      "Kevin Twit",
+      "Doug Serven",
+      "Bobby Griffith",
+      "Sean Michael Lucas",
+      "Craig Garriott",
+      "William Castro",
+      "Gregory A. Ward",
+      "Barry Henning",
+      "Irwyn Ince",
+      "Duke L. Kwon",
+      "Mike Khandjian",
+      "Kenneth Foster",
+      "Scott Sauls",
+      "Russ Whitfield",
+      "Jonathan Seda",
+      "Joel St. Clair"
+    ],
+    "chapter_contributors": [
+      {
+        "chapter": 1,
+        "essay": "A Familiar Conversation",
+        "contributors": [
+          "Lance Lewis"
+        ]
+      },
+      {
+        "chapter": 2,
+        "essay": "Amazing Grace, How Sweet the Sound",
+        "contributors": [
+          "Howard Brown"
+        ]
+      },
+      {
+        "chapter": 3,
+        "essay": "“Unintentional” Racism",
+        "contributors": [
+          "Alexander Jun"
+        ]
+      },
+      {
+        "chapter": 4,
+        "essay": "Protesting Pastors",
+        "contributors": [
+          "Mike Higgins"
+        ]
+      },
+      {
+        "chapter": 5,
+        "essay": "We’ve Come This Far by Faith",
+        "contributors": [
+          "Stan Long"
+        ]
+      },
+      {
+        "chapter": 6,
+        "essay": "A New Lens for Race, Media, and the Gospel",
+        "contributors": [
+          "Timothy R. LeCroy"
+        ]
+      },
+      {
+        "chapter": 7,
+        "essay": "Race, Reconciliation, and the American Church",
+        "contributors": [
+          "Otis W. Pickett"
+        ]
+      },
+      {
+        "chapter": 8,
+        "essay": "Overcoming Made in America Racism",
+        "contributors": [
+          "Sam Wheatley"
+        ]
+      },
+      {
+        "chapter": 9,
+        "essay": "Black Friends",
+        "contributors": [
+          "Dennis Hermerding"
+        ]
+      },
+      {
+        "chapter": 10,
+        "essay": "Privileged to Serve",
+        "contributors": [
+          "Mark Peach"
+        ]
+      },
+      {
+        "chapter": 11,
+        "essay": "On Earth as It Is in Heaven",
+        "contributors": [
+          "Samuel N. Graham"
+        ]
+      },
+      {
+        "chapter": 12,
+        "essay": "Silence Far Too Long",
+        "contributors": [
+          "Jonathan Price"
+        ]
+      },
+      {
+        "chapter": 13,
+        "essay": "All in the Family",
+        "contributors": [
+          "Walter Henegar"
+        ]
+      },
+      {
+        "chapter": 14,
+        "essay": "Loving Our First Neighbors Well",
+        "contributors": [
+          "Chris Granberry"
+        ]
+      },
+      {
+        "chapter": 15,
+        "essay": "Forming Friendships Through Music: Why Style Matters",
+        "contributors": [
+          "Kevin Twit"
+        ]
+      },
+      {
+        "chapter": 16,
+        "essay": "I Am Racist",
+        "contributors": [
+          "Doug Serven"
+        ]
+      },
+      {
+        "chapter": 17,
+        "essay": "The Theology of Race in the South",
+        "contributors": [
+          "Bobby Griffith"
+        ]
+      },
+      {
+        "chapter": 18,
+        "essay": "Telling the Truth",
+        "contributors": [
+          "Sean Michael Lucas"
+        ]
+      },
+      {
+        "chapter": 19,
+        "essay": "Toward a Compelling Theology for Unity",
+        "contributors": [
+          "Craig Garriott"
+        ]
+      },
+      {
+        "chapter": 20,
+        "essay": "Deconstructing the Racialist Framework",
+        "contributors": [
+          "William Castro"
+        ]
+      },
+      {
+        "chapter": 21,
+        "essay": "Are Segregationist Hermeneutics Alive in the Church Today?",
+        "contributors": [
+          "Gregory A. Ward"
+        ]
+      },
+      {
+        "chapter": 22,
+        "essay": "Reconciliation Is About Obedience",
+        "contributors": [
+          "Barry Henning"
+        ]
+      },
+      {
+        "chapter": 23,
+        "essay": "Reconciliation or Bust",
+        "contributors": [
+          "Irwyn Ince"
+        ]
+      },
+      {
+        "chapter": 24,
+        "essay": "Why We Must Confess Corporately",
+        "contributors": [
+          "Duke L. Kwon"
+        ]
+      },
+      {
+        "chapter": 25,
+        "essay": "A Path I Never Considered",
+        "contributors": [
+          "Mike Khandjian"
+        ]
+      },
+      {
+        "chapter": 26,
+        "essay": "Hallowed Be Your Name",
+        "contributors": [
+          "Kenneth Foster"
+        ]
+      },
+      {
+        "chapter": 27,
+        "essay": "Meet My African American Mentor",
+        "contributors": [
+          "Scott Sauls"
+        ]
+      },
+      {
+        "chapter": 28,
+        "essay": "Moving Forward",
+        "contributors": [
+          "Russ Whitfield"
+        ]
+      },
+      {
+        "chapter": 29,
+        "essay": "My Journey from Monoethnic to Multiethnic",
+        "contributors": [
+          "Jonathan Seda"
+        ]
+      },
+      {
+        "chapter": 30,
+        "essay": "Mission and Multiethnic Ministry",
+        "contributors": [
+          "Joel St. Clair"
+        ]
+      }
     ],
     "known_person_links": {
       "Alexander Jun": "alexander-jun",
@@ -12,7 +253,8 @@
       "Mike Khandjian": "mike-khandjian",
       "Russ Whitfield": "russ-whitfield",
       "Joel St. Clair": "joel-st-clair"
-    }
+    },
+    "source_note": "Chapter-level roster verified against archived source-audit screenshots attributed to https://x.com/dokimazete."
   },
   {
     "publication_id": "co-laborers-co-heirs-2019",
@@ -45,50 +287,434 @@
       "Gregory R. Perry"
     ],
     "chapter_contributors": [
-      {"chapter": 1, "essay": "Emma's Story", "contributors": ["Jessica Ribera"]},
-      {"chapter": 2, "essay": "Uncivilized Fruit", "contributors": ["Paige Britton"]},
-      {"chapter": 3, "essay": "Three Strikes and I'm Out?", "contributors": ["Ashley Williams"]},
-      {"chapter": 4, "essay": "Worship Together", "contributors": ["Katie Ribera"]},
-      {"chapter": 5, "essay": "Single Mothers in the Church", "contributors": ["Sarah Joy Hays"]},
-      {"chapter": 6, "essay": "Stories from the Front", "contributors": ["Maria Garriott"]},
-      {"chapter": 7, "essay": "A Conversation with Method", "contributors": ["Claire Berger"]},
-      {"chapter": 8, "essay": "Late to the Party", "contributors": ["Alison McNeely Buxton"]},
-      {"chapter": 9, "essay": "A Church Culture That Values Women", "contributors": ["Wendy Alsup"]},
-      {"chapter": 10, "essay": "The Necessity of Women in Ministry", "contributors": ["Sarah Viggiano Wright"]},
-      {"chapter": 11, "essay": "The African American Single Mom", "contributors": ["Suzanne R. Bates"]},
-      {"chapter": 12, "essay": "Where Are the Women?", "contributors": ["Caroline West"]},
-      {"chapter": 13, "essay": "Encouragement Points", "contributors": ["Becky Kiern"]},
-      {"chapter": 14, "essay": "I Can Tell That We Are Gonna Be Friends", "contributors": ["Brittany Smith"]},
-      {"chapter": 15, "essay": "Jesus Loves All the Women", "contributors": ["Emily Hubbard"]},
-      {"chapter": 16, "essay": "Men and Women", "contributors": ["John Haralson", "Debbie Tacke"]},
-      {"chapter": 17, "essay": "Working for God", "contributors": [], "status": "contributor_unconfirmed"},
-      {"chapter": 18, "essay": "Women of Other", "contributors": ["Natalie Webster"]},
-      {"chapter": 19, "essay": "Thriving Within Limits", "contributors": ["Rondi Lauterbach"]},
-      {"chapter": 20, "essay": "1992", "contributors": ["Renee Higgins"]},
-      {"chapter": 21, "essay": "Mothers and Sisters", "contributors": ["Sean Michael Lucas"]},
-      {"chapter": 22, "essay": "Angel of Mercy", "contributors": ["Otis Westbrook Pickett"]},
-      {"chapter": 23, "essay": "A Third Way", "contributors": ["Scott Sauls"]},
-      {"chapter": 24, "essay": "Wonder Women Wondering", "contributors": ["Doug Serven"]},
-      {"chapter": 25, "essay": "Respect Is More Than Words", "contributors": ["Mark Lauterbach"]},
-      {"chapter": 26, "essay": "Treat Women as Mothers and Sisters", "contributors": ["Gregory R. Perry"]}
+      {
+        "chapter": 1,
+        "essay": "Emma's Story",
+        "contributors": [
+          "Jessica Ribera"
+        ]
+      },
+      {
+        "chapter": 2,
+        "essay": "Uncivilized Fruit",
+        "contributors": [
+          "Paige Britton"
+        ]
+      },
+      {
+        "chapter": 3,
+        "essay": "Three Strikes and I'm Out?",
+        "contributors": [
+          "Ashley Williams"
+        ]
+      },
+      {
+        "chapter": 4,
+        "essay": "Worship Together",
+        "contributors": [
+          "Katie Ribera"
+        ]
+      },
+      {
+        "chapter": 5,
+        "essay": "Single Mothers in the Church",
+        "contributors": [
+          "Sarah Joy Hays"
+        ]
+      },
+      {
+        "chapter": 6,
+        "essay": "Stories from the Front",
+        "contributors": [
+          "Maria Garriott"
+        ]
+      },
+      {
+        "chapter": 7,
+        "essay": "A Conversation with Method",
+        "contributors": [
+          "Claire Berger"
+        ]
+      },
+      {
+        "chapter": 8,
+        "essay": "Late to the Party",
+        "contributors": [
+          "Alison McNeely Buxton"
+        ]
+      },
+      {
+        "chapter": 9,
+        "essay": "A Church Culture That Values Women",
+        "contributors": [
+          "Wendy Alsup"
+        ]
+      },
+      {
+        "chapter": 10,
+        "essay": "The Necessity of Women in Ministry",
+        "contributors": [
+          "Sarah Viggiano Wright"
+        ]
+      },
+      {
+        "chapter": 11,
+        "essay": "The African American Single Mom",
+        "contributors": [
+          "Suzanne R. Bates"
+        ]
+      },
+      {
+        "chapter": 12,
+        "essay": "Where Are the Women?",
+        "contributors": [
+          "Caroline West"
+        ]
+      },
+      {
+        "chapter": 13,
+        "essay": "Encouragement Points",
+        "contributors": [
+          "Becky Kiern"
+        ]
+      },
+      {
+        "chapter": 14,
+        "essay": "I Can Tell That We Are Gonna Be Friends",
+        "contributors": [
+          "Brittany Smith"
+        ]
+      },
+      {
+        "chapter": 15,
+        "essay": "Jesus Loves All the Women",
+        "contributors": [
+          "Emily Hubbard"
+        ]
+      },
+      {
+        "chapter": 16,
+        "essay": "Men and Women",
+        "contributors": [
+          "John Haralson",
+          "Debbie Tacke"
+        ]
+      },
+      {
+        "chapter": 17,
+        "essay": "Working for God",
+        "contributors": [],
+        "status": "contributor_unconfirmed"
+      },
+      {
+        "chapter": 18,
+        "essay": "Women of Other",
+        "contributors": [
+          "Natalie Webster"
+        ]
+      },
+      {
+        "chapter": 19,
+        "essay": "Thriving Within Limits",
+        "contributors": [
+          "Rondi Lauterbach"
+        ]
+      },
+      {
+        "chapter": 20,
+        "essay": "1992",
+        "contributors": [
+          "Renee Higgins"
+        ]
+      },
+      {
+        "chapter": 21,
+        "essay": "Mothers and Sisters",
+        "contributors": [
+          "Sean Michael Lucas"
+        ]
+      },
+      {
+        "chapter": 22,
+        "essay": "Angel of Mercy",
+        "contributors": [
+          "Otis Westbrook Pickett"
+        ]
+      },
+      {
+        "chapter": 23,
+        "essay": "A Third Way",
+        "contributors": [
+          "Scott Sauls"
+        ]
+      },
+      {
+        "chapter": 24,
+        "essay": "Wonder Women Wondering",
+        "contributors": [
+          "Doug Serven"
+        ]
+      },
+      {
+        "chapter": 25,
+        "essay": "Respect Is More Than Words",
+        "contributors": [
+          "Mark Lauterbach"
+        ]
+      },
+      {
+        "chapter": 26,
+        "essay": "Treat Women as Mothers and Sisters",
+        "contributors": [
+          "Gregory R. Perry"
+        ]
+      }
     ],
     "preface": "Alexander Jun",
     "known_person_links": {
       "Sean Michael Lucas": "sean-lucas",
       "Alexander Jun": "alexander-jun"
     },
-    "source_note": "Chapter-level roster transcribed from source-audit screenshots attributed to https://x.com/dokimazete; screenshots should be archived as raw visual receipts when binary GitHub upload is available."
+    "source_note": "Chapter-level roster verified against archived source-audit screenshots attributed to https://x.com/dokimazete."
   },
   {
     "publication_id": "hear-us-emmanuel-2020",
     "contributors": [
-      "Lindsay Brooks", "Ereke Bruce", "Becky Carlozzi", "Hace Cargo", "Mark Dalbey", "Sherrene DeLong", "Reed DePace", "William Edgar", "Ronnie Garcia", "Maria Garriott", "Ashley Hales", "Geoff Henderson", "Emily Hubbard", "Irwyn Ince", "Barbara Jones", "Alexander Jun", "Edward Koh", "Duke Kwon", "Al LaCour", "Moses Lee", "Daniel Murphree", "Mark Peach", "Mike Philliber", "Lisa Robinson Spencer", "Elissa Weichbrodt", "Ashley Williams", "Rob Wootton", "Robin Wootton", "Ryan Zhang"
+      "Lindsay Brooks",
+      "Ereke Bruce",
+      "Becky Carlozzi",
+      "Hace Cargo",
+      "Mark Dalbey",
+      "Sherrene DeLong",
+      "Reed DePace",
+      "William Edgar",
+      "Ronnie Garcia",
+      "Maria Garriott",
+      "Ashley Hales",
+      "Geoff Henderson",
+      "Emily Hubbard",
+      "Irwyn Ince",
+      "Barbara Jones",
+      "Alexander Jun",
+      "Edward Koh",
+      "Duke Kwon",
+      "Al LaCour",
+      "Moses Lee",
+      "Daniel Murphree",
+      "Mark Peach",
+      "Mike Philliber",
+      "Lisa Robinson Spencer",
+      "Elissa Weichbrodt",
+      "Ashley Williams",
+      "Rob Wootton",
+      "Robin Wootton",
+      "Ryan Zhang"
+    ],
+    "chapter_contributors": [
+      {
+        "chapter": 1,
+        "essay": "Double Jeopardy",
+        "contributors": [
+          "Barbara D. Jones"
+        ]
+      },
+      {
+        "chapter": 2,
+        "essay": "Assimilation Made Me a Bad Christian",
+        "contributors": [
+          "Ryan Zhang"
+        ]
+      },
+      {
+        "chapter": 3,
+        "essay": "White Guilt and Brown Kids",
+        "contributors": [
+          "Emily Hubbard"
+        ]
+      },
+      {
+        "chapter": 4,
+        "essay": "Analogies of Grace: On My Adoption and Interracial Marriage",
+        "contributors": [
+          "Robin Wootton"
+        ]
+      },
+      {
+        "chapter": 5,
+        "essay": "The Problem with Privilege",
+        "contributors": [
+          "Mark Peach"
+        ]
+      },
+      {
+        "chapter": 6,
+        "essay": "Sitting with My White Privilege: Where White People Start",
+        "contributors": [
+          "Ashley Hales"
+        ]
+      },
+      {
+        "chapter": 7,
+        "essay": "People Like Us",
+        "contributors": [
+          "Robert Lee Wootton, Jr."
+        ]
+      },
+      {
+        "chapter": 8,
+        "essay": "Can a Man Love God and Hate His Neighbor?",
+        "contributors": [
+          "Becky Carlozzi"
+        ]
+      },
+      {
+        "chapter": 9,
+        "essay": "A Redeemed Mississippian",
+        "contributors": [
+          "Al LaCour"
+        ]
+      },
+      {
+        "chapter": 10,
+        "essay": "The Necessity of Proximity",
+        "contributors": [
+          "Hace Cargo"
+        ]
+      },
+      {
+        "chapter": 11,
+        "essay": "Not Here by Accident",
+        "contributors": [
+          "Irwyn Ince"
+        ]
+      },
+      {
+        "chapter": 12,
+        "essay": "A Meal Together",
+        "contributors": [
+          "Ronnie Garcia"
+        ]
+      },
+      {
+        "chapter": 13,
+        "essay": "Racial Reconciliation",
+        "contributors": [
+          "William Edgar"
+        ]
+      },
+      {
+        "chapter": 14,
+        "essay": "Looking Justly: Photography, Race, and Gender",
+        "contributors": [
+          "Elissa Yukiko Weichbrodt"
+        ]
+      },
+      {
+        "chapter": 15,
+        "essay": "Dispelling the Model Minority Myth: Embracing Friendship with the African American Community",
+        "contributors": [
+          "Moses Y. Lee"
+        ]
+      },
+      {
+        "chapter": 16,
+        "essay": "Economic Reconciliation and Racialized Economic Disparity",
+        "contributors": [
+          "Ereke Bruce",
+          "Daniel Murphree"
+        ]
+      },
+      {
+        "chapter": 17,
+        "essay": "Yes, We Live Here: Raising Cross-Cultural Kids",
+        "contributors": [
+          "Maria Garriott"
+        ]
+      },
+      {
+        "chapter": 18,
+        "essay": "A Burden Removed: A Biblical Path for Removing the Burden of the Racism Sins of Our Forefathers",
+        "contributors": [
+          "Reed DePace"
+        ]
+      },
+      {
+        "chapter": 19,
+        "essay": "You Gotta Go to a Church or a Library!",
+        "contributors": [
+          "Geoff Henderson"
+        ]
+      },
+      {
+        "chapter": 20,
+        "essay": "Dear Lord, Please Open My Eyes to See, My Heart to Care, and My Life to Serve!",
+        "contributors": [
+          "Mark L. Dalbey"
+        ]
+      },
+      {
+        "chapter": 21,
+        "essay": "The Hurt Locker: Defusing the White Privilege Minefield",
+        "contributors": [
+          "Lindsay Brooks"
+        ]
+      },
+      {
+        "chapter": 22,
+        "essay": "A Hospitality of Words",
+        "contributors": [
+          "Sherrene DeLong"
+        ]
+      },
+      {
+        "chapter": 23,
+        "essay": "Sister, You’ve Been on My Mind: A Plea for More White, Female Allies",
+        "contributors": [
+          "Ashley Williams"
+        ]
+      },
+      {
+        "chapter": 24,
+        "essay": "A Manageable Mandate",
+        "contributors": [
+          "Michael W. Philliber"
+        ]
+      },
+      {
+        "chapter": 25,
+        "essay": "Gospel Neighboring",
+        "contributors": [
+          "Alexander Jun"
+        ]
+      },
+      {
+        "chapter": 26,
+        "essay": "Diversity and Cultural Normativity",
+        "contributors": [
+          "Duke L. Kwon"
+        ]
+      },
+      {
+        "chapter": 27,
+        "essay": "Creating a New Multiethnic PCA Culture",
+        "contributors": [
+          "Edward S. Koh"
+        ]
+      },
+      {
+        "chapter": 28,
+        "essay": "Can We Really Move Past Race?",
+        "contributors": [
+          "Lisa Robinson Spencer"
+        ]
+      }
     ],
     "foreword": "Randy Nabors",
     "known_person_links": {
       "Irwyn Ince": "irwyn-ince",
       "Alexander Jun": "alexander-jun",
       "Duke Kwon": "duke-kwon"
-    }
+    },
+    "source_note": "Chapter-level roster verified against archived source-audit screenshots attributed to https://x.com/dokimazete."
   }
 ]

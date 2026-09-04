@@ -1,0 +1,21 @@
+{
+  "publication_id": "hear-us-emmanuel-2020",
+  "source_attribution": "https://x.com/dokimazete",
+  "receipt_type": "user_supplied_source_audit_screenshot",
+  "access_date": "2026-09-03",
+  "screenshots": [
+    {
+      "file": "chapters-01-15.png",
+      "dimensions": "2048x1151",
+      "sha256": "edd6258142dbb5fe8fd02ad22eed79c76674aced9213ec8db4257854406d5eb9",
+      "visible_scope": "chapters 1-15"
+    },
+    {
+      "file": "chapters-16-28.png",
+      "dimensions": "2048x1151",
+      "sha256": "0c3898c327a6febdd10a803bf4bdf3c20ab10f3cbea8dae170511df2f74fe081",
+      "visible_scope": "chapters 16-28"
+    }
+  ],
+  "use_limit": "The screenshots support the visible bibliographic roster and annotations. Pink highlighting is not independent evidence of National Partnership association."
+}

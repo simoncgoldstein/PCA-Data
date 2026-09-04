@@ -13,6 +13,8 @@
 
 This record is based on user-supplied PCA Bookstore metadata plus independently corroborating public references. The contributor list below is treated as a bibliographic roster, not as evidence that every contributor held identical views.
 
+Two user-supplied source-audit screenshots are now preserved in `screenshots/`, covering chapters 1–15 and 16–28. Their hashes, dimensions, attribution, and evidentiary limit are recorded in `screenshots/manifest.json`. The images are attributed to `https://x.com/dokimazete`; their pink highlighting is not treated as independent evidence of National Partnership association.
+
 ## Contributor roster supplied with the book listing
 
 1. Lindsay Brooks
@@ -47,9 +49,9 @@ This record is based on user-supplied PCA Bookstore metadata plus independently 
 
 **Foreword:** Randy Nabors
 
-## Known chapter structure from supplied evidence
+## Screenshot-verified chapter structure
 
-The public chapter tables supplied during research show 28 numbered chapters, with chapter 16 co-authored by Ereke Bruce and Daniel Murphree. This explains why the roster contains 29 contributors despite the visible table ending at chapter 28. Any discrepancy with marketing copy saying “twenty-nine chapters” should be checked against the physical book before publication as a definitive chapter count.
+The archived chapter tables show 28 numbered chapters, with chapter 16 co-authored by Ereke Bruce and Daniel Murphree. This explains why the roster contains 29 contributors despite the visible table ending at chapter 28. Any discrepancy with marketing copy saying “twenty-nine chapters” should be checked against the physical book before publication as a definitive chapter count.
 
 ## Research use
 

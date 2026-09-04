@@ -31,7 +31,7 @@ A later source-audit image set supplied to this project gives the chapter-by-cha
 
 https://x.com/dokimazete
 
-The screenshots themselves should be preserved under this folder's `screenshots/` subdirectory when binary GitHub upload is available. Until then, the source-image receipt is preserved in the conversation archive and this transcription records what is visible in those images.
+Both screenshots are now preserved under this folder's `screenshots/` subdirectory. Their hashes, dimensions, attribution, and evidentiary limit are recorded in `screenshots/manifest.json`.
 
 ### Chapters 1–13
 

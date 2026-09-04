@@ -9,7 +9,7 @@
     "item_number": "13240",
     "page_count": 326,
     "theme": "racial_reconciliation",
-    "evidence_status": "working_roster_verified_against_supplied_chapter_table",
+    "evidence_status": "chapter_roster_verified_against_archived_source_audit_screenshots",
     "raw_evidence_path": "sources/raw/publications/heal-us-emmanuel/README.md"
   },
   {
@@ -22,7 +22,7 @@
     "item_number": "14593",
     "page_count": 324,
     "theme": "women_in_ministry",
-    "evidence_status": "verified_bookstore_metadata",
+    "evidence_status": "bookstore_metadata_and_chapter_roster_verified_against_archived_source_audit_screenshots",
     "raw_evidence_path": "sources/raw/publications/co-laborers-co-heirs/README.md"
   },
   {
@@ -35,7 +35,7 @@
     "item_number": "15047",
     "page_count": 314,
     "theme": "racial_reconciliation",
-    "evidence_status": "user_supplied_bookstore_roster_and_supplied_chapter_tables",
+    "evidence_status": "bookstore_roster_and_chapter_roster_verified_against_archived_source_audit_screenshots",
     "raw_evidence_path": "sources/raw/publications/hear-us-emmanuel/README.md"
   }
 ]

@@ -10,9 +10,15 @@
 
 PCA Bookstore metadata describes the work as a collection by thirty church leaders. A June 10, 2016 review by PCA minister Jared Nelson likewise describes it as 30 essays by PCA elders and places the book directly in the context of the 2015–2016 General Assembly racial-reconciliation discussion.
 
-## Working contributor roster
+## Archived chapter-table receipts
 
-The following roster was transcribed from research tables supplied during this project and is retained as a **working roster pending chapter-by-chapter verification against the book/table of contents**:
+Two user-supplied source-audit screenshots are preserved in `screenshots/`, covering chapters 1–15 and 16–30. Their hashes, dimensions, attribution, and evidentiary limit are recorded in `screenshots/manifest.json`. The images are attributed to `https://x.com/dokimazete`.
+
+The screenshots establish the visible chapter titles and contributor names. Their pink highlighting is not treated as independent evidence of National Partnership association.
+
+## Screenshot-verified contributor roster
+
+The following roster was verified chapter by chapter against the archived screenshots:
 
 1. Lance Lewis
 2. Howard Brown
@@ -42,7 +48,7 @@ The following roster was transcribed from research tables supplied during this p
 26. Kenneth Foster
 27. Scott Sauls
 28. Russ Whitfield
-29. Jonathan Edgar
+29. Jonathan Seda
 30. Joel St. Clair
 
 ## Research use

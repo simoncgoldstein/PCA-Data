@@ -1,0 +1,21 @@
+{
+  "publication_id": "heal-us-emmanuel-2016",
+  "source_attribution": "https://x.com/dokimazete",
+  "receipt_type": "user_supplied_source_audit_screenshot",
+  "access_date": "2026-09-03",
+  "screenshots": [
+    {
+      "file": "chapters-01-15.png",
+      "dimensions": "2048x1151",
+      "sha256": "673646efee0055faae181d4093049b51f8791d53024de0d056680ebd5afe64ff",
+      "visible_scope": "chapters 1-15"
+    },
+    {
+      "file": "chapters-16-30.png",
+      "dimensions": "2048x1151",
+      "sha256": "ce1283b905040da4cc201413ce838eac4db1822ef4dabb9a29e1cbd0f670d53c",
+      "visible_scope": "chapters 16-30"
+    }
+  ],
+  "use_limit": "The screenshots support the visible bibliographic roster and annotations. Pink highlighting is not independent evidence of National Partnership association."
+}

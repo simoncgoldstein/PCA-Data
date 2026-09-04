@@ -20,6 +20,7 @@ This file records new research leads before they are promoted into normalized pu
 - **Status:** verified first-party/denominational reporting.
 - **Organizer:** TE Doug Serven.
 - **Key fact:** 30 PCA teaching/ruling elders contributed essays in the interval between the 2015 resolution and 2016 GA.
+- **Screenshot audit correction:** archived chapter-table images identify chapter 29 as Jonathan Seda, correcting the earlier Jonathan Edgar transcription.
 - **Use:** voluntary collaboration/publication dataset, lower weight than formal organization membership but useful for recurrence analysis.
 
 ### Co-Laborers, Co-Heirs (2019)
