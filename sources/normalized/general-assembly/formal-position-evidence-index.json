@@ -185,18 +185,68 @@
       "path": "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json",
       "coverage": "Joseph Pipa named as protest presenter plus 28 commissioners explicitly listed as adding their names",
       "important_boundary": "Preserve Pipa’s author/presenter role separately from the 28 added signers; do not silently call the added-signature roster 29 names."
+    },
+    {
+      "evidence_id": "2001-wim-consensus-report",
+      "year": 2001,
+      "topic": "women_in_the_military",
+      "evidence_class": "study_committee_consensus_participation",
+      "path": "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json",
+      "coverage": "complete 10-member committee roster; Sections I-XI submitted by the entire committee with no dissent",
+      "important_boundary": "Consensus participation does not identify which side a committee member held on the unresolved duty-versus-wise-counsel question."
+    },
+    {
+      "evidence_id": "2001-wim-majority-duty-report",
+      "year": 2001,
+      "topic": "women_in_the_military",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json",
+      "coverage": "5 named signers of Man’s Duty to Protect Woman",
+      "important_boundary": "Establishes the signed duty-position report only, not a generic position on every issue concerning women."
+    },
+    {
+      "evidence_id": "2001-wim-minority-wise-counsel-report",
+      "year": 2001,
+      "topic": "women_in_the_military",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json",
+      "coverage": "4 named signers of Recommendations for the Wise Counsel of the Church",
+      "important_boundary": "The minority still counseled against women in combat; its dispute was whether the church could bind all consciences by declaring the conclusion a scriptural duty."
+    },
+    {
+      "evidence_id": "2002-wim-majority-final-recommendations",
+      "year": 2002,
+      "topic": "women_in_the_military",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json",
+      "coverage": "6 named majority-position report names; Recommendations 1-4 adopted by the 30th General Assembly",
+      "important_boundary": "Report signership is direct person-level evidence; the Assembly’s aggregate adoption is not an individual roll call."
+    },
+    {
+      "evidence_id": "2002-wim-minority-pastoral-counsel",
+      "year": 2002,
+      "topic": "women_in_the_military",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json",
+      "coverage": "4 named minority-report names; minority substitute defeated",
+      "important_boundary": "The four names establish the minority position; no unnamed commissioner’s position is inferred from the Assembly outcome."
     }
   ],
   "priority_backlog": [
     {
       "priority": 1,
-      "target": "Older major PCA majority/minority study-report families, beginning with Women in the Military, Insider Movements, baptism, paedocommunion, and other reports with named authors/signers",
+      "target": "Older major PCA majority/minority study-report families, beginning with Insider Movements, baptism, paedocommunion, and other reports with named authors/signers",
       "reason": "These provide longitudinal high-specificity evidence and test the schema across issues beyond the current controversies."
     },
     {
       "priority": 2,
       "target": "Published individual votes, concurrences, dissents, SJC dissent/concurrence records, and first-person explanations by report authors/signers",
       "reason": "These are the strongest person-specific evidence where the official record actually names the individual action."
+    },
+    {
+      "priority": 1,
+      "target": "2002 Women in the Military final-action 77 recorded negative votes",
+      "reason": "Official Historical Center HTML confirms the count but does not expose the named roster; recover the names from the 30th GA minutes before treating these as person-level votes."
     }
   ]
 }

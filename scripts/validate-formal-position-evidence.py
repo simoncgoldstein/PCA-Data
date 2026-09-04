@@ -18,6 +18,8 @@ report = json.loads(report_path.read_text(encoding="utf-8"))
 index = json.loads(index_path.read_text(encoding="utf-8"))
 receipt = json.loads(receipt_path.read_text(encoding="utf-8"))
 batch1 = json.loads(batch1_path.read_text(encoding="utf-8"))
+wim_path = root / "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+wim = json.loads(wim_path.read_text(encoding="utf-8"))
 women2016_path = root / "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
 women2016 = json.loads(women2016_path.read_text(encoding="utf-8"))
 batch2_chronology_path = root / "sources/normalized/general-assembly/2019-2023-sexuality-formal-position-chronology.json"
@@ -217,6 +219,44 @@ if any(r.get("name_as_printed") == "Joseph Pipa" for r in protest2016.get("added
 if women2016.get("assembly_disposition", {}).get("permanent_committee_recommendation_to_form_study_committee") != {"for": 767, "against": 375, "abstain": 12}:
     raise SystemExit("2016 women study committee: final Assembly tally drift")
 
+# 2001-2002 Women in the Military report family.
+if wim.get("metadata", {}).get("ideological_weight") != 0:
+    raise SystemExit("Women in the Military: ideological_weight must remain 0")
+committee = wim.get("committee_roster", {})
+if committee.get("member_count") != 10 or len(committee.get("members", [])) != 10:
+    raise SystemExit("Women in the Military: expected complete 10-member committee roster")
+committee_names = {r.get("name_as_printed") for r in committee.get("members", [])}
+if committee_names != {"Stephen Leonard", "Stephen Clark", "Ron Swafford", "Beryl Hubbard", "Bentley Rayburn", "Peter Lillback", "Tim Bayly", "Charlie Morrison", "Keith Stoeber", "Don Weyburn"}:
+    raise SystemExit("Women in the Military: committee roster drift")
+positions = {e.get("event_id"): e for e in wim.get("formal_positions", [])}
+expected_wim = {
+    "2001-wim-majority-mans-duty-to-protect-woman": 5,
+    "2001-wim-minority-wise-counsel": 4,
+    "2002-wim-majority-final-recommendations": 6,
+    "2002-wim-minority-pastoral-counsel": 4,
+}
+if set(positions) != set(expected_wim):
+    raise SystemExit(f"Women in the Military: formal-position event set drift: {sorted(positions)}")
+for event_id, count in expected_wim.items():
+    e=positions[event_id]
+    if e.get("signer_count") != count or len(e.get("signers", [])) != count:
+        raise SystemExit(f"{event_id}: signer count drift")
+    if e.get("evidence_class") != "signed_formal_report_or_minority_report" or e.get("ideological_weight") != 0:
+        raise SystemExit(f"{event_id}: evidence semantics drift")
+if {r.get("name_as_printed") for r in positions["2001-wim-majority-mans-duty-to-protect-woman"]["signers"]} != {"Timothy B. Bayly", "Bentley B. Rayburn", "Donald B. Weyburn", "Stephen W. Leonard", "Keith Stoeber"}:
+    raise SystemExit("2001 WIM majority: signer set drift")
+if {r.get("name_as_printed") for r in positions["2001-wim-minority-wise-counsel"]["signers"]} != {"Stephen Clark", "Charles Morrison", "Beryl Hubbard", "Ronald Swafford"}:
+    raise SystemExit("2001 WIM minority: signer set drift")
+if any(r.get("name_as_printed") == "Peter Lillback" for e in positions.values() if e.get("year") == 2001 for r in e.get("signers", [])):
+    raise SystemExit("2001 WIM: do not infer Peter Lillback into either published 2001 signature block")
+if {r.get("name_as_printed") for r in positions["2002-wim-majority-final-recommendations"]["signers"]} != {"Steve Leonard", "Bentley Rayburn", "Tim Bayly", "Keith Stoeber", "Peter Lillback", "Don Weyburn"}:
+    raise SystemExit("2002 WIM majority: signer set drift")
+if {r.get("name_as_printed") for r in positions["2002-wim-minority-pastoral-counsel"]["signers"]} != {"Steven Clark", "Beryl Hubbard", "Charles Morrison", "Ronald Swafford"}:
+    raise SystemExit("2002 WIM minority: signer set drift")
+actions = {a.get("year"): a for a in wim.get("assembly_actions", [])}
+if actions.get(2002, {}).get("recorded_negative_vote_count") != 77 or actions.get(2002, {}).get("person_level_evidence_for_77") is not False:
+    raise SystemExit("2002 WIM: preserve 77-vote count without inventing a named roster")
+
 hierarchy = {row.get("evidence_class"): row for row in index.get("evidence_hierarchy", [])}
 for required in (
     "signed_formal_report_or_minority_report",
@@ -232,6 +272,11 @@ for required in (
 
 indexed = {row.get("evidence_id"): row for row in index.get("normalized_position_sources", [])}
 for required in (
+    "2001-wim-consensus-report",
+    "2001-wim-majority-duty-report",
+    "2001-wim-minority-wise-counsel-report",
+    "2002-wim-majority-final-recommendations",
+    "2002-wim-minority-pastoral-counsel",
     "2008-overture-9-deaconess-study-minority-report",
     "2008-rpr-women-scripture-reading-minority-report",
     "2009-overture-10-women-roles-study-minority-report",

@@ -85,6 +85,70 @@
       ]
     },
     {
+      "source_dataset": "formal_position_2001-wim-majority-mans-duty-to-protect-woman",
+      "row_count": 5,
+      "unique_printed_name_count": 5,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 2,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 3,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2001-wim-minority-wise-counsel",
+      "row_count": 4,
+      "unique_printed_name_count": 4,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 2,
+      "probable_requires_review_count": 1,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2002-wim-majority-final-recommendations",
+      "row_count": 6,
+      "unique_printed_name_count": 6,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 2,
+      "probable_requires_review_count": 1,
+      "ambiguous_or_collision_count": 3,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_report_signers"
+      ]
+    },
+    {
+      "source_dataset": "formal_position_2002-wim-minority-pastoral-counsel",
+      "row_count": 4,
+      "unique_printed_name_count": 4,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 3,
+      "probable_requires_review_count": 0,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_report_signers"
+      ]
+    },
+    {
       "source_dataset": "formal_position_2008-overture-9-deaconess-study-minority-report",
       "row_count": 27,
       "unique_printed_name_count": 27,
@@ -121,8 +185,8 @@
       "row_count": 34,
       "unique_printed_name_count": 34,
       "confirmed_canonical_person_count": 10,
-      "unmatched_count": 16,
-      "probable_requires_review_count": 5,
+      "unmatched_count": 15,
+      "probable_requires_review_count": 6,
       "ambiguous_or_collision_count": 3,
       "percentage_resolved": 29.41,
       "source_tier": [
@@ -393,8 +457,8 @@
       "row_count": 32,
       "unique_printed_name_count": 32,
       "confirmed_canonical_person_count": 0,
-      "unmatched_count": 29,
-      "probable_requires_review_count": 2,
+      "unmatched_count": 28,
+      "probable_requires_review_count": 3,
       "ambiguous_or_collision_count": 1,
       "percentage_resolved": 0.0,
       "source_tier": [
@@ -626,6 +690,38 @@
       ],
       "completeness_status": [
         "complete"
+      ]
+    },
+    {
+      "source_dataset": "women_military_committee_2001",
+      "row_count": 10,
+      "unique_printed_name_count": 10,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 4,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 4,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_10_member_roster"
+      ]
+    },
+    {
+      "source_dataset": "women_military_named_report_roles_2001_2002",
+      "row_count": 3,
+      "unique_printed_name_count": 3,
+      "confirmed_canonical_person_count": 0,
+      "unmatched_count": 0,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 1,
+      "percentage_resolved": 0.0,
+      "source_tier": [
+        "official_primary_transcription"
+      ],
+      "completeness_status": [
+        "complete_named_roles_in_normalized_report_family"
       ]
     },
     {

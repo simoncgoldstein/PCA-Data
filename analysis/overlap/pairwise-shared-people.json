@@ -9990,6 +9990,93 @@
       ]
     },
     {
+      "dataset_a": "formal_position_2001-wim-majority-mans-duty-to-protect-woman",
+      "dataset_b": "formal_position_2002-wim-majority-final-recommendations",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "keith stoeber"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2001-wim-majority-mans-duty-to-protect-woman",
+      "dataset_b": "women_military_committee_2001",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "keith stoeber"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2001-wim-minority-wise-counsel",
+      "dataset_b": "formal_position_2002-wim-minority-pastoral-counsel",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "beryl hubbard",
+        "charles morrison",
+        "ronald swafford"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2001-wim-minority-wise-counsel",
+      "dataset_b": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "stephen clark"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2001-wim-minority-wise-counsel",
+      "dataset_b": "women_military_committee_2001",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "beryl hubbard",
+        "stephen clark"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2001-wim-minority-wise-counsel",
+      "dataset_b": "women_military_named_report_roles_2001_2002",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "stephen clark"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2002-wim-majority-final-recommendations",
+      "dataset_b": "institution_westminster-theological-seminary",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "peter lillback"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2002-wim-majority-final-recommendations",
+      "dataset_b": "women_military_committee_2001",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "bentley rayburn",
+        "don weyburn",
+        "keith stoeber",
+        "peter lillback",
+        "tim bayly"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2002-wim-majority-final-recommendations",
+      "dataset_b": "women_military_named_report_roles_2001_2002",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "peter lillback"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2002-wim-minority-pastoral-counsel",
+      "dataset_b": "women_military_committee_2001",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "beryl hubbard"
+      ]
+    },
+    {
       "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
       "dataset_b": "formal_position_2009-overture-10-women-roles-study-minority-report",
       "confirmed_shared_people": [
@@ -10470,6 +10557,22 @@
         }
       ],
       "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "women_military_committee_2001",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "stephen clark"
+      ]
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "women_military_named_report_roles_2001_2002",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "stephen clark"
+      ]
     },
     {
       "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
@@ -11075,6 +11178,22 @@
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "david filson"
+      ]
+    },
+    {
+      "dataset_a": "institution_westminster-theological-seminary",
+      "dataset_b": "women_military_committee_2001",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "peter lillback"
+      ]
+    },
+    {
+      "dataset_a": "institution_westminster-theological-seminary",
+      "dataset_b": "women_military_named_report_roles_2001_2002",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "peter lillback"
       ]
     },
     {
@@ -14861,6 +14980,16 @@
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "titus bagby"
+      ]
+    },
+    {
+      "dataset_a": "women_military_committee_2001",
+      "dataset_b": "women_military_named_report_roles_2001_2002",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "peter lillback",
+        "stephen clark",
+        "stephen leonard"
       ]
     }
   ]

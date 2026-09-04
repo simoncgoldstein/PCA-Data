@@ -18,16 +18,66 @@
     "important_boundary": "Consensus participation establishes agreement with the consensus section only. It does not establish which side an individual held on the disputed duty-versus-wise-counsel question unless separately signed or otherwise named.",
     "member_count": 10,
     "members": [
-      {"print_order": 1, "name_as_printed": "Stephen Leonard", "office_as_printed": "TE", "normalized_person_id": null},
-      {"print_order": 2, "name_as_printed": "Stephen Clark", "office_as_printed": "TE", "normalized_person_id": null},
-      {"print_order": 3, "name_as_printed": "Ron Swafford", "office_as_printed": "TE", "normalized_person_id": null},
-      {"print_order": 4, "name_as_printed": "Beryl Hubbard", "office_as_printed": "TE", "normalized_person_id": null},
-      {"print_order": 5, "name_as_printed": "Bentley Rayburn", "office_as_printed": "RE", "normalized_person_id": null},
-      {"print_order": 6, "name_as_printed": "Peter Lillback", "office_as_printed": "TE", "normalized_person_id": null},
-      {"print_order": 7, "name_as_printed": "Tim Bayly", "office_as_printed": "TE", "normalized_person_id": null},
-      {"print_order": 8, "name_as_printed": "Charlie Morrison", "office_as_printed": "TE", "normalized_person_id": null},
-      {"print_order": 9, "name_as_printed": "Keith Stoeber", "office_as_printed": "RE", "normalized_person_id": null},
-      {"print_order": 10, "name_as_printed": "Don Weyburn", "office_as_printed": "RE", "normalized_person_id": null}
+      {
+        "print_order": 1,
+        "name_as_printed": "Stephen Leonard",
+        "office_as_printed": "TE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 2,
+        "name_as_printed": "Stephen Clark",
+        "office_as_printed": "TE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 3,
+        "name_as_printed": "Ron Swafford",
+        "office_as_printed": "TE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 4,
+        "name_as_printed": "Beryl Hubbard",
+        "office_as_printed": "TE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 5,
+        "name_as_printed": "Bentley Rayburn",
+        "office_as_printed": "RE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 6,
+        "name_as_printed": "Peter Lillback",
+        "office_as_printed": "TE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 7,
+        "name_as_printed": "Tim Bayly",
+        "office_as_printed": "TE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 8,
+        "name_as_printed": "Charlie Morrison",
+        "office_as_printed": "TE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 9,
+        "name_as_printed": "Keith Stoeber",
+        "office_as_printed": "RE",
+        "normalized_person_id": null
+      },
+      {
+        "print_order": 10,
+        "name_as_printed": "Don Weyburn",
+        "office_as_printed": "RE",
+        "normalized_person_id": null
+      }
     ],
     "ideological_weight": 0
   },
@@ -43,11 +93,36 @@
       "important_boundary": "This is a signed position on the duty-versus-wise-counsel dispute. Do not generalize it into positions on ecclesiastical office or every question involving women outside the military context.",
       "signer_count": 5,
       "signers": [
-        {"print_order": 1, "name_as_printed": "Timothy B. Bayly", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 2, "name_as_printed": "Bentley B. Rayburn", "office_as_printed": "RE", "normalized_person_id": null},
-        {"print_order": 3, "name_as_printed": "Donald B. Weyburn", "office_as_printed": "RE", "normalized_person_id": null},
-        {"print_order": 4, "name_as_printed": "Stephen W. Leonard", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 5, "name_as_printed": "Keith Stoeber", "office_as_printed": "RE", "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "Timothy B. Bayly",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Bentley B. Rayburn",
+          "office_as_printed": "RE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Donald B. Weyburn",
+          "office_as_printed": "RE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Stephen W. Leonard",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Keith Stoeber",
+          "office_as_printed": "RE",
+          "normalized_person_id": null
+        }
       ],
       "ideological_weight": 0
     },
@@ -62,10 +137,30 @@
       "important_boundary": "The minority paper did not advocate women in combat as wise or preferable; its dispute with the majority concerned whether the church could bind consciences by declaring the position a scriptural duty.",
       "signer_count": 4,
       "signers": [
-        {"print_order": 1, "name_as_printed": "Stephen Clark", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 2, "name_as_printed": "Charles Morrison", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 3, "name_as_printed": "Beryl Hubbard", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 4, "name_as_printed": "Ronald Swafford", "office_as_printed": "TE", "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "Stephen Clark",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Charles Morrison",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Beryl Hubbard",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Ronald Swafford",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        }
       ],
       "ideological_weight": 0
     },
@@ -80,12 +175,42 @@
       "assembly_disposition": "The minority substitute was defeated and Recommendations 1-4 of the majority position were adopted by the 30th General Assembly.",
       "signer_count": 6,
       "signers": [
-        {"print_order": 1, "name_as_printed": "Steve Leonard", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 2, "name_as_printed": "Bentley Rayburn", "office_as_printed": "RE", "normalized_person_id": null},
-        {"print_order": 3, "name_as_printed": "Tim Bayly", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 4, "name_as_printed": "Keith Stoeber", "office_as_printed": "RE", "normalized_person_id": null},
-        {"print_order": 5, "name_as_printed": "Peter Lillback", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 6, "name_as_printed": "Don Weyburn", "office_as_printed": "RE", "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "Steve Leonard",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Bentley Rayburn",
+          "office_as_printed": "RE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Tim Bayly",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Keith Stoeber",
+          "office_as_printed": "RE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Peter Lillback",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 6,
+          "name_as_printed": "Don Weyburn",
+          "office_as_printed": "RE",
+          "normalized_person_id": null
+        }
       ],
       "ideological_weight": 0
     },
@@ -100,10 +225,30 @@
       "assembly_disposition": "Presented by TE Stephen Clark as a substitute for Recommendations 1-4; the substitute was defeated.",
       "signer_count": 4,
       "signers": [
-        {"print_order": 1, "name_as_printed": "Steven Clark", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 2, "name_as_printed": "Beryl Hubbard", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 3, "name_as_printed": "Charles Morrison", "office_as_printed": "TE", "normalized_person_id": null},
-        {"print_order": 4, "name_as_printed": "Ronald Swafford", "office_as_printed": "TE", "normalized_person_id": null}
+        {
+          "print_order": 1,
+          "name_as_printed": "Steven Clark",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Beryl Hubbard",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Charles Morrison",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Ronald Swafford",
+          "office_as_printed": "TE",
+          "normalized_person_id": null
+        }
       ],
       "ideological_weight": 0
     }

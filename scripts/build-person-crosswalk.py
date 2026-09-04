@@ -387,6 +387,58 @@ add_record(
 )
 
 
+# 2001-2002 Women in the Military study-committee evidence. All committee,
+# majority, minority, and named presentation records are one source family so
+# repeated name forms inside the same committee/report history cannot
+# self-corroborate a new identity.
+relative = "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+wim_data = register_json(relative)
+committee = wim_data["committee_roster"]
+for row in committee.get("members", []):
+    add_record(
+        dataset="women_military_committee_2001",
+        family="women_military_aic_2001_2002",
+        source_path=relative,
+        locator=f"committee_member:{row['print_order']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary_transcription",
+        completeness="complete_10_member_roster",
+        evidence_type="study_committee_consensus_service",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+for event in wim_data.get("formal_positions", []):
+    for row in event.get("signers", []):
+        add_record(
+            dataset=f"formal_position_{event['event_id']}",
+            family="women_military_aic_2001_2002",
+            source_path=relative,
+            locator=f"{event['event_id']}:signer:{row['print_order']}",
+            printed_name=row["name_as_printed"],
+            row=row,
+            source_tier="official_primary_transcription",
+            completeness="complete_named_report_signers",
+            evidence_type="formal_report_signature",
+            office=row.get("office_as_printed"),
+            existing_id=row.get("normalized_person_id"),
+        )
+for index, row in enumerate(wim_data.get("named_report_roles", []), 1):
+    add_record(
+        dataset="women_military_named_report_roles_2001_2002",
+        family="women_military_aic_2001_2002",
+        source_path=relative,
+        locator=f"named_role:{index}:{row['year']}",
+        printed_name=row["name_as_printed"],
+        row=row,
+        source_tier="official_primary_transcription",
+        completeness="complete_named_roles_in_normalized_report_family",
+        evidence_type="named_report_role",
+        office=row.get("office_as_printed"),
+        existing_id=row.get("normalized_person_id"),
+    )
+
+
 # A Faithful PCA snapshots remain separate datasets but one source family.
 for date, relative, order_key in [
     ("2021-06-11", "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json", "sequence"),
