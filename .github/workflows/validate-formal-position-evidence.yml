@@ -1,0 +1,20 @@
+name: Validate formal position evidence
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-formal-position-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Validate formal position evidence
+        run: python3 scripts/validate-formal-position-evidence.py .

@@ -1,0 +1,130 @@
+{
+  "metadata": {
+    "purpose": "Index high-specificity evidence that bears directly on a person's documented denominational position, while preserving the distinction between signed positions, recorded votes, committee service, and first-person explanation.",
+    "modeling_rule": "Formal position evidence is stronger for identifying a documented view than network proximity or generic event participation, but no evidence type should be collapsed into a total ideological label. Committee membership alone does not prove agreement with every line of a report, especially where a report records internal disagreement.",
+    "ideological_weight": 0
+  },
+  "evidence_hierarchy": [
+    {
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "position_specificity": "very_high",
+      "rule": "A named signature on a formal report directly establishes support for the signed report position at that time, subject to any recorded qualification."
+    },
+    {
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "position_specificity": "very_high",
+      "rule": "A recorded vote or signed protest directly establishes the recorded action, but not every broader theological inference someone might draw from it."
+    },
+    {
+      "evidence_class": "first_person_issue_statement",
+      "position_specificity": "high",
+      "rule": "Use the speaker's actual stated position and preserve limits or qualifications rather than reducing the statement to a generic label."
+    },
+    {
+      "evidence_class": "study_committee_consensus_participation",
+      "position_specificity": "moderate_to_high",
+      "rule": "Committee service on a consensus report establishes participation in producing the report. It does not prove agreement with every sentence or resolve internal alternatives unless the source says so."
+    },
+    {
+      "evidence_class": "committee_membership_only",
+      "position_specificity": "moderate",
+      "rule": "Institutional service alone is not a substitute for a person's documented view."
+    },
+    {
+      "evidence_class": "conference_or_network_participation",
+      "position_specificity": "low",
+      "rule": "Participation establishes the participation event only and must not be used as a proxy for agreement with every position associated with the event or network."
+    }
+  ],
+  "normalized_position_sources": [
+    {
+      "evidence_id": "2017-women-serving-ministry-consensus-report",
+      "year": 2017,
+      "topic": "women_serving_in_the_ministry_of_the_church",
+      "evidence_class": "study_committee_consensus_participation",
+      "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+      "coverage": "complete published committee roster plus report-level position boundaries and one first-person committee-member statement",
+      "important_boundary": "The published report says the committee reached an overwhelming consensus but also records two schools of thought on women teaching men; do not infer which school an individual member held without separate evidence."
+    },
+    {
+      "evidence_id": "2017-mary-beth-mcgreevy-first-person-women-ministry",
+      "year": 2017,
+      "topic": "women_serving_in_the_ministry_of_the_church",
+      "evidence_class": "first_person_issue_statement",
+      "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+      "coverage": "reviewed user-supplied transcript of first-person explanatory video",
+      "important_boundary": "Use McGreevy's explicit statements rather than attributing every committee-report sentence to her."
+    },
+    {
+      "evidence_id": "2019-warhurst-formal-protest",
+      "year": 2019,
+      "topic": "warhurst_overture_28_speech",
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "path": "sources/normalized/revoice/warhurst-protest-signers-2019.json",
+      "coverage": "formal protest signer roster",
+      "important_boundary": "The protest objected to specified language/action and must not be reduced to generic support for or opposition to Revoice."
+    },
+    {
+      "evidence_id": "2019-2021-human-sexuality-aic",
+      "year": 2021,
+      "topic": "human_sexuality",
+      "evidence_class": "study_committee_consensus_participation",
+      "path": "sources/normalized/general-assembly/2019-2021-human-sexuality-aic.json",
+      "coverage": "official committee roster; report-position extraction remains a separate future pass",
+      "important_boundary": "Committee membership is not automatically treated as agreement with every later interpretation or use of the report."
+    },
+    {
+      "evidence_id": "2021-overture-37-minority-report",
+      "year": 2021,
+      "topic": "overture_37_officer_self_description",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json",
+      "coverage": "28 verified minority-report signers",
+      "important_boundary": "Records minority-report signership only."
+    },
+    {
+      "evidence_id": "2022-overture-15-minority-report",
+      "year": 2022,
+      "topic": "overture_15_officer_self_description_and_homosexuality",
+      "evidence_class": "signed_formal_report_or_minority_report",
+      "path": "sources/normalized/revoice/overture-15-minority-report-signers-2022.json",
+      "coverage": "46 verified minority-report signers",
+      "important_boundary": "Records minority-report signership only."
+    },
+    {
+      "evidence_id": "2022-overture-15-recorded-negative-votes",
+      "year": 2022,
+      "topic": "overture_15_officer_self_description_and_homosexuality",
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "path": "sources/normalized/revoice/overture-15-negative-votes-2022.json",
+      "coverage": "official recorded negative-vote roster",
+      "important_boundary": "A recorded negative vote establishes the vote, not a complete account of the commissioner's rationale."
+    },
+    {
+      "evidence_id": "2022-nae-withdrawal-formal-protest",
+      "year": 2022,
+      "topic": "nae_withdrawal",
+      "evidence_class": "recorded_vote_or_formal_protest_signature",
+      "path": "sources/normalized/nae/withdrawal-protest-signers-2022.json",
+      "coverage": "formal protest signer roster",
+      "important_boundary": "Protest signership records objection to the PCA withdrawal action and should not be generalized beyond the protest's stated grounds."
+    }
+  ],
+  "priority_backlog": [
+    {
+      "priority": 1,
+      "target": "Corresponding majority/committee reports for controversies where a minority report is already normalized",
+      "reason": "Majority and minority positions should be represented symmetrically when the official minutes identify named authors, signers, committee members, or recorded votes."
+    },
+    {
+      "priority": 2,
+      "target": "Major PCA study reports with identifiable committee members, concurrences, dissents, minority reports, or signed recommendations",
+      "reason": "These sources provide high-specificity evidence of documented denominational positions and should be normalized before lower-signal network expansion."
+    },
+    {
+      "priority": 3,
+      "target": "First-person explanations by report authors, signers, or dissenters",
+      "reason": "These can clarify the person's actual rationale where a formal vote or committee role alone is underdetermined."
+    }
+  ]
+}
