@@ -52,20 +52,20 @@ Still incomplete:
 
 ### 2017 Women Serving in the Ministry of the Church
 
-Status: **normalized, app-event represented, and partially canonically linked**.
+Status: **normalized, app-event represented, and mostly canonically linked**.
 
 The official PCA study report is registered as `src-ga45-women-serving-2017`. The normalized layer includes:
 
 - all 12 committee members;
 - voting/advisory status;
 - report-level position summaries with explicit non-attribution guardrails;
-- Mary Beth McGreevy first-person evidence preserved separately;
-- canonical committee links and app-facing zero-weight service edges for Dan Doriani, Ligon Duncan, Irwyn Ince, Bruce O'Neil, and Roy Taylor;
-- an applied reviewed-identity receipt for Doriani, Duncan, and Taylor.
+- Mary Beth McGreevy first-person evidence preserved separately and linked to her canonical person;
+- canonical committee links and app-facing zero-weight service edges for Leon Brown, Dan Doriani, Ligon Duncan, Irwyn Ince, Mary Beth McGreevy, Bruce O'Neil, Harry Reeder, and Roy Taylor;
+- applied reviewed-identity receipts for Doriani/Duncan/Taylor and Brown/McGreevy/Reeder.
 
-Still unresolved in this committee dataset: Leon Brown, William Castro, Jeffrey Choi, Lani Jones, Kathy Keller, Mary Beth McGreevy, and Harry Reeder.
+Still unresolved in this committee dataset: William Castro, Jeffrey Choi, Lani Jones, and Kathy Keller.
 
-Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought.
+Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought. McGreevy's first-person position evidence remains separately modeled and does not convert committee service into a person-level endorsement of the full report.
 
 ### Alliance for Mission & Renewal
 
