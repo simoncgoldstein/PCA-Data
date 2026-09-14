@@ -1,0 +1,262 @@
+name: Apply McGowan overlap and family links (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/apply-mcgowan-overlap-family.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Apply app-facing data changes
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          def load(path):
+              return json.loads(Path(path).read_text(encoding='utf-8'))
+
+          def save(path, value):
+              Path(path).write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          # Organization.
+          org_path = 'data/organizations.json'
+          orgs = load(org_path)
+          if any(row['id'] == 'mcgowan-global-institute' for row in orgs):
+              raise SystemExit('mcgowan-global-institute already exists')
+          orgs.append({
+              'id': 'mcgowan-global-institute',
+              'name': 'McGowan Global Institute',
+              'short_name': 'MGI',
+              'type': 'external_nonprofit',
+              'status': 'active',
+              'founded': 2021,
+              'description': "501(c)(3) church-support ministry whose stated mission is 'Helping Churches Thrive'; current team includes consultants with independently documented PCA network histories. Personnel overlap does not establish organizational succession or shared ideology."
+          })
+          save(org_path, orgs)
+
+          # Sources.
+          source_path = 'data/sources.json'
+          sources = load(source_path)
+          new_sources = [
+              {
+                  'id': 'src-mcgowan-global-team-2026',
+                  'title': 'Who We Are',
+                  'publisher': 'McGowan Global Institute',
+                  'date': '2026',
+                  'url': 'https://mcgowanglobal.com/who-we-are/',
+                  'source_type': 'primary_organization_roster',
+                  'accessed': '2026-09-14',
+                  'notes': 'Current first-party roster. Lists Bruce O’Neil, Mike Khandjian, David P. Cassidy, Bob Flayhart, and Ray Cortese as Consultant, Coach. MGI service is modeled independently from any NP or AMR status.'
+              },
+              {
+                  'id': 'src-pca-bookstore-keller-marriage',
+                  'title': 'On Marriage by Tim Keller',
+                  'publisher': 'PCA Bookstore',
+                  'date': '2020',
+                  'url': 'https://www.pcabookstore.com/p-6275012-on-marriage-by-tim-keller.aspx',
+                  'source_type': 'primary_denominational_book_profile',
+                  'accessed': '2026-09-14',
+                  'notes': 'Identifies Timothy and Kathy Keller as married co-authors and Kathy as Tim’s wife. Used only for reciprocal spouse/family context and Tim Keller’s canonical seed.'
+              }
+          ]
+          existing_source_ids = {row['id'] for row in sources}
+          collision = existing_source_ids & {row['id'] for row in new_sources}
+          if collision:
+              raise SystemExit(f'source collision: {sorted(collision)}')
+          sources.extend(new_sources)
+          save(source_path, sources)
+
+          # Tim Keller canonical seed for person-to-person relationship graph.
+          people_path = 'data/people.json'
+          people = load(people_path)
+          if any(row['id'] == 'tim-keller' for row in people):
+              raise SystemExit('tim-keller already exists')
+          people.append({
+              'id': 'tim-keller',
+              'name': 'Tim Keller',
+              'ordination': 'Teaching Elder',
+              'current_role': None,
+              'current_organization': None,
+              'denominational_status': 'Historical PCA Teaching Elder and Redeemer Presbyterian Church founder; current-role fields intentionally unused for this historical profile',
+              'current_role_source_ids': [],
+              'profile_status': 'seeded'
+          })
+          save(people_path, people)
+
+          # Affiliations: current MGI roster, independently established NP overlap,
+          # and reciprocal zero-weight family relation.
+          aff_path = 'data/affiliations.json'
+          affs = load(aff_path)
+          by_id = {row['id']: row for row in affs}
+
+          # Upgrade Khandjian's existing NP edge now that exact primary archive
+          # membership evidence is pinned in the canonical NP dataset.
+          khandjian = by_id.get('aff-khandjian-np')
+          if khandjian is None:
+              raise SystemExit('expected aff-khandjian-np missing')
+          khandjian['confidence'] = 'confirmed'
+          khandjian['source_ids'] = ['src-np-local-archive', 'src-np-index']
+          khandjian['notes'] = 'Primary NP archive explicitly identifies Khandjian as an NP member and separately identifies his Fellowship Dinner as an independent group with high overlap; canonical NP evidence includes 2014 pages 120/125/128 and a 2015 Partnership-men roster.'
+
+          new_affs = [
+              {
+                  'id': 'aff-oneil-np',
+                  'person_id': 'bruce-o-neil',
+                  'target_type': 'organization',
+                  'target_id': 'national-partnership',
+                  'role': 'Member / committee participant',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'network_membership',
+                  'weight': 4,
+                  'score_included': True,
+                  'source_ids': ['src-np-local-archive'],
+                  'notes': 'Canonical NP dataset records Bruce O’Neil on NP-guys committee rosters dated Jan. 10 and Feb. 28, 2018, archive pp. 264–265, Chesapeake Presbytery, Overtures Committee.'
+              },
+              {
+                  'id': 'aff-cortese-np',
+                  'person_id': 'ray-cortese',
+                  'target_type': 'organization',
+                  'target_id': 'national-partnership',
+                  'role': 'Member',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'network_membership',
+                  'weight': 4,
+                  'score_included': True,
+                  'source_ids': ['src-np-local-archive'],
+                  'notes': 'Canonical NP dataset records Ray Cortese under National Partnership additions on Mar. 11, 2013, archive p. 17, Central Florida Presbytery.'
+              },
+              {
+                  'id': 'aff-flayhart-np',
+                  'person_id': 'bob-flayhart',
+                  'target_type': 'organization',
+                  'target_id': 'national-partnership',
+                  'role': 'Member',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'network_membership',
+                  'weight': 4,
+                  'score_included': True,
+                  'source_ids': ['src-np-local-archive'],
+                  'notes': 'Canonical NP dataset records Bob Flayhart under National Partnership additions on Feb. 11, 2013, archive p. 3, Evangel Presbytery.'
+              },
+              {
+                  'id': 'aff-oneil-mcgowan-2026',
+                  'person_id': 'bruce-o-neil',
+                  'target_type': 'organization',
+                  'target_id': 'mcgowan-global-institute',
+                  'role': 'Consultant, Coach',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'current_external_role',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-mcgowan-global-team-2026']
+              },
+              {
+                  'id': 'aff-khandjian-mcgowan-2026',
+                  'person_id': 'mike-khandjian',
+                  'target_type': 'organization',
+                  'target_id': 'mcgowan-global-institute',
+                  'role': 'Consultant, Coach',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'current_external_role',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-mcgowan-global-team-2026']
+              },
+              {
+                  'id': 'aff-cassidy-mcgowan-2026',
+                  'person_id': 'david-cassidy',
+                  'target_type': 'organization',
+                  'target_id': 'mcgowan-global-institute',
+                  'role': 'Consultant, Coach',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'current_external_role',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-mcgowan-global-team-2026'],
+                  'notes': 'Cassidy is separately modeled as an AMR founder/current leader. No canonical NP membership record was found for him in the current NP dataset; MGI/AMR overlap must not be converted into NP membership.'
+              },
+              {
+                  'id': 'aff-cortese-mcgowan-2026',
+                  'person_id': 'ray-cortese',
+                  'target_type': 'organization',
+                  'target_id': 'mcgowan-global-institute',
+                  'role': 'Consultant, Coach',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'current_external_role',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-mcgowan-global-team-2026']
+              },
+              {
+                  'id': 'aff-flayhart-mcgowan-2026',
+                  'person_id': 'bob-flayhart',
+                  'target_type': 'organization',
+                  'target_id': 'mcgowan-global-institute',
+                  'role': 'Consultant, Coach',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'current_external_role',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-mcgowan-global-team-2026']
+              },
+              {
+                  'id': 'aff-tim-keller-kathy-spouse',
+                  'person_id': 'tim-keller',
+                  'target_type': 'person',
+                  'target_id': 'kathy-keller',
+                  'role': 'Spouse',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'family_relationship',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-pca-bookstore-keller-marriage'],
+                  'notes': 'Family relationship only; does not transfer positions, memberships, actions, or scores between spouses.'
+              },
+              {
+                  'id': 'aff-kathy-keller-tim-spouse',
+                  'person_id': 'kathy-keller',
+                  'target_type': 'person',
+                  'target_id': 'tim-keller',
+                  'role': 'Spouse',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'family_relationship',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-pca-bookstore-keller-marriage'],
+                  'notes': 'Family relationship only; does not transfer positions, memberships, actions, or scores between spouses.'
+              }
+          ]
+          existing_aff_ids = set(by_id)
+          collision = existing_aff_ids & {row['id'] for row in new_affs}
+          if collision:
+              raise SystemExit(f'affiliation collision: {sorted(collision)}')
+          affs.extend(new_affs)
+          save(aff_path, affs)
+          PY
+
+      - name: Regenerate identity and overlap outputs
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/build-overlap-analysis.py .
+
+      - name: Commit generated data
+        run: |
+          if git diff --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data sources/normalized analysis/overlap
+          git commit -m 'project McGowan overlap and family links'
+          git push
