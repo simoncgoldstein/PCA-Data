@@ -1,0 +1,132 @@
+name: Seed reviewed 2017 committee identities (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/seed-2017-women-serving-batch1.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  seed:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+
+      - name: Apply reviewed canonical people and app edges
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          people_path = Path('data/people.json')
+          people = json.loads(people_path.read_text(encoding='utf-8'))
+          new_people = [
+              {
+                  'id': 'dan-doriani',
+                  'name': 'Dan Doriani',
+                  'ordination': 'Teaching Elder',
+                  'current_role': None,
+                  'current_organization': None,
+                  'denominational_status': 'PCA Teaching Elder in 2017 official committee source; current status not assessed',
+                  'current_role_source_ids': [],
+                  'profile_status': 'seeded',
+              },
+              {
+                  'id': 'ligon-duncan',
+                  'name': 'Ligon Duncan',
+                  'ordination': 'Teaching Elder',
+                  'current_role': None,
+                  'current_organization': None,
+                  'denominational_status': 'PCA Teaching Elder in 2017 official committee source; current status not assessed',
+                  'current_role_source_ids': [],
+                  'profile_status': 'seeded',
+              },
+              {
+                  'id': 'roy-taylor',
+                  'name': 'Roy Taylor',
+                  'ordination': 'Teaching Elder',
+                  'current_role': None,
+                  'current_organization': None,
+                  'denominational_status': 'PCA Teaching Elder in 2017 official committee source; current status not assessed',
+                  'current_role_source_ids': [],
+                  'profile_status': 'seeded',
+              },
+          ]
+          existing_people = {row['id'] for row in people}
+          collisions = existing_people & {row['id'] for row in new_people}
+          if collisions:
+              raise SystemExit(f'canonical person ids already exist: {sorted(collisions)}')
+          people.extend(new_people)
+          people_path.write_text(json.dumps(people, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          affiliations_path = Path('data/affiliations.json')
+          affiliations = json.loads(affiliations_path.read_text(encoding='utf-8'))
+          new_affiliations = [
+              {
+                  'id': 'aff-doriani-women-serving-2017',
+                  'person_id': 'dan-doriani',
+                  'target_type': 'event',
+                  'target_id': 'evt-women-serving-study-committee-2017',
+                  'role': 'Advisory Member',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'study_committee_service',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-ga45-women-serving-2017'],
+                  'notes': 'Committee service only. This edge does not assign every report-level position or either internal school of thought to Dan Doriani.',
+              },
+              {
+                  'id': 'aff-duncan-women-serving-2017',
+                  'person_id': 'ligon-duncan',
+                  'target_type': 'event',
+                  'target_id': 'evt-women-serving-study-committee-2017',
+                  'role': 'Voting Member',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'study_committee_service',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-ga45-women-serving-2017'],
+                  'notes': 'Committee service only. This edge does not assign every report-level position or either internal school of thought to Ligon Duncan.',
+              },
+              {
+                  'id': 'aff-taylor-women-serving-2017',
+                  'person_id': 'roy-taylor',
+                  'target_type': 'event',
+                  'target_id': 'evt-women-serving-study-committee-2017',
+                  'role': 'Advisory Member',
+                  'confidence': 'confirmed',
+                  'evidence_kind': 'study_committee_service',
+                  'weight': 0,
+                  'score_included': False,
+                  'source_ids': ['src-ga45-women-serving-2017'],
+                  'notes': 'Committee service only. This edge does not assign every report-level position or either internal school of thought to Roy Taylor.',
+              },
+          ]
+          existing_affiliations = {row['id'] for row in affiliations}
+          collisions = existing_affiliations & {row['id'] for row in new_affiliations}
+          if collisions:
+              raise SystemExit(f'affiliation ids already exist: {sorted(collisions)}')
+          affiliations.extend(new_affiliations)
+          affiliations_path.write_text(json.dumps(affiliations, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          PY
+
+      - name: Regenerate identity and overlap outputs
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/build-overlap-analysis.py .
+
+      - name: Commit generated canonical data
+        run: |
+          if git diff --quiet; then
+            echo 'No generated changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/people.json data/affiliations.json sources/normalized analysis/overlap
+          git commit -m 'seed reviewed 2017 committee identities'
+          git push
