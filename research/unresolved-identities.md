@@ -18,6 +18,8 @@ Policy for the remaining Letter 1 queue:
 
 The generated identity review queue remains the working list. A resolved signature is weight 3 as a public-letter action, but identity resolution does not add unrelated network memberships or issue positions.
 
+For the immediate NP-continuity work, **David Lindberg** and **David Richmon** are the two highest-priority Letter 1 checks because their exact normalized names occur in both the confirmed NP printed-name roster and Garris Letter 1 but do not yet share a confirmed canonical identity. Treat them as possible overlaps only until reviewed evidence establishes identity.
+
 ## 2017 Women Serving committee
 
 **Identity resolution is complete.** All 12 official committee members are canonically linked and projected to the app-facing committee event.
@@ -52,11 +54,30 @@ Current evidence establishes Pacific Presbytery as the formal submitting body fo
 
 **Not established:** that Choi was the sole author, drafter, sponsor, or orchestrator of the overture itself. Preserve that distinction unless additional primary evidence is found.
 
-## National Partnership archival pins
+## National Partnership identity coverage and archival pins
 
-Some person-level entries remain below `confirmed` because the source family is known but an exact message/page citation is not yet normalized into the app-facing claim. Continue to distinguish membership, recruitment, committee placement, promoted candidates, and adjacency.
+The normalized NP source layer contains **151 confirmed printed-name members**, but only **43** currently have confirmed canonical person identities. That 28.48% canonical coverage is incomplete and plausibly non-random because people who recur elsewhere are easier to identity-resolve.
+
+Consequences:
+
+- no current canonical NP edge means **membership not established in the current canonical graph**, not confirmed non-membership;
+- do not calculate NP-vs-non-NP risk ratios by assigning everyone without a canonical NP edge to a non-member comparison group;
+- unresolved exact-name overlaps are research leads only, not confirmed identity matches.
+
+Current continuity-analysis priorities:
+
+1. NP ↔ Garris Letter 1: **David Lindberg** and **David Richmon** are the two unresolved exact-name possibilities.
+2. NP ↔ 2022 Overture 15 negative votes: **10** unresolved exact-name possibilities remain.
+3. NP ↔ 2022 NAE-withdrawal protest: **5** unresolved exact-name possibilities remain.
+4. NP ↔ A Faithful PCA can be improved afterward, but the March 2022 file is a cumulative snapshot of the 2021 action rather than an independent later event.
+
+Some person-level entries also remain below `confirmed` because the source family is known but an exact message/page citation is not yet normalized into the app-facing claim. Continue to distinguish membership, recruitment, committee placement, promoted candidates, and adjacency.
 
 Recent exact pins for Bruce O'Neil, Mike Khandjian, Ray Cortese, and Bob Flayhart are already complete and should not be re-researched as unresolved.
+
+Generated continuity analysis:
+
+`analysis/national-partnership/continuity-summary.json`
 
 ## Prayer & Lament later commitment list
 
