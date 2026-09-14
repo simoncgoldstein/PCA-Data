@@ -32,9 +32,9 @@ These documents may contain useful citations and research leads, but their prose
 | Drive source | Repository status as of 2026-09-14 | Required handling |
 | --- | --- | --- |
 | `PCA Study Report on Women in Ministry 2017.pdf` | **Represented.** The official PCA Historical Center report is registered as `src-ga45-women-serving-2017` and normalized under `sources/normalized/general-assembly/`. | Continue using the official PCA URL and normalized report/committee datasets. |
-| `The Public Preaching of Women – by R.L. Dabney _ Reformed Theology at A Puritan's Mind.pdf` | **Drive-only / not yet explicitly registered in the repo source register.** | Add source metadata and an authoritative/original publication reference before using it as a repository evidence source. Do not copy the PDF into the public repo unless redistribution is appropriate. |
-| `Paul on Women Speaking in Church, by B.B. Warfield (1919).pdf` | **Drive-only / not yet explicitly registered in the repo source register.** | Register bibliographic/source metadata and a stable public edition or archive reference before repository use. |
-| `The Deaconess & the Household of God_ A Rejoinder to Dan Barber – Presbyterian Polity.pdf` | **Drive-only / not yet explicitly registered in the repo source register.** | Register the article URL, author/publisher/date, and retrieval metadata if it becomes evidence for a normalized claim. |
+| `The Public Preaching of Women – by R.L. Dabney _ Reformed Theology at A Puritan's Mind.pdf` | **Metadata registered.** See `sources/manifests/companion-theological-sources-2026-09-14.json`; raw Drive PDF is not copied into the public repo and no app-facing source ID exists yet. | Use the registered public-source URL/bibliographic metadata. Promote to `data/sources.json` only if it supports an app-facing claim. |
+| `Paul on Women Speaking in Church, by B.B. Warfield (1919).pdf` | **Metadata registered.** See the companion theological-source manifest; raw Drive PDF is not copied into the public repo and no app-facing source ID exists yet. | Use the PCA Historical Center public edition registered in the manifest. |
+| `The Deaconess & the Household of God_ A Rejoinder to Dan Barber – Presbyterian Polity.pdf` | **Metadata registered.** See the companion theological-source manifest; raw Drive PDF is not copied into the public repo and no app-facing source ID exists yet. | Treat as attributable secondary theological/polity analysis unless a future normalized claim specifically needs it. |
 
 ## Sources discussed in Drive synthesis that are already represented in the repo
 
@@ -51,18 +51,25 @@ The companion corpus discusses several source families that the repository alrea
 
 For these, the repository's primary source records, normalized datasets, and provenance receipts take precedence over citations embedded only in a Drive synthesis document.
 
-## Known source-completeness conclusion
+## Source-completeness conclusion
 
-As of this audit, **not every source file collected in Google Drive is independently registered or preserved in PCA-Data**. The most obvious gaps are the Dabney, Warfield, and Presbyterian Polity/deaconess source PDFs listed above.
+As of this audit, the **known direct source PDFs in the audited Drive corpus are discoverable from this repository either as a fully represented source family or through source metadata**. That does **not** mean every Drive PDF binary is copied into GitHub, nor should it be.
 
-This is a documentation/source-registration gap, not permission to infer claims from those works without citation. Future source-ingestion slices should add metadata and stable source references first, and copy raw binaries only when useful and legally appropriate.
+The remaining distinction is:
+
+- **represented/normalized** — e.g. the 2017 PCA study report;
+- **metadata registered only** — Dabney, Warfield, and the Presbyterian Polity/deaconess rejoinder;
+- **authored synthesis only** — user-authored Drive documents whose cited claims must still be traced to underlying evidence.
+
+If additional source files are later added to Drive, they are not automatically part of PCA-Data until this audit/manifest layer is updated.
 
 ## Maintenance
 
 When a new source is added to the Drive corpus and becomes relevant to PCA-Data:
 
 1. classify it as authored synthesis or evidence source;
-2. register the source in `data/sources.json` if it supports app-facing claims;
-3. preserve or manifest it under `sources/` when appropriate;
-4. add normalized extraction only when needed;
-5. update `research/source-register.md` and this file if the corpus/source-coverage picture changes.
+2. register source/provenance metadata under `sources/manifests/` when appropriate;
+3. register it in `data/sources.json` if it supports app-facing claims;
+4. preserve a raw copy only when useful and legally appropriate;
+5. add normalized extraction only when needed;
+6. update `research/source-register.md` and this file if the corpus/source-coverage picture changes.
