@@ -1,0 +1,106 @@
+name: Fix Garris anchor inheritance (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/fix-garris-anchor-inheritance.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Tighten reviewed-anchor identity inheritance
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('scripts/build-person-crosswalk.py')
+          text = path.read_text(encoding='utf-8')
+
+          old = '''REJECTED_SOURCE_ID_OVERRIDES = {
+              ("a_faithful_pca_2022-03-14", "signature:6"): "andrew-augenstein",
+          }'''
+          new = '''REJECTED_SOURCE_ID_OVERRIDES = {
+              ("a_faithful_pca_2022-03-14", "signature:6"): "andrew-augenstein",
+              # Letter 1 and Letter 2 contain different Jeff Whites by printed context.
+              # A prior generated backfill must not turn the Letter 1 Rio Grande row
+              # into the reviewed Redeemer Downtown / Metro NY identity.
+              ("garris_letter_1", "garris-letter-1:signer:58"): "jeff-white-redeemer-downtown",
+          }'''
+          if old not in text:
+              raise SystemExit('REJECTED_SOURCE_ID_OVERRIDES block drift')
+          text = text.replace(old, new, 1)
+
+          old = '''    if existing_id in seed_ids:
+              seed_name_matches = candidate == normalize_name(seed_by_id[existing_id]["name"])
+              manual_name_matches = MANUAL_SEED_ALIASES.get(candidate, {}).get("person_id") == existing_id
+              if seed_name_matches or manual_name_matches:
+                  valid_existing_id = existing_id
+              elif not rejected_existing_id:
+                  rejected_existing_id = existing_id'''
+          new = '''    if existing_id in seed_ids:
+              seed_name_matches = candidate == normalize_name(seed_by_id[existing_id]["name"])
+              manual_name_matches = MANUAL_SEED_ALIASES.get(candidate, {}).get("person_id") == existing_id
+              if rejected_existing_id == existing_id:
+                  valid_existing_id = None
+              elif seed_name_matches or manual_name_matches:
+                  valid_existing_id = existing_id
+              elif not rejected_existing_id:
+                  rejected_existing_id = existing_id'''
+          if old not in text:
+              raise SystemExit('existing-id validation block drift')
+          text = text.replace(old, new, 1)
+
+          old = '''        if canonical_id and not row.get("existing_id") and not manual and not row.get("reviewed_name_variant"):
+              if not any(rows_share_context(row, peer) for peer in rows if peer is not row):
+                  row_id = None
+                  row_status = "probable_requires_review"
+                  row_method = "exact_name_without_row_level_disambiguator"
+                  row_confidence = 0.65
+                  row_note = "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."'''
+          new = '''        if canonical_id and not row.get("existing_id") and not manual and not row.get("reviewed_name_variant"):
+              candidate_peers = [peer for peer in rows if peer is not row]
+              if method == "preexisting_verified_id":
+                  # A reviewed source-specific anchor may propagate only to rows
+                  # that share context with an anchored row. Unanchored same-name
+                  # rows cannot bootstrap one another into that reviewed identity.
+                  candidate_peers = [
+                      peer for peer in candidate_peers
+                      if peer.get("existing_id") == canonical_id
+                  ]
+              if not any(rows_share_context(row, peer) for peer in candidate_peers):
+                  row_id = None
+                  row_status = "probable_requires_review"
+                  row_method = "exact_name_without_row_level_disambiguator"
+                  row_confidence = 0.65
+                  row_note = "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."'''
+          if old not in text:
+              raise SystemExit('row-level inheritance guard drift')
+          text = text.replace(old, new, 1)
+
+          path.write_text(text, encoding='utf-8')
+          PY
+
+      - name: Rebuild canonical identity and overlap outputs
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/project-garris-signers.py .
+          python3 scripts/build-overlap-analysis.py .
+
+      - name: Commit corrected generated state
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'tighten reviewed identity anchor inheritance'
+          git push
