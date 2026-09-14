@@ -132,7 +132,7 @@ keller_restriction = by_id["keller-2012-authoritative-teaching-elder-restriction
 keller_broad = by_id["keller-2012-broad-women-public-ministry"]
 if "authoritative teaching role" not in keller_restriction["summary"]:
     raise SystemExit("Keller authoritative-teaching boundary drift")
-if "outside authoritative elder role" not in keller_broad["stance"]:
+if "outside that authority" not in keller_broad["summary"]:
     raise SystemExit("Keller broad-ministry boundary drift")
 if "women as elders" not in keller_broad["important_boundary"]:
     raise SystemExit("Keller eldership guardrail missing")
