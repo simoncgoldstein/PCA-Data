@@ -1,0 +1,118 @@
+{
+  "metadata": {
+    "dataset_id": "mcgowan_global_team_2026",
+    "captured_on": "2026-09-14",
+    "source_type": "first_party_organization_roster",
+    "modeling_rule": "McGowan Global Institute roster service is an institutional affiliation, not evidence that every consultant shares the same theology, politics, or network memberships. National Partnership status is copied only where the repository's canonical NP membership dataset independently establishes it.",
+    "overlap_rule": "Personnel overlap among McGowan Global Institute, the National Partnership, the Khandjian Fellowship, and AMR is modeled as overlap, not as proof that one organization is a continuation, successor, or front for another.",
+    "ideological_weight": 0
+  },
+  "organization": {
+    "id": "mcgowan-global-institute",
+    "name": "McGowan Global Institute",
+    "short_name": "MGI",
+    "organization_type": "external_nonprofit",
+    "status": "active",
+    "founded": 2021,
+    "mission_as_stated": "Helping Churches Thrive",
+    "source_url": "https://mcgowanglobal.com/who-we-are/"
+  },
+  "tracked_roster": [
+    {
+      "person_name": "Bruce O'Neil",
+      "normalized_person_id": "bruce-o-neil",
+      "mcgowan_role": "Consultant, Coach",
+      "np_status": "confirmed_in_canonical_np_membership_dataset",
+      "np_evidence": [
+        {
+          "evidence_type": "np_guys_committee_roster",
+          "date": "2018-01-10",
+          "archive_page": 264,
+          "presbytery_as_printed": "Chesapeake",
+          "detail": "Overtures Committee"
+        },
+        {
+          "evidence_type": "np_guys_committee_roster",
+          "date": "2018-02-28",
+          "archive_page": 265,
+          "presbytery_as_printed": "Chesapeake",
+          "detail": "Overtures Committee"
+        }
+      ],
+      "important_boundary": "MGI service is current institutional overlap. The NP membership evidence comes independently from the NP archive."
+    },
+    {
+      "person_name": "Mike Khandjian",
+      "normalized_person_id": "mike-khandjian",
+      "mcgowan_role": "Consultant, Coach",
+      "np_status": "confirmed_in_canonical_np_membership_dataset",
+      "np_evidence": [
+        {
+          "evidence_type": "explicit_member",
+          "date": "2014-03-26",
+          "archive_page": 16,
+          "detail": "Kessler identifies Khandjian as an NP member and organizer of the independently created Fellowship Dinner."
+        },
+        {
+          "evidence_type": "partnership_men_roster",
+          "date": "2015-02-17",
+          "archive_page": 175,
+          "presbytery_as_printed": "Chesapeake",
+          "detail": "Nominating Committee"
+        }
+      ],
+      "important_boundary": "The repository preserves the NP/Fellowship distinction: Khandjian's Fellowship was described in the archive as independent of the NP despite substantial personnel overlap."
+    },
+    {
+      "person_name": "David P. Cassidy",
+      "normalized_person_id": "david-cassidy",
+      "mcgowan_role": "Consultant, Coach",
+      "np_status": "not_found_in_current_canonical_np_membership_dataset",
+      "independent_network_context": [
+        "Founding Executive Board, Alliance for Mission & Renewal",
+        "Current AMR standing-team leadership",
+        "Signer, Garris Letter 1"
+      ],
+      "important_boundary": "Do not label Cassidy an NP member or operative from McGowan/AMR overlap alone. No canonical NP membership record was found for him in the current repository dataset."
+    },
+    {
+      "person_name": "Ray Cortese",
+      "normalized_person_id": "ray-cortese",
+      "mcgowan_role": "Consultant, Coach",
+      "np_status": "confirmed_in_canonical_np_membership_dataset",
+      "np_evidence": [
+        {
+          "evidence_type": "addition",
+          "date": "2013-03-11",
+          "archive_page": 17,
+          "presbytery_as_printed": "Central Florida",
+          "office_as_printed": "TE",
+          "detail": "Listed under National Partnership additions."
+        }
+      ],
+      "important_boundary": "MGI service does not add ideological weight; NP membership is independently established by the archive."
+    },
+    {
+      "person_name": "Bob Flayhart",
+      "normalized_person_id": "bob-flayhart",
+      "mcgowan_role": "Consultant, Coach",
+      "np_status": "confirmed_in_canonical_np_membership_dataset",
+      "np_evidence": [
+        {
+          "evidence_type": "addition",
+          "date": "2013-02-11",
+          "archive_page": 3,
+          "presbytery_as_printed": "Evangel",
+          "office_as_printed": "TE",
+          "detail": "Listed under National Partnership additions."
+        }
+      ],
+      "important_boundary": "MGI service does not add ideological weight; NP membership is independently established by the archive."
+    }
+  ],
+  "source_notes": {
+    "mcgowan_page": "The current McGowan Global Institute Who We Are page lists all five tracked people above as Consultant, Coach and states that MGI was founded in 2021.",
+    "np_dataset": "sources/normalized/national-partnership/confirmed-memberships-canonical.json",
+    "cassidy_negative_finding": "The absence of David Cassidy from the current canonical NP membership dataset is a bounded negative finding, not proof that he never participated in any NP-adjacent activity."
+  }
+}
