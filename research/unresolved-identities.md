@@ -6,7 +6,7 @@ These items are deliberately kept outside confirmed public claims until further 
 
 ## Garris Letter 1 signer identities
 
-The Garris source-ingestion layer is complete, but Letter 1 still has **37 unresolved signer rows** after conservative cross-source matching. Letter 2 is complete at 21/21 canonical identities.
+The Garris source-ingestion layer is complete, but Letter 1 still has **35 unresolved signer rows** after conservative cross-source matching. Letter 2 is complete at 21/21 canonical identities.
 
 Policy for the remaining Letter 1 queue:
 
@@ -18,7 +18,7 @@ Policy for the remaining Letter 1 queue:
 
 The generated identity review queue remains the working list. A resolved signature is weight 3 as a public-letter action, but identity resolution does not add unrelated network memberships or issue positions.
 
-For the immediate NP-continuity work, **David Lindberg** and **David Richmon** are the two highest-priority Letter 1 checks because their exact normalized names occur in both the confirmed NP printed-name roster and Garris Letter 1 but do not yet share a confirmed canonical identity. Treat them as possible overlaps only until reviewed evidence establishes identity.
+The former NP-continuity priority rows **David Lindberg** and **David Richmon** are now reviewed and resolved. Lindberg's historical Metro Atlanta NP context and later North Texas Garris context are preserved as dated ministry contexts rather than forced into a same-presbytery match. Richmon's Pacific Northwest identity is tied through the Green Lake → Trinity Seattle church history.
 
 ## 2017 Women Serving committee
 
@@ -56,7 +56,7 @@ Current evidence establishes Pacific Presbytery as the formal submitting body fo
 
 ## National Partnership identity coverage and archival pins
 
-The normalized NP source layer contains **151 confirmed printed-name members**, but only **43** currently have confirmed canonical person identities. That 28.48% canonical coverage is incomplete and plausibly non-random because people who recur elsewhere are easier to identity-resolve.
+The normalized NP source layer contains **151 confirmed printed-name members**, and **45** now have confirmed canonical person identities. That **29.8%** canonical coverage remains incomplete and plausibly non-random because people who recur elsewhere are easier to identity-resolve.
 
 Consequences:
 
@@ -66,7 +66,7 @@ Consequences:
 
 Current continuity-analysis priorities:
 
-1. NP ↔ Garris Letter 1: **David Lindberg** and **David Richmon** are the two unresolved exact-name possibilities.
+1. NP ↔ Garris Letter 1 targeted exact-name queue is **complete**: David Lindberg and David Richmon are reviewed canonical matches. Current confirmed overlap is 10 people; 25/60 Letter 1 signers are canonical.
 2. NP ↔ 2022 Overture 15 negative votes: **10** unresolved exact-name possibilities remain.
 3. NP ↔ 2022 NAE-withdrawal protest: **5** unresolved exact-name possibilities remain.
 4. NP ↔ A Faithful PCA can be improved afterward, but the March 2022 file is a cumulative snapshot of the 2021 action rather than an independent later event.
