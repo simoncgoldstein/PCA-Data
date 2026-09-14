@@ -6,7 +6,7 @@ This file is the dated handoff for a fresh research or coding agent. Read it aft
 
 ## Repository state
 
-The current data state includes the first reviewed canonical-seeding batch for the 2017 Women Serving committee: Dan Doriani, Ligon Duncan, and Roy Taylor have been added as canonical people and projected to the app-facing committee event.
+The current data state includes two reviewed canonical-seeding batches for the 2017 Women Serving committee. Eight of the twelve committee identities are now canonical and projected to the app-facing committee event.
 
 The repository is no longer a v0.1 scaffold. It now contains a substantial evidence archive, normalized research datasets, canonical app-facing data, identity-resolution machinery, generated overlap analysis, and focused CI validators.
 
@@ -30,27 +30,34 @@ The 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church
 
 Current identity status:
 
+- `leon-brown` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `dan-doriani` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `ligon-duncan` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `irwyn-ince` — canonically resolved and projected to the app graph.
+- `mary-beth-mcgreevy` — canonically resolved from reviewed identity evidence and projected to the app graph; her separately modeled first-person evidence also links to this canonical person.
 - `bruce-o-neil` — canonically resolved and projected to the app graph.
+- `harry-reeder` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `roy-taylor` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- Leon Brown, William Castro, Jeffrey Choi, Lani Jones, Kathy Keller, Mary Beth McGreevy, and Harry Reeder remain unresolved in this dataset unless a later commit changes their normalized IDs.
+- William Castro, Jeffrey Choi, Lani Jones, and Kathy Keller remain unresolved in this dataset unless a later commit changes their normalized IDs.
 
-The applied identity receipt for Doriani, Duncan, and Taylor is `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json`.
+Applied identity receipts:
 
-Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member.
+- `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json` — Dan Doriani, Ligon Duncan, Roy Taylor.
+- `sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json` — Leon Brown, Mary Beth McGreevy, Harry Reeder.
+
+Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member. Mary Beth McGreevy's first-person position evidence remains separately modeled and zero-weight.
 
 ## Immediate next slice
 
-Continue the 2017 Women Serving identity pass in another small evidence-backed batch. Resolve only identities that can be established deterministically from primary, first-party, or already-normalized corroborating evidence.
+Continue the 2017 Women Serving identity pass with the remaining four names: William Castro, Jeffrey Choi, Lani Jones, and Kathy Keller.
 
-Preferred target size: **2–3 committee identities at most**.
+Resolve only identities that can be established deterministically from primary, first-party, or already-normalized corroborating evidence. Prefer another **2–3 person batch** if the evidence quality is uneven rather than forcing all four into one PR.
 
-For each identity resolved, the slice should update together:
+For each identity resolved, update together:
 
 - the canonical person layer;
 - the normalized 2017 report and person-edge dataset;
+- any person-specific evidence already present in the normalized source;
 - the app-facing committee-service affiliation;
 - the focused validator;
 - any generated outputs made stale by the canonical change.
