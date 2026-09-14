@@ -1,0 +1,98 @@
+{
+  "receipt_id": "np-garris-continuity-identity-evidence-batch1-2026-09-14",
+  "reviewed_on": "2026-09-14",
+  "scope": "Targeted identity review for the two exact-name National Partnership ↔ Garris Letter 1 overlaps prioritized by the bounded continuity analysis.",
+  "status": "reviewed_canonical_identity_evidence",
+  "method": "Each decision joins the primary National Partnership membership record to the 2024 Garris Letter 1 signer only where independent denominational/church evidence supplies a coherent person-level ministry identity. Historical presbytery changes are treated as dated context, not contradictions. This receipt establishes identity only; NP membership and Garris signing remain separately sourced actions.",
+  "guardrails": [
+    "Exact-name overlap alone is not sufficient for a canonical identity decision.",
+    "National Partnership membership remains sourced only to the NP archive; signing Garris Letter 1 does not establish NP membership by itself.",
+    "The 2024 Garris letter remains the primary source for the signature and contemporaneous church/presbytery context.",
+    "A historical presbytery change is not normalized away: David Lindberg's 2018 Metro Atlanta context and 2024 North Texas context are retained as dated facts.",
+    "No ideological position beyond the separately modeled NP membership and Garris Letter 1 public action is inferred from these identity resolutions."
+  ],
+  "evidence": [
+    {
+      "name_as_printed": "David Richmon",
+      "canonical_person_id": "david-richmon",
+      "np_context": {
+        "date": "2018-02-28",
+        "archive_page": 265,
+        "presbytery_as_printed": "PNW",
+        "evidence_type": "np_guys_committee_roster"
+      },
+      "garris_letter_1": {
+        "print_order": 39,
+        "institution_as_printed": "Trinity Seattle",
+        "presbytery_as_printed": "Pacific NW"
+      },
+      "independent_sources": [
+        {
+          "url": "https://www.trinitychurchseattle.org/leadership-staff",
+          "publisher": "Trinity Church Seattle",
+          "source_kind": "first_party_church",
+          "evidence_summary": "Trinity identifies David Richmon as Senior Pastor and states that he joined the same congregation in 2009 when it was Green Lake Presbyterian, later becoming Senior Pastor and overseeing the move to Ballard."
+        },
+        {
+          "url": "https://www.pcahistory.org/pca/ga/43rd_pcaga_2015.pdf",
+          "publisher": "PCA Historical Center",
+          "source_kind": "official_denominational_directory",
+          "evidence_summary": "The official 2015 PCA GA directory lists David Richmon at Green Lake in Pacific Northwest Presbytery."
+        },
+        {
+          "url": "https://www.pcahistory.org/pca/succession/Washington.pdf",
+          "publisher": "PCA Historical Center",
+          "source_kind": "official_denominational_history",
+          "evidence_summary": "The PCA succession record lists David Richmon at Green Lake Presbyterian Church in Pacific Northwest beginning in 2014, supplying historical continuity with the later Trinity Seattle identity."
+        }
+      ],
+      "identity_reasoning": "The NP record, official PCA history, and 2024 letter all place the same exact-name PCA minister in Pacific Northwest. Trinity's first-party history explicitly identifies Trinity as the congregation formerly known as Green Lake Presbyterian and identifies David Richmon's continuous service there. This is deterministic person-level continuity, not name-only matching.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "David Lindberg",
+      "canonical_person_id": "david-lindberg",
+      "np_context": {
+        "date": "2018-02-28",
+        "archive_page": 265,
+        "presbytery_as_printed": "Metro Atlanta",
+        "evidence_type": "np_guys_committee_roster"
+      },
+      "garris_letter_1": {
+        "print_order": 32,
+        "institution_as_printed": "Christ the King",
+        "presbytery_as_printed": "North Texas"
+      },
+      "independent_sources": [
+        {
+          "url": "https://www.crosspreach.com/sermons/listall/page%3A5011",
+          "publisher": "CrossPreach sermon archive",
+          "source_kind": "contemporaneous_sermon_archive",
+          "evidence_summary": "The archive records David Lindberg preaching at ChristChurch Atlanta in October 2017, independently anchoring the exact-name minister in Atlanta during the NP period."
+        },
+        {
+          "url": "https://byfaithonline.com/ministry-transitions-11/",
+          "publisher": "byFaith",
+          "source_kind": "pca_denominational_reporting",
+          "evidence_summary": "The PCA's byFaith reports David Lindberg moving from assistant pastor of ChristChurch Presbyterian in Atlanta to assistant pastor of Covenant Presbyterian Church in Cherry Hill, New Jersey, documenting the post-Atlanta ministry transition."
+        },
+        {
+          "url": "https://www.ntpresbytery.org/churches",
+          "publisher": "North Texas Presbytery",
+          "source_kind": "first_party_presbytery",
+          "evidence_summary": "North Texas Presbytery currently lists Rev. David Lindberg at Christ the King Church in Midlothian."
+        },
+        {
+          "url": "https://www.pcahistory.org/pca/ga/51st_pcaga_2024_vol01.pdf",
+          "publisher": "PCA Historical Center",
+          "source_kind": "official_denominational_minutes",
+          "evidence_summary": "The official 2024 PCA GA minutes list TE David Lindberg of North Texas Presbytery, independently corroborating the 2024 letter's office/presbytery identity."
+        }
+      ],
+      "identity_reasoning": "The NP archive places exact-name David Lindberg in Metro Atlanta in 2018; contemporaneous sermon evidence places a PCA minister of that name at ChristChurch Atlanta in 2017, and byFaith explicitly records that Atlanta minister's 2019 move to Covenant Presbyterian in Cherry Hill. Official/current PCA sources later place exact-name TE David Lindberg at Christ the King / North Texas in 2024. The dated chain explains rather than erases the presbytery change. On review this is high-confidence identity continuity, while the historical role transitions remain separate facts.",
+      "review_state": "approved_for_canonical_application"
+    }
+  ],
+  "approved_identity_count": 2,
+  "application_note": "Apply only the two person-specific canonical IDs above to the named NP membership and Garris Letter 1 rows. Do not relax global same-name matching or use these decisions to merge other David Lindberg or David Richmon records without independent context."
+}

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 1315,
+    "record_count": 1313,
     "rule": "Rows may appear because of unresolved status, a first/last variant collision key, or initials-only spelling. Review never implies identity."
   },
   "records": [
@@ -297,13 +297,11 @@
       "source_row_locator": "signature:151",
       "name_as_printed": "Rev. David Lindberg",
       "normalized_candidate": "david lindberg",
-      "match_status": "ambiguous",
+      "match_status": "probable_requires_review",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-00061",
@@ -2369,13 +2367,11 @@
       "source_row_locator": "signature:170",
       "name_as_printed": "Rev. David Lindberg",
       "normalized_candidate": "david lindberg",
-      "match_status": "ambiguous",
+      "match_status": "probable_requires_review",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-00653",
@@ -8715,13 +8711,11 @@
       "source_row_locator": "garris-letter-1:signer:32",
       "name_as_printed": "David Lindberg",
       "normalized_candidate": "david lindberg",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-01846",
@@ -8748,18 +8742,6 @@
       "initials_only_name": false,
       "conflicting_fields": [],
       "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-01849",
-      "source_dataset": "garris_letter_1",
-      "source_row_locator": "garris-letter-1:signer:39",
-      "name_as_printed": "David Richmon",
-      "normalized_candidate": "david richmon",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-01854",
@@ -11675,25 +11657,11 @@
       "source_row_locator": "confirmed_member:40:david lindberg",
       "name_as_printed": "David Lindberg",
       "normalized_candidate": "david lindberg",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
-      "crosswalk_id": "identity-row-02725",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:41:david richmon",
-      "name_as_printed": "David Richmon",
-      "normalized_candidate": "david richmon",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
       "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02727",
