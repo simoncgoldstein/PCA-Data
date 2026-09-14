@@ -623,5 +623,35 @@
     "source_ids": [
       "src-ga49-vol1-nae"
     ]
+  },
+  {
+    "id": "aff-ince-women-serving-2017",
+    "person_id": "irwyn-ince",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Voting Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Irwyn Ince."
+  },
+  {
+    "id": "aff-oneil-women-serving-2017",
+    "person_id": "bruce-o-neil",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Voting Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Bruce O’Neil."
   }
 ]

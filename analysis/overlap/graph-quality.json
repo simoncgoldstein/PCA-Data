@@ -9,7 +9,7 @@
     "organization_nodes": 20,
     "church_nodes": 1970,
     "presbytery_nodes": 88,
-    "event_nodes": 16
+    "event_nodes": 17
   },
   "edges": {
     "confirmed_identity_dataset_edges": 937,

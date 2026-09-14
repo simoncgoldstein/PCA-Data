@@ -34,6 +34,14 @@
     "source_ids": ["src-amr-center-2026"]
   },
   {
+    "id": "evt-women-serving-study-committee-2017",
+    "name": "PCA Ad Interim Committee on Women Serving in the Ministry of the Church",
+    "event_type": "study_committee",
+    "year": 2017,
+    "source_ids": ["src-ga45-women-serving-2017"],
+    "notes": "Committee service records participation on the study committee only. It does not establish agreement with every report-level position or either internal school of thought; individual positions require separate evidence."
+  },
+  {
     "id": "evt-revoice-2018",
     "name": "First Revoice Conference hosted at Memorial Presbyterian Church",
     "event_type": "conference_and_controversy",

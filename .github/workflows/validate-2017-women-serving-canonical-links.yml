@@ -6,6 +6,9 @@ on:
     branches: [main]
     paths:
       - "data/people.json"
+      - "data/events.json"
+      - "data/affiliations.json"
+      - "data/sources.json"
       - "sources/normalized/general-assembly/2017-women-serving-ministry-report.json"
       - "sources/normalized/general-assembly/2017-women-serving-ministry-person-edges.json"
       - "scripts/validate-2017-women-serving-canonical-links.py"
