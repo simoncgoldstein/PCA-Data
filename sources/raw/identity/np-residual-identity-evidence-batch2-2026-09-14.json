@@ -1,0 +1,235 @@
+{
+  "receipt_id": "np-residual-identity-evidence-batch2-2026-09-14",
+  "reviewed_on": "2026-09-14",
+  "scope": "Targeted review of all remaining exact-name National Partnership overlap candidates across the A Faithful PCA June 2021 and March 2022 signer snapshots and the 2019 Warhurst protest signer roster.",
+  "status": "reviewed_canonical_identity_evidence",
+  "approved_identity_count": 18,
+  "canonical_np_links_added_count": 14,
+  "targeted_datasets": [
+    "a_faithful_pca_2021-06-11",
+    "a_faithful_pca_2022-03-14",
+    "warhurst_protest_2019"
+  ],
+  "method": "Each identity is approved only where an existing reviewed identity, matching office/presbytery/institution context, or independent official/first-party historical evidence bridges the National Partnership record to the later source row. Same-name overlap alone is never sufficient.",
+  "guardrails": [
+    "Identity resolution connects separately sourced facts to the same person; it does not infer a generic ideological label or agreement on unrelated issues.",
+    "National Partnership membership remains sourced only from explicit membership/addition/Partnership-roster evidence already admitted to the canonical NP source layer.",
+    "A Faithful PCA and Warhurst participation remain distinct public actions and do not themselves establish NP membership.",
+    "Presbytery changes are retained as dated ministry history rather than rewritten into same-context matches.",
+    "David Ridenhour's NP archival presbytery label is preserved as printed even though official 2018-2019 PCA records place him in North Texas.",
+    "Tag Tuck's source-level office conflict is preserved: the NP archive prints TE while the 2019 Warhurst/attendance material prints RE; this receipt resolves identity, not the office discrepancy.",
+    "No global name-matching rule is relaxed by these person-specific decisions."
+  ],
+  "evidence": [
+    {
+      "name_as_printed": "Blake Altman",
+      "canonical_person_id": "blake-altman",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "North Texas", "office_as_printed": "TE", "evidence_summary": "2014 explicit addition plus 2014 NP committee roster."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Hills and Plains Presbytery", "office_as_printed": "Rev.", "detail": "Senior Pastor, Trinity Presbyterian, Owasso, OK"}],
+      "independent_sources": [
+        {"url": "https://new.express.adobe.com/page/75pNo/", "publisher": "Trinity Church Owasso historical page", "source_kind": "first_party_church_history", "evidence_summary": "States that in summer 2011 Rev. Blake Altman was called by the pastoral search committee and North Texas Presbytery to move from Princeton to lead the Owasso congregation."},
+        {"url": "https://www.trinityowasso.com/blake-altman", "publisher": "Trinity Presbyterian Church", "source_kind": "first_party_church", "evidence_summary": "Identifies Rev. Dr. Blake Altman as Trinity pastor and a former moderator of Hills and Plains Presbytery."}
+      ],
+      "identity_reasoning": "The first-party church history directly bridges the North Texas call reflected in the NP context to Altman's later Trinity Owasso / Hills and Plains ministry.",
+      "boundary": "The presbytery transition is treated as dated ministry history; identity resolution does not imply every NP position."
+    },
+    {
+      "name_as_printed": "Charles Garland",
+      "canonical_person_id": "charles-garland",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": null, "office_as_printed": "TE", "evidence_summary": "2014 named NP committee roster."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Arizona Presbytery", "office_as_printed": "Rev.", "detail": "Pastor, Midtown Presbyterian Church, Tucson, AZ"}],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/40th_pcaga_2012.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2012 minutes identify TE Charles Garland of Georgia Foothills."},
+        {"url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2019 attendance identifies Charles Garland as a Teaching Elder at Midtown in Tucson, Arizona."},
+        {"url": "https://pcahistory.org/pca/succession/Arizona.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_history", "evidence_summary": "Lists Charles Garland as organizing pastor of Midtown Presbyterian Mission in Tucson beginning in 2019."}
+      ],
+      "identity_reasoning": "The exact-name PCA Teaching Elder is independently documented before the 2014 NP roster and later at the same Midtown/Arizona context printed by A Faithful PCA.",
+      "boundary": "No current role beyond the dated sources is inferred."
+    },
+    {
+      "name_as_printed": "Dan Herron",
+      "canonical_person_id": "dan-herron",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Central Indiana", "office_as_printed": "TE", "evidence_summary": "Repeated 2015-2019 Partnership committee records, including a 2019 explicit NP-members roster."},
+      "target_contexts": [{"dataset": "warhurst_protest_2019", "presbytery_as_printed": "Central Indiana", "office_as_printed": "TE", "print_order": 77}],
+      "independent_sources": [{"url": "https://www.pcahistory.org/pca/ga/43rd_pcaga_2015.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2015 PCA records identify TE Dan Herron of Central Indiana."}],
+      "identity_reasoning": "Exact name, Teaching Elder office, and Central Indiana Presbytery agree across NP, the official protest roster, and independent official PCA records.",
+      "boundary": "Identity only; the protest signature and NP membership remain separately sourced actions."
+    },
+    {
+      "name_as_printed": "David Goneau",
+      "canonical_person_id": "david-goneau",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Philadelphia", "office_as_printed": "TE", "evidence_summary": "2013 explicit NP addition."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Philadelphia Metro West Presbytery", "office_as_printed": "Rev.", "detail": "Counselor, Applegate and Associates Counseling / Renewal, Bryn Mawr, PA"}],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/37th_pcaga_2009.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2009 PCA roster lists David Goneau as a Teaching Elder in Philadelphia at New Life."},
+        {"url": "https://www.pcahistory.org/pca/ga/39th_pcaga_2011.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2011 PCA roster again lists David Goneau in Philadelphia."}
+      ],
+      "identity_reasoning": "The uncommon exact-name PCA Teaching Elder is independently anchored in Philadelphia before the NP record; the later Philadelphia Metro West/Bryn Mawr signature is a geographically adjacent dated ministry context.",
+      "boundary": "The presbytery change is preserved; it is not forced into a same-presbytery match."
+    },
+    {
+      "name_as_printed": "David Lindberg",
+      "canonical_person_id": "david-lindberg",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Metro Atlanta", "office_as_printed": null, "evidence_summary": "2018 NP committee roster; canonical identity already reviewed."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "New Jersey Presbytery", "office_as_printed": "Rev.", "detail": "Pastor/Planter, Immanuel Church, Burlington County, NJ"}],
+      "independent_sources": [{"repository_receipt": "sources/raw/identity/np-garris-continuity-identity-evidence-batch1-2026-09-14.json", "source_kind": "prior_reviewed_identity_receipt", "evidence_summary": "Prior reviewed evidence traces Lindberg from Metro Atlanta through New Jersey ministry and later North Texas."}],
+      "identity_reasoning": "The existing reviewed identity receipt already establishes the historical ministry chain needed to connect the 2021 New Jersey signature.",
+      "boundary": "Historical presbytery changes remain dated facts."
+    },
+    {
+      "name_as_printed": "David Ridenhour",
+      "canonical_person_id": "david-ridenhour",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Hills and Plains", "office_as_printed": "TE", "evidence_summary": "2019 explicit NP-members committee roster; presbytery label preserved as printed."},
+      "target_contexts": [{"dataset": "warhurst_protest_2019", "presbytery_as_printed": "North Texas", "office_as_printed": "TE", "print_order": 181}],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/46th_pcaga_2018.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2018 roster places TE David Ridenhour at Metrocrest in North Texas."},
+        {"url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2019 roster places TE David Ridenhour at Christ in Carrollton, North Texas."},
+        {"url": "https://www.pcahistory.org/pca/ga/48th_pcaga_2020_reports.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_report", "evidence_summary": "Official report records David Ridenhour removed from office by North Texas on 2019-09-26."}
+      ],
+      "identity_reasoning": "Official 2018-2019 PCA records independently anchor the exact-name Teaching Elder in North Texas, matching the Warhurst roster. The NP Hills and Plains label conflicts with these official dated sources and is retained only as archival wording.",
+      "boundary": "Resolving the person does not certify the NP presbytery label; source conflict is preserved verbatim."
+    },
+    {
+      "name_as_printed": "David Wallover",
+      "canonical_person_id": "david-wallover",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": null, "office_as_printed": "TE", "evidence_summary": "2014 named NP committee roster."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Ohio Presbytery", "office_as_printed": "Rev. Dr.", "detail": "Senior Pastor, Harvest Presbyterian Church, Medina, OH"}, {"dataset": "warhurst_protest_2019", "presbytery_as_printed": "Ohio", "office_as_printed": "TE", "print_order": 196}],
+      "independent_sources": [{"repository_person_id": "david-wallover", "source_kind": "existing_canonical_identity", "evidence_summary": "AFP and Warhurst rows already carry the same reviewed canonical person ID."}],
+      "identity_reasoning": "Existing canonical AFP and Warhurst rows establish the exact person; the reviewed NP committee row is attached to that identity.",
+      "boundary": "NP membership is sourced only from the NP archive."
+    },
+    {
+      "name_as_printed": "Hansoo Jin",
+      "canonical_person_id": "hansoo-jin",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Korean Capital", "office_as_printed": null, "evidence_summary": "2018 repeated NP committee rosters; NP row already canonical."},
+      "target_contexts": [{"dataset": "warhurst_protest_2019", "presbytery_as_printed": "Korean Capitol", "office_as_printed": "TE", "print_order": 198}],
+      "independent_sources": [{"repository_person_id": "hansoo-jin", "source_kind": "existing_canonical_identity", "evidence_summary": "AFP rows already identify Hansoo Jin in Korean Capital Presbytery and the NP row already carries the same canonical ID."}],
+      "identity_reasoning": "The exact-name minister and same Korean Capital context are independently canonical elsewhere; the protest's 'Korean Capitol' spelling is a source variant.",
+      "boundary": "The printed presbytery spelling is preserved."
+    },
+    {
+      "name_as_printed": "Jeff Schneider",
+      "canonical_person_id": "jeff-schneider",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": null, "office_as_printed": "TE", "evidence_summary": "2014 named NP committee roster."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2022-03-14", "presbytery_as_printed": "Chicago Metro Presbytery", "office_as_printed": "Rev.", "detail": "Pastor, Boulevard Presbyterian Church, Oak Park, IL"}],
+      "independent_sources": [{"url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2014 PCA roster lists Teaching Elder Jeff Schneider at Covenant in Chicago Metro."}],
+      "identity_reasoning": "The NP record and official 2014 PCA record independently identify TE Jeff Schneider in the same year; the later AFP signature remains in Chicago Metro.",
+      "boundary": "The later church assignment is treated as dated ministry context, not a current-role claim."
+    },
+    {
+      "name_as_printed": "Jon Price",
+      "canonical_person_id": "jon-price",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Pittsburgh Presbytery", "office_as_printed": "TE", "evidence_summary": "Multiple 2014-2018 NP records, including explicit NP member nominee lists and 2018 Pittsburgh committee roster."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Pittsburgh Presbytery", "office_as_printed": "Rev.", "detail": "Senior Pastor, Covenant Community Presbyterian, Wexford, PA"}],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/43rd_pcaga_2015.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2015 roster lists Jon Price at Covenant Community in Wexford, Pittsburgh Presbytery."},
+        {"url": "https://www.pcapittsburgh.org/mna", "publisher": "Pittsburgh Presbytery", "source_kind": "first_party_presbytery", "evidence_summary": "Presbytery church-planting page names Jon Price as the church-planting contact."}
+      ],
+      "identity_reasoning": "Exact name, Teaching Elder context, Pittsburgh Presbytery, and Covenant Community ministry align across independent source families.",
+      "boundary": "No Jon/Jonathan global alias is created."
+    },
+    {
+      "name_as_printed": "Justin Woodall",
+      "canonical_person_id": "justin-woodall",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": null, "office_as_printed": "TE", "evidence_summary": "2014 named NP committee roster."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Southwest Florida Presbytery", "office_as_printed": "Rev.", "detail": "Pastor, City Church, St. Petersburg, FL"}, {"dataset": "warhurst_protest_2019", "presbytery_as_printed": "Southwest Florida", "office_as_printed": "TE", "print_order": 120}],
+      "independent_sources": [{"repository_person_id": "justin-woodall", "source_kind": "existing_canonical_identity", "evidence_summary": "AFP and Warhurst records already share the canonical Justin Woodall identity."}],
+      "identity_reasoning": "Existing canonical later-action rows establish the person; the reviewed 2014 NP committee row is attached to the same identity.",
+      "boundary": "NP membership is not inferred from later action; it remains separately sourced."
+    },
+    {
+      "name_as_printed": "Mark Bates",
+      "canonical_person_id": "mark-bates",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Rocky Mtn", "office_as_printed": null, "evidence_summary": "Multiple explicit NP membership records, including 2013 '(NP)' and 2017 'He is a Partnership member' language."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Rocky Mountain Presbytery", "office_as_printed": "Rev.", "detail": "Senior Director of US Operations, Mission to the World"}],
+      "independent_sources": [{"repository_person_id": "mark-bates", "source_kind": "existing_canonical_identity", "evidence_summary": "AFP signer row already carries the canonical Mark Bates identity in Rocky Mountain Presbytery."}],
+      "identity_reasoning": "The explicit NP-member record and existing canonical AFP identity share the exact person and Rocky Mountain context.",
+      "boundary": "Membership does not establish positions beyond the separately documented actions."
+    },
+    {
+      "name_as_printed": "Omar Ortiz",
+      "canonical_person_id": "omar-ortiz",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": null, "office_as_printed": null, "evidence_summary": "2013 archive messages explicitly call Omar Ortiz an NP member; canonical identity reviewed in batch1."},
+      "target_contexts": [{"dataset": "warhurst_protest_2019", "presbytery_as_printed": "Southern New England", "office_as_printed": "TE", "print_order": 105}],
+      "independent_sources": [{"repository_receipt": "sources/raw/identity/np-postarchive-identity-evidence-batch1-2026-09-14.json", "source_kind": "prior_reviewed_identity_receipt", "evidence_summary": "Prior reviewed evidence anchors the rare exact-name PCA Teaching Elder across earlier and later PCA ministry contexts."}],
+      "identity_reasoning": "The existing reviewed identity plus the rare exact-name Teaching Elder record supports the 2019 protest row; the Southern New England context is retained as dated source data.",
+      "boundary": "No current presbytery is inferred from the 2019 row."
+    },
+    {
+      "name_as_printed": "Rob Wootton",
+      "canonical_person_id": "rob-wootton",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "James River", "office_as_printed": "TE", "evidence_summary": "2019 explicit NP-members committee roster; canonical identity reviewed in batch1."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Rocky Mountain Presbytery", "office_as_printed": "Rev.", "detail": "AFP signer"}],
+      "independent_sources": [{"repository_receipt": "sources/raw/identity/np-postarchive-identity-evidence-batch1-2026-09-14.json", "source_kind": "prior_reviewed_identity_receipt", "evidence_summary": "Prior reviewed evidence documents the James River → Rocky Mountain → Northern California ministry chain."}],
+      "identity_reasoning": "The prior reviewed chain directly establishes Rob Wootton in Rocky Mountain by 2021.",
+      "boundary": "Presbytery moves remain dated facts."
+    },
+    {
+      "name_as_printed": "Sam DeSocio",
+      "canonical_person_id": "sam-desocio",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "New York State", "office_as_printed": null, "evidence_summary": "Repeated 2018 NP committee rosters."},
+      "target_contexts": [{"dataset": "a_faithful_pca_2021-06-11", "presbytery_as_printed": "Heritage Presbytery", "office_as_printed": "Rev.", "detail": "Lead Pastor, Good News Church, Hockessin, DE"}],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/46th_pcaga_2018.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2018 roster lists Teaching Elder Sam DeSocio at Good Shepherd in Cobleskill, New York State."},
+        {"url": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2021 roster lists Sam DeSocio at Good News in Hockessin, Heritage Presbytery."}
+      ],
+      "identity_reasoning": "Official records independently trace the rare exact-name Teaching Elder from New York State in 2018 to Heritage/Hockessin by 2021.",
+      "boundary": "The move is preserved as dated ministry history."
+    },
+    {
+      "name_as_printed": "Sean Roberts",
+      "canonical_person_id": "sean-roberts",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Northern New England", "office_as_printed": "TE", "evidence_summary": "Repeated Partnership records; earlier 2013 addition was printed under Philadelphia."},
+      "target_contexts": [{"dataset": "warhurst_protest_2019", "presbytery_as_printed": "Northern New England", "office_as_printed": "TE", "print_order": 50}],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/40th_pcaga_2012.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2012 roster lists Sean Roberts at New Life in Philadelphia."},
+        {"url": "https://www.pcahistory.org/pca/ga/44th_pcaga_2016.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2016 roster lists Sean Roberts at Christ the Redeemer in Portland, Northern New England."},
+        {"url": "https://www.pressherald.com/2014/08/30/religion-calendar-41/", "publisher": "Portland Press Herald", "source_kind": "contemporaneous_local_reporting", "evidence_summary": "2014 report says Sean Roberts moved from New Life Presbyterian in suburban Philadelphia to pastor Christ the Redeemer in Portland."}
+      ],
+      "identity_reasoning": "Official and contemporaneous sources directly trace the same Teaching Elder from Philadelphia to Northern New England before the 2019 protest.",
+      "boundary": "Historical presbytery changes are preserved."
+    },
+    {
+      "name_as_printed": "Tag Tuck",
+      "canonical_person_id": "tag-tuck",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Blue Ridge", "office_as_printed": "TE", "evidence_summary": "2019 explicit NP-members committee roster; office label preserved as printed."},
+      "target_contexts": [{"dataset": "warhurst_protest_2019", "presbytery_as_printed": "Blue Ridge", "office_as_printed": "RE", "print_order": 147}],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/succession/Virginia.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_history", "evidence_summary": "Lists Tag Tuck as organizing pastor of Word and Table PCA in Blue Ridge beginning in 2017."},
+        {"url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2019 attendance report places Tag Tuck at Word and Table in Blue Ridge in the Ruling Elder column."}
+      ],
+      "identity_reasoning": "The rare exact name, same Blue Ridge context, and Word and Table ministry identify one person. The sources conflict on office classification.",
+      "boundary": "Identity resolution does not adjudicate the TE/RE discrepancy: NP's TE label and the 2019 protest/attendance RE label remain preserved verbatim."
+    },
+    {
+      "name_as_printed": "Todd Gwennap",
+      "canonical_person_id": "todd-gwennap",
+      "review_state": "approved_for_canonical_application",
+      "np_context": {"presbytery_as_printed": "Eastern Carolina", "office_as_printed": "TE", "evidence_summary": "Repeated 2015 Partnership records."},
+      "target_contexts": [{"dataset": "warhurst_protest_2019", "presbytery_as_printed": "North Texas", "office_as_printed": "TE", "print_order": 106}],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/43rd_pcaga_2015.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2015 roster lists Todd Gwennap in Eastern Carolina."},
+        {"url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2019 roster lists Todd Gwennap at Christ the King in Lancaster, North Texas."}
+      ],
+      "identity_reasoning": "Official PCA records independently document the exact-name Teaching Elder moving from Eastern Carolina to North Texas before the 2019 protest.",
+      "boundary": "The presbytery transition is preserved as dated context."
+    }
+  ]
+}
