@@ -270,6 +270,26 @@
     "profile_status": "seeded"
   },
   {
+    "id": "jeffrey-choi",
+    "name": "Jeffrey Choi",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in 2017 official committee source; later/current role not modeled in this slice",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "kathy-keller",
+    "name": "Kathy Keller",
+    "ordination": null,
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA committee service documented in 2017 official source; current role not modeled in this slice",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",

@@ -743,5 +743,35 @@
       "src-ga45-women-serving-2017"
     ],
     "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Harry Reeder."
+  },
+  {
+    "id": "aff-choi-women-serving-2017",
+    "person_id": "jeffrey-choi",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Voting Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Jeffrey Choi; his separately attributable dissent should be modeled from its own evidence."
+  },
+  {
+    "id": "aff-keller-women-serving-2017",
+    "person_id": "kathy-keller",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Voting Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Kathy Keller; her published views require separate person-specific evidence."
   }
 ]
