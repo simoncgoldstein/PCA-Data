@@ -19,10 +19,8 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
-
           path = Path('scripts/build-person-crosswalk.py')
           text = path.read_text(encoding='utf-8')
-
           override_anchor = '    ("a_faithful_pca_2022-03-14", "signature:6"): "andrew-augenstein",\n'
           override_insert = (
               override_anchor
@@ -32,30 +30,15 @@ jobs:
               + '    ("garris_letter_1", "garris-letter-1:signer:58"): "jeff-white-redeemer-downtown",\n'
           )
           if 'garris-letter-1:signer:58' not in text:
-              if override_anchor not in text:
-                  raise SystemExit('override insertion anchor drift')
               text = text.replace(override_anchor, override_insert, 1)
-
-          old = (
-              '        if seed_name_matches or manual_name_matches:\n'
-              '            valid_existing_id = existing_id\n'
-          )
-          new = (
-              '        if rejected_existing_id == existing_id:\n'
-              '            valid_existing_id = None\n'
-              '        elif seed_name_matches or manual_name_matches:\n'
-              '            valid_existing_id = existing_id\n'
-          )
+          old = '        if seed_name_matches or manual_name_matches:\n            valid_existing_id = existing_id\n'
+          new = '        if rejected_existing_id == existing_id:\n            valid_existing_id = None\n        elif seed_name_matches or manual_name_matches:\n            valid_existing_id = existing_id\n'
           if 'if rejected_existing_id == existing_id:' not in text:
-              if old not in text:
-                  raise SystemExit('existing-id validation anchor drift')
               text = text.replace(old, new, 1)
-
           old = '            if not any(rows_share_context(row, peer) for peer in rows if peer is not row):\n'
           new = (
               '            candidate_peers = [peer for peer in rows if peer is not row]\n'
               '            if method == "preexisting_verified_id":\n'
-              '                # Reviewed anchors propagate only through context shared with an anchored row.\n'
               '                candidate_peers = [\n'
               '                    peer for peer in candidate_peers\n'
               '                    if peer.get("existing_id") == canonical_id\n'
@@ -63,28 +46,25 @@ jobs:
               '            if not any(rows_share_context(row, peer) for peer in candidate_peers):\n'
           )
           if 'candidate_peers = [peer for peer in rows if peer is not row]' not in text:
-              if old not in text:
-                  raise SystemExit('row-level inheritance anchor drift')
               text = text.replace(old, new, 1)
-
           path.write_text(text, encoding='utf-8')
           PY
 
-      - name: Rebuild canonical identity and overlap outputs
+      - name: Diagnose conservative rebuild
         run: |
           python3 scripts/build-person-crosswalk.py .
           python3 scripts/project-garris-signers.py .
-          python3 scripts/build-overlap-analysis.py .
-          python3 scripts/validate-garris-letter-signers.py .
-
-      - name: Commit corrected generated state
-        run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A
-          if git diff --cached --quiet; then
-            echo 'No changes to commit.'
-            exit 0
-          fi
-          git commit -m 'tighten reviewed identity anchor inheritance'
-          git push
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          data = json.loads(Path('sources/normalized/public-statements/garris-letters-2024.json').read_text())
+          for letter in data['letters']:
+              unresolved = [
+                  (r['print_order'], r['name_as_printed'], r.get('institution_as_printed'), r.get('presbytery_as_printed'))
+                  for r in letter['signers'] if not r.get('normalized_person_id')
+              ]
+              print(letter['letter_id'], 'unresolved=', len(unresolved))
+              for row in unresolved:
+                  print('  ', row)
+          PY
+          exit 1
