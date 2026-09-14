@@ -35,14 +35,17 @@
       "edge_id": "2017-women-serving-committee-02",
       "name_as_printed": "TE William Castro",
       "person_name": "William Castro",
-      "normalized_person_id": null,
-      "identity_status": "unresolved",
+      "normalized_person_id": "william-castro",
+      "identity_status": "resolved_reviewed_canonical_person",
       "office_as_printed": "TE",
       "role": "Advisory Member",
       "evidence_kind": "study_committee_service",
       "confidence": "confirmed",
       "weight": 0,
-      "score_included": false
+      "score_included": false,
+      "identity_review_status": "canonical_seed_applied",
+      "identity_review_receipt": "sources/raw/identity/2017-women-serving-identity-evidence-batch4-2026-09-14.json",
+      "proposed_canonical_person_id": "william-castro"
     },
     {
       "edge_id": "2017-women-serving-committee-03",
@@ -109,14 +112,17 @@
       "edge_id": "2017-women-serving-committee-07",
       "name_as_printed": "Mrs. Lani Jones",
       "person_name": "Lani Jones",
-      "normalized_person_id": null,
-      "identity_status": "unresolved",
+      "normalized_person_id": "lani-jones",
+      "identity_status": "resolved_reviewed_canonical_person",
       "office_as_printed": null,
       "role": "Advisory Member",
       "evidence_kind": "study_committee_service",
       "confidence": "confirmed",
       "weight": 0,
-      "score_included": false
+      "score_included": false,
+      "identity_review_status": "canonical_seed_applied",
+      "identity_review_receipt": "sources/raw/identity/2017-women-serving-identity-evidence-batch4-2026-09-14.json",
+      "proposed_canonical_person_id": "lani-jones"
     },
     {
       "edge_id": "2017-women-serving-committee-08",
