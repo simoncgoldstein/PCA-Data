@@ -18,6 +18,7 @@ jobs:
       - name: Register Garris letters in person crosswalk
         run: |
           python3 - <<'PY'
+          import base64
           from pathlib import Path
 
           path = Path('scripts/build-person-crosswalk.py')
@@ -25,33 +26,8 @@ jobs:
           marker = '\n\n# Human Sexuality AIC committee service.'
           if 'garris_letters_2024' in text:
               raise SystemExit('Garris crosswalk block already present')
-          block = r'''
-
-# 2024 Garris public-letter signer rosters. Letter 1 and Letter 2 are distinct
-# source families/actions. Printed church/ministry and presbytery fields are
-# contextual disambiguators; same-name matching alone never confirms identity.
-relative = "sources/normalized/public-statements/garris-letters-2024.json"
-garris_data = register_json(relative)
-for letter in garris_data.get("letters", []):
-    family = letter["letter_id"].replace("-", "_")
-    dataset = family
-    for row in letter.get("signers", []):
-        add_record(
-            dataset=dataset,
-            family=family,
-            source_path=relative,
-            locator=f"{letter['letter_id']}:signer:{row['print_order']}",
-            printed_name=row["name_as_printed"],
-            row=row,
-            source_tier="primary_public_letter",
-            completeness="complete_printed_signer_roster",
-            evidence_type="public_letter_signature",
-            presbyteries=[row.get("presbytery_as_printed")],
-            institutions=[row.get("institution_as_printed")],
-            office=row.get("office_as_printed"),
-            existing_id=row.get("normalized_person_id"),
-        )
-'''
+          encoded = 'CiMgMjAyNCBHYXJyaXMgcHVibGljLWxldHRlciBzaWduZXIgcm9zdGVycy4gTGV0dGVyIDEgYW5kIExldHRlciAyIGFyZSBkaXN0aW5jdAojIHNvdXJjZSBmYW1pbGllcy9hY3Rpb25zLiBQcmludGVkIGNodXJjaC9taW5pc3RyeSBhbmQgcHJlc2J5dGVyeSBmaWVsZHMgYXJlCiMgY29udGV4dHVhbCBkaXNhbWJpZ3VhdG9yczsgc2FtZS1uYW1lIG1hdGNoaW5nIGFsb25lIG5ldmVyIGNvbmZpcm1zIGlkZW50aXR5LgpyZWxhdGl2ZSA9ICJzb3VyY2VzL25vcm1hbGl6ZWQvcHVibGljLXN0YXRlbWVudHMvZ2FycmlzLWxldHRlcnMtMjAyNC5qc29uIgpnYXJyaXNfZGF0YSA9IHJlZ2lzdGVyX2pzb24ocmVsYXRpdmUpCmZvciBsZXR0ZXIgaW4gZ2FycmlzX2RhdGEuZ2V0KCJsZXR0ZXJzIiwgW10pOgogICAgZmFtaWx5ID0gbGV0dGVyWyJsZXR0ZXJfaWQiXS5yZXBsYWNlKCItIiwgIl8iKQogICAgZGF0YXNldCA9IGZhbWlseQogICAgZm9yIHJvdyBpbiBsZXR0ZXIuZ2V0KCJzaWduZXJzIiwgW10pOgogICAgICAgIGFkZF9yZWNvcmQoCiAgICAgICAgICAgIGRhdGFzZXQ9ZGF0YXNldCwKICAgICAgICAgICAgZmFtaWx5PWZhbWlseSwKICAgICAgICAgICAgc291cmNlX3BhdGg9cmVsYXRpdmUsCiAgICAgICAgICAgIGxvY2F0b3I9ZiJ7bGV0dGVyWydsZXR0ZXJfaWQnXX06c2lnbmVyOntyb3dbJ3ByaW50X29yZGVyJ119IiwKICAgICAgICAgICAgcHJpbnRlZF9uYW1lPXJvd1sibmFtZV9hc19wcmludGVkIl0sCiAgICAgICAgICAgIHJvdz1yb3csCiAgICAgICAgICAgIHNvdXJjZV90aWVyPSJwcmltYXJ5X3B1YmxpY19sZXR0ZXIiLAogICAgICAgICAgICBjb21wbGV0ZW5lc3M9ImNvbXBsZXRlX3ByaW50ZWRfc2lnbmVyX3Jvc3RlciIsCiAgICAgICAgICAgIGV2aWRlbmNlX3R5cGU9InB1YmxpY19sZXR0ZXJfc2lnbmF0dXJlIiwKICAgICAgICAgICAgcHJlc2J5dGVyaWVzPVtyb3cuZ2V0KCJwcmVzYnl0ZXJ5X2FzX3ByaW50ZWQiKV0sCiAgICAgICAgICAgIGluc3RpdHV0aW9ucz1bcm93LmdldCgiaW5zdGl0dXRpb25fYXNfcHJpbnRlZCIpXSwKICAgICAgICAgICAgb2ZmaWNlPXJvdy5nZXQoIm9mZmljZV9hc19wcmludGVkIiksCiAgICAgICAgICAgIGV4aXN0aW5nX2lkPXJvdy5nZXQoIm5vcm1hbGl6ZWRfcGVyc29uX2lkIiksCiAgICAgICAgKQo='
+          block = base64.b64decode(encoded).decode('utf-8')
           if marker not in text:
               raise SystemExit('crosswalk insertion marker not found')
           path.write_text(text.replace(marker, block + marker, 1), encoding='utf-8')
