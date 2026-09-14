@@ -1,0 +1,1172 @@
+{
+  "generated_on": "2026-09-14",
+  "purpose": "temporary extraction for reviewed NP residual identity pass",
+  "unresolved_exact_name_keys_by_dataset": {
+    "a_faithful_pca_2021-06-11": [
+      "blake altman",
+      "charles garland",
+      "david goneau",
+      "david lindberg",
+      "david wallover",
+      "jon price",
+      "justin woodall",
+      "mark bates",
+      "rob wootton",
+      "sam desocio"
+    ],
+    "a_faithful_pca_2022-03-14": [
+      "blake altman",
+      "charles garland",
+      "david goneau",
+      "david lindberg",
+      "david wallover",
+      "jeff schneider",
+      "jon price",
+      "justin woodall",
+      "mark bates",
+      "rob wootton",
+      "sam desocio"
+    ],
+    "warhurst_protest_2019": [
+      "dan herron",
+      "david ridenhour",
+      "david wallover",
+      "hansoo jin",
+      "justin woodall",
+      "omar ortiz",
+      "sean roberts",
+      "tag tuck",
+      "todd gwennap"
+    ]
+  },
+  "unique_candidate_count": 18,
+  "candidates": [
+    {
+      "normalized_name_key": "blake altman",
+      "np": {
+        "canonical_name": "Blake Altman",
+        "normalized_name_key": "blake altman",
+        "name_variants_as_printed": [
+          "Blake Altman"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2014-04-09",
+        "evidence_count": 3,
+        "evidence": [
+          {
+            "name_as_printed": "Blake Altman",
+            "evidence_type": "addition",
+            "date": "Apr 15, 2014, 5:36:55 AM",
+            "archive_page": 128,
+            "presbytery_as_printed": "North Texas",
+            "office_as_printed": "TE",
+            "detail": "1. Additions (154 elders in 54 presbyteries)",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Blake Altman",
+            "evidence_type": "explicit_addition",
+            "date": "2014-04-09",
+            "archive_page": 24,
+            "presbytery_as_printed": "North Texas",
+            "office_as_printed": "TE",
+            "detail": "Listed under Additions",
+            "source": "2014-additions.csv"
+          },
+          {
+            "name_as_printed": "Blake Altman",
+            "evidence_type": "named_np_committee_roster",
+            "date": "2014-06-02",
+            "archive_page": 37,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Listed under current NP Committee of Commissioners roster",
+            "source": "2014-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 370,
+          "name_as_printed": "Rev. Blake Altman",
+          "normalized_name_candidate": "Blake Altman",
+          "normalized_person_id": null,
+          "pdf_pages": [
+            96,
+            97
+          ],
+          "presbytery_as_printed": "Hills and Plains Presbytery",
+          "location_as_printed": "Owasso, OK",
+          "raw_lines": [
+            "Senior Pastor",
+            "Trinity Presbyterian",
+            "Owasso, OK",
+            "Hills and Plains Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": []
+    },
+    {
+      "normalized_name_key": "charles garland",
+      "np": {
+        "canonical_name": "Charles Garland",
+        "normalized_name_key": "charles garland",
+        "name_variants_as_printed": [
+          "Charles Garland"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2014-06-02",
+        "evidence_count": 1,
+        "evidence": [
+          {
+            "name_as_printed": "Charles Garland",
+            "evidence_type": "named_np_committee_roster",
+            "date": "2014-06-02",
+            "archive_page": 38,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Listed under current NP Committee of Commissioners roster",
+            "source": "2014-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 319,
+          "name_as_printed": "Rev. Charles Garland",
+          "normalized_name_candidate": "Charles Garland",
+          "normalized_person_id": null,
+          "pdf_pages": [
+            83
+          ],
+          "presbytery_as_printed": "Arizona Presbytery",
+          "location_as_printed": "Tucson, AZ",
+          "raw_lines": [
+            "Pastor",
+            "Midtown Presbyterian Church",
+            "Tucson, AZ",
+            "Arizona Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": []
+    },
+    {
+      "normalized_name_key": "dan herron",
+      "np": {
+        "canonical_name": "Dan Herron",
+        "normalized_name_key": "dan herron",
+        "name_variants_as_printed": [
+          "Dan Herron"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": null,
+        "evidence_count": 5,
+        "evidence": [
+          {
+            "name_as_printed": "Dan Herron",
+            "evidence_type": "partnership_men_roster",
+            "date": "Apr 8, 2015, 5:38:24 AM",
+            "archive_page": 178,
+            "presbytery_as_printed": "Central Indiana",
+            "office_as_printed": null,
+            "detail": "Review of Presbytery Records",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Dan Herron",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Jan 10, 2018, 1:56:06 PM",
+            "archive_page": 264,
+            "presbytery_as_printed": "Central Indiana",
+            "office_as_printed": null,
+            "detail": "Nominating Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Dan Herron",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Feb 28, 2018, 4:48:06 PM",
+            "archive_page": 265,
+            "presbytery_as_printed": "Central Indiana",
+            "office_as_printed": null,
+            "detail": "Nominating Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Dan Herron",
+            "evidence_type": "explicit_np_members_committee_roster",
+            "date": "Feb 20, 2019, 12:52:42 PM",
+            "archive_page": 294,
+            "presbytery_as_printed": "Central Indiana",
+            "office_as_printed": "TE",
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Dan Herron",
+            "evidence_type": "named_partnership_man",
+            "date": "2015",
+            "archive_page": 7,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Later expanded RPR roster",
+            "source": "2015-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "Dan Herron",
+          "presbytery_as_printed": "Central Indiana",
+          "print_order": 77,
+          "pdf_page": 84,
+          "printed_page": 82,
+          "normalized_person_id": null
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "david goneau",
+      "np": {
+        "canonical_name": "David Goneau",
+        "normalized_name_key": "david goneau",
+        "name_variants_as_printed": [
+          "David Goneau"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2013-03-25",
+        "evidence_count": 2,
+        "evidence": [
+          {
+            "name_as_printed": "David Goneau",
+            "evidence_type": "addition",
+            "date": "Mar 25, 2013, 7:42:27 AM",
+            "archive_page": 30,
+            "presbytery_as_printed": "Philadelphia",
+            "office_as_printed": "TE",
+            "detail": "1.Additions (114 elders in 45 presbyteries)",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "David Goneau",
+            "evidence_type": "explicit_addition",
+            "date": "2013-03-25",
+            "archive_page": 30,
+            "presbytery_as_printed": "Philadelphia",
+            "office_as_printed": "TE",
+            "detail": "Listed under Additions",
+            "source": "2013-additions.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 406,
+          "name_as_printed": "Rev. David Goneau",
+          "normalized_name_candidate": "David Goneau",
+          "normalized_person_id": null,
+          "pdf_pages": [
+            106
+          ],
+          "presbytery_as_printed": "Philadelphia Metro West Presbytery",
+          "location_as_printed": "Bryn Mawr, PA",
+          "raw_lines": [
+            "Counselor",
+            "Applegate and Associates Counseling",
+            "Renewal",
+            "Bryn Mawr, PA",
+            "Philadelphia Metro West Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": []
+    },
+    {
+      "normalized_name_key": "david lindberg",
+      "np": {
+        "canonical_name": "David Lindberg",
+        "normalized_name_key": "david lindberg",
+        "name_variants_as_printed": [
+          "David Lindberg"
+        ],
+        "normalized_person_id": "david-lindberg",
+        "first_evidence_date": null,
+        "evidence_count": 1,
+        "evidence": [
+          {
+            "name_as_printed": "David Lindberg",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Feb 28, 2018, 4:48:06 PM",
+            "archive_page": 265,
+            "presbytery_as_printed": "Metro Atlanta",
+            "office_as_printed": null,
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 151,
+          "name_as_printed": "Rev. David Lindberg",
+          "normalized_name_candidate": "David Lindberg",
+          "normalized_person_id": null,
+          "pdf_pages": [
+            39,
+            40
+          ],
+          "presbytery_as_printed": "New Jersey Presbytery",
+          "location_as_printed": "Burlington County, NJ",
+          "raw_lines": [
+            "Pastor/Planter",
+            "Immanuel Church",
+            "Burlington County, NJ",
+            "New Jersey Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": []
+    },
+    {
+      "normalized_name_key": "david ridenhour",
+      "np": {
+        "canonical_name": "David Ridenhour",
+        "normalized_name_key": "david ridenhour",
+        "name_variants_as_printed": [
+          "David Ridenhour"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": null,
+        "evidence_count": 1,
+        "evidence": [
+          {
+            "name_as_printed": "David Ridenhour",
+            "evidence_type": "explicit_np_members_committee_roster",
+            "date": "Feb 20, 2019, 12:52:42 PM",
+            "archive_page": 294,
+            "presbytery_as_printed": "Hills and Plains",
+            "office_as_printed": "TE",
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "David Ridenhour",
+          "presbytery_as_printed": "North Texas",
+          "print_order": 181,
+          "pdf_page": 86,
+          "printed_page": 84,
+          "normalized_person_id": null
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "david wallover",
+      "np": {
+        "canonical_name": "David Wallover",
+        "normalized_name_key": "david wallover",
+        "name_variants_as_printed": [
+          "David Wallover"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2014-06-02",
+        "evidence_count": 1,
+        "evidence": [
+          {
+            "name_as_printed": "David Wallover",
+            "evidence_type": "named_np_committee_roster",
+            "date": "2014-06-02",
+            "archive_page": 37,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Listed under current NP Committee of Commissioners roster",
+            "source": "2014-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 41,
+          "name_as_printed": "Rev. Dr. David Wallover",
+          "normalized_name_candidate": "David Wallover",
+          "normalized_person_id": "david-wallover",
+          "pdf_pages": [
+            12
+          ],
+          "presbytery_as_printed": "Ohio Presbytery",
+          "location_as_printed": "Medina, OH",
+          "raw_lines": [
+            "Senior Pastor",
+            "Harvest Presbyterian Church",
+            "Medina, OH",
+            "Ohio Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "David Wallover",
+          "presbytery_as_printed": "Ohio",
+          "print_order": 196,
+          "pdf_page": 87,
+          "printed_page": 85,
+          "normalized_person_id": "david-wallover"
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "hansoo jin",
+      "np": {
+        "canonical_name": "Hansoo Jin",
+        "normalized_name_key": "hansoo jin",
+        "name_variants_as_printed": [
+          "Hansoo Jin"
+        ],
+        "normalized_person_id": "hansoo-jin",
+        "first_evidence_date": null,
+        "evidence_count": 2,
+        "evidence": [
+          {
+            "name_as_printed": "Hansoo Jin",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Jan 10, 2018, 1:56:06 PM",
+            "archive_page": 264,
+            "presbytery_as_printed": "Korean Capital",
+            "office_as_printed": null,
+            "detail": "Nominating Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Hansoo Jin",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Feb 28, 2018, 4:48:06 PM",
+            "archive_page": 265,
+            "presbytery_as_printed": "Korean Capital",
+            "office_as_printed": null,
+            "detail": "Nominating Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 195,
+          "name_as_printed": "Rev. Hansoo Jin",
+          "normalized_name_candidate": "Hansoo Jin",
+          "normalized_person_id": "hansoo-jin",
+          "pdf_pages": [
+            51
+          ],
+          "presbytery_as_printed": "Korean Capital Presbytery",
+          "location_as_printed": "Baltimore, MD",
+          "raw_lines": [
+            "Pastor",
+            "Harris Creek Community Church",
+            "Baltimore, MD",
+            "Korean Capital Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "Hansoo Jin",
+          "presbytery_as_printed": "Korean Capitol",
+          "print_order": 198,
+          "pdf_page": 87,
+          "printed_page": 85,
+          "normalized_person_id": null
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "jeff schneider",
+      "np": {
+        "canonical_name": "Jeff Schneider",
+        "normalized_name_key": "jeff schneider",
+        "name_variants_as_printed": [
+          "Jeff Schneider"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2014-06-02",
+        "evidence_count": 1,
+        "evidence": [
+          {
+            "name_as_printed": "Jeff Schneider",
+            "evidence_type": "named_np_committee_roster",
+            "date": "2014-06-02",
+            "archive_page": 37,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Listed under current NP Committee of Commissioners roster",
+            "source": "2014-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": []
+    },
+    {
+      "normalized_name_key": "jon price",
+      "np": {
+        "canonical_name": "Jon Price",
+        "normalized_name_key": "jon price",
+        "name_variants_as_printed": [
+          "Jon Price"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2014-06-02",
+        "evidence_count": 6,
+        "evidence": [
+          {
+            "name_as_printed": "Jon Price",
+            "evidence_type": "explicit_np_member_nominee_list",
+            "date": "Feb 4, 2014, 8:06:11 AM",
+            "archive_page": 114,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "MNA",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Jon Price",
+            "evidence_type": "explicit_np_member_nominee_list",
+            "date": "Feb 18, 2014, 7:07:53 AM",
+            "archive_page": 118,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "MNA",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Jon Price",
+            "evidence_type": "explicit_np_member_nominee_list",
+            "date": "Mar 3, 2014, 12:56:14 PM",
+            "archive_page": 122,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "MNA",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Jon Price",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Feb 28, 2018, 4:48:06 PM",
+            "archive_page": 265,
+            "presbytery_as_printed": "Pittsburgh Presbytery",
+            "office_as_printed": null,
+            "detail": "Nominating Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Jon Price",
+            "evidence_type": "named_np_committee_roster",
+            "date": "2014-06-02",
+            "archive_page": 37,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Listed under current NP Committee of Commissioners roster",
+            "source": "2014-committee-roster.csv"
+          },
+          {
+            "name_as_printed": "Jon Price",
+            "evidence_type": "named_np_committee_participant",
+            "date": "2016-06-01",
+            "archive_page": 6,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Listed by Kessler in current NP committee-work roster",
+            "source": "2016-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 133,
+          "name_as_printed": "Rev. Jon Price",
+          "normalized_name_candidate": "Jon Price",
+          "normalized_person_id": null,
+          "pdf_pages": [
+            35
+          ],
+          "presbytery_as_printed": "Pittsburgh Presbytery",
+          "location_as_printed": "Wexford, PA",
+          "raw_lines": [
+            "Senior Pastor",
+            "Covenant Community Presbyterian",
+            "Wexford, PA",
+            "Pittsburgh Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": []
+    },
+    {
+      "normalized_name_key": "justin woodall",
+      "np": {
+        "canonical_name": "Justin Woodall",
+        "normalized_name_key": "justin woodall",
+        "name_variants_as_printed": [
+          "Justin Woodall"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2014-06-02",
+        "evidence_count": 1,
+        "evidence": [
+          {
+            "name_as_printed": "Justin Woodall",
+            "evidence_type": "named_np_committee_roster",
+            "date": "2014-06-02",
+            "archive_page": 37,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Listed under current NP Committee of Commissioners roster",
+            "source": "2014-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 27,
+          "name_as_printed": "Rev. Justin Woodall",
+          "normalized_name_candidate": "Justin Woodall",
+          "normalized_person_id": "justin-woodall",
+          "pdf_pages": [
+            8
+          ],
+          "presbytery_as_printed": "Southwest Florida Presbytery",
+          "location_as_printed": "St. Petersburg, FL",
+          "raw_lines": [
+            "Pastor",
+            "City Church",
+            "St. Petersburg, FL",
+            "Southwest Florida Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "Justin Woodall",
+          "presbytery_as_printed": "Southwest Florida",
+          "print_order": 120,
+          "pdf_page": 85,
+          "printed_page": 83,
+          "normalized_person_id": "justin-woodall"
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "mark bates",
+      "np": {
+        "canonical_name": "Mark Bates",
+        "normalized_name_key": "mark bates",
+        "name_variants_as_printed": [
+          "Mark Bates"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2013-06-28",
+        "evidence_count": 4,
+        "evidence": [
+          {
+            "name_as_printed": "Mark Bates",
+            "evidence_type": "explicit_reference",
+            "date": "Jun 15, 2017, 8:47:59 AM",
+            "archive_page": 249,
+            "presbytery_as_printed": null,
+            "office_as_printed": null,
+            "detail": "TE Maranatha Chung, Philadelphia / Bates is strongly preferred. He is a Partnership member. His experience and expertise far outweigh / the floor nominee.",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Mark Bates",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Feb 28, 2018, 4:48:06 PM",
+            "archive_page": 265,
+            "presbytery_as_printed": "Rocky Mtn",
+            "office_as_printed": null,
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Mark Bates",
+            "evidence_type": "explicit_member",
+            "date": "2013-06-28",
+            "archive_page": 90,
+            "presbytery_as_printed": null,
+            "office_as_printed": null,
+            "detail": "Kessler identifies him parenthetically as 'Mark Bates (NP)'.",
+            "source": "2013-other-membership-evidence.csv"
+          },
+          {
+            "name_as_printed": "Mark Bates",
+            "evidence_type": "named_np_committee_roster",
+            "date": "2014-06-02",
+            "archive_page": 37,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Listed under current NP Committee of Commissioners roster",
+            "source": "2014-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 26,
+          "name_as_printed": "Rev. Mark Bates",
+          "normalized_name_candidate": "Mark Bates",
+          "normalized_person_id": "mark-bates",
+          "pdf_pages": [
+            8
+          ],
+          "presbytery_as_printed": "Rocky Mountain Presbytery",
+          "location_as_printed": null,
+          "raw_lines": [
+            "Senior Director of US Operations",
+            "Mission to the World",
+            "Rocky Mountain Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": []
+    },
+    {
+      "normalized_name_key": "omar ortiz",
+      "np": {
+        "canonical_name": "Omar Ortiz",
+        "normalized_name_key": "omar ortiz",
+        "name_variants_as_printed": [
+          "Omar Ortiz"
+        ],
+        "normalized_person_id": "omar-ortiz",
+        "first_evidence_date": null,
+        "evidence_count": 2,
+        "evidence": [
+          {
+            "name_as_printed": "Omar Ortiz",
+            "evidence_type": "explicit_reference",
+            "date": "Mar 20, 2013, 7:40:14 AM",
+            "archive_page": 27,
+            "presbytery_as_printed": null,
+            "office_as_printed": null,
+            "detail": "From NP member Omar Ortiz / 1 view / Skip to first unread message",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Omar Ortiz",
+            "evidence_type": "explicit_reference",
+            "date": "Mar 20, 2013, 8:57:52 AM",
+            "archive_page": 27,
+            "presbytery_as_printed": null,
+            "office_as_printed": null,
+            "detail": "to TheNP@googlegroups.com / Message from NP member Omar Ortiz / I had a thought last night. Would it be beneficial for an article to be written and published in byFaith (or",
+            "source": "NPP_Emails_2013_2021.pdf"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "Omar Ortiz",
+          "presbytery_as_printed": "Southern New England",
+          "print_order": 105,
+          "pdf_page": 85,
+          "printed_page": 83,
+          "normalized_person_id": null
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "rob wootton",
+      "np": {
+        "canonical_name": "Rob Wootton",
+        "normalized_name_key": "rob wootton",
+        "name_variants_as_printed": [
+          "Rob Wootton"
+        ],
+        "normalized_person_id": "rob-wootton",
+        "first_evidence_date": null,
+        "evidence_count": 1,
+        "evidence": [
+          {
+            "name_as_printed": "Rob Wootton",
+            "evidence_type": "explicit_np_members_committee_roster",
+            "date": "Feb 20, 2019, 12:52:42 PM",
+            "archive_page": 294,
+            "presbytery_as_printed": "James River",
+            "office_as_printed": "TE",
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 136,
+          "name_as_printed": "Rev. Rob Wootton",
+          "normalized_name_candidate": "Rob Wootton",
+          "normalized_person_id": null,
+          "pdf_pages": [
+            36
+          ],
+          "presbytery_as_printed": "Rocky Mountain Presbytery",
+          "location_as_printed": null,
+          "raw_lines": [
+            "Rocky Mountain Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "Rob Wootton",
+          "presbytery_as_printed": "James River",
+          "print_order": 91,
+          "pdf_page": 84,
+          "printed_page": 82,
+          "normalized_person_id": "rob-wootton"
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "sam desocio",
+      "np": {
+        "canonical_name": "Sam DeSocio",
+        "normalized_name_key": "sam desocio",
+        "name_variants_as_printed": [
+          "Sam DeSocio"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": null,
+        "evidence_count": 2,
+        "evidence": [
+          {
+            "name_as_printed": "Sam DeSocio",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Jan 10, 2018, 1:56:06 PM",
+            "archive_page": 264,
+            "presbytery_as_printed": "New York State",
+            "office_as_printed": null,
+            "detail": "Nominating Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Sam DeSocio",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Feb 28, 2018, 4:48:06 PM",
+            "archive_page": 265,
+            "presbytery_as_printed": "New York State",
+            "office_as_printed": null,
+            "detail": "Nominating Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [
+        {
+          "sequence": 544,
+          "name_as_printed": "Rev. Sam DeSocio",
+          "normalized_name_candidate": "Sam DeSocio",
+          "normalized_person_id": "sam-desocio",
+          "pdf_pages": [
+            141
+          ],
+          "presbytery_as_printed": "Heritage Presbytery",
+          "location_as_printed": "Hockessin, DE",
+          "raw_lines": [
+            "Lead Pastor",
+            "Good News Church",
+            "Hockessin, DE",
+            "Heritage Presbytery"
+          ],
+          "source": {
+            "title": "A Faithful PCA Signatures — Wayback capture",
+            "captured_page": "https://web.archive.org/web/20210611152829/https://www.afaithfulpca.net/signatures",
+            "preserved_pdf": "https://warhornmedia.com/wp-content/uploads/2022/09/Signatures-%E2%80%94-A-Faithful-PCA.pdf",
+            "snapshot_date": "2021-06-11"
+          }
+        }
+      ],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": []
+    },
+    {
+      "normalized_name_key": "sean roberts",
+      "np": {
+        "canonical_name": "Sean Roberts",
+        "normalized_name_key": "sean roberts",
+        "name_variants_as_printed": [
+          "Sean Roberts"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": "2013-03-11",
+        "evidence_count": 7,
+        "evidence": [
+          {
+            "name_as_printed": "Sean Roberts",
+            "evidence_type": "addition",
+            "date": "Mar 11, 2013, 12:47:20 PM",
+            "archive_page": 17,
+            "presbytery_as_printed": "Philadelphia",
+            "office_as_printed": "TE",
+            "detail": "1.Additions (108 elders in 43 presbyteries)",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Sean Roberts",
+            "evidence_type": "partnership_men_roster",
+            "date": "Feb 17, 2015, 6:36:10 AM",
+            "archive_page": 175,
+            "presbytery_as_printed": "Northern New England",
+            "office_as_printed": null,
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Sean Roberts",
+            "evidence_type": "partnership_men_roster",
+            "date": "Apr 8, 2015, 5:38:24 AM",
+            "archive_page": 178,
+            "presbytery_as_printed": "Northern New England",
+            "office_as_printed": null,
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Sean Roberts",
+            "evidence_type": "partnership_men_roster",
+            "date": "May 19, 2015, 11:34:14 AM",
+            "archive_page": 180,
+            "presbytery_as_printed": "Northern New England",
+            "office_as_printed": null,
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Sean Roberts",
+            "evidence_type": "np_guys_committee_roster",
+            "date": "Jan 10, 2018, 1:56:06 PM",
+            "archive_page": 264,
+            "presbytery_as_printed": "Northern New England",
+            "office_as_printed": null,
+            "detail": "Nominating Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Sean Roberts",
+            "evidence_type": "explicit_addition",
+            "date": "2013-03-11",
+            "archive_page": 17,
+            "presbytery_as_printed": "Philadelphia",
+            "office_as_printed": "TE",
+            "detail": "Listed under Additions",
+            "source": "2013-additions.csv"
+          },
+          {
+            "name_as_printed": "Sean Roberts",
+            "evidence_type": "named_partnership_man",
+            "date": "2015",
+            "archive_page": 9,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Explicitly listed under Partnership men serving on Overtures Committee",
+            "source": "2015-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "Sean Roberts",
+          "presbytery_as_printed": "Northern New England",
+          "print_order": 50,
+          "pdf_page": 83,
+          "printed_page": 81,
+          "normalized_person_id": null
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "tag tuck",
+      "np": {
+        "canonical_name": "Tag Tuck",
+        "normalized_name_key": "tag tuck",
+        "name_variants_as_printed": [
+          "Tag Tuck"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": null,
+        "evidence_count": 1,
+        "evidence": [
+          {
+            "name_as_printed": "Tag Tuck",
+            "evidence_type": "explicit_np_members_committee_roster",
+            "date": "Feb 20, 2019, 12:52:42 PM",
+            "archive_page": 294,
+            "presbytery_as_printed": "Blue Ridge",
+            "office_as_printed": "TE",
+            "detail": "Overtures Committee",
+            "source": "NPP_Emails_2013_2021.pdf"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "RE",
+          "name_as_printed": "Tag Tuck",
+          "presbytery_as_printed": "Blue Ridge",
+          "print_order": 147,
+          "pdf_page": 86,
+          "printed_page": 84,
+          "normalized_person_id": null
+        }
+      ]
+    },
+    {
+      "normalized_name_key": "todd gwennap",
+      "np": {
+        "canonical_name": "Todd Gwennap",
+        "normalized_name_key": "todd gwennap",
+        "name_variants_as_printed": [
+          "Todd Gwennap"
+        ],
+        "normalized_person_id": null,
+        "first_evidence_date": null,
+        "evidence_count": 3,
+        "evidence": [
+          {
+            "name_as_printed": "Todd Gwennap",
+            "evidence_type": "partnership_men_roster",
+            "date": "Feb 17, 2015, 6:36:10 AM",
+            "archive_page": 175,
+            "presbytery_as_printed": "Eastern Carolina",
+            "office_as_printed": null,
+            "detail": "Review of Presbytery Records",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Todd Gwennap",
+            "evidence_type": "partnership_men_roster",
+            "date": "Apr 8, 2015, 5:38:24 AM",
+            "archive_page": 178,
+            "presbytery_as_printed": "Eastern Carolina",
+            "office_as_printed": null,
+            "detail": "Review of Presbytery Records",
+            "source": "NPP_Emails_2013_2021.pdf"
+          },
+          {
+            "name_as_printed": "Todd Gwennap",
+            "evidence_type": "named_partnership_man",
+            "date": "2015",
+            "archive_page": 4,
+            "presbytery_as_printed": null,
+            "office_as_printed": "TE",
+            "detail": "Explicitly listed under Partnership men serving on RPR",
+            "source": "2015-committee-roster.csv"
+          }
+        ]
+      },
+      "a_faithful_pca_2021": [],
+      "a_faithful_pca_2022": [],
+      "warhurst_2019": [
+        {
+          "office_as_printed": "TE",
+          "name_as_printed": "Todd Gwennap",
+          "presbytery_as_printed": "North Texas",
+          "print_order": 106,
+          "pdf_page": 85,
+          "printed_page": 83,
+          "normalized_person_id": null
+        }
+      ]
+    }
+  ]
+}
