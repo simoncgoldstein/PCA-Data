@@ -16,7 +16,7 @@ Policy for the remaining Letter 1 queue:
 - preserve printed office/church/presbytery context and the original source row;
 - keep Letter 1 `Jeff White` (New City Fellowship / Rio Grande) unresolved unless independent evidence establishes that specific identity. It is not the reviewed Letter 2 `Jeff White` from Redeemer Downtown / Metro NY.
 
-A resolved signature is weight 3 as a public-letter action, but identity resolution does not add unrelated network memberships or issue positions.
+A resolved signature is weight 3 as a public-letter action, but identity resolution does not add unrelated network memberships or issue positions. Every printed signer remains preserved as a source-level data point whether or not canonical identity is resolved.
 
 The targeted NP ↔ Garris Letter 1 exact-name queue is complete: David Lindberg and David Richmon are reviewed canonical matches.
 
@@ -47,37 +47,38 @@ Current evidence establishes Pacific Presbytery as the formal submitting body fo
 
 ## National Partnership identity coverage and archival pins
 
-The normalized NP source layer contains **151 confirmed printed-name members**, and **54** now have confirmed canonical person identities. That **35.76%** canonical coverage remains incomplete and plausibly non-random because people who recur elsewhere are easier to identity-resolve.
+The normalized NP source layer contains **151 confirmed printed-name members**, and **68** now have confirmed canonical person identities. That **45.03%** canonical coverage remains incomplete and plausibly non-random because people who recur elsewhere are easier to identity-resolve.
 
 Consequences:
 
 - no current canonical NP edge means **membership not established in the current canonical graph**, not confirmed non-membership;
 - do not calculate NP-vs-non-NP risk ratios by assigning everyone without a canonical NP edge to a non-member comparison group;
-- unresolved exact-name overlaps are research leads only, not confirmed identity matches.
+- unresolved exact-name overlaps are research leads only, not confirmed identity matches;
+- canonical NP membership is deterministically projected to the app graph, one edge per canonical member, while richer manually curated NP edges take precedence.
 
 Completed targeted continuity queues:
 
 1. **NP ↔ Garris Letter 1:** exact-name queue complete; 10 confirmed overlaps, 25/60 Letter 1 signers canonical.
 2. **NP ↔ 2022 Overture 15 negative votes:** exact-name queue complete; **20 confirmed overlaps, 0 unresolved exact-name possibilities**.
 3. **NP ↔ 2022 NAE-withdrawal protest:** exact-name queue complete; **10 confirmed overlaps, 0 unresolved exact-name possibilities**.
+4. **NP ↔ A Faithful PCA June 2021:** residual exact-name queue complete; **50 confirmed overlaps, 0 unresolved exact-name possibilities**.
+5. **NP ↔ A Faithful PCA March 2022 cumulative snapshot:** residual exact-name queue complete; **54 confirmed overlaps, 0 unresolved exact-name possibilities**.
+6. **NP ↔ 2019 Warhurst protest:** residual exact-name queue complete; **31 confirmed overlaps, 0 unresolved exact-name possibilities**.
 
-The reviewed O15/NAE batch includes Ben Lyon, Bruce O'Neil, Bruce Terrell, Jeremy Fair, Justin Edgar, Luke Evans, Omar Ortiz, Peter Rowan, Rob Wootton, Tim LeCroy, and Nate Conrad. Receipt:
+Reviewed receipts:
 
-`sources/raw/identity/np-postarchive-identity-evidence-batch1-2026-09-14.json`
+- `sources/raw/identity/np-postarchive-identity-evidence-batch1-2026-09-14.json` — O15/NAE identity review;
+- `sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json` — 18 reviewed AFP/Warhurst identity decisions.
 
 Preserve reviewed source-boundary caveats:
 
 - Jeremy Fair's NP presbytery label conflicts with later/official denominational context; the identity resolution does not validate the NP printed label as accurate.
 - Justin Edgar's NP archive row contains a nonstandard presbytery label; preserve it as source text rather than normalizing it into an official presbytery claim.
-- Bruce O'Neil, Rob Wootton, and Nate Conrad involve dated presbytery/ministry transitions rather than same-presbytery matching.
+- David Ridenhour's NP archival presbytery wording conflicts with official 2018–2019 North Texas evidence; resolving the person does not certify the NP label.
+- Tag Tuck has a source-level TE/RE conflict; do not harmonize the office classification without separate evidence.
+- Hansoo Jin is canonically resolved across NP / Warhurst / A Faithful PCA while the Warhurst source spelling `Korean Capitol` remains preserved verbatim; NP/AFP print `Korean Capital`.
 
-Next identity work should be narrow and information-driven:
-
-1. review the highest-value remaining NP ↔ **A Faithful PCA / Warhurst** exact-name possibilities, prioritizing names recurring across multiple independent source families;
-2. add exact archival page/message pins for already important canonical NP people when that materially improves app-facing evidence quality;
-3. do not pursue full 151/151 identity completion merely to improve coverage.
-
-Some person-level app entries also remain below `confirmed` because the source family is known but an exact message/page citation is not yet normalized into the app-facing claim. Continue to distinguish membership, recruitment, committee placement, promoted candidates, and adjacency.
+At this point, **do not begin another general NP identity batch**. The remaining long tail can be resolved opportunistically when it materially affects a prominent profile, source claim, or future UI feature. Do not pursue full 151/151 identity completion merely to improve coverage.
 
 Generated continuity analysis:
 

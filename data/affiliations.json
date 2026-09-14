@@ -1550,5 +1550,981 @@
       "src-garris-letter-1"
     ],
     "notes": "Printed signer context: TE, Trinity Seattle, Pacific NW. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-aaron-baker-np",
+    "person_id": "aaron-baker",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-andy-moehn-np",
+    "person_id": "andy-moehn",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-austin-pfeiffer-np",
+    "person_id": "austin-pfeiffer",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-ben-lyon-np",
+    "person_id": "ben-lyon",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-blake-altman-np",
+    "person_id": "blake-altman",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-brian-ferry-np",
+    "person_id": "brian-ferry",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-bruce-terrell-np",
+    "person_id": "bruce-terrell",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-bryce-hales-np",
+    "person_id": "bryce-hales",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-charles-garland-np",
+    "person_id": "charles-garland",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-clay-holland-np",
+    "person_id": "clay-holland",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-dan-adamson-np",
+    "person_id": "dan-adamson",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-dan-herron-np",
+    "person_id": "dan-herron",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-david-goneau-np",
+    "person_id": "david-goneau",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-david-lindberg-np",
+    "person_id": "david-lindberg",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-david-richmon-np",
+    "person_id": "david-richmon",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-david-ridenhour-np",
+    "person_id": "david-ridenhour",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-david-salsedo-np",
+    "person_id": "david-salsedo",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-ethan-smith-np",
+    "person_id": "ethan-smith",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-geoff-bradford-np",
+    "person_id": "geoff-bradford",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-geoff-ziegler-np",
+    "person_id": "geoff-ziegler",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-glenn-hoburg-np",
+    "person_id": "glenn-hoburg",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-hace-cargo-np",
+    "person_id": "hace-cargo",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-hansoo-jin-np",
+    "person_id": "hansoo-jin",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-jack-howell-np",
+    "person_id": "jack-howell",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-jason-polk-np",
+    "person_id": "jason-polk",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-jeff-schneider-np",
+    "person_id": "jeff-schneider",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-jeremy-fair-np",
+    "person_id": "jeremy-fair",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-joel-st-clair-np",
+    "person_id": "joel-st-clair",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-john-bourgeois-np",
+    "person_id": "john-bourgeois",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-jon-price-np",
+    "person_id": "jon-price",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-jonathan-winfree-np",
+    "person_id": "jonathan-winfree",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-joshua-reitano-np",
+    "person_id": "joshua-reitano",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-justin-edgar-np",
+    "person_id": "justin-edgar",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-kevin-rogers-np",
+    "person_id": "kevin-rogers",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-kevin-twit-np",
+    "person_id": "kevin-twit",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-kyle-hackmann-np",
+    "person_id": "kyle-hackmann",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-larry-hoop-np",
+    "person_id": "larry-hoop",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-luke-evans-np",
+    "person_id": "luke-evans",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-matthew-armstrong-np",
+    "person_id": "matthew-armstrong",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-michael-novak-np",
+    "person_id": "michael-novak",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-mike-tilley-np",
+    "person_id": "mike-tilley",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-nate-conrad-np",
+    "person_id": "nate-conrad",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-omar-ortiz-np",
+    "person_id": "omar-ortiz",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-pat-hickman-np",
+    "person_id": "pat-hickman",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-peter-rowan-np",
+    "person_id": "peter-rowan",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-richard-schwartz-np",
+    "person_id": "richard-schwartz",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-rob-wootton-np",
+    "person_id": "rob-wootton",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-robbie-schmidtberger-np",
+    "person_id": "robbie-schmidtberger",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-scott-sauls-np",
+    "person_id": "scott-sauls",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-sean-lucas-np",
+    "person_id": "sean-lucas",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-sean-roberts-np",
+    "person_id": "sean-roberts",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-shane-gibson-np",
+    "person_id": "shane-gibson",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-tag-tuck-np",
+    "person_id": "tag-tuck",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-tim-lecroy-np",
+    "person_id": "tim-lecroy",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-todd-gwennap-np",
+    "person_id": "todd-gwennap",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-wayne-larson-np",
+    "person_id": "wayne-larson",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-worth-carson-np",
+    "person_id": "worth-carson",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-david-wallover-np",
+    "person_id": "david-wallover",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-justin-woodall-np",
+    "person_id": "justin-woodall",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-mark-bates-np",
+    "person_id": "mark-bates",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-sam-desocio-np",
+    "person_id": "sam-desocio",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
   }
 ]

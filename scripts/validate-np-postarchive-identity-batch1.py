@@ -91,26 +91,28 @@ continuity = load('analysis/national-partnership/continuity-summary.json')
 cohort = continuity['national_partnership_cohort']
 if cohort.get('printed_confirmed_member_name_count') != 151:
     raise SystemExit('NP roster denominator drift')
-if cohort.get('confirmed_canonical_person_count') != 54:
-    raise SystemExit(f"expected 54 canonical NP people, got {cohort.get('confirmed_canonical_person_count')}")
-if cohort.get('identity_resolution_rate_pct') != 35.76:
-    raise SystemExit('NP identity-resolution rate drift')
+# This validator protects the batch-1 floor, not a permanent global ceiling.
+# Later reviewed identity batches may legitimately increase canonical coverage.
+if cohort.get('confirmed_canonical_person_count', 0) < 54:
+    raise SystemExit(f"canonical NP coverage regressed below batch-1 floor: {cohort.get('confirmed_canonical_person_count')}")
+if cohort.get('identity_resolution_rate_pct', 0) < 35.76:
+    raise SystemExit('NP identity-resolution rate regressed below batch-1 floor')
 tracked = {row['dataset']: row for row in continuity['tracked_datasets']}
 o15_signal = tracked['overture_15_negative_votes_2022']
 nae_signal = tracked['nae_withdrawal_protest_2022']
-for label, row, expected_overlap in [
+for label, row, minimum_overlap in [
     ('O15', o15_signal, 20),
     ('NAE', nae_signal, 10),
 ]:
-    if row.get('confirmed_overlap_count') != expected_overlap:
-        raise SystemExit(f'{label} confirmed overlap drift')
+    if row.get('confirmed_overlap_count', 0) < minimum_overlap:
+        raise SystemExit(f'{label} confirmed overlap regressed below batch-1 floor')
     if row.get('unresolved_exact_name_possible_overlap_count') != 0:
-        raise SystemExit(f'{label} targeted exact-name queue should be exhausted')
+        raise SystemExit(f'{label} targeted exact-name queue should remain exhausted')
 
-if o15_signal.get('confirmed_lower_bound_share_of_target_printed_roster_pct') != 10.0:
-    raise SystemExit('O15 full-roster lower bound drift')
-if nae_signal.get('confirmed_lower_bound_share_of_target_printed_roster_pct') != 4.93:
-    raise SystemExit('NAE full-roster lower bound drift')
+if o15_signal.get('confirmed_lower_bound_share_of_target_printed_roster_pct', 0) < 10.0:
+    raise SystemExit('O15 full-roster lower bound regressed')
+if nae_signal.get('confirmed_lower_bound_share_of_target_printed_roster_pct', 0) < 4.93:
+    raise SystemExit('NAE full-roster lower bound regressed')
 
 # The analysis must retain its no-risk-ratio guardrail after coverage improves.
 readiness = continuity['predictive_validity_readiness']

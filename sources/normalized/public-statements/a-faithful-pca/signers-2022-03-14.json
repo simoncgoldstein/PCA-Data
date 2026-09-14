@@ -3350,7 +3350,7 @@
       "state_or_region_as_printed": "PA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Pittsburgh Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "jon-price",
       "details_as_printed": [
         "Senior Pastor",
         "Covenant Community Presbyterian"
@@ -3408,7 +3408,7 @@
       "state_or_region_as_printed": null,
       "country_as_printed": null,
       "presbytery_as_printed": "Rocky Mountain Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "rob-wootton",
       "details_as_printed": [],
       "source_locator": "signature #155"
     },
@@ -3736,7 +3736,7 @@
       "state_or_region_as_printed": "NJ",
       "country_as_printed": "United States",
       "presbytery_as_printed": "New Jersey Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-lindberg",
       "details_as_printed": [
         "Pastor/Planter",
         "Immanuel Church"
@@ -7398,7 +7398,7 @@
       "state_or_region_as_printed": "AZ",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Arizona Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "charles-garland",
       "details_as_printed": [
         "Pastor",
         "Midtown Presbyterian Church"
@@ -8459,7 +8459,7 @@
       "state_or_region_as_printed": "OK",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Hills and Plains Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "blake-altman",
       "details_as_printed": [
         "Senior Pastor",
         "Trinity Presbyterian"
@@ -9214,7 +9214,7 @@
       "state_or_region_as_printed": "PA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Philadelphia Metro West Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-goneau",
       "details_as_printed": [
         "Counselor",
         "Applegate and Associates Counseling",
@@ -14270,7 +14270,7 @@
       "state_or_region_as_printed": "IL",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Chicago Metro Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "jeff-schneider",
       "details_as_printed": [
         "Pastor",
         "Boulevard Presbyterian Church"

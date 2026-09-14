@@ -3029,7 +3029,7 @@
       "sequence": 133,
       "name_as_printed": "Rev. Jon Price",
       "normalized_name_candidate": "Jon Price",
-      "normalized_person_id": null,
+      "normalized_person_id": "jon-price",
       "pdf_pages": [
         35
       ],
@@ -3095,7 +3095,7 @@
       "sequence": 136,
       "name_as_printed": "Rev. Rob Wootton",
       "normalized_name_candidate": "Rob Wootton",
-      "normalized_person_id": null,
+      "normalized_person_id": "rob-wootton",
       "pdf_pages": [
         36
       ],
@@ -3435,7 +3435,7 @@
       "sequence": 151,
       "name_as_printed": "Rev. David Lindberg",
       "normalized_name_candidate": "David Lindberg",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-lindberg",
       "pdf_pages": [
         39,
         40
@@ -7275,7 +7275,7 @@
       "sequence": 319,
       "name_as_printed": "Rev. Charles Garland",
       "normalized_name_candidate": "Charles Garland",
-      "normalized_person_id": null,
+      "normalized_person_id": "charles-garland",
       "pdf_pages": [
         83
       ],
@@ -8449,7 +8449,7 @@
       "sequence": 370,
       "name_as_printed": "Rev. Blake Altman",
       "normalized_name_candidate": "Blake Altman",
-      "normalized_person_id": null,
+      "normalized_person_id": "blake-altman",
       "pdf_pages": [
         96,
         97
@@ -9273,7 +9273,7 @@
       "sequence": 406,
       "name_as_printed": "Rev. David Goneau",
       "normalized_name_candidate": "David Goneau",
-      "normalized_person_id": null,
+      "normalized_person_id": "david-goneau",
       "pdf_pages": [
         106
       ],

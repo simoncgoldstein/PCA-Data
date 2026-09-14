@@ -129,6 +129,7 @@ jobs:
             sources/normalized/crosswalks/save-the-pca-ffo-2026-02-08
           python3 scripts/build-person-crosswalk.py .
           python3 scripts/project-garris-signers.py .
+          python3 scripts/project-national-partnership-members.py .
           python3 scripts/build-overlap-analysis.py .
           python3 scripts/build-national-partnership-continuity-analysis.py .
 

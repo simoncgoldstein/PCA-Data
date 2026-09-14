@@ -4,7 +4,7 @@
     "graph_scope": "Confirmed identity-to-dataset bipartite graph plus counts of repository core node classes."
   },
   "nodes": {
-    "person_nodes": 319,
+    "person_nodes": 329,
     "dataset_nodes": 62,
     "organization_nodes": 21,
     "church_nodes": 1970,
@@ -12,23 +12,23 @@
     "event_nodes": 19
   },
   "edges": {
-    "confirmed_identity_dataset_edges": 1035,
+    "confirmed_identity_dataset_edges": 1072,
     "by_evidence_type": {
       "first_person_authorship_and_presentation_statement": 1,
       "first_person_drafting_statement": 1,
       "formal_organization_leadership": 6,
-      "formal_organization_membership": 54,
-      "formal_protest_signature": 184,
+      "formal_organization_membership": 68,
+      "formal_protest_signature": 191,
       "formal_report_concurrence": 17,
       "formal_report_signature": 8,
       "institutional_role": 8,
       "media_authorship_or_participation": 35,
       "media_participation": 12,
-      "minority_report_signature": 24,
+      "minority_report_signature": 25,
       "named_report_role": 4,
-      "public_letter_signature": 397,
+      "public_letter_signature": 410,
       "publication_contribution": 11,
-      "recorded_negative_vote": 235,
+      "recorded_negative_vote": 237,
       "recorded_procedural_position": 9,
       "reviewed_identity_context": 18,
       "ruf_campus_role_snapshot": 8,
@@ -37,7 +37,7 @@
     },
     "by_source_tier": {
       "first_party": 53,
-      "first_party_archive": 351,
+      "first_party_archive": 364,
       "first_party_church": 12,
       "first_party_pca_ministry": 1,
       "independent_church_guest_record": 1,
@@ -45,8 +45,8 @@
       "official_denominational_minutes": 2,
       "official_institutional": 16,
       "official_or_first_person_primary": 2,
-      "official_primary": 484,
-      "primary_archive": 54,
+      "official_primary": 494,
+      "primary_archive": 68,
       "primary_public_letter": 46,
       "redeemer_partner_ministry": 1,
       "user_supplied_visual_receipt": 11
@@ -55,22 +55,22 @@
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.05233087
+    "value": 0.05255417
   },
   "components": {
     "count": 35,
-    "largest_component_nodes": 347,
+    "largest_component_nodes": 357,
     "isolated_person_nodes": 12
   },
   "quality_gaps": {
-    "unresolved_identity_rows": 3380,
+    "unresolved_identity_rows": 3343,
     "unresolved_by_status": {
-      "ambiguous": 479,
-      "collision": 24,
-      "probable_requires_review": 367,
+      "ambiguous": 470,
+      "collision": 22,
+      "probable_requires_review": 341,
       "unmatched": 2510
     },
-    "confirmed_edges_missing_specific_event_year": 335,
+    "confirmed_edges_missing_specific_event_year": 351,
     "datasets_without_primary_or_official_tier": [
       "formal_position_2001-wim-majority-mans-duty-to-protect-woman",
       "formal_position_2001-wim-minority-wise-counsel",

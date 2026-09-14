@@ -429,7 +429,7 @@
       "name_variants_as_printed": [
         "Blake Altman"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "blake-altman",
       "first_evidence_date": "2014-04-09",
       "evidence_count": 3,
       "evidence": [
@@ -1064,7 +1064,7 @@
       "name_variants_as_printed": [
         "Charles Garland"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "charles-garland",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 1,
       "evidence": [
@@ -1234,7 +1234,7 @@
       "name_variants_as_printed": [
         "Dan Herron"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "dan-herron",
       "first_evidence_date": null,
       "evidence_count": 5,
       "evidence": [
@@ -1488,7 +1488,7 @@
       "name_variants_as_printed": [
         "David Goneau"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "david-goneau",
       "first_evidence_date": "2013-03-25",
       "evidence_count": 2,
       "evidence": [
@@ -1678,7 +1678,7 @@
       "name_variants_as_printed": [
         "David Ridenhour"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "david-ridenhour",
       "first_evidence_date": null,
       "evidence_count": 1,
       "evidence": [
@@ -1764,7 +1764,7 @@
       "name_variants_as_printed": [
         "David Wallover"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "david-wallover",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 1,
       "evidence": [
@@ -2953,7 +2953,7 @@
       "name_variants_as_printed": [
         "Jeff Schneider"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "jeff-schneider",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 1,
       "evidence": [
@@ -3272,7 +3272,7 @@
       "name_variants_as_printed": [
         "Jon Price"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "jon-price",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 6,
       "evidence": [
@@ -3596,7 +3596,7 @@
       "name_variants_as_printed": [
         "Justin Woodall"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "justin-woodall",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 1,
       "evidence": [
@@ -3914,7 +3914,7 @@
       "name_variants_as_printed": [
         "Mark Bates"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "mark-bates",
       "first_evidence_date": "2013-06-28",
       "evidence_count": 4,
       "evidence": [
@@ -4948,7 +4948,7 @@
       "name_variants_as_printed": [
         "Sam DeSocio"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "sam-desocio",
       "first_evidence_date": null,
       "evidence_count": 2,
       "evidence": [
@@ -5130,7 +5130,7 @@
       "name_variants_as_printed": [
         "Sean Roberts"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "sean-roberts",
       "first_evidence_date": "2013-03-11",
       "evidence_count": 7,
       "evidence": [
@@ -5318,7 +5318,7 @@
       "name_variants_as_printed": [
         "Tag Tuck"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "tag-tuck",
       "first_evidence_date": null,
       "evidence_count": 1,
       "evidence": [
@@ -5526,7 +5526,7 @@
       "name_variants_as_printed": [
         "Todd Gwennap"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "todd-gwennap",
       "first_evidence_date": null,
       "evidence_count": 3,
       "evidence": [

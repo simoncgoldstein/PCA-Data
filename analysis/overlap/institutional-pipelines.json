@@ -146,6 +146,13 @@
           "relationship_type": "public_letter_signature",
           "source_path": "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json",
           "source_locator": "signature:26"
+        },
+        {
+          "dataset": "national_partnership_confirmed_members",
+          "year": null,
+          "relationship_type": "formal_organization_membership",
+          "source_path": "sources/normalized/national-partnership/confirmed-memberships-canonical.json",
+          "source_locator": "confirmed_member:100:mark bates"
         }
       ]
     },
@@ -501,6 +508,11 @@
     {
       "institution": "mission-to-the-world",
       "other_dataset": "a_faithful_pca_2022-03-14",
+      "confirmed_person_count": 1
+    },
+    {
+      "institution": "mission-to-the-world",
+      "other_dataset": "national_partnership_confirmed_members",
       "confirmed_person_count": 1
     },
     {
