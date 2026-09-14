@@ -1,0 +1,27 @@
+name: Validate McGowan overlap and family links
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - "data/people.json"
+      - "data/organizations.json"
+      - "data/affiliations.json"
+      - "data/sources.json"
+      - "sources/normalized/institutions/mcgowan-global-team-2026.json"
+      - "sources/normalized/identity/family-relationships-2026.json"
+      - "scripts/validate-mcgowan-overlap-and-family-links.py"
+      - ".github/workflows/validate-mcgowan-overlap-and-family-links.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-mcgowan-overlap-and-family-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Validate McGowan overlap and family links
+        run: python3 scripts/validate-mcgowan-overlap-and-family-links.py .
