@@ -320,6 +320,76 @@
     "profile_status": "seeded"
   },
   {
+    "id": "moses-lee",
+    "name": "Moses Lee",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "david-lee-redeemer-downtown",
+    "name": "David Lee",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "aaron-chung",
+    "name": "Aaron Chung",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "gene-joo",
+    "name": "Gene Joo",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "jeff-white-redeemer-downtown",
+    "name": "Jeff White",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "gregory-perry",
+    "name": "Gregory Perry",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "jeffrey-jou",
+    "name": "Jeffrey Jou",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",

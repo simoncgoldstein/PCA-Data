@@ -22,7 +22,9 @@
       "source_url": "https://www.rosebrookchurch.com/staff",
       "source_publisher": "Rosebrook Presbyterian Church",
       "source_kind": "first_party_church",
-      "evidence_summary": "Rosebrook's staff page identifies Moses Lee as its lead pastor and notes his prior PCA ordination before transfer to the EPC, corroborating the distinctive Rosebrook ministry identity printed in the 2024 letter."
+      "evidence_summary": "Rosebrook's staff page identifies Moses Lee as its lead pastor and notes his prior PCA ordination before transfer to the EPC, corroborating the distinctive Rosebrook ministry identity printed in the 2024 letter.",
+      "applied_canonical_id": "moses-lee",
+      "review_state": "applied_canonical_seed"
     },
     {
       "letter_print_order": 3,
@@ -46,7 +48,9 @@
       "source_url": "https://www.redeemerbk.com/who-we-are",
       "source_publisher": "Redeemer Brooklyn",
       "source_kind": "first_party_church",
-      "evidence_summary": "Redeemer Brooklyn identifies Rev. David Lee as its senior pastor and states that he previously served for over a decade in pastoral roles at Redeemer Downtown, corroborating the Letter 2 identity."
+      "evidence_summary": "Redeemer Brooklyn identifies Rev. David Lee as its senior pastor and states that he previously served for over a decade in pastoral roles at Redeemer Downtown, corroborating the Letter 2 identity.",
+      "applied_canonical_id": "david-lee-redeemer-downtown",
+      "review_state": "applied_canonical_seed"
     },
     {
       "letter_print_order": 5,
@@ -70,7 +74,9 @@
       "source_url": "https://exilic.com/team",
       "source_publisher": "Exilic Church",
       "source_kind": "first_party_church",
-      "evidence_summary": "Exilic's team page identifies Rev. Dr. Aaron J. Chung as founder and senior pastor, corroborating the Letter 2 Exilic identity."
+      "evidence_summary": "Exilic's team page identifies Rev. Dr. Aaron J. Chung as founder and senior pastor, corroborating the Letter 2 Exilic identity.",
+      "applied_canonical_id": "aaron-chung",
+      "review_state": "applied_canonical_seed"
     },
     {
       "letter_print_order": 7,
@@ -82,7 +88,9 @@
       "source_url": "https://exilic.com/team",
       "source_publisher": "Exilic Church",
       "source_kind": "first_party_church",
-      "evidence_summary": "Exilic's team page identifies Rev. Gene K. Joo as associate pastor, corroborating the Letter 2 Exilic identity."
+      "evidence_summary": "Exilic's team page identifies Rev. Gene K. Joo as associate pastor, corroborating the Letter 2 Exilic identity.",
+      "applied_canonical_id": "gene-joo",
+      "review_state": "applied_canonical_seed"
     },
     {
       "letter_print_order": 8,
@@ -203,7 +211,9 @@
       "source_url": "https://redeemerdt.com/staff",
       "source_publisher": "Redeemer Downtown",
       "source_kind": "first_party_church",
-      "evidence_summary": "Redeemer Downtown's team page identifies Rev. Jeff White as Assistant Pastor. This specifically corroborates the Letter 2 Jeff White and must not be applied to the Letter 1 Jeff White from New City Fellowship / Rio Grande."
+      "evidence_summary": "Redeemer Downtown's team page identifies Rev. Jeff White as Assistant Pastor. This specifically corroborates the Letter 2 Jeff White and must not be applied to the Letter 1 Jeff White from New City Fellowship / Rio Grande.",
+      "applied_canonical_id": "jeff-white-redeemer-downtown",
+      "review_state": "applied_canonical_seed"
     },
     {
       "letter_print_order": 19,
@@ -215,7 +225,9 @@
       "source_url": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf",
       "source_publisher": "PCA Historical Center",
       "source_kind": "official_denominational_minutes",
-      "evidence_summary": "The official 48th GA minutes list TE Gregory Perry of Central Florida Presbytery, independently corroborating the exact name/office/presbytery combination printed in Letter 2."
+      "evidence_summary": "The official 48th GA minutes list TE Gregory Perry of Central Florida Presbytery, independently corroborating the exact name/office/presbytery combination printed in Letter 2.",
+      "applied_canonical_id": "gregory-perry",
+      "review_state": "applied_canonical_seed"
     },
     {
       "letter_print_order": 20,
@@ -227,7 +239,9 @@
       "source_url": "https://www.pcahistory.org/pca/ga/51st_pcaga_2024_vol01.pdf",
       "source_publisher": "PCA Historical Center",
       "source_kind": "official_denominational_minutes",
-      "evidence_summary": "The official 51st GA minutes list TE Jeffrey Jou for Queens College under Metropolitan New York Presbytery RUF ministries, independently corroborating the Letter 2 identity."
+      "evidence_summary": "The official 51st GA minutes list TE Jeffrey Jou for Queens College under Metropolitan New York Presbytery RUF ministries, independently corroborating the Letter 2 identity.",
+      "applied_canonical_id": "jeffrey-jou",
+      "review_state": "applied_canonical_seed"
     },
     {
       "letter_print_order": 21,
@@ -241,5 +255,7 @@
       "source_kind": "first_party_church",
       "evidence_summary": "Redeemer Downtown's team page identifies Rev. Will Anderson as Assistant Pastor and Director of Youth Ministry, corroborating the Letter 2 identity."
     }
-  ]
+  ],
+  "applied_identity_count": 7,
+  "application_note": "Seven rows that remained blocked by generic collision/context safeguards were applied as person-specific reviewed canonical seeds. The global resolver remains unchanged. The Letter 1 Jeff White row remains unresolved because its New City Fellowship / Rio Grande context does not match the reviewed Redeemer Downtown / Metro NY identity."
 }

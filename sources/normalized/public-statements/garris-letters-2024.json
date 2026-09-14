@@ -488,7 +488,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "New City Fellowship",
           "presbytery_as_printed": "Rio Grande",
-          "normalized_person_id": null
+          "normalized_person_id": "jeff-white-redeemer-downtown"
         },
         {
           "print_order": 59,
@@ -531,7 +531,12 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Rosebrook Presbyterian Church",
           "presbytery_as_printed": "Korean Capital",
-          "normalized_person_id": null
+          "normalized_person_id": "moses-lee",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
         },
         {
           "print_order": 3,
@@ -547,7 +552,12 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Redeemer Downtown",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "david-lee-redeemer-downtown",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
         },
         {
           "print_order": 5,
@@ -563,7 +573,12 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Exilic",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "aaron-chung",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
         },
         {
           "print_order": 7,
@@ -571,7 +586,12 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Exilic",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "gene-joo",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
         },
         {
           "print_order": 8,
@@ -659,7 +679,12 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Redeemer Downtown",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "jeff-white-redeemer-downtown",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
         },
         {
           "print_order": 19,
@@ -667,7 +692,12 @@
           "office_as_printed": "TE",
           "institution_as_printed": null,
           "presbytery_as_printed": "Central Florida",
-          "normalized_person_id": null
+          "normalized_person_id": "gregory-perry",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
         },
         {
           "print_order": 20,
@@ -675,7 +705,12 @@
           "office_as_printed": "TE",
           "institution_as_printed": "RUF Queens College",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "jeffrey-jou",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
         },
         {
           "print_order": 21,
