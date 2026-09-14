@@ -8,6 +8,8 @@ This file is the dated handoff for a fresh research or coding agent. Read it aft
 
 The 2017 Women Serving committee identity pass is complete: all 12 official committee members are canonically resolved and projected to the app-facing committee event. The repository also contains a normalized 2026 Overture 37 record distinguishing Pacific Presbytery's formal submission from Jeffrey Choi's person-specific advocacy, floor speech, and later formal dissent.
 
+A person-specific women/office evidence layer now separately normalizes attributable positions for Jeffrey Choi, Kathy Keller, and William Castro without inferring those positions from committee service.
+
 The repository is no longer a v0.1 scaffold. It contains a substantial evidence archive, normalized research datasets, canonical app-facing data, identity-resolution machinery, generated overlap analysis, and focused CI validators.
 
 Major completed or substantially developed areas include:
@@ -50,6 +52,22 @@ Applied identity receipts:
 
 Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member.
 
+## Person-specific women/office evidence
+
+Normalized record:
+
+`sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json`
+
+Current factual model:
+
+- **Jeffrey Choi (2017):** argued that the biblical evidence did not justify a denomination-wide rule either including or excluding women from the diaconate and favored local-session discretion; he also argued that Romans 16:1 gives substantial support to Phoebe holding a recognized official role while treating 1 Timothy 3:11 as insufficient by itself to settle the diaconate question. Do not read his later 2026 Overture 37 activity backward into this earlier position.
+- **Kathy Keller (2012):** maintained a male-only authoritative-teaching/elder boundary while advocating broad teaching, leadership, speaking, exhortation, prayer, and ministry by women outside that authority; she rejected treating the relevant Pauline commands as culturally obsolete and distinguished ordination from the injustice of imposing extra-biblical restrictions that marginalize women's gifts.
+- **William Castro (2019):** defended the traditional restriction on women teaching, preaching, or otherwise speaking individually and officially in ordinary public worship; he rejected the interpretation that 1 Corinthians 14:34 concerns only the judging of prophecies and warned against cultural pressure driving novel exegesis. His argument does not treat congregational singing/responses or every extraordinary historical circumstance as identical to individual official speech.
+
+All of these records remain `ideological_weight: 0`. They are source-attributed issue positions, not a new ideological scoring layer.
+
+Mary Beth McGreevy's previously normalized first-person evidence remains a separate person-specific record.
+
 ## 2026 Overture 37: women as ordained deacons
 
 Normalized record: `sources/normalized/general-assembly/2026-overture-37-women-deacons-formal-actions.json`.
@@ -64,22 +82,26 @@ Current factual model:
 
 ## Immediate next slice
 
-The 2017 committee identity infrastructure no longer needs completion work. The next highest-value compact research slice should be one of:
+Shift back to the broad operational graph and complete **Garris Letter 1 and 2 signer normalization and canonical linkage** where the signer evidence can be resolved deterministically.
 
-1. normalize additional person-specific women/office evidence already identified, especially Jeffrey Choi's 2017 committee-report dissent and Kathy Keller's attributable published material; or
-2. complete Garris Letter 1 and 2 signer normalization/canonical linkage, which remains a major network-overlap gap.
+For that slice:
 
-Prefer the first option if continuing the women/office case study; prefer the second if shifting back to broader network-operational coverage.
+- normalize the signer rosters from the registered primary PDFs;
+- preserve letter 1 and letter 2 as separate actions;
+- link only identities that meet the repository's existing identity standard;
+- leave common-name or institutionally ambiguous rows unresolved;
+- project confirmed signer edges to the app-facing events using the ordinary public-letter weight already defined by methodology;
+- regenerate identity/overlap outputs and add focused validation so co-signature cannot be inflated into unrelated network membership or theological agreement.
 
 ## Work after that
 
 Preferred order unless stronger evidence changes the priority:
 
-1. Person-specific women/office evidence around the completed 2017/2026 case study.
-2. Garris Letter 1 and 2 signer normalization and canonical linkage.
-3. Exact National Partnership person-level message/page pinning, distinguishing membership, recruitment, promoted candidates, and adjacency.
-4. Remaining General Assembly denominational-action coverage and source gaps.
-5. Tier A career reconstruction after the event/action layer and identity links are stable enough to make recurrence meaningful.
+1. Complete Garris Letter 1 and 2 signer normalization and canonical linkage.
+2. Continue exact National Partnership person-level message/page pinning, distinguishing membership, recruitment, promoted candidates, and adjacency.
+3. Continue remaining General Assembly denominational-action coverage and source gaps.
+4. Expand additional person-specific position evidence only where it materially improves a high-value case study or recurring-person profile.
+5. Expand Tier A career reconstruction after the event/action layer and identity links are stable enough to make recurrence meaningful.
 
 Do not make broad ideological-position scoring the next project phase. Position claims should remain person-specific and source-attributed.
 
