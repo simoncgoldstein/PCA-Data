@@ -2,155 +2,99 @@
 
 Snapshot date: **2026-09-14**
 
-This file is the dated handoff for a fresh research or coding agent. Read it after `AGENTS.md` and `README.md`.
+This is the dated handoff for a fresh research or coding agent. Read it after `AGENTS.md` and `README.md`.
 
 ## Repository state
 
-The 2017 Women Serving committee identity pass is complete: all 12 official committee members are canonically resolved and projected to the app-facing committee event. The repository also contains a normalized 2026 Overture 37 record distinguishing Pacific Presbytery's formal submission from Jeffrey Choi's person-specific advocacy, floor speech, and later formal dissent.
+The repository is an active source-driven PCA research graph, not a scaffold. It contains primary-source and provenance material, normalized research datasets, conservative person-identity crosswalks, canonical app-facing people/organizations/events/affiliations, generated overlap analysis, and focused CI validators.
 
-A person-specific women/office evidence layer separately normalizes attributable positions for Jeffrey Choi, Kathy Keller, and William Castro without inferring those positions from committee service.
+Substantially developed areas now include:
 
-The graph now also includes a source-bounded McGowan Global Institute roster/overlap layer and zero-weight family relationships. McGowan service is kept separate from National Partnership membership, and spouse relationships are contextual rather than score-bearing.
+- National Partnership correspondence and membership/action normalization, with some exact person-level archival pinning still incomplete;
+- A Faithful PCA / `Looking Forward – Together` signer data;
+- Alliance for Mission & Renewal leadership, media, organizational framing, and issue-specific material;
+- McGowan Global Institute roster evidence with independent NP-overlap boundaries;
+- General Assembly formal actions across women/office, subscription, sexuality/Revoice, Overtures 23/37, Overture 15, NAE withdrawal, protests, minority reports, votes, and study committees;
+- the complete 2017 Women Serving committee identity roster plus separate person-specific evidence for Jeffrey Choi, Kathy Keller, William Castro, and Mary Beth McGreevy;
+- the 2026 women-deacons Overture 37 case with institutional/person attribution boundaries;
+- Garris Letter 1 and Letter 2 complete printed signer rosters, canonical signer links, app projection, and overlap analysis;
+- Save the PCA / Functional Female Officer external data;
+- canonical PCA church/presbytery data and institution/RUF snapshots;
+- zero-weight family/context edges such as Tim Keller ↔ Kathy Keller.
 
-The repository is no longer a v0.1 scaffold. It contains a substantial evidence archive, normalized research datasets, canonical app-facing data, identity-resolution machinery, generated overlap analysis, and focused CI validators.
+## Garris letters — current operational state
 
-Major completed or substantially developed areas include:
+Primary sources are registered as:
 
-- National Partnership source normalization and identity work, with exact archival pinning still incomplete for some person-level claims.
-- A Faithful PCA / `Looking Forward – Together` signer snapshots and normalized public-statement data.
-- Alliance for Mission & Renewal leadership, media, organizational framing, and related source snapshots.
-- McGowan Global Institute current-roster normalization with independently verified NP overlap for selected people.
-- General Assembly source ingestion and normalized formal-position/action datasets across multiple years, including women/office, subscription, sexuality/Revoice, Overtures 23/37, Overture 15, NAE withdrawal, protests, minority reports, recorded votes, study committees, and 2026 Overture 37 on ordained women deacons.
-- Save the PCA / Functional Female Officer external-dataset ingestion with source-attribution boundaries.
-- Church and presbytery canonical data.
-- Institution and RUF role snapshots.
-- Person identity crosswalks, reviewed identity receipts, and contextual person-to-person family edges.
-- Generated overlap analysis under `analysis/overlap/`.
-- Public/app-facing events, affiliations, organizations, people, and sources under `data/`.
-- Multiple focused validation workflows plus repository-wide research validation.
+- `src-garris-letter-1` — `Report Concerning the Christian Character of TE Zachary Garris`;
+- `src-garris-letter-2` — `Letter to Rio Grande Presbytery Concerning TE Zachary Garris`, dated June 6, 2024.
+
+Normalized complete rosters:
+
+`sources/normalized/public-statements/garris-letters-2024.json`
+
+Current coverage:
+
+- **Letter 1:** 60 printed signers; **23 currently canonical** and app-projected.
+- **Letter 2:** 21 printed signers; **21/21 canonical** and app-projected.
+- Every resolved signature is a confirmed `public_coalition_action` with the methodology's ordinary public-letter weight **3** and `score_included: true`.
+- The score records documented participation in this tracked public action. It is not itself a judgment of orthodoxy, Christian character, or every theological position of the signer.
+
+Letter 2 required a reviewed identity pass for Metro New York and adjacent signers. The provenance receipt is:
+
+`sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json`
+
+Nineteen Letter 2 rows received targeted independent identity corroboration; seven identities that remained blocked by generic resolver collision/context safeguards were applied as person-specific canonical seeds. The global identity threshold was not weakened.
+
+Critical same-name boundary:
+
+- Letter 1 `Jeff White` — New City Fellowship / Rio Grande — **remains unresolved**.
+- Letter 2 `Jeff White` — Redeemer Downtown / Metro NY — resolved as `jeff-white-redeemer-downtown`.
+- Never merge those two rows merely because the printed name is identical.
+
+Interpretive boundary: signing one of the Garris letters is a meaningful, score-bearing public denominational action and is appropriate for downstream coalition/trajectory analysis. It does **not by itself** establish National Partnership membership, AMR membership, agreement on unrelated controversies, or a generic ideological label such as `big tent`. Such interpretation should arise downstream from multiple independently sourced actions/relationships.
+
+Reproducibility:
+
+- `scripts/build-person-crosswalk.py` ingests Letter 1 and Letter 2 as separate source families.
+- `scripts/project-garris-signers.py` deterministically reconciles resolved signer rows to app affiliations, including removal of stale signer edges after an identity correction.
+- repository-wide generated-output validation reruns the person crosswalk, the Garris signer projection, and overlap analysis before requiring a clean git diff.
+- `scripts/validate-garris-letter-signers.py` protects roster completeness, scoring semantics, app linkage, Letter 2 completeness, and the Jeff White identity boundary.
 
 ## McGowan Global Institute / National Partnership overlap
 
-Normalized record:
+`sources/normalized/institutions/mcgowan-global-team-2026.json` tracks Bruce O'Neil, Mike Khandjian, David Cassidy, Ray Cortese, and Bob Flayhart as McGowan Global Institute `Consultant, Coach` roles. Those institutional roles are weight 0.
 
-`sources/normalized/institutions/mcgowan-global-team-2026.json`
-
-The current McGowan Global Institute `Who We Are` page lists these five tracked PCA figures as **Consultant, Coach**:
-
-- `bruce-o-neil`
-- `mike-khandjian`
-- `david-cassidy`
-- `ray-cortese`
-- `bob-flayhart`
-
-The app projects all five McGowan roles as confirmed `current_external_role` affiliations with `weight: 0` and `score_included: false`.
-
-Independent National Partnership status is not inferred from McGowan service:
-
-- **Bruce O'Neil** — independently confirmed in the canonical NP dataset from 2018 NP-guys committee rosters, archive pp. 264–265.
-- **Mike Khandjian** — independently confirmed as an NP member in the primary archive; the same evidence explicitly distinguishes his Fellowship Dinner network as independently created despite high overlap with NP. His app NP edge is now `confirmed` rather than merely `strongly_supported`.
-- **Ray Cortese** — independently confirmed from the March 11, 2013 NP additions record, archive p. 17.
-- **Bob Flayhart** — independently confirmed from the February 11, 2013 NP additions record, archive p. 3.
-- **David Cassidy** — no canonical NP membership record is present in the current repository dataset. He remains separately connected to AMR founding/current leadership and Garris Letter 1. Do not turn those overlaps into an NP membership claim without new independent evidence.
-
-Guardrail: personnel recurrence can be analytically useful, but it does not by itself establish that McGowan Global Institute is a successor, continuation, front, or ideological equivalent of the National Partnership, Khandjian Fellowship, or AMR.
+Independent NP evidence exists for O'Neil, Khandjian, Cortese, and Flayhart. No canonical NP membership evidence is currently present for Cassidy; his AMR/Garris/McGowan connections must not be converted into NP membership without independent evidence. Personnel recurrence is analytically useful but does not by itself establish that McGowan is an NP/AMR successor, front, or ideological equivalent.
 
 ## Family relationships
 
-Normalized record:
+`sources/normalized/identity/family-relationships-2026.json` currently includes Tim Keller ↔ Kathy Keller as confirmed spouses. Family edges are reciprocal, `weight: 0`, and `score_included: false`; they never transfer theology, committee service, network membership, public actions, or score between people.
 
-`sources/normalized/identity/family-relationships-2026.json`
+## 2017 Women Serving / women-office evidence
 
-Current app-visible family context includes **Tim Keller ↔ Kathy Keller** as spouses. Tim Keller is now a canonical person node so this relation can be represented directly.
+All 12 official committee identities are canonical and app-projected. Committee service remains weight 0 and must not be treated as blanket agreement with every report statement or internal school.
 
-Family edges are reciprocal, confirmed, `weight: 0`, and `score_included: false`. They provide identity/context only and must never transfer one spouse's theology, committee service, network membership, public actions, or score to the other.
+Separate attributable evidence is normalized for Jeffrey Choi, Kathy Keller, William Castro, and Mary Beth McGreevy. Choi's 2017 local-session-discretion argument is kept distinct from his 2026 Overture 37 advocacy and formal dissent. Kathy Keller's male authoritative-teaching/elder boundary is kept alongside her broad stated support for other ministry by women. Castro's stricter ordinary-public-worship speech position is person-specific rather than inferred from committee service.
 
-## 2017 Women Serving committee
+## 2026 Overture 37
 
-All 12 official committee identities are canonical:
-
-- `leon-brown`
-- `william-castro`
-- `jeffrey-choi`
-- `dan-doriani`
-- `ligon-duncan`
-- `irwyn-ince`
-- `lani-jones`
-- `kathy-keller`
-- `mary-beth-mcgreevy`
-- `bruce-o-neil`
-- `harry-reeder`
-- `roy-taylor`
-
-Applied identity receipts:
-
-- `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json` — Dan Doriani, Ligon Duncan, Roy Taylor.
-- `sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json` — Leon Brown, Mary Beth McGreevy, Harry Reeder.
-- `sources/raw/identity/2017-women-serving-identity-evidence-batch3-2026-09-14.json` — Jeffrey Choi, Kathy Keller.
-- `sources/raw/identity/2017-women-serving-identity-evidence-batch4-2026-09-14.json` — William Castro, Lani Jones.
-
-Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member.
-
-## Person-specific women/office evidence
-
-Normalized record:
-
-`sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json`
-
-Current factual model:
-
-- **Jeffrey Choi (2017):** argued that the biblical evidence did not justify a denomination-wide rule either including or excluding women from the diaconate and favored local-session discretion; he also argued that Romans 16:1 gives substantial support to Phoebe holding a recognized official role while treating 1 Timothy 3:11 as insufficient by itself to settle the diaconate question. Do not read his later 2026 Overture 37 activity backward into this earlier position.
-- **Kathy Keller (2012):** maintained a male-only authoritative-teaching/elder boundary while advocating broad teaching, leadership, speaking, exhortation, prayer, and ministry by women outside that authority; she rejected treating the relevant Pauline commands as culturally obsolete and distinguished ordination from the injustice of imposing extra-biblical restrictions that marginalize women's gifts.
-- **William Castro (2019):** defended the traditional restriction on women teaching, preaching, or otherwise speaking individually and officially in ordinary public worship; he rejected the interpretation that 1 Corinthians 14:34 concerns only the judging of prophecies and warned against cultural pressure driving novel exegesis. His argument does not treat congregational singing/responses or every extraordinary historical circumstance as identical to individual official speech.
-
-All of these records remain `ideological_weight: 0`. They are source-attributed issue positions, not a new ideological scoring layer.
-
-Mary Beth McGreevy's previously normalized first-person evidence remains a separate person-specific record.
-
-## 2026 Overture 37: women as ordained deacons
-
-Normalized record: `sources/normalized/general-assembly/2026-overture-37-women-deacons-formal-actions.json`.
-
-Current factual model:
-
-- Overture 37 was formally submitted by **Pacific Presbytery** and proposed amending BCO 9-3 and conforming provisions to permit local sessions to decide whether qualified women may serve as ordained deacons.
-- The Overtures Committee recommended answering the overture in the negative by **115-14-1**, and the Assembly adopted the negative recommendation.
-- Jeffrey Choi is separately documented as a public advocate for Overture 37 and as a floor speaker in support. Those advocacy edges are unscored.
-- A later formal dissent from the Assembly action names TEs Aaron Baker, Jeffrey Choi, Walter Henegar, and Eric Kapur as its submitters. Choi's confirmed co-authorship/submission of that dissent is modeled as a formal person-specific denominational action with weight 3.
-- Current primary evidence does **not** name Choi as the sole author, drafter, sponsor, or orchestrator of Overture 37. Preserve that attribution boundary unless stronger primary evidence is added.
+Pacific Presbytery is the formal submitting body for Overture 37. Jeffrey Choi is separately documented as a public advocate, floor speaker in support, and one of the later formal dissent's four named submitters. Current primary evidence does not establish Choi as the sole author, drafter, sponsor, or orchestrator of the overture itself.
 
 ## Immediate next slice
 
-Shift back to the broad operational graph and complete **Garris Letter 1 and 2 signer normalization and canonical linkage** where the signer evidence can be resolved deterministically.
+Continue **Garris Letter 1 identity resolution in compact reviewed batches**, prioritizing signers who recur elsewhere in the repository or whose printed church/presbytery context can be independently corroborated without ambiguity.
 
-For that slice:
+For that work:
 
-- normalize the signer rosters from the registered primary PDFs;
-- preserve Letter 1 and Letter 2 as separate actions;
-- link only identities that meet the repository's existing identity standard;
-- leave common-name or institutionally ambiguous rows unresolved;
-- project confirmed signer edges to the app-facing events using the ordinary public-letter weight already defined by methodology;
-- regenerate identity/overlap outputs and add focused validation so co-signature cannot be inflated into unrelated network membership or theological agreement.
+1. Start from the 37 unresolved Letter 1 rows in `garris-letters-2024.json` / the generated review queue.
+2. Prefer already recurring/high-value graph people and exact first-party/official ministry context.
+3. Record reviewed identity evidence in a receipt rather than relaxing global name-matching rules.
+4. Preserve the distinct Letter 1 Jeff White unless independent New City Fellowship / Rio Grande evidence resolves him.
+5. Rerun crosswalk → Garris projection → overlap analysis and keep the focused validator forward-compatible as Letter 1 coverage increases.
 
-## Work after that
-
-Preferred order unless stronger evidence changes the priority:
-
-1. Complete Garris Letter 1 and 2 signer normalization and canonical linkage.
-2. Continue exact National Partnership person-level message/page pinning, distinguishing membership, recruitment, promoted candidates, and adjacency.
-3. Continue remaining General Assembly denominational-action coverage and source gaps.
-4. Expand additional person-specific position evidence only where it materially improves a high-value case study or recurring-person profile.
-5. Expand Tier A career reconstruction after the event/action layer and identity links are stable enough to make recurrence meaningful.
-
-Do not make broad ideological-position scoring the next project phase. Position claims should remain person-specific and source-attributed.
+After one or two efficient Letter 1 batches, the next broad operational priority should be exact National Partnership person-level message/page pinning and remaining high-value GA action/source gaps. Do not make broad ideological-position scoring the next data-ingestion phase; let the eventual UI/analysis layer synthesize independently sourced actions.
 
 ## Documentation maintenance rule
 
-When a meaningful milestone is merged, update this file if it changes:
-
-- the latest completed data state;
-- the immediate next slice;
-- a major source-family status;
-- a material unresolved identity or evidence boundary.
-
-Keep this file short enough that a fresh agent can read it before inspecting implementation details.
+Update this file when a meaningful merge changes the latest completed data state, immediate next slice, major source-family status, or a material unresolved identity/evidence boundary. Keep it concise enough that a fresh agent can orient before inspecting implementation details.

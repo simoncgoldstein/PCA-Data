@@ -2142,7 +2142,7 @@
       "sequence": 94,
       "name_as_printed": "Dr. Hans Madueme",
       "normalized_name_candidate": "Hans Madueme",
-      "normalized_person_id": null,
+      "normalized_person_id": "hans-madueme",
       "pdf_pages": [
         25
       ],
@@ -2644,7 +2644,7 @@
       "sequence": 116,
       "name_as_printed": "Rev. Moses Lee",
       "normalized_name_candidate": "Moses Lee",
-      "normalized_person_id": null,
+      "normalized_person_id": "moses-lee",
       "pdf_pages": [
         31
       ],
@@ -3779,7 +3779,7 @@
       "sequence": 166,
       "name_as_printed": "Rev. Howard Davis",
       "normalized_name_candidate": "Howard Davis",
-      "normalized_person_id": null,
+      "normalized_person_id": "howard-davis",
       "pdf_pages": [
         43
       ],
@@ -4371,7 +4371,7 @@
       "sequence": 192,
       "name_as_printed": "Rev. Jason Walch",
       "normalized_name_candidate": "Jason Walch",
-      "normalized_person_id": null,
+      "normalized_person_id": "jason-walch",
       "pdf_pages": [
         50
       ],
@@ -4533,7 +4533,7 @@
       "sequence": 199,
       "name_as_printed": "Rev. Charles Isaac",
       "normalized_name_candidate": "Charles Isaac",
-      "normalized_person_id": null,
+      "normalized_person_id": "charles-isaac",
       "pdf_pages": [
         52
       ],

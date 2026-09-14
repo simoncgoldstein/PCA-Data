@@ -1,0 +1,726 @@
+{
+  "metadata": {
+    "dataset_id": "garris_letters_2024",
+    "normalized_on": "2026-09-14",
+    "source_scope": "Complete printed signer rosters from the two registered primary public letters to Rio Grande Presbytery concerning TE Zachary Garris.",
+    "source_ids": [
+      "src-garris-letter-1",
+      "src-garris-letter-2"
+    ],
+    "letter_1_signer_count": 60,
+    "letter_2_signer_count": 21,
+    "default_app_evidence_kind": "public_coalition_action",
+    "default_app_weight": 3,
+    "scoring_rule": "A confirmed signature is a formal public-letter action and uses the methodology's ordinary weight 3. The weight measures documented involvement in the tracked source universe, not orthodoxy, Christian character, or every theological position of a signer.",
+    "identity_rule": "Printed office, church/ministry, and presbytery are preserved as contextual disambiguators. Same-name matching alone is insufficient. Letter 1 and Letter 2 remain separate source families/actions.",
+    "interpretive_boundary": "Signing establishes the person's participation in that specific letter and its request for presbytery investigation. Co-signature does not by itself establish National Partnership, AMR, or other network membership, nor agreement on unrelated controversies or a generic ideological label.",
+    "same_name_warning": "Jeff White appears in both letters with materially different printed institutional/presbytery context (Letter 1: New City Fellowship, Rio Grande; Letter 2: Redeemer Downtown, Metro NY). Do not merge those rows absent independent identity evidence."
+  },
+  "letters": [
+    {
+      "letter_id": "garris-letter-1",
+      "event_id": "evt-garris-letter-1",
+      "source_id": "src-garris-letter-1",
+      "year": 2024,
+      "date": null,
+      "title": "Report Concerning the Christian Character of TE Zachary Garris",
+      "signed_action_summary": "The undersigned asked Rio Grande Presbytery under BCO 31-2 to investigate concerns arising from Zachary Garris's public statements, including his theology and public discourse concerning slavery, Old Testament law, the Westminster Larger Catechism, ordination vows, and the PCA's 2002 racial-reconciliation statement, while allowing correction or clarification where appropriate.",
+      "signers": [
+        {
+          "print_order": 1,
+          "name_as_printed": "Dave Abney",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ Community Church",
+          "presbytery_as_printed": "Hills and Plains",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Dan Adamson",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Covenant Presbyterian Church",
+          "presbytery_as_printed": "Chicago Metro",
+          "normalized_person_id": "dan-adamson"
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Matt Allhands",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Coram Deo Presbyterian Church",
+          "presbytery_as_printed": "Pacific Northwest",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "Cameron Barham",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ Community Church",
+          "presbytery_as_printed": "NorthWest Georgia",
+          "normalized_person_id": "cameron-barham"
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Cal Boroughs",
+          "office_as_printed": "TE",
+          "institution_as_printed": null,
+          "presbytery_as_printed": "Tennessee Valley",
+          "normalized_person_id": "cal-boroughs"
+        },
+        {
+          "print_order": 6,
+          "name_as_printed": "Nicholas Bullock",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ Presbyterian New Braunfels",
+          "presbytery_as_printed": "South Texas",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 7,
+          "name_as_printed": "David Cassidy",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Spanish River Church PCA",
+          "presbytery_as_printed": "Gulfstream",
+          "normalized_person_id": "david-cassidy"
+        },
+        {
+          "print_order": 8,
+          "name_as_printed": "Josiah Carey",
+          "office_as_printed": "TE",
+          "institution_as_printed": "UVA RUF",
+          "presbytery_as_printed": "Blue Ridge",
+          "normalized_person_id": "josiah-carey"
+        },
+        {
+          "print_order": 9,
+          "name_as_printed": "Jason Cornwell",
+          "office_as_printed": "TE",
+          "institution_as_printed": "North Augusta Fellowship PCA",
+          "presbytery_as_printed": "Palmetto",
+          "normalized_person_id": "jason-cornwell"
+        },
+        {
+          "print_order": 10,
+          "name_as_printed": "Howard Davis",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Grace Presbyterian Church Shreveport",
+          "presbytery_as_printed": "North Texas",
+          "normalized_person_id": "howard-davis"
+        },
+        {
+          "print_order": 11,
+          "name_as_printed": "Brad Edwards",
+          "office_as_printed": "TE",
+          "institution_as_printed": "The Table Church",
+          "presbytery_as_printed": "Rocky Mountain",
+          "normalized_person_id": "brad-edwards"
+        },
+        {
+          "print_order": 12,
+          "name_as_printed": "Alex Ford",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Brigham City Bible Church",
+          "presbytery_as_printed": "Northern California",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 13,
+          "name_as_printed": "Bryce Hales",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Trinity San Luis Obispo",
+          "presbytery_as_printed": "Northern California",
+          "normalized_person_id": "bryce-hales"
+        },
+        {
+          "print_order": 14,
+          "name_as_printed": "Ian G. Hard",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ Church PCA",
+          "presbytery_as_printed": "Northern New England",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 15,
+          "name_as_printed": "Chris Holdridge",
+          "office_as_printed": "TE",
+          "institution_as_printed": "New City Fellowship Beechwood",
+          "presbytery_as_printed": "New York State",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 16,
+          "name_as_printed": "Vincent Hoppe",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Grace and Peace Church Colorado Springs",
+          "presbytery_as_printed": "Rocky Mountain",
+          "normalized_person_id": "vincent-hoppe"
+        },
+        {
+          "print_order": 17,
+          "name_as_printed": "John Houmes",
+          "office_as_printed": "TE",
+          "institution_as_printed": "New City Fellowship",
+          "presbytery_as_printed": "South Florida",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 18,
+          "name_as_printed": "Matthew Hutchens",
+          "office_as_printed": "TE",
+          "institution_as_printed": "New Hope Presbyterian Church",
+          "presbytery_as_printed": "Piedmont Triad",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 19,
+          "name_as_printed": "Charles Isaac",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ the King El Paso",
+          "presbytery_as_printed": "Rio Grande",
+          "normalized_person_id": "charles-isaac"
+        },
+        {
+          "print_order": 20,
+          "name_as_printed": "Irwyn Ince",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Mission to North America",
+          "presbytery_as_printed": "Potomac",
+          "normalized_person_id": "irwyn-ince"
+        },
+        {
+          "print_order": 21,
+          "name_as_printed": "Nathaniel Johnson",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ Community Church (Out of Bounds)",
+          "presbytery_as_printed": "Pacific NW",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 22,
+          "name_as_printed": "Russ Kapusinski",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Ministering out of bounds",
+          "presbytery_as_printed": "Central Florida",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 23,
+          "name_as_printed": "Jeffrey Kerr",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Crestwood Presbyterian Church",
+          "presbytery_as_printed": "Canada West",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 24,
+          "name_as_printed": "Mike Khandjian",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Chapelgate Presbyterian Church",
+          "presbytery_as_printed": "Chesapeake",
+          "normalized_person_id": "mike-khandjian"
+        },
+        {
+          "print_order": 25,
+          "name_as_printed": "Brent Kilman",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Westminster Presbyterian Church (Everett, WA)",
+          "presbytery_as_printed": "Pacific NW",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 26,
+          "name_as_printed": "Sungyak John Kim",
+          "office_as_printed": "TE",
+          "institution_as_printed": "New Church of Atlanta",
+          "presbytery_as_printed": "Korean Southeastern",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 27,
+          "name_as_printed": "Jeremy King",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Story Church Mayfield Heights",
+          "presbytery_as_printed": "Ohio",
+          "normalized_person_id": "jeremy-king"
+        },
+        {
+          "print_order": 28,
+          "name_as_printed": "Joshua Knott",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Cornerstone Presbyterian Church",
+          "presbytery_as_printed": "Palmetto",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 29,
+          "name_as_printed": "Jerid Krulish",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Faith Presbyterian Church (Anchorage, AK)",
+          "presbytery_as_printed": "Pacific NW",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 30,
+          "name_as_printed": "Wayne Larson",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer Des Moines, IA",
+          "presbytery_as_printed": "Iowa",
+          "normalized_person_id": "wayne-larson"
+        },
+        {
+          "print_order": 31,
+          "name_as_printed": "Murray W. Lee",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Mission to North America",
+          "presbytery_as_printed": "Evangel",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 32,
+          "name_as_printed": "David Lindberg",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ the King",
+          "presbytery_as_printed": "North Texas",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 33,
+          "name_as_printed": "Hans Madueme",
+          "office_as_printed": "RE",
+          "institution_as_printed": "St Elmo Presbyterian Church",
+          "presbytery_as_printed": "Tennessee Valley",
+          "normalized_person_id": "hans-madueme"
+        },
+        {
+          "print_order": 34,
+          "name_as_printed": "Justin McGuire",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ Covenant Church",
+          "presbytery_as_printed": "Palmetto",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 35,
+          "name_as_printed": "Ernest Perry",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Westminster Reformed Presbyterian Church",
+          "presbytery_as_printed": "Tidewater",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 36,
+          "name_as_printed": "Jonathan Price",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Covenant Community Presbyterian",
+          "presbytery_as_printed": "Pittsburgh",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 37,
+          "name_as_printed": "Derek Radney",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Trinity Church (PCA)",
+          "presbytery_as_printed": "Piedmont Triad",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 38,
+          "name_as_printed": "Blake Reap",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Central Hope Church (Little Rock)",
+          "presbytery_as_printed": "Covenant",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 39,
+          "name_as_printed": "David Richmon",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Trinity Seattle",
+          "presbytery_as_printed": "Pacific NW",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 40,
+          "name_as_printed": "David Richter",
+          "office_as_printed": "TE",
+          "institution_as_printed": "City Church of East Nashville",
+          "presbytery_as_printed": "Nashville",
+          "normalized_person_id": "david-richter"
+        },
+        {
+          "print_order": 41,
+          "name_as_printed": "Michael Saji",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Citylife Presbyterian Church",
+          "presbytery_as_printed": "Southern New England",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 42,
+          "name_as_printed": "Adriel Sanchez",
+          "office_as_printed": "TE",
+          "institution_as_printed": "North Park Presbyterian Church",
+          "presbytery_as_printed": "South Coast",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 43,
+          "name_as_printed": "Robert Schmidtberger",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Iron Works Church of West Chester",
+          "presbytery_as_printed": "Philadelphia Metro West",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 44,
+          "name_as_printed": "Travis Scott",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Grace & Peace",
+          "presbytery_as_printed": "Pittsburgh",
+          "normalized_person_id": "travis-scott"
+        },
+        {
+          "print_order": 45,
+          "name_as_printed": "Kevin M. Smith",
+          "office_as_printed": "TE",
+          "institution_as_printed": "New City Fellowship of Chattanooga",
+          "presbytery_as_printed": "Tennessee Valley",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 46,
+          "name_as_printed": "John Stephenson",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Central Hope Church",
+          "presbytery_as_printed": "Covenant",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 47,
+          "name_as_printed": "Jerry Stutzman",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Christ Church Grand Rapids",
+          "presbytery_as_printed": "Great Lakes",
+          "normalized_person_id": "jerry-stutzman"
+        },
+        {
+          "print_order": 48,
+          "name_as_printed": "Ryan Storch",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Trinity Presbyterian Church",
+          "presbytery_as_printed": "Warrior",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 49,
+          "name_as_printed": "Charles Stover",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeeming Grace Presbyterian",
+          "presbytery_as_printed": "Missouri",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 50,
+          "name_as_printed": "Chris Sutton",
+          "office_as_printed": "RE",
+          "institution_as_printed": "One Ancient Hope",
+          "presbytery_as_printed": "Iowa",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 51,
+          "name_as_printed": "Ben Tietje",
+          "office_as_printed": "TE",
+          "institution_as_printed": "New Hope Presbyterian Church",
+          "presbytery_as_printed": "Piedmont Triad",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 52,
+          "name_as_printed": "Joshua Torrey",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Redeemer Presbyterian Austin",
+          "presbytery_as_printed": "South Texas",
+          "normalized_person_id": "joshua-torrey"
+        },
+        {
+          "print_order": 53,
+          "name_as_printed": "Kevin Twit",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Christ Presbyterian Nashville/RUF",
+          "presbytery_as_printed": "Nashville",
+          "normalized_person_id": "kevin-twit"
+        },
+        {
+          "print_order": 54,
+          "name_as_printed": "Greg Ward",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Emmanuel Austin PCA",
+          "presbytery_as_printed": "South Texas",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 55,
+          "name_as_printed": "Jason Walch",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Denver Presbyterian Church",
+          "presbytery_as_printed": "Rocky Mountain",
+          "normalized_person_id": "jason-walch"
+        },
+        {
+          "print_order": 56,
+          "name_as_printed": "Jordan Washington",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Central Hope Church (Little Rock)",
+          "presbytery_as_printed": "Covenant",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 57,
+          "name_as_printed": "Daniel Wells",
+          "office_as_printed": "TE",
+          "institution_as_printed": "St Elmo Presbyterian Church",
+          "presbytery_as_printed": "Tennessee Valley",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 58,
+          "name_as_printed": "Jeff White",
+          "office_as_printed": "TE",
+          "institution_as_printed": "New City Fellowship",
+          "presbytery_as_printed": "Rio Grande",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 59,
+          "name_as_printed": "Richard Wolfe",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Grace Presbyterian Church Sierra Vista",
+          "presbytery_as_printed": "Arizona",
+          "normalized_person_id": null
+        },
+        {
+          "print_order": 60,
+          "name_as_printed": "Geoff Ziegler",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Trinity Presbyterian Church",
+          "presbytery_as_printed": "Chicago Metro",
+          "normalized_person_id": "geoff-ziegler"
+        }
+      ]
+    },
+    {
+      "letter_id": "garris-letter-2",
+      "event_id": "evt-garris-letter-2",
+      "source_id": "src-garris-letter-2",
+      "year": 2024,
+      "date": "2024-06-06",
+      "title": "Letter to Rio Grande Presbytery Concerning TE Zachary Garris",
+      "signed_action_summary": "The undersigned requested a BCO 31-2 investigation of Zachary Garris over public statements and social-media activity concerning slavery, race, WLC 136 and 142, denominational statements on race, and related officer-conduct concerns.",
+      "signers": [
+        {
+          "print_order": 1,
+          "name_as_printed": "Justin Adour",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer East Harlem",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "justin-adour"
+        },
+        {
+          "print_order": 2,
+          "name_as_printed": "Moses Lee",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Rosebrook Presbyterian Church",
+          "presbytery_as_printed": "Korean Capital",
+          "normalized_person_id": "moses-lee",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
+        },
+        {
+          "print_order": 3,
+          "name_as_printed": "Peter Rhee",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Uptown Community Church",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "peter-rhee"
+        },
+        {
+          "print_order": 4,
+          "name_as_printed": "David Lee",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer Downtown",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "david-lee-redeemer-downtown",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
+        },
+        {
+          "print_order": 5,
+          "name_as_printed": "Tim Chang",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Emmanuel Presbyterian Church",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "tim-chang"
+        },
+        {
+          "print_order": 6,
+          "name_as_printed": "Aaron Chung",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Exilic",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "aaron-chung",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
+        },
+        {
+          "print_order": 7,
+          "name_as_printed": "Gene Joo",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Exilic",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "gene-joo",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
+        },
+        {
+          "print_order": 8,
+          "name_as_printed": "Jay Harvey",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Exilic",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "jay-harvey"
+        },
+        {
+          "print_order": 9,
+          "name_as_printed": "Hector Sanchez",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer East Side",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "hector-sanchez"
+        },
+        {
+          "print_order": 10,
+          "name_as_printed": "Peter Ong",
+          "office_as_printed": "RE",
+          "institution_as_printed": "Living Faith Community Church",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "peter-ong"
+        },
+        {
+          "print_order": 11,
+          "name_as_printed": "Wei Ho",
+          "office_as_printed": "TE",
+          "institution_as_printed": "RUF Gotham",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "wei-ho"
+        },
+        {
+          "print_order": 12,
+          "name_as_printed": "Charles Chung",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer Downtown",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "charles-chung"
+        },
+        {
+          "print_order": 13,
+          "name_as_printed": "Joshua Ro",
+          "office_as_printed": "TE",
+          "institution_as_printed": "King’s Cross Church",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "joshua-ro"
+        },
+        {
+          "print_order": 14,
+          "name_as_printed": "Andrew Field",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer West Side",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "andrew-field"
+        },
+        {
+          "print_order": 15,
+          "name_as_printed": "J. David Ellis",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer East Side",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "j-david-ellis"
+        },
+        {
+          "print_order": 16,
+          "name_as_printed": "David Bisgrove",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer West Side",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "david-bisgrove"
+        },
+        {
+          "print_order": 17,
+          "name_as_printed": "Pete Nicholas",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer Downtown",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "pete-nicholas"
+        },
+        {
+          "print_order": 18,
+          "name_as_printed": "Jeff White",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer Downtown",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "jeff-white-redeemer-downtown",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
+        },
+        {
+          "print_order": 19,
+          "name_as_printed": "Gregory Perry",
+          "office_as_printed": "TE",
+          "institution_as_printed": null,
+          "presbytery_as_printed": "Central Florida",
+          "normalized_person_id": "gregory-perry",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
+        },
+        {
+          "print_order": 20,
+          "name_as_printed": "Jeffrey Jou",
+          "office_as_printed": "TE",
+          "institution_as_printed": "RUF Queens College",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "jeffrey-jou",
+          "identity_resolution": {
+            "status": "reviewed_canonical_seed",
+            "receipt": "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json",
+            "rule": "Person-specific reviewed identity decision; does not create a global same-name equivalence."
+          }
+        },
+        {
+          "print_order": 21,
+          "name_as_printed": "Will Anderson",
+          "office_as_printed": "TE",
+          "institution_as_printed": "Redeemer Downtown",
+          "presbytery_as_printed": "Metro NY",
+          "normalized_person_id": "will-anderson"
+        }
+      ]
+    }
+  ]
+}

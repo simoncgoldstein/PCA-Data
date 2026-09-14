@@ -244,6 +244,10 @@ MANUAL_SEED_ALIASES = {
 # generated source file has been cleaned, so a second run produces no drift.
 REJECTED_SOURCE_ID_OVERRIDES = {
     ("a_faithful_pca_2022-03-14", "signature:6"): "andrew-augenstein",
+    # Letter 1 and Letter 2 contain different Jeff Whites by printed context.
+    # A prior generated backfill must not turn the Letter 1 Rio Grande row
+    # into the reviewed Redeemer Downtown / Metro NY identity.
+    ("garris_letter_1", "garris-letter-1:signer:58"): "jeff-white-redeemer-downtown",
 }
 
 seed_exact: dict[str, list[str]] = defaultdict(list)
@@ -288,7 +292,9 @@ def add_record(
     if existing_id in seed_ids:
         seed_name_matches = candidate == normalize_name(seed_by_id[existing_id]["name"])
         manual_name_matches = MANUAL_SEED_ALIASES.get(candidate, {}).get("person_id") == existing_id
-        if seed_name_matches or manual_name_matches:
+        if rejected_existing_id == existing_id:
+            valid_existing_id = None
+        elif seed_name_matches or manual_name_matches:
             valid_existing_id = existing_id
         elif not rejected_existing_id:
             rejected_existing_id = existing_id
@@ -347,6 +353,53 @@ for dataset, family, relative, row_key, order_key, evidence_type in roster_specs
             office=row.get("office_as_printed"),
             existing_id=row.get("normalized_person_id"),
         )
+
+# 2024 Garris public-letter signer rosters. Letter 1 and Letter 2 are distinct
+# source families/actions. Printed church/ministry and presbytery fields are
+# contextual disambiguators; same-name matching alone never confirms identity.
+relative = "sources/normalized/public-statements/garris-letters-2024.json"
+garris_data = register_json(relative)
+for letter in garris_data.get("letters", []):
+    family = letter["letter_id"].replace("-", "_")
+    dataset = family
+    for row in letter.get("signers", []):
+        add_record(
+            dataset=dataset,
+            family=family,
+            source_path=relative,
+            locator=f"{letter['letter_id']}:signer:{row['print_order']}",
+            printed_name=row["name_as_printed"],
+            row=row,
+            source_tier="primary_public_letter",
+            completeness="complete_printed_signer_roster",
+            evidence_type="public_letter_signature",
+            presbyteries=[row.get("presbytery_as_printed")],
+            institutions=[row.get("institution_as_printed")],
+            office=row.get("office_as_printed"),
+            existing_id=row.get("normalized_person_id"),
+        )
+# Reviewed identity corroboration for unresolved Garris Letter 2 signers.
+# These records are independent of the letter itself and exist only to
+# disambiguate person identity. They do not add issue positions.
+relative = "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json"
+garris_l2_identity = register_json(relative)
+for row in garris_l2_identity.get("evidence", []):
+    add_record(
+        dataset="garris_letter_2_identity_verification",
+        family="garris_letter_2_identity_verification",
+        source_path=relative,
+        locator=f"reviewed_identity:{row['letter_print_order']}",
+        printed_name=row["matching_name"],
+        row=row,
+        source_tier=row["source_kind"],
+        completeness="targeted_reviewed_identity_evidence",
+        evidence_type="reviewed_identity_context",
+        presbyteries=[row.get("presbytery_as_printed")],
+        institutions=[row.get("institution_as_printed")],
+        existing_id=None,
+        backfill=False,
+    )
+
 
 
 # Human Sexuality AIC committee service. The committee source family is
@@ -1106,6 +1159,14 @@ for key in sorted(groups):
         row_method = method
         row_confidence = confidence
         row_note = note
+        if row_id is None and row.get("existing_id"):
+            # Preserve a trusted source-specific identity even when the
+            # broader same-name group is not safely mergeable.
+            row_id = row["existing_id"]
+            row_status = "exact_confirmed"
+            row_method = "preexisting_verified_id"
+            row_confidence = 1.0
+            row_note = "Reviewed source-specific identity retained without group propagation."
 
         # A canonical ID supported by one or more anchor records is not spread
         # to a context-free row merely because its printed name is identical.
@@ -1119,7 +1180,14 @@ for key in sorted(groups):
             row_note = row["reviewed_name_variant"]["note"]
 
         if canonical_id and not row.get("existing_id") and not manual and not row.get("reviewed_name_variant"):
-            if not any(rows_share_context(row, peer) for peer in rows if peer is not row):
+            candidate_peers = [peer for peer in rows if peer is not row]
+            if method == "preexisting_verified_id":
+                # Reviewed anchors propagate only through context shared with an anchored row.
+                candidate_peers = [
+                    peer for peer in candidate_peers
+                    if peer.get("existing_id") == canonical_id
+                ]
+            if not any(rows_share_context(row, peer) for peer in candidate_peers):
                 row_id = None
                 row_status = "probable_requires_review"
                 row_method = "exact_name_without_row_level_disambiguator"
