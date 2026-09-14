@@ -120,23 +120,29 @@ Rules:
 - a `ready_for_canonical_seed` review state is not the same thing as a completed canonical mutation;
 - canonical IDs should be added only when the evidence and validator state support the change.
 
-## Secondary sources
+## Secondary and theological-context sources
 
 Secondary sources are used as roadmaps, corroboration, historical/theological context, or source discovery. They should not be the sole basis for a disputed formal-membership claim when a primary source is reasonably obtainable.
 
-Examples include Presbyterian Polity and similar denominational commentary/analysis sites.
+The private Drive corpus contains several theological/polity sources that are now metadata-registered in:
+
+`sources/manifests/companion-theological-sources-2026-09-14.json`
+
+That manifest records stable public-source metadata for:
+
+- R. L. Dabney, `The Public Preaching of Women` — public transcription at A Puritan's Mind, originally published in *The Southern Presbyterian Review* (October 1879);
+- B. B. Warfield, `Paul on Women Speaking in Church` — PCA Historical Center edition identifying the original *The Presbyterian* publication of October 30, 1919;
+- Rich Leino, `The Deaconess & the Household of God: A Rejoinder to Dan Barber` — Presbyterian Polity, September 1, 2026.
+
+These are not currently app-facing source IDs and their Drive PDF binaries are not copied into the public repo. Metadata registration is sufficient for discoverability until a normalized/app-facing claim needs more.
 
 ## Private Google Drive companion corpus
 
-The private `PCA Research` Drive folder contains authored synthesis documents and source PDFs. It is **not fully duplicated in this repository**.
+The private `PCA Research` Drive folder contains authored synthesis documents and source PDFs. It is **not fully duplicated as raw binaries in this repository**, nor should it necessarily be.
 
-See `research/companion-corpus.md` for the audited list and boundary. In particular, as of 2026-09-14 the Drive copies of:
+See `research/companion-corpus.md` for the audited list and boundary. As of this audit, the known direct source PDFs in that corpus are discoverable from PCA-Data either through normalized/source records or the companion theological-source manifest.
 
-- R. L. Dabney, `The Public Preaching of Women`;
-- B. B. Warfield, `Paul on Women Speaking in Church`;
-- `The Deaconess & the Household of God: A Rejoinder to Dan Barber`;
-
-are not yet independently registered in this repo's source register/archive. The 2017 PCA Women Serving report, by contrast, is represented here through the official PCA Historical Center source and normalized datasets.
+User-authored synthesis documents in Drive remain context/research products, not independent primary evidence. Trace their material claims back to underlying sources.
 
 ## Archival policy
 
