@@ -9,9 +9,11 @@ These items are deliberately kept outside confirmed public claims until further 
 Current canonical state:
 
 - Leon Brown — resolved as `leon-brown` from reviewed high-confidence identity evidence.
+- Jeffrey Choi — resolved as `jeffrey-choi` from reviewed high-confidence identity evidence.
 - Dan Doriani — resolved as `dan-doriani` from reviewed high-confidence identity evidence.
 - Ligon Duncan — resolved as `ligon-duncan` from reviewed high-confidence identity evidence.
 - Irwyn Ince — resolved as `irwyn-ince`.
+- Kathy Keller — resolved as `kathy-keller` from reviewed high-confidence identity evidence.
 - Mary Beth McGreevy — resolved as `mary-beth-mcgreevy` from reviewed high-confidence identity evidence; her separately modeled first-person evidence links to the same canonical person.
 - Bruce O'Neil — resolved as `bruce-o-neil`.
 - Harry Reeder — resolved as `harry-reeder` from reviewed high-confidence identity evidence.
@@ -21,15 +23,19 @@ Applied review receipts:
 
 - `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json` — Dan Doriani, Ligon Duncan, Roy Taylor.
 - `sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json` — Leon Brown, Mary Beth McGreevy, Harry Reeder.
+- `sources/raw/identity/2017-women-serving-identity-evidence-batch3-2026-09-14.json` — Jeffrey Choi, Kathy Keller.
 
 Still unresolved in this committee dataset:
 
 - William Castro
-- Jeffrey Choi
 - Lani Jones
-- Kathy Keller
 
-Committee service itself is confirmed from the official roster, but identity linkage and person-specific positions are separate questions. Resolve the remaining identities only with corroborating evidence; recognizable names alone are not sufficient.
+Committee service itself is confirmed from the official roster, but identity linkage and person-specific positions are separate questions. Resolve the final identities only with corroborating evidence; do not force completion merely because ten of twelve are now canonical.
+
+Known person-specific evidence queue, not an identity ambiguity:
+
+- Jeffrey Choi has a separately attributable 2017 dissent article concerning the committee report. Normalize that evidence separately from his zero-weight committee-service edge.
+- Kathy Keller has separately attributable published women-in-ministry material. Normalize claims from the relevant primary/first-party text rather than from her committee membership, marriage, or reputation.
 
 ## National Partnership archival pins
 
