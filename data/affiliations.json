@@ -980,5 +980,260 @@
       "src-pca-bookstore-keller-marriage"
     ],
     "notes": "Family relationship only; does not transfer positions, memberships, actions, or scores between spouses."
+  },
+  {
+    "id": "aff-garris-letter-1-cameron-barham",
+    "person_id": "cameron-barham",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Christ Community Church, NorthWest Georgia. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-cal-boroughs",
+    "person_id": "cal-boroughs",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Tennessee Valley. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-jason-cornwell",
+    "person_id": "jason-cornwell",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, North Augusta Fellowship PCA, Palmetto. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-howard-davis",
+    "person_id": "howard-davis",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Grace Presbyterian Church Shreveport, North Texas. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-brad-edwards",
+    "person_id": "brad-edwards",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, The Table Church, Rocky Mountain. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-bryce-hales",
+    "person_id": "bryce-hales",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Trinity San Luis Obispo, Northern California. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-vincent-hoppe",
+    "person_id": "vincent-hoppe",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Grace and Peace Church Colorado Springs, Rocky Mountain. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-charles-isaac",
+    "person_id": "charles-isaac",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Christ the King El Paso, Rio Grande. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-jeremy-king",
+    "person_id": "jeremy-king",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Story Church Mayfield Heights, Ohio. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-wayne-larson",
+    "person_id": "wayne-larson",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Redeemer Des Moines, IA, Iowa. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-hans-madueme",
+    "person_id": "hans-madueme",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: RE, St Elmo Presbyterian Church, Tennessee Valley. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-travis-scott",
+    "person_id": "travis-scott",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Grace & Peace, Pittsburgh. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-jerry-stutzman",
+    "person_id": "jerry-stutzman",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: RE, Christ Church Grand Rapids, Great Lakes. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-joshua-torrey",
+    "person_id": "joshua-torrey",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: RE, Redeemer Presbyterian Austin, South Texas. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-kevin-twit",
+    "person_id": "kevin-twit",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Christ Presbyterian Nashville/RUF, Nashville. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-jason-walch",
+    "person_id": "jason-walch",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Denver Presbyterian Church, Rocky Mountain. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-2-hector-sanchez",
+    "person_id": "hector-sanchez",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-2",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-2"
+    ],
+    "notes": "Printed signer context: TE, Redeemer East Side, Metro NY. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
   }
 ]

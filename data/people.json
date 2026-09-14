@@ -710,6 +710,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "cameron-barham",
+    "name": "Cameron Barham",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "casey-shutt",
     "name": "Casey Shutt",
     "ordination": "Teaching Elder",
@@ -732,6 +742,16 @@
   {
     "id": "charles-anderson",
     "name": "Charles Anderson",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "charles-isaac",
+    "name": "Charles Isaac",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -1260,6 +1280,16 @@
     "profile_status": "identity_crosswalk"
   },
   {
+    "id": "hans-madueme",
+    "name": "Hans Madueme",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
     "id": "hansoo-jin",
     "name": "Hansoo Jin",
     "ordination": "Teaching Elder",
@@ -1282,6 +1312,16 @@
   {
     "id": "hector-sanchez",
     "name": "Hector Sanchez",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "howard-davis",
+    "name": "Howard Davis",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -1432,6 +1472,16 @@
   {
     "id": "jason-polk",
     "name": "Jason Polk",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "identity_crosswalk"
+  },
+  {
+    "id": "jason-walch",
+    "name": "Jason Walch",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -2892,7 +2942,7 @@
   {
     "id": "wayne-larson",
     "name": "Wayne Larson",
-    "ordination": null,
+    "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",

@@ -8,11 +8,11 @@
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 152,
-      "unmatched_count": 323,
-      "probable_requires_review_count": 26,
+      "confirmed_canonical_person_count": 156,
+      "unmatched_count": 316,
+      "probable_requires_review_count": 29,
       "ambiguous_or_collision_count": 70,
-      "percentage_resolved": 26.62,
+      "percentage_resolved": 27.32,
       "source_tier": [
         "first_party_archive"
       ],
@@ -24,11 +24,11 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 189,
-      "unmatched_count": 441,
-      "probable_requires_review_count": 27,
+      "confirmed_canonical_person_count": 192,
+      "unmatched_count": 435,
+      "probable_requires_review_count": 30,
       "ambiguous_or_collision_count": 80,
-      "percentage_resolved": 25.64,
+      "percentage_resolved": 26.05,
       "source_tier": [
         "first_party_archive"
       ],
@@ -58,8 +58,8 @@
       "unique_printed_name_count": 60,
       "confirmed_canonical_person_count": 7,
       "unmatched_count": 10,
-      "probable_requires_review_count": 44,
-      "ambiguous_or_collision_count": 47,
+      "probable_requires_review_count": 43,
+      "ambiguous_or_collision_count": 48,
       "percentage_resolved": 25.74,
       "source_tier": [
         "first_party"
@@ -373,6 +373,38 @@
       ]
     },
     {
+      "source_dataset": "garris_letter_1",
+      "row_count": 60,
+      "unique_printed_name_count": 60,
+      "confirmed_canonical_person_count": 23,
+      "unmatched_count": 22,
+      "probable_requires_review_count": 3,
+      "ambiguous_or_collision_count": 12,
+      "percentage_resolved": 38.33,
+      "source_tier": [
+        "primary_public_letter"
+      ],
+      "completeness_status": [
+        "complete_printed_signer_roster"
+      ]
+    },
+    {
+      "source_dataset": "garris_letter_2",
+      "row_count": 21,
+      "unique_printed_name_count": 21,
+      "confirmed_canonical_person_count": 2,
+      "unmatched_count": 9,
+      "probable_requires_review_count": 5,
+      "ambiguous_or_collision_count": 5,
+      "percentage_resolved": 9.52,
+      "source_tier": [
+        "primary_public_letter"
+      ],
+      "completeness_status": [
+        "complete_printed_signer_roster"
+      ]
+    },
+    {
       "source_dataset": "human_sexuality_aic_2019_2021",
       "row_count": 7,
       "unique_printed_name_count": 7,
@@ -458,8 +490,8 @@
       "unique_printed_name_count": 51,
       "confirmed_canonical_person_count": 0,
       "unmatched_count": 32,
-      "probable_requires_review_count": 11,
-      "ambiguous_or_collision_count": 8,
+      "probable_requires_review_count": 10,
+      "ambiguous_or_collision_count": 9,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
@@ -506,8 +538,8 @@
       "unique_printed_name_count": 95,
       "confirmed_canonical_person_count": 2,
       "unmatched_count": 83,
-      "probable_requires_review_count": 8,
-      "ambiguous_or_collision_count": 2,
+      "probable_requires_review_count": 7,
+      "ambiguous_or_collision_count": 3,
       "percentage_resolved": 2.11,
       "source_tier": [
         "official_institutional"
@@ -650,8 +682,8 @@
       "unique_printed_name_count": 203,
       "confirmed_canonical_person_count": 83,
       "unmatched_count": 87,
-      "probable_requires_review_count": 14,
-      "ambiguous_or_collision_count": 19,
+      "probable_requires_review_count": 13,
+      "ambiguous_or_collision_count": 20,
       "percentage_resolved": 40.89,
       "source_tier": [
         "official_primary"
@@ -664,11 +696,11 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 42,
-      "unmatched_count": 66,
-      "probable_requires_review_count": 30,
-      "ambiguous_or_collision_count": 13,
-      "percentage_resolved": 27.81,
+      "confirmed_canonical_person_count": 43,
+      "unmatched_count": 64,
+      "probable_requires_review_count": 29,
+      "ambiguous_or_collision_count": 15,
+      "percentage_resolved": 28.48,
       "source_tier": [
         "primary_archive"
       ],
@@ -825,9 +857,9 @@
       "row_count": 414,
       "unique_printed_name_count": 414,
       "confirmed_canonical_person_count": 8,
-      "unmatched_count": 367,
+      "unmatched_count": 366,
       "probable_requires_review_count": 25,
-      "ambiguous_or_collision_count": 14,
+      "ambiguous_or_collision_count": 15,
       "percentage_resolved": 1.93,
       "source_tier": [
         "official_institutional"
@@ -842,8 +874,8 @@
       "unique_printed_name_count": 203,
       "confirmed_canonical_person_count": 0,
       "unmatched_count": 184,
-      "probable_requires_review_count": 5,
-      "ambiguous_or_collision_count": 24,
+      "probable_requires_review_count": 4,
+      "ambiguous_or_collision_count": 25,
       "percentage_resolved": 0.0,
       "source_tier": [
         "official_institutional"
@@ -888,11 +920,11 @@
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 97,
-      "unmatched_count": 64,
+      "confirmed_canonical_person_count": 98,
+      "unmatched_count": 62,
       "probable_requires_review_count": 14,
-      "ambiguous_or_collision_count": 28,
-      "percentage_resolved": 47.78,
+      "ambiguous_or_collision_count": 29,
+      "percentage_resolved": 48.28,
       "source_tier": [
         "official_primary"
       ],
@@ -937,9 +969,9 @@
       "row_count": 173,
       "unique_printed_name_count": 173,
       "confirmed_canonical_person_count": 9,
-      "unmatched_count": 131,
+      "unmatched_count": 130,
       "probable_requires_review_count": 16,
-      "ambiguous_or_collision_count": 17,
+      "ambiguous_or_collision_count": 18,
       "percentage_resolved": 5.2,
       "source_tier": [
         "official_primary"

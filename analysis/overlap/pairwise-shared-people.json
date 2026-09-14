@@ -270,6 +270,16 @@
           ]
         },
         {
+          "canonical_person_id": "charles-isaac",
+          "name": "Charles Isaac",
+          "dataset_a_locators": [
+            "signature:199"
+          ],
+          "dataset_b_locators": [
+            "signature:217"
+          ]
+        },
+        {
           "canonical_person_id": "charles-johnson",
           "name": "Charles Johnson",
           "dataset_a_locators": [
@@ -670,6 +680,16 @@
           ]
         },
         {
+          "canonical_person_id": "howard-davis",
+          "name": "Howard Davis",
+          "dataset_a_locators": [
+            "signature:166"
+          ],
+          "dataset_b_locators": [
+            "signature:185"
+          ]
+        },
+        {
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
@@ -737,6 +757,16 @@
           ],
           "dataset_b_locators": [
             "signature:356"
+          ]
+        },
+        {
+          "canonical_person_id": "jason-walch",
+          "name": "Jason Walch",
+          "dataset_a_locators": [
+            "signature:192"
+          ],
+          "dataset_b_locators": [
+            "signature:211"
           ]
         },
         {
@@ -1583,7 +1613,6 @@
         "chaplain major jonathan entrekin",
         "charles e mcgowan",
         "charles garland",
-        "charles isaac",
         "charles sigler",
         "chris d talley",
         "chris garrett",
@@ -1695,7 +1724,6 @@
         "herbert d ward",
         "herbert e ruby",
         "hollis mansfield black",
-        "howard davis",
         "howard thomas metzbowe",
         "isaac ferrell",
         "j al lacour",
@@ -1718,7 +1746,6 @@
         "jason s kong",
         "jason sears",
         "jason sica",
-        "jason walch",
         "jay simmons",
         "jayson kyle",
         "jb watkins",
@@ -2157,6 +2184,254 @@
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "derek radney"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "garris_letter_1",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "brad-edwards",
+          "name": "Brad Edwards",
+          "dataset_a_locators": [
+            "signature:159"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:11"
+          ]
+        },
+        {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "signature:122"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:13"
+          ]
+        },
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "signature:25"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:5"
+          ]
+        },
+        {
+          "canonical_person_id": "charles-isaac",
+          "name": "Charles Isaac",
+          "dataset_a_locators": [
+            "signature:199"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:19"
+          ]
+        },
+        {
+          "canonical_person_id": "dan-adamson",
+          "name": "Dan Adamson",
+          "dataset_a_locators": [
+            "signature:131"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:2"
+          ]
+        },
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "signature:12"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:7"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "signature:124"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:40"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "signature:157"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:60"
+          ]
+        },
+        {
+          "canonical_person_id": "hans-madueme",
+          "name": "Hans Madueme",
+          "dataset_a_locators": [
+            "signature:94"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:33"
+          ]
+        },
+        {
+          "canonical_person_id": "howard-davis",
+          "name": "Howard Davis",
+          "dataset_a_locators": [
+            "signature:166"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:10"
+          ]
+        },
+        {
+          "canonical_person_id": "irwyn-ince",
+          "name": "Irwyn Ince",
+          "dataset_a_locators": [
+            "signature:2"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:20"
+          ]
+        },
+        {
+          "canonical_person_id": "jason-cornwell",
+          "name": "Jason Cornwell",
+          "dataset_a_locators": [
+            "signature:139"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:9"
+          ]
+        },
+        {
+          "canonical_person_id": "jason-walch",
+          "name": "Jason Walch",
+          "dataset_a_locators": [
+            "signature:192"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:55"
+          ]
+        },
+        {
+          "canonical_person_id": "joshua-torrey",
+          "name": "Joshua Torrey",
+          "dataset_a_locators": [
+            "signature:388"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:52"
+          ]
+        },
+        {
+          "canonical_person_id": "josiah-carey",
+          "name": "Josiah Carey",
+          "dataset_a_locators": [
+            "signature:288"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:8"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "signature:191"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:53"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-khandjian",
+          "name": "Mike Khandjian",
+          "dataset_a_locators": [
+            "signature:110"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:24"
+          ]
+        },
+        {
+          "canonical_person_id": "travis-scott",
+          "name": "Travis Scott",
+          "dataset_a_locators": [
+            "signature:129"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:44"
+          ]
+        },
+        {
+          "canonical_person_id": "vincent-hoppe",
+          "name": "Vincent Hoppe",
+          "dataset_a_locators": [
+            "signature:562"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:16"
+          ]
+        },
+        {
+          "canonical_person_id": "wayne-larson",
+          "name": "Wayne Larson",
+          "dataset_a_locators": [
+            "signature:198"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:30"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "dave abney",
+        "david lindberg",
+        "david richmon",
+        "derek radney",
+        "greg ward",
+        "jeff white",
+        "sungyak john kim"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "garris_letter_2",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "hector-sanchez",
+          "name": "Hector Sanchez",
+          "dataset_a_locators": [
+            "signature:336"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-2:signer:9"
+          ]
+        },
+        {
+          "canonical_person_id": "justin-adour",
+          "name": "Justin Adour",
+          "dataset_a_locators": [
+            "signature:322"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-2:signer:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "andrew field",
+        "david bisgrove",
+        "david lee",
+        "jeff white",
+        "moses lee"
       ]
     },
     {
@@ -2614,6 +2889,16 @@
           ]
         },
         {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "signature:122"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:22:bryce hales"
+          ]
+        },
+        {
           "canonical_person_id": "clay-holland",
           "name": "Clay Holland",
           "dataset_a_locators": [
@@ -2916,7 +3201,6 @@
       ],
       "unresolved_exact_name_keys": [
         "blake altman",
-        "bryce hales",
         "charles garland",
         "david goneau",
         "david lindberg",
@@ -5318,6 +5602,244 @@
     },
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "garris_letter_1",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "brad-edwards",
+          "name": "Brad Edwards",
+          "dataset_a_locators": [
+            "signature:178"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:11"
+          ]
+        },
+        {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "signature:141"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:13"
+          ]
+        },
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "signature:25"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:5"
+          ]
+        },
+        {
+          "canonical_person_id": "charles-isaac",
+          "name": "Charles Isaac",
+          "dataset_a_locators": [
+            "signature:217"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:19"
+          ]
+        },
+        {
+          "canonical_person_id": "dan-adamson",
+          "name": "Dan Adamson",
+          "dataset_a_locators": [
+            "signature:150"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:2"
+          ]
+        },
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "signature:12"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:7"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "signature:143"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:40"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "signature:176"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:60"
+          ]
+        },
+        {
+          "canonical_person_id": "howard-davis",
+          "name": "Howard Davis",
+          "dataset_a_locators": [
+            "signature:185"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:10"
+          ]
+        },
+        {
+          "canonical_person_id": "irwyn-ince",
+          "name": "Irwyn Ince",
+          "dataset_a_locators": [
+            "signature:2"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:20"
+          ]
+        },
+        {
+          "canonical_person_id": "jason-cornwell",
+          "name": "Jason Cornwell",
+          "dataset_a_locators": [
+            "signature:158"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:9"
+          ]
+        },
+        {
+          "canonical_person_id": "jason-walch",
+          "name": "Jason Walch",
+          "dataset_a_locators": [
+            "signature:211"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:55"
+          ]
+        },
+        {
+          "canonical_person_id": "joshua-torrey",
+          "name": "Joshua Torrey",
+          "dataset_a_locators": [
+            "signature:398"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:52"
+          ]
+        },
+        {
+          "canonical_person_id": "josiah-carey",
+          "name": "Josiah Carey",
+          "dataset_a_locators": [
+            "signature:304"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:8"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "signature:210"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:53"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-khandjian",
+          "name": "Mike Khandjian",
+          "dataset_a_locators": [
+            "signature:129"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:24"
+          ]
+        },
+        {
+          "canonical_person_id": "travis-scott",
+          "name": "Travis Scott",
+          "dataset_a_locators": [
+            "signature:148"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:44"
+          ]
+        },
+        {
+          "canonical_person_id": "vincent-hoppe",
+          "name": "Vincent Hoppe",
+          "dataset_a_locators": [
+            "signature:554"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:16"
+          ]
+        },
+        {
+          "canonical_person_id": "wayne-larson",
+          "name": "Wayne Larson",
+          "dataset_a_locators": [
+            "signature:666"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:30"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "dave abney",
+        "david lindberg",
+        "david richmon",
+        "derek radney",
+        "greg ward",
+        "jeff white",
+        "sungyak john kim"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "garris_letter_2",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "hector-sanchez",
+          "name": "Hector Sanchez",
+          "dataset_a_locators": [
+            "signature:352"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-2:signer:9"
+          ]
+        },
+        {
+          "canonical_person_id": "justin-adour",
+          "name": "Justin Adour",
+          "dataset_a_locators": [
+            "signature:338"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-2:signer:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "andrew field",
+        "david bisgrove",
+        "david lee",
+        "jeff white",
+        "moses lee"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
       "dataset_b": "institution_covenant-college",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -5855,6 +6377,16 @@
           ]
         },
         {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "signature:141"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:22:bryce hales"
+          ]
+        },
+        {
           "canonical_person_id": "clay-holland",
           "name": "Clay Holland",
           "dataset_a_locators": [
@@ -6168,7 +6700,6 @@
       "unresolved_exact_name_keys": [
         "ben lyon",
         "blake altman",
-        "bryce hales",
         "charles garland",
         "david goneau",
         "david lindberg",
@@ -8953,6 +9484,43 @@
     },
     {
       "dataset_a": "amr_leadership_current",
+      "dataset_b": "garris_letter_1",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "aff-cassidy-amr-current"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:7"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "aff-richter-amr-current"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:40"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "aff-ziegler-amr-current"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:60"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "amr_leadership_current",
       "dataset_b": "institution_reformed-theological-seminary",
       "confirmed_shared_people": [
         {
@@ -9322,6 +9890,67 @@
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "derek radney"
+      ]
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "garris_letter_1",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "item:114:contributor:3:https://a4mr.org/uniting-the-tribes-david-strain-david-richter-and-david-cassidy-discuss-bco-overture-23/",
+            "item:120:contributor:1:https://a4mr.org/engaging-our-current-moment-as-an-alliance-for-mission-renewal/",
+            "item:27:contributor:1:https://a4mr.org/obedient-to-the-great-commission-the-pcas-evangelistic-and-missionary-calling/",
+            "item:77:contributor:1:https://a4mr.org/a-reflection-on-church-planting-movements-in-the-early-21st-century/",
+            "item:86:contributor:1:https://a4mr.org/beyond-politics-navigating-election-season-together-with-grace/",
+            "item:96:contributor:1:https://a4mr.org/tim-keller-and-lesslie-newbigin-an-appreciative-comparison/"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:7"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "item:114:contributor:2:https://a4mr.org/uniting-the-tribes-david-strain-david-richter-and-david-cassidy-discuss-bco-overture-23/",
+            "item:21:contributor:2:https://a4mr.org/what-kind-of-church-are-we-becoming/",
+            "item:31:contributor:1:https://a4mr.org/formed-or-deformed-discipleship-in-a-distracted-age/"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:40"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "item:18:contributor:1:https://a4mr.org/gratitude-theological-vision-part-two/",
+            "item:20:contributor:1:https://a4mr.org/introduction-to-amrs-theological-vision-statement/",
+            "item:23:contributor:1:https://a4mr.org/three-views-on-female-deacons/",
+            "item:28:contributor:1:https://a4mr.org/true-to-the-reformed-faith-the-confessional-identity-of-the-pca/",
+            "item:7:contributor:2:https://a4mr.org/after-the-general-assembly-reflections-on-trust-unity-and-the-work-ahead/"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:60"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "derek radney",
+        "irwyn ince",
+        "kevin twit",
+        "mike khandjian"
+      ]
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "garris_letter_2",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "aaron chung"
       ]
     },
     {
@@ -9824,6 +10453,55 @@
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "derek radney"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "garris_letter_1",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "video:1DIUuWkKsAo:participant:3"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:7"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "video:1DIUuWkKsAo:participant:2",
+            "video:aT6rzfPhCRo:participant:2"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:40"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "video:bMj_pCd4U6U:participant:2"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:60"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "derek radney",
+        "mike khandjian"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "garris_letter_2",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "aaron chung"
       ]
     },
     {
@@ -10426,6 +11104,23 @@
     },
     {
       "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "dataset_b": "garris_letter_1",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "2008-overture-9-deaconess-study-minority-report:signer:5"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:5"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "formal_position_2008-overture-9-deaconess-study-minority-report",
       "dataset_b": "human_sexuality_aic_2019_2021",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -10634,6 +11329,33 @@
       "unresolved_exact_name_keys": [
         "richard wheeler"
       ]
+    },
+    {
+      "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "dataset_b": "garris_letter_1",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:4"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:5"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "2009-overture-10-women-roles-study-minority-report:signer:2"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:53"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "formal_position_2009-overture-10-women-roles-study-minority-report",
@@ -11370,6 +12092,14 @@
     },
     {
       "dataset_a": "formal_role_overture_37",
+      "dataset_b": "garris_letter_1",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "derek radney"
+      ]
+    },
+    {
+      "dataset_a": "formal_role_overture_37",
       "dataset_b": "overture_15_negative_votes_2022",
       "confirmed_shared_people": [
         {
@@ -11440,6 +12170,640 @@
       ],
       "unresolved_exact_name_keys": [
         "derek radney"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "garris_letter_2",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "nae_withdrawal_protest_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "jeremy-king",
+          "name": "Jeremy King",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:27"
+          ],
+          "dataset_b_locators": [
+            "print_order:95"
+          ]
+        },
+        {
+          "canonical_person_id": "jerry-stutzman",
+          "name": "Jerry Stutzman",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:47"
+          ],
+          "dataset_b_locators": [
+            "print_order:166"
+          ]
+        },
+        {
+          "canonical_person_id": "joshua-torrey",
+          "name": "Joshua Torrey",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:52"
+          ],
+          "dataset_b_locators": [
+            "print_order:182"
+          ]
+        },
+        {
+          "canonical_person_id": "travis-scott",
+          "name": "Travis Scott",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:44"
+          ],
+          "dataset_b_locators": [
+            "print_order:157"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "national_partnership_confirmed_members",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:13"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:22:bryce hales"
+          ]
+        },
+        {
+          "canonical_person_id": "dan-adamson",
+          "name": "Dan Adamson",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:2"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:30:dan adamson"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:40"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:42:david richter"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:60"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:58:geoff ziegler"
+          ]
+        },
+        {
+          "canonical_person_id": "irwyn-ince",
+          "name": "Irwyn Ince",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:20"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:67:irwyn ince"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:53"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:96:kevin twit"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-khandjian",
+          "name": "Mike Khandjian",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:24"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:105:mike khandjian"
+          ]
+        },
+        {
+          "canonical_person_id": "wayne-larson",
+          "name": "Wayne Larson",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:30"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:147:wayne larson"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "david lindberg",
+        "david richmon"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "overture_15_negative_votes_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "brad-edwards",
+          "name": "Brad Edwards",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:11"
+          ],
+          "dataset_b_locators": [
+            "print_order:48"
+          ]
+        },
+        {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:13"
+          ],
+          "dataset_b_locators": [
+            "print_order:61"
+          ]
+        },
+        {
+          "canonical_person_id": "dan-adamson",
+          "name": "Dan Adamson",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:2"
+          ]
+        },
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:7"
+          ],
+          "dataset_b_locators": [
+            "print_order:23"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:40"
+          ],
+          "dataset_b_locators": [
+            "print_order:145"
+          ]
+        },
+        {
+          "canonical_person_id": "jason-cornwell",
+          "name": "Jason Cornwell",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:9"
+          ],
+          "dataset_b_locators": [
+            "print_order:34"
+          ]
+        },
+        {
+          "canonical_person_id": "jerry-stutzman",
+          "name": "Jerry Stutzman",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:47"
+          ],
+          "dataset_b_locators": [
+            "print_order:173"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:53"
+          ],
+          "dataset_b_locators": [
+            "print_order:183"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-khandjian",
+          "name": "Mike Khandjian",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:24"
+          ],
+          "dataset_b_locators": [
+            "print_order:87"
+          ]
+        },
+        {
+          "canonical_person_id": "travis-scott",
+          "name": "Travis Scott",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:44"
+          ],
+          "dataset_b_locators": [
+            "print_order:156"
+          ]
+        },
+        {
+          "canonical_person_id": "vincent-hoppe",
+          "name": "Vincent Hoppe",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:16"
+          ],
+          "dataset_b_locators": [
+            "print_order:67"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "dave abney",
+        "greg ward",
+        "jeff white",
+        "jeremy king"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "overture_37_minority_2021",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "cal-boroughs",
+          "name": "Cal Boroughs",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:5"
+          ],
+          "dataset_b_locators": [
+            "print_order:2"
+          ]
+        },
+        {
+          "canonical_person_id": "david-cassidy",
+          "name": "David Cassidy",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:7"
+          ],
+          "dataset_b_locators": [
+            "print_order:4"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:60"
+          ],
+          "dataset_b_locators": [
+            "print_order:28"
+          ]
+        },
+        {
+          "canonical_person_id": "jason-cornwell",
+          "name": "Jason Cornwell",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:9"
+          ],
+          "dataset_b_locators": [
+            "print_order:6"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "derek radney"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "overture_37_negative_votes_2021",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:13"
+          ],
+          "dataset_b_locators": [
+            "print_order:81"
+          ]
+        },
+        {
+          "canonical_person_id": "dan-adamson",
+          "name": "Dan Adamson",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:1"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:40"
+          ],
+          "dataset_b_locators": [
+            "print_order:158"
+          ]
+        },
+        {
+          "canonical_person_id": "geoff-ziegler",
+          "name": "Geoff Ziegler",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:60"
+          ],
+          "dataset_b_locators": [
+            "print_order:206"
+          ]
+        },
+        {
+          "canonical_person_id": "irwyn-ince",
+          "name": "Irwyn Ince",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:20"
+          ],
+          "dataset_b_locators": [
+            "print_order:88"
+          ]
+        },
+        {
+          "canonical_person_id": "jason-cornwell",
+          "name": "Jason Cornwell",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:9"
+          ],
+          "dataset_b_locators": [
+            "print_order:43"
+          ]
+        },
+        {
+          "canonical_person_id": "jeremy-king",
+          "name": "Jeremy King",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:27"
+          ],
+          "dataset_b_locators": [
+            "print_order:107"
+          ]
+        },
+        {
+          "canonical_person_id": "josiah-carey",
+          "name": "Josiah Carey",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:8"
+          ],
+          "dataset_b_locators": [
+            "print_order:31"
+          ]
+        },
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:53"
+          ],
+          "dataset_b_locators": [
+            "print_order:194"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-khandjian",
+          "name": "Mike Khandjian",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:24"
+          ],
+          "dataset_b_locators": [
+            "print_order:105"
+          ]
+        },
+        {
+          "canonical_person_id": "travis-scott",
+          "name": "Travis Scott",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:44"
+          ],
+          "dataset_b_locators": [
+            "print_order:170"
+          ]
+        },
+        {
+          "canonical_person_id": "vincent-hoppe",
+          "name": "Vincent Hoppe",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:16"
+          ],
+          "dataset_b_locators": [
+            "print_order:85"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "david richmon",
+        "derek radney",
+        "jeff white",
+        "jonathan price"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "publication_heal-us-emmanuel-2016",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "irwyn-ince",
+          "name": "Irwyn Ince",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:20"
+          ],
+          "dataset_b_locators": [
+            "chapter:23:contributor:1"
+          ]
+        },
+        {
+          "canonical_person_id": "mike-khandjian",
+          "name": "Mike Khandjian",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:24"
+          ],
+          "dataset_b_locators": [
+            "chapter:25:contributor:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "jonathan price",
+        "kevin twit"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "publication_hear-us-emmanuel-2020",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "irwyn-ince",
+          "name": "Irwyn Ince",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:20"
+          ],
+          "dataset_b_locators": [
+            "chapter:11:contributor:1"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "kevin-twit",
+          "name": "Kevin Twit",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:53"
+          ],
+          "dataset_b_locators": [
+            "catalog-role:19:page:23"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "josiah carey"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
+      "dataset_b": "warhurst_protest_2019",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "brad-edwards",
+          "name": "Brad Edwards",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:11"
+          ],
+          "dataset_b_locators": [
+            "print_order:80"
+          ]
+        },
+        {
+          "canonical_person_id": "cameron-barham",
+          "name": "Cameron Barham",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:4"
+          ],
+          "dataset_b_locators": [
+            "print_order:143"
+          ]
+        },
+        {
+          "canonical_person_id": "dan-adamson",
+          "name": "Dan Adamson",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:2"
+          ],
+          "dataset_b_locators": [
+            "print_order:138"
+          ]
+        },
+        {
+          "canonical_person_id": "david-richter",
+          "name": "David Richter",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:40"
+          ],
+          "dataset_b_locators": [
+            "print_order:93"
+          ]
+        },
+        {
+          "canonical_person_id": "irwyn-ince",
+          "name": "Irwyn Ince",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:20"
+          ],
+          "dataset_b_locators": [
+            "print_order:148"
+          ]
+        },
+        {
+          "canonical_person_id": "travis-scott",
+          "name": "Travis Scott",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:44"
+          ],
+          "dataset_b_locators": [
+            "print_order:169"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "derek radney",
+        "greg ward",
+        "jason cornwell",
+        "robert schmidtberger"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2",
+      "dataset_b": "nae_withdrawal_protest_2022",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "hector sanchez",
+        "moses lee"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2",
+      "dataset_b": "overture_15_negative_votes_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "hector-sanchez",
+          "name": "Hector Sanchez",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:9"
+          ],
+          "dataset_b_locators": [
+            "print_order:153"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "aaron chung",
+        "david bisgrove",
+        "gene joo",
+        "jeff white",
+        "moses lee"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2",
+      "dataset_b": "overture_37_negative_votes_2021",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "wei ho"
       ]
     },
     {
@@ -13328,6 +14692,16 @@
           ]
         },
         {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "confirmed_member:22:bryce hales"
+          ],
+          "dataset_b_locators": [
+            "print_order:61"
+          ]
+        },
+        {
           "canonical_person_id": "dan-adamson",
           "name": "Dan Adamson",
           "dataset_a_locators": [
@@ -13412,7 +14786,6 @@
         "ben lyon",
         "bruce o neil",
         "bruce terrell",
-        "bryce hales",
         "jeremy fair",
         "justin edgar",
         "luke evans",
@@ -13478,6 +14851,16 @@
           ],
           "dataset_b_locators": [
             "print_order:184"
+          ]
+        },
+        {
+          "canonical_person_id": "bryce-hales",
+          "name": "Bryce Hales",
+          "dataset_a_locators": [
+            "confirmed_member:22:bryce hales"
+          ],
+          "dataset_b_locators": [
+            "print_order:81"
           ]
         },
         {
@@ -13593,7 +14976,6 @@
       ],
       "unresolved_exact_name_keys": [
         "ben lyon",
-        "bryce hales",
         "david richmon",
         "iron kim",
         "jeremy fair",

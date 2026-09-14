@@ -348,6 +348,31 @@ for dataset, family, relative, row_key, order_key, evidence_type in roster_specs
             existing_id=row.get("normalized_person_id"),
         )
 
+# 2024 Garris public-letter signer rosters. Letter 1 and Letter 2 are distinct
+# source families/actions. Printed church/ministry and presbytery fields are
+# contextual disambiguators; same-name matching alone never confirms identity.
+relative = "sources/normalized/public-statements/garris-letters-2024.json"
+garris_data = register_json(relative)
+for letter in garris_data.get("letters", []):
+    family = letter["letter_id"].replace("-", "_")
+    dataset = family
+    for row in letter.get("signers", []):
+        add_record(
+            dataset=dataset,
+            family=family,
+            source_path=relative,
+            locator=f"{letter['letter_id']}:signer:{row['print_order']}",
+            printed_name=row["name_as_printed"],
+            row=row,
+            source_tier="primary_public_letter",
+            completeness="complete_printed_signer_roster",
+            evidence_type="public_letter_signature",
+            presbyteries=[row.get("presbytery_as_printed")],
+            institutions=[row.get("institution_as_printed")],
+            office=row.get("office_as_printed"),
+            existing_id=row.get("normalized_person_id"),
+        )
+
 
 # Human Sexuality AIC committee service. The committee source family is
 # independent of later General Assembly overture actions.
