@@ -52,7 +52,7 @@ Still incomplete:
 
 ### 2017 Women Serving in the Ministry of the Church
 
-Status: **normalized, app-event represented, and mostly canonically linked**.
+Status: **normalized, app-event represented, and nearly fully canonically linked**.
 
 The official PCA study report is registered as `src-ga45-women-serving-2017`. The normalized layer includes:
 
@@ -60,12 +60,16 @@ The official PCA study report is registered as `src-ga45-women-serving-2017`. Th
 - voting/advisory status;
 - report-level position summaries with explicit non-attribution guardrails;
 - Mary Beth McGreevy first-person evidence preserved separately and linked to her canonical person;
-- canonical committee links and app-facing zero-weight service edges for Leon Brown, Dan Doriani, Ligon Duncan, Irwyn Ince, Mary Beth McGreevy, Bruce O'Neil, Harry Reeder, and Roy Taylor;
-- applied reviewed-identity receipts for Doriani/Duncan/Taylor and Brown/McGreevy/Reeder.
+- canonical committee links and app-facing zero-weight service edges for Leon Brown, Jeffrey Choi, Dan Doriani, Ligon Duncan, Irwyn Ince, Kathy Keller, Mary Beth McGreevy, Bruce O'Neil, Harry Reeder, and Roy Taylor;
+- applied reviewed-identity receipts for Doriani/Duncan/Taylor, Brown/McGreevy/Reeder, and Choi/Keller.
 
-Still unresolved in this committee dataset: William Castro, Jeffrey Choi, Lani Jones, and Kathy Keller.
+Still unresolved in this committee dataset: William Castro and Lani Jones.
 
-Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought. McGreevy's first-person position evidence remains separately modeled and does not convert committee service into a person-level endorsement of the full report.
+Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought. Person-specific evidence stays separate. In particular:
+
+- Jeffrey Choi's contemporaneous first-person dissent from part of the committee report is known and should be normalized separately if used analytically;
+- Kathy Keller's published women-in-ministry material is known and should be normalized from attributable primary/first-party text, not inferred from her committee membership or relationship to Tim Keller;
+- McGreevy's first-person position evidence remains separately modeled and does not convert committee service into a person-level endorsement of the full report.
 
 ### Alliance for Mission & Renewal
 
