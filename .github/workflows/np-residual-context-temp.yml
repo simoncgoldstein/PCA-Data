@@ -1,0 +1,91 @@
+name: Extract NP residual candidate context (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/np-residual-context.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  extract:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Extract residual exact-name candidate context
+        run: |
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          root = Path('.')
+          def load(p):
+              return json.loads((root / p).read_text(encoding='utf-8'))
+          def key(s):
+              s = s or ''
+              s = s.lower().replace('’', "'")
+              s = re.sub(r'[^a-z0-9]+', ' ', s)
+              return ' '.join(s.split())
+
+          pairwise = load('analysis/overlap/pairwise-shared-people.json')
+          targets = {
+              'a_faithful_pca_2021-06-11',
+              'a_faithful_pca_2022-03-14',
+              'warhurst_protest_2019',
+          }
+          np_ds = 'national_partnership_confirmed_members'
+          unresolved = {}
+          for row in pairwise['pairs_with_confirmed_or_possible_overlap']:
+              pair = {row['dataset_a'], row['dataset_b']}
+              if np_ds in pair:
+                  other = next((x for x in pair if x != np_ds), None)
+                  if other in targets:
+                      unresolved[other] = row.get('unresolved_exact_name_keys', [])
+
+          names = sorted(set().union(*[set(v) for v in unresolved.values()]))
+          np = load('sources/normalized/national-partnership/confirmed-memberships-canonical.json')
+          afp21 = load('sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json')
+          afp22 = load('sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json')
+          war = load('sources/normalized/revoice/warhurst-protest-signers-2019.json')
+
+          np_by = {row['normalized_name_key']: row for row in np['confirmed_members']}
+          def index(rows, field):
+              out = {}
+              for row in rows:
+                  out.setdefault(key(row.get(field)), []).append(row)
+              return out
+          afp21_by = index(afp21['signers'], 'normalized_name_candidate')
+          afp22_by = index(afp22['signers'], 'normalized_name_candidate')
+          war_by = index(war['signers'], 'name_as_printed')
+
+          result = {
+              'generated_on': '2026-09-14',
+              'purpose': 'temporary extraction for reviewed NP residual identity pass',
+              'unresolved_exact_name_keys_by_dataset': unresolved,
+              'unique_candidate_count': len(names),
+              'candidates': [],
+          }
+          for n in names:
+              np_row = np_by.get(n)
+              result['candidates'].append({
+                  'normalized_name_key': n,
+                  'np': np_row,
+                  'a_faithful_pca_2021': afp21_by.get(n, []),
+                  'a_faithful_pca_2022': afp22_by.get(n, []),
+                  'warhurst_2019': war_by.get(n, []),
+              })
+
+          out = root / 'research/np-residual-candidate-context-temp.json'
+          out.write_text(json.dumps(result, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+          print(json.dumps({k: len(v) for k,v in unresolved.items()}, indent=2))
+          print('unique candidates', len(names))
+          PY
+      - name: Commit extracted context
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add research/np-residual-candidate-context-temp.json
+          git commit -m 'extract NP residual identity candidate context'
+          git push
