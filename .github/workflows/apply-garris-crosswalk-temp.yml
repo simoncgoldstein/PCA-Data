@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Register Garris letters in person crosswalk
+      - name: Register reviewed Letter 2 identity evidence
         run: |
           python3 - <<'PY'
           import base64
@@ -24,13 +24,13 @@ jobs:
           path = Path('scripts/build-person-crosswalk.py')
           text = path.read_text(encoding='utf-8')
           marker = '\n\n# Human Sexuality AIC committee service.'
-          if 'garris_letters_2024' in text:
-              raise SystemExit('Garris crosswalk block already present')
-          encoded = 'CiMgMjAyNCBHYXJyaXMgcHVibGljLWxldHRlciBzaWduZXIgcm9zdGVycy4gTGV0dGVyIDEgYW5kIExldHRlciAyIGFyZSBkaXN0aW5jdAojIHNvdXJjZSBmYW1pbGllcy9hY3Rpb25zLiBQcmludGVkIGNodXJjaC9taW5pc3RyeSBhbmQgcHJlc2J5dGVyeSBmaWVsZHMgYXJlCiMgY29udGV4dHVhbCBkaXNhbWJpZ3VhdG9yczsgc2FtZS1uYW1lIG1hdGNoaW5nIGFsb25lIG5ldmVyIGNvbmZpcm1zIGlkZW50aXR5LgpyZWxhdGl2ZSA9ICJzb3VyY2VzL25vcm1hbGl6ZWQvcHVibGljLXN0YXRlbWVudHMvZ2FycmlzLWxldHRlcnMtMjAyNC5qc29uIgpnYXJyaXNfZGF0YSA9IHJlZ2lzdGVyX2pzb24ocmVsYXRpdmUpCmZvciBsZXR0ZXIgaW4gZ2FycmlzX2RhdGEuZ2V0KCJsZXR0ZXJzIiwgW10pOgogICAgZmFtaWx5ID0gbGV0dGVyWyJsZXR0ZXJfaWQiXS5yZXBsYWNlKCItIiwgIl8iKQogICAgZGF0YXNldCA9IGZhbWlseQogICAgZm9yIHJvdyBpbiBsZXR0ZXIuZ2V0KCJzaWduZXJzIiwgW10pOgogICAgICAgIGFkZF9yZWNvcmQoCiAgICAgICAgICAgIGRhdGFzZXQ9ZGF0YXNldCwKICAgICAgICAgICAgZmFtaWx5PWZhbWlseSwKICAgICAgICAgICAgc291cmNlX3BhdGg9cmVsYXRpdmUsCiAgICAgICAgICAgIGxvY2F0b3I9ZiJ7bGV0dGVyWydsZXR0ZXJfaWQnXX06c2lnbmVyOntyb3dbJ3ByaW50X29yZGVyJ119IiwKICAgICAgICAgICAgcHJpbnRlZF9uYW1lPXJvd1sibmFtZV9hc19wcmludGVkIl0sCiAgICAgICAgICAgIHJvdz1yb3csCiAgICAgICAgICAgIHNvdXJjZV90aWVyPSJwcmltYXJ5X3B1YmxpY19sZXR0ZXIiLAogICAgICAgICAgICBjb21wbGV0ZW5lc3M9ImNvbXBsZXRlX3ByaW50ZWRfc2lnbmVyX3Jvc3RlciIsCiAgICAgICAgICAgIGV2aWRlbmNlX3R5cGU9InB1YmxpY19sZXR0ZXJfc2lnbmF0dXJlIiwKICAgICAgICAgICAgcHJlc2J5dGVyaWVzPVtyb3cuZ2V0KCJwcmVzYnl0ZXJ5X2FzX3ByaW50ZWQiKV0sCiAgICAgICAgICAgIGluc3RpdHV0aW9ucz1bcm93LmdldCgiaW5zdGl0dXRpb25fYXNfcHJpbnRlZCIpXSwKICAgICAgICAgICAgb2ZmaWNlPXJvdy5nZXQoIm9mZmljZV9hc19wcmludGVkIiksCiAgICAgICAgICAgIGV4aXN0aW5nX2lkPXJvdy5nZXQoIm5vcm1hbGl6ZWRfcGVyc29uX2lkIiksCiAgICAgICAgKQo='
+          if '2024-garris-letter2-identity-evidence-2026-09-14.json' in text:
+              raise SystemExit('reviewed Garris Letter 2 identity block already present')
+          encoded = 'IyBSZXZpZXdlZCBpZGVudGl0eSBjb3Jyb2JvcmF0aW9uIGZvciB1bnJlc29sdmVkIEdhcnJpcyBMZXR0ZXIgMiBzaWduZXJzLgojIFRoZXNlIHJlY29yZHMgYXJlIGluZGVwZW5kZW50IG9mIHRoZSBsZXR0ZXIgaXRzZWxmIGFuZCBleGlzdCBvbmx5IHRvCiMgZGlzYW1iaWd1YXRlIHBlcnNvbiBpZGVudGl0eS4gVGhleSBkbyBub3QgYWRkIGlzc3VlIHBvc2l0aW9ucy4KcmVsYXRpdmUgPSAic291cmNlcy9yYXcvaWRlbnRpdHkvMjAyNC1nYXJyaXMtbGV0dGVyMi1pZGVudGl0eS1ldmlkZW5jZS0yMDI2LTA5LTE0Lmpzb24iCmdhcnJpc19sMl9pZGVudGl0eSA9IHJlZ2lzdGVyX2pzb24ocmVsYXRpdmUpCmZvciByb3cgaW4gZ2FycmlzX2wyX2lkZW50aXR5LmdldCgiZXZpZGVuY2UiLCBbXSk6CiAgICBhZGRfcmVjb3JkKAogICAgICAgIGRhdGFzZXQ9ImdhcnJpc19sZXR0ZXJfMl9pZGVudGl0eV92ZXJpZmljYXRpb24iLAogICAgICAgIGZhbWlseT0iZ2FycmlzX2xldHRlcl8yX2lkZW50aXR5X3ZlcmlmaWNhdGlvbiIsCiAgICAgICAgc291cmNlX3BhdGg9cmVsYXRpdmUsCiAgICAgICAgbG9jYXRvcj1mInJldmlld2VkX2lkZW50aXR5Ontyb3dbJ2xldHRlcl9wcmludF9vcmRlciddfSIsCiAgICAgICAgcHJpbnRlZF9uYW1lPXJvd1sibWF0Y2hpbmdfbmFtZSJdLAogICAgICAgIHJvdz1yb3csCiAgICAgICAgc291cmNlX3RpZXI9cm93WyJzb3VyY2Vfa2luZCJdLAogICAgICAgIGNvbXBsZXRlbmVzcz0idGFyZ2V0ZWRfcmV2aWV3ZWRfaWRlbnRpdHlfZXZpZGVuY2UiLAogICAgICAgIGV2aWRlbmNlX3R5cGU9InJldmlld2VkX2lkZW50aXR5X2NvbnRleHQiLAogICAgICAgIHByZXNieXRlcmllcz1bcm93LmdldCgicHJlc2J5dGVyeV9hc19wcmludGVkIildLAogICAgICAgIGluc3RpdHV0aW9ucz1bcm93LmdldCgiaW5zdGl0dXRpb25fYXNfcHJpbnRlZCIpXSwKICAgICAgICBleGlzdGluZ19pZD1Ob25lLAogICAgICAgIGJhY2tmaWxsPUZhbHNlLAogICAgKQo='
           block = base64.b64decode(encoded).decode('utf-8')
           if marker not in text:
               raise SystemExit('crosswalk insertion marker not found')
-          path.write_text(text.replace(marker, block + marker, 1), encoding='utf-8')
+          path.write_text(text.replace(marker, block + '\n' + marker, 1), encoding='utf-8')
           PY
 
       - name: Rebuild identities and project Garris signers
@@ -43,10 +43,10 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add scripts/build-person-crosswalk.py sources/normalized/public-statements/garris-letters-2024.json sources/normalized/identity data/people.json data/affiliations.json data/events.json analysis/overlap
+          git add scripts/build-person-crosswalk.py sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json sources/normalized/public-statements/garris-letters-2024.json sources/normalized/identity data/people.json data/affiliations.json data/events.json analysis/overlap
           if git diff --cached --quiet; then
             echo 'No changes to commit.'
             exit 0
           fi
-          git commit -m 'resolve and project Garris letter signers'
+          git commit -m 'resolve reviewed Garris Letter 2 identities'
           git push
