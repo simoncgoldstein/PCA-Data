@@ -244,6 +244,10 @@ MANUAL_SEED_ALIASES = {
 # generated source file has been cleaned, so a second run produces no drift.
 REJECTED_SOURCE_ID_OVERRIDES = {
     ("a_faithful_pca_2022-03-14", "signature:6"): "andrew-augenstein",
+    # Letter 1 and Letter 2 contain different Jeff Whites by printed context.
+    # A prior generated backfill must not turn the Letter 1 Rio Grande row
+    # into the reviewed Redeemer Downtown / Metro NY identity.
+    ("garris_letter_1", "garris-letter-1:signer:58"): "jeff-white-redeemer-downtown",
 }
 
 seed_exact: dict[str, list[str]] = defaultdict(list)
@@ -288,7 +292,9 @@ def add_record(
     if existing_id in seed_ids:
         seed_name_matches = candidate == normalize_name(seed_by_id[existing_id]["name"])
         manual_name_matches = MANUAL_SEED_ALIASES.get(candidate, {}).get("person_id") == existing_id
-        if seed_name_matches or manual_name_matches:
+        if rejected_existing_id == existing_id:
+            valid_existing_id = None
+        elif seed_name_matches or manual_name_matches:
             valid_existing_id = existing_id
         elif not rejected_existing_id:
             rejected_existing_id = existing_id
@@ -1153,6 +1159,14 @@ for key in sorted(groups):
         row_method = method
         row_confidence = confidence
         row_note = note
+        if row_id is None and row.get("existing_id"):
+            # Preserve a trusted source-specific identity even when the
+            # broader same-name group is not safely mergeable.
+            row_id = row["existing_id"]
+            row_status = "exact_confirmed"
+            row_method = "preexisting_verified_id"
+            row_confidence = 1.0
+            row_note = "Reviewed source-specific identity retained without group propagation."
 
         # A canonical ID supported by one or more anchor records is not spread
         # to a context-free row merely because its printed name is identical.
@@ -1166,7 +1180,14 @@ for key in sorted(groups):
             row_note = row["reviewed_name_variant"]["note"]
 
         if canonical_id and not row.get("existing_id") and not manual and not row.get("reviewed_name_variant"):
-            if not any(rows_share_context(row, peer) for peer in rows if peer is not row):
+            candidate_peers = [peer for peer in rows if peer is not row]
+            if method == "preexisting_verified_id":
+                # Reviewed anchors propagate only through context shared with an anchored row.
+                candidate_peers = [
+                    peer for peer in candidate_peers
+                    if peer.get("existing_id") == canonical_id
+                ]
+            if not any(rows_share_context(row, peer) for peer in candidate_peers):
                 row_id = None
                 row_status = "probable_requires_review"
                 row_method = "exact_name_without_row_level_disambiguator"

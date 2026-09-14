@@ -1417,21 +1417,6 @@
     "notes": "Printed signer context: TE, Redeemer Downtown, Metro NY. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
   },
   {
-    "id": "aff-garris-letter-1-jeff-white-redeemer-downtown",
-    "person_id": "jeff-white-redeemer-downtown",
-    "target_type": "event",
-    "target_id": "evt-garris-letter-1",
-    "role": "Signer",
-    "confidence": "confirmed",
-    "evidence_kind": "public_coalition_action",
-    "weight": 3,
-    "score_included": true,
-    "source_ids": [
-      "src-garris-letter-1"
-    ],
-    "notes": "Printed signer context: TE, New City Fellowship, Rio Grande. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
-  },
-  {
     "id": "aff-garris-letter-2-moses-lee",
     "person_id": "moses-lee",
     "target_type": "event",

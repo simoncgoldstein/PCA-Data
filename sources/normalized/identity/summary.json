@@ -14,10 +14,10 @@
   },
   "overall_match_status_counts": {
     "ambiguous": 497,
-    "collision": 18,
+    "collision": 24,
     "context_confirmed": 860,
-    "exact_confirmed": 157,
-    "probable_requires_review": 373,
+    "exact_confirmed": 152,
+    "probable_requires_review": 372,
     "unmatched": 2510
   },
   "datasets": [
@@ -25,17 +25,17 @@
       "source_dataset": "a_faithful_pca_2021-06-11",
       "row_count": 571,
       "unique_printed_name_count": 561,
-      "confirmed_canonical_person_count": 158,
-      "confirmed_row_count": 158,
+      "confirmed_canonical_person_count": 157,
+      "confirmed_row_count": 157,
       "match_status_counts": {
-        "exact_confirmed": 15,
+        "exact_confirmed": 14,
         "context_confirmed": 143,
         "probable_requires_review": 29,
         "ambiguous": 67,
-        "collision": 1,
+        "collision": 2,
         "unmatched": 316
       },
-      "percent_rows_resolved": 27.67,
+      "percent_rows_resolved": 27.5,
       "source_tier": [
         "first_party_archive"
       ],
@@ -47,17 +47,17 @@
       "source_dataset": "a_faithful_pca_2022-03-14",
       "row_count": 737,
       "unique_printed_name_count": 736,
-      "confirmed_canonical_person_count": 194,
-      "confirmed_row_count": 194,
+      "confirmed_canonical_person_count": 193,
+      "confirmed_row_count": 193,
       "match_status_counts": {
-        "exact_confirmed": 15,
+        "exact_confirmed": 14,
         "context_confirmed": 179,
         "probable_requires_review": 30,
         "ambiguous": 77,
-        "collision": 1,
+        "collision": 2,
         "unmatched": 435
       },
-      "percent_rows_resolved": 26.32,
+      "percent_rows_resolved": 26.19,
       "source_tier": [
         "first_party_archive"
       ],
@@ -531,17 +531,17 @@
       "source_dataset": "garris_letter_1",
       "row_count": 60,
       "unique_printed_name_count": 60,
-      "confirmed_canonical_person_count": 24,
-      "confirmed_row_count": 24,
+      "confirmed_canonical_person_count": 23,
+      "confirmed_row_count": 23,
       "match_status_counts": {
-        "exact_confirmed": 8,
+        "exact_confirmed": 7,
         "context_confirmed": 16,
         "probable_requires_review": 3,
         "ambiguous": 10,
-        "collision": 1,
+        "collision": 2,
         "unmatched": 22
       },
-      "percent_rows_resolved": 40.0,
+      "percent_rows_resolved": 38.33,
       "source_tier": [
         "primary_public_letter"
       ],
@@ -575,17 +575,17 @@
       "source_dataset": "garris_letter_2_identity_verification",
       "row_count": 19,
       "unique_printed_name_count": 19,
-      "confirmed_canonical_person_count": 19,
-      "confirmed_row_count": 19,
+      "confirmed_canonical_person_count": 18,
+      "confirmed_row_count": 18,
       "match_status_counts": {
-        "exact_confirmed": 7,
+        "exact_confirmed": 6,
         "context_confirmed": 12,
         "probable_requires_review": 0,
         "ambiguous": 0,
-        "collision": 0,
+        "collision": 1,
         "unmatched": 0
       },
-      "percent_rows_resolved": 100.0,
+      "percent_rows_resolved": 94.74,
       "source_tier": [
         "first_party_church",
         "first_party_pca_ministry",
@@ -1047,9 +1047,9 @@
       "match_status_counts": {
         "exact_confirmed": 8,
         "context_confirmed": 107,
-        "probable_requires_review": 17,
+        "probable_requires_review": 16,
         "ambiguous": 18,
-        "collision": 2,
+        "collision": 3,
         "unmatched": 48
       },
       "percent_rows_resolved": 57.5,
@@ -1086,17 +1086,17 @@
       "source_dataset": "overture_37_negative_votes_2021",
       "row_count": 207,
       "unique_printed_name_count": 207,
-      "confirmed_canonical_person_count": 115,
-      "confirmed_row_count": 115,
+      "confirmed_canonical_person_count": 114,
+      "confirmed_row_count": 114,
       "match_status_counts": {
-        "exact_confirmed": 9,
+        "exact_confirmed": 8,
         "context_confirmed": 106,
         "probable_requires_review": 8,
         "ambiguous": 29,
-        "collision": 2,
+        "collision": 3,
         "unmatched": 53
       },
-      "percent_rows_resolved": 55.56,
+      "percent_rows_resolved": 55.07,
       "source_tier": [
         "official_primary"
       ],

@@ -58,7 +58,7 @@ a_faithful_pca_2021-06-11,piedmont triad,piedmont-triad,current_exact,7,7,4,57.1
 a_faithful_pca_2021-06-11,pittsburgh,pittsburgh,current_exact,12,12,3,25.00,3,100.00
 a_faithful_pca_2021-06-11,potomac,potomac,current_exact,15,15,5,33.33,5,100.00
 a_faithful_pca_2021-06-11,providence,providence,current_exact,7,6,0,0.00,0,0.00
-a_faithful_pca_2021-06-11,rio grande,rio-grande,current_exact,12,12,5,41.67,5,100.00
+a_faithful_pca_2021-06-11,rio grande,rio-grande,current_exact,12,12,4,33.33,4,100.00
 a_faithful_pca_2021-06-11,rocky mountain,rocky-mountain,current_exact,17,17,5,29.41,5,100.00
 a_faithful_pca_2021-06-11,south coast,south-coast,current_exact,11,10,4,40.00,4,100.00
 a_faithful_pca_2021-06-11,south florida,south-florida,current_exact,7,7,1,14.29,1,100.00
@@ -132,7 +132,7 @@ a_faithful_pca_2022-03-14,pittsburgh,pittsburgh,current_exact,12,12,3,25.00,3,10
 a_faithful_pca_2022-03-14,platte valley,platte-valley,current_exact,1,1,0,0.00,0,0.00
 a_faithful_pca_2022-03-14,potomac,potomac,current_exact,20,20,6,30.00,6,100.00
 a_faithful_pca_2022-03-14,providence,providence,current_exact,6,6,0,0.00,0,0.00
-a_faithful_pca_2022-03-14,rio grande,rio-grande,current_exact,15,15,6,40.00,6,100.00
+a_faithful_pca_2022-03-14,rio grande,rio-grande,current_exact,15,15,5,33.33,5,100.00
 a_faithful_pca_2022-03-14,rocky mountain,rocky-mountain,current_exact,21,21,5,23.81,5,100.00
 a_faithful_pca_2022-03-14,south coast,south-coast,current_exact,12,12,4,33.33,4,100.00
 a_faithful_pca_2022-03-14,south florida,south-florida,current_exact,11,11,1,9.09,1,100.00
@@ -231,7 +231,7 @@ garris_letter_1,philadelphia metro west,philadelphia-metro-west,current_exact,1,
 garris_letter_1,piedmont triad,piedmont-triad,current_exact,3,3,0,0.00,0,0.00
 garris_letter_1,pittsburgh,pittsburgh,current_exact,2,2,1,50.00,1,100.00
 garris_letter_1,potomac,potomac,current_exact,1,1,1,100.00,1,100.00
-garris_letter_1,rio grande,rio-grande,current_exact,2,2,2,100.00,2,100.00
+garris_letter_1,rio grande,rio-grande,current_exact,2,2,1,50.00,1,100.00
 garris_letter_1,rocky mountain,rocky-mountain,current_exact,3,3,3,100.00,3,100.00
 garris_letter_1,south coast,south-coast,current_exact,1,1,0,0.00,0,0.00
 garris_letter_1,south florida,south-florida,current_exact,1,1,0,0.00,0,0.00
@@ -242,10 +242,10 @@ garris_letter_1,tidewater,tidewater,current_exact,1,1,0,0.00,0,0.00
 garris_letter_1,warrior,warrior,current_exact,1,1,0,0.00,0,0.00
 garris_letter_2,central florida,central-florida,current_exact,1,1,1,100.00,1,100.00
 garris_letter_2,korean capital,korean-capital,current_exact,1,1,1,100.00,1,100.00
-garris_letter_2,metro ny,,unresolved_historical_or_noncanonical,19,19,19,100.00,19,100.00
+garris_letter_2,metro ny,,unresolved_historical_or_noncanonical,19,19,19,100.00,18,94.74
 garris_letter_2_identity_verification,central florida,central-florida,current_exact,1,1,1,100.00,1,100.00
 garris_letter_2_identity_verification,korean capital,korean-capital,current_exact,1,1,1,100.00,1,100.00
-garris_letter_2_identity_verification,metro ny,,unresolved_historical_or_noncanonical,17,17,17,100.00,17,100.00
+garris_letter_2_identity_verification,metro ny,,unresolved_historical_or_noncanonical,17,17,16,94.12,16,100.00
 human_sexuality_aic_2019_2021,central carolina,central-carolina,current_exact,1,1,0,0.00,0,0.00
 human_sexuality_aic_2019_2021,metropolitan new york,metropolitan-new-york,current_exact,1,1,0,0.00,0,0.00
 human_sexuality_aic_2019_2021,missouri,missouri,current_exact,1,1,1,100.00,1,100.00
@@ -531,7 +531,7 @@ overture_37_negative_votes_2021,piedmont triad,piedmont-triad,current_exact,6,6,
 overture_37_negative_votes_2021,pittsburgh,pittsburgh,current_exact,3,3,2,66.67,2,100.00
 overture_37_negative_votes_2021,potomac,potomac,current_exact,6,6,4,66.67,4,100.00
 overture_37_negative_votes_2021,providence,providence,current_exact,1,1,0,0.00,0,0.00
-overture_37_negative_votes_2021,rio grande,rio-grande,current_exact,1,1,1,100.00,1,100.00
+overture_37_negative_votes_2021,rio grande,rio-grande,current_exact,1,1,0,0.00,0,0.00
 overture_37_negative_votes_2021,rocky mountain,rocky-mountain,current_exact,4,4,2,50.00,2,100.00
 overture_37_negative_votes_2021,south coast,south-coast,current_exact,4,4,4,100.00,4,100.00
 overture_37_negative_votes_2021,south texas,south-texas,current_exact,6,6,2,33.33,2,100.00
@@ -733,7 +733,7 @@ ALL_TRACKED_DATASETS,lowcountry,,unresolved_historical_or_noncanonical,15,12,0,0
 ALL_TRACKED_DATASETS,maryland,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,metro atlanta,metro-atlanta,current_exact,96,55,18,32.73,18,100.00
 ALL_TRACKED_DATASETS,metro new york,metropolitan-new-york,known_alias,11,10,1,10.00,1,100.00
-ALL_TRACKED_DATASETS,metro ny,,unresolved_historical_or_noncanonical,36,19,19,100.00,19,100.00
+ALL_TRACKED_DATASETS,metro ny,,unresolved_historical_or_noncanonical,36,19,19,100.00,18,94.74
 ALL_TRACKED_DATASETS,metropolitan new york,metropolitan-new-york,current_exact,32,20,4,20.00,4,100.00
 ALL_TRACKED_DATASETS,mississippi valley,mississippi-valley,current_exact,23,22,1,4.55,1,100.00
 ALL_TRACKED_DATASETS,missouri,missouri,current_exact,155,79,24,30.38,24,100.00
@@ -766,7 +766,7 @@ ALL_TRACKED_DATASETS,platte valley,platte-valley,current_exact,4,4,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,pnw,pacific-northwest,known_alias,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,potomac,potomac,current_exact,73,46,9,19.57,9,100.00
 ALL_TRACKED_DATASETS,providence,providence,current_exact,18,10,0,0.00,0,0.00
-ALL_TRACKED_DATASETS,rio grande,rio-grande,current_exact,36,16,6,37.50,6,100.00
+ALL_TRACKED_DATASETS,rio grande,rio-grande,current_exact,36,16,5,31.25,5,100.00
 ALL_TRACKED_DATASETS,rocky mountain,rocky-mountain,current_exact,61,32,6,18.75,6,100.00
 ALL_TRACKED_DATASETS,rocky mtn,rocky-mountain,known_alias,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,s new england,southern-new-england,known_alias,6,6,0,0.00,0,0.00

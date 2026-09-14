@@ -2984,7 +2984,7 @@
       "state_or_region_as_printed": "MD",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Korean Capital Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "moses-lee",
       "details_as_printed": [
         "Pastor",
         "Rosebrook Presbyterian Church"
@@ -4066,7 +4066,7 @@
       "state_or_region_as_printed": "LA",
       "country_as_printed": "United States",
       "presbytery_as_printed": "North Texas Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "howard-davis",
       "details_as_printed": [
         "Associate Pastor",
         "Grace Presbyterian"
@@ -4637,7 +4637,7 @@
       "state_or_region_as_printed": "CO",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Rocky Mountain Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "jason-walch",
       "details_as_printed": [
         "Associate Pastor",
         "Denver Presbyterian Church"
@@ -4772,7 +4772,7 @@
       "state_or_region_as_printed": "TX",
       "country_as_printed": "United States",
       "presbytery_as_printed": "Rio Grande Presbytery",
-      "normalized_person_id": null,
+      "normalized_person_id": "charles-isaac",
       "details_as_printed": [
         "Pastor",
         "Christ the King"

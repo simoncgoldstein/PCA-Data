@@ -780,16 +780,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:237"
-          ],
-          "dataset_b_locators": [
-            "signature:255"
-          ]
-        },
-        {
           "canonical_person_id": "jefferson-bennett",
           "name": "Jefferson Bennett",
           "dataset_a_locators": [
@@ -1772,6 +1762,7 @@
         "jeff birch",
         "jeff murray",
         "jeff norris",
+        "jeff white",
         "jeff wreyford",
         "jeffrey l mcmullen",
         "jeffrey o white",
@@ -2339,16 +2330,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:237"
-          ],
-          "dataset_b_locators": [
-            "garris-letter-1:signer:58"
-          ]
-        },
-        {
           "canonical_person_id": "joshua-torrey",
           "name": "Joshua Torrey",
           "dataset_a_locators": [
@@ -2425,6 +2406,7 @@
         "david richmon",
         "derek radney",
         "greg ward",
+        "jeff white",
         "sungyak john kim"
       ]
     },
@@ -2453,16 +2435,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:237"
-          ],
-          "dataset_b_locators": [
-            "garris-letter-2:signer:18"
-          ]
-        },
-        {
           "canonical_person_id": "justin-adour",
           "name": "Justin Adour",
           "dataset_a_locators": [
@@ -2485,7 +2457,8 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew field",
-        "david lee"
+        "david lee",
+        "jeff white"
       ]
     },
     {
@@ -2503,16 +2476,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:237"
-          ],
-          "dataset_b_locators": [
-            "reviewed_identity:18"
-          ]
-        },
-        {
           "canonical_person_id": "moses-lee",
           "name": "Moses Lee",
           "dataset_a_locators": [
@@ -2525,7 +2488,8 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew field",
-        "david lee"
+        "david lee",
+        "jeff white"
       ]
     },
     {
@@ -4254,16 +4218,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:237"
-          ],
-          "dataset_b_locators": [
-            "print_order:199"
-          ]
-        },
-        {
           "canonical_person_id": "jeremy-fair",
           "name": "Jeremy Fair",
           "dataset_a_locators": [
@@ -4653,6 +4607,7 @@
         "greg perry",
         "james pocta",
         "jeff birch",
+        "jeff white",
         "jonathan eagin",
         "rob wootton"
       ]
@@ -5846,16 +5801,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:255"
-          ],
-          "dataset_b_locators": [
-            "garris-letter-1:signer:58"
-          ]
-        },
-        {
           "canonical_person_id": "joshua-torrey",
           "name": "Joshua Torrey",
           "dataset_a_locators": [
@@ -5932,6 +5877,7 @@
         "david richmon",
         "derek radney",
         "greg ward",
+        "jeff white",
         "sungyak john kim"
       ]
     },
@@ -5960,16 +5906,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:255"
-          ],
-          "dataset_b_locators": [
-            "garris-letter-2:signer:18"
-          ]
-        },
-        {
           "canonical_person_id": "justin-adour",
           "name": "Justin Adour",
           "dataset_a_locators": [
@@ -5992,7 +5928,8 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew field",
-        "david lee"
+        "david lee",
+        "jeff white"
       ]
     },
     {
@@ -6010,16 +5947,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:255"
-          ],
-          "dataset_b_locators": [
-            "reviewed_identity:18"
-          ]
-        },
-        {
           "canonical_person_id": "moses-lee",
           "name": "Moses Lee",
           "dataset_a_locators": [
@@ -6032,7 +5959,8 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew field",
-        "david lee"
+        "david lee",
+        "jeff white"
       ]
     },
     {
@@ -8010,16 +7938,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "signature:255"
-          ],
-          "dataset_b_locators": [
-            "print_order:199"
-          ]
-        },
-        {
           "canonical_person_id": "jeremy-fair",
           "name": "Jeremy Fair",
           "dataset_a_locators": [
@@ -8490,6 +8408,7 @@
         "greg perry",
         "james pocta",
         "jeff birch",
+        "jeff white",
         "jonathan eagin",
         "rob wootton"
       ]
@@ -12415,36 +12334,18 @@
     {
       "dataset_a": "garris_letter_1",
       "dataset_b": "garris_letter_2",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "garris-letter-1:signer:58"
-          ],
-          "dataset_b_locators": [
-            "garris-letter-2:signer:18"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
     },
     {
       "dataset_a": "garris_letter_1",
       "dataset_b": "garris_letter_2_identity_verification",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "garris-letter-1:signer:58"
-          ],
-          "dataset_b_locators": [
-            "reviewed_identity:18"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
     },
     {
       "dataset_a": "garris_letter_1",
@@ -12819,16 +12720,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "garris-letter-1:signer:58"
-          ],
-          "dataset_b_locators": [
-            "print_order:199"
-          ]
-        },
-        {
           "canonical_person_id": "jeremy-king",
           "name": "Jeremy King",
           "dataset_a_locators": [
@@ -12892,6 +12783,7 @@
       "unresolved_exact_name_keys": [
         "david richmon",
         "derek radney",
+        "jeff white",
         "jonathan price"
       ]
     },
@@ -13128,16 +13020,6 @@
           ]
         },
         {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "garris-letter-2:signer:18"
-          ],
-          "dataset_b_locators": [
-            "reviewed_identity:18"
-          ]
-        },
-        {
           "canonical_person_id": "jeffrey-jou",
           "name": "Jeffrey Jou",
           "dataset_a_locators": [
@@ -13228,7 +13110,9 @@
           ]
         }
       ],
-      "unresolved_exact_name_keys": []
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
     },
     {
       "dataset_a": "garris_letter_2",
@@ -13293,19 +13177,10 @@
     {
       "dataset_a": "garris_letter_2",
       "dataset_b": "overture_37_negative_votes_2021",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "garris-letter-2:signer:18"
-          ],
-          "dataset_b_locators": [
-            "print_order:199"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
     },
     {
       "dataset_a": "garris_letter_2",
@@ -13366,19 +13241,10 @@
     {
       "dataset_a": "garris_letter_2_identity_verification",
       "dataset_b": "overture_37_negative_votes_2021",
-      "confirmed_shared_people": [
-        {
-          "canonical_person_id": "jeff-white-redeemer-downtown",
-          "name": "Jeff White",
-          "dataset_a_locators": [
-            "reviewed_identity:18"
-          ],
-          "dataset_b_locators": [
-            "print_order:199"
-          ]
-        }
-      ],
-      "unresolved_exact_name_keys": []
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
     },
     {
       "dataset_a": "garris_letter_2_identity_verification",

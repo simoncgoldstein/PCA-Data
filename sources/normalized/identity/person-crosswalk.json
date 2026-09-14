@@ -5644,15 +5644,15 @@
       "location": "el paso tx",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": "jeff-white-redeemer-downtown",
-      "match_status": "exact_confirmed",
-      "match_method": "preexisting_verified_id",
-      "supporting_fields": [
-        "a source row already carries a reviewed core person ID"
+      "canonical_person_id": null,
+      "match_status": "collision",
+      "match_method": "preexisting_id_name_mismatch",
+      "supporting_fields": [],
+      "conflicting_fields": [
+        "stored IDs do not match printed name: jeff-white-redeemer-downtown"
       ],
-      "conflicting_fields": [],
-      "confidence": 1.0,
-      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
+      "confidence": 0.0,
+      "reviewer_note": "The mismatched stored ID is cleared and this source row requires manual review.",
       "variant_collision_key": "jeffrey white",
       "initials_only_name": false
     },
@@ -26716,15 +26716,15 @@
       "location": "el paso tx",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": "jeff-white-redeemer-downtown",
-      "match_status": "exact_confirmed",
-      "match_method": "preexisting_verified_id",
-      "supporting_fields": [
-        "a source row already carries a reviewed core person ID"
+      "canonical_person_id": null,
+      "match_status": "collision",
+      "match_method": "preexisting_id_name_mismatch",
+      "supporting_fields": [],
+      "conflicting_fields": [
+        "stored IDs do not match printed name: jeff-white-redeemer-downtown"
       ],
-      "conflicting_fields": [],
-      "confidence": 1.0,
-      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
+      "confidence": 0.0,
+      "reviewer_note": "The mismatched stored ID is cleared and this source row requires manual review.",
       "variant_collision_key": "jeffrey white",
       "initials_only_name": false
     },
@@ -63280,16 +63280,16 @@
       ],
       "location": null,
       "office": "teaching_elder",
-      "rejected_existing_id": null,
-      "canonical_person_id": "jeff-white-redeemer-downtown",
-      "match_status": "exact_confirmed",
-      "match_method": "preexisting_verified_id",
-      "supporting_fields": [
-        "a source row already carries a reviewed core person ID"
+      "rejected_existing_id": "jeff-white-redeemer-downtown",
+      "canonical_person_id": null,
+      "match_status": "collision",
+      "match_method": "preexisting_id_name_mismatch",
+      "supporting_fields": [],
+      "conflicting_fields": [
+        "stored IDs do not match printed name: jeff-white-redeemer-downtown"
       ],
-      "conflicting_fields": [],
-      "confidence": 1.0,
-      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
+      "confidence": 0.0,
+      "reviewer_note": "The mismatched stored ID is cleared and this source row requires manual review.",
       "variant_collision_key": "jeffrey white",
       "initials_only_name": false
     },
@@ -63850,12 +63850,12 @@
       "canonical_person_id": "jeff-white-redeemer-downtown",
       "match_status": "exact_confirmed",
       "match_method": "preexisting_verified_id",
-      "supporting_fields": [
-        "a source row already carries a reviewed core person ID"
+      "supporting_fields": [],
+      "conflicting_fields": [
+        "stored IDs do not match printed name: jeff-white-redeemer-downtown"
       ],
-      "conflicting_fields": [],
       "confidence": 1.0,
-      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
+      "reviewer_note": "Reviewed source-specific identity retained without group propagation.",
       "variant_collision_key": "jeffrey white",
       "initials_only_name": false
     },
@@ -64558,15 +64558,15 @@
       "location": null,
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": "jeff-white-redeemer-downtown",
-      "match_status": "exact_confirmed",
-      "match_method": "preexisting_verified_id",
-      "supporting_fields": [
-        "a source row already carries a reviewed core person ID"
+      "canonical_person_id": null,
+      "match_status": "collision",
+      "match_method": "preexisting_id_name_mismatch",
+      "supporting_fields": [],
+      "conflicting_fields": [
+        "stored IDs do not match printed name: jeff-white-redeemer-downtown"
       ],
-      "conflicting_fields": [],
-      "confidence": 1.0,
-      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
+      "confidence": 0.0,
+      "reviewer_note": "The mismatched stored ID is cleared and this source row requires manual review.",
       "variant_collision_key": "jeffrey white",
       "initials_only_name": false
     },
@@ -97028,12 +97028,14 @@
       "office": "teaching_elder",
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
+      "match_status": "collision",
+      "match_method": "preexisting_id_name_mismatch",
       "supporting_fields": [],
-      "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "conflicting_fields": [
+        "stored IDs do not match printed name: jeff-white-redeemer-downtown"
+      ],
+      "confidence": 0.0,
+      "reviewer_note": "The mismatched stored ID is cleared and this source row requires manual review.",
       "variant_collision_key": "jeffrey white",
       "initials_only_name": false
     },
@@ -104834,15 +104836,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": "jeff-white-redeemer-downtown",
-      "match_status": "exact_confirmed",
-      "match_method": "preexisting_verified_id",
-      "supporting_fields": [
-        "a source row already carries a reviewed core person ID"
+      "canonical_person_id": null,
+      "match_status": "collision",
+      "match_method": "preexisting_id_name_mismatch",
+      "supporting_fields": [],
+      "conflicting_fields": [
+        "stored IDs do not match printed name: jeff-white-redeemer-downtown"
       ],
-      "conflicting_fields": [],
-      "confidence": 1.0,
-      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
+      "confidence": 0.0,
+      "reviewer_note": "The mismatched stored ID is cleared and this source row requires manual review.",
       "variant_collision_key": "jeffrey white",
       "initials_only_name": false
     },

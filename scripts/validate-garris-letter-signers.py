@@ -83,8 +83,8 @@ for letter_id, spec in expected.items():
 
     resolved = [row for row in signers if row.get("normalized_person_id")]
     resolved_counts[letter_id] = len(resolved)
-    if letter_id == "garris-letter-1" and len(resolved) < 24:
-        raise SystemExit(f"Letter 1 canonical coverage regressed below 24: {len(resolved)}")
+    if letter_id == "garris-letter-1" and len(resolved) < 23:
+        raise SystemExit(f"Letter 1 canonical coverage regressed below 23: {len(resolved)}")
     if letter_id == "garris-letter-2" and len(resolved) != 21:
         raise SystemExit(f"Letter 2 must remain fully canonical: {len(resolved)}/21")
 
