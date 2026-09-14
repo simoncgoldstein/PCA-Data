@@ -35,7 +35,7 @@ Normalized complete rosters:
 
 Current coverage:
 
-- **Letter 1:** 60 printed signers; **24 currently canonical** and app-projected.
+- **Letter 1:** 60 printed signers; **23 currently canonical** and app-projected.
 - **Letter 2:** 21 printed signers; **21/21 canonical** and app-projected.
 - Every resolved signature is a confirmed `public_coalition_action` with the methodology's ordinary public-letter weight **3** and `score_included: true`.
 - The score records documented participation in this tracked public action. It is not itself a judgment of orthodoxy, Christian character, or every theological position of the signer.
@@ -57,7 +57,7 @@ Interpretive boundary: signing one of the Garris letters is a meaningful, score-
 Reproducibility:
 
 - `scripts/build-person-crosswalk.py` ingests Letter 1 and Letter 2 as separate source families.
-- `scripts/project-garris-signers.py` deterministically projects all resolved signer rows to app affiliations.
+- `scripts/project-garris-signers.py` deterministically reconciles resolved signer rows to app affiliations, including removal of stale signer edges after an identity correction.
 - repository-wide generated-output validation reruns the person crosswalk, the Garris signer projection, and overlap analysis before requiring a clean git diff.
 - `scripts/validate-garris-letter-signers.py` protects roster completeness, scoring semantics, app linkage, Letter 2 completeness, and the Jeff White identity boundary.
 
@@ -87,7 +87,7 @@ Continue **Garris Letter 1 identity resolution in compact reviewed batches**, pr
 
 For that work:
 
-1. Start from the 36 unresolved Letter 1 rows in `garris-letters-2024.json` / the generated review queue.
+1. Start from the 37 unresolved Letter 1 rows in `garris-letters-2024.json` / the generated review queue.
 2. Prefer already recurring/high-value graph people and exact first-party/official ministry context.
 3. Record reviewed identity evidence in a receipt rather than relaxing global name-matching rules.
 4. Preserve the distinct Letter 1 Jeff White unless independent New City Fellowship / Rio Grande evidence resolves him.
