@@ -1,0 +1,76 @@
+name: Apply Garris signer crosswalk (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/apply-garris-crosswalk.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Register Garris letters in person crosswalk
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('scripts/build-person-crosswalk.py')
+          text = path.read_text(encoding='utf-8')
+          marker = '\n\n# Human Sexuality AIC committee service.'
+          if 'garris_letters_2024' in text:
+              raise SystemExit('Garris crosswalk block already present')
+          block = r'''
+
+# 2024 Garris public-letter signer rosters. Letter 1 and Letter 2 are distinct
+# source families/actions. Printed church/ministry and presbytery fields are
+# contextual disambiguators; same-name matching alone never confirms identity.
+relative = "sources/normalized/public-statements/garris-letters-2024.json"
+garris_data = register_json(relative)
+for letter in garris_data.get("letters", []):
+    family = letter["letter_id"].replace("-", "_")
+    dataset = family
+    for row in letter.get("signers", []):
+        add_record(
+            dataset=dataset,
+            family=family,
+            source_path=relative,
+            locator=f"{letter['letter_id']}:signer:{row['print_order']}",
+            printed_name=row["name_as_printed"],
+            row=row,
+            source_tier="primary_public_letter",
+            completeness="complete_printed_signer_roster",
+            evidence_type="public_letter_signature",
+            presbyteries=[row.get("presbytery_as_printed")],
+            institutions=[row.get("institution_as_printed")],
+            office=row.get("office_as_printed"),
+            existing_id=row.get("normalized_person_id"),
+        )
+'''
+          if marker not in text:
+              raise SystemExit('crosswalk insertion marker not found')
+          path.write_text(text.replace(marker, block + marker, 1), encoding='utf-8')
+          PY
+
+      - name: Rebuild identities and project Garris signers
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/project-garris-signers.py .
+          python3 scripts/build-overlap-analysis.py .
+
+      - name: Commit generated and permanent changes
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add scripts/build-person-crosswalk.py sources/normalized/public-statements/garris-letters-2024.json sources/normalized/identity data/people.json data/affiliations.json data/events.json analysis/overlap
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'resolve and project Garris letter signers'
+          git push
