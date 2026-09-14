@@ -15,22 +15,90 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Register reviewed Letter 2 identity evidence
+      - name: Apply reviewed Letter 2 canonical seeds
         run: |
           python3 - <<'PY'
-          import base64
+          import json
           from pathlib import Path
 
-          path = Path('scripts/build-person-crosswalk.py')
-          text = path.read_text(encoding='utf-8')
-          marker = '\n\n# Human Sexuality AIC committee service.'
-          if '2024-garris-letter2-identity-evidence-2026-09-14.json' in text:
-              raise SystemExit('reviewed Garris Letter 2 identity block already present')
-          encoded = 'IyBSZXZpZXdlZCBpZGVudGl0eSBjb3Jyb2JvcmF0aW9uIGZvciB1bnJlc29sdmVkIEdhcnJpcyBMZXR0ZXIgMiBzaWduZXJzLgojIFRoZXNlIHJlY29yZHMgYXJlIGluZGVwZW5kZW50IG9mIHRoZSBsZXR0ZXIgaXRzZWxmIGFuZCBleGlzdCBvbmx5IHRvCiMgZGlzYW1iaWd1YXRlIHBlcnNvbiBpZGVudGl0eS4gVGhleSBkbyBub3QgYWRkIGlzc3VlIHBvc2l0aW9ucy4KcmVsYXRpdmUgPSAic291cmNlcy9yYXcvaWRlbnRpdHkvMjAyNC1nYXJyaXMtbGV0dGVyMi1pZGVudGl0eS1ldmlkZW5jZS0yMDI2LTA5LTE0Lmpzb24iCmdhcnJpc19sMl9pZGVudGl0eSA9IHJlZ2lzdGVyX2pzb24ocmVsYXRpdmUpCmZvciByb3cgaW4gZ2FycmlzX2wyX2lkZW50aXR5LmdldCgiZXZpZGVuY2UiLCBbXSk6CiAgICBhZGRfcmVjb3JkKAogICAgICAgIGRhdGFzZXQ9ImdhcnJpc19sZXR0ZXJfMl9pZGVudGl0eV92ZXJpZmljYXRpb24iLAogICAgICAgIGZhbWlseT0iZ2FycmlzX2xldHRlcl8yX2lkZW50aXR5X3ZlcmlmaWNhdGlvbiIsCiAgICAgICAgc291cmNlX3BhdGg9cmVsYXRpdmUsCiAgICAgICAgbG9jYXRvcj1mInJldmlld2VkX2lkZW50aXR5Ontyb3dbJ2xldHRlcl9wcmludF9vcmRlciddfSIsCiAgICAgICAgcHJpbnRlZF9uYW1lPXJvd1sibWF0Y2hpbmdfbmFtZSJdLAogICAgICAgIHJvdz1yb3csCiAgICAgICAgc291cmNlX3RpZXI9cm93WyJzb3VyY2Vfa2luZCJdLAogICAgICAgIGNvbXBsZXRlbmVzcz0idGFyZ2V0ZWRfcmV2aWV3ZWRfaWRlbnRpdHlfZXZpZGVuY2UiLAogICAgICAgIGV2aWRlbmNlX3R5cGU9InJldmlld2VkX2lkZW50aXR5X2NvbnRleHQiLAogICAgICAgIHByZXNieXRlcmllcz1bcm93LmdldCgicHJlc2J5dGVyeV9hc19wcmludGVkIildLAogICAgICAgIGluc3RpdHV0aW9ucz1bcm93LmdldCgiaW5zdGl0dXRpb25fYXNfcHJpbnRlZCIpXSwKICAgICAgICBleGlzdGluZ19pZD1Ob25lLAogICAgICAgIGJhY2tmaWxsPUZhbHNlLAogICAgKQo='
-          block = base64.b64decode(encoded).decode('utf-8')
-          if marker not in text:
-              raise SystemExit('crosswalk insertion marker not found')
-          path.write_text(text.replace(marker, block + '\n' + marker, 1), encoding='utf-8')
+          def load(path):
+              return json.loads(Path(path).read_text(encoding='utf-8'))
+
+          def save(path, value):
+              Path(path).write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+
+          people_path = 'data/people.json'
+          garris_path = 'sources/normalized/public-statements/garris-letters-2024.json'
+          receipt_path = 'sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json'
+
+          people = load(people_path)
+          garris = load(garris_path)
+          receipt = load(receipt_path)
+
+          seeds = {
+              2: ('moses-lee', 'Moses Lee'),
+              4: ('david-lee-redeemer-downtown', 'David Lee'),
+              6: ('aaron-chung', 'Aaron Chung'),
+              7: ('gene-joo', 'Gene Joo'),
+              18: ('jeff-white-redeemer-downtown', 'Jeff White'),
+              19: ('gregory-perry', 'Gregory Perry'),
+              20: ('jeffrey-jou', 'Jeffrey Jou'),
+          }
+
+          people_by_id = {row['id']: row for row in people}
+          for order, (person_id, name) in seeds.items():
+              existing = people_by_id.get(person_id)
+              if existing:
+                  if existing.get('name') != name:
+                      raise SystemExit(f'canonical id collision: {person_id} -> {existing.get("name")}')
+                  if existing.get('profile_status') == 'identity_crosswalk':
+                      existing['profile_status'] = 'source_assessed'
+              else:
+                  row = {
+                      'id': person_id,
+                      'name': name,
+                      'ordination': 'Teaching Elder',
+                      'current_role': None,
+                      'current_organization': None,
+                      'denominational_status': 'PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice',
+                      'current_role_source_ids': [],
+                      'profile_status': 'source_assessed',
+                  }
+                  people.append(row)
+                  people_by_id[person_id] = row
+
+          letter2 = next(row for row in garris['letters'] if row['letter_id'] == 'garris-letter-2')
+          signer_by_order = {row['print_order']: row for row in letter2['signers']}
+          for order, (person_id, name) in seeds.items():
+              signer = signer_by_order[order]
+              if signer['name_as_printed'] != name:
+                  raise SystemExit(f'letter2 order {order} name drift: {signer["name_as_printed"]}')
+              signer['normalized_person_id'] = person_id
+              signer['identity_resolution'] = {
+                  'status': 'reviewed_canonical_seed',
+                  'receipt': receipt_path,
+                  'rule': 'Person-specific reviewed identity decision; does not create a global same-name equivalence.'
+              }
+
+          receipt_by_order = {row['letter_print_order']: row for row in receipt['evidence']}
+          for order, (person_id, name) in seeds.items():
+              item = receipt_by_order[order]
+              if item['name_as_printed'] != name:
+                  raise SystemExit(f'receipt order {order} name drift')
+              item['applied_canonical_id'] = person_id
+              item['review_state'] = 'applied_canonical_seed'
+
+          receipt['applied_identity_count'] = len(seeds)
+          receipt['application_note'] = (
+              'Seven rows that remained blocked by generic collision/context safeguards were applied as '
+              'person-specific reviewed canonical seeds. The global resolver remains unchanged. The Letter 1 '
+              'Jeff White row remains unresolved because its New City Fellowship / Rio Grande context does not '
+              'match the reviewed Redeemer Downtown / Metro NY identity.'
+          )
+
+          save(people_path, people)
+          save(garris_path, garris)
+          save(receipt_path, receipt)
           PY
 
       - name: Rebuild identities and project Garris signers
@@ -43,10 +111,10 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add scripts/build-person-crosswalk.py sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json sources/normalized/public-statements/garris-letters-2024.json sources/normalized/identity data/people.json data/affiliations.json data/events.json analysis/overlap
+          git add sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json sources/normalized/public-statements/garris-letters-2024.json sources/normalized/identity data/people.json data/affiliations.json data/events.json analysis/overlap
           if git diff --cached --quiet; then
             echo 'No changes to commit.'
             exit 0
           fi
-          git commit -m 'resolve reviewed Garris Letter 2 identities'
+          git commit -m 'apply final reviewed Garris Letter 2 identities'
           git push
