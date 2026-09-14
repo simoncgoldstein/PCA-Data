@@ -392,16 +392,37 @@
       "source_dataset": "garris_letter_2",
       "row_count": 21,
       "unique_printed_name_count": 21,
-      "confirmed_canonical_person_count": 2,
-      "unmatched_count": 9,
-      "probable_requires_review_count": 5,
+      "confirmed_canonical_person_count": 14,
+      "unmatched_count": 0,
+      "probable_requires_review_count": 2,
       "ambiguous_or_collision_count": 5,
-      "percentage_resolved": 9.52,
+      "percentage_resolved": 66.67,
       "source_tier": [
         "primary_public_letter"
       ],
       "completeness_status": [
         "complete_printed_signer_roster"
+      ]
+    },
+    {
+      "source_dataset": "garris_letter_2_identity_verification",
+      "row_count": 19,
+      "unique_printed_name_count": 19,
+      "confirmed_canonical_person_count": 12,
+      "unmatched_count": 0,
+      "probable_requires_review_count": 2,
+      "ambiguous_or_collision_count": 5,
+      "percentage_resolved": 63.16,
+      "source_tier": [
+        "first_party_church",
+        "first_party_pca_ministry",
+        "independent_church_guest_record",
+        "institutional_author_bio",
+        "official_denominational_minutes",
+        "redeemer_partner_ministry"
+      ],
+      "completeness_status": [
+        "targeted_reviewed_identity_evidence"
       ]
     },
     {

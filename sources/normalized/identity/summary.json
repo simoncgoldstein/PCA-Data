@@ -1,9 +1,9 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 4396,
-    "canonical_person_count": 285,
-    "new_person_count": 268,
+    "record_count": 4415,
+    "canonical_person_count": 296,
+    "new_person_count": 279,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -13,12 +13,12 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 512,
+    "ambiguous": 517,
     "collision": 18,
-    "context_confirmed": 836,
+    "context_confirmed": 860,
     "exact_confirmed": 135,
-    "probable_requires_review": 376,
-    "unmatched": 2519
+    "probable_requires_review": 375,
+    "unmatched": 2510
   },
   "datasets": [
     {
@@ -553,22 +553,49 @@
       "source_dataset": "garris_letter_2",
       "row_count": 21,
       "unique_printed_name_count": 21,
-      "confirmed_canonical_person_count": 2,
-      "confirmed_row_count": 2,
+      "confirmed_canonical_person_count": 14,
+      "confirmed_row_count": 14,
       "match_status_counts": {
         "exact_confirmed": 1,
-        "context_confirmed": 1,
-        "probable_requires_review": 5,
+        "context_confirmed": 13,
+        "probable_requires_review": 2,
         "ambiguous": 5,
         "collision": 0,
-        "unmatched": 9
+        "unmatched": 0
       },
-      "percent_rows_resolved": 9.52,
+      "percent_rows_resolved": 66.67,
       "source_tier": [
         "primary_public_letter"
       ],
       "completeness_status": [
         "complete_printed_signer_roster"
+      ]
+    },
+    {
+      "source_dataset": "garris_letter_2_identity_verification",
+      "row_count": 19,
+      "unique_printed_name_count": 19,
+      "confirmed_canonical_person_count": 12,
+      "confirmed_row_count": 12,
+      "match_status_counts": {
+        "exact_confirmed": 0,
+        "context_confirmed": 12,
+        "probable_requires_review": 2,
+        "ambiguous": 5,
+        "collision": 0,
+        "unmatched": 0
+      },
+      "percent_rows_resolved": 63.16,
+      "source_tier": [
+        "first_party_church",
+        "first_party_pca_ministry",
+        "independent_church_guest_record",
+        "institutional_author_bio",
+        "official_denominational_minutes",
+        "redeemer_partner_ministry"
+      ],
+      "completeness_status": [
+        "targeted_reviewed_identity_evidence"
       ]
     },
     {

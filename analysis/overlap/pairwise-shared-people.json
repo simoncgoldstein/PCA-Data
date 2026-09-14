@@ -2406,6 +2406,16 @@
       "dataset_b": "garris_letter_2",
       "confirmed_shared_people": [
         {
+          "canonical_person_id": "david-bisgrove",
+          "name": "David Bisgrove",
+          "dataset_a_locators": [
+            "signature:365"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-2:signer:16"
+          ]
+        },
+        {
           "canonical_person_id": "hector-sanchez",
           "name": "Hector Sanchez",
           "dataset_a_locators": [
@@ -2428,7 +2438,28 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew field",
-        "david bisgrove",
+        "david lee",
+        "jeff white",
+        "moses lee"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2021-06-11",
+      "dataset_b": "garris_letter_2_identity_verification",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-bisgrove",
+          "name": "David Bisgrove",
+          "dataset_a_locators": [
+            "signature:365"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:16"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "andrew field",
         "david lee",
         "jeff white",
         "moses lee"
@@ -5810,6 +5841,16 @@
       "dataset_b": "garris_letter_2",
       "confirmed_shared_people": [
         {
+          "canonical_person_id": "david-bisgrove",
+          "name": "David Bisgrove",
+          "dataset_a_locators": [
+            "signature:36"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-2:signer:16"
+          ]
+        },
+        {
           "canonical_person_id": "hector-sanchez",
           "name": "Hector Sanchez",
           "dataset_a_locators": [
@@ -5832,7 +5873,28 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew field",
-        "david bisgrove",
+        "david lee",
+        "jeff white",
+        "moses lee"
+      ]
+    },
+    {
+      "dataset_a": "a_faithful_pca_2022-03-14",
+      "dataset_b": "garris_letter_2_identity_verification",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-bisgrove",
+          "name": "David Bisgrove",
+          "dataset_a_locators": [
+            "signature:36"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:16"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "andrew field",
         "david lee",
         "jeff white",
         "moses lee"
@@ -9955,6 +10017,14 @@
     },
     {
       "dataset_a": "amr_website_media_2023_2026",
+      "dataset_b": "garris_letter_2_identity_verification",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "aaron chung"
+      ]
+    },
+    {
+      "dataset_a": "amr_website_media_2023_2026",
       "dataset_b": "institution_cdm",
       "confirmed_shared_people": [
         {
@@ -10499,6 +10569,14 @@
     {
       "dataset_a": "amr_youtube_media_2023_2026",
       "dataset_b": "garris_letter_2",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "aaron chung"
+      ]
+    },
+    {
+      "dataset_a": "amr_youtube_media_2023_2026",
+      "dataset_b": "garris_letter_2_identity_verification",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
         "aaron chung"
@@ -12182,6 +12260,14 @@
     },
     {
       "dataset_a": "garris_letter_1",
+      "dataset_b": "garris_letter_2_identity_verification",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_1",
       "dataset_b": "nae_withdrawal_protest_2022",
       "confirmed_shared_people": [
         {
@@ -12760,6 +12846,141 @@
     },
     {
       "dataset_a": "garris_letter_2",
+      "dataset_b": "garris_letter_2_identity_verification",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "andrew-field",
+          "name": "Andrew Field",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:14"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:14"
+          ]
+        },
+        {
+          "canonical_person_id": "charles-chung",
+          "name": "Charles Chung",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:12"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:12"
+          ]
+        },
+        {
+          "canonical_person_id": "david-bisgrove",
+          "name": "David Bisgrove",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:16"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:16"
+          ]
+        },
+        {
+          "canonical_person_id": "j-david-ellis",
+          "name": "J. David Ellis",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:15"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:15"
+          ]
+        },
+        {
+          "canonical_person_id": "jay-harvey",
+          "name": "Jay Harvey",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:8"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:8"
+          ]
+        },
+        {
+          "canonical_person_id": "joshua-ro",
+          "name": "Joshua Ro",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:13"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:13"
+          ]
+        },
+        {
+          "canonical_person_id": "pete-nicholas",
+          "name": "Pete Nicholas",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:17"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:17"
+          ]
+        },
+        {
+          "canonical_person_id": "peter-ong",
+          "name": "Peter Ong",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:10"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:10"
+          ]
+        },
+        {
+          "canonical_person_id": "peter-rhee",
+          "name": "Peter Rhee",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:3"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:3"
+          ]
+        },
+        {
+          "canonical_person_id": "tim-chang",
+          "name": "Tim Chang",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:5"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:5"
+          ]
+        },
+        {
+          "canonical_person_id": "wei-ho",
+          "name": "Wei Ho",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:11"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:11"
+          ]
+        },
+        {
+          "canonical_person_id": "will-anderson",
+          "name": "Will Anderson",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:21"
+          ],
+          "dataset_b_locators": [
+            "reviewed_identity:21"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "aaron chung",
+        "david lee",
+        "gene joo",
+        "gregory perry",
+        "jeff white",
+        "jeffrey jou",
+        "moses lee"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2",
       "dataset_b": "nae_withdrawal_protest_2022",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [
@@ -12771,6 +12992,16 @@
       "dataset_a": "garris_letter_2",
       "dataset_b": "overture_15_negative_votes_2022",
       "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-bisgrove",
+          "name": "David Bisgrove",
+          "dataset_a_locators": [
+            "garris-letter-2:signer:16"
+          ],
+          "dataset_b_locators": [
+            "print_order:12"
+          ]
+        },
         {
           "canonical_person_id": "hector-sanchez",
           "name": "Hector Sanchez",
@@ -12784,7 +13015,6 @@
       ],
       "unresolved_exact_name_keys": [
         "aaron chung",
-        "david bisgrove",
         "gene joo",
         "jeff white",
         "moses lee"
@@ -12800,6 +13030,52 @@
     },
     {
       "dataset_a": "garris_letter_2",
+      "dataset_b": "ruf_campus_catalog_2025",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "wei ho"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2_identity_verification",
+      "dataset_b": "nae_withdrawal_protest_2022",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "moses lee"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2_identity_verification",
+      "dataset_b": "overture_15_negative_votes_2022",
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "david-bisgrove",
+          "name": "David Bisgrove",
+          "dataset_a_locators": [
+            "reviewed_identity:16"
+          ],
+          "dataset_b_locators": [
+            "print_order:12"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": [
+        "aaron chung",
+        "gene joo",
+        "jeff white",
+        "moses lee"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2_identity_verification",
+      "dataset_b": "overture_37_negative_votes_2021",
+      "confirmed_shared_people": [],
+      "unresolved_exact_name_keys": [
+        "jeff white"
+      ]
+    },
+    {
+      "dataset_a": "garris_letter_2_identity_verification",
       "dataset_b": "ruf_campus_catalog_2025",
       "confirmed_shared_people": [],
       "unresolved_exact_name_keys": [

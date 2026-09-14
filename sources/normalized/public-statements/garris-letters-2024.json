@@ -539,7 +539,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Uptown Community Church",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "peter-rhee"
         },
         {
           "print_order": 4,
@@ -555,7 +555,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Emmanuel Presbyterian Church",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "tim-chang"
         },
         {
           "print_order": 6,
@@ -579,7 +579,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Exilic",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "jay-harvey"
         },
         {
           "print_order": 9,
@@ -595,7 +595,7 @@
           "office_as_printed": "RE",
           "institution_as_printed": "Living Faith Community Church",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "peter-ong"
         },
         {
           "print_order": 11,
@@ -603,7 +603,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "RUF Gotham",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "wei-ho"
         },
         {
           "print_order": 12,
@@ -611,7 +611,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Redeemer Downtown",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "charles-chung"
         },
         {
           "print_order": 13,
@@ -619,7 +619,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "King’s Cross Church",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "joshua-ro"
         },
         {
           "print_order": 14,
@@ -627,7 +627,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Redeemer West Side",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "andrew-field"
         },
         {
           "print_order": 15,
@@ -635,7 +635,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Redeemer East Side",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "j-david-ellis"
         },
         {
           "print_order": 16,
@@ -643,7 +643,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Redeemer West Side",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "david-bisgrove"
         },
         {
           "print_order": 17,
@@ -651,7 +651,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Redeemer Downtown",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "pete-nicholas"
         },
         {
           "print_order": 18,
@@ -683,7 +683,7 @@
           "office_as_printed": "TE",
           "institution_as_printed": "Redeemer Downtown",
           "presbytery_as_printed": "Metro NY",
-          "normalized_person_id": null
+          "normalized_person_id": "will-anderson"
         }
       ]
     }

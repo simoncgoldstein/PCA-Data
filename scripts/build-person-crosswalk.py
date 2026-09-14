@@ -372,6 +372,28 @@ for letter in garris_data.get("letters", []):
             office=row.get("office_as_printed"),
             existing_id=row.get("normalized_person_id"),
         )
+# Reviewed identity corroboration for unresolved Garris Letter 2 signers.
+# These records are independent of the letter itself and exist only to
+# disambiguate person identity. They do not add issue positions.
+relative = "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json"
+garris_l2_identity = register_json(relative)
+for row in garris_l2_identity.get("evidence", []):
+    add_record(
+        dataset="garris_letter_2_identity_verification",
+        family="garris_letter_2_identity_verification",
+        source_path=relative,
+        locator=f"reviewed_identity:{row['letter_print_order']}",
+        printed_name=row["matching_name"],
+        row=row,
+        source_tier=row["source_kind"],
+        completeness="targeted_reviewed_identity_evidence",
+        evidence_type="reviewed_identity_context",
+        presbyteries=[row.get("presbytery_as_printed")],
+        institutions=[row.get("institution_as_printed")],
+        existing_id=None,
+        backfill=False,
+    )
+
 
 
 # Human Sexuality AIC committee service. The committee source family is
