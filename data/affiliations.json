@@ -5,15 +5,15 @@
     "target_type": "organization",
     "target_id": "national-partnership",
     "role": "Participant / recruiter",
-    "confidence": "strongly_supported",
+    "confidence": "confirmed",
     "evidence_kind": "network_participation",
     "weight": 4,
     "score_included": true,
     "source_ids": [
-      "src-pcapolity-secret-caucuses",
+      "src-np-local-archive",
       "src-np-index"
     ],
-    "notes": "Secondary synthesis explicitly distinguishes Khandjian's Fellowship from the NP while describing his participation and recruitment. Specific archival message pin is still to be added."
+    "notes": "Primary NP archive explicitly identifies Khandjian as an NP member and separately identifies his Fellowship Dinner as an independent group with high overlap; canonical NP evidence includes 2014 pages 120/125/128 and a 2015 Partnership-men roster."
   },
   {
     "id": "aff-khandjian-fellowship",
@@ -834,5 +834,151 @@
       "src-byfaith-overture37-dissent-response-2026"
     ],
     "notes": "The primary dissent names Jeffrey Choi with Aaron Baker, Walter Henegar, and Eric Kapur as submitters. This is scored as a formal person-specific denominational action, distinct from committee service and floor advocacy."
+  },
+  {
+    "id": "aff-oneil-np",
+    "person_id": "bruce-o-neil",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member / committee participant",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive"
+    ],
+    "notes": "Canonical NP dataset records Bruce O’Neil on NP-guys committee rosters dated Jan. 10 and Feb. 28, 2018, archive pp. 264–265, Chesapeake Presbytery, Overtures Committee."
+  },
+  {
+    "id": "aff-cortese-np",
+    "person_id": "ray-cortese",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive"
+    ],
+    "notes": "Canonical NP dataset records Ray Cortese under National Partnership additions on Mar. 11, 2013, archive p. 17, Central Florida Presbytery."
+  },
+  {
+    "id": "aff-flayhart-np",
+    "person_id": "bob-flayhart",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive"
+    ],
+    "notes": "Canonical NP dataset records Bob Flayhart under National Partnership additions on Feb. 11, 2013, archive p. 3, Evangel Presbytery."
+  },
+  {
+    "id": "aff-oneil-mcgowan-2026",
+    "person_id": "bruce-o-neil",
+    "target_type": "organization",
+    "target_id": "mcgowan-global-institute",
+    "role": "Consultant, Coach",
+    "confidence": "confirmed",
+    "evidence_kind": "current_external_role",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-mcgowan-global-team-2026"
+    ]
+  },
+  {
+    "id": "aff-khandjian-mcgowan-2026",
+    "person_id": "mike-khandjian",
+    "target_type": "organization",
+    "target_id": "mcgowan-global-institute",
+    "role": "Consultant, Coach",
+    "confidence": "confirmed",
+    "evidence_kind": "current_external_role",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-mcgowan-global-team-2026"
+    ]
+  },
+  {
+    "id": "aff-cassidy-mcgowan-2026",
+    "person_id": "david-cassidy",
+    "target_type": "organization",
+    "target_id": "mcgowan-global-institute",
+    "role": "Consultant, Coach",
+    "confidence": "confirmed",
+    "evidence_kind": "current_external_role",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-mcgowan-global-team-2026"
+    ],
+    "notes": "Cassidy is separately modeled as an AMR founder/current leader. No canonical NP membership record was found for him in the current NP dataset; MGI/AMR overlap must not be converted into NP membership."
+  },
+  {
+    "id": "aff-cortese-mcgowan-2026",
+    "person_id": "ray-cortese",
+    "target_type": "organization",
+    "target_id": "mcgowan-global-institute",
+    "role": "Consultant, Coach",
+    "confidence": "confirmed",
+    "evidence_kind": "current_external_role",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-mcgowan-global-team-2026"
+    ]
+  },
+  {
+    "id": "aff-flayhart-mcgowan-2026",
+    "person_id": "bob-flayhart",
+    "target_type": "organization",
+    "target_id": "mcgowan-global-institute",
+    "role": "Consultant, Coach",
+    "confidence": "confirmed",
+    "evidence_kind": "current_external_role",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-mcgowan-global-team-2026"
+    ]
+  },
+  {
+    "id": "aff-tim-keller-kathy-spouse",
+    "person_id": "tim-keller",
+    "target_type": "person",
+    "target_id": "kathy-keller",
+    "role": "Spouse",
+    "confidence": "confirmed",
+    "evidence_kind": "family_relationship",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-pca-bookstore-keller-marriage"
+    ],
+    "notes": "Family relationship only; does not transfer positions, memberships, actions, or scores between spouses."
+  },
+  {
+    "id": "aff-kathy-keller-tim-spouse",
+    "person_id": "kathy-keller",
+    "target_type": "person",
+    "target_id": "tim-keller",
+    "role": "Spouse",
+    "confidence": "confirmed",
+    "evidence_kind": "family_relationship",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-pca-bookstore-keller-marriage"
+    ],
+    "notes": "Family relationship only; does not transfer positions, memberships, actions, or scores between spouses."
   }
 ]
