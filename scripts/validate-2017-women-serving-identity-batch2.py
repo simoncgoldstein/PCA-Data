@@ -136,10 +136,10 @@ if mcgreevy_evidence[0].get("ideological_weight") != 0:
 remaining_unresolved = {
     row["person_name"] for row in edges if row.get("normalized_person_id") is None
 }
-expected_unresolved = {"William Castro", "Jeffrey Choi", "Lani Jones", "Kathy Keller"}
-if remaining_unresolved != expected_unresolved:
-    raise SystemExit(
-        f"unexpected unresolved 2017 committee set: expected {sorted(expected_unresolved)}, found {sorted(remaining_unresolved)}"
-    )
+if {exp["name"] for exp in expected.values()} & remaining_unresolved:
+    raise SystemExit("batch 2 identities must remain resolved in all later slices")
 
-print("2017 women-serving identity batch 2 OK: 3 reviewed identities applied, 4 committee identities remain unresolved")
+print(
+    "2017 women-serving identity batch 2 OK: "
+    f"3 reviewed identities remain applied; {len(remaining_unresolved)} committee identities currently unresolved"
+)
