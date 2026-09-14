@@ -410,6 +410,116 @@
     "profile_status": "source_assessed"
   },
   {
+    "id": "bruce-o-neil",
+    "name": "Bruce O’Neil",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "bruce-terrell",
+    "name": "Bruce Terrell",
+    "ordination": "Ruling Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "jeremy-fair",
+    "name": "Jeremy Fair",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "justin-edgar",
+    "name": "Justin Edgar",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "luke-evans",
+    "name": "Luke Evans",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "nate-conrad",
+    "name": "Nate Conrad",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "omar-ortiz",
+    "name": "Omar Ortiz",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "peter-rowan",
+    "name": "Peter Rowan",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "ben-lyon",
+    "name": "Ben Lyon",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA officer documented across reviewed National Partnership and official 2022 General Assembly action sources; current role not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "rob-wootton",
+    "name": "Rob Wootton",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA officer documented across reviewed National Partnership and official 2022 General Assembly action sources; current role not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "tim-lecroy",
+    "name": "Tim LeCroy",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA officer documented across reviewed National Partnership and official 2022 General Assembly action sources; current role not assessed in this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",
@@ -733,26 +843,6 @@
     "id": "brian-lopiccolo",
     "name": "Brian LoPiccolo",
     "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "bruce-o-neil",
-    "name": "Bruce O’Neil",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "bruce-terrell",
-    "name": "Bruce Terrell",
-    "ordination": "Ruling Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -1660,16 +1750,6 @@
     "profile_status": "identity_crosswalk"
   },
   {
-    "id": "jeremy-fair",
-    "name": "Jeremy Fair",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
     "id": "jeremy-kemp",
     "name": "Jeremy Kemp",
     "ordination": "Teaching Elder",
@@ -1930,16 +2010,6 @@
     "profile_status": "identity_crosswalk"
   },
   {
-    "id": "justin-edgar",
-    "name": "Justin Edgar",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
     "id": "justin-grimm",
     "name": "Justin Grimm",
     "ordination": "Teaching Elder",
@@ -2123,16 +2193,6 @@
     "id": "luke-calvin",
     "name": "Luke Calvin",
     "ordination": "Ruling Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "luke-evans",
-    "name": "Luke Evans",
-    "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -2350,16 +2410,6 @@
     "profile_status": "identity_crosswalk"
   },
   {
-    "id": "nate-conrad",
-    "name": "Nate Conrad",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
     "id": "nathan-dicks",
     "name": "Nathan Dicks",
     "ordination": null,
@@ -2423,16 +2473,6 @@
     "id": "oliver-trimiew",
     "name": "Oliver Trimiew",
     "ordination": "Ruling Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "omar-ortiz",
-    "name": "Omar Ortiz",
-    "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -2552,16 +2592,6 @@
   {
     "id": "peter-rhee",
     "name": "Peter Rhee",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "peter-rowan",
-    "name": "Peter Rowan",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,

@@ -143,7 +143,7 @@ a_faithful_pca_2022-03-14,southwest florida,southwest-florida,current_exact,3,3,
 a_faithful_pca_2022-03-14,suncoast florida,suncoast-florida,current_exact,3,3,0,0.00,0,0.00
 a_faithful_pca_2022-03-14,susquehanna valley,susquehanna-valley,current_exact,5,5,2,40.00,2,100.00
 a_faithful_pca_2022-03-14,tennessee valley,tennessee-valley,current_exact,20,20,2,10.00,2,100.00
-a_faithful_pca_2022-03-14,tidewater,tidewater,current_exact,4,4,1,25.00,1,100.00
+a_faithful_pca_2022-03-14,tidewater,tidewater,current_exact,4,4,2,50.00,2,100.00
 a_faithful_pca_2022-03-14,west hudson,west-hudson,current_exact,2,2,0,0.00,0,0.00
 a_faithful_pca_2022-03-14,westminster,westminster,current_exact,3,3,1,33.33,1,100.00
 a_faithful_pca_2022-03-14,wisconsin,wisconsin,current_exact,5,5,2,40.00,2,100.00
@@ -316,16 +316,16 @@ nae_withdrawal_protest_2022,southwest florida,southwest-florida,current_exact,2,
 nae_withdrawal_protest_2022,suncoast,suncoast-florida,known_alias,1,1,0,0.00,0,0.00
 nae_withdrawal_protest_2022,susquehanna,susquehanna-valley,known_alias,1,1,1,100.00,1,100.00
 nae_withdrawal_protest_2022,tennessee valley,tennessee-valley,current_exact,3,3,2,66.67,2,100.00
-nae_withdrawal_protest_2022,tidewater,tidewater,current_exact,1,1,0,0.00,0,0.00
+nae_withdrawal_protest_2022,tidewater,tidewater,current_exact,1,1,1,100.00,1,100.00
 nae_withdrawal_protest_2022,warrior,warrior,current_exact,1,1,0,0.00,0,0.00
 nae_withdrawal_protest_2022,wisconsin,wisconsin,current_exact,3,3,1,33.33,1,100.00
 national_partnership_confirmed_members,ascension,ascension,current_exact,1,1,0,0.00,0,0.00
 national_partnership_confirmed_members,blue ridge,blue-ridge,current_exact,2,2,0,0.00,0,0.00
-national_partnership_confirmed_members,build that wall,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
+national_partnership_confirmed_members,build that wall,,unresolved_historical_or_noncanonical,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,central florida,central-florida,current_exact,4,4,2,50.00,2,100.00
 national_partnership_confirmed_members,central indiana,central-indiana,current_exact,2,2,1,50.00,1,100.00
 national_partnership_confirmed_members,chesapeake,chesapeake,current_exact,3,3,3,100.00,3,100.00
-national_partnership_confirmed_members,chicago metro,chicago-metro,current_exact,10,10,4,40.00,4,100.00
+national_partnership_confirmed_members,chicago metro,chicago-metro,current_exact,10,10,5,50.00,5,100.00
 national_partnership_confirmed_members,columbus metro,,unresolved_historical_or_noncanonical,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,eastern canada,eastern-canada,current_exact,4,4,2,50.00,2,100.00
 national_partnership_confirmed_members,eastern carolina,eastern-carolina,current_exact,3,3,1,33.33,1,100.00
@@ -337,14 +337,14 @@ national_partnership_confirmed_members,heritage,heritage,current_exact,3,3,1,33.
 national_partnership_confirmed_members,hills and plains,hills-and-plains,current_exact,1,1,0,0.00,0,0.00
 national_partnership_confirmed_members,houston metro,houston-metro,current_exact,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,iowa,iowa,current_exact,2,2,1,50.00,1,100.00
-national_partnership_confirmed_members,james river,james-river,current_exact,3,3,0,0.00,0,0.00
+national_partnership_confirmed_members,james river,james-river,current_exact,3,3,1,33.33,1,100.00
 national_partnership_confirmed_members,korean capital,korean-capital,current_exact,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,metro atlanta,metro-atlanta,current_exact,5,5,3,60.00,3,100.00
 national_partnership_confirmed_members,metro new york,metropolitan-new-york,known_alias,2,2,1,50.00,1,100.00
-national_partnership_confirmed_members,missouri,missouri,current_exact,3,3,1,33.33,1,100.00
+national_partnership_confirmed_members,missouri,missouri,current_exact,3,3,2,66.67,2,100.00
 national_partnership_confirmed_members,nashville,nashville,current_exact,4,4,3,75.00,3,100.00
 national_partnership_confirmed_members,new york state,new-york-state,current_exact,1,1,0,0.00,0,0.00
-national_partnership_confirmed_members,north texas,north-texas,current_exact,4,4,0,0.00,0,0.00
+national_partnership_confirmed_members,north texas,north-texas,current_exact,4,4,1,25.00,1,100.00
 national_partnership_confirmed_members,northern california,northern-california,current_exact,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,northern new england,northern-new-england,current_exact,2,2,0,0.00,0,0.00
 national_partnership_confirmed_members,ohio,ohio,current_exact,2,2,1,50.00,1,100.00
@@ -372,7 +372,7 @@ national_partnership_confirmed_members,southwest,,unresolved_historical_or_nonca
 national_partnership_confirmed_members,southwest florida,southwest-florida,current_exact,4,4,1,25.00,1,100.00
 national_partnership_confirmed_members,suncoast,suncoast-florida,known_alias,1,1,0,0.00,0,0.00
 national_partnership_confirmed_members,tennessee valley,tennessee-valley,current_exact,1,1,0,0.00,0,0.00
-national_partnership_confirmed_members,tidewater,tidewater,current_exact,2,2,1,50.00,1,100.00
+national_partnership_confirmed_members,tidewater,tidewater,current_exact,2,2,2,100.00,2,100.00
 national_partnership_confirmed_members,tvp,tennessee-valley,known_alias,1,1,0,0.00,0,0.00
 national_partnership_confirmed_members,western canada,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
 national_partnership_confirmed_members,westminster,westminster,current_exact,5,5,1,20.00,1,100.00
@@ -436,14 +436,14 @@ overture_15_negative_votes_2022,korean southwest orange county,korean-southwest-
 overture_15_negative_votes_2022,korean southwestern,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
 overture_15_negative_votes_2022,lowcountry,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
 overture_15_negative_votes_2022,metro atlanta,metro-atlanta,current_exact,6,6,4,66.67,4,100.00
-overture_15_negative_votes_2022,metropolitan new york,metropolitan-new-york,current_exact,11,11,3,27.27,3,100.00
+overture_15_negative_votes_2022,metropolitan new york,metropolitan-new-york,current_exact,11,11,5,45.45,5,100.00
 overture_15_negative_votes_2022,mississippi valley,mississippi-valley,current_exact,2,2,0,0.00,0,0.00
-overture_15_negative_votes_2022,missouri,missouri,current_exact,10,10,6,60.00,6,100.00
+overture_15_negative_votes_2022,missouri,missouri,current_exact,10,10,7,70.00,7,100.00
 overture_15_negative_votes_2022,nashville,nashville,current_exact,19,19,12,63.16,12,100.00
 overture_15_negative_votes_2022,new york state,new-york-state,current_exact,1,1,0,0.00,0,0.00
 overture_15_negative_votes_2022,north florida,north-florida,current_exact,1,1,1,100.00,1,100.00
 overture_15_negative_votes_2022,north texas,north-texas,current_exact,6,6,5,83.33,5,100.00
-overture_15_negative_votes_2022,northern california,northern-california,current_exact,8,8,3,37.50,3,100.00
+overture_15_negative_votes_2022,northern california,northern-california,current_exact,8,8,4,50.00,4,100.00
 overture_15_negative_votes_2022,northern illinois,northern-illinois,current_exact,2,2,2,100.00,2,100.00
 overture_15_negative_votes_2022,ohio valley,ohio-valley,current_exact,5,5,2,40.00,2,100.00
 overture_15_negative_votes_2022,pacific,pacific,current_exact,1,1,0,0.00,0,0.00
@@ -464,7 +464,7 @@ overture_15_negative_votes_2022,southern new england,southern-new-england,curren
 overture_15_negative_votes_2022,suncoast florida,suncoast-florida,current_exact,1,1,0,0.00,0,0.00
 overture_15_negative_votes_2022,susquehanna valley,susquehanna-valley,current_exact,3,3,2,66.67,2,100.00
 overture_15_negative_votes_2022,tennessee valley,tennessee-valley,current_exact,3,3,3,100.00,3,100.00
-overture_15_negative_votes_2022,tidewater,tidewater,current_exact,1,1,0,0.00,0,0.00
+overture_15_negative_votes_2022,tidewater,tidewater,current_exact,1,1,1,100.00,1,100.00
 overture_15_negative_votes_2022,westminster,westminster,current_exact,1,1,1,100.00,1,100.00
 overture_15_negative_votes_2022,wisconsin,wisconsin,current_exact,4,4,2,50.00,2,100.00
 overture_37_minority_2021,blue ridge,blue-ridge,current_exact,1,1,0,0.00,0,0.00
@@ -489,7 +489,7 @@ overture_37_minority_2021,pittsburgh,pittsburgh,current_exact,2,2,0,0.00,0,0.00
 overture_37_minority_2021,rio grande,rio-grande,current_exact,1,1,0,0.00,0,0.00
 overture_37_minority_2021,susquehanna,susquehanna-valley,known_alias,1,1,1,100.00,1,100.00
 overture_37_minority_2021,tennessee valley,tennessee-valley,current_exact,1,1,1,100.00,1,100.00
-overture_37_minority_2021,tidewater,tidewater,current_exact,1,1,0,0.00,0,0.00
+overture_37_minority_2021,tidewater,tidewater,current_exact,1,1,1,100.00,1,100.00
 overture_37_minority_2021,wisconsin,wisconsin,current_exact,1,1,0,0.00,0,0.00
 overture_37_negative_votes_2021,arizona,arizona,current_exact,2,2,1,50.00,1,100.00
 overture_37_negative_votes_2021,calvary,calvary,current_exact,1,1,0,0.00,0,0.00
@@ -539,7 +539,7 @@ overture_37_negative_votes_2021,southern louisiana,southern-louisiana,current_ex
 overture_37_negative_votes_2021,southern new england,southern-new-england,current_exact,1,1,0,0.00,0,0.00
 overture_37_negative_votes_2021,susquehanna valley,susquehanna-valley,current_exact,4,4,2,50.00,2,100.00
 overture_37_negative_votes_2021,tennessee valley,tennessee-valley,current_exact,6,6,4,66.67,4,100.00
-overture_37_negative_votes_2021,tidewater,tidewater,current_exact,3,3,1,33.33,1,100.00
+overture_37_negative_votes_2021,tidewater,tidewater,current_exact,3,3,2,66.67,2,100.00
 overture_37_negative_votes_2021,west hudson,west-hudson,current_exact,2,2,0,0.00,0,0.00
 overture_37_negative_votes_2021,westminster,westminster,current_exact,1,1,0,0.00,0,0.00
 overture_37_negative_votes_2021,wisconsin,wisconsin,current_exact,4,4,2,50.00,2,100.00
@@ -584,7 +584,7 @@ warhurst_protest_2019,gulfstream,gulfstream,current_exact,1,1,0,0.00,0,0.00
 warhurst_protest_2019,hills and plains,hills-and-plains,current_exact,11,11,9,81.82,9,100.00
 warhurst_protest_2019,houston metro,houston-metro,current_exact,4,4,3,75.00,3,100.00
 warhurst_protest_2019,illiana,illiana,current_exact,1,1,0,0.00,0,0.00
-warhurst_protest_2019,james river,james-river,current_exact,3,3,0,0.00,0,0.00
+warhurst_protest_2019,james river,james-river,current_exact,3,3,1,33.33,1,100.00
 warhurst_protest_2019,korean capital,korean-capital,current_exact,2,2,2,100.00,2,100.00
 warhurst_protest_2019,korean capitol,korean-capital,known_alias,1,1,0,0.00,0,0.00
 warhurst_protest_2019,korean eastern,korean-eastern,current_exact,1,1,1,100.00,1,100.00
@@ -684,7 +684,7 @@ women_study_committee_procedural_registration_2016,wisconsin,wisconsin,current_e
 ALL_TRACKED_DATASETS,arizona,arizona,current_exact,30,16,2,12.50,2,100.00
 ALL_TRACKED_DATASETS,ascension,ascension,current_exact,6,5,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,blue ridge,blue-ridge,current_exact,22,17,2,11.76,2,100.00
-ALL_TRACKED_DATASETS,build that wall,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
+ALL_TRACKED_DATASETS,build that wall,,unresolved_historical_or_noncanonical,1,1,1,100.00,1,100.00
 ALL_TRACKED_DATASETS,calvary,calvary,current_exact,39,31,3,9.68,3,100.00
 ALL_TRACKED_DATASETS,canada west,canada-west,current_exact,3,3,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,catawba valley,catawba-valley,current_exact,7,5,1,20.00,1,100.00
@@ -693,7 +693,7 @@ ALL_TRACKED_DATASETS,central florida,central-florida,current_exact,50,27,6,22.22
 ALL_TRACKED_DATASETS,central georgia,central-georgia,current_exact,35,20,2,10.00,2,100.00
 ALL_TRACKED_DATASETS,central indiana,central-indiana,current_exact,30,17,5,29.41,5,100.00
 ALL_TRACKED_DATASETS,chesapeake,chesapeake,current_exact,108,62,7,11.29,7,100.00
-ALL_TRACKED_DATASETS,chicago metro,chicago-metro,current_exact,59,30,8,26.67,8,100.00
+ALL_TRACKED_DATASETS,chicago metro,chicago-metro,current_exact,59,30,9,30.00,9,100.00
 ALL_TRACKED_DATASETS,columbus metro,,unresolved_historical_or_noncanonical,18,8,4,50.00,4,100.00
 ALL_TRACKED_DATASETS,covenant,covenant,current_exact,32,21,5,23.81,5,100.00
 ALL_TRACKED_DATASETS,eastern canada,eastern-canada,current_exact,21,11,5,45.45,5,100.00
@@ -716,7 +716,7 @@ ALL_TRACKED_DATASETS,houston metro,houston-metro,current_exact,35,22,4,18.18,4,1
 ALL_TRACKED_DATASETS,iliana,illiana,known_alias,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,illiana,illiana,current_exact,4,3,1,33.33,1,100.00
 ALL_TRACKED_DATASETS,iowa,iowa,current_exact,18,12,2,16.67,2,100.00
-ALL_TRACKED_DATASETS,james river,james-river,current_exact,36,23,2,8.70,2,100.00
+ALL_TRACKED_DATASETS,james river,james-river,current_exact,36,23,3,13.04,3,100.00
 ALL_TRACKED_DATASETS,korean capital,korean-capital,current_exact,48,16,9,56.25,9,100.00
 ALL_TRACKED_DATASETS,korean capitol,korean-capital,known_alias,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,korean central,korean-central,current_exact,3,2,0,0.00,0,0.00
@@ -734,18 +734,18 @@ ALL_TRACKED_DATASETS,maryland,,unresolved_historical_or_noncanonical,1,1,0,0.00,
 ALL_TRACKED_DATASETS,metro atlanta,metro-atlanta,current_exact,96,55,19,34.55,19,100.00
 ALL_TRACKED_DATASETS,metro new york,metropolitan-new-york,known_alias,11,10,1,10.00,1,100.00
 ALL_TRACKED_DATASETS,metro ny,,unresolved_historical_or_noncanonical,36,19,19,100.00,18,94.74
-ALL_TRACKED_DATASETS,metropolitan new york,metropolitan-new-york,current_exact,32,20,4,20.00,4,100.00
+ALL_TRACKED_DATASETS,metropolitan new york,metropolitan-new-york,current_exact,32,20,6,30.00,6,100.00
 ALL_TRACKED_DATASETS,mississippi valley,mississippi-valley,current_exact,23,22,1,4.55,1,100.00
-ALL_TRACKED_DATASETS,missouri,missouri,current_exact,155,79,24,30.38,24,100.00
+ALL_TRACKED_DATASETS,missouri,missouri,current_exact,155,79,25,31.65,25,100.00
 ALL_TRACKED_DATASETS,n new england,,unresolved_historical_or_noncanonical,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,nashville,nashville,current_exact,118,63,14,22.22,14,100.00
 ALL_TRACKED_DATASETS,new jersey,new-jersey,current_exact,6,4,1,25.00,1,100.00
 ALL_TRACKED_DATASETS,new york metro,metropolitan-new-york,known_alias,4,4,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,new york state,new-york-state,current_exact,20,13,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,north florida,north-florida,current_exact,19,12,1,8.33,1,100.00
-ALL_TRACKED_DATASETS,north texas,north-texas,current_exact,59,36,9,25.00,9,100.00
+ALL_TRACKED_DATASETS,north texas,north-texas,current_exact,59,36,10,27.78,10,100.00
 ALL_TRACKED_DATASETS,north west georgia,,unresolved_historical_or_noncanonical,2,2,0,0.00,0,0.00
-ALL_TRACKED_DATASETS,northern california,northern-california,current_exact,62,35,10,28.57,10,100.00
+ALL_TRACKED_DATASETS,northern california,northern-california,current_exact,62,35,11,31.43,11,100.00
 ALL_TRACKED_DATASETS,northern illinois,northern-illinois,current_exact,15,8,2,25.00,2,100.00
 ALL_TRACKED_DATASETS,northern new england,northern-new-england,current_exact,14,8,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,northwest georgia,northwest-georgia,current_exact,8,6,2,33.33,2,100.00
@@ -793,7 +793,7 @@ ALL_TRACKED_DATASETS,susquehanna,susquehanna-valley,known_alias,2,1,1,100.00,1,1
 ALL_TRACKED_DATASETS,susquehanna valley,susquehanna-valley,current_exact,20,12,3,25.00,3,100.00
 ALL_TRACKED_DATASETS,sw florida,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,tennessee valley,tennessee-valley,current_exact,66,38,7,18.42,7,100.00
-ALL_TRACKED_DATASETS,tidewater,tidewater,current_exact,19,9,2,22.22,2,100.00
+ALL_TRACKED_DATASETS,tidewater,tidewater,current_exact,19,9,3,33.33,3,100.00
 ALL_TRACKED_DATASETS,tvp,tennessee-valley,known_alias,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,warrior,warrior,current_exact,7,6,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,west hudson,west-hudson,current_exact,4,4,0,0.00,0,0.00

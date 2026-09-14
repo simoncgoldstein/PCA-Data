@@ -233,7 +233,7 @@
       "name_variants_as_printed": [
         "Ben Lyon"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "ben-lyon",
       "first_evidence_date": "2014-02-18",
       "evidence_count": 9,
       "evidence": [
@@ -2975,7 +2975,7 @@
       "name_variants_as_printed": [
         "Jeremy Fair"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "jeremy-fair",
       "first_evidence_date": null,
       "evidence_count": 1,
       "evidence": [
@@ -3574,7 +3574,7 @@
       "name_variants_as_printed": [
         "Justin Edgar"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "justin-edgar",
       "first_evidence_date": null,
       "evidence_count": 1,
       "evidence": [
@@ -3892,7 +3892,7 @@
       "name_variants_as_printed": [
         "Luke Evans"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "luke-evans",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 1,
       "evidence": [
@@ -4270,7 +4270,7 @@
       "name_variants_as_printed": [
         "Nate Conrad"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "nate-conrad",
       "first_evidence_date": "2013-05-29",
       "evidence_count": 3,
       "evidence": [
@@ -4406,7 +4406,7 @@
       "name_variants_as_printed": [
         "Omar Ortiz"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "omar-ortiz",
       "first_evidence_date": null,
       "evidence_count": 2,
       "evidence": [
@@ -4512,7 +4512,7 @@
       "name_variants_as_printed": [
         "Peter Rowan"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "peter-rowan",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 2,
       "evidence": [
@@ -4810,7 +4810,7 @@
       "name_variants_as_printed": [
         "Rob Wootton"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "rob-wootton",
       "first_evidence_date": null,
       "evidence_count": 1,
       "evidence": [
@@ -5340,7 +5340,7 @@
       "name_variants_as_printed": [
         "Tim LeCroy"
       ],
-      "normalized_person_id": null,
+      "normalized_person_id": "tim-lecroy",
       "first_evidence_date": "2014-06-02",
       "evidence_count": 10,
       "evidence": [
