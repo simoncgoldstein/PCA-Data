@@ -29,9 +29,11 @@ Recent exact app-facing pins include:
 
 David Cassidy is not in the current canonical NP membership dataset. His AMR/McGowan/Garris connections are not a substitute for NP evidence.
 
+The continuity-analysis identity pass has also reviewed David Lindberg and David Richmon as canonical NP people where later source families independently establish the same ministers. Lindberg's 2018 Metro Atlanta and 2024 North Texas contexts remain dated separately; Richmon's Pacific Northwest continuity is tied through Green Lake / Trinity Seattle.
+
 ## Garris letters, 2024
 
-Status: **complete printed rosters normalized; Letter 2 fully canonical; Letter 1 partially canonical and queued for reviewed identity batches**.
+Status: **complete printed rosters normalized; Letter 2 fully canonical; Letter 1 partially canonical and queued only for high-value reviewed identity work**.
 
 Primary machine-facing sources:
 
@@ -44,7 +46,7 @@ Normalized complete rosters:
 
 Current coverage:
 
-- Letter 1: **60** printed signers; **23** canonical/app-projected;
+- Letter 1: **60** printed signers; **25** canonical/app-projected;
 - Letter 2: **21** printed signers; **21/21** canonical/app-projected;
 - confirmed signatures are `public_coalition_action`, weight **3**, and score-included under the ordinary public-letter/protest methodology.
 
@@ -52,7 +54,11 @@ Letter 2 identity provenance:
 
 `sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json`
 
-That receipt preserves targeted independent church/ministry/official corroboration for 19 Letter 2 rows. Seven identities that remained blocked by generic collision/context safeguards were applied as person-specific reviewed canonical seeds; the global identity threshold was not weakened.
+The targeted NP-continuity identity receipt is:
+
+`sources/raw/identity/np-garris-continuity-identity-evidence-batch1-2026-09-14.json`
+
+That second receipt closes the exact-name NP ↔ Garris Letter 1 queue for David Lindberg and David Richmon without weakening global identity rules.
 
 Critical same-name boundary:
 
@@ -65,7 +71,7 @@ A signature establishes participation in that specific letter and its request fo
 
 Reproducibility path:
 
-`build-person-crosswalk.py -> project-garris-signers.py -> build-overlap-analysis.py`
+`build-person-crosswalk.py -> project-garris-signers.py -> build-overlap-analysis.py -> build-national-partnership-continuity-analysis.py`
 
 Repository-wide CI reruns that path and requires a clean diff. The Garris projector reconciles removals as well as additions so a withdrawn identity cannot leave a stale score-bearing app edge. `scripts/validate-garris-letter-signers.py` separately protects roster completeness, weight/scoring semantics, app linkage, Letter 2 completeness, and the Jeff White boundary.
 
