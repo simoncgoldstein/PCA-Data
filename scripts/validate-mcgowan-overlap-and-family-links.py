@@ -79,14 +79,16 @@ for person_id, aff_id in expected_mgi_edges.items():
     if aff.get("source_ids") != ["src-mcgowan-global-team-2026"]:
         raise SystemExit(f"{aff_id}: source linkage drift")
 
-# Four independently evidenced NP memberships are app-visible and score-bearing.
+# Four people have independently confirmed NP status. Preserve the richer
+# action-specific semantics of Khandjian's pre-existing participant/recruiter
+# edge rather than flattening it merely because the archive also calls him a member.
 expected_np_edges = {
-    "bruce-o-neil": "aff-oneil-np",
-    "mike-khandjian": "aff-khandjian-np",
-    "ray-cortese": "aff-cortese-np",
-    "bob-flayhart": "aff-flayhart-np",
+    "bruce-o-neil": ("aff-oneil-np", "network_membership"),
+    "mike-khandjian": ("aff-khandjian-np", "network_participation"),
+    "ray-cortese": ("aff-cortese-np", "network_membership"),
+    "bob-flayhart": ("aff-flayhart-np", "network_membership"),
 }
-for person_id, aff_id in expected_np_edges.items():
+for person_id, (aff_id, evidence_kind) in expected_np_edges.items():
     aff = aff_by_id.get(aff_id)
     if not aff:
         raise SystemExit(f"{aff_id}: missing")
@@ -94,10 +96,16 @@ for person_id, aff_id in expected_np_edges.items():
         raise SystemExit(f"{aff_id}: NP target/person drift")
     if aff.get("confidence") != "confirmed":
         raise SystemExit(f"{aff_id}: NP evidence should remain confirmed")
-    if aff.get("evidence_kind") != "network_membership":
+    if aff.get("evidence_kind") != evidence_kind:
         raise SystemExit(f"{aff_id}: NP evidence-kind drift")
     if aff.get("weight") != 4 or aff.get("score_included") is not True:
         raise SystemExit(f"{aff_id}: NP scoring drift")
+
+khandjian_np = aff_by_id["aff-khandjian-np"]
+if "recruit" not in khandjian_np.get("role", "").lower():
+    raise SystemExit("Khandjian NP participant/recruiter role drift")
+if "independent" not in khandjian_np.get("notes", "").lower():
+    raise SystemExit("Khandjian NP/Fellowship distinction missing")
 
 # David Cassidy's separate AMR/MGI history must not silently become NP membership.
 cassidy_np = [
