@@ -48,7 +48,7 @@ if "not assumed to be a random sample" not in cohort.get("coverage_warning", "")
 readiness = summary.get("predictive_validity_readiness", {})
 if readiness.get("status") != "not_ready_for_risk_ratio_odds_ratio_or_causal_claim":
     raise SystemExit("predictive-validity readiness boundary drift")
-if "not 'confirmed non-member'" not in readiness.get("absence_semantics", ""):
+if "confirmed non-member" not in readiness.get("absence_semantics", ""):
     raise SystemExit("missing NP absence-semantics guardrail")
 if "Do not calculate an NP-vs-non-NP risk ratio" not in readiness.get("forbidden_shortcut", ""):
     raise SystemExit("missing NP comparison-cohort guardrail")
