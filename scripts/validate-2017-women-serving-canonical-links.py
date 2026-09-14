@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate canonical person links for the 2017 Women Serving study committee."""
+"""Validate canonical person links and app projection for the 2017 Women Serving study committee."""
 
 from __future__ import annotations
 
@@ -12,10 +12,16 @@ root = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
 report_path = root / "sources/normalized/general-assembly/2017-women-serving-ministry-report.json"
 edges_path = root / "sources/normalized/general-assembly/2017-women-serving-ministry-person-edges.json"
 people_path = root / "data/people.json"
+events_path = root / "data/events.json"
+affiliations_path = root / "data/affiliations.json"
+sources_path = root / "data/sources.json"
 
 report = json.loads(report_path.read_text(encoding="utf-8"))
 edges_data = json.loads(edges_path.read_text(encoding="utf-8"))
 people = json.loads(people_path.read_text(encoding="utf-8"))
+events = json.loads(events_path.read_text(encoding="utf-8"))
+affiliations = json.loads(affiliations_path.read_text(encoding="utf-8"))
+sources = json.loads(sources_path.read_text(encoding="utf-8"))
 people_by_id = {row["id"]: row for row in people}
 
 expected_roster = [
@@ -122,8 +128,77 @@ for name, person_id in required_resolved.items():
     if resolved.get(name) != person_id:
         raise SystemExit(f"2017 women committee edges: required canonical link missing: {name} -> {person_id}")
 
+# App-facing projection. Only canonical identities are projected into data/affiliations.json.
+app_event_id = "evt-women-serving-study-committee-2017"
+app_source_id = "src-ga45-women-serving-2017"
+
+matching_events = [row for row in events if row.get("id") == app_event_id]
+if len(matching_events) != 1:
+    raise SystemExit(f"2017 women app projection: expected one event {app_event_id}, found {len(matching_events)}")
+app_event = matching_events[0]
+if app_event.get("event_type") != "study_committee" or app_event.get("year") != 2017:
+    raise SystemExit("2017 women app projection: event type/year drift")
+if app_event.get("source_ids") != [app_source_id]:
+    raise SystemExit("2017 women app projection: event source linkage drift")
+event_notes = app_event.get("notes", "")
+for required_phrase in ("does not establish agreement", "individual positions require separate evidence"):
+    if required_phrase not in event_notes:
+        raise SystemExit(f"2017 women app projection: missing event guardrail phrase: {required_phrase}")
+
+matching_sources = [row for row in sources if row.get("id") == app_source_id]
+if len(matching_sources) != 1:
+    raise SystemExit(f"2017 women app projection: expected one source {app_source_id}, found {len(matching_sources)}")
+app_source = matching_sources[0]
+if app_source.get("url") != report.get("metadata", {}).get("primary_source"):
+    raise SystemExit("2017 women app projection: source URL must match normalized report primary source")
+if app_source.get("source_type") != "primary_denominational_study_report":
+    raise SystemExit("2017 women app projection: source type drift")
+
+expected_app_edges = {
+    row["normalized_person_id"]: row
+    for row in edges
+    if row.get("normalized_person_id") is not None
+}
+app_edges = [
+    row for row in affiliations
+    if row.get("target_type") == "event" and row.get("target_id") == app_event_id
+]
+if len(app_edges) != len(expected_app_edges):
+    raise SystemExit(
+        "2017 women app projection: every resolved normalized committee identity must have exactly one app edge; "
+        f"expected {len(expected_app_edges)}, found {len(app_edges)}"
+    )
+if len({row.get("person_id") for row in app_edges}) != len(app_edges):
+    raise SystemExit("2017 women app projection: duplicate person edge")
+
+actual_app_ids = {row.get("person_id") for row in app_edges}
+if actual_app_ids != set(expected_app_edges):
+    raise SystemExit(
+        "2017 women app projection: person ids must equal the resolved normalized identity set: "
+        f"expected {sorted(expected_app_edges)}, found {sorted(actual_app_ids)}"
+    )
+
+for app_edge in app_edges:
+    person_id = app_edge["person_id"]
+    normalized_edge = expected_app_edges[person_id]
+    if app_edge.get("role") != normalized_edge.get("role"):
+        raise SystemExit(f"{person_id}: app role must match normalized committee role")
+    if app_edge.get("confidence") != "confirmed":
+        raise SystemExit(f"{person_id}: app committee service confidence drift")
+    if app_edge.get("evidence_kind") != "study_committee_service":
+        raise SystemExit(f"{person_id}: app evidence kind drift")
+    if app_edge.get("weight") != 0 or app_edge.get("score_included") is not False:
+        raise SystemExit(f"{person_id}: app committee service must remain unscored")
+    if app_edge.get("source_ids") != [app_source_id]:
+        raise SystemExit(f"{person_id}: app source linkage drift")
+    notes = app_edge.get("notes", "")
+    for required_phrase in ("Committee service only", "does not assign"):
+        if required_phrase not in notes:
+            raise SystemExit(f"{person_id}: missing app edge guardrail phrase: {required_phrase}")
+
 print(
     "2017 women-serving canonical links OK: "
     f"{len(edges)} committee rows, {len(resolved)} resolved canonical identities, "
-    f"{len(edges) - len(resolved)} explicitly unresolved identities"
+    f"{len(edges) - len(resolved)} explicitly unresolved identities, "
+    f"{len(app_edges)} app-facing canonical edges"
 )
