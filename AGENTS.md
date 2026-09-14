@@ -46,6 +46,18 @@ Important locations:
 - `research/` — methodology, current state, source register, gap tracking, and research notes.
 - `scripts/` — import, normalization, crosswalk, analysis, and validation code.
 
+## Garris letters guardrail
+
+The two 2024 public letters concerning TE Zachary Garris are modeled as **separate formal public actions** from their primary PDFs.
+
+- `sources/normalized/public-statements/garris-letters-2024.json` preserves the complete printed rosters: 60 signers for Letter 1 and 21 for Letter 2.
+- A confirmed signature is `public_coalition_action`, weight `3`, and score-included under the existing public-letter/protest methodology.
+- Weight 3 means documented involvement in a tracked formal action. It is not itself a judgment of orthodoxy, Christian character, or every theological position of the signer.
+- Signing establishes participation in that specific letter and its request for presbytery investigation. It does **not by itself** establish National Partnership membership, AMR membership, agreement on unrelated controversies, or a generic ideological label such as `big tent`.
+- Letter 2 is fully canonically resolved. Letter 1 remains partially resolved; do not force common-name or weak-context matches for completeness.
+- The two printed `Jeff White` rows are not one identity by default. Letter 1 prints New City Fellowship / Rio Grande and remains unresolved; Letter 2 prints Redeemer Downtown / Metro NY and is reviewed as `jeff-white-redeemer-downtown`.
+- `scripts/project-garris-signers.py` is part of generated-output reconstruction and must run after the person crosswalk and before overlap analysis.
+
 ## 2017 Women Serving committee guardrail
 
 The 2017 Ad Interim Committee on Women Serving in the Ministry of the Church is modeled as committee service, not as a blanket individual theological position.
