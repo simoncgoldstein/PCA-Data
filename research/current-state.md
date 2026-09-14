@@ -6,7 +6,7 @@ This file is the dated handoff for a fresh research or coding agent. Read it aft
 
 ## Repository state
 
-The current data state includes two reviewed canonical-seeding batches for the 2017 Women Serving committee. Eight of the twelve committee identities are now canonical and projected to the app-facing committee event.
+The current data state includes three reviewed canonical-seeding batches for the 2017 Women Serving committee. Ten of the twelve committee identities are now canonical and projected to the app-facing committee event.
 
 The repository is no longer a v0.1 scaffold. It now contains a substantial evidence archive, normalized research datasets, canonical app-facing data, identity-resolution machinery, generated overlap analysis, and focused CI validators.
 
@@ -31,47 +31,53 @@ The 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church
 Current identity status:
 
 - `leon-brown` — canonically resolved from reviewed identity evidence and projected to the app graph.
+- `jeffrey-choi` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `dan-doriani` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `ligon-duncan` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `irwyn-ince` — canonically resolved and projected to the app graph.
+- `kathy-keller` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `mary-beth-mcgreevy` — canonically resolved from reviewed identity evidence and projected to the app graph; her separately modeled first-person evidence also links to this canonical person.
 - `bruce-o-neil` — canonically resolved and projected to the app graph.
 - `harry-reeder` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `roy-taylor` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- William Castro, Jeffrey Choi, Lani Jones, and Kathy Keller remain unresolved in this dataset unless a later commit changes their normalized IDs.
+- William Castro and Lani Jones remain unresolved in this dataset unless a later commit changes their normalized IDs.
 
 Applied identity receipts:
 
 - `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json` — Dan Doriani, Ligon Duncan, Roy Taylor.
 - `sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json` — Leon Brown, Mary Beth McGreevy, Harry Reeder.
+- `sources/raw/identity/2017-women-serving-identity-evidence-batch3-2026-09-14.json` — Jeffrey Choi, Kathy Keller.
 
-Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member. Mary Beth McGreevy's first-person position evidence remains separately modeled and zero-weight.
+Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member. Mary Beth McGreevy's first-person evidence remains separately modeled and zero-weight.
+
+Known person-specific source candidates not yet normalized in this committee dataset:
+
+- Jeffrey Choi's June 2017 first-person article explaining his dissent from part of the committee report, especially on Phoebe / the diaconate and 1 Timothy 3:11.
+- Kathy Keller's published women-in-ministry material, including `Jesus, Justice, and Gender Roles` and earlier Redeemer material. These sources should be handled as separately attributable position evidence rather than inferred from her committee service or relationship to Tim Keller.
 
 ## Immediate next slice
 
-Continue the 2017 Women Serving identity pass with the remaining four names: William Castro, Jeffrey Choi, Lani Jones, and Kathy Keller.
+Finish the 2017 Women Serving identity pass with William Castro and Lani Jones **only if** deterministic corroborating evidence can be established. Do not force either identity merely to reach 12/12.
 
-Resolve only identities that can be established deterministically from primary, first-party, or already-normalized corroborating evidence. Prefer another **2–3 person batch** if the evidence quality is uneven rather than forcing all four into one PR.
+If one or both remain genuinely ambiguous after a focused search, preserve them as unresolved and move to a compact person-specific position-evidence slice for Jeffrey Choi and Kathy Keller instead.
 
 For each identity resolved, update together:
 
 - the canonical person layer;
 - the normalized 2017 report and person-edge dataset;
-- any person-specific evidence already present in the normalized source;
 - the app-facing committee-service affiliation;
 - the focused validator;
 - any generated outputs made stale by the canonical change.
-
-Do not fill the remaining roster by name recognition alone. Leave genuinely unresolved identities explicit.
 
 ## Work after the 2017 identity pass
 
 Preferred order unless stronger evidence changes the priority:
 
-1. Complete Garris Letter 1 and 2 signer normalization and canonical linkage where still incomplete.
-2. Continue exact National Partnership person-level message/page pinning and distinguish membership, recruitment, promoted candidates, and adjacency.
-3. Continue General Assembly denominational-action coverage where source-register gaps remain.
-4. Expand Tier A career reconstruction only after the event/action layer and identity links are stable enough to make recurrence meaningful.
+1. Normalize high-value person-specific evidence already identified around the 2017 committee, beginning with Jeffrey Choi's explicit dissent and Kathy Keller's attributable published women-in-ministry positions.
+2. Complete Garris Letter 1 and 2 signer normalization and canonical linkage where still incomplete.
+3. Continue exact National Partnership person-level message/page pinning and distinguish membership, recruitment, promoted candidates, and adjacency.
+4. Continue General Assembly denominational-action coverage where source-register gaps remain.
+5. Expand Tier A career reconstruction only after the event/action layer and identity links are stable enough to make recurrence meaningful.
 
 Do not make broad ideological-position scoring the next project phase. Position claims should remain person-specific and source-attributed.
 
