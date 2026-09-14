@@ -1,0 +1,32 @@
+name: Regenerate NP post-archive outputs (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/regenerate-np-postarchive.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  regenerate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Rebuild generated identity and continuity outputs
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/build-overlap-analysis.py .
+          python3 scripts/build-national-partnership-continuity-analysis.py .
+      - name: Commit deterministic generated backfills
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add sources/normalized data/people.json analysis/overlap analysis/national-partnership
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit.'
+            exit 0
+          fi
+          git commit -m 'regenerate identity backfills after NP post-archive review'
+          git push
