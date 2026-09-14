@@ -90,7 +90,7 @@ if hansoo[0].get('presbytery_as_printed') != 'Korean Capitol':
 
 # Preserve reviewed source conflicts instead of harmonizing them away.
 tag_tuck = by_key.get('tag tuck')
-if not tag_tuck or 'conflict' not in (tag_tuck.get('boundary') or '').lower() and 'conflict' not in json.dumps(tag_tuck).lower():
+if not tag_tuck or ('conflict' not in (tag_tuck.get('boundary') or '').lower() and 'conflict' not in json.dumps(tag_tuck).lower()):
     raise SystemExit('Tag Tuck TE/RE source-conflict guardrail missing')
 ridenhour = by_key.get('david ridenhour')
 if not ridenhour or 'does not certify' not in (ridenhour.get('boundary') or '').lower():
@@ -119,6 +119,8 @@ for dataset, (minimum_overlap, expected_possible) in expectations.items():
         raise SystemExit(f'exact-name residual queue not closed for {dataset}')
 
 # Every canonical NP member must be represented exactly once in the app graph.
+# Generated edges have exact membership semantics, while richer pre-existing
+# curated NP edges (e.g. founder / recruiter / organizer roles) are preserved.
 affiliations = load('data/affiliations.json')
 canonical_np_ids = {row['normalized_person_id'] for row in np_rows if row.get('normalized_person_id')}
 app_np_edges: dict[str, list[dict]] = {}
@@ -129,10 +131,19 @@ missing = sorted(canonical_np_ids - set(app_np_edges))
 duplicates = sorted(pid for pid in canonical_np_ids if len(app_np_edges.get(pid, [])) != 1)
 if missing or duplicates:
     raise SystemExit(f'NP app projection mismatch: missing={missing}, duplicates={duplicates}')
+
+GENERATED_NOTE_PREFIX = 'Generated from the reviewed canonical National Partnership membership roster.'
 for pid in canonical_np_ids:
     edge = app_np_edges[pid][0]
-    if edge.get('confidence') != 'confirmed' or edge.get('weight') != 4 or edge.get('score_included') is not True:
-        raise SystemExit(f'NP app membership semantics drift: {pid}')
+    if edge.get('score_included') is not True:
+        raise SystemExit(f'NP app edge unexpectedly score-excluded: {pid}')
+    if edge.get('weight', 0) < 4:
+        raise SystemExit(f'NP app edge weight regressed below membership floor: {pid}')
+    if edge.get('confidence') not in {'confirmed', 'strongly_supported'}:
+        raise SystemExit(f'NP app edge confidence too weak: {pid}')
+    if (edge.get('notes') or '').startswith(GENERATED_NOTE_PREFIX):
+        if edge.get('confidence') != 'confirmed' or edge.get('weight') != 4 or edge.get('evidence_kind') != 'network_membership':
+            raise SystemExit(f'generated NP edge semantics drift: {pid}')
 
 # Pairwise CSV must agree with the continuity closure for the three reviewed targets.
 with (ROOT / 'analysis/overlap/pairwise-overlap.csv').open(newline='', encoding='utf-8') as handle:
