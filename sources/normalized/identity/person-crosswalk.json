@@ -2,7 +2,7 @@
   "metadata": {
     "generated_on": "2026-09-04",
     "record_count": 4415,
-    "canonical_person_count": 307,
+    "canonical_person_count": 317,
     "new_person_count": 270,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
@@ -1437,15 +1437,15 @@
       "location": "wexford pa",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "jon-price",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "jonathan price",
       "initials_only_name": false
     },
@@ -1543,13 +1543,15 @@
       "location": null,
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "rob-wootton",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false
     },
@@ -2169,13 +2171,15 @@
       "location": "burlington county nj",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-lindberg",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false
     },
@@ -8968,13 +8972,15 @@
       "location": "tucson az",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "charles-garland",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -11055,13 +11061,15 @@
       "location": "owasso ok",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "blake-altman",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -12528,13 +12536,15 @@
       "location": "bryn mawr pa",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-goneau",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -22858,15 +22868,15 @@
       "location": "wexford pa",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "jon-price",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "jonathan price",
       "initials_only_name": false
     },
@@ -22957,13 +22967,15 @@
       "location": null,
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "rob-wootton",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false
     },
@@ -23531,13 +23543,15 @@
       "location": "burlington county nj",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-lindberg",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false
     },
@@ -29716,13 +29730,15 @@
       "location": "tucson az",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "charles-garland",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -31472,13 +31488,15 @@
       "location": "owasso ok",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "blake-altman",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -32764,13 +32782,15 @@
       "location": "bryn mawr pa",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-goneau",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -41537,13 +41557,15 @@
       "location": "oak park il",
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "jeff-schneider",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -59635,11 +59657,11 @@
       "rejected_existing_id": null,
       "canonical_person_id": null,
       "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
+      "match_method": "exact_name_without_row_level_disambiguator",
       "supporting_fields": [],
       "conflicting_fields": [],
       "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -88789,15 +88811,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "sean-roberts",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "sean roberts",
       "initials_only_name": false
     },
@@ -88920,15 +88942,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "collision",
-      "match_method": "conflicting_office_types",
+      "canonical_person_id": "tag-tuck",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
       "supporting_fields": [],
       "conflicting_fields": [
         "both Teaching Elder and Ruling Elder appear for the same normalized name"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "Office conflict prevents automatic identity resolution.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity retained without group propagation.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -89075,13 +89097,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "todd-gwennap",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -89827,13 +89851,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "charles-garland",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -90015,15 +90041,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "dan-herron",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "daniel herron",
       "initials_only_name": false
     },
@@ -90232,13 +90258,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-goneau",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -90424,13 +90452,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-ridenhour",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -91527,13 +91557,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "jeff-schneider",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -91843,15 +91875,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "jon-price",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "jonathan price",
       "initials_only_name": false
     },
@@ -92385,13 +92417,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "blake-altman",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -100740,15 +100774,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "sean-roberts",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "sean roberts",
       "initials_only_name": false
     },
@@ -103473,15 +103507,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "sean-roberts",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "sean roberts",
       "initials_only_name": false
     },
@@ -105077,13 +105111,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "rob-wootton",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false
     },
@@ -132333,13 +132369,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "omar-ortiz",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -132364,13 +132402,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "todd-gwennap",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -133819,15 +133859,15 @@
       "location": null,
       "office": "ruling_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "collision",
-      "match_method": "conflicting_office_types",
+      "canonical_person_id": "tag-tuck",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
       "supporting_fields": [],
       "conflicting_fields": [
         "both Teaching Elder and Ruling Elder appear for the same normalized name"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "Office conflict prevents automatic identity resolution.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity retained without group propagation.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -135054,13 +135094,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-ridenhour",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -136917,15 +136959,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "sean-roberts",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "sean roberts",
       "initials_only_name": false
     },
@@ -137863,15 +137905,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "dan-herron",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "daniel herron",
       "initials_only_name": false
     },

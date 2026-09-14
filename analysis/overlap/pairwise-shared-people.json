@@ -160,6 +160,16 @@
           ]
         },
         {
+          "canonical_person_id": "blake-altman",
+          "name": "Blake Altman",
+          "dataset_a_locators": [
+            "signature:370"
+          ],
+          "dataset_b_locators": [
+            "signature:382"
+          ]
+        },
+        {
           "canonical_person_id": "bob-cargo",
           "name": "Bob Cargo",
           "dataset_a_locators": [
@@ -267,6 +277,16 @@
           ],
           "dataset_b_locators": [
             "signature:399"
+          ]
+        },
+        {
+          "canonical_person_id": "charles-garland",
+          "name": "Charles Garland",
+          "dataset_a_locators": [
+            "signature:319"
+          ],
+          "dataset_b_locators": [
+            "signature:335"
           ]
         },
         {
@@ -407,6 +427,26 @@
           ],
           "dataset_b_locators": [
             "signature:467"
+          ]
+        },
+        {
+          "canonical_person_id": "david-goneau",
+          "name": "David Goneau",
+          "dataset_a_locators": [
+            "signature:406"
+          ],
+          "dataset_b_locators": [
+            "signature:416"
+          ]
+        },
+        {
+          "canonical_person_id": "david-lindberg",
+          "name": "David Lindberg",
+          "dataset_a_locators": [
+            "signature:151"
+          ],
+          "dataset_b_locators": [
+            "signature:170"
           ]
         },
         {
@@ -850,6 +890,16 @@
           ]
         },
         {
+          "canonical_person_id": "jon-price",
+          "name": "Jon Price",
+          "dataset_a_locators": [
+            "signature:133"
+          ],
+          "dataset_b_locators": [
+            "signature:152"
+          ]
+        },
+        {
           "canonical_person_id": "jonathan-dorst",
           "name": "Jonathan Dorst",
           "dataset_a_locators": [
@@ -1290,6 +1340,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:136"
+          ],
+          "dataset_b_locators": [
+            "signature:155"
+          ]
+        },
+        {
           "canonical_person_id": "robbie-schmidtberger",
           "name": "Robbie Schmidtberger",
           "dataset_a_locators": [
@@ -1598,7 +1658,6 @@
         "benjamin sinnard",
         "benjamin wheeler",
         "bernard hildebrand",
-        "blake altman",
         "bob burns",
         "bob crossland",
         "brad allison",
@@ -1622,7 +1681,6 @@
         "chan kilgore",
         "chaplain major jonathan entrekin",
         "charles e mcgowan",
-        "charles garland",
         "charles sigler",
         "chris d talley",
         "chris garrett",
@@ -1673,10 +1731,8 @@
         "david dillon",
         "david edling",
         "david fickett",
-        "david goneau",
         "david jackson",
         "david lee",
-        "david lindberg",
         "david m pelletier",
         "david nok daniel",
         "david peters",
@@ -1788,7 +1844,6 @@
         "john t fitch",
         "john thompson",
         "jon harvill",
-        "jon price",
         "jonathan davis",
         "jonathan eagin",
         "jonathan kerhoulas",
@@ -1889,7 +1944,6 @@
         "ricky jones",
         "ro taylor",
         "rob herron",
-        "rob wootton",
         "robert allen",
         "robert george",
         "robert kim",
@@ -2260,6 +2314,16 @@
           ]
         },
         {
+          "canonical_person_id": "david-lindberg",
+          "name": "David Lindberg",
+          "dataset_a_locators": [
+            "signature:151"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:32"
+          ]
+        },
+        {
           "canonical_person_id": "david-richmon",
           "name": "David Richmon",
           "dataset_a_locators": [
@@ -2412,7 +2476,6 @@
       ],
       "unresolved_exact_name_keys": [
         "dave abney",
-        "david lindberg",
         "derek radney",
         "greg ward",
         "jeff white",
@@ -2955,6 +3018,16 @@
           ]
         },
         {
+          "canonical_person_id": "blake-altman",
+          "name": "Blake Altman",
+          "dataset_a_locators": [
+            "signature:370"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:9:blake altman"
+          ]
+        },
+        {
           "canonical_person_id": "bob-flayhart",
           "name": "Bob Flayhart",
           "dataset_a_locators": [
@@ -2975,6 +3048,16 @@
           ]
         },
         {
+          "canonical_person_id": "charles-garland",
+          "name": "Charles Garland",
+          "dataset_a_locators": [
+            "signature:319"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:26:charles garland"
+          ]
+        },
+        {
           "canonical_person_id": "clay-holland",
           "name": "Clay Holland",
           "dataset_a_locators": [
@@ -2992,6 +3075,26 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:30:dan adamson"
+          ]
+        },
+        {
+          "canonical_person_id": "david-goneau",
+          "name": "David Goneau",
+          "dataset_a_locators": [
+            "signature:406"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:38:david goneau"
+          ]
+        },
+        {
+          "canonical_person_id": "david-lindberg",
+          "name": "David Lindberg",
+          "dataset_a_locators": [
+            "signature:151"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:40:david lindberg"
           ]
         },
         {
@@ -3145,6 +3248,16 @@
           ]
         },
         {
+          "canonical_person_id": "jon-price",
+          "name": "Jon Price",
+          "dataset_a_locators": [
+            "signature:133"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:84:jon price"
+          ]
+        },
+        {
           "canonical_person_id": "jonathan-winfree",
           "name": "Jonathan Winfree",
           "dataset_a_locators": [
@@ -3275,6 +3388,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:136"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:123:rob wootton"
+          ]
+        },
+        {
           "canonical_person_id": "robbie-schmidtberger",
           "name": "Robbie Schmidtberger",
           "dataset_a_locators": [
@@ -3326,15 +3449,9 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "blake altman",
-        "charles garland",
-        "david goneau",
-        "david lindberg",
         "david wallover",
-        "jon price",
         "justin woodall",
         "mark bates",
-        "rob wootton",
         "sam desocio"
       ]
     },
@@ -3763,6 +3880,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:136"
+          ],
+          "dataset_b_locators": [
+            "print_order:196"
+          ]
+        },
+        {
           "canonical_person_id": "russ-ramsey",
           "name": "Russ Ramsey",
           "dataset_a_locators": [
@@ -3852,7 +3979,6 @@
         "jonathan eagin",
         "matt clegg",
         "randy lovelace",
-        "rob wootton",
         "steven cooper",
         "tom patton"
       ]
@@ -4492,6 +4618,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:136"
+          ],
+          "dataset_b_locators": [
+            "print_order:204"
+          ]
+        },
+        {
           "canonical_person_id": "ronald-nelson",
           "name": "Ronald Nelson",
           "dataset_a_locators": [
@@ -4662,8 +4798,7 @@
         "james pocta",
         "jeff birch",
         "jeff white",
-        "jonathan eagin",
-        "rob wootton"
+        "jonathan eagin"
       ]
     },
     {
@@ -5338,6 +5473,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:136"
+          ],
+          "dataset_b_locators": [
+            "print_order:91"
+          ]
+        },
+        {
           "canonical_person_id": "ron-lutjens",
           "name": "Ron Lutjens",
           "dataset_a_locators": [
@@ -5476,7 +5621,6 @@
         "hansoo jin",
         "james pocta",
         "jason cornwell",
-        "rob wootton",
         "steven brooks",
         "timothy r lecroy",
         "tom patton"
@@ -5795,6 +5939,16 @@
           ]
         },
         {
+          "canonical_person_id": "david-lindberg",
+          "name": "David Lindberg",
+          "dataset_a_locators": [
+            "signature:170"
+          ],
+          "dataset_b_locators": [
+            "garris-letter-1:signer:32"
+          ]
+        },
+        {
           "canonical_person_id": "david-richmon",
           "name": "David Richmon",
           "dataset_a_locators": [
@@ -5937,7 +6091,6 @@
       ],
       "unresolved_exact_name_keys": [
         "dave abney",
-        "david lindberg",
         "derek radney",
         "greg ward",
         "jeff white",
@@ -6583,6 +6736,16 @@
           ]
         },
         {
+          "canonical_person_id": "blake-altman",
+          "name": "Blake Altman",
+          "dataset_a_locators": [
+            "signature:382"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:9:blake altman"
+          ]
+        },
+        {
           "canonical_person_id": "bob-flayhart",
           "name": "Bob Flayhart",
           "dataset_a_locators": [
@@ -6603,6 +6766,16 @@
           ]
         },
         {
+          "canonical_person_id": "charles-garland",
+          "name": "Charles Garland",
+          "dataset_a_locators": [
+            "signature:335"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:26:charles garland"
+          ]
+        },
+        {
           "canonical_person_id": "clay-holland",
           "name": "Clay Holland",
           "dataset_a_locators": [
@@ -6620,6 +6793,26 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:30:dan adamson"
+          ]
+        },
+        {
+          "canonical_person_id": "david-goneau",
+          "name": "David Goneau",
+          "dataset_a_locators": [
+            "signature:416"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:38:david goneau"
+          ]
+        },
+        {
+          "canonical_person_id": "david-lindberg",
+          "name": "David Lindberg",
+          "dataset_a_locators": [
+            "signature:170"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:40:david lindberg"
           ]
         },
         {
@@ -6753,6 +6946,16 @@
           ]
         },
         {
+          "canonical_person_id": "jeff-schneider",
+          "name": "Jeff Schneider",
+          "dataset_a_locators": [
+            "signature:651"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:75:jeff schneider"
+          ]
+        },
+        {
           "canonical_person_id": "jeremy-fair",
           "name": "Jeremy Fair",
           "dataset_a_locators": [
@@ -6770,6 +6973,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:81:john bourgeois"
+          ]
+        },
+        {
+          "canonical_person_id": "jon-price",
+          "name": "Jon Price",
+          "dataset_a_locators": [
+            "signature:152"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:84:jon price"
           ]
         },
         {
@@ -6923,6 +7136,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:155"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:123:rob wootton"
+          ]
+        },
+        {
           "canonical_person_id": "robbie-schmidtberger",
           "name": "Robbie Schmidtberger",
           "dataset_a_locators": [
@@ -6974,16 +7197,9 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "blake altman",
-        "charles garland",
-        "david goneau",
-        "david lindberg",
         "david wallover",
-        "jeff schneider",
-        "jon price",
         "justin woodall",
         "mark bates",
-        "rob wootton",
         "sam desocio"
       ]
     },
@@ -7492,6 +7708,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:155"
+          ],
+          "dataset_b_locators": [
+            "print_order:196"
+          ]
+        },
+        {
           "canonical_person_id": "russ-ramsey",
           "name": "Russ Ramsey",
           "dataset_a_locators": [
@@ -7601,7 +7827,6 @@
         "jonathan eagin",
         "matt clegg",
         "randy lovelace",
-        "rob wootton",
         "steven cooper",
         "tom patton"
       ]
@@ -8361,6 +8586,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:155"
+          ],
+          "dataset_b_locators": [
+            "print_order:204"
+          ]
+        },
+        {
           "canonical_person_id": "ronald-nelson",
           "name": "Ronald Nelson",
           "dataset_a_locators": [
@@ -8571,8 +8806,7 @@
         "james pocta",
         "jeff birch",
         "jeff white",
-        "jonathan eagin",
-        "rob wootton"
+        "jonathan eagin"
       ]
     },
     {
@@ -9388,6 +9622,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "signature:155"
+          ],
+          "dataset_b_locators": [
+            "print_order:91"
+          ]
+        },
+        {
           "canonical_person_id": "ron-lutjens",
           "name": "Ron Lutjens",
           "dataset_a_locators": [
@@ -9586,7 +9830,6 @@
         "hansoo jin",
         "james pocta",
         "jason cornwell",
-        "rob wootton",
         "steven brooks",
         "timothy r lecroy",
         "tom patton"
@@ -15323,6 +15566,16 @@
           ]
         },
         {
+          "canonical_person_id": "omar-ortiz",
+          "name": "Omar Ortiz",
+          "dataset_a_locators": [
+            "print_order:126"
+          ],
+          "dataset_b_locators": [
+            "print_order:105"
+          ]
+        },
+        {
           "canonical_person_id": "owen-lee",
           "name": "Owen Lee",
           "dataset_a_locators": [
@@ -15387,7 +15640,6 @@
         "chris talley",
         "jeffrey birch",
         "jeremy kemp",
-        "omar ortiz",
         "steven brooks",
         "tom patton"
       ]
@@ -15632,12 +15884,21 @@
           "dataset_b_locators": [
             "print_order:21"
           ]
+        },
+        {
+          "canonical_person_id": "sean-roberts",
+          "name": "Sean Roberts",
+          "dataset_a_locators": [
+            "confirmed_member:133:sean roberts"
+          ],
+          "dataset_b_locators": [
+            "print_order:20"
+          ]
         }
       ],
       "unresolved_exact_name_keys": [
         "bruce terrell",
         "erik bonkovsky",
-        "sean roberts",
         "tag tuck"
       ]
     },
@@ -15826,6 +16087,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "confirmed_member:123:rob wootton"
+          ],
+          "dataset_b_locators": [
+            "print_order:204"
+          ]
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls",
           "dataset_a_locators": [
@@ -15834,14 +16105,22 @@
           "dataset_b_locators": [
             "print_order:166"
           ]
+        },
+        {
+          "canonical_person_id": "sean-roberts",
+          "name": "Sean Roberts",
+          "dataset_a_locators": [
+            "confirmed_member:133:sean roberts"
+          ],
+          "dataset_b_locators": [
+            "print_order:160"
+          ]
         }
       ],
       "unresolved_exact_name_keys": [
         "iron kim",
         "rich good",
-        "rob wootton",
-        "sam desocio",
-        "sean roberts"
+        "sam desocio"
       ]
     },
     {
@@ -16034,6 +16313,16 @@
           ]
         },
         {
+          "canonical_person_id": "dan-herron",
+          "name": "Dan Herron",
+          "dataset_a_locators": [
+            "confirmed_member:31:dan herron"
+          ],
+          "dataset_b_locators": [
+            "print_order:77"
+          ]
+        },
+        {
           "canonical_person_id": "david-richter",
           "name": "David Richter",
           "dataset_a_locators": [
@@ -16041,6 +16330,16 @@
           ],
           "dataset_b_locators": [
             "print_order:93"
+          ]
+        },
+        {
+          "canonical_person_id": "david-ridenhour",
+          "name": "David Ridenhour",
+          "dataset_a_locators": [
+            "confirmed_member:43:david ridenhour"
+          ],
+          "dataset_b_locators": [
+            "print_order:181"
           ]
         },
         {
@@ -16154,6 +16453,16 @@
           ]
         },
         {
+          "canonical_person_id": "omar-ortiz",
+          "name": "Omar Ortiz",
+          "dataset_a_locators": [
+            "confirmed_member:111:omar ortiz"
+          ],
+          "dataset_b_locators": [
+            "print_order:105"
+          ]
+        },
+        {
           "canonical_person_id": "pat-hickman",
           "name": "Pat Hickman",
           "dataset_a_locators": [
@@ -16192,18 +16501,42 @@
           "dataset_b_locators": [
             "print_order:97"
           ]
+        },
+        {
+          "canonical_person_id": "sean-roberts",
+          "name": "Sean Roberts",
+          "dataset_a_locators": [
+            "confirmed_member:133:sean roberts"
+          ],
+          "dataset_b_locators": [
+            "print_order:50"
+          ]
+        },
+        {
+          "canonical_person_id": "tag-tuck",
+          "name": "Tag Tuck",
+          "dataset_a_locators": [
+            "confirmed_member:137:tag tuck"
+          ],
+          "dataset_b_locators": [
+            "print_order:147"
+          ]
+        },
+        {
+          "canonical_person_id": "todd-gwennap",
+          "name": "Todd Gwennap",
+          "dataset_a_locators": [
+            "confirmed_member:141:todd gwennap"
+          ],
+          "dataset_b_locators": [
+            "print_order:106"
+          ]
         }
       ],
       "unresolved_exact_name_keys": [
-        "dan herron",
-        "david ridenhour",
         "david wallover",
         "hansoo jin",
-        "justin woodall",
-        "omar ortiz",
-        "sean roberts",
-        "tag tuck",
-        "todd gwennap"
+        "justin woodall"
       ]
     },
     {
@@ -16707,6 +17040,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "print_order:196"
+          ],
+          "dataset_b_locators": [
+            "print_order:204"
+          ]
+        },
+        {
           "canonical_person_id": "russ-ramsey",
           "name": "Russ Ramsey",
           "dataset_a_locators": [
@@ -16828,7 +17171,6 @@
         "jonathan eagin",
         "mark samuel",
         "randy lovelace",
-        "rob wootton",
         "steven cooper"
       ]
     },
@@ -17181,6 +17523,16 @@
           ]
         },
         {
+          "canonical_person_id": "omar-ortiz",
+          "name": "Omar Ortiz",
+          "dataset_a_locators": [
+            "print_order:131"
+          ],
+          "dataset_b_locators": [
+            "print_order:105"
+          ]
+        },
+        {
           "canonical_person_id": "owen-lee",
           "name": "Owen Lee",
           "dataset_a_locators": [
@@ -17279,7 +17631,6 @@
         "jeffrey birch",
         "jeremy kemp",
         "lance lewis",
-        "omar ortiz",
         "randy lovelace",
         "steven cooper",
         "tom patton"
@@ -17357,6 +17708,16 @@
           ]
         },
         {
+          "canonical_person_id": "sean-roberts",
+          "name": "Sean Roberts",
+          "dataset_a_locators": [
+            "print_order:20"
+          ],
+          "dataset_b_locators": [
+            "print_order:160"
+          ]
+        },
+        {
           "canonical_person_id": "tim-jackson",
           "name": "Tim Jackson",
           "dataset_a_locators": [
@@ -17382,7 +17743,6 @@
         "brian davis",
         "bruce terrell",
         "derek radney",
-        "sean roberts",
         "theo vander velde",
         "timothy trouten"
       ]
@@ -17441,6 +17801,16 @@
           ]
         },
         {
+          "canonical_person_id": "sean-roberts",
+          "name": "Sean Roberts",
+          "dataset_a_locators": [
+            "print_order:20"
+          ],
+          "dataset_b_locators": [
+            "print_order:50"
+          ]
+        },
+        {
           "canonical_person_id": "tim-jackson",
           "name": "Tim Jackson",
           "dataset_a_locators": [
@@ -17465,7 +17835,6 @@
         "brian davis",
         "derek radney",
         "jason cornwell",
-        "sean roberts",
         "tag tuck"
       ]
     },
@@ -17910,6 +18279,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "print_order:204"
+          ],
+          "dataset_b_locators": [
+            "print_order:91"
+          ]
+        },
+        {
           "canonical_person_id": "ross-dixon",
           "name": "Ross Dixon",
           "dataset_a_locators": [
@@ -17977,6 +18356,16 @@
           ],
           "dataset_b_locators": [
             "print_order:170"
+          ]
+        },
+        {
+          "canonical_person_id": "sean-roberts",
+          "name": "Sean Roberts",
+          "dataset_a_locators": [
+            "print_order:160"
+          ],
+          "dataset_b_locators": [
+            "print_order:50"
           ]
         },
         {
@@ -18048,9 +18437,7 @@
         "hansoo jin",
         "james pocta",
         "jason cornwell",
-        "kenneth leggett",
-        "rob wootton",
-        "sean roberts"
+        "kenneth leggett"
       ]
     },
     {

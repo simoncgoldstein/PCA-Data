@@ -520,6 +520,106 @@
     "profile_status": "source_assessed"
   },
   {
+    "id": "blake-altman",
+    "name": "Blake Altman",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented across North Texas and Hills and Plains ministry contexts; current role not modeled from this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "charles-garland",
+    "name": "Charles Garland",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented in official historical sources and later Arizona ministry context; current role not modeled from this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "dan-herron",
+    "name": "Dan Herron",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented in historical Central Indiana sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "david-goneau",
+    "name": "David Goneau",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented in historical Philadelphia sources; later Philadelphia Metro West context documented in the reviewed identity receipt",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "david-ridenhour",
+    "name": "David Ridenhour",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented in official 2018-2019 North Texas sources; official report records deposition on 2019-09-26; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "jeff-schneider",
+    "name": "Jeff Schneider",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented in official Chicago Metro sources; current role not modeled from this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "jon-price",
+    "name": "Jon Price",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented in Pittsburgh Presbytery sources; current role not modeled from this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "sean-roberts",
+    "name": "Sean Roberts",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented across Philadelphia and Northern New England ministry contexts; current role not modeled from this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "tag-tuck",
+    "name": "Tag Tuck",
+    "ordination": null,
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA officer/pastor documented in Blue Ridge; source materials conflict on TE/RE classification in the 2019 context, so ordination is not normalized in this slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "todd-gwennap",
+    "name": "Todd Gwennap",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented across Eastern Carolina and North Texas ministry contexts; current role not modeled from this identity slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",
