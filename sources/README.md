@@ -49,7 +49,7 @@ See `research/source-register.md` for source-family status and `research/compani
 
 A raw binary is useful when it improves reproducibility and redistribution is appropriate, but the project does not require copying every external PDF into GitHub. A stable original/archive URL plus provenance metadata and normalized evidence may be the correct archival form.
 
-This distinction matters for the private Google Drive `PCA Research` corpus. Some collected theological PDFs are documented in `research/companion-corpus.md` but are not yet registered or copied here.
+This distinction matters for the private Google Drive `PCA Research` corpus. The audited theological PDFs are documented in `research/companion-corpus.md`; Dabney, Warfield, and the Presbyterian Polity/deaconess article also have discoverable metadata in `sources/manifests/companion-theological-sources-2026-09-14.json`, without copying the Drive binaries into the public repo.
 
 ## Agent workflow
 
