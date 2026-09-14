@@ -128,6 +128,7 @@ jobs:
             sources/normalized/external-datasets/save-the-pca-ffo/2026-02-08/flagged-churches.json \
             sources/normalized/crosswalks/save-the-pca-ffo-2026-02-08
           python3 scripts/build-person-crosswalk.py .
+          python3 scripts/project-garris-signers.py .
           python3 scripts/build-overlap-analysis.py .
 
       - name: Verify generated outputs are current
