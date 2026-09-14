@@ -2,7 +2,7 @@
   "metadata": {
     "generated_on": "2026-09-04",
     "record_count": 4415,
-    "canonical_person_count": 303,
+    "canonical_person_count": 304,
     "new_person_count": 279,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
@@ -13,11 +13,11 @@
     }
   },
   "overall_match_status_counts": {
-    "ambiguous": 497,
+    "ambiguous": 493,
     "collision": 24,
     "context_confirmed": 860,
-    "exact_confirmed": 152,
-    "probable_requires_review": 372,
+    "exact_confirmed": 154,
+    "probable_requires_review": 374,
     "unmatched": 2510
   },
   "datasets": [
@@ -30,8 +30,8 @@
       "match_status_counts": {
         "exact_confirmed": 14,
         "context_confirmed": 143,
-        "probable_requires_review": 29,
-        "ambiguous": 67,
+        "probable_requires_review": 30,
+        "ambiguous": 66,
         "collision": 2,
         "unmatched": 316
       },
@@ -52,8 +52,8 @@
       "match_status_counts": {
         "exact_confirmed": 14,
         "context_confirmed": 179,
-        "probable_requires_review": 30,
-        "ambiguous": 77,
+        "probable_requires_review": 31,
+        "ambiguous": 76,
         "collision": 2,
         "unmatched": 435
       },
@@ -531,17 +531,17 @@
       "source_dataset": "garris_letter_1",
       "row_count": 60,
       "unique_printed_name_count": 60,
-      "confirmed_canonical_person_count": 23,
-      "confirmed_row_count": 23,
+      "confirmed_canonical_person_count": 24,
+      "confirmed_row_count": 24,
       "match_status_counts": {
-        "exact_confirmed": 7,
+        "exact_confirmed": 8,
         "context_confirmed": 16,
         "probable_requires_review": 3,
-        "ambiguous": 10,
+        "ambiguous": 9,
         "collision": 2,
         "unmatched": 22
       },
-      "percent_rows_resolved": 38.33,
+      "percent_rows_resolved": 40.0,
       "source_tier": [
         "primary_public_letter"
       ],
@@ -998,17 +998,17 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 43,
-      "confirmed_row_count": 43,
+      "confirmed_canonical_person_count": 44,
+      "confirmed_row_count": 44,
       "match_status_counts": {
-        "exact_confirmed": 8,
+        "exact_confirmed": 9,
         "context_confirmed": 35,
         "probable_requires_review": 29,
-        "ambiguous": 13,
+        "ambiguous": 12,
         "collision": 2,
         "unmatched": 64
       },
-      "percent_rows_resolved": 28.48,
+      "percent_rows_resolved": 29.14,
       "source_tier": [
         "primary_archive"
       ],

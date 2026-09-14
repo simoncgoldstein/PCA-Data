@@ -219,7 +219,7 @@ garris_letter_1,korean southeastern,korean-southeastern,current_exact,1,1,0,0.00
 garris_letter_1,missouri,missouri,current_exact,1,1,0,0.00,0,0.00
 garris_letter_1,nashville,nashville,current_exact,2,2,2,100.00,2,100.00
 garris_letter_1,new york state,new-york-state,current_exact,1,1,0,0.00,0,0.00
-garris_letter_1,north texas,north-texas,current_exact,2,2,1,50.00,1,100.00
+garris_letter_1,north texas,north-texas,current_exact,2,2,2,100.00,2,100.00
 garris_letter_1,northern california,northern-california,current_exact,2,2,1,50.00,1,100.00
 garris_letter_1,northern new england,northern-new-england,current_exact,1,1,0,0.00,0,0.00
 garris_letter_1,northwest georgia,northwest-georgia,current_exact,1,1,1,100.00,1,100.00
@@ -339,7 +339,7 @@ national_partnership_confirmed_members,houston metro,houston-metro,current_exact
 national_partnership_confirmed_members,iowa,iowa,current_exact,2,2,1,50.00,1,100.00
 national_partnership_confirmed_members,james river,james-river,current_exact,3,3,0,0.00,0,0.00
 national_partnership_confirmed_members,korean capital,korean-capital,current_exact,1,1,1,100.00,1,100.00
-national_partnership_confirmed_members,metro atlanta,metro-atlanta,current_exact,5,5,2,40.00,2,100.00
+national_partnership_confirmed_members,metro atlanta,metro-atlanta,current_exact,5,5,3,60.00,3,100.00
 national_partnership_confirmed_members,metro new york,metropolitan-new-york,known_alias,2,2,1,50.00,1,100.00
 national_partnership_confirmed_members,missouri,missouri,current_exact,3,3,1,33.33,1,100.00
 national_partnership_confirmed_members,nashville,nashville,current_exact,4,4,3,75.00,3,100.00
@@ -731,7 +731,7 @@ ALL_TRACKED_DATASETS,korean southwestern,,unresolved_historical_or_noncanonical,
 ALL_TRACKED_DATASETS,louisiana,,unresolved_historical_or_noncanonical,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,lowcountry,,unresolved_historical_or_noncanonical,15,12,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,maryland,,unresolved_historical_or_noncanonical,1,1,0,0.00,0,0.00
-ALL_TRACKED_DATASETS,metro atlanta,metro-atlanta,current_exact,96,55,18,32.73,18,100.00
+ALL_TRACKED_DATASETS,metro atlanta,metro-atlanta,current_exact,96,55,19,34.55,19,100.00
 ALL_TRACKED_DATASETS,metro new york,metropolitan-new-york,known_alias,11,10,1,10.00,1,100.00
 ALL_TRACKED_DATASETS,metro ny,,unresolved_historical_or_noncanonical,36,19,19,100.00,18,94.74
 ALL_TRACKED_DATASETS,metropolitan new york,metropolitan-new-york,current_exact,32,20,4,20.00,4,100.00
@@ -743,7 +743,7 @@ ALL_TRACKED_DATASETS,new jersey,new-jersey,current_exact,6,4,1,25.00,1,100.00
 ALL_TRACKED_DATASETS,new york metro,metropolitan-new-york,known_alias,4,4,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,new york state,new-york-state,current_exact,20,13,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,north florida,north-florida,current_exact,19,12,1,8.33,1,100.00
-ALL_TRACKED_DATASETS,north texas,north-texas,current_exact,59,36,8,22.22,8,100.00
+ALL_TRACKED_DATASETS,north texas,north-texas,current_exact,59,36,9,25.00,9,100.00
 ALL_TRACKED_DATASETS,north west georgia,,unresolved_historical_or_noncanonical,2,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,northern california,northern-california,current_exact,62,35,10,28.57,10,100.00
 ALL_TRACKED_DATASETS,northern illinois,northern-illinois,current_exact,15,8,2,25.00,2,100.00

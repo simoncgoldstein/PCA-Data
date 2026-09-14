@@ -12419,6 +12419,16 @@
           ]
         },
         {
+          "canonical_person_id": "david-lindberg",
+          "name": "David Lindberg",
+          "dataset_a_locators": [
+            "garris-letter-1:signer:32"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:40:david lindberg"
+          ]
+        },
+        {
           "canonical_person_id": "david-richter",
           "name": "David Richter",
           "dataset_a_locators": [
@@ -12480,7 +12490,6 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "david lindberg",
         "david richmon"
       ]
     },

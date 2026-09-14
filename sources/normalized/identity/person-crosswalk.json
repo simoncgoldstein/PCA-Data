@@ -2,7 +2,7 @@
   "metadata": {
     "generated_on": "2026-09-04",
     "record_count": 4415,
-    "canonical_person_count": 303,
+    "canonical_person_count": 304,
     "new_person_count": 279,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
@@ -2172,14 +2172,12 @@
       "office": null,
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_row_level_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false
     },
@@ -23538,14 +23536,12 @@
       "office": null,
       "rejected_existing_id": null,
       "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
+      "match_status": "probable_requires_review",
+      "match_method": "exact_name_without_row_level_disambiguator",
       "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 0.65,
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false
     },
@@ -62324,15 +62320,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-lindberg",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false
     },
@@ -90325,15 +90321,15 @@
       "location": null,
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "ambiguous",
-      "match_method": "first_last_name_variant_collision",
-      "supporting_fields": [],
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
+      "canonical_person_id": "david-lindberg",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
       ],
-      "confidence": 0.0,
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context.",
+      "conflicting_fields": [],
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": "david lindberg",
       "initials_only_name": false
     },

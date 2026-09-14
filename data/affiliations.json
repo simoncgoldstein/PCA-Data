@@ -1520,5 +1520,20 @@
       "src-garris-letter-2"
     ],
     "notes": "Printed signer context: TE, RUF Queens College, Metro NY. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
+  },
+  {
+    "id": "aff-garris-letter-1-david-lindberg",
+    "person_id": "david-lindberg",
+    "target_type": "event",
+    "target_id": "evt-garris-letter-1",
+    "role": "Signer",
+    "confidence": "confirmed",
+    "evidence_kind": "public_coalition_action",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-garris-letter-1"
+    ],
+    "notes": "Printed signer context: TE, Christ the King, North Texas. Signature establishes participation in this specific public letter; it does not by itself establish unrelated network membership or positions on other controversies."
   }
 ]
