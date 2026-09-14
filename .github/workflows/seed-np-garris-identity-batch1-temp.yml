@@ -57,6 +57,10 @@ jobs:
                   existing = by_id[item['id']]
                   if existing.get('name') != item['name']:
                       raise SystemExit(f"conflicting person seed: {item['id']}")
+                  # A reviewed identity may already exist as a generated
+                  # identity_crosswalk person. Promote that exact row to the
+                  # durable source-assessed seed rather than adding a duplicate.
+                  existing.update(item)
               else:
                   people.append(item)
           write(people_path, people)
