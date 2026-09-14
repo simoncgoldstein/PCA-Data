@@ -88,6 +88,21 @@ The current McGowan Global Institute roster is represented as a zero-weight inst
 - Mike Khandjian's Fellowship is documented as independent from the National Partnership despite substantial personnel overlap. Preserve that distinction.
 - McGowan Global Institute itself is not modeled as an NP successor, front, continuation, or ideological equivalent absent separate organizational evidence.
 
+## National Partnership continuity-analysis guardrail
+
+`analysis/national-partnership/` contains generated descriptive continuity/recurrence analysis. It is not a causal model and does not yet justify an `X times more likely` claim.
+
+- The confirmed NP source roster currently contains **151 printed-name members**, but only a subset is canonically identity-resolved. Treat the canonical subset as incomplete and potentially recurrence-biased.
+- No canonical NP edge means **membership not established in the current canonical graph**, not confirmed non-membership.
+- Never create an NP-vs-non-NP risk ratio or odds ratio by assigning every person without a canonical NP edge to a non-member comparison group.
+- Distinguish confirmed canonical overlap from full-roster lower bounds and unresolved exact-name screening possibilities.
+- Current AMR leadership overlap is personnel-continuity evidence. Personnel recurrence alone does not establish that AMR is a legal, formal, or organizational successor to NP.
+- Within-archive actions such as 2019/2021 recurrence are not strictly prospective outcomes. Keep them separate from genuinely post-archive actions.
+- Public actions are correlated and should not be treated as independent repeated trials merely because they occur in separate datasets.
+- Before estimating predictive effect, improve NP identity coverage, define an opportunity-aware comparison cohort, and predefine how correlated actions will be grouped.
+
+The builder is `scripts/build-national-partnership-continuity-analysis.py`; the focused validator is `scripts/validate-national-partnership-continuity-analysis.py`. Run the NP continuity builder after `build-overlap-analysis.py`.
+
 ## Family relationship guardrail
 
 Person-to-person family edges are supported by the app graph but remain contextual only.
