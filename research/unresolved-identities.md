@@ -6,7 +6,7 @@ These items are deliberately kept outside confirmed public claims until further 
 
 ## Garris Letter 1 signer identities
 
-The Garris source-ingestion layer is complete, but Letter 1 still has **36 unresolved signer rows** after conservative cross-source matching. Letter 2 is complete at 21/21 canonical identities.
+The Garris source-ingestion layer is complete, but Letter 1 still has **37 unresolved signer rows** after conservative cross-source matching. Letter 2 is complete at 21/21 canonical identities.
 
 Policy for the remaining Letter 1 queue:
 
