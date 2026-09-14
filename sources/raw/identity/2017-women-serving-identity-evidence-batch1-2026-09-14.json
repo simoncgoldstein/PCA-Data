@@ -1,0 +1,82 @@
+{
+  "reviewed_on": "2026-09-14",
+  "scope": "Identity evidence for a compact batch of unresolved members of the 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church.",
+  "status": "reviewed_identity_evidence_ready_for_canonical_seed",
+  "resolution_applied": false,
+  "modeling_rule": "These records support person-identity reconciliation only. They do not assign any report-level theological position, either internal school of thought, or broader ideological label to an individual committee member.",
+  "records": [
+    {
+      "committee_edge_id": "2017-women-serving-committee-04",
+      "person_name": "Dan Doriani",
+      "proposed_canonical_person_id": "dan-doriani",
+      "current_normalized_person_id": null,
+      "review_status": "ready_for_canonical_seed",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints TE Dan Doriani as an Advisory Member."
+        },
+        {
+          "source_type": "first_party_institutional_profile",
+          "url": "https://www.covenantseminary.edu/dan-doriani",
+          "fact": "Covenant Theological Seminary identifies Dr. Daniel M. Doriani as Professor of Biblical and Systematic Theology and documents his long faculty and pastoral history."
+        },
+        {
+          "source_type": "first_party_institutional_publication",
+          "url": "https://www.covenantseminary.edu/magazine",
+          "fact": "Covenant Seminary's 2026 magazine page uses the public name form 'Dr. Dan Doriani' for its faculty profile."
+        }
+      ],
+      "match_basis": "The committee's Dan Doriani is supported by Covenant Seminary's first-party use of the same public name form and its canonical Daniel M. Doriani faculty profile. The identity match is reviewed as high-confidence, but canonical mutation is deferred to a separate slice.",
+      "reasoning_boundary": "Identity only; committee service does not establish agreement with every statement in the report."
+    },
+    {
+      "committee_edge_id": "2017-women-serving-committee-05",
+      "person_name": "Ligon Duncan",
+      "proposed_canonical_person_id": "ligon-duncan",
+      "current_normalized_person_id": null,
+      "review_status": "ready_for_canonical_seed",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints TE Ligon Duncan as a Voting Member."
+        },
+        {
+          "source_type": "first_party_institutional_profile",
+          "url": "https://rts.edu/about/chancellor/long-biography/",
+          "fact": "Reformed Theological Seminary identifies Dr. J. Ligon Duncan III, states that he was ordained in the PCA in 1990, and documents his PCA pastoral and seminary career."
+        }
+      ],
+      "match_basis": "The distinctive Ligon Duncan name, Teaching Elder context, and RTS first-party PCA biography provide a high-confidence identity match. Canonical mutation is deferred to a separate slice.",
+      "reasoning_boundary": "Identity only; committee service does not establish agreement with every statement in the report."
+    },
+    {
+      "committee_edge_id": "2017-women-serving-committee-12",
+      "person_name": "Roy Taylor",
+      "proposed_canonical_person_id": "roy-taylor",
+      "current_normalized_person_id": null,
+      "review_status": "ready_for_canonical_seed",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints TE Roy Taylor as an Advisory Member."
+        },
+        {
+          "source_type": "official_pca_general_assembly_roster",
+          "path": "sources/normalized/nae/withdrawal-protest-signers-2022.json",
+          "locator": "print_order:174",
+          "fact": "The official 2022 NAE-withdrawal protest roster prints TE Roy Taylor of Calvary Presbytery."
+        }
+      ],
+      "match_basis": "Exact Roy Taylor name plus Teaching Elder office recurs across independent official PCA General Assembly source families in 2017 and 2022. The identity match is reviewed as high-confidence, but canonical mutation is deferred to a separate slice.",
+      "reasoning_boundary": "Identity only; neither committee service nor protest signature is converted into a broader ideological label."
+    }
+  ],
+  "ideological_weight": 0
+}

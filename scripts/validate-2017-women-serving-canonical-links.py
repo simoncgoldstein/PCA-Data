@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate canonical person links and app projection for the 2017 Women Serving study committee."""
+"""Validate canonical person links, reviewed identity evidence, and app projection for the 2017 Women Serving study committee."""
 
 from __future__ import annotations
 
@@ -11,6 +11,7 @@ from pathlib import Path
 root = Path(sys.argv[1] if len(sys.argv) > 1 else ".")
 report_path = root / "sources/normalized/general-assembly/2017-women-serving-ministry-report.json"
 edges_path = root / "sources/normalized/general-assembly/2017-women-serving-ministry-person-edges.json"
+identity_review_path = root / "sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json"
 people_path = root / "data/people.json"
 events_path = root / "data/events.json"
 affiliations_path = root / "data/affiliations.json"
@@ -18,6 +19,7 @@ sources_path = root / "data/sources.json"
 
 report = json.loads(report_path.read_text(encoding="utf-8"))
 edges_data = json.loads(edges_path.read_text(encoding="utf-8"))
+identity_review = json.loads(identity_review_path.read_text(encoding="utf-8"))
 people = json.loads(people_path.read_text(encoding="utf-8"))
 events = json.loads(events_path.read_text(encoding="utf-8"))
 affiliations = json.loads(affiliations_path.read_text(encoding="utf-8"))
@@ -128,6 +130,59 @@ for name, person_id in required_resolved.items():
     if resolved.get(name) != person_id:
         raise SystemExit(f"2017 women committee edges: required canonical link missing: {name} -> {person_id}")
 
+# Reviewed identity evidence is a provenance gate, not a canonical mutation.
+if identity_review.get("status") != "reviewed_identity_evidence_ready_for_canonical_seed":
+    raise SystemExit("2017 women identity review: status drift")
+if identity_review.get("resolution_applied") is not False:
+    raise SystemExit("2017 women identity review: this slice must not claim canonical mutation is applied")
+if identity_review.get("ideological_weight") != 0:
+    raise SystemExit("2017 women identity review: identity evidence must remain ideologically unweighted")
+review_modeling_rule = identity_review.get("modeling_rule", "")
+for required_phrase in ("person-identity reconciliation only", "do not assign", "broader ideological label"):
+    if required_phrase not in review_modeling_rule:
+        raise SystemExit(f"2017 women identity review: missing modeling guardrail phrase: {required_phrase}")
+
+review_records = identity_review.get("records", [])
+expected_review_batch = {
+    "2017-women-serving-committee-04": ("Dan Doriani", "dan-doriani"),
+    "2017-women-serving-committee-05": ("Ligon Duncan", "ligon-duncan"),
+    "2017-women-serving-committee-12": ("Roy Taylor", "roy-taylor"),
+}
+if len(review_records) != len(expected_review_batch):
+    raise SystemExit(
+        f"2017 women identity review: expected {len(expected_review_batch)} records, found {len(review_records)}"
+    )
+if {row.get("committee_edge_id") for row in review_records} != set(expected_review_batch):
+    raise SystemExit("2017 women identity review: reviewed edge set drift")
+
+edge_by_id = {row["edge_id"]: row for row in edges}
+review_receipt_relative = "sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json"
+for record in review_records:
+    edge_id = record["committee_edge_id"]
+    expected_name, expected_proposed_id = expected_review_batch[edge_id]
+    edge = edge_by_id[edge_id]
+    if record.get("person_name") != expected_name or edge.get("person_name") != expected_name:
+        raise SystemExit(f"{edge_id}: reviewed identity name drift")
+    if record.get("proposed_canonical_person_id") != expected_proposed_id:
+        raise SystemExit(f"{edge_id}: proposed canonical id drift")
+    if record.get("current_normalized_person_id") is not None or edge.get("normalized_person_id") is not None:
+        raise SystemExit(f"{edge_id}: reviewed identity evidence must remain unresolved until canonical seeding")
+    if record.get("review_status") != "ready_for_canonical_seed" or record.get("confidence") != "high":
+        raise SystemExit(f"{edge_id}: reviewed identity evidence status/confidence drift")
+    if edge.get("identity_status") != "unresolved":
+        raise SystemExit(f"{edge_id}: identity status must remain unresolved before canonical seed")
+    if edge.get("identity_review_status") != "ready_for_canonical_seed":
+        raise SystemExit(f"{edge_id}: edge review status drift")
+    if edge.get("identity_review_receipt") != review_receipt_relative:
+        raise SystemExit(f"{edge_id}: edge review receipt linkage drift")
+    if edge.get("proposed_canonical_person_id") != expected_proposed_id:
+        raise SystemExit(f"{edge_id}: edge proposed canonical id drift")
+    if not record.get("evidence") or len(record["evidence"]) < 2:
+        raise SystemExit(f"{edge_id}: reviewed identity requires at least two evidence records")
+    boundary = record.get("reasoning_boundary", "")
+    if "Identity only" not in boundary:
+        raise SystemExit(f"{edge_id}: reviewed identity reasoning boundary missing")
+
 # App-facing projection. Only canonical identities are projected into data/affiliations.json.
 app_event_id = "evt-women-serving-study-committee-2017"
 app_source_id = "src-ga45-women-serving-2017"
@@ -200,5 +255,6 @@ print(
     "2017 women-serving canonical links OK: "
     f"{len(edges)} committee rows, {len(resolved)} resolved canonical identities, "
     f"{len(edges) - len(resolved)} explicitly unresolved identities, "
+    f"{len(review_records)} reviewed identities ready for canonical seed, "
     f"{len(app_edges)} app-facing canonical edges"
 )
