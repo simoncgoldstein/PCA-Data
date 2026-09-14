@@ -125,10 +125,14 @@ if "separately attributable dissent" not in choi_app.get("notes", ""):
 remaining_unresolved = {
     row["person_name"] for row in edges if row.get("normalized_person_id") is None
 }
-expected_unresolved = {"William Castro", "Lani Jones"}
-if remaining_unresolved != expected_unresolved:
+allowed_future_unresolved = {"William Castro", "Lani Jones"}
+if not remaining_unresolved <= allowed_future_unresolved:
     raise SystemExit(
-        f"unexpected unresolved 2017 committee set: expected {sorted(expected_unresolved)}, found {sorted(remaining_unresolved)}"
+        "batch 3 introduced or regressed an unexpected unresolved identity: "
+        f"{sorted(remaining_unresolved - allowed_future_unresolved)}"
     )
 
-print("2017 women-serving identity batch 3 OK: Choi and Keller applied, 2 committee identities remain unresolved")
+print(
+    "2017 women-serving identity batch 3 OK: Choi and Keller remain applied; "
+    f"{len(remaining_unresolved)} committee identities currently unresolved"
+)
