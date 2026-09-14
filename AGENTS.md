@@ -23,11 +23,13 @@ Do not rely on prior chat history as project state. The repository should be tre
 - Prefer primary sources over secondary commentary.
 - Preserve exact source wording, printed names, offices, dates, presbyteries, and source locators wherever practical.
 - Same-name matches are not enough to merge identities. Identity resolution requires corroborating context or a reviewed identity decision.
-- Do not infer an individual's theological position from committee membership, institutional employment, church membership, conference proximity, co-signers, or another person's position.
+- Do not infer an individual's theological position from committee membership, institutional employment, church membership, conference proximity, co-signers, family relationships, or another person's position.
 - Committee/report-level statements stay report-level unless separate first-person, signed, authored, or otherwise individually attributable evidence exists.
-- Institutional employment, education, ordinary church roles, and current-role snapshots are normally zero-weight for the Network Involvement Index.
+- Institutional employment, education, ordinary church roles, current-role snapshots, and family relationships are normally zero-weight for the Network Involvement Index.
+- Personnel overlap between organizations is evidence of overlap only. Do not infer that one organization is a successor, front, continuation, or ideological equivalent of another without separate organizational evidence.
+- Spouse/family links are factual context edges only. They must never transfer theology, organizational membership, actions, or score from one person to another.
 - Unresolved claims remain excluded from scoring and public certainty.
-- Negative findings can be preserved when useful, but absence from a roster is not evidence of opposition.
+- Negative findings can be preserved when useful, but absence from a roster is not evidence of opposition or proof of nonparticipation in all related activity.
 
 ## Data flow
 
@@ -64,6 +66,24 @@ The 53rd General Assembly Overture 37 record must distinguish institutional spon
 - Current evidence supports Jeffrey Choi as a public advocate, a floor speaker in support, and one of four named co-authors/submitters of the later formal dissent.
 - Do **not** label Choi the sole author, drafter, sponsor, or orchestrator of Overture 37 unless additional primary evidence establishes that role.
 - Choi's floor advocacy is unscored; his confirmed co-authorship of the formal dissent is modeled as a distinct formal denominational action.
+
+## McGowan Global / National Partnership overlap guardrail
+
+The current McGowan Global Institute roster is represented as a zero-weight institutional source. Independent National Partnership evidence is joined person-by-person rather than inferred from McGowan service.
+
+- Bruce O'Neil, Mike Khandjian, Ray Cortese, and Bob Flayhart have independently documented National Partnership membership/participation in the canonical NP dataset.
+- David Cassidy is a McGowan consultant and separately an AMR leader, but the current canonical NP dataset does **not** establish him as an NP member. Do not infer NP membership from organizational overlap.
+- Mike Khandjian's Fellowship is documented as independent from the National Partnership despite substantial personnel overlap. Preserve that distinction.
+- McGowan Global Institute itself is not modeled as an NP successor, front, continuation, or ideological equivalent absent separate organizational evidence.
+
+## Family relationship guardrail
+
+Person-to-person family edges are supported by the app graph but remain contextual only.
+
+- `sources/normalized/identity/family-relationships-2026.json` contains reviewed family relationships.
+- Tim Keller and Kathy Keller are modeled as spouses with reciprocal `target_type: person` edges.
+- Family edges use `weight: 0` and `score_included: false`.
+- Never use marriage or kinship to transfer a spouse's committee service, authored positions, network memberships, public actions, or Network Involvement Index score.
 
 ## Source handling
 
