@@ -1,0 +1,96 @@
+{
+  "reviewed_on": "2026-09-14",
+  "scope": "Identity evidence for a compact second batch of members of the 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church.",
+  "status": "reviewed_identity_evidence_applied",
+  "resolution_applied": true,
+  "modeling_rule": "These records support person-identity reconciliation only. They do not assign any report-level theological position, either internal school of thought, or broader ideological label to an individual committee member.",
+  "records": [
+    {
+      "committee_edge_id": "2017-women-serving-committee-01",
+      "person_name": "Leon Brown",
+      "canonical_person_id": "leon-brown",
+      "current_normalized_person_id": "leon-brown",
+      "review_status": "canonical_seed_applied",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints TE Leon Brown as an Advisory Member."
+        },
+        {
+          "source_type": "official_pca_general_assembly_biography",
+          "url": "https://www.pcahistory.org/pca/ga/46th_pcaga_2018.pdf",
+          "fact": "The 2018 General Assembly nominating biography identifies TE Leon M. Brown of James River Presbytery, then pastor of Crown and Joy in Richmond, and explicitly states that he served on the PCA Women in Ministry Committee."
+        },
+        {
+          "source_type": "first_party_church_page",
+          "url": "https://crownandjoy.com/sermons",
+          "fact": "Crown and Joy Presbyterian Church preserves sermons under the name Leon Brown."
+        }
+      ],
+      "match_basis": "The official 2018 PCA biography directly links TE Leon M. Brown to service on the Women in Ministry Committee and to Crown and Joy in Richmond, resolving the 2017 committee's TE Leon Brown with high confidence.",
+      "reasoning_boundary": "Identity only; committee service does not establish agreement with every statement in the report."
+    },
+    {
+      "committee_edge_id": "2017-women-serving-committee-09",
+      "person_name": "Mary Beth McGreevy",
+      "canonical_person_id": "mary-beth-mcgreevy",
+      "current_normalized_person_id": "mary-beth-mcgreevy",
+      "review_status": "canonical_seed_applied",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints Mrs. Mary Beth McGreevy as a Voting Member."
+        },
+        {
+          "source_type": "official_pca_first_person_devotional",
+          "url": "https://pcaga.org/50th/devotions/mar13/",
+          "fact": "The PCA General Assembly's 50th-anniversary devotional page publishes a first-person contribution under Mary Beth McGreevy and identifies her as a Covenant Theological Seminary M.Div. graduate and Adjunct Professor of Communication at Covenant Seminary."
+        },
+        {
+          "source_type": "first_party_institutional_profile",
+          "url": "https://www.covenantseminary.edu/adjunct-professors",
+          "fact": "Covenant Theological Seminary lists Mary Beth McGreevy as an Adjunct Professor of Communication in St. Louis with matching education details."
+        },
+        {
+          "source_type": "normalized_first_person_position_evidence",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The normalized 2017 source already preserves reviewed first-person position evidence for Mary Beth McGreevy and identifies her relationship to the report as a Voting Member of the 2017 committee."
+        }
+      ],
+      "match_basis": "The distinctive exact full name is corroborated by PCA and Covenant Seminary first-party records with matching St. Louis/Covenant Seminary context, while the existing normalized first-person evidence independently links Mary Beth McGreevy to the 2017 committee.",
+      "reasoning_boundary": "Identity only; first-person positions remain separately modeled and are not generalized beyond their explicit evidence."
+    },
+    {
+      "committee_edge_id": "2017-women-serving-committee-11",
+      "person_name": "Harry Reeder",
+      "canonical_person_id": "harry-reeder",
+      "current_normalized_person_id": "harry-reeder",
+      "review_status": "canonical_seed_applied",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints TE Harry Reeder as a Voting Member."
+        },
+        {
+          "source_type": "official_pca_general_assembly_biography",
+          "url": "https://www.pcahistory.org/pca/ga/actions/38thGA_2010_Actions.pdf",
+          "fact": "The PCA's 2010 General Assembly actions identify Dr. Harry Reeder as Moderator and the Reverend Doctor Harry L. Reeder III as pastor of Briarwood Presbyterian Church in Birmingham."
+        },
+        {
+          "source_type": "first_party_church_profile",
+          "url": "https://briarwood.org/visitors/about-briarwood/our-ministry-principles/",
+          "fact": "Briarwood Presbyterian Church identifies Harry Reeder as its Pastor/Teacher."
+        }
+      ],
+      "match_basis": "The distinctive Harry Reeder name, Teaching Elder office, official PCA moderator biography, and Briarwood first-party pastoral record resolve the 2017 committee's TE Harry Reeder to Harry L. Reeder III with high confidence.",
+      "reasoning_boundary": "Identity only; committee service does not establish agreement with every statement in the report."
+    }
+  ],
+  "ideological_weight": 0
+}
