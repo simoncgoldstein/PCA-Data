@@ -27,6 +27,37 @@ The repository includes National Partnership normalization, identity work, and a
 - distinguish explicit members from promoted candidates, recruited prospects, committee-placement recommendations, and adjacent figures;
 - avoid upgrading `strongly_supported` claims to `confirmed` until the exact archival evidence is pinned.
 
+The McGowan Global overlap audit closed several app-facing NP pins using the existing canonical primary-archive dataset:
+
+- Bruce O'Neil — NP-guys committee rosters, 2018, archive pp. 264–265;
+- Mike Khandjian — explicit NP-member language in 2014 plus later Partnership-men roster evidence; his independently created Fellowship remains organizationally distinct despite documented high overlap;
+- Ray Cortese — NP additions, March 11, 2013, archive p. 17;
+- Bob Flayhart — NP additions, February 11, 2013, archive p. 3.
+
+David Cassidy is not present in the current canonical NP membership dataset. His AMR/McGowan/Garris connections must not be converted into NP membership without separate evidence.
+
+### McGowan Global Institute
+
+Status: **current first-party roster normalized with bounded network-overlap analysis**.
+
+Machine-facing source:
+
+- `src-mcgowan-global-team-2026` — McGowan Global Institute `Who We Are`, current first-party team page.
+
+Normalized record:
+
+`sources/normalized/institutions/mcgowan-global-team-2026.json`
+
+The tracked current roster includes Bruce O'Neil, Mike Khandjian, David P. Cassidy, Ray Cortese, and Bob Flayhart, all listed as `Consultant, Coach`. Their McGowan affiliations are app-visible but remain `weight: 0` and `score_included: false`.
+
+Independent overlap findings:
+
+- O'Neil, Khandjian, Cortese, and Flayhart are independently established in the canonical National Partnership dataset;
+- Cassidy is not currently established as an NP member, though he is separately documented in AMR leadership and Garris Letter 1;
+- overlap is represented as recurrence of people across institutions, not as proof McGowan Global is a successor, front, continuation, or ideological equivalent of NP, the Khandjian Fellowship, or AMR.
+
+Contextual historical note: the NP/Fellowship correspondence itself described Khandjian's Fellowship as independently created despite high overlap. That distinction is a useful precedent for interpreting later organizational overlap conservatively.
+
 ### PCA General Assembly records
 
 Status: **substantial normalized coverage; no longer merely planned**.
@@ -66,7 +97,7 @@ The official PCA study report is registered as `src-ga45-women-serving-2017`. Th
 
 Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought.
 
-Separately attributable authored positions for Jeffrey Choi, Kathy Keller, and William Castro are now normalized in:
+Separately attributable authored positions for Jeffrey Choi, Kathy Keller, and William Castro are normalized in:
 
 `sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json`
 
@@ -144,7 +175,7 @@ Official institutional biographies and rosters are preferred. Current-role snaps
 
 Institutional employment, education, ordinary church roles, and current-role snapshots normally contribute zero ideological/network weight by themselves.
 
-## Identity evidence
+## Identity and family evidence
 
 The repository contains a reproducible person crosswalk plus reviewed identity receipts under `sources/raw/identity/`.
 
@@ -155,6 +186,8 @@ Rules:
 - a `ready_for_canonical_seed` review state is not the same thing as a completed canonical mutation;
 - an applied identity receipt should identify the canonical ID actually seeded and remain linked from the normalized evidence row;
 - canonical IDs should be added only when the evidence and validator state support the change.
+
+Family relationships are normalized separately in `sources/normalized/identity/family-relationships-2026.json` when they are useful graph context. Current app-visible family context includes Tim Keller and Kathy Keller as spouses, supported by PCA Bookstore material. Family edges are reciprocal, `weight: 0`, and `score_included: false`; they never transfer theological positions, organizational memberships, public actions, or scores between people.
 
 ## Secondary and theological-context sources
 
