@@ -1,0 +1,48 @@
+name: Generate NP continuity outputs (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/generate-np-continuity.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Rebuild prerequisite generated data
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/project-garris-signers.py .
+          python3 scripts/build-overlap-analysis.py .
+
+      - name: Require prerequisites to already be current
+        run: |
+          git diff --exit-code -- \
+            sources/normalized/identity \
+            data/people.json \
+            data/affiliations.json \
+            data/events.json \
+            analysis/overlap
+
+      - name: Build and validate NP continuity analysis
+        run: |
+          python3 scripts/build-national-partnership-continuity-analysis.py .
+          python3 scripts/validate-national-partnership-continuity-analysis.py .
+
+      - name: Commit generated NP continuity outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add analysis/national-partnership/continuity-summary.json analysis/national-partnership/action-overlap.csv
+          if git diff --cached --quiet; then
+            echo 'No generated changes to commit.'
+            exit 0
+          fi
+          git commit -m 'generate National Partnership continuity analysis'
+          git push
