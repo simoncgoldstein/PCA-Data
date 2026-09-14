@@ -698,5 +698,50 @@
       "src-ga45-women-serving-2017"
     ],
     "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Roy Taylor."
+  },
+  {
+    "id": "aff-brown-women-serving-2017",
+    "person_id": "leon-brown",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Advisory Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Leon Brown."
+  },
+  {
+    "id": "aff-mcgreevy-women-serving-2017",
+    "person_id": "mary-beth-mcgreevy",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Voting Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Mary Beth McGreevy; her separately modeled first-person evidence remains distinct."
+  },
+  {
+    "id": "aff-reeder-women-serving-2017",
+    "person_id": "harry-reeder",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Voting Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Harry Reeder."
   }
 ]
