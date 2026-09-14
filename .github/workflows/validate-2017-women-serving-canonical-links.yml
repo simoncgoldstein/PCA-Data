@@ -9,6 +9,7 @@ on:
       - "data/events.json"
       - "data/affiliations.json"
       - "data/sources.json"
+      - "sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json"
       - "sources/normalized/general-assembly/2017-women-serving-ministry-report.json"
       - "sources/normalized/general-assembly/2017-women-serving-ministry-person-edges.json"
       - "scripts/validate-2017-women-serving-canonical-links.py"
