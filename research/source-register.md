@@ -44,7 +44,7 @@ Normalized complete rosters:
 
 Current coverage:
 
-- Letter 1: **60** printed signers; **24** canonical/app-projected;
+- Letter 1: **60** printed signers; **23** canonical/app-projected;
 - Letter 2: **21** printed signers; **21/21** canonical/app-projected;
 - confirmed signatures are `public_coalition_action`, weight **3**, and score-included under the ordinary public-letter/protest methodology.
 
@@ -67,7 +67,7 @@ Reproducibility path:
 
 `build-person-crosswalk.py -> project-garris-signers.py -> build-overlap-analysis.py`
 
-Repository-wide CI reruns that path and requires a clean diff. `scripts/validate-garris-letter-signers.py` separately protects roster completeness, weight/scoring semantics, app linkage, Letter 2 completeness, and the Jeff White boundary.
+Repository-wide CI reruns that path and requires a clean diff. The Garris projector reconciles removals as well as additions so a withdrawn identity cannot leave a stale score-bearing app edge. `scripts/validate-garris-letter-signers.py` separately protects roster completeness, weight/scoring semantics, app linkage, Letter 2 completeness, and the Jeff White boundary.
 
 ## McGowan Global Institute
 
