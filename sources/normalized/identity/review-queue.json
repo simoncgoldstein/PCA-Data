@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 1313,
+    "record_count": 1306,
     "rule": "Rows may appear because of unresolved status, a first/last variant collision key, or initials-only spelling. Review never implies identity."
   },
   "records": [
@@ -243,13 +243,11 @@
       "source_row_locator": "signature:136",
       "name_as_printed": "Rev. Rob Wootton",
       "normalized_candidate": "rob wootton",
-      "match_status": "ambiguous",
+      "match_status": "probable_requires_review",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-00046",
@@ -2315,13 +2313,11 @@
       "source_row_locator": "signature:155",
       "name_as_printed": "Rev. Rob Wootton",
       "normalized_candidate": "rob wootton",
-      "match_status": "ambiguous",
+      "match_status": "probable_requires_review",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-00638",
@@ -3915,13 +3911,11 @@
       "source_row_locator": "signature:606",
       "name_as_printed": "Rev. Ben Lyon",
       "normalized_candidate": "ben lyon",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "benjamin lyon",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-01143",
@@ -10993,13 +10987,11 @@
       "source_row_locator": "print_order:114",
       "name_as_printed": "Ben Lyon",
       "normalized_candidate": "ben lyon",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "benjamin lyon",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02469",
@@ -11360,42 +11352,6 @@
       "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
-      "crosswalk_id": "identity-row-02647",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:108:nate conrad",
-      "name_as_printed": "Nate Conrad",
-      "normalized_candidate": "nate conrad",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-02651",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:111:omar ortiz",
-      "name_as_printed": "Omar Ortiz",
-      "normalized_candidate": "omar ortiz",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-02654",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:114:peter rowan",
-      "name_as_printed": "Peter Rowan",
-      "normalized_candidate": "peter rowan",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-02658",
       "source_dataset": "national_partnership_confirmed_members",
       "source_row_locator": "confirmed_member:118:rich good",
@@ -11413,13 +11369,11 @@
       "source_row_locator": "confirmed_member:123:rob wootton",
       "name_as_printed": "Rob Wootton",
       "normalized_candidate": "rob wootton",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02668",
@@ -11505,13 +11459,11 @@
       "source_row_locator": "confirmed_member:138:tim lecroy",
       "name_as_printed": "Tim LeCroy",
       "normalized_candidate": "tim lecroy",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "timothy lecroy",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02682",
@@ -11569,11 +11521,11 @@
       "source_row_locator": "confirmed_member:19:bruce o neil",
       "name_as_printed": "Bruce O’Neil",
       "normalized_candidate": "bruce o neil",
-      "match_status": "context_confirmed",
+      "match_status": "exact_confirmed",
       "variant_collision_key": null,
       "initials_only_name": true,
       "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator."
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02703",
@@ -11781,13 +11733,11 @@
       "source_row_locator": "confirmed_member:6:ben lyon",
       "name_as_printed": "Ben Lyon",
       "normalized_candidate": "ben lyon",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "benjamin lyon",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02761",
@@ -11816,18 +11766,6 @@
       "reviewer_note": "Exact normalized name recurs, but no shared presbytery, institution, or location is available; no ID assigned."
     },
     {
-      "crosswalk_id": "identity-row-02763",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:76:jeremy fair",
-      "name_as_printed": "Jeremy Fair",
-      "normalized_candidate": "jeremy fair",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-02771",
       "source_dataset": "national_partnership_confirmed_members",
       "source_row_locator": "confirmed_member:83:john pennylegion",
@@ -11854,35 +11792,11 @@
       "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
-      "crosswalk_id": "identity-row-02779",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:90:justin edgar",
-      "name_as_printed": "Justin Edgar",
-      "normalized_candidate": "justin edgar",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-02780",
       "source_dataset": "national_partnership_confirmed_members",
       "source_row_locator": "confirmed_member:91:justin woodall",
       "name_as_printed": "Justin Woodall",
       "normalized_candidate": "justin woodall",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
-      "crosswalk_id": "identity-row-02788",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:99:luke evans",
-      "name_as_printed": "Luke Evans",
-      "normalized_candidate": "luke evans",
       "match_status": "probable_requires_review",
       "variant_collision_key": null,
       "initials_only_name": false,
@@ -12059,13 +11973,11 @@
       "source_row_locator": "print_order:103",
       "name_as_printed": "Tim LeCroy",
       "normalized_candidate": "tim lecroy",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "timothy lecroy",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02842",
@@ -12151,13 +12063,11 @@
       "source_row_locator": "print_order:118",
       "name_as_printed": "Ben Lyon",
       "normalized_candidate": "ben lyon",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "benjamin lyon",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02861",
@@ -12217,11 +12127,11 @@
       "source_row_locator": "print_order:130",
       "name_as_printed": "Bruce O'Neil",
       "normalized_candidate": "bruce o neil",
-      "match_status": "probable_requires_review",
+      "match_status": "exact_confirmed",
       "variant_collision_key": null,
       "initials_only_name": true,
       "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02876",
@@ -12290,18 +12200,6 @@
       "reviewer_note": "Office conflict prevents automatic identity resolution."
     },
     {
-      "crosswalk_id": "identity-row-02923",
-      "source_dataset": "overture_15_negative_votes_2022",
-      "source_row_locator": "print_order:178",
-      "name_as_printed": "Bruce Terrell",
-      "normalized_candidate": "bruce terrell",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-02931",
       "source_dataset": "overture_15_negative_votes_2022",
       "source_row_locator": "print_order:185",
@@ -12347,13 +12245,11 @@
       "source_row_locator": "print_order:196",
       "name_as_printed": "Rob Wootton",
       "normalized_candidate": "rob wootton",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-02945",
@@ -12607,13 +12503,11 @@
       "source_row_locator": "print_order:17",
       "name_as_printed": "Ben Lyon",
       "normalized_candidate": "ben lyon",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "benjamin lyon",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-03046",
@@ -12831,13 +12725,11 @@
       "source_row_locator": "print_order:125",
       "name_as_printed": "Ben Lyon",
       "normalized_candidate": "ben lyon",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "benjamin lyon",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-03095",
@@ -13159,13 +13051,11 @@
       "source_row_locator": "print_order:204",
       "name_as_printed": "Rob Wootton",
       "normalized_candidate": "rob wootton",
-      "match_status": "ambiguous",
+      "match_status": "probable_requires_review",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-03185",
@@ -15631,11 +15521,11 @@
       "source_row_locator": "print_order:33",
       "name_as_printed": "Bruce O’Neil",
       "normalized_candidate": "bruce o neil",
-      "match_status": "context_confirmed",
+      "match_status": "exact_confirmed",
       "variant_collision_key": null,
       "initials_only_name": true,
       "conflicting_fields": [],
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator."
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-04163",
@@ -15843,13 +15733,11 @@
       "source_row_locator": "print_order:91",
       "name_as_printed": "Rob Wootton",
       "normalized_candidate": "rob wootton",
-      "match_status": "ambiguous",
+      "match_status": "exact_confirmed",
       "variant_collision_key": "robert wootton",
       "initials_only_name": false,
-      "conflicting_fields": [
-        "multiple full-name or initial variants share this first/last-name key"
-      ],
-      "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
+      "conflicting_fields": [],
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
       "crosswalk_id": "identity-row-04230",

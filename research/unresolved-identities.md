@@ -16,13 +16,13 @@ Policy for the remaining Letter 1 queue:
 - preserve printed office/church/presbytery context and the original source row;
 - keep Letter 1 `Jeff White` (New City Fellowship / Rio Grande) unresolved unless independent evidence establishes that specific identity. It is not the reviewed Letter 2 `Jeff White` from Redeemer Downtown / Metro NY.
 
-The generated identity review queue remains the working list. A resolved signature is weight 3 as a public-letter action, but identity resolution does not add unrelated network memberships or issue positions.
+A resolved signature is weight 3 as a public-letter action, but identity resolution does not add unrelated network memberships or issue positions.
 
-The former NP-continuity priority rows **David Lindberg** and **David Richmon** are now reviewed and resolved. Lindberg's historical Metro Atlanta NP context and later North Texas Garris context are preserved as dated ministry contexts rather than forced into a same-presbytery match. Richmon's Pacific Northwest identity is tied through the Green Lake → Trinity Seattle church history.
+The targeted NP ↔ Garris Letter 1 exact-name queue is complete: David Lindberg and David Richmon are reviewed canonical matches.
 
 ## 2017 Women Serving committee
 
-**Identity resolution is complete.** All 12 official committee members are canonically linked and projected to the app-facing committee event.
+**Identity resolution is complete.** All 12 official committee members are canonically linked and projected to the app-facing committee event. Committee service remains zero-weight and does not establish agreement with every report statement; person-specific authored material is normalized separately.
 
 Reviewed canonical IDs:
 
@@ -39,15 +39,6 @@ Reviewed canonical IDs:
 - Harry Reeder — `harry-reeder`
 - Roy Taylor — `roy-taylor`
 
-Applied review receipts:
-
-- `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json` — Dan Doriani, Ligon Duncan, Roy Taylor.
-- `sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json` — Leon Brown, Mary Beth McGreevy, Harry Reeder.
-- `sources/raw/identity/2017-women-serving-identity-evidence-batch3-2026-09-14.json` — Jeffrey Choi, Kathy Keller.
-- `sources/raw/identity/2017-women-serving-identity-evidence-batch4-2026-09-14.json` — William Castro, Lani Jones.
-
-Committee service remains zero-weight and does not establish agreement with every report statement. Person-specific authored material is normalized separately.
-
 ## 2026 Overture 37 attribution boundary
 
 Current evidence establishes Pacific Presbytery as the formal submitting body for Overture 37. Jeffrey Choi is documented as a public advocate, floor speaker in support, and one of four co-authors/submitters of the later formal dissent.
@@ -56,7 +47,7 @@ Current evidence establishes Pacific Presbytery as the formal submitting body fo
 
 ## National Partnership identity coverage and archival pins
 
-The normalized NP source layer contains **151 confirmed printed-name members**, and **45** now have confirmed canonical person identities. That **29.8%** canonical coverage remains incomplete and plausibly non-random because people who recur elsewhere are easier to identity-resolve.
+The normalized NP source layer contains **151 confirmed printed-name members**, and **54** now have confirmed canonical person identities. That **35.76%** canonical coverage remains incomplete and plausibly non-random because people who recur elsewhere are easier to identity-resolve.
 
 Consequences:
 
@@ -64,16 +55,29 @@ Consequences:
 - do not calculate NP-vs-non-NP risk ratios by assigning everyone without a canonical NP edge to a non-member comparison group;
 - unresolved exact-name overlaps are research leads only, not confirmed identity matches.
 
-Current continuity-analysis priorities:
+Completed targeted continuity queues:
 
-1. NP ↔ Garris Letter 1 targeted exact-name queue is **complete**: David Lindberg and David Richmon are reviewed canonical matches. Current confirmed overlap is 10 people; 25/60 Letter 1 signers are canonical.
-2. NP ↔ 2022 Overture 15 negative votes: **10** unresolved exact-name possibilities remain.
-3. NP ↔ 2022 NAE-withdrawal protest: **5** unresolved exact-name possibilities remain.
-4. NP ↔ A Faithful PCA can be improved afterward, but the March 2022 file is a cumulative snapshot of the 2021 action rather than an independent later event.
+1. **NP ↔ Garris Letter 1:** exact-name queue complete; 10 confirmed overlaps, 25/60 Letter 1 signers canonical.
+2. **NP ↔ 2022 Overture 15 negative votes:** exact-name queue complete; **20 confirmed overlaps, 0 unresolved exact-name possibilities**.
+3. **NP ↔ 2022 NAE-withdrawal protest:** exact-name queue complete; **10 confirmed overlaps, 0 unresolved exact-name possibilities**.
 
-Some person-level entries also remain below `confirmed` because the source family is known but an exact message/page citation is not yet normalized into the app-facing claim. Continue to distinguish membership, recruitment, committee placement, promoted candidates, and adjacency.
+The reviewed O15/NAE batch includes Ben Lyon, Bruce O'Neil, Bruce Terrell, Jeremy Fair, Justin Edgar, Luke Evans, Omar Ortiz, Peter Rowan, Rob Wootton, Tim LeCroy, and Nate Conrad. Receipt:
 
-Recent exact pins for Bruce O'Neil, Mike Khandjian, Ray Cortese, and Bob Flayhart are already complete and should not be re-researched as unresolved.
+`sources/raw/identity/np-postarchive-identity-evidence-batch1-2026-09-14.json`
+
+Preserve reviewed source-boundary caveats:
+
+- Jeremy Fair's NP presbytery label conflicts with later/official denominational context; the identity resolution does not validate the NP printed label as accurate.
+- Justin Edgar's NP archive row contains a nonstandard presbytery label; preserve it as source text rather than normalizing it into an official presbytery claim.
+- Bruce O'Neil, Rob Wootton, and Nate Conrad involve dated presbytery/ministry transitions rather than same-presbytery matching.
+
+Next identity work should be narrow and information-driven:
+
+1. review the highest-value remaining NP ↔ **A Faithful PCA / Warhurst** exact-name possibilities, prioritizing names recurring across multiple independent source families;
+2. add exact archival page/message pins for already important canonical NP people when that materially improves app-facing evidence quality;
+3. do not pursue full 151/151 identity completion merely to improve coverage.
+
+Some person-level app entries also remain below `confirmed` because the source family is known but an exact message/page citation is not yet normalized into the app-facing claim. Continue to distinguish membership, recruitment, committee placement, promoted candidates, and adjacency.
 
 Generated continuity analysis:
 
@@ -99,7 +103,7 @@ For people now serving primarily in adjacent institutions, distinguish current P
 
 ## Historical renewal networks
 
-The following areas remain to be fully reconstructed before using formal membership language:
+The following areas remain candidates for later reconstruction but are not prerequisites for the immediate UI phase unless the gap audit shows they materially affect the intended product:
 
 - 2006 Presbyterians and Presbyterians Together roster and role taxonomy;
 - 2008 Denominational Renewal organizers versus speakers versus respondents;
@@ -112,7 +116,7 @@ The following areas remain to be fully reconstructed before using formal members
 
 Common names require institutional, office, presbytery, location, or other contextual evidence before merging records. A same-name match is not sufficient evidence.
 
-Reviewed aliases and name variants are person-specific decisions. Do not generalize one reviewed nickname, middle-initial, or spelling equivalence into a global matching rule.
+Reviewed aliases and name variants are person-specific decisions. Do not generalize one reviewed nickname, middle-initial, spelling equivalence, or historical-move decision into a global matching rule.
 
 ## Maintenance
 

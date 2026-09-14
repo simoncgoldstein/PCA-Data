@@ -3125,6 +3125,16 @@
           ]
         },
         {
+          "canonical_person_id": "jeremy-fair",
+          "name": "Jeremy Fair",
+          "dataset_a_locators": [
+            "signature:238"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:76:jeremy fair"
+          ]
+        },
+        {
           "canonical_person_id": "john-bourgeois",
           "name": "John Bourgeois",
           "dataset_a_locators": [
@@ -3152,6 +3162,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:89:joshua reitano"
+          ]
+        },
+        {
+          "canonical_person_id": "justin-edgar",
+          "name": "Justin Edgar",
+          "dataset_a_locators": [
+            "signature:194"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:90:justin edgar"
           ]
         },
         {
@@ -3185,6 +3205,16 @@
           ]
         },
         {
+          "canonical_person_id": "luke-evans",
+          "name": "Luke Evans",
+          "dataset_a_locators": [
+            "signature:183"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:99:luke evans"
+          ]
+        },
+        {
           "canonical_person_id": "michael-novak",
           "name": "Michael Novak",
           "dataset_a_locators": [
@@ -3212,6 +3242,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:112:pat hickman"
+          ]
+        },
+        {
+          "canonical_person_id": "peter-rowan",
+          "name": "Peter Rowan",
+          "dataset_a_locators": [
+            "signature:147"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:114:peter rowan"
           ]
         },
         {
@@ -3291,13 +3331,9 @@
         "david goneau",
         "david lindberg",
         "david wallover",
-        "jeremy fair",
         "jon price",
-        "justin edgar",
         "justin woodall",
-        "luke evans",
         "mark bates",
-        "peter rowan",
         "rob wootton",
         "sam desocio"
       ]
@@ -6132,6 +6168,16 @@
           ]
         },
         {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "signature:606"
+          ],
+          "dataset_b_locators": [
+            "print_order:114"
+          ]
+        },
+        {
           "canonical_person_id": "bobby-suh",
           "name": "Bobby Suh",
           "dataset_a_locators": [
@@ -6484,7 +6530,6 @@
       ],
       "unresolved_exact_name_keys": [
         "allan harmening",
-        "ben lyon",
         "curran bishop",
         "daniel jung",
         "hector sanchez",
@@ -6525,6 +6570,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:5:austin pfeiffer"
+          ]
+        },
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "signature:606"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:6:ben lyon"
           ]
         },
         {
@@ -6698,6 +6753,16 @@
           ]
         },
         {
+          "canonical_person_id": "jeremy-fair",
+          "name": "Jeremy Fair",
+          "dataset_a_locators": [
+            "signature:256"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:76:jeremy fair"
+          ]
+        },
+        {
           "canonical_person_id": "john-bourgeois",
           "name": "John Bourgeois",
           "dataset_a_locators": [
@@ -6725,6 +6790,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:89:joshua reitano"
+          ]
+        },
+        {
+          "canonical_person_id": "justin-edgar",
+          "name": "Justin Edgar",
+          "dataset_a_locators": [
+            "signature:213"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:90:justin edgar"
           ]
         },
         {
@@ -6758,6 +6833,16 @@
           ]
         },
         {
+          "canonical_person_id": "luke-evans",
+          "name": "Luke Evans",
+          "dataset_a_locators": [
+            "signature:202"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:99:luke evans"
+          ]
+        },
+        {
           "canonical_person_id": "matthew-armstrong",
           "name": "Matthew Armstrong",
           "dataset_a_locators": [
@@ -6788,6 +6873,16 @@
           ]
         },
         {
+          "canonical_person_id": "nate-conrad",
+          "name": "Nate Conrad",
+          "dataset_a_locators": [
+            "signature:704"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:108:nate conrad"
+          ]
+        },
+        {
           "canonical_person_id": "pat-hickman",
           "name": "Pat Hickman",
           "dataset_a_locators": [
@@ -6795,6 +6890,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:112:pat hickman"
+          ]
+        },
+        {
+          "canonical_person_id": "peter-rowan",
+          "name": "Peter Rowan",
+          "dataset_a_locators": [
+            "signature:166"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:114:peter rowan"
           ]
         },
         {
@@ -6869,21 +6974,15 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "ben lyon",
         "blake altman",
         "charles garland",
         "david goneau",
         "david lindberg",
         "david wallover",
         "jeff schneider",
-        "jeremy fair",
         "jon price",
-        "justin edgar",
         "justin woodall",
-        "luke evans",
         "mark bates",
-        "nate conrad",
-        "peter rowan",
         "rob wootton",
         "sam desocio"
       ]
@@ -6940,6 +7039,16 @@
           ],
           "dataset_b_locators": [
             "print_order:125"
+          ]
+        },
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "signature:606"
+          ],
+          "dataset_b_locators": [
+            "print_order:118"
           ]
         },
         {
@@ -7484,7 +7593,6 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "ben lyon",
         "curran bishop",
         "greg ward",
         "jeff white",
@@ -7502,6 +7610,16 @@
       "dataset_a": "a_faithful_pca_2022-03-14",
       "dataset_b": "overture_37_minority_2021",
       "confirmed_shared_people": [
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "signature:606"
+          ],
+          "dataset_b_locators": [
+            "print_order:17"
+          ]
+        },
         {
           "canonical_person_id": "bevan-houston",
           "name": "Bevan Houston",
@@ -7624,7 +7742,6 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "ben lyon",
         "brian davis",
         "derek radney"
       ]
@@ -7691,6 +7808,16 @@
           ],
           "dataset_b_locators": [
             "print_order:63"
+          ]
+        },
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "signature:606"
+          ],
+          "dataset_b_locators": [
+            "print_order:125"
           ]
         },
         {
@@ -8435,7 +8562,6 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "ben lyon",
         "brian davis",
         "curran bishop",
         "dan smith",
@@ -13976,6 +14102,16 @@
       "dataset_b": "national_partnership_confirmed_members",
       "confirmed_shared_people": [
         {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "print_order:114"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:6:ben lyon"
+          ]
+        },
+        {
           "canonical_person_id": "ethan-smith",
           "name": "Ethan Smith",
           "dataset_a_locators": [
@@ -13983,6 +14119,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:56:ethan smith"
+          ]
+        },
+        {
+          "canonical_person_id": "jeremy-fair",
+          "name": "Jeremy Fair",
+          "dataset_a_locators": [
+            "print_order:47"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:76:jeremy fair"
           ]
         },
         {
@@ -14016,6 +14162,36 @@
           ]
         },
         {
+          "canonical_person_id": "nate-conrad",
+          "name": "Nate Conrad",
+          "dataset_a_locators": [
+            "print_order:33"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:108:nate conrad"
+          ]
+        },
+        {
+          "canonical_person_id": "omar-ortiz",
+          "name": "Omar Ortiz",
+          "dataset_a_locators": [
+            "print_order:126"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:111:omar ortiz"
+          ]
+        },
+        {
+          "canonical_person_id": "peter-rowan",
+          "name": "Peter Rowan",
+          "dataset_a_locators": [
+            "print_order:148"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:114:peter rowan"
+          ]
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls",
           "dataset_a_locators": [
@@ -14026,13 +14202,7 @@
           ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "ben lyon",
-        "jeremy fair",
-        "nate conrad",
-        "omar ortiz",
-        "peter rowan"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "nae_withdrawal_protest_2022",
@@ -14066,6 +14236,16 @@
           ],
           "dataset_b_locators": [
             "print_order:63"
+          ]
+        },
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "print_order:114"
+          ],
+          "dataset_b_locators": [
+            "print_order:118"
           ]
         },
         {
@@ -14581,7 +14761,6 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew terrell",
-        "ben lyon",
         "curran bishop",
         "hector sanchez",
         "jeffrey birch",
@@ -14600,6 +14779,16 @@
       "dataset_a": "nae_withdrawal_protest_2022",
       "dataset_b": "overture_37_minority_2021",
       "confirmed_shared_people": [
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "print_order:114"
+          ],
+          "dataset_b_locators": [
+            "print_order:17"
+          ]
+        },
         {
           "canonical_person_id": "owen-lee",
           "name": "Owen Lee",
@@ -14621,9 +14810,7 @@
           ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "ben lyon"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "nae_withdrawal_protest_2022",
@@ -14657,6 +14844,16 @@
           ],
           "dataset_b_locators": [
             "print_order:79"
+          ]
+        },
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "print_order:114"
+          ],
+          "dataset_b_locators": [
+            "print_order:125"
           ]
         },
         {
@@ -14882,7 +15079,6 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew terrell",
-        "ben lyon",
         "chris talley",
         "curran bishop",
         "mark samuel"
@@ -15211,6 +15407,36 @@
           ]
         },
         {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "confirmed_member:6:ben lyon"
+          ],
+          "dataset_b_locators": [
+            "print_order:118"
+          ]
+        },
+        {
+          "canonical_person_id": "bruce-o-neil",
+          "name": "Bruce O’Neil",
+          "dataset_a_locators": [
+            "confirmed_member:19:bruce o neil"
+          ],
+          "dataset_b_locators": [
+            "print_order:130"
+          ]
+        },
+        {
+          "canonical_person_id": "bruce-terrell",
+          "name": "Bruce Terrell",
+          "dataset_a_locators": [
+            "confirmed_member:20:bruce terrell"
+          ],
+          "dataset_b_locators": [
+            "print_order:178"
+          ]
+        },
+        {
           "canonical_person_id": "bryce-hales",
           "name": "Bryce Hales",
           "dataset_a_locators": [
@@ -15251,6 +15477,26 @@
           ]
         },
         {
+          "canonical_person_id": "jeremy-fair",
+          "name": "Jeremy Fair",
+          "dataset_a_locators": [
+            "confirmed_member:76:jeremy fair"
+          ],
+          "dataset_b_locators": [
+            "print_order:50"
+          ]
+        },
+        {
+          "canonical_person_id": "justin-edgar",
+          "name": "Justin Edgar",
+          "dataset_a_locators": [
+            "confirmed_member:90:justin edgar"
+          ],
+          "dataset_b_locators": [
+            "print_order:46"
+          ]
+        },
+        {
           "canonical_person_id": "kevin-twit",
           "name": "Kevin Twit",
           "dataset_a_locators": [
@@ -15281,6 +15527,16 @@
           ]
         },
         {
+          "canonical_person_id": "luke-evans",
+          "name": "Luke Evans",
+          "dataset_a_locators": [
+            "confirmed_member:99:luke evans"
+          ],
+          "dataset_b_locators": [
+            "print_order:49"
+          ]
+        },
+        {
           "canonical_person_id": "mike-khandjian",
           "name": "Mike Khandjian",
           "dataset_a_locators": [
@@ -15288,6 +15544,36 @@
           ],
           "dataset_b_locators": [
             "print_order:87"
+          ]
+        },
+        {
+          "canonical_person_id": "omar-ortiz",
+          "name": "Omar Ortiz",
+          "dataset_a_locators": [
+            "confirmed_member:111:omar ortiz"
+          ],
+          "dataset_b_locators": [
+            "print_order:131"
+          ]
+        },
+        {
+          "canonical_person_id": "peter-rowan",
+          "name": "Peter Rowan",
+          "dataset_a_locators": [
+            "confirmed_member:114:peter rowan"
+          ],
+          "dataset_b_locators": [
+            "print_order:149"
+          ]
+        },
+        {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "confirmed_member:123:rob wootton"
+          ],
+          "dataset_b_locators": [
+            "print_order:196"
           ]
         },
         {
@@ -15299,25 +15585,34 @@
           "dataset_b_locators": [
             "print_order:154"
           ]
+        },
+        {
+          "canonical_person_id": "tim-lecroy",
+          "name": "Tim LeCroy",
+          "dataset_a_locators": [
+            "confirmed_member:138:tim lecroy"
+          ],
+          "dataset_b_locators": [
+            "print_order:103"
+          ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "ben lyon",
-        "bruce o neil",
-        "bruce terrell",
-        "jeremy fair",
-        "justin edgar",
-        "luke evans",
-        "omar ortiz",
-        "peter rowan",
-        "rob wootton",
-        "tim lecroy"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "national_partnership_confirmed_members",
       "dataset_b": "overture_37_minority_2021",
       "confirmed_shared_people": [
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "confirmed_member:6:ben lyon"
+          ],
+          "dataset_b_locators": [
+            "print_order:17"
+          ]
+        },
         {
           "canonical_person_id": "geoff-ziegler",
           "name": "Geoff Ziegler",
@@ -15327,13 +15622,21 @@
           "dataset_b_locators": [
             "print_order:28"
           ]
+        },
+        {
+          "canonical_person_id": "peter-rowan",
+          "name": "Peter Rowan",
+          "dataset_a_locators": [
+            "confirmed_member:114:peter rowan"
+          ],
+          "dataset_b_locators": [
+            "print_order:21"
+          ]
         }
       ],
       "unresolved_exact_name_keys": [
-        "ben lyon",
         "bruce terrell",
         "erik bonkovsky",
-        "peter rowan",
         "sean roberts",
         "tag tuck"
       ]
@@ -15350,6 +15653,16 @@
           ],
           "dataset_b_locators": [
             "print_order:144"
+          ]
+        },
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "confirmed_member:6:ben lyon"
+          ],
+          "dataset_b_locators": [
+            "print_order:125"
           ]
         },
         {
@@ -15453,6 +15766,16 @@
           ]
         },
         {
+          "canonical_person_id": "jeremy-fair",
+          "name": "Jeremy Fair",
+          "dataset_a_locators": [
+            "confirmed_member:76:jeremy fair"
+          ],
+          "dataset_b_locators": [
+            "print_order:60"
+          ]
+        },
+        {
           "canonical_person_id": "joshua-reitano",
           "name": "Joshua Reitano",
           "dataset_a_locators": [
@@ -15493,6 +15816,16 @@
           ]
         },
         {
+          "canonical_person_id": "peter-rowan",
+          "name": "Peter Rowan",
+          "dataset_a_locators": [
+            "confirmed_member:114:peter rowan"
+          ],
+          "dataset_b_locators": [
+            "print_order:162"
+          ]
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls",
           "dataset_a_locators": [
@@ -15504,10 +15837,7 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "ben lyon",
         "iron kim",
-        "jeremy fair",
-        "peter rowan",
         "rich good",
         "rob wootton",
         "sam desocio",
@@ -15764,6 +16094,16 @@
           ]
         },
         {
+          "canonical_person_id": "jeremy-fair",
+          "name": "Jeremy Fair",
+          "dataset_a_locators": [
+            "confirmed_member:76:jeremy fair"
+          ],
+          "dataset_b_locators": [
+            "print_order:155"
+          ]
+        },
+        {
           "canonical_person_id": "jonathan-winfree",
           "name": "Jonathan Winfree",
           "dataset_a_locators": [
@@ -15771,6 +16111,16 @@
           ],
           "dataset_b_locators": [
             "print_order:111"
+          ]
+        },
+        {
+          "canonical_person_id": "justin-edgar",
+          "name": "Justin Edgar",
+          "dataset_a_locators": [
+            "confirmed_member:90:justin edgar"
+          ],
+          "dataset_b_locators": [
+            "print_order:171"
           ]
         },
         {
@@ -15814,6 +16164,26 @@
           ]
         },
         {
+          "canonical_person_id": "peter-rowan",
+          "name": "Peter Rowan",
+          "dataset_a_locators": [
+            "confirmed_member:114:peter rowan"
+          ],
+          "dataset_b_locators": [
+            "print_order:130"
+          ]
+        },
+        {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "confirmed_member:123:rob wootton"
+          ],
+          "dataset_b_locators": [
+            "print_order:91"
+          ]
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls",
           "dataset_a_locators": [
@@ -15829,12 +16199,8 @@
         "david ridenhour",
         "david wallover",
         "hansoo jin",
-        "jeremy fair",
-        "justin edgar",
         "justin woodall",
         "omar ortiz",
-        "peter rowan",
-        "rob wootton",
         "sean roberts",
         "tag tuck",
         "todd gwennap"
@@ -15911,6 +16277,16 @@
           ]
         },
         {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "print_order:118"
+          ],
+          "dataset_b_locators": [
+            "print_order:17"
+          ]
+        },
+        {
           "canonical_person_id": "david-cassidy",
           "name": "David Cassidy",
           "dataset_a_locators": [
@@ -15962,7 +16338,6 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "ben lyon",
         "ben sinnard",
         "bruce terrell"
       ]
@@ -16002,6 +16377,16 @@
           ]
         },
         {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "print_order:118"
+          ],
+          "dataset_b_locators": [
+            "print_order:125"
+          ]
+        },
+        {
           "canonical_person_id": "ben-reed",
           "name": "Ben Reed",
           "dataset_a_locators": [
@@ -16029,6 +16414,16 @@
           ],
           "dataset_b_locators": [
             "print_order:124"
+          ]
+        },
+        {
+          "canonical_person_id": "bruce-terrell",
+          "name": "Bruce Terrell",
+          "dataset_a_locators": [
+            "print_order:178"
+          ],
+          "dataset_b_locators": [
+            "print_order:184"
           ]
         },
         {
@@ -16424,10 +16819,8 @@
       ],
       "unresolved_exact_name_keys": [
         "andrew terrell",
-        "ben lyon",
         "ben milner",
         "ben sinnard",
-        "bruce terrell",
         "curran bishop",
         "jeff white",
         "jeremy king",
@@ -16595,6 +16988,16 @@
           ],
           "dataset_b_locators": [
             "print_order:80"
+          ]
+        },
+        {
+          "canonical_person_id": "bruce-o-neil",
+          "name": "Bruce O’Neil",
+          "dataset_a_locators": [
+            "print_order:130"
+          ],
+          "dataset_b_locators": [
+            "print_order:33"
           ]
         },
         {
@@ -16798,6 +17201,16 @@
           ]
         },
         {
+          "canonical_person_id": "rob-wootton",
+          "name": "Rob Wootton",
+          "dataset_a_locators": [
+            "print_order:196"
+          ],
+          "dataset_b_locators": [
+            "print_order:91"
+          ]
+        },
+        {
           "canonical_person_id": "russ-ramsey",
           "name": "Russ Ramsey",
           "dataset_a_locators": [
@@ -16859,7 +17272,6 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "bruce o neil",
         "david daniel",
         "greg ward",
         "hansoo jin",
@@ -16869,7 +17281,6 @@
         "lance lewis",
         "omar ortiz",
         "randy lovelace",
-        "rob wootton",
         "steven cooper",
         "tom patton"
       ]
@@ -16895,6 +17306,16 @@
       "dataset_a": "overture_37_minority_2021",
       "dataset_b": "overture_37_negative_votes_2021",
       "confirmed_shared_people": [
+        {
+          "canonical_person_id": "ben-lyon",
+          "name": "Ben Lyon",
+          "dataset_a_locators": [
+            "print_order:17"
+          ],
+          "dataset_b_locators": [
+            "print_order:125"
+          ]
+        },
         {
           "canonical_person_id": "brian-lopiccolo",
           "name": "Brian LoPiccolo",
@@ -16957,7 +17378,6 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "ben lyon",
         "ben sinnard",
         "brian davis",
         "bruce terrell",

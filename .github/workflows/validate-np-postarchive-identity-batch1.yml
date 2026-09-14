@@ -1,0 +1,24 @@
+name: Validate NP post-archive identity batch 1
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Rebuild identity and continuity outputs
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/build-overlap-analysis.py .
+          python3 scripts/build-national-partnership-continuity-analysis.py .
+      - name: Validate reviewed post-archive identity batch
+        run: python3 scripts/validate-np-postarchive-identity-batch1.py .
+      - name: Require generated outputs current
+        run: git diff --exit-code

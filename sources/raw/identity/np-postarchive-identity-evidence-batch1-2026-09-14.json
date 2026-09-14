@@ -1,0 +1,182 @@
+{
+  "receipt_id": "np-postarchive-identity-evidence-batch1-2026-09-14",
+  "reviewed_on": "2026-09-14",
+  "scope": "Targeted identity review for the 11 unique unresolved exact-name National Partnership overlaps across the 2022 Overture 15 negative-vote roster and NAE-withdrawal protest roster.",
+  "status": "reviewed_canonical_identity_evidence",
+  "method": "Each decision joins an explicit National Partnership membership record to one or both official 2022 PCA action rosters only where office/presbytery continuity or independently documented ministry history supports the person-level match. Historical presbytery changes and questionable source labels are preserved rather than normalized away. This receipt establishes identity only; NP membership, recorded voting, and protest signing remain separately sourced actions.",
+  "guardrails": [
+    "Exact-name overlap alone is not sufficient for a canonical identity decision.",
+    "A reviewed identity does not convert a person into a generic ideological label; it connects separately documented actions to the same person.",
+    "Historical presbytery changes are retained as dated facts rather than treated as contradictions or silently overwritten.",
+    "Jeremy Fair's 2019 NP presbytery label is preserved as printed even though official 2019 PCA evidence places him in Hills and Plains; the identity decision does not certify the NP label as current or accurate.",
+    "Justin Edgar's 2018 NP source label 'Build That Wall Presbytery' is preserved as archival wording and is not treated as a real PCA presbytery name.",
+    "No global name-matching threshold is relaxed by these person-specific decisions."
+  ],
+  "evidence": [
+    {
+      "name_as_printed": "Ben Lyon",
+      "canonical_person_id": "ben-lyon",
+      "np_context": {"presbytery_as_printed": "Tidewater", "office_as_printed": "TE", "evidence_summary": "2014 addition and repeated 2015-2019 Partnership committee rosters."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 118, "presbytery_as_printed": "Tidewater", "office_as_printed": "TE"},
+        {"dataset": "nae_withdrawal_protest_2022", "print_order": 114, "presbytery_as_printed": "Tidewater", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/43rd_pcaga_2015.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2015 GA roster lists TE Benjamin Lyon of Tidewater."},
+        {"url": "https://www.pcaac.org/more-than-a-list-the-mission-critical-work-of-the-nominating-committee/", "publisher": "PCA Administrative Committee", "source_kind": "official_denominational_first_party", "evidence_summary": "PCA AC identifies Ben Lyon as Nominating Committee chairman and Executive Pastor of Trinity Presbyterian Church in Norfolk."}
+      ],
+      "identity_reasoning": "Exact-name/first-name form, Teaching Elder office, and Tidewater Presbytery recur across independent NP and official GA source families; official PCA material independently anchors the same minister in Tidewater ministry.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Bruce O'Neil",
+      "canonical_person_id": "bruce-o-neil",
+      "np_context": {"presbytery_as_printed": "Chesapeake", "office_as_printed": "TE", "evidence_summary": "2018 NP-guys committee roster; official 2014 PCA material independently places E. Bruce O'Neil in Chesapeake."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 130, "presbytery_as_printed": "Metropolitan New York", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/42nd_pcaga_2014.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official PCA biographical material identifies TE E. Bruce O'Neil of Chesapeake, senior pastor of Evangelical Presbyterian Church in Annapolis."},
+        {"url": "https://www.redeemer.com/r/guidelines_for_marriage_by_a_redeemer_pastor", "publisher": "Redeemer Churches and Ministries", "source_kind": "first_party_church", "evidence_summary": "Redeemer lists Bruce O'Neil among Lincoln Square pastors."},
+        {"url": "https://music.amazon.com.au/podcasts/0f4d6028-2728-435e-8a33-2b94c8315b21/episodes/0d48effd-2f94-463c-b562-6ee8821e8a01/lsq-podcast-finding-something-that-lasts", "publisher": "Redeemer Lincoln Square podcast distribution", "source_kind": "contemporaneous_church_media", "evidence_summary": "A 2021 Redeemer Lincoln Square sermon is explicitly preached by Pastor Bruce O'Neil, documenting the move to New York before the 2022 GA action."}
+      ],
+      "identity_reasoning": "The canonical Bruce O'Neil profile is already independently resolved from official PCA evidence. The Chesapeake NP record and later Metro New York vote are joined through dated first-party evidence placing the same pastor at Redeemer Lincoln Square before the 2022 Assembly.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Bruce Terrell",
+      "canonical_person_id": "bruce-terrell",
+      "np_context": {"presbytery_as_printed": "Metro New York", "office_as_printed": "RE", "evidence_summary": "2013 NP addition plus later explicit NP-member nominee records."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 178, "presbytery_as_printed": "Metropolitan New York", "office_as_printed": "RE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/50th_pcaga_2023.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_biography", "evidence_summary": "Official 2023 PCA appendix identifies RE Bruce Terrell of Metro New York, former Redeemer NYC executive director and 41st GA Moderator."}
+      ],
+      "identity_reasoning": "Exact name, Ruling Elder office, and Metro New York context match directly across NP, the official 2022 vote roster, and an independent official PCA biography.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Jeremy Fair",
+      "canonical_person_id": "jeremy-fair",
+      "np_context": {"presbytery_as_printed": "North Texas", "office_as_printed": "TE", "evidence_summary": "2019 explicit NP-members committee roster; the printed presbytery label is preserved as source data."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 50, "presbytery_as_printed": "Hills and Plains", "office_as_printed": "TE"},
+        {"dataset": "nae_withdrawal_protest_2022", "print_order": 47, "presbytery_as_printed": "Hills and Plains", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2019 GA material lists TE Jeremy Fair of Hills and Plains on the relevant minority report."},
+        {"url": "https://pcahistory.org/pca/succession/Texas.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_history", "evidence_summary": "PCA succession history records Jeremy Fair at Arlington Presbyterian Church in North Texas from 2008-2011, explaining the historical North Texas association."},
+        {"url": "https://byfaithonline.com/pca-pastor-in-oklahoma-arrested/", "publisher": "byFaith", "source_kind": "pca_denominational_reporting", "evidence_summary": "byFaith identifies Jeremy Fair as the Tulsa pastor in Hills and Plains and notes his earlier senior pastorate at Arlington Presbyterian in Texas."}
+      ],
+      "identity_reasoning": "The rare exact-name PCA Teaching Elder has a documented ministry chain through Arlington, Texas and later Hills and Plains/Tulsa. Official 2019 PCA evidence already places him in Hills and Plains, so the 2019 NP 'North Texas' label is treated as stale or otherwise non-current source wording, not as evidence for a different person.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Justin Edgar",
+      "canonical_person_id": "justin-edgar",
+      "np_context": {"presbytery_as_printed": "Build That Wall Presbytery", "office_as_printed": null, "evidence_summary": "2018 NP-guys committee roster; nonstandard label preserved verbatim and not interpreted as a PCA court."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 46, "presbytery_as_printed": "Rio Grande", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2019 PCA Warhurst protest roster includes TE Justin Edgar of Rio Grande."},
+        {"url": "https://www.rgppca.org/committees", "publisher": "Rio Grande Presbytery", "source_kind": "first_party_presbytery", "evidence_summary": "Rio Grande's 2022 committee page lists Justin Edgar on the Mission Committee."}
+      ],
+      "identity_reasoning": "The NP archive's unusual presbytery wording is not relied upon as valid geography. The rare exact-name minister is independently documented by official 2019 PCA and first-party 2022 Rio Grande sources, matching the official 2022 Overture 15 voter. The identity decision does not validate the NP presbytery label.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Luke Evans",
+      "canonical_person_id": "luke-evans",
+      "np_context": {"presbytery_as_printed": null, "office_as_printed": "TE", "evidence_summary": "2014 named NP committee roster."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 49, "presbytery_as_printed": "South Texas", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://pcahistory.org/pca/succession/Texas.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_history", "evidence_summary": "PCA succession history records Luke Evans as organizing pastor of Christ Church San Antonio beginning in 2013 and pastor from 2016, in South Texas."},
+        {"url": "https://reachsouthtexas.org/who", "publisher": "Reach South Texas", "source_kind": "first_party_ministry", "evidence_summary": "Reach South Texas identifies Luke Evans as Executive Director of the South Texas church-planting network."}
+      ],
+      "identity_reasoning": "Official denominational history anchors exact-name TE Luke Evans in South Texas beginning before the 2014 NP record and continuing through later ministry; this independently corroborates the 2022 South Texas voter.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Omar Ortiz",
+      "canonical_person_id": "omar-ortiz",
+      "np_context": {"presbytery_as_printed": null, "office_as_printed": null, "evidence_summary": "2013 archive messages explicitly say 'NP member Omar Ortiz'."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 131, "presbytery_as_printed": "South Coast", "office_as_printed": "TE"},
+        {"dataset": "nae_withdrawal_protest_2022", "print_order": 126, "presbytery_as_printed": "South Coast", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/43rd_pcaga_2015.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2015 GA roster lists TE Omar Ortiz of Gulfstream, providing an early denominational anchor for the exact-name minister."},
+        {"url": "https://www.hlipca.com/team", "publisher": "Hispanic Leadership Initiative", "source_kind": "first_party_pca_ministry", "evidence_summary": "HLI identifies Omar Ortiz as Board President and pastor of Harbor City Church in San Diego."},
+        {"url": "https://www.naparcsearch.com/pca/south-coast", "publisher": "NAPARC Search", "source_kind": "current_denominational_directory_aggregation", "evidence_summary": "Current South Coast listing identifies Omar Ortiz as pastor of Harbor City Church in San Diego."}
+      ],
+      "identity_reasoning": "The NP source explicitly calls Omar Ortiz a member. Official PCA records and later first-party ministry records trace the rare exact-name Teaching Elder through PCA ministry and into South Coast/Harbor City. Presbytery changes over the decade are retained as dated context.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Peter Rowan",
+      "canonical_person_id": "peter-rowan",
+      "np_context": {"presbytery_as_printed": null, "office_as_printed": "TE", "evidence_summary": "2014 named NP committee roster and 2018 NP-guys roster."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 149, "presbytery_as_printed": "Susquehanna Valley", "office_as_printed": "TE"},
+        {"dataset": "nae_withdrawal_protest_2022", "print_order": 148, "presbytery_as_printed": "Susquehanna", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcaac.org/wp-content/uploads/2021/10/RPR-2021-Report-to-GA-with-amendments-8-11-21.pdf", "publisher": "PCA Administrative Committee", "source_kind": "official_denominational_report", "evidence_summary": "Official 2021 RPR report lists TE Peter Rowan representing Susquehanna Valley."},
+        {"url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2019 PCA records place TE Peter Rowan in Susquehanna Valley."}
+      ],
+      "identity_reasoning": "The exact-name Teaching Elder is independently anchored in Susquehanna Valley before the 2022 actions. This supplies the contextual bridge absent from the NP roster itself.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Rob Wootton",
+      "canonical_person_id": "rob-wootton",
+      "np_context": {"presbytery_as_printed": "James River", "office_as_printed": "TE", "evidence_summary": "2019 explicit NP-members committee roster."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 196, "presbytery_as_printed": "Northern California", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2019 PCA Warhurst protest roster places TE Rob Wootton in James River."},
+        {"url": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2021 GA record lists TE Rob Wootton of Rocky Mountain, documenting an intermediate presbytery move."},
+        {"url": "https://www.pcahistory.org/pca/ga/49th_pcaga_2022.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2022 GA record lists TE Rob Wootton of Northern California."}
+      ],
+      "identity_reasoning": "Official PCA rosters provide a dated James River → Rocky Mountain → Northern California chain for the same rare exact-name Teaching Elder from 2019 through 2022, explaining the change between NP and Overture 15 contexts.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Tim LeCroy",
+      "canonical_person_id": "tim-lecroy",
+      "np_context": {"presbytery_as_printed": "Missouri", "office_as_printed": "TE", "evidence_summary": "Repeated 2014-2018 explicit NP nominee/committee records in Missouri."},
+      "target_actions": [
+        {"dataset": "overture_15_negative_votes_2022", "print_order": 103, "presbytery_as_printed": "Missouri", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/43rd_pcaga_2015.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2015 GA roster lists TE Timothy R. LeCroy of Missouri."},
+        {"url": "https://www.pcaac.org/wp-content/uploads/2021/10/RPR-2021-Report-to-GA-with-amendments-8-11-21.pdf", "publisher": "PCA Administrative Committee", "source_kind": "official_denominational_report", "evidence_summary": "Official 2021 RPR report lists TE Tim LeCroy representing Missouri."},
+        {"url": "https://pastortimlecroy.com/tim-lecroy-bio/", "publisher": "Tim LeCroy", "source_kind": "first_person_biography", "evidence_summary": "LeCroy's own biography records his long Missouri ministry before his 2022 move to Ithaca."}
+      ],
+      "identity_reasoning": "Exact name/nickname, Teaching Elder office, and Missouri context recur across multiple independent official sources spanning the NP period through immediately before the 2022 Assembly.",
+      "review_state": "approved_for_canonical_application"
+    },
+    {
+      "name_as_printed": "Nate Conrad",
+      "canonical_person_id": "nate-conrad",
+      "np_context": {"presbytery_as_printed": "Chicago Metro", "office_as_printed": "TE", "evidence_summary": "2013 explicit NP addition and 2015 Partnership committee roster."},
+      "target_actions": [
+        {"dataset": "nae_withdrawal_protest_2022", "print_order": 33, "presbytery_as_printed": "Columbus Metro", "office_as_printed": "TE"}
+      ],
+      "independent_sources": [
+        {"url": "https://www.pcahistory.org/pca/ga/43rd_pcaga_2015.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2015 GA record lists TE Nate Conrad of Chicago Metro."},
+        {"url": "https://www.pcahistory.org/pca/ga/48th_pcaga_2021.pdf", "publisher": "PCA Historical Center", "source_kind": "official_denominational_minutes", "evidence_summary": "Official 2021 GA record lists TE Nate Conrad representing Columbus Metro."},
+        {"url": "https://www.pcaac.org/wp-content/uploads/2021/12/2022-Presbytery-Clerks-Handbook.pdf", "publisher": "PCA Administrative Committee", "source_kind": "official_denominational_directory", "evidence_summary": "The 2022 clerks handbook identifies Rev. Nate Conrad as Columbus Metro Presbytery clerk."}
+      ],
+      "identity_reasoning": "Official PCA records document the same exact-name Teaching Elder first in Chicago Metro and later as Columbus Metro's clerk, supplying a clear dated transition between the 2013 NP record and 2022 protest signature.",
+      "review_state": "approved_for_canonical_application"
+    }
+  ],
+  "approved_identity_count": 11,
+  "application_note": "Apply only these person-specific canonical IDs to the corresponding NP membership and 2022 action rows. Promote an existing generated identity to a durable source-assessed seed rather than duplicating it. Do not generalize presbytery transitions or archival nickname labels into global matching rules."
+}
