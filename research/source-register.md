@@ -37,6 +37,7 @@ The repository contains official GA PDFs/text for key modern years plus normaliz
 - confessional subscription and Federal Vision-related formal records;
 - 2016 creation/actions connected to the women-serving study committee;
 - the 2017 Women Serving in the Ministry of the Church report and complete committee identity roster;
+- person-specific authored women/office positions for Jeffrey Choi, Kathy Keller, and William Castro, kept separate from committee service;
 - 2019 Warhurst protest material;
 - Human Sexuality Ad Interim Committee material;
 - 2021 Overtures 23/37, minority-report and recorded-vote evidence;
@@ -52,7 +53,7 @@ Still incomplete:
 
 ### 2017 Women Serving in the Ministry of the Church
 
-Status: **normalized, app-event represented, and fully canonically linked at the identity layer**.
+Status: **normalized, app-event represented, fully canonically linked at the identity layer, with a growing person-specific evidence layer**.
 
 The official PCA study report is registered as `src-ga45-women-serving-2017`. The normalized layer includes:
 
@@ -63,7 +64,19 @@ The official PCA study report is registered as `src-ga45-women-serving-2017`. Th
 - Mary Beth McGreevy first-person evidence preserved separately and linked to her canonical person;
 - four applied reviewed-identity receipts covering the ten identities that required explicit reviewed seeding, alongside the two previously existing canonical identities.
 
-Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought. Person-specific evidence stays separate. Known separately attributable material includes Jeffrey Choi's 2017 dissent article, Kathy Keller's published women-in-ministry material, William Castro's published public-worship arguments, and McGreevy's already-normalized first-person evidence.
+Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought.
+
+Separately attributable authored positions for Jeffrey Choi, Kathy Keller, and William Castro are now normalized in:
+
+`sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json`
+
+That dataset uses these source families:
+
+- **Jeffrey Choi:** his June 26, 2017 authored explanation of his dissent from part of the committee report, preserved via the contemporaneous Aquila publication and his later first-party Medium republication. The normalized record preserves his 2017 argument for local-session discretion on the diaconate under claimed exegetical uncertainty and does not read his later 2026 Overture 37 activity backward into the earlier source.
+- **Kathy Keller:** publisher-hosted Zondervan Academic excerpts from `Jesus, Justice, and Gender Roles`. The normalized record preserves both sides of her stated position: a male-only authoritative-teaching/elder boundary and broad teaching, leadership, speaking, exhortation, prayer, and ministry by women outside that authority, plus her distinction between ordination and extra-biblical marginalization.
+- **William Castro:** his June 11, 2019 Reformation21 article on 1 Corinthians 14:34. The normalized record captures his restriction on individual official speaking/teaching/preaching by women in ordinary public worship, his rejection of the judging-of-prophecies-only interpretation, and his warnings about culturally driven reinterpretation while preserving his congregational-response and extraordinary-case qualifications.
+
+All records in this person-specific dataset remain `ideological_weight: 0`. They are source-attributed issue positions, not a transfer of committee-level claims and not a new ideological scoring layer.
 
 ### 2026 Overture 37 — women serving as ordained deacons
 
@@ -101,9 +114,9 @@ Historical signer snapshots are preserved separately from the letter text. Ident
 
 ### Garris letters
 
-Status: **registered primary sources; signer normalization remains a priority**.
+Status: **registered primary sources; signer normalization remains the next major operational priority**.
 
-Both publicly circulated letters are registered in `data/sources.json`. They should be normalized person-by-person from the source PDFs. Do not convert co-signature into agreement with unrelated positions or broader network membership.
+Both publicly circulated letters are registered in `data/sources.json`. They should be normalized person-by-person from the source PDFs. Keep Letter 1 and Letter 2 as separate public actions. Do not convert co-signature into agreement with unrelated positions or broader network membership, and leave ambiguous same-name rows unresolved until corroborated.
 
 ### A Call to Prayer & Lament
 
