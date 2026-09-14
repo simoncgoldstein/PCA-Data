@@ -49,8 +49,10 @@ expected = {
 }
 receipt_relative = "sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json"
 
-if receipt.get("status") != "reviewed_identity_evidence_applied" or receipt.get("resolution_applied") is not True:
-    raise SystemExit("batch 2 receipt must record an applied reviewed identity decision")
+if receipt.get("status") != "canonical_seed_applied" or receipt.get("resolution_applied") is not True:
+    raise SystemExit("batch 2 receipt must record an applied canonical identity decision")
+if receipt.get("applied_on") != "2026-09-14":
+    raise SystemExit("batch 2 receipt applied date drift")
 if receipt.get("ideological_weight") != 0:
     raise SystemExit("batch 2 identity evidence must remain ideologically unweighted")
 modeling_rule = receipt.get("modeling_rule", "")
@@ -77,7 +79,7 @@ for record in records:
 
     if record.get("person_name") != name:
         raise SystemExit(f"{edge_id}: receipt name drift")
-    if record.get("canonical_person_id") != person_id or record.get("current_normalized_person_id") != person_id:
+    if record.get("proposed_canonical_person_id") != person_id or record.get("current_normalized_person_id") != person_id:
         raise SystemExit(f"{edge_id}: receipt canonical id drift")
     if record.get("review_status") != "canonical_seed_applied" or record.get("confidence") != "high":
         raise SystemExit(f"{edge_id}: receipt status/confidence drift")
