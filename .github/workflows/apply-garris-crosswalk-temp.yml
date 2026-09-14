@@ -1,4 +1,4 @@
-name: Apply Garris signer crosswalk (temporary)
+name: Patch Garris documentation (temporary)
 
 on:
   push:
@@ -15,106 +15,77 @@ jobs:
     steps:
       - uses: actions/checkout@v7
 
-      - name: Apply reviewed Letter 2 canonical seeds
+      - name: Update Garris source and unresolved documentation
         run: |
           python3 - <<'PY'
-          import json
           from pathlib import Path
 
-          def load(path):
-              return json.loads(Path(path).read_text(encoding='utf-8'))
+          source_path = Path('research/source-register.md')
+          source = source_path.read_text(encoding='utf-8')
+          old = '''### Garris letters
 
-          def save(path, value):
-              Path(path).write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n', encoding='utf-8')
+Status: **registered primary sources; signer normalization remains the next major operational priority**.
 
-          people_path = 'data/people.json'
-          garris_path = 'sources/normalized/public-statements/garris-letters-2024.json'
-          receipt_path = 'sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json'
+Both publicly circulated letters are registered in `data/sources.json`. They should be normalized person-by-person from the source PDFs. Keep Letter 1 and Letter 2 as separate public actions. Do not convert co-signature into agreement with unrelated positions or broader network membership, and leave ambiguous same-name rows unresolved until corroborated.
+'''
+          new = '''### Garris letters
 
-          people = load(people_path)
-          garris = load(garris_path)
-          receipt = load(receipt_path)
+Status: **complete printed rosters normalized; Letter 2 fully canonical; Letter 1 partially canonical and queued for reviewed identity batches**.
 
-          seeds = {
-              2: ('moses-lee', 'Moses Lee'),
-              4: ('david-lee-redeemer-downtown', 'David Lee'),
-              6: ('aaron-chung', 'Aaron Chung'),
-              7: ('gene-joo', 'Gene Joo'),
-              18: ('jeff-white-redeemer-downtown', 'Jeff White'),
-              19: ('gregory-perry', 'Gregory Perry'),
-              20: ('jeffrey-jou', 'Jeffrey Jou'),
-          }
+Primary sources remain registered as `src-garris-letter-1` and `src-garris-letter-2`. The complete normalized rosters are in:
 
-          people_by_id = {row['id']: row for row in people}
-          for order, (person_id, name) in seeds.items():
-              existing = people_by_id.get(person_id)
-              if existing:
-                  if existing.get('name') != name:
-                      raise SystemExit(f'canonical id collision: {person_id} -> {existing.get("name")}')
-                  if existing.get('profile_status') == 'identity_crosswalk':
-                      existing['profile_status'] = 'source_assessed'
-              else:
-                  row = {
-                      'id': person_id,
-                      'name': name,
-                      'ordination': 'Teaching Elder',
-                      'current_role': None,
-                      'current_organization': None,
-                      'denominational_status': 'PCA Teaching Elder in the 2024 Garris Letter 2 source; current status not assessed in this identity slice',
-                      'current_role_source_ids': [],
-                      'profile_status': 'source_assessed',
-                  }
-                  people.append(row)
-                  people_by_id[person_id] = row
+`sources/normalized/public-statements/garris-letters-2024.json`
 
-          letter2 = next(row for row in garris['letters'] if row['letter_id'] == 'garris-letter-2')
-          signer_by_order = {row['print_order']: row for row in letter2['signers']}
-          for order, (person_id, name) in seeds.items():
-              signer = signer_by_order[order]
-              if signer['name_as_printed'] != name:
-                  raise SystemExit(f'letter2 order {order} name drift: {signer["name_as_printed"]}')
-              signer['normalized_person_id'] = person_id
-              signer['identity_resolution'] = {
-                  'status': 'reviewed_canonical_seed',
-                  'receipt': receipt_path,
-                  'rule': 'Person-specific reviewed identity decision; does not create a global same-name equivalence.'
-              }
+Current source/identity state:
 
-          receipt_by_order = {row['letter_print_order']: row for row in receipt['evidence']}
-          for order, (person_id, name) in seeds.items():
-              item = receipt_by_order[order]
-              if item['name_as_printed'] != name:
-                  raise SystemExit(f'receipt order {order} name drift')
-              item['applied_canonical_id'] = person_id
-              item['review_state'] = 'applied_canonical_seed'
+- Letter 1 preserves all **60** printed signers; **24** are currently canonical and app-projected.
+- Letter 2 preserves all **21** printed signers; **21/21** are canonical and app-projected.
+- confirmed signer edges are `public_coalition_action`, weight **3**, and score-included under the ordinary public-letter/protest methodology;
+- `sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json` preserves targeted independent identity corroboration for the Letter 2 completion pass;
+- seven Letter 2 identities blocked by generic collision/context safeguards were applied as person-specific reviewed canonical seeds without weakening the global matching rule.
 
-          receipt['applied_identity_count'] = len(seeds)
-          receipt['application_note'] = (
-              'Seven rows that remained blocked by generic collision/context safeguards were applied as '
-              'person-specific reviewed canonical seeds. The global resolver remains unchanged. The Letter 1 '
-              'Jeff White row remains unresolved because its New City Fellowship / Rio Grande context does not '
-              'match the reviewed Redeemer Downtown / Metro NY identity.'
-          )
+Critical collision boundary: Letter 1 `Jeff White` (New City Fellowship / Rio Grande) remains unresolved; Letter 2 `Jeff White` (Redeemer Downtown / Metro NY) is `jeff-white-redeemer-downtown`. Do not merge those rows by name alone.
 
-          save(people_path, people)
-          save(garris_path, garris)
-          save(receipt_path, receipt)
+A signature establishes participation in that specific letter and its request for presbytery investigation. It is a meaningful formal action for recurrence/coalition analysis, but co-signature does not by itself establish National Partnership or AMR membership, agreement on unrelated controversies, or a generic ideological label.
+
+Reproducibility is handled by `scripts/build-person-crosswalk.py` followed by `scripts/project-garris-signers.py` and `scripts/build-overlap-analysis.py`; repository-wide CI requires those generated outputs to remain clean.
+'''
+          if old not in source:
+              raise SystemExit('stale Garris source-register block not found')
+          source_path.write_text(source.replace(old, new, 1), encoding='utf-8')
+
+          unresolved_path = Path('research/unresolved-identities.md')
+          unresolved = unresolved_path.read_text(encoding='utf-8')
+          marker = '## National Partnership archival pins\n'
+          block = '''## Garris Letter 1 signer identities
+
+The Garris source-ingestion layer is complete, but Letter 1 still has **36 unresolved signer rows** after conservative cross-source matching. Letter 2 is complete at 21/21 canonical identities.
+
+Policy for the remaining Letter 1 queue:
+
+- resolve in small reviewed batches using independent church, ministry, presbytery, or official denominational context;
+- prioritize people who recur elsewhere in the graph or materially improve overlap analysis;
+- do not relax the global same-name resolver merely to raise completion percentage;
+- preserve printed office/church/presbytery context and the original source row;
+- keep Letter 1 `Jeff White` (New City Fellowship / Rio Grande) unresolved unless independent evidence establishes that specific identity. It is not the reviewed Letter 2 `Jeff White` from Redeemer Downtown / Metro NY.
+
+The generated identity review queue remains the working list. A resolved signature is weight 3 as a public-letter action, but identity resolution does not add unrelated network memberships or issue positions.
+
+'''
+          if block not in unresolved:
+              if marker not in unresolved:
+                  raise SystemExit('unresolved-identity insertion marker missing')
+              unresolved_path.write_text(unresolved.replace(marker, block + marker, 1), encoding='utf-8')
           PY
 
-      - name: Rebuild identities and project Garris signers
-        run: |
-          python3 scripts/build-person-crosswalk.py .
-          python3 scripts/project-garris-signers.py .
-          python3 scripts/build-overlap-analysis.py .
-
-      - name: Commit generated and permanent changes
+      - name: Commit documentation
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json sources/normalized/public-statements/garris-letters-2024.json sources/normalized/identity data/people.json data/affiliations.json data/events.json analysis/overlap
+          git add research/source-register.md research/unresolved-identities.md
           if git diff --cached --quiet; then
-            echo 'No changes to commit.'
+            echo 'No documentation changes.'
             exit 0
           fi
-          git commit -m 'apply final reviewed Garris Letter 2 identities'
+          git commit -m 'document Garris signer coverage and unresolved queue'
           git push
