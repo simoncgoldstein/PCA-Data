@@ -8,18 +8,13 @@ These items are deliberately kept outside confirmed public claims until further 
 
 Current canonical state:
 
+- Dan Doriani — resolved as `dan-doriani` from reviewed high-confidence identity evidence.
+- Ligon Duncan — resolved as `ligon-duncan` from reviewed high-confidence identity evidence.
 - Irwyn Ince — resolved as `irwyn-ince`.
 - Bruce O'Neil — resolved as `bruce-o-neil`.
+- Roy Taylor — resolved as `roy-taylor` from reviewed high-confidence identity evidence.
 
-Reviewed high-confidence identity evidence exists, but canonical seeding has **not yet been applied**, for:
-
-- Dan Doriani — proposed canonical ID `dan-doriani`.
-- Ligon Duncan — proposed canonical ID `ligon-duncan`.
-- Roy Taylor — proposed canonical ID `roy-taylor`.
-
-The evidence receipt is `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json`.
-
-These three must remain `normalized_person_id: null` until the canonical-seeding slice updates `data/people.json`, the normalized committee records, app-facing affiliations, validators, and any affected generated outputs together.
+The applied review receipt for Doriani, Duncan, and Taylor is `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json`.
 
 Still unresolved in this committee dataset:
 
@@ -31,7 +26,7 @@ Still unresolved in this committee dataset:
 - Mary Beth McGreevy
 - Harry Reeder
 
-Committee service itself is confirmed from the official roster, but identity linkage and person-specific positions are separate questions.
+Committee service itself is confirmed from the official roster, but identity linkage and person-specific positions are separate questions. Resolve the remaining identities only with corroborating evidence; recognizable names alone are not sufficient.
 
 ## National Partnership archival pins
 
