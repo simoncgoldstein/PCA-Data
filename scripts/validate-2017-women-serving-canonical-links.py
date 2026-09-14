@@ -88,6 +88,10 @@ status_counts = Counter(row.get("role") for row in edges)
 if status_counts != {"Voting Member": 7, "Advisory Member": 5}:
     raise SystemExit(f"2017 women committee edges: role counts drift: {dict(status_counts)}")
 
+accepted_resolved_statuses = {
+    "resolved_existing_canonical_person",
+    "resolved_reviewed_canonical_person",
+}
 for report_row, edge in zip(report_members, edges, strict=True):
     if edge.get("normalized_person_id") != report_row.get("normalized_person_id"):
         raise SystemExit(f"{edge.get('person_name')}: report/edge canonical id mismatch")
@@ -107,8 +111,8 @@ for report_row, edge in zip(report_members, edges, strict=True):
             raise SystemExit(f"{edge.get('person_name')}: null person id must remain explicitly unresolved")
         continue
 
-    if edge.get("identity_status") != "resolved_existing_canonical_person":
-        raise SystemExit(f"{edge.get('person_name')}: resolved id must have resolved identity status")
+    if edge.get("identity_status") not in accepted_resolved_statuses:
+        raise SystemExit(f"{edge.get('person_name')}: resolved id must have a recognized resolved identity status")
     if person_id not in people_by_id:
         raise SystemExit(f"{edge.get('person_name')}: canonical id {person_id!r} is absent from data/people.json")
     if people_by_id[person_id].get("name") != edge.get("person_name"):
@@ -123,18 +127,22 @@ resolved = {
     if row.get("normalized_person_id") is not None
 }
 required_resolved = {
+    "Dan Doriani": "dan-doriani",
+    "Ligon Duncan": "ligon-duncan",
     "Irwyn Ince": "irwyn-ince",
     "Bruce O’Neil": "bruce-o-neil",
+    "Roy Taylor": "roy-taylor",
 }
 for name, person_id in required_resolved.items():
     if resolved.get(name) != person_id:
         raise SystemExit(f"2017 women committee edges: required canonical link missing: {name} -> {person_id}")
 
-# Reviewed identity evidence is a provenance gate, not a canonical mutation.
-if identity_review.get("status") != "reviewed_identity_evidence_ready_for_canonical_seed":
-    raise SystemExit("2017 women identity review: status drift")
-if identity_review.get("resolution_applied") is not False:
-    raise SystemExit("2017 women identity review: this slice must not claim canonical mutation is applied")
+# Reviewed identity evidence is now an applied provenance receipt for exactly
+# the three identities approved in batch 1. It remains identity evidence only.
+if identity_review.get("status") != "canonical_seed_applied":
+    raise SystemExit("2017 women identity review: applied status drift")
+if identity_review.get("resolution_applied") is not True:
+    raise SystemExit("2017 women identity review: canonical resolution must be marked applied")
 if identity_review.get("ideological_weight") != 0:
     raise SystemExit("2017 women identity review: identity evidence must remain ideologically unweighted")
 review_modeling_rule = identity_review.get("modeling_rule", "")
@@ -159,24 +167,33 @@ edge_by_id = {row["edge_id"]: row for row in edges}
 review_receipt_relative = "sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json"
 for record in review_records:
     edge_id = record["committee_edge_id"]
-    expected_name, expected_proposed_id = expected_review_batch[edge_id]
+    expected_name, expected_id = expected_review_batch[edge_id]
     edge = edge_by_id[edge_id]
     if record.get("person_name") != expected_name or edge.get("person_name") != expected_name:
         raise SystemExit(f"{edge_id}: reviewed identity name drift")
-    if record.get("proposed_canonical_person_id") != expected_proposed_id:
+    if record.get("proposed_canonical_person_id") != expected_id:
         raise SystemExit(f"{edge_id}: proposed canonical id drift")
-    if record.get("current_normalized_person_id") is not None or edge.get("normalized_person_id") is not None:
-        raise SystemExit(f"{edge_id}: reviewed identity evidence must remain unresolved until canonical seeding")
-    if record.get("review_status") != "ready_for_canonical_seed" or record.get("confidence") != "high":
-        raise SystemExit(f"{edge_id}: reviewed identity evidence status/confidence drift")
-    if edge.get("identity_status") != "unresolved":
-        raise SystemExit(f"{edge_id}: identity status must remain unresolved before canonical seed")
-    if edge.get("identity_review_status") != "ready_for_canonical_seed":
+    if record.get("current_normalized_person_id") != expected_id:
+        raise SystemExit(f"{edge_id}: applied receipt canonical id drift")
+    if record.get("review_status") != "canonical_seed_applied" or record.get("confidence") != "high":
+        raise SystemExit(f"{edge_id}: applied identity evidence status/confidence drift")
+    if edge.get("normalized_person_id") != expected_id:
+        raise SystemExit(f"{edge_id}: reviewed canonical id not applied to normalized edge")
+    if edge.get("identity_status") != "resolved_reviewed_canonical_person":
+        raise SystemExit(f"{edge_id}: reviewed seed must use resolved_reviewed_canonical_person status")
+    if edge.get("identity_review_status") != "canonical_seed_applied":
         raise SystemExit(f"{edge_id}: edge review status drift")
     if edge.get("identity_review_receipt") != review_receipt_relative:
         raise SystemExit(f"{edge_id}: edge review receipt linkage drift")
-    if edge.get("proposed_canonical_person_id") != expected_proposed_id:
+    if edge.get("proposed_canonical_person_id") != expected_id:
         raise SystemExit(f"{edge_id}: edge proposed canonical id drift")
+    person = people_by_id.get(expected_id)
+    if not person or person.get("name") != expected_name:
+        raise SystemExit(f"{edge_id}: reviewed canonical seed absent or name-mismatched in data/people.json")
+    if person.get("profile_status") != "seeded":
+        raise SystemExit(f"{edge_id}: reviewed canonical person must be preserved as a seed person")
+    if person.get("ordination") != "Teaching Elder":
+        raise SystemExit(f"{edge_id}: reviewed canonical person ordination must reflect the TE committee source")
     if not record.get("evidence") or len(record["evidence"]) < 2:
         raise SystemExit(f"{edge_id}: reviewed identity requires at least two evidence records")
     boundary = record.get("reasoning_boundary", "")
@@ -255,6 +272,6 @@ print(
     "2017 women-serving canonical links OK: "
     f"{len(edges)} committee rows, {len(resolved)} resolved canonical identities, "
     f"{len(edges) - len(resolved)} explicitly unresolved identities, "
-    f"{len(review_records)} reviewed identities ready for canonical seed, "
+    f"{len(review_records)} reviewed identity seeds applied, "
     f"{len(app_edges)} app-facing canonical edges"
 )

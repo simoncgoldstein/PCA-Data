@@ -52,7 +52,7 @@ Still incomplete:
 
 ### 2017 Women Serving in the Ministry of the Church
 
-Status: **normalized and app-event represented**.
+Status: **normalized, app-event represented, and partially canonically linked**.
 
 The official PCA study report is registered as `src-ga45-women-serving-2017`. The normalized layer includes:
 
@@ -60,8 +60,10 @@ The official PCA study report is registered as `src-ga45-women-serving-2017`. Th
 - voting/advisory status;
 - report-level position summaries with explicit non-attribution guardrails;
 - Mary Beth McGreevy first-person evidence preserved separately;
-- canonical committee links for Irwyn Ince and Bruce O'Neil;
-- reviewed high-confidence identity evidence, not yet canonically seeded as of this audit, for Dan Doriani, Ligon Duncan, and Roy Taylor.
+- canonical committee links and app-facing zero-weight service edges for Dan Doriani, Ligon Duncan, Irwyn Ince, Bruce O'Neil, and Roy Taylor;
+- an applied reviewed-identity receipt for Doriani, Duncan, and Taylor.
+
+Still unresolved in this committee dataset: Leon Brown, William Castro, Jeffrey Choi, Lani Jones, Kathy Keller, Mary Beth McGreevy, and Harry Reeder.
 
 Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought.
 
@@ -118,6 +120,7 @@ Rules:
 - exact same-name matching alone is insufficient for common or ambiguous names;
 - reviewed name-form equivalences are person-specific and do not create universal nickname/middle-initial rules;
 - a `ready_for_canonical_seed` review state is not the same thing as a completed canonical mutation;
+- an applied identity receipt should identify the canonical ID actually seeded and remain linked from the normalized evidence row;
 - canonical IDs should be added only when the evidence and validator state support the change.
 
 ## Secondary and theological-context sources

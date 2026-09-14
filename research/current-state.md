@@ -6,7 +6,7 @@ This file is the dated handoff for a fresh research or coding agent. Read it aft
 
 ## Repository state
 
-Latest merged milestone at this snapshot: PR #44, `Add reviewed identity evidence for 2017 committee batch 1`.
+The current data state includes the first reviewed canonical-seeding batch for the 2017 Women Serving committee: Dan Doriani, Ligon Duncan, and Roy Taylor have been added as canonical people and projected to the app-facing committee event.
 
 The repository is no longer a v0.1 scaffold. It now contains a substantial evidence archive, normalized research datasets, canonical app-facing data, identity-resolution machinery, generated overlap analysis, and focused CI validators.
 
@@ -26,46 +26,45 @@ Major completed or substantially developed areas include:
 
 ## 2017 Women Serving committee
 
-The 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church is now represented in the normalized research layer and app-facing event graph.
+The 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church is represented in the normalized research layer and app-facing event graph.
 
 Current identity status:
 
+- `dan-doriani` — canonically resolved from reviewed identity evidence and projected to the app graph.
+- `ligon-duncan` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - `irwyn-ince` — canonically resolved and projected to the app graph.
 - `bruce-o-neil` — canonically resolved and projected to the app graph.
-- Dan Doriani — high-confidence reviewed identity evidence, proposed canonical ID `dan-doriani`, not yet seeded.
-- Ligon Duncan — high-confidence reviewed identity evidence, proposed canonical ID `ligon-duncan`, not yet seeded.
-- Roy Taylor — high-confidence reviewed identity evidence, proposed canonical ID `roy-taylor`, not yet seeded.
+- `roy-taylor` — canonically resolved from reviewed identity evidence and projected to the app graph.
 - Leon Brown, William Castro, Jeffrey Choi, Lani Jones, Kathy Keller, Mary Beth McGreevy, and Harry Reeder remain unresolved in this dataset unless a later commit changes their normalized IDs.
+
+The applied identity receipt for Doriani, Duncan, and Taylor is `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json`.
 
 Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member.
 
 ## Immediate next slice
 
-The next compact research slice should apply the already-reviewed canonical identity decisions for:
+Continue the 2017 Women Serving identity pass in another small evidence-backed batch. Resolve only identities that can be established deterministically from primary, first-party, or already-normalized corroborating evidence.
 
-1. Dan Doriani
-2. Ligon Duncan
-3. Roy Taylor
+Preferred target size: **2–3 committee identities at most**.
 
-That slice should:
+For each identity resolved, the slice should update together:
 
-- create or seed the canonical people conservatively;
-- update the 2017 normalized report and person-edge dataset;
-- add exactly the corresponding app-facing committee-service edges;
-- preserve `weight: 0` and `score_included: false`;
-- update focused validation so the canonical and app projections remain synchronized;
-- regenerate any derived outputs that become stale;
-- avoid unrelated role-history or theological-position expansion.
+- the canonical person layer;
+- the normalized 2017 report and person-edge dataset;
+- the app-facing committee-service affiliation;
+- the focused validator;
+- any generated outputs made stale by the canonical change.
 
-## Work after that
+Do not fill the remaining roster by name recognition alone. Leave genuinely unresolved identities explicit.
+
+## Work after the 2017 identity pass
 
 Preferred order unless stronger evidence changes the priority:
 
-1. Continue resolving the remaining 2017 committee identities in small evidence-backed batches.
-2. Complete Garris Letter 1 and 2 signer normalization and canonical linkage where still incomplete.
-3. Continue exact National Partnership person-level message/page pinning and distinguish membership, recruitment, promoted candidates, and adjacency.
-4. Continue General Assembly denominational-action coverage where source-register gaps remain.
-5. Expand Tier A career reconstruction only after the event/action layer and identity links are stable enough to make recurrence meaningful.
+1. Complete Garris Letter 1 and 2 signer normalization and canonical linkage where still incomplete.
+2. Continue exact National Partnership person-level message/page pinning and distinguish membership, recruitment, promoted candidates, and adjacency.
+3. Continue General Assembly denominational-action coverage where source-register gaps remain.
+4. Expand Tier A career reconstruction only after the event/action layer and identity links are stable enough to make recurrence meaningful.
 
 Do not make broad ideological-position scoring the next project phase. Position claims should remain person-specific and source-attributed.
 
@@ -73,7 +72,7 @@ Do not make broad ideological-position scoring the next project phase. Position 
 
 When a meaningful milestone is merged, update this file if it changes:
 
-- the latest completed milestone;
+- the latest completed data state;
 - the immediate next slice;
 - a major source-family status;
 - a material unresolved identity or evidence boundary.

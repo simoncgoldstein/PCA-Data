@@ -210,6 +210,36 @@
     "profile_status": "source_assessed"
   },
   {
+    "id": "dan-doriani",
+    "name": "Dan Doriani",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in 2017 official committee source; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "ligon-duncan",
+    "name": "Ligon Duncan",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in 2017 official committee source; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "roy-taylor",
+    "name": "Roy Taylor",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in 2017 official committee source; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",
