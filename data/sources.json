@@ -340,5 +340,25 @@
     "source_type": "denominational_news",
     "accessed": "2026-09-14",
     "notes": "Confirms Pacific Presbytery submitted Overture 37, the 115-14-1 Overtures Committee recommendation, Assembly rejection, and the four named dissent authors."
+  },
+  {
+    "id": "src-mcgowan-global-team-2026",
+    "title": "Who We Are",
+    "publisher": "McGowan Global Institute",
+    "date": "2026",
+    "url": "https://mcgowanglobal.com/who-we-are/",
+    "source_type": "primary_organization_roster",
+    "accessed": "2026-09-14",
+    "notes": "Current first-party roster. Lists Bruce O’Neil, Mike Khandjian, David P. Cassidy, Bob Flayhart, and Ray Cortese as Consultant, Coach. MGI service is modeled independently from any NP or AMR status."
+  },
+  {
+    "id": "src-pca-bookstore-keller-marriage",
+    "title": "On Marriage by Tim Keller",
+    "publisher": "PCA Bookstore",
+    "date": "2020",
+    "url": "https://www.pcabookstore.com/p-6275012-on-marriage-by-tim-keller.aspx",
+    "source_type": "primary_denominational_book_profile",
+    "accessed": "2026-09-14",
+    "notes": "Identifies Timothy and Kathy Keller as married co-authors and Kathy as Tim’s wife. Used only for reciprocal spouse/family context and Tim Keller’s canonical seed."
   }
 ]

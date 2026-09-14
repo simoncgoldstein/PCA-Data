@@ -310,6 +310,16 @@
     "profile_status": "seeded"
   },
   {
+    "id": "tim-keller",
+    "name": "Tim Keller",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "Historical PCA Teaching Elder and Redeemer Presbyterian Church founder; current-role fields intentionally unused for this historical profile",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",

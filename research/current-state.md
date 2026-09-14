@@ -8,7 +8,9 @@ This file is the dated handoff for a fresh research or coding agent. Read it aft
 
 The 2017 Women Serving committee identity pass is complete: all 12 official committee members are canonically resolved and projected to the app-facing committee event. The repository also contains a normalized 2026 Overture 37 record distinguishing Pacific Presbytery's formal submission from Jeffrey Choi's person-specific advocacy, floor speech, and later formal dissent.
 
-A person-specific women/office evidence layer now separately normalizes attributable positions for Jeffrey Choi, Kathy Keller, and William Castro without inferring those positions from committee service.
+A person-specific women/office evidence layer separately normalizes attributable positions for Jeffrey Choi, Kathy Keller, and William Castro without inferring those positions from committee service.
+
+The graph now also includes a source-bounded McGowan Global Institute roster/overlap layer and zero-weight family relationships. McGowan service is kept separate from National Partnership membership, and spouse relationships are contextual rather than score-bearing.
 
 The repository is no longer a v0.1 scaffold. It contains a substantial evidence archive, normalized research datasets, canonical app-facing data, identity-resolution machinery, generated overlap analysis, and focused CI validators.
 
@@ -17,14 +19,51 @@ Major completed or substantially developed areas include:
 - National Partnership source normalization and identity work, with exact archival pinning still incomplete for some person-level claims.
 - A Faithful PCA / `Looking Forward – Together` signer snapshots and normalized public-statement data.
 - Alliance for Mission & Renewal leadership, media, organizational framing, and related source snapshots.
+- McGowan Global Institute current-roster normalization with independently verified NP overlap for selected people.
 - General Assembly source ingestion and normalized formal-position/action datasets across multiple years, including women/office, subscription, sexuality/Revoice, Overtures 23/37, Overture 15, NAE withdrawal, protests, minority reports, recorded votes, study committees, and 2026 Overture 37 on ordained women deacons.
 - Save the PCA / Functional Female Officer external-dataset ingestion with source-attribution boundaries.
 - Church and presbytery canonical data.
 - Institution and RUF role snapshots.
-- Person identity crosswalks and reviewed identity receipts.
+- Person identity crosswalks, reviewed identity receipts, and contextual person-to-person family edges.
 - Generated overlap analysis under `analysis/overlap/`.
 - Public/app-facing events, affiliations, organizations, people, and sources under `data/`.
 - Multiple focused validation workflows plus repository-wide research validation.
+
+## McGowan Global Institute / National Partnership overlap
+
+Normalized record:
+
+`sources/normalized/institutions/mcgowan-global-team-2026.json`
+
+The current McGowan Global Institute `Who We Are` page lists these five tracked PCA figures as **Consultant, Coach**:
+
+- `bruce-o-neil`
+- `mike-khandjian`
+- `david-cassidy`
+- `ray-cortese`
+- `bob-flayhart`
+
+The app projects all five McGowan roles as confirmed `current_external_role` affiliations with `weight: 0` and `score_included: false`.
+
+Independent National Partnership status is not inferred from McGowan service:
+
+- **Bruce O'Neil** — independently confirmed in the canonical NP dataset from 2018 NP-guys committee rosters, archive pp. 264–265.
+- **Mike Khandjian** — independently confirmed as an NP member in the primary archive; the same evidence explicitly distinguishes his Fellowship Dinner network as independently created despite high overlap with NP. His app NP edge is now `confirmed` rather than merely `strongly_supported`.
+- **Ray Cortese** — independently confirmed from the March 11, 2013 NP additions record, archive p. 17.
+- **Bob Flayhart** — independently confirmed from the February 11, 2013 NP additions record, archive p. 3.
+- **David Cassidy** — no canonical NP membership record is present in the current repository dataset. He remains separately connected to AMR founding/current leadership and Garris Letter 1. Do not turn those overlaps into an NP membership claim without new independent evidence.
+
+Guardrail: personnel recurrence can be analytically useful, but it does not by itself establish that McGowan Global Institute is a successor, continuation, front, or ideological equivalent of the National Partnership, Khandjian Fellowship, or AMR.
+
+## Family relationships
+
+Normalized record:
+
+`sources/normalized/identity/family-relationships-2026.json`
+
+Current app-visible family context includes **Tim Keller ↔ Kathy Keller** as spouses. Tim Keller is now a canonical person node so this relation can be represented directly.
+
+Family edges are reciprocal, confirmed, `weight: 0`, and `score_included: false`. They provide identity/context only and must never transfer one spouse's theology, committee service, network membership, public actions, or score to the other.
 
 ## 2017 Women Serving committee
 
@@ -87,7 +126,7 @@ Shift back to the broad operational graph and complete **Garris Letter 1 and 2 s
 For that slice:
 
 - normalize the signer rosters from the registered primary PDFs;
-- preserve letter 1 and letter 2 as separate actions;
+- preserve Letter 1 and Letter 2 as separate actions;
 - link only identities that meet the repository's existing identity standard;
 - leave common-name or institutionally ambiguous rows unresolved;
 - project confirmed signer edges to the app-facing events using the ordinary public-letter weight already defined by methodology;

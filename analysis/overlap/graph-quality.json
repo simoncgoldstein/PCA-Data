@@ -4,9 +4,9 @@
     "graph_scope": "Confirmed identity-to-dataset bipartite graph plus counts of repository core node classes."
   },
   "nodes": {
-    "person_nodes": 291,
+    "person_nodes": 292,
     "dataset_nodes": 59,
-    "organization_nodes": 20,
+    "organization_nodes": 21,
     "church_nodes": 1970,
     "presbytery_nodes": 88,
     "event_nodes": 19
@@ -47,12 +47,12 @@
   },
   "density": {
     "definition": "confirmed identity-dataset edges / (person nodes × dataset nodes)",
-    "value": 0.05457511
+    "value": 0.05438821
   },
   "components": {
-    "count": 34,
+    "count": 35,
     "largest_component_nodes": 317,
-    "isolated_person_nodes": 11
+    "isolated_person_nodes": 12
   },
   "quality_gaps": {
     "unresolved_identity_rows": 3378,

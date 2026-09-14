@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "dataset_id": "family_relationships_2026",
+    "captured_on": "2026-09-14",
+    "modeling_rule": "Family relationships are factual person-to-person links. They are never evidence that one spouse shares the other's theology, politics, institutional memberships, actions, or score-bearing network participation.",
+    "app_projection_rule": "Project a reciprocal family edge only when both people are canonical research subjects and a reliable source establishes the relationship. Family edges must use weight 0 and score_included false.",
+    "ideological_weight": 0
+  },
+  "relationships": [
+    {
+      "relationship_id": "family-tim-kathy-keller",
+      "person_a": {
+        "name": "Timothy Keller",
+        "normalized_person_id": "tim-keller"
+      },
+      "person_b": {
+        "name": "Kathy Keller",
+        "normalized_person_id": "kathy-keller"
+      },
+      "relationship_type": "spouse",
+      "confidence": "confirmed",
+      "source": {
+        "title": "On Marriage by Tim Keller",
+        "publisher": "PCA Bookstore",
+        "url": "https://www.pcabookstore.com/p-6275012-on-marriage-by-tim-keller.aspx",
+        "evidence_summary": "The PCA Bookstore identifies Timothy and Kathy Keller as co-authors, describes their decades of personal marriage experience, and identifies Kathy as Tim's wife."
+      },
+      "important_boundary": "This marriage link supplies family/identity context only. It must not transfer Kathy Keller's positions or committee service to Tim Keller, or Tim Keller's positions, networks, or actions to Kathy Keller."
+    }
+  ]
+}

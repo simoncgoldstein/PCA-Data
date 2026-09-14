@@ -39,7 +39,7 @@
   },
   {
     "id": "a-faithful-pca",
-    "name": "A Faithful PCA / Looking Forward \u2013 Together",
+    "name": "A Faithful PCA / Looking Forward – Together",
     "short_name": "A Faithful PCA",
     "type": "public_coalition",
     "status": "historical",
@@ -140,5 +140,14 @@
     "name": "Metro New York Presbytery",
     "type": "presbytery",
     "status": "active"
+  },
+  {
+    "id": "mcgowan-global-institute",
+    "name": "McGowan Global Institute",
+    "short_name": "MGI",
+    "type": "external_nonprofit",
+    "status": "active",
+    "founded": 2021,
+    "description": "501(c)(3) church-support ministry whose stated mission is 'Helping Churches Thrive'; current team includes consultants with independently documented PCA network histories. Personnel overlap does not establish organizational succession or shared ideology."
   }
 ]
