@@ -1,0 +1,54 @@
+name: Validate v1 evidence explorer
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  evidence-and-model:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: All topic and repository research validators
+        run: |
+          set -e
+          for validator in scripts/validate-*.py; do
+            python3 "$validator" .
+          done
+          node scripts/validate-data.mjs
+      - name: Projection reproducibility and model regressions
+        run: |
+          python3 scripts/build-explorer.py .
+          git diff --exit-code -- data/explorer.json data/source-occurrences.json
+          node --check app.js
+          node --check ui/model.mjs
+          node --check ui/graph.mjs
+          node --test tests/model.test.mjs
+  browser-acceptance:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Install isolated browser test dependency
+        run: |
+          npm install --no-save --package-lock=false playwright@1.62.1
+          npx playwright install --with-deps chromium
+      - name: Representative desktop and mobile acceptance
+        run: |
+          python3 -m http.server 8765 > /tmp/pca-ui-server.log 2>&1 &
+          node tests/browser.cjs
+      - name: Preserve screenshots and acceptance result
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v1-ui-acceptance
+          path: ui-artifacts/

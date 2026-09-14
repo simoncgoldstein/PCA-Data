@@ -93,12 +93,44 @@ The private Google Drive `PCA Research` corpus also contains authored synthesis 
 
 Research invariants are enforced by repository-wide and topic-specific GitHub Actions workflows under `.github/workflows/`. Generated research outputs should be rebuilt rather than manually edited when their generating scripts change or source data makes them stale.
 
-## GitHub Pages
+## Public evidence explorer
 
-This is a static site: HTML + CSS + JavaScript + JSON. No server or database is required. Once GitHub Pages is enabled for the repository root on `main`, `index.html` is the public application.
+The v1 interface provides:
+
+- an overview and global search;
+- deep-linked people, organizations, actions, and source profiles;
+- typed evidence ledgers and transparent, filter-independent canonical scores;
+- complete source rosters, including all 60 Garris Letter 1 signers with unresolved identities preserved;
+- an interactive detective map with drag, pan, zoom, neighborhood tracing, filters, and source inspection;
+- selected NP continuity analysis with shared people, explicit denominators, and coverage caveats;
+- church/presbytery directory context and a concise methodology guide.
+
+Source occurrences and individually attributable supplemental positions remain distinct from canonical scoring edges. See [`research/v1-architecture.md`](research/v1-architecture.md) for the presentation contract and maintenance workflow.
+
+## GitHub Pages and local preview
+
+The application remains static HTML, CSS, JavaScript modules, and JSON. No production package installation, build service, server, or database is required. GitHub Pages serves the repository root on `main`. Hash routes work under the repository subpath.
+
+For a local preview:
+
+```sh
+python3 -m http.server 8765
+```
+
+Open `http://localhost:8765`. Serve over HTTP; browser module and fetch restrictions prevent a reliable `file://` preview.
+
+When upstream research changes, run the canonical/analysis pipeline in `.github/workflows/validate.yml`, then regenerate the presentation layer:
+
+```sh
+python3 scripts/build-explorer.py .
+python3 scripts/validate-explorer.py .
+node --test tests/model.test.mjs
+```
+
+The full CI workflows validate source and identity boundaries, reconstruction, score/filter semantics, representative browser paths, and map interactions. Browser screenshots are retained as CI artifacts.
 
 ## Status
 
-**Active research build, beyond the original v0.1 scaffold.**
+**V1 evidence explorer implemented, awaiting finish-line PR review and merge.**
 
-As of **2026-09-14**, the project has a substantial normalized evidence layer, identity-resolution system, generated overlap analysis, and app-facing graph. The dated handoff and immediate next slice live in [`research/current-state.md`](research/current-state.md). Update that file when a merged milestone materially changes the project state.
+The current architecture, source coverage, and consciously deferred research live in [`research/current-state.md`](research/current-state.md). The finish-line run preserves the repository's evidence model and canonical identities while making the existing research explorable.

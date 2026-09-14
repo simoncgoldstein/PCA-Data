@@ -12,9 +12,9 @@
     "id": "src-np-local-archive",
     "title": "NPP_Emails_2013_2021.pdf",
     "publisher": "National Partnership correspondence archive",
-    "source_type": "primary_archive_local_pending",
+    "source_type": "primary_archive_local",
     "accessed": "2026-09-03",
-    "notes": "444-page combined archive supplied to this research project. A repository raw-copy manifest exists; the actual binary should be placed in sources/raw/national-partnership/. Exact message/page citations are preferred for person-level claims."
+    "notes": "444-page combined archive supplied to this research project and preserved at sources/raw/national-partnership/NPP_Emails_2013_2021.pdf, with a raw-copy manifest. Exact message/page citations are preferred for person-level claims."
   },
   {
     "id": "src-pcapolity-secret-caucuses",
