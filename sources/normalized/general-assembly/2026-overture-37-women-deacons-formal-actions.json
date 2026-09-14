@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "dataset_id": "2026_overture_37_women_deacons_formal_actions",
+    "year": 2026,
+    "assembly": "53rd General Assembly",
+    "source_family": "ga_2026_overture_37_women_deacons",
+    "ideological_weight": 0,
+    "modeling_rule": "Distinguish Pacific Presbytery's formal submission of Overture 37 from Jeffrey Choi's individually documented advocacy, floor speech, and later co-authorship of a formal dissent. Current evidence does not establish Choi as the sole author, drafter, sponsor, or orchestrator of the overture."
+  },
+  "overture": {
+    "event_id": "2026-overture-37-women-ordained-deacons",
+    "overture_number": 37,
+    "submitting_body": "Pacific Presbytery",
+    "title_as_published": "Amend BCO 9-3 to Allow Women to Serve as Ordained Deacons",
+    "official_overture_url": "https://pcaga.org/wp-content/uploads/2026/02/Overture-37_Pacific_9-3.pdf",
+    "adopted_by_presbytery_date": "2026-01-24",
+    "proposal_summary": "The overture proposed changing BCO 9-3 and conforming provisions so local sessions could decide whether qualified women may be elected and ordained as deacons.",
+    "formal_personal_authorship": "not_established",
+    "important_boundary": "The overture itself identifies Pacific Presbytery as the submitting body and does not name Jeffrey Choi as author or drafter. Do not convert his later advocacy into personal authorship without additional primary evidence."
+  },
+  "assembly_action": {
+    "overtures_committee_recommendation": "answer_in_the_negative",
+    "overtures_committee_vote": {
+      "for_negative_recommendation": 115,
+      "against_negative_recommendation": 14,
+      "abstain": 1
+    },
+    "general_assembly_outcome": "Overture 37 was answered in the negative when the Assembly adopted the Overtures Committee recommendation.",
+    "outcome_source_url": "https://byfaithonline.com/general-assembly-responds-to-dissent-regarding-overture-37/"
+  },
+  "jeffrey_choi_actions": [
+    {
+      "action_id": "2026-o37-choi-public-advocacy",
+      "person_name": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "role": "Public advocate for Overture 37",
+      "evidence_kind": "person_specific_public_advocacy",
+      "confidence": "confirmed",
+      "source_url": "https://www.buzzsprout.com/2215222/episodes/18819721-122-polity-nerds-stick-together",
+      "source_date": "2026-03-10",
+      "fact": "Jeffrey Choi appeared as the guest on a Polity Matters episode devoted to Overture 37, women in the diaconate, and PCA polity.",
+      "weight": 0,
+      "score_included": false
+    },
+    {
+      "action_id": "2026-o37-choi-floor-speech",
+      "person_name": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "role": "Floor speaker in support of Overture 37",
+      "evidence_kind": "general_assembly_floor_advocacy",
+      "confidence": "strongly_supported",
+      "source_url": "https://reformeddeacon.com/blog/women-deacons-at-the-2026-pca-general-assembly/",
+      "source_date": "2026-07-22",
+      "fact": "A contemporaneous detailed report identifies TE Jeffrey Choi as speaking for Overture 37 on the General Assembly floor and summarizes his exegetical arguments from Romans 16:1 and 1 Timothy 3:11.",
+      "weight": 0,
+      "score_included": false,
+      "important_boundary": "This establishes floor advocacy, not sole authorship or formal presbytery sponsorship."
+    },
+    {
+      "action_id": "2026-o37-choi-formal-dissent",
+      "person_name": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "role": "Co-author and submitter of formal dissent",
+      "evidence_kind": "formal_dissent_author",
+      "confidence": "confirmed",
+      "source_url": "https://byfaithonline.com/wp-content/uploads/2026/09/Sufficiency_dissent_v3.pdf",
+      "source_date": "2026-09",
+      "coauthors_as_printed": [
+        "Aaron Baker",
+        "Jeffrey Choi",
+        "Walter Henegar",
+        "Eric Kapur"
+      ],
+      "fact": "The formal dissent identifies Aaron Baker, Jeffrey Choi, Walter Henegar, and Eric Kapur as the teaching elders submitting the dissent from the 53rd General Assembly's action regarding Overture 37.",
+      "weight": 3,
+      "score_included": true
+    }
+  ],
+  "formal_dissent": {
+    "event_id": "2026-overture-37-formal-dissent",
+    "title_as_published": "Dissent from the Actions of General Assembly Regarding Overture 37 (Pacific Presbytery)",
+    "primary_source_url": "https://byfaithonline.com/wp-content/uploads/2026/09/Sufficiency_dissent_v3.pdf",
+    "authors_as_printed": [
+      "Aaron Baker",
+      "Jeffrey Choi",
+      "Walter Henegar",
+      "Eric Kapur"
+    ],
+    "position_summary": "The dissent challenged the sufficiency of the grounds given for rejecting Overture 37 and advanced exegetical, historical, and constitutional arguments for reconsidering whether women may hold the office of deacon.",
+    "assembly_response_source": "https://byfaithonline.com/general-assembly-responds-to-dissent-regarding-overture-37/",
+    "important_boundary": "This is a person-specific formal action. It supports attribution of the dissent's stated arguments to its four named authors, but does not by itself establish authorship of Overture 37."
+  }
+}
