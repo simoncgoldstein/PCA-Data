@@ -85,6 +85,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [
         {
           "sequence": 370,
@@ -138,6 +139,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [
         {
           "sequence": 319,
@@ -230,6 +232,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [],
       "a_faithful_pca_2022": [],
       "warhurst_2019": [
@@ -278,6 +281,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [
         {
           "sequence": 406,
@@ -331,6 +335,18 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [
+        {
+          "id": "david-lindberg",
+          "name": "David Lindberg",
+          "ordination": "Teaching Elder",
+          "current_role": null,
+          "current_organization": null,
+          "denominational_status": "PCA Teaching Elder documented in the 2024 Garris Letter 1 and official North Texas sources; historical Metro Atlanta identity reviewed in this slice",
+          "current_role_source_ids": [],
+          "profile_status": "source_assessed"
+        }
+      ],
       "a_faithful_pca_2021": [
         {
           "sequence": 151,
@@ -384,6 +400,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [],
       "a_faithful_pca_2022": [],
       "warhurst_2019": [
@@ -422,6 +439,18 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [
+        {
+          "id": "david-wallover",
+          "name": "David Wallover",
+          "ordination": "Teaching Elder",
+          "current_role": null,
+          "current_organization": null,
+          "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+          "current_role_source_ids": [],
+          "profile_status": "identity_crosswalk"
+        }
+      ],
       "a_faithful_pca_2021": [
         {
           "sequence": 41,
@@ -494,6 +523,18 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [
+        {
+          "id": "hansoo-jin",
+          "name": "Hansoo Jin",
+          "ordination": "Teaching Elder",
+          "current_role": null,
+          "current_organization": null,
+          "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+          "current_role_source_ids": [],
+          "profile_status": "identity_crosswalk"
+        }
+      ],
       "a_faithful_pca_2021": [
         {
           "sequence": 195,
@@ -556,6 +597,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [],
       "a_faithful_pca_2022": [],
       "warhurst_2019": []
@@ -634,6 +676,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [
         {
           "sequence": 133,
@@ -686,6 +729,18 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [
+        {
+          "id": "justin-woodall",
+          "name": "Justin Woodall",
+          "ordination": "Teaching Elder",
+          "current_role": null,
+          "current_organization": null,
+          "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+          "current_role_source_ids": [],
+          "profile_status": "identity_crosswalk"
+        }
+      ],
       "a_faithful_pca_2021": [
         {
           "sequence": 27,
@@ -778,6 +833,18 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [
+        {
+          "id": "mark-bates",
+          "name": "Mark Bates",
+          "ordination": "Teaching Elder",
+          "current_role": null,
+          "current_organization": null,
+          "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+          "current_role_source_ids": [],
+          "profile_status": "identity_crosswalk"
+        }
+      ],
       "a_faithful_pca_2021": [
         {
           "sequence": 26,
@@ -839,6 +906,18 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [
+        {
+          "id": "omar-ortiz",
+          "name": "Omar Ortiz",
+          "ordination": "Teaching Elder",
+          "current_role": null,
+          "current_organization": null,
+          "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+          "current_role_source_ids": [],
+          "profile_status": "source_assessed"
+        }
+      ],
       "a_faithful_pca_2021": [],
       "a_faithful_pca_2022": [],
       "warhurst_2019": [
@@ -877,6 +956,18 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [
+        {
+          "id": "rob-wootton",
+          "name": "Rob Wootton",
+          "ordination": "Teaching Elder",
+          "current_role": null,
+          "current_organization": null,
+          "denominational_status": "PCA officer documented across reviewed National Partnership and official 2022 General Assembly action sources; current role not assessed in this identity slice",
+          "current_role_source_ids": [],
+          "profile_status": "source_assessed"
+        }
+      ],
       "a_faithful_pca_2021": [
         {
           "sequence": 136,
@@ -946,6 +1037,18 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [
+        {
+          "id": "sam-desocio",
+          "name": "Sam DeSocio",
+          "ordination": "Teaching Elder",
+          "current_role": null,
+          "current_organization": null,
+          "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+          "current_role_source_ids": [],
+          "profile_status": "identity_crosswalk"
+        }
+      ],
       "a_faithful_pca_2021": [
         {
           "sequence": 544,
@@ -1058,6 +1161,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [],
       "a_faithful_pca_2022": [],
       "warhurst_2019": [
@@ -1096,6 +1200,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [],
       "a_faithful_pca_2022": [],
       "warhurst_2019": [
@@ -1154,6 +1259,7 @@
           }
         ]
       },
+      "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [],
       "a_faithful_pca_2022": [],
       "warhurst_2019": [
