@@ -8,23 +8,26 @@ These items are deliberately kept outside confirmed public claims until further 
 
 Current canonical state:
 
+- Leon Brown — resolved as `leon-brown` from reviewed high-confidence identity evidence.
 - Dan Doriani — resolved as `dan-doriani` from reviewed high-confidence identity evidence.
 - Ligon Duncan — resolved as `ligon-duncan` from reviewed high-confidence identity evidence.
 - Irwyn Ince — resolved as `irwyn-ince`.
+- Mary Beth McGreevy — resolved as `mary-beth-mcgreevy` from reviewed high-confidence identity evidence; her separately modeled first-person evidence links to the same canonical person.
 - Bruce O'Neil — resolved as `bruce-o-neil`.
+- Harry Reeder — resolved as `harry-reeder` from reviewed high-confidence identity evidence.
 - Roy Taylor — resolved as `roy-taylor` from reviewed high-confidence identity evidence.
 
-The applied review receipt for Doriani, Duncan, and Taylor is `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json`.
+Applied review receipts:
+
+- `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json` — Dan Doriani, Ligon Duncan, Roy Taylor.
+- `sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json` — Leon Brown, Mary Beth McGreevy, Harry Reeder.
 
 Still unresolved in this committee dataset:
 
-- Leon Brown
 - William Castro
 - Jeffrey Choi
 - Lani Jones
 - Kathy Keller
-- Mary Beth McGreevy
-- Harry Reeder
 
 Committee service itself is confirmed from the official roster, but identity linkage and person-specific positions are separate questions. Resolve the remaining identities only with corroborating evidence; recognizable names alone are not sufficient.
 

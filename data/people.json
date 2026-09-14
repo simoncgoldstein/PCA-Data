@@ -240,6 +240,36 @@
     "profile_status": "seeded"
   },
   {
+    "id": "leon-brown",
+    "name": "Leon Brown",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in 2017 official committee source; later/current status not modeled in this slice",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "mary-beth-mcgreevy",
+    "name": "Mary Beth McGreevy",
+    "ordination": null,
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA committee service documented in 2017 official source; current role not modeled in this slice",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
+    "id": "harry-reeder",
+    "name": "Harry Reeder",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder in 2017 official committee source; later/current status not modeled in this slice",
+    "current_role_source_ids": [],
+    "profile_status": "seeded"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",

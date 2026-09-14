@@ -10,9 +10,11 @@ on:
       - "data/affiliations.json"
       - "data/sources.json"
       - "sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json"
+      - "sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json"
       - "sources/normalized/general-assembly/2017-women-serving-ministry-report.json"
       - "sources/normalized/general-assembly/2017-women-serving-ministry-person-edges.json"
       - "scripts/validate-2017-women-serving-canonical-links.py"
+      - "scripts/validate-2017-women-serving-identity-batch2.py"
       - ".github/workflows/validate-2017-women-serving-canonical-links.yml"
 
 permissions:
@@ -26,3 +28,5 @@ jobs:
         uses: actions/checkout@v7
       - name: Validate 2017 women-serving canonical links
         run: python3 scripts/validate-2017-women-serving-canonical-links.py .
+      - name: Validate 2017 women-serving identity batch 2
+        run: python3 scripts/validate-2017-women-serving-identity-batch2.py .
