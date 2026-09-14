@@ -24,11 +24,15 @@ jobs:
           def load(p):
               return json.loads((root / p).read_text(encoding='utf-8'))
           def key(s):
-              s = s or ''
-              s = s.lower().replace('’', "'")
-              s = re.sub(r'^(rev|reverend|dr)\s+', '', s)
+              s = (s or '').lower().replace('’', "'")
               s = re.sub(r'[^a-z0-9]+', ' ', s)
-              return ' '.join(s.split())
+              s = ' '.join(s.split())
+              while True:
+                  cleaned = re.sub(r'^(rev|reverend|dr)\b\s*', '', s).strip()
+                  if cleaned == s:
+                      break
+                  s = cleaned
+              return s
 
           pairwise = load('analysis/overlap/pairwise-shared-people.json')
           targets = {
