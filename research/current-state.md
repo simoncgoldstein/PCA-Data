@@ -36,7 +36,7 @@ Normalized complete rosters:
 
 Current coverage:
 
-- **Letter 1:** 60 printed signers; **23 currently canonical** and app-projected.
+- **Letter 1:** 60 printed signers; **25 currently canonical** and app-projected.
 - **Letter 2:** 21 printed signers; **21/21 canonical** and app-projected.
 - Every resolved signature is a confirmed `public_coalition_action` with the methodology's ordinary public-letter weight **3** and `score_included: true`.
 - The score records documented participation in this tracked public action. It is not itself a judgment of orthodoxy, Christian character, or every theological position of the signer.
@@ -45,7 +45,11 @@ Letter 2 required a reviewed identity pass for Metro New York and adjacent signe
 
 `sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json`
 
-Nineteen Letter 2 rows received targeted independent identity corroboration; seven identities that remained blocked by generic resolver collision/context safeguards were applied as person-specific canonical seeds. The global identity threshold was not weakened.
+The targeted NP-continuity review also resolved David Lindberg and David Richmon in Letter 1. Its receipt is:
+
+`sources/raw/identity/np-garris-continuity-identity-evidence-batch1-2026-09-14.json`
+
+Richmon is tied deterministically through Pacific Northwest and the Green Lake → Trinity Seattle church history. Lindberg is a reviewed historical-continuity decision: NP evidence places him in Metro Atlanta in 2018, contemporaneous sources identify the same PCA minister at ChristChurch Atlanta, byFaith records his later move to Covenant Presbyterian in Cherry Hill, and 2024 official/first-party sources place TE David Lindberg at Christ the King / North Texas. Preserve those presbytery changes as dated facts rather than rewriting them into a same-context match.
 
 Critical same-name boundary:
 
@@ -61,6 +65,7 @@ Reproducibility:
 - `scripts/project-garris-signers.py` deterministically reconciles resolved signer rows to app affiliations, including removal of stale signer edges after an identity correction.
 - repository-wide generated-output validation reruns the person crosswalk, the Garris signer projection, overlap analysis, and the National Partnership continuity analysis before requiring a clean git diff.
 - `scripts/validate-garris-letter-signers.py` protects roster completeness, scoring semantics, app linkage, Letter 2 completeness, and the Jeff White identity boundary.
+- `scripts/validate-np-garris-identity-batch1.py` protects the reviewed Lindberg/Richmon identity decisions and their continuity-analysis impact.
 
 ## National Partnership continuity / recurrence analysis
 
@@ -77,17 +82,17 @@ The analysis is intentionally descriptive rather than causal. It distinguishes c
 Current NP identity coverage:
 
 - **151** confirmed printed-name NP members in the normalized source roster;
-- **43** currently have confirmed canonical person identities;
-- canonical identity coverage is therefore **28.48%**.
+- **45** currently have confirmed canonical person identities;
+- canonical identity coverage is therefore **29.8%**.
 
-Because recurring people are generally easier to identity-resolve, the 43-person canonical subset is not assumed to be an unbiased random sample of all 151 confirmed printed-name NP members. Percentages calculated only inside the canonical subset can therefore overstate recurrence and must be paired with full-roster lower bounds.
+Because recurring people are generally easier to identity-resolve, the 45-person canonical subset is not assumed to be an unbiased random sample of all 151 confirmed printed-name NP members. Percentages calculated only inside the canonical subset can therefore overstate recurrence and must be paired with full-roster lower bounds.
 
 Current descriptive signals include:
 
 - **AMR current leadership:** 4 of 6 confirmed leaders are also confirmed canonical NP members — David Richter, Geoff Ziegler, Joel St. Clair, and Sean Lucas. This is strong personnel-continuity evidence, but not by itself proof that AMR is a formal/legal/organizational successor to NP.
-- **A Faithful PCA, June 2021:** 35 confirmed overlaps. That is 81.4% of the currently canonical NP subset, but only a **23.18% confirmed lower bound** against the full 151-name NP roster; 15 additional exact-name overlaps remain unresolved.
-- **A Faithful PCA, March 2022 cumulative snapshot:** 36 confirmed overlaps plus 18 unresolved exact-name possibilities.
-- **Garris Letter 1:** 8 confirmed NP overlaps among 23 resolved signers, with **2 unresolved exact-name NP possibilities: David Lindberg and David Richmon**. Against the full 60-name Letter 1 roster, the confirmed NP overlap is a 13.33% lower bound.
+- **A Faithful PCA, June 2021:** 36 confirmed overlaps. That is 80.0% of the currently canonical NP subset, with a **23.84% confirmed lower bound** against the full 151-name NP roster; 14 additional exact-name overlaps remain unresolved.
+- **A Faithful PCA, March 2022 cumulative snapshot:** 37 confirmed overlaps plus 17 unresolved exact-name possibilities.
+- **Garris Letter 1:** **10 confirmed NP overlaps among 25 resolved signers**; the targeted exact-name NP/Garris queue is now exhausted. Against the full 60-name Letter 1 roster, the confirmed NP overlap is a **16.67% lower bound**.
 - **Garris Letter 2:** 0 confirmed NP overlaps and 0 unresolved exact-name NP overlaps.
 - **2022 Overture 15 negative votes:** 10 confirmed NP overlaps plus 10 unresolved exact-name possibilities.
 - **2022 NAE-withdrawal protest:** 5 confirmed NP overlaps plus 5 unresolved exact-name possibilities.
@@ -120,19 +125,18 @@ Pacific Presbytery is the formal submitting body for Overture 37. Jeffrey Choi i
 
 ## Immediate next slice
 
-Continue **targeted National Partnership identity resolution for continuity analysis**, not broad identity cleanup for its own sake.
+Continue **targeted National Partnership identity resolution for post-archive continuity analysis**, not broad identity cleanup for its own sake.
 
 Priority order:
 
-1. Resolve the two exact-name NP ↔ Garris Letter 1 possibilities: **David Lindberg** and **David Richmon**. These have the highest immediate analytical value because they directly change the 2024 NP/Garris continuity estimate.
-2. Then review the **10** unresolved exact-name NP possibilities in the 2022 Overture 15 negative-vote dataset and the **5** in the 2022 NAE-withdrawal protest dataset.
-3. Treat A Faithful PCA's unresolved NP overlaps as useful secondary work, but remember the 2022 file is a cumulative snapshot of the 2021 action rather than an independent later action.
-4. Record reviewed identity evidence in receipts or other source-bounded review artifacts; do not relax global same-name matching.
-5. Rebuild crosswalk → Garris projection → overlap analysis → NP continuity analysis after each compact batch.
+1. Review the **10** unresolved exact-name NP possibilities in the 2022 Overture 15 negative-vote dataset.
+2. Review the **5** unresolved exact-name NP possibilities in the 2022 NAE-withdrawal protest dataset. Combine with the O15 batch if the evidence is straightforward; split only if collision/history review makes the PR unwieldy.
+3. Then do one targeted pass over the highest-value remaining NP ↔ A Faithful PCA / Warhurst exact-name possibilities and any important NP archival pins that materially affect recurrent-person profiles. Do not chase full 151/151 NP identity completion for its own sake.
+4. After those identity passes, perform a compact pre-UI research-gap audit: decide whether an opportunity-aware comparison cohort is actually defensible with current data and identify only source gaps that materially affect the intended UI/analysis.
 
 Only after identity coverage materially improves should the project construct an opportunity-aware comparison cohort for a formal predictive-validity estimate. Do **not** add risk ratios or odds ratios before that denominator problem is solved.
 
-Garris Letter 1 identity resolution can continue opportunistically when it improves the NP continuity analysis or another high-value cross-source question; there is no need to complete all 37 unresolved Letter 1 names before moving to higher-information work.
+Garris Letter 1 identity resolution can continue opportunistically when it improves another high-value cross-source question; there is no need to complete all 35 unresolved Letter 1 names before moving to higher-information work.
 
 ## Documentation maintenance rule
 
