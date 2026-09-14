@@ -55,10 +55,10 @@ jobs:
               row={'id':pid,'name':name,'ordination':ordination,'current_role':None,'current_organization':None,'denominational_status':status,'current_role_source_ids':[],'profile_status':'source_assessed'}
               people.append(row); people_by[pid]=row
 
-          # Four identities existed only as reproducibly generated crosswalk nodes.
+          # Five identities existed only as reproducibly generated crosswalk nodes.
           # This reviewed receipt makes them durable source-assessed seeds so their
-          # NP links survive future crosswalk rebuilds.
-          promote_existing={'david-wallover','justin-woodall','mark-bates','sam-desocio'}
+          # reviewed links survive future crosswalk rebuilds.
+          promote_existing={'david-wallover','hansoo-jin','justin-woodall','mark-bates','sam-desocio'}
           for pid in promote_existing:
               person=people_by.get(pid)
               if not person: raise SystemExit(f'missing reviewed person to promote: {pid}')
