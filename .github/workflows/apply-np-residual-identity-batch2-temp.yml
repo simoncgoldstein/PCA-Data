@@ -1,0 +1,104 @@
+name: Apply NP residual identity batch 2 (temporary)
+
+on:
+  push:
+    paths:
+      - '.github/apply-np-residual-identity-batch2.trigger'
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Apply reviewed identity decisions
+        run: |
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+
+          root = Path('.')
+          def load(p): return json.loads((root/p).read_text(encoding='utf-8'))
+          def write(p,v): (root/p).write_text(json.dumps(v,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
+          def key(s):
+              s=(s or '').lower().replace('’', "'")
+              words=re.findall(r'[a-z0-9]+',s)
+              while words and words[0] in {'rev','reverend','dr','doctor','te','re'}: words.pop(0)
+              return ' '.join(words)
+
+          receipt=load('sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json')
+          decisions={key(r['name_as_printed']):r['canonical_person_id'] for r in receipt['evidence']}
+          if len(decisions)!=18: raise SystemExit('expected 18 reviewed decisions')
+
+          people=load('data/people.json')
+          people_by={p['id']:p for p in people}
+          new_people={
+            'blake-altman': ('Blake Altman','Teaching Elder','PCA Teaching Elder documented across North Texas and Hills and Plains ministry contexts; current role not modeled from this identity slice'),
+            'charles-garland': ('Charles Garland','Teaching Elder','PCA Teaching Elder documented in official historical sources and later Arizona ministry context; current role not modeled from this identity slice'),
+            'dan-herron': ('Dan Herron','Teaching Elder','PCA Teaching Elder documented in historical Central Indiana sources; current status not assessed'),
+            'david-goneau': ('David Goneau','Teaching Elder','PCA Teaching Elder documented in historical Philadelphia sources; later Philadelphia Metro West context documented in the reviewed identity receipt'),
+            'david-ridenhour': ('David Ridenhour','Teaching Elder','PCA Teaching Elder documented in official 2018-2019 North Texas sources; official report records deposition on 2019-09-26; current status not assessed'),
+            'jeff-schneider': ('Jeff Schneider','Teaching Elder','PCA Teaching Elder documented in official Chicago Metro sources; current role not modeled from this identity slice'),
+            'jon-price': ('Jon Price','Teaching Elder','PCA Teaching Elder documented in Pittsburgh Presbytery sources; current role not modeled from this identity slice'),
+            'sean-roberts': ('Sean Roberts','Teaching Elder','PCA Teaching Elder documented across Philadelphia and Northern New England ministry contexts; current role not modeled from this identity slice'),
+            'tag-tuck': ('Tag Tuck',None,'PCA officer/pastor documented in Blue Ridge; source materials conflict on TE/RE classification in the 2019 context, so ordination is not normalized in this slice'),
+            'todd-gwennap': ('Todd Gwennap','Teaching Elder','PCA Teaching Elder documented across Eastern Carolina and North Texas ministry contexts; current role not modeled from this identity slice'),
+          }
+          for pid,(name,ordination,status) in new_people.items():
+              if pid in people_by:
+                  if people_by[pid].get('name')!=name: raise SystemExit(f'person id collision: {pid}')
+                  continue
+              row={'id':pid,'name':name,'ordination':ordination,'current_role':None,'current_organization':None,'denominational_status':status,'current_role_source_ids':[],'profile_status':'source_assessed'}
+              people.append(row); people_by[pid]=row
+          write('data/people.json',people)
+
+          np=load('sources/normalized/national-partnership/confirmed-memberships-canonical.json')
+          touched=0
+          for row in np['confirmed_members']:
+              k=row['normalized_name_key']
+              if k in decisions:
+                  row['normalized_person_id']=decisions[k]; touched+=1
+          if touched!=18: raise SystemExit(f'expected 18 NP rows, got {touched}')
+          write('sources/normalized/national-partnership/confirmed-memberships-canonical.json',np)
+
+          targets=[
+            ('sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json','signers','name_as_printed'),
+            ('sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json','signers','name_as_printed'),
+            ('sources/normalized/revoice/warhurst-protest-signers-2019.json','signers','name_as_printed'),
+          ]
+          target_keys={
+            'sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json': {'blake altman','charles garland','david goneau','david lindberg','david wallover','jon price','justin woodall','mark bates','rob wootton','sam desocio'},
+            'sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json': {'blake altman','charles garland','david goneau','david lindberg','david wallover','jeff schneider','jon price','justin woodall','mark bates','rob wootton','sam desocio'},
+            'sources/normalized/revoice/warhurst-protest-signers-2019.json': {'dan herron','david ridenhour','david wallover','hansoo jin','justin woodall','omar ortiz','sean roberts','tag tuck','todd gwennap'},
+          }
+          for path,row_key,name_field in targets:
+              data=load(path); found=set()
+              for row in data[row_key]:
+                  k=key(row.get(name_field))
+                  if k in target_keys[path]:
+                      row['normalized_person_id']=decisions[k]; found.add(k)
+              if found!=target_keys[path]:
+                  raise SystemExit(f'{path}: missing target rows {sorted(target_keys[path]-found)}')
+              write(path,data)
+          PY
+      - name: Regenerate identity, app projection, and overlap analysis
+        run: |
+          python3 scripts/build-person-crosswalk.py .
+          python3 scripts/project-garris-signers.py .
+          python3 scripts/project-national-partnership-members.py .
+          python3 scripts/build-overlap-analysis.py .
+          python3 scripts/build-national-partnership-continuity-analysis.py .
+      - name: Commit applied review and generated outputs
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data sources/normalized analysis/overlap analysis/national-partnership
+          if git diff --cached --quiet; then
+            echo 'No changes to commit.'
+            exit 0
+          fi
+          git commit -m 'apply NP residual identity batch 2'
+          git push
