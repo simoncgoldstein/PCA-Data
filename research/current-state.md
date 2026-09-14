@@ -10,7 +10,8 @@ The repository is an active source-driven PCA research graph, not a scaffold. It
 
 Substantially developed areas now include:
 
-- National Partnership correspondence and membership/action normalization, with some exact person-level archival pinning still incomplete;
+- National Partnership correspondence and membership/action normalization, with some exact person-level archival pinning and identity resolution still incomplete;
+- a bounded National Partnership continuity/recurrence analysis across later PCA action and leadership datasets;
 - A Faithful PCA / `Looking Forward – Together` signer data;
 - Alliance for Mission & Renewal leadership, media, organizational framing, and issue-specific material;
 - McGowan Global Institute roster evidence with independent NP-overlap boundaries;
@@ -58,8 +59,44 @@ Reproducibility:
 
 - `scripts/build-person-crosswalk.py` ingests Letter 1 and Letter 2 as separate source families.
 - `scripts/project-garris-signers.py` deterministically reconciles resolved signer rows to app affiliations, including removal of stale signer edges after an identity correction.
-- repository-wide generated-output validation reruns the person crosswalk, the Garris signer projection, and overlap analysis before requiring a clean git diff.
+- repository-wide generated-output validation reruns the person crosswalk, the Garris signer projection, overlap analysis, and the National Partnership continuity analysis before requiring a clean git diff.
 - `scripts/validate-garris-letter-signers.py` protects roster completeness, scoring semantics, app linkage, Letter 2 completeness, and the Jeff White identity boundary.
+
+## National Partnership continuity / recurrence analysis
+
+Generated analysis lives under:
+
+`analysis/national-partnership/`
+
+Builder:
+
+`scripts/build-national-partnership-continuity-analysis.py`
+
+The analysis is intentionally descriptive rather than causal. It distinguishes confirmed canonical overlap, conservative full-roster lower bounds, and unresolved exact-name screening possibilities.
+
+Current NP identity coverage:
+
+- **151** confirmed printed-name NP members in the normalized source roster;
+- **43** currently have confirmed canonical person identities;
+- canonical identity coverage is therefore **28.48%**.
+
+Because recurring people are generally easier to identity-resolve, the 43-person canonical subset is not assumed to be an unbiased random sample of all 151 confirmed printed-name NP members. Percentages calculated only inside the canonical subset can therefore overstate recurrence and must be paired with full-roster lower bounds.
+
+Current descriptive signals include:
+
+- **AMR current leadership:** 4 of 6 confirmed leaders are also confirmed canonical NP members — David Richter, Geoff Ziegler, Joel St. Clair, and Sean Lucas. This is strong personnel-continuity evidence, but not by itself proof that AMR is a formal/legal/organizational successor to NP.
+- **A Faithful PCA, June 2021:** 35 confirmed overlaps. That is 81.4% of the currently canonical NP subset, but only a **23.18% confirmed lower bound** against the full 151-name NP roster; 15 additional exact-name overlaps remain unresolved.
+- **A Faithful PCA, March 2022 cumulative snapshot:** 36 confirmed overlaps plus 18 unresolved exact-name possibilities.
+- **Garris Letter 1:** 8 confirmed NP overlaps among 23 resolved signers, with **2 unresolved exact-name NP possibilities: David Lindberg and David Richmon**. Against the full 60-name Letter 1 roster, the confirmed NP overlap is a 13.33% lower bound.
+- **Garris Letter 2:** 0 confirmed NP overlaps and 0 unresolved exact-name NP overlaps.
+- **2022 Overture 15 negative votes:** 10 confirmed NP overlaps plus 10 unresolved exact-name possibilities.
+- **2022 NAE-withdrawal protest:** 5 confirmed NP overlaps plus 5 unresolved exact-name possibilities.
+
+Predictive-validity boundary:
+
+The repository is **not yet ready for an `X times more likely` NP-vs-non-NP claim**. Do not treat a person with no current canonical NP edge as a confirmed non-member. A defensible predictive estimate first requires materially better NP identity coverage, an opportunity-aware comparison cohort, separation of within-archive recurrence from truly post-archive outcomes, and treatment of correlated actions as related rather than independent trials.
+
+The analysis and validator explicitly prohibit the shortcut of calculating risk/odds ratios by treating all people without canonical NP membership as non-members.
 
 ## McGowan Global Institute / National Partnership overlap
 
@@ -83,17 +120,19 @@ Pacific Presbytery is the formal submitting body for Overture 37. Jeffrey Choi i
 
 ## Immediate next slice
 
-Continue **Garris Letter 1 identity resolution in compact reviewed batches**, prioritizing signers who recur elsewhere in the repository or whose printed church/presbytery context can be independently corroborated without ambiguity.
+Continue **targeted National Partnership identity resolution for continuity analysis**, not broad identity cleanup for its own sake.
 
-For that work:
+Priority order:
 
-1. Start from the 37 unresolved Letter 1 rows in `garris-letters-2024.json` / the generated review queue.
-2. Prefer already recurring/high-value graph people and exact first-party/official ministry context.
-3. Record reviewed identity evidence in a receipt rather than relaxing global name-matching rules.
-4. Preserve the distinct Letter 1 Jeff White unless independent New City Fellowship / Rio Grande evidence resolves him.
-5. Rerun crosswalk → Garris projection → overlap analysis and keep the focused validator forward-compatible as Letter 1 coverage increases.
+1. Resolve the two exact-name NP ↔ Garris Letter 1 possibilities: **David Lindberg** and **David Richmon**. These have the highest immediate analytical value because they directly change the 2024 NP/Garris continuity estimate.
+2. Then review the **10** unresolved exact-name NP possibilities in the 2022 Overture 15 negative-vote dataset and the **5** in the 2022 NAE-withdrawal protest dataset.
+3. Treat A Faithful PCA's unresolved NP overlaps as useful secondary work, but remember the 2022 file is a cumulative snapshot of the 2021 action rather than an independent later action.
+4. Record reviewed identity evidence in receipts or other source-bounded review artifacts; do not relax global same-name matching.
+5. Rebuild crosswalk → Garris projection → overlap analysis → NP continuity analysis after each compact batch.
 
-After one or two efficient Letter 1 batches, the next broad operational priority should be exact National Partnership person-level message/page pinning and remaining high-value GA action/source gaps. Do not make broad ideological-position scoring the next data-ingestion phase; let the eventual UI/analysis layer synthesize independently sourced actions.
+Only after identity coverage materially improves should the project construct an opportunity-aware comparison cohort for a formal predictive-validity estimate. Do **not** add risk ratios or odds ratios before that denominator problem is solved.
+
+Garris Letter 1 identity resolution can continue opportunistically when it improves the NP continuity analysis or another high-value cross-source question; there is no need to complete all 37 unresolved Letter 1 names before moving to higher-information work.
 
 ## Documentation maintenance rule
 
