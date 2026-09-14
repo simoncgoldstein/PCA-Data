@@ -1,30 +1,64 @@
 # Unresolved / Pending Verification
 
-These items are deliberately kept outside confirmed public claims until further sourcing is completed.
+Audit date: **2026-09-14**
+
+These items are deliberately kept outside confirmed public claims until further sourcing or canonicalization is completed.
+
+## 2017 Women Serving committee
+
+Current canonical state:
+
+- Irwyn Ince — resolved as `irwyn-ince`.
+- Bruce O'Neil — resolved as `bruce-o-neil`.
+
+Reviewed high-confidence identity evidence exists, but canonical seeding has **not yet been applied**, for:
+
+- Dan Doriani — proposed canonical ID `dan-doriani`.
+- Ligon Duncan — proposed canonical ID `ligon-duncan`.
+- Roy Taylor — proposed canonical ID `roy-taylor`.
+
+The evidence receipt is `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json`.
+
+These three must remain `normalized_person_id: null` until the canonical-seeding slice updates `data/people.json`, the normalized committee records, app-facing affiliations, validators, and any affected generated outputs together.
+
+Still unresolved in this committee dataset:
+
+- Leon Brown
+- William Castro
+- Jeffrey Choi
+- Lani Jones
+- Kathy Keller
+- Mary Beth McGreevy
+- Harry Reeder
+
+Committee service itself is confirmed from the official roster, but identity linkage and person-specific positions are separate questions.
 
 ## National Partnership archival pins
 
-The following v0.1 entries are currently marked `strongly_supported` because the relevant National Partnership archive is known, but the exact message/page has not yet been normalized into its own source record:
+Several person-level entries remain `strongly_supported` because the archive/source family is known but exact message/page evidence is not yet normalized into a dedicated person-level source record.
 
-- Mike Khandjian: participation / recruitment
-- Irwyn Ince: explicit membership reference in 2017 correspondence
-- David Richter: Partnership participation in committee-placement correspondence
-- James Kessler: founder / principal organizer
+Examples include:
 
-These should be upgraded to `confirmed` only after exact archival citations are added.
+- Mike Khandjian: participation / recruitment;
+- Irwyn Ince: explicit membership reference in 2017 correspondence;
+- David Richter: Partnership participation in committee-placement correspondence;
+- James Kessler: founder / principal organizer.
+
+Upgrade a claim to `confirmed` only when the exact archival citation is pinned strongly enough for reproducible review.
 
 ## Prayer & Lament later commitment list
 
-The public page exposes the initial signatories but does not currently expose the full later commitment list in ordinary page text. A raw scrape supplied during research includes duplicates, malformed entries, and apparent disruptive submissions.
+The public page exposes the initial signatories but does not establish the full later commitment list as a clean verified roster. A raw scrape supplied during research includes duplicates, malformed entries, and apparent disruptive submissions.
 
 Policy:
-- do not bulk-import the raw scrape;
+
+- do not bulk-import the raw scrape as confirmed people;
 - independently corroborate later signers;
-- preserve the original row only as research provenance, not as a confirmed public claim.
+- preserve original rows only as research provenance until verified.
 
 ## Current-role normalization
 
-Current roles remain to be refreshed for a number of seeded people, including:
+Current roles still require refresh or careful dated treatment for a number of people. Examples include:
 
 - James Kessler
 - Duke Kwon
@@ -32,7 +66,7 @@ Current roles remain to be refreshed for a number of seeded people, including:
 - Owen Lee
 - Charles McKnight
 
-A 2024 document may establish a role at that date without proving the role is still current in 2026.
+A 2024 source may establish a role at that date without proving that the role is still current in 2026.
 
 ## Denominational status
 
@@ -46,7 +80,7 @@ For people now serving primarily in adjacent institutions, distinguish:
 
 Do not infer current ecclesiastical status from an old biography.
 
-## Historical renewal network
+## Historical renewal networks
 
 The following areas remain to be fully reconstructed before using formal membership language:
 
@@ -59,4 +93,10 @@ The following areas remain to be fully reconstructed before using formal members
 
 ## Identity collisions
 
-Common names require institutional/presbytery metadata before merging records. A same-name match is not sufficient evidence.
+Common names require institutional, office, presbytery, location, or other contextual evidence before merging records. A same-name match is not sufficient evidence.
+
+Reviewed aliases and name variants are person-specific decisions. Do not generalize one reviewed nickname, middle-initial, or spelling equivalence into a global matching rule.
+
+## Maintenance
+
+When an unresolved item is resolved, update this file or remove the stale entry in the same milestone if practical. `research/current-state.md` should summarize only the unresolved items that materially affect the immediate next slice; this file can retain the broader queue.

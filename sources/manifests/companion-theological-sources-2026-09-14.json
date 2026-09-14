@@ -1,0 +1,41 @@
+{
+  "manifest_id": "companion_theological_sources_2026-09-14",
+  "audited_on": "2026-09-14",
+  "scope": "Source documents collected in the private Google Drive PCA Research corpus that are relevant to the broader research program but are not currently app-facing source IDs.",
+  "redistribution_policy": "Register metadata and stable public source URLs here. Do not copy Drive PDF binaries into the public repository unless redistribution is appropriate and the binary materially improves reproducibility.",
+  "sources": [
+    {
+      "title": "The Public Preaching of Women",
+      "author": "R. L. Dabney",
+      "original_publication": "The Southern Presbyterian Review, October 1879",
+      "drive_filename": "The Public Preaching of Women – by R.L. Dabney _ Reformed Theology at A Puritan's Mind.pdf",
+      "public_source_url": "https://www.apuritansmind.com/pastors-study/the-public-preaching-of-women-by-r-l-dabney/",
+      "public_source_publisher": "A Puritan's Mind",
+      "repository_status": "metadata_registered_not_app_source_id",
+      "raw_binary_preserved_in_repo": false,
+      "notes": "Drive PDF is a collected copy of a public transcription/republication. Use the stable public page or a stronger bibliographic edition when citing a normalized claim."
+    },
+    {
+      "title": "Paul on Women Speaking in Church",
+      "author": "B. B. Warfield",
+      "original_publication": "The Presbyterian, October 30, 1919",
+      "drive_filename": "Paul on Women Speaking in Church, by B.B. Warfield (1919).pdf",
+      "public_source_url": "https://www.pcahistory.org/documents/paulonwomenspeaking.html",
+      "public_source_publisher": "PCA Historical Center",
+      "repository_status": "metadata_registered_not_app_source_id",
+      "raw_binary_preserved_in_repo": false,
+      "notes": "PCA Historical Center reproduces the 1919 text and identifies the original publication."
+    },
+    {
+      "title": "The Deaconess & the Household of God: A Rejoinder to Dan Barber",
+      "author": "Rich Leino",
+      "publication_date": "2026-09-01",
+      "drive_filename": "The Deaconess & the Household of God_ A Rejoinder to Dan Barber – Presbyterian Polity.pdf",
+      "public_source_url": "https://pcapolity.com/2026/09/01/the-deaconess-the-household-of-god-a-rejoinder-to-dan-barber/",
+      "public_source_publisher": "Presbyterian Polity",
+      "repository_status": "metadata_registered_not_app_source_id",
+      "raw_binary_preserved_in_repo": false,
+      "notes": "Secondary theological/polity analysis. Use as context, roadmap, or attributable argument, not as sole evidence for disputed person-level membership or conduct claims."
+    }
+  ]
+}
