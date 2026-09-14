@@ -941,11 +941,11 @@
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 105,
+      "confirmed_canonical_person_count": 106,
       "unmatched_count": 62,
-      "probable_requires_review_count": 11,
+      "probable_requires_review_count": 10,
       "ambiguous_or_collision_count": 25,
-      "percentage_resolved": 51.72,
+      "percentage_resolved": 52.22,
       "source_tier": [
         "official_primary"
       ],

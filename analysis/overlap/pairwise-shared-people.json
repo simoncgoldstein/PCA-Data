@@ -5278,6 +5278,16 @@
           ]
         },
         {
+          "canonical_person_id": "hansoo-jin",
+          "name": "Hansoo Jin",
+          "dataset_a_locators": [
+            "signature:195"
+          ],
+          "dataset_b_locators": [
+            "print_order:198"
+          ]
+        },
+        {
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
@@ -5653,7 +5663,6 @@
         "charles johnson",
         "derek radney",
         "greg ward",
-        "hansoo jin",
         "james pocta",
         "jason cornwell",
         "steven brooks",
@@ -9402,6 +9411,16 @@
           ]
         },
         {
+          "canonical_person_id": "hansoo-jin",
+          "name": "Hansoo Jin",
+          "dataset_a_locators": [
+            "signature:214"
+          ],
+          "dataset_b_locators": [
+            "print_order:198"
+          ]
+        },
+        {
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
@@ -9897,7 +9916,6 @@
         "charles johnson",
         "derek radney",
         "greg ward",
-        "hansoo jin",
         "james pocta",
         "jason cornwell",
         "steven brooks",
@@ -16471,6 +16489,16 @@
           ]
         },
         {
+          "canonical_person_id": "hansoo-jin",
+          "name": "Hansoo Jin",
+          "dataset_a_locators": [
+            "confirmed_member:64:hansoo jin"
+          ],
+          "dataset_b_locators": [
+            "print_order:198"
+          ]
+        },
+        {
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
@@ -16641,9 +16669,7 @@
           ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "hansoo jin"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "overture_15_minority_2022",
@@ -17509,6 +17535,16 @@
           ]
         },
         {
+          "canonical_person_id": "hansoo-jin",
+          "name": "Hansoo Jin",
+          "dataset_a_locators": [
+            "print_order:75"
+          ],
+          "dataset_b_locators": [
+            "print_order:198"
+          ]
+        },
+        {
           "canonical_person_id": "jake-patton",
           "name": "Jake Patton",
           "dataset_a_locators": [
@@ -17732,7 +17768,6 @@
       "unresolved_exact_name_keys": [
         "david daniel",
         "greg ward",
-        "hansoo jin",
         "jason cornwell",
         "jeffrey birch",
         "jeremy kemp",
@@ -18195,6 +18230,16 @@
           ]
         },
         {
+          "canonical_person_id": "hansoo-jin",
+          "name": "Hansoo Jin",
+          "dataset_a_locators": [
+            "print_order:93"
+          ],
+          "dataset_b_locators": [
+            "print_order:198"
+          ]
+        },
+        {
           "canonical_person_id": "irwyn-ince",
           "name": "Irwyn Ince",
           "dataset_a_locators": [
@@ -18540,7 +18585,6 @@
         "charles johnson",
         "chris talley",
         "derek radney",
-        "hansoo jin",
         "james pocta",
         "jason cornwell",
         "kenneth leggett"

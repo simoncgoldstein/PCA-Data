@@ -3,7 +3,7 @@
     "generated_on": "2026-09-04",
     "record_count": 4415,
     "canonical_person_count": 317,
-    "new_person_count": 266,
+    "new_person_count": 265,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -15,9 +15,9 @@
   "overall_match_status_counts": {
     "ambiguous": 470,
     "collision": 22,
-    "context_confirmed": 817,
-    "exact_confirmed": 254,
-    "probable_requires_review": 342,
+    "context_confirmed": 812,
+    "exact_confirmed": 260,
+    "probable_requires_review": 341,
     "unmatched": 2510
   },
   "datasets": [
@@ -28,8 +28,8 @@
       "confirmed_canonical_person_count": 163,
       "confirmed_row_count": 163,
       "match_status_counts": {
-        "exact_confirmed": 29,
-        "context_confirmed": 134,
+        "exact_confirmed": 30,
+        "context_confirmed": 133,
         "probable_requires_review": 26,
         "ambiguous": 64,
         "collision": 2,
@@ -50,8 +50,8 @@
       "confirmed_canonical_person_count": 201,
       "confirmed_row_count": 201,
       "match_status_counts": {
-        "exact_confirmed": 32,
-        "context_confirmed": 169,
+        "exact_confirmed": 33,
+        "context_confirmed": 168,
         "probable_requires_review": 26,
         "ambiguous": 73,
         "collision": 2,
@@ -1001,8 +1001,8 @@
       "confirmed_canonical_person_count": 68,
       "confirmed_row_count": 68,
       "match_status_counts": {
-        "exact_confirmed": 35,
-        "context_confirmed": 33,
+        "exact_confirmed": 36,
+        "context_confirmed": 32,
         "probable_requires_review": 12,
         "ambiguous": 6,
         "collision": 1,
@@ -1045,8 +1045,8 @@
       "confirmed_canonical_person_count": 120,
       "confirmed_row_count": 120,
       "match_status_counts": {
-        "exact_confirmed": 18,
-        "context_confirmed": 102,
+        "exact_confirmed": 19,
+        "context_confirmed": 101,
         "probable_requires_review": 14,
         "ambiguous": 15,
         "collision": 3,
@@ -1089,8 +1089,8 @@
       "confirmed_canonical_person_count": 117,
       "confirmed_row_count": 117,
       "match_status_counts": {
-        "exact_confirmed": 16,
-        "context_confirmed": 101,
+        "exact_confirmed": 17,
+        "context_confirmed": 100,
         "probable_requires_review": 8,
         "ambiguous": 26,
         "collision": 3,
@@ -1306,17 +1306,17 @@
       "source_dataset": "warhurst_protest_2019",
       "row_count": 203,
       "unique_printed_name_count": 203,
-      "confirmed_canonical_person_count": 105,
-      "confirmed_row_count": 105,
+      "confirmed_canonical_person_count": 106,
+      "confirmed_row_count": 106,
       "match_status_counts": {
-        "exact_confirmed": 19,
+        "exact_confirmed": 20,
         "context_confirmed": 86,
-        "probable_requires_review": 11,
+        "probable_requires_review": 10,
         "ambiguous": 23,
         "collision": 2,
         "unmatched": 62
       },
-      "percent_rows_resolved": 51.72,
+      "percent_rows_resolved": 52.22,
       "source_tier": [
         "official_primary"
       ],

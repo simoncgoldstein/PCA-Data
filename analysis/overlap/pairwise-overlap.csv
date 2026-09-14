@@ -56,7 +56,7 @@ a_faithful_pca_2021-06-11,ruf_campus_catalog_2025,561,414,163,8,5,166,0.030120,3
 a_faithful_pca_2021-06-11,ruf_staff_transitions_2026,561,203,163,0,0,163,0.000000,0.00,0.00,0.00,0.00,0
 a_faithful_pca_2021-06-11,subscription_overture_16_minority_report_2003,561,14,163,4,1,166,0.006024,0.61,25.00,0.18,7.14,0
 a_faithful_pca_2021-06-11,subscription_overture_16_negative_vote_2003,561,1,163,0,0,163,0.000000,0.00,0.00,0.00,0.00,0
-a_faithful_pca_2021-06-11,warhurst_protest_2019,561,203,163,105,62,206,0.300971,38.04,59.05,11.05,30.54,10
+a_faithful_pca_2021-06-11,warhurst_protest_2019,561,203,163,106,63,206,0.305825,38.65,59.43,11.23,31.03,9
 a_faithful_pca_2021-06-11,women_military_committee_2001,561,10,163,0,0,163,0.000000,0.00,0.00,0.00,0.00,0
 a_faithful_pca_2021-06-11,women_military_named_report_roles_2001_2002,561,3,163,0,0,163,0.000000,0.00,0.00,0.00,0.00,0
 a_faithful_pca_2021-06-11,women_study_committee_procedural_registration_2016,561,173,163,9,1,171,0.005848,0.61,11.11,0.18,0.58,1
@@ -116,7 +116,7 @@ a_faithful_pca_2022-03-14,ruf_campus_catalog_2025,736,414,201,8,8,201,0.039801,3
 a_faithful_pca_2022-03-14,ruf_staff_transitions_2026,736,203,201,0,0,201,0.000000,0.00,0.00,0.00,0.00,1
 a_faithful_pca_2022-03-14,subscription_overture_16_minority_report_2003,736,14,201,4,1,204,0.004902,0.50,25.00,0.14,7.14,0
 a_faithful_pca_2022-03-14,subscription_overture_16_negative_vote_2003,736,1,201,0,0,201,0.000000,0.00,0.00,0.00,0.00,0
-a_faithful_pca_2022-03-14,warhurst_protest_2019,736,203,201,105,78,228,0.342105,38.81,74.29,10.60,38.42,10
+a_faithful_pca_2022-03-14,warhurst_protest_2019,736,203,201,106,79,228,0.346491,39.30,74.53,10.73,38.92,9
 a_faithful_pca_2022-03-14,women_military_committee_2001,736,10,201,0,0,201,0.000000,0.00,0.00,0.00,0.00,0
 a_faithful_pca_2022-03-14,women_military_named_report_roles_2001_2002,736,3,201,0,0,201,0.000000,0.00,0.00,0.00,0.00,0
 a_faithful_pca_2022-03-14,women_study_committee_procedural_registration_2016,736,173,201,9,1,209,0.004785,0.50,11.11,0.14,0.58,1
@@ -175,7 +175,7 @@ amr_leadership_current,ruf_campus_catalog_2025,6,414,6,8,0,14,0.000000,0.00,0.00
 amr_leadership_current,ruf_staff_transitions_2026,6,203,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
 amr_leadership_current,subscription_overture_16_minority_report_2003,6,14,6,4,0,10,0.000000,0.00,0.00,0.00,0.00,0
 amr_leadership_current,subscription_overture_16_negative_vote_2003,6,1,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
-amr_leadership_current,warhurst_protest_2019,6,203,6,105,1,110,0.009091,16.67,0.95,16.67,0.49,0
+amr_leadership_current,warhurst_protest_2019,6,203,6,106,1,111,0.009009,16.67,0.94,16.67,0.49,0
 amr_leadership_current,women_military_committee_2001,6,10,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
 amr_leadership_current,women_military_named_report_roles_2001_2002,6,3,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
 amr_leadership_current,women_study_committee_procedural_registration_2016,6,173,6,9,0,15,0.000000,0.00,0.00,0.00,0.00,0
@@ -233,7 +233,7 @@ amr_website_media_2023_2026,ruf_campus_catalog_2025,60,414,7,8,0,15,0.000000,0.0
 amr_website_media_2023_2026,ruf_staff_transitions_2026,60,203,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,2
 amr_website_media_2023_2026,subscription_overture_16_minority_report_2003,60,14,7,4,1,10,0.100000,14.29,25.00,1.67,7.14,0
 amr_website_media_2023_2026,subscription_overture_16_negative_vote_2003,60,1,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
-amr_website_media_2023_2026,warhurst_protest_2019,60,203,7,105,1,111,0.009009,14.29,0.95,1.67,0.49,5
+amr_website_media_2023_2026,warhurst_protest_2019,60,203,7,106,1,112,0.008929,14.29,0.94,1.67,0.49,5
 amr_website_media_2023_2026,women_military_committee_2001,60,10,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
 amr_website_media_2023_2026,women_military_named_report_roles_2001_2002,60,3,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
 amr_website_media_2023_2026,women_study_committee_procedural_registration_2016,60,173,7,9,0,16,0.000000,0.00,0.00,0.00,0.00,1
@@ -290,7 +290,7 @@ amr_youtube_media_2023_2026,ruf_campus_catalog_2025,40,414,6,8,0,14,0.000000,0.0
 amr_youtube_media_2023_2026,ruf_staff_transitions_2026,40,203,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,1
 amr_youtube_media_2023_2026,subscription_overture_16_minority_report_2003,40,14,6,4,0,10,0.000000,0.00,0.00,0.00,0.00,0
 amr_youtube_media_2023_2026,subscription_overture_16_negative_vote_2003,40,1,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
-amr_youtube_media_2023_2026,warhurst_protest_2019,40,203,6,105,1,110,0.009091,16.67,0.95,2.50,0.49,1
+amr_youtube_media_2023_2026,warhurst_protest_2019,40,203,6,106,1,111,0.009009,16.67,0.94,2.50,0.49,1
 amr_youtube_media_2023_2026,women_military_committee_2001,40,10,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
 amr_youtube_media_2023_2026,women_military_named_report_roles_2001_2002,40,3,6,0,0,6,0.000000,0.00,0.00,0.00,0.00,0
 amr_youtube_media_2023_2026,women_study_committee_procedural_registration_2016,40,173,6,9,0,15,0.000000,0.00,0.00,0.00,0.00,2
@@ -346,7 +346,7 @@ bco_21_4_negative_votes_2003,ruf_campus_catalog_2025,71,414,0,8,0,8,0.000000,0.0
 bco_21_4_negative_votes_2003,ruf_staff_transitions_2026,71,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_negative_votes_2003,subscription_overture_16_minority_report_2003,71,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_negative_votes_2003,subscription_overture_16_negative_vote_2003,71,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-bco_21_4_negative_votes_2003,warhurst_protest_2019,71,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+bco_21_4_negative_votes_2003,warhurst_protest_2019,71,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_negative_votes_2003,women_military_committee_2001,71,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_negative_votes_2003,women_military_named_report_roles_2001_2002,71,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_negative_votes_2003,women_study_committee_procedural_registration_2016,71,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,6
@@ -401,7 +401,7 @@ bco_21_4_subscription_protest_author_2003,ruf_campus_catalog_2025,1,414,0,8,0,8,
 bco_21_4_subscription_protest_author_2003,ruf_staff_transitions_2026,1,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_author_2003,subscription_overture_16_minority_report_2003,1,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_author_2003,subscription_overture_16_negative_vote_2003,1,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-bco_21_4_subscription_protest_author_2003,warhurst_protest_2019,1,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+bco_21_4_subscription_protest_author_2003,warhurst_protest_2019,1,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_author_2003,women_military_committee_2001,1,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_author_2003,women_military_named_report_roles_2001_2002,1,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_author_2003,women_study_committee_procedural_registration_2016,1,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -455,7 +455,7 @@ bco_21_4_subscription_protest_joiners_2003,ruf_campus_catalog_2025,93,414,0,8,0,
 bco_21_4_subscription_protest_joiners_2003,ruf_staff_transitions_2026,93,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_joiners_2003,subscription_overture_16_minority_report_2003,93,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_joiners_2003,subscription_overture_16_negative_vote_2003,93,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-bco_21_4_subscription_protest_joiners_2003,warhurst_protest_2019,93,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,1
+bco_21_4_subscription_protest_joiners_2003,warhurst_protest_2019,93,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,1
 bco_21_4_subscription_protest_joiners_2003,women_military_committee_2001,93,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_joiners_2003,women_military_named_report_roles_2001_2002,93,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 bco_21_4_subscription_protest_joiners_2003,women_study_committee_procedural_registration_2016,93,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,3
@@ -508,7 +508,7 @@ federal_vision_study_committee_2007,ruf_campus_catalog_2025,7,414,0,8,0,8,0.0000
 federal_vision_study_committee_2007,ruf_staff_transitions_2026,7,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 federal_vision_study_committee_2007,subscription_overture_16_minority_report_2003,7,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 federal_vision_study_committee_2007,subscription_overture_16_negative_vote_2003,7,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-federal_vision_study_committee_2007,warhurst_protest_2019,7,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+federal_vision_study_committee_2007,warhurst_protest_2019,7,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 federal_vision_study_committee_2007,women_military_committee_2001,7,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 federal_vision_study_committee_2007,women_military_named_report_roles_2001_2002,7,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 federal_vision_study_committee_2007,women_study_committee_procedural_registration_2016,7,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -560,7 +560,7 @@ formal_position_2001-wim-majority-mans-duty-to-protect-woman,ruf_campus_catalog_
 formal_position_2001-wim-majority-mans-duty-to-protect-woman,ruf_staff_transitions_2026,5,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2001-wim-majority-mans-duty-to-protect-woman,subscription_overture_16_minority_report_2003,5,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2001-wim-majority-mans-duty-to-protect-woman,subscription_overture_16_negative_vote_2003,5,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2001-wim-majority-mans-duty-to-protect-woman,warhurst_protest_2019,5,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2001-wim-majority-mans-duty-to-protect-woman,warhurst_protest_2019,5,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2001-wim-majority-mans-duty-to-protect-woman,women_military_committee_2001,5,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,1
 formal_position_2001-wim-majority-mans-duty-to-protect-woman,women_military_named_report_roles_2001_2002,5,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2001-wim-majority-mans-duty-to-protect-woman,women_study_committee_procedural_registration_2016,5,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -611,7 +611,7 @@ formal_position_2001-wim-minority-wise-counsel,ruf_campus_catalog_2025,4,414,0,8
 formal_position_2001-wim-minority-wise-counsel,ruf_staff_transitions_2026,4,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2001-wim-minority-wise-counsel,subscription_overture_16_minority_report_2003,4,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2001-wim-minority-wise-counsel,subscription_overture_16_negative_vote_2003,4,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2001-wim-minority-wise-counsel,warhurst_protest_2019,4,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2001-wim-minority-wise-counsel,warhurst_protest_2019,4,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2001-wim-minority-wise-counsel,women_military_committee_2001,4,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,2
 formal_position_2001-wim-minority-wise-counsel,women_military_named_report_roles_2001_2002,4,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,1
 formal_position_2001-wim-minority-wise-counsel,women_study_committee_procedural_registration_2016,4,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -661,7 +661,7 @@ formal_position_2002-wim-majority-final-recommendations,ruf_campus_catalog_2025,
 formal_position_2002-wim-majority-final-recommendations,ruf_staff_transitions_2026,6,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2002-wim-majority-final-recommendations,subscription_overture_16_minority_report_2003,6,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2002-wim-majority-final-recommendations,subscription_overture_16_negative_vote_2003,6,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2002-wim-majority-final-recommendations,warhurst_protest_2019,6,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2002-wim-majority-final-recommendations,warhurst_protest_2019,6,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2002-wim-majority-final-recommendations,women_military_committee_2001,6,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,5
 formal_position_2002-wim-majority-final-recommendations,women_military_named_report_roles_2001_2002,6,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,1
 formal_position_2002-wim-majority-final-recommendations,women_study_committee_procedural_registration_2016,6,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -710,7 +710,7 @@ formal_position_2002-wim-minority-pastoral-counsel,ruf_campus_catalog_2025,4,414
 formal_position_2002-wim-minority-pastoral-counsel,ruf_staff_transitions_2026,4,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2002-wim-minority-pastoral-counsel,subscription_overture_16_minority_report_2003,4,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2002-wim-minority-pastoral-counsel,subscription_overture_16_negative_vote_2003,4,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2002-wim-minority-pastoral-counsel,warhurst_protest_2019,4,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2002-wim-minority-pastoral-counsel,warhurst_protest_2019,4,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2002-wim-minority-pastoral-counsel,women_military_committee_2001,4,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,1
 formal_position_2002-wim-minority-pastoral-counsel,women_military_named_report_roles_2001_2002,4,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2002-wim-minority-pastoral-counsel,women_study_committee_procedural_registration_2016,4,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -758,7 +758,7 @@ formal_position_2008-overture-9-deaconess-study-minority-report,ruf_campus_catal
 formal_position_2008-overture-9-deaconess-study-minority-report,ruf_staff_transitions_2026,27,203,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,1
 formal_position_2008-overture-9-deaconess-study-minority-report,subscription_overture_16_minority_report_2003,27,14,7,4,1,10,0.100000,14.29,25.00,3.70,7.14,0
 formal_position_2008-overture-9-deaconess-study-minority-report,subscription_overture_16_negative_vote_2003,27,1,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2008-overture-9-deaconess-study-minority-report,warhurst_protest_2019,27,203,7,105,2,110,0.018182,28.57,1.90,7.41,0.99,0
+formal_position_2008-overture-9-deaconess-study-minority-report,warhurst_protest_2019,27,203,7,106,2,111,0.018018,28.57,1.89,7.41,0.99,0
 formal_position_2008-overture-9-deaconess-study-minority-report,women_military_committee_2001,27,10,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2008-overture-9-deaconess-study-minority-report,women_military_named_report_roles_2001_2002,27,3,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2008-overture-9-deaconess-study-minority-report,women_study_committee_procedural_registration_2016,27,173,7,9,0,16,0.000000,0.00,0.00,0.00,0.00,0
@@ -805,7 +805,7 @@ formal_position_2008-rpr-women-scripture-reading-minority-report,ruf_campus_cata
 formal_position_2008-rpr-women-scripture-reading-minority-report,ruf_staff_transitions_2026,8,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2008-rpr-women-scripture-reading-minority-report,subscription_overture_16_minority_report_2003,8,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2008-rpr-women-scripture-reading-minority-report,subscription_overture_16_negative_vote_2003,8,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2008-rpr-women-scripture-reading-minority-report,warhurst_protest_2019,8,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2008-rpr-women-scripture-reading-minority-report,warhurst_protest_2019,8,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2008-rpr-women-scripture-reading-minority-report,women_military_committee_2001,8,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2008-rpr-women-scripture-reading-minority-report,women_military_named_report_roles_2001_2002,8,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2008-rpr-women-scripture-reading-minority-report,women_study_committee_procedural_registration_2016,8,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,1
@@ -851,7 +851,7 @@ formal_position_2009-overture-10-women-roles-study-minority-report,ruf_campus_ca
 formal_position_2009-overture-10-women-roles-study-minority-report,ruf_staff_transitions_2026,34,203,10,0,0,10,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2009-overture-10-women-roles-study-minority-report,subscription_overture_16_minority_report_2003,34,14,10,4,1,13,0.076923,10.00,25.00,2.94,7.14,0
 formal_position_2009-overture-10-women-roles-study-minority-report,subscription_overture_16_negative_vote_2003,34,1,10,0,0,10,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2009-overture-10-women-roles-study-minority-report,warhurst_protest_2019,34,203,10,105,3,112,0.026786,30.00,2.86,8.82,1.48,0
+formal_position_2009-overture-10-women-roles-study-minority-report,warhurst_protest_2019,34,203,10,106,3,113,0.026549,30.00,2.83,8.82,1.48,0
 formal_position_2009-overture-10-women-roles-study-minority-report,women_military_committee_2001,34,10,10,0,0,10,0.000000,0.00,0.00,0.00,0.00,1
 formal_position_2009-overture-10-women-roles-study-minority-report,women_military_named_report_roles_2001_2002,34,3,10,0,0,10,0.000000,0.00,0.00,0.00,0.00,1
 formal_position_2009-overture-10-women-roles-study-minority-report,women_study_committee_procedural_registration_2016,34,173,10,9,1,18,0.055556,10.00,11.11,2.94,0.58,0
@@ -896,7 +896,7 @@ formal_position_2012-scim-part-one-unanimous-report,ruf_campus_catalog_2025,6,41
 formal_position_2012-scim-part-one-unanimous-report,ruf_staff_transitions_2026,6,203,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2012-scim-part-one-unanimous-report,subscription_overture_16_minority_report_2003,6,14,2,4,0,6,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2012-scim-part-one-unanimous-report,subscription_overture_16_negative_vote_2003,6,1,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2012-scim-part-one-unanimous-report,warhurst_protest_2019,6,203,2,105,0,107,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2012-scim-part-one-unanimous-report,warhurst_protest_2019,6,203,2,106,0,108,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2012-scim-part-one-unanimous-report,women_military_committee_2001,6,10,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2012-scim-part-one-unanimous-report,women_military_named_report_roles_2001_2002,6,3,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2012-scim-part-one-unanimous-report,women_study_committee_procedural_registration_2016,6,173,2,9,1,10,0.100000,50.00,11.11,16.67,0.58,0
@@ -940,7 +940,7 @@ formal_position_2013-scim-committee-report,ruf_campus_catalog_2025,5,414,2,8,0,1
 formal_position_2013-scim-committee-report,ruf_staff_transitions_2026,5,203,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-committee-report,subscription_overture_16_minority_report_2003,5,14,2,4,0,6,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-committee-report,subscription_overture_16_negative_vote_2003,5,1,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2013-scim-committee-report,warhurst_protest_2019,5,203,2,105,0,107,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2013-scim-committee-report,warhurst_protest_2019,5,203,2,106,0,108,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-committee-report,women_military_committee_2001,5,10,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-committee-report,women_military_named_report_roles_2001_2002,5,3,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-committee-report,women_study_committee_procedural_registration_2016,5,173,2,9,2,9,0.222222,100.00,22.22,40.00,1.16,0
@@ -983,7 +983,7 @@ formal_position_2013-scim-jabbour-minority-report,ruf_campus_catalog_2025,1,414,
 formal_position_2013-scim-jabbour-minority-report,ruf_staff_transitions_2026,1,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-jabbour-minority-report,subscription_overture_16_minority_report_2003,1,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-jabbour-minority-report,subscription_overture_16_negative_vote_2003,1,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2013-scim-jabbour-minority-report,warhurst_protest_2019,1,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2013-scim-jabbour-minority-report,warhurst_protest_2019,1,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-jabbour-minority-report,women_military_committee_2001,1,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-jabbour-minority-report,women_military_named_report_roles_2001_2002,1,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2013-scim-jabbour-minority-report,women_study_committee_procedural_registration_2016,1,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1025,7 +1025,7 @@ formal_position_2014-scim-committee-report,ruf_campus_catalog_2025,5,414,2,8,0,1
 formal_position_2014-scim-committee-report,ruf_staff_transitions_2026,5,203,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-committee-report,subscription_overture_16_minority_report_2003,5,14,2,4,0,6,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-committee-report,subscription_overture_16_negative_vote_2003,5,1,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2014-scim-committee-report,warhurst_protest_2019,5,203,2,105,0,107,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2014-scim-committee-report,warhurst_protest_2019,5,203,2,106,0,108,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-committee-report,women_military_committee_2001,5,10,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-committee-report,women_military_named_report_roles_2001_2002,5,3,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-committee-report,women_study_committee_procedural_registration_2016,5,173,2,9,2,9,0.222222,100.00,22.22,40.00,1.16,0
@@ -1066,7 +1066,7 @@ formal_position_2014-scim-jabbour-seelinger-minority-report,ruf_campus_catalog_2
 formal_position_2014-scim-jabbour-seelinger-minority-report,ruf_staff_transitions_2026,2,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-jabbour-seelinger-minority-report,subscription_overture_16_minority_report_2003,2,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-jabbour-seelinger-minority-report,subscription_overture_16_negative_vote_2003,2,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-formal_position_2014-scim-jabbour-seelinger-minority-report,warhurst_protest_2019,2,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+formal_position_2014-scim-jabbour-seelinger-minority-report,warhurst_protest_2019,2,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-jabbour-seelinger-minority-report,women_military_committee_2001,2,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-jabbour-seelinger-minority-report,women_military_named_report_roles_2001_2002,2,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_position_2014-scim-jabbour-seelinger-minority-report,women_study_committee_procedural_registration_2016,2,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1106,7 +1106,7 @@ formal_role_overture_15,ruf_campus_catalog_2025,2,414,1,8,0,9,0.000000,0.00,0.00
 formal_role_overture_15,ruf_staff_transitions_2026,2,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_15,subscription_overture_16_minority_report_2003,2,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_15,subscription_overture_16_negative_vote_2003,2,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-formal_role_overture_15,warhurst_protest_2019,2,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+formal_role_overture_15,warhurst_protest_2019,2,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_15,women_military_committee_2001,2,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_15,women_military_named_report_roles_2001_2002,2,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_15,women_study_committee_procedural_registration_2016,2,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1145,7 +1145,7 @@ formal_role_overture_37,ruf_campus_catalog_2025,2,414,1,8,0,9,0.000000,0.00,0.00
 formal_role_overture_37,ruf_staff_transitions_2026,2,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_37,subscription_overture_16_minority_report_2003,2,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_37,subscription_overture_16_negative_vote_2003,2,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-formal_role_overture_37,warhurst_protest_2019,2,203,1,105,1,105,0.009524,100.00,0.95,50.00,0.49,1
+formal_role_overture_37,warhurst_protest_2019,2,203,1,106,1,106,0.009434,100.00,0.94,50.00,0.49,1
 formal_role_overture_37,women_military_committee_2001,2,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_37,women_military_named_report_roles_2001_2002,2,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 formal_role_overture_37,women_study_committee_procedural_registration_2016,2,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1183,7 +1183,7 @@ garris_letter_1,ruf_campus_catalog_2025,60,414,25,8,1,32,0.031250,4.00,12.50,1.6
 garris_letter_1,ruf_staff_transitions_2026,60,203,25,0,0,25,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_1,subscription_overture_16_minority_report_2003,60,14,25,4,0,29,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_1,subscription_overture_16_negative_vote_2003,60,1,25,0,0,25,0.000000,0.00,0.00,0.00,0.00,0
-garris_letter_1,warhurst_protest_2019,60,203,25,105,6,124,0.048387,24.00,5.71,10.00,2.96,4
+garris_letter_1,warhurst_protest_2019,60,203,25,106,6,125,0.048000,24.00,5.66,10.00,2.96,4
 garris_letter_1,women_military_committee_2001,60,10,25,0,0,25,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_1,women_military_named_report_roles_2001_2002,60,3,25,0,0,25,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_1,women_study_committee_procedural_registration_2016,60,173,25,9,0,34,0.000000,0.00,0.00,0.00,0.00,0
@@ -1220,7 +1220,7 @@ garris_letter_2,ruf_campus_catalog_2025,21,414,21,8,0,29,0.000000,0.00,0.00,0.00
 garris_letter_2,ruf_staff_transitions_2026,21,203,21,0,0,21,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2,subscription_overture_16_minority_report_2003,21,14,21,4,0,25,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2,subscription_overture_16_negative_vote_2003,21,1,21,0,0,21,0.000000,0.00,0.00,0.00,0.00,0
-garris_letter_2,warhurst_protest_2019,21,203,21,105,0,126,0.000000,0.00,0.00,0.00,0.00,0
+garris_letter_2,warhurst_protest_2019,21,203,21,106,0,127,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2,women_military_committee_2001,21,10,21,0,0,21,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2,women_military_named_report_roles_2001_2002,21,3,21,0,0,21,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2,women_study_committee_procedural_registration_2016,21,173,21,9,0,30,0.000000,0.00,0.00,0.00,0.00,0
@@ -1256,7 +1256,7 @@ garris_letter_2_identity_verification,ruf_campus_catalog_2025,19,414,18,8,0,26,0
 garris_letter_2_identity_verification,ruf_staff_transitions_2026,19,203,18,0,0,18,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2_identity_verification,subscription_overture_16_minority_report_2003,19,14,18,4,0,22,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2_identity_verification,subscription_overture_16_negative_vote_2003,19,1,18,0,0,18,0.000000,0.00,0.00,0.00,0.00,0
-garris_letter_2_identity_verification,warhurst_protest_2019,19,203,18,105,0,123,0.000000,0.00,0.00,0.00,0.00,0
+garris_letter_2_identity_verification,warhurst_protest_2019,19,203,18,106,0,124,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2_identity_verification,women_military_committee_2001,19,10,18,0,0,18,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2_identity_verification,women_military_named_report_roles_2001_2002,19,3,18,0,0,18,0.000000,0.00,0.00,0.00,0.00,0
 garris_letter_2_identity_verification,women_study_committee_procedural_registration_2016,19,173,18,9,0,27,0.000000,0.00,0.00,0.00,0.00,0
@@ -1291,7 +1291,7 @@ human_sexuality_aic_2019_2021,ruf_campus_catalog_2025,7,414,1,8,0,9,0.000000,0.0
 human_sexuality_aic_2019_2021,ruf_staff_transitions_2026,7,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 human_sexuality_aic_2019_2021,subscription_overture_16_minority_report_2003,7,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 human_sexuality_aic_2019_2021,subscription_overture_16_negative_vote_2003,7,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-human_sexuality_aic_2019_2021,warhurst_protest_2019,7,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+human_sexuality_aic_2019_2021,warhurst_protest_2019,7,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 human_sexuality_aic_2019_2021,women_military_committee_2001,7,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 human_sexuality_aic_2019_2021,women_military_named_report_roles_2001_2002,7,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 human_sexuality_aic_2019_2021,women_study_committee_procedural_registration_2016,7,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1325,7 +1325,7 @@ insider_movements_committee_membership_changes_2012,ruf_campus_catalog_2025,3,41
 insider_movements_committee_membership_changes_2012,ruf_staff_transitions_2026,3,203,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_committee_membership_changes_2012,subscription_overture_16_minority_report_2003,3,14,2,4,0,6,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_committee_membership_changes_2012,subscription_overture_16_negative_vote_2003,3,1,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
-insider_movements_committee_membership_changes_2012,warhurst_protest_2019,3,203,2,105,0,107,0.000000,0.00,0.00,0.00,0.00,0
+insider_movements_committee_membership_changes_2012,warhurst_protest_2019,3,203,2,106,0,108,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_committee_membership_changes_2012,women_military_committee_2001,3,10,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_committee_membership_changes_2012,women_military_named_report_roles_2001_2002,3,3,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_committee_membership_changes_2012,women_study_committee_procedural_registration_2016,3,173,2,9,2,9,0.222222,100.00,22.22,66.67,1.16,0
@@ -1358,7 +1358,7 @@ insider_movements_named_report_roles_2013_2014,ruf_campus_catalog_2025,5,414,2,8
 insider_movements_named_report_roles_2013_2014,ruf_staff_transitions_2026,5,203,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_named_report_roles_2013_2014,subscription_overture_16_minority_report_2003,5,14,2,4,0,6,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_named_report_roles_2013_2014,subscription_overture_16_negative_vote_2003,5,1,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
-insider_movements_named_report_roles_2013_2014,warhurst_protest_2019,5,203,2,105,0,107,0.000000,0.00,0.00,0.00,0.00,0
+insider_movements_named_report_roles_2013_2014,warhurst_protest_2019,5,203,2,106,0,108,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_named_report_roles_2013_2014,women_military_committee_2001,5,10,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_named_report_roles_2013_2014,women_military_named_report_roles_2001_2002,5,3,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 insider_movements_named_report_roles_2013_2014,women_study_committee_procedural_registration_2016,5,173,2,9,1,10,0.100000,50.00,11.11,20.00,0.58,0
@@ -1390,7 +1390,7 @@ institution_cdm,ruf_campus_catalog_2025,30,414,1,8,0,9,0.000000,0.00,0.00,0.00,0
 institution_cdm,ruf_staff_transitions_2026,30,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_cdm,subscription_overture_16_minority_report_2003,30,14,1,4,1,4,0.250000,100.00,25.00,3.33,7.14,0
 institution_cdm,subscription_overture_16_negative_vote_2003,30,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-institution_cdm,warhurst_protest_2019,30,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+institution_cdm,warhurst_protest_2019,30,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 institution_cdm,women_military_committee_2001,30,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_cdm,women_military_named_report_roles_2001_2002,30,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_cdm,women_study_committee_procedural_registration_2016,30,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1421,7 +1421,7 @@ institution_covenant-college,ruf_campus_catalog_2025,48,414,0,8,0,8,0.000000,0.0
 institution_covenant-college,ruf_staff_transitions_2026,48,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-college,subscription_overture_16_minority_report_2003,48,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-college,subscription_overture_16_negative_vote_2003,48,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-institution_covenant-college,warhurst_protest_2019,48,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,1
+institution_covenant-college,warhurst_protest_2019,48,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,1
 institution_covenant-college,women_military_committee_2001,48,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-college,women_military_named_report_roles_2001_2002,48,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-college,women_study_committee_procedural_registration_2016,48,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -1451,7 +1451,7 @@ institution_covenant-theological-seminary,ruf_campus_catalog_2025,51,414,0,8,0,8
 institution_covenant-theological-seminary,ruf_staff_transitions_2026,51,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-theological-seminary,subscription_overture_16_minority_report_2003,51,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-theological-seminary,subscription_overture_16_negative_vote_2003,51,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-institution_covenant-theological-seminary,warhurst_protest_2019,51,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,2
+institution_covenant-theological-seminary,warhurst_protest_2019,51,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,2
 institution_covenant-theological-seminary,women_military_committee_2001,51,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-theological-seminary,women_military_named_report_roles_2001_2002,51,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_covenant-theological-seminary,women_study_committee_procedural_registration_2016,51,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,1
@@ -1480,7 +1480,7 @@ institution_geneva-benefits,ruf_campus_catalog_2025,46,414,0,8,0,8,0.000000,0.00
 institution_geneva-benefits,ruf_staff_transitions_2026,46,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,subscription_overture_16_minority_report_2003,46,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,subscription_overture_16_negative_vote_2003,46,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-institution_geneva-benefits,warhurst_protest_2019,46,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+institution_geneva-benefits,warhurst_protest_2019,46,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,women_military_committee_2001,46,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,women_military_named_report_roles_2001_2002,46,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_geneva-benefits,women_study_committee_procedural_registration_2016,46,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -1508,7 +1508,7 @@ institution_greenville-presbyterian-theological-seminary,ruf_campus_catalog_2025
 institution_greenville-presbyterian-theological-seminary,ruf_staff_transitions_2026,29,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,subscription_overture_16_minority_report_2003,29,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,subscription_overture_16_negative_vote_2003,29,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-institution_greenville-presbyterian-theological-seminary,warhurst_protest_2019,29,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+institution_greenville-presbyterian-theological-seminary,warhurst_protest_2019,29,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,women_military_committee_2001,29,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,women_military_named_report_roles_2001_2002,29,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_greenville-presbyterian-theological-seminary,women_study_committee_procedural_registration_2016,29,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,3
@@ -1535,7 +1535,7 @@ institution_mission-to-north-america,ruf_campus_catalog_2025,95,414,2,8,0,10,0.0
 institution_mission-to-north-america,ruf_staff_transitions_2026,95,203,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-north-america,subscription_overture_16_minority_report_2003,95,14,2,4,0,6,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-north-america,subscription_overture_16_negative_vote_2003,95,1,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
-institution_mission-to-north-america,warhurst_protest_2019,95,203,2,105,2,105,0.019048,100.00,1.90,2.11,0.99,1
+institution_mission-to-north-america,warhurst_protest_2019,95,203,2,106,2,106,0.018868,100.00,1.89,2.11,0.99,1
 institution_mission-to-north-america,women_military_committee_2001,95,10,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-north-america,women_military_named_report_roles_2001_2002,95,3,2,0,0,2,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-north-america,women_study_committee_procedural_registration_2016,95,173,2,9,0,11,0.000000,0.00,0.00,0.00,0.00,1
@@ -1561,7 +1561,7 @@ institution_mission-to-the-world,ruf_campus_catalog_2025,10,414,1,8,0,9,0.000000
 institution_mission-to-the-world,ruf_staff_transitions_2026,10,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,subscription_overture_16_minority_report_2003,10,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,subscription_overture_16_negative_vote_2003,10,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-institution_mission-to-the-world,warhurst_protest_2019,10,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+institution_mission-to-the-world,warhurst_protest_2019,10,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,women_military_committee_2001,10,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,women_military_named_report_roles_2001_2002,10,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_mission-to-the-world,women_study_committee_procedural_registration_2016,10,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1586,7 +1586,7 @@ institution_pca-administrative-committee,ruf_campus_catalog_2025,19,414,0,8,0,8,
 institution_pca-administrative-committee,ruf_staff_transitions_2026,19,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,1
 institution_pca-administrative-committee,subscription_overture_16_minority_report_2003,19,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-administrative-committee,subscription_overture_16_negative_vote_2003,19,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-institution_pca-administrative-committee,warhurst_protest_2019,19,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+institution_pca-administrative-committee,warhurst_protest_2019,19,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-administrative-committee,women_military_committee_2001,19,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-administrative-committee,women_military_named_report_roles_2001_2002,19,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-administrative-committee,women_study_committee_procedural_registration_2016,19,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,1
@@ -1610,7 +1610,7 @@ institution_pca-foundation,ruf_campus_catalog_2025,23,414,0,8,0,8,0.000000,0.00,
 institution_pca-foundation,ruf_staff_transitions_2026,23,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,subscription_overture_16_minority_report_2003,23,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,subscription_overture_16_negative_vote_2003,23,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-institution_pca-foundation,warhurst_protest_2019,23,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+institution_pca-foundation,warhurst_protest_2019,23,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,women_military_committee_2001,23,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,women_military_named_report_roles_2001_2002,23,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_pca-foundation,women_study_committee_procedural_registration_2016,23,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -1633,7 +1633,7 @@ institution_reformed-theological-seminary,ruf_campus_catalog_2025,46,414,1,8,0,9
 institution_reformed-theological-seminary,ruf_staff_transitions_2026,46,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-theological-seminary,subscription_overture_16_minority_report_2003,46,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-theological-seminary,subscription_overture_16_negative_vote_2003,46,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-institution_reformed-theological-seminary,warhurst_protest_2019,46,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+institution_reformed-theological-seminary,warhurst_protest_2019,46,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-theological-seminary,women_military_committee_2001,46,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-theological-seminary,women_military_named_report_roles_2001_2002,46,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-theological-seminary,women_study_committee_procedural_registration_2016,46,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,1
@@ -1655,7 +1655,7 @@ institution_reformed-university-fellowship,ruf_campus_catalog_2025,33,414,1,8,0,
 institution_reformed-university-fellowship,ruf_staff_transitions_2026,33,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,23
 institution_reformed-university-fellowship,subscription_overture_16_minority_report_2003,33,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-university-fellowship,subscription_overture_16_negative_vote_2003,33,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-institution_reformed-university-fellowship,warhurst_protest_2019,33,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+institution_reformed-university-fellowship,warhurst_protest_2019,33,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-university-fellowship,women_military_committee_2001,33,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-university-fellowship,women_military_named_report_roles_2001_2002,33,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_reformed-university-fellowship,women_study_committee_procedural_registration_2016,33,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1676,7 +1676,7 @@ institution_ridge-haven,ruf_campus_catalog_2025,17,414,1,8,0,9,0.000000,0.00,0.0
 institution_ridge-haven,ruf_staff_transitions_2026,17,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,subscription_overture_16_minority_report_2003,17,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,subscription_overture_16_negative_vote_2003,17,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-institution_ridge-haven,warhurst_protest_2019,17,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,0
+institution_ridge-haven,warhurst_protest_2019,17,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,women_military_committee_2001,17,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,women_military_named_report_roles_2001_2002,17,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_ridge-haven,women_study_committee_procedural_registration_2016,17,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1696,7 +1696,7 @@ institution_westminster-seminary-california,ruf_campus_catalog_2025,21,414,0,8,0
 institution_westminster-seminary-california,ruf_staff_transitions_2026,21,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,subscription_overture_16_minority_report_2003,21,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,subscription_overture_16_negative_vote_2003,21,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-institution_westminster-seminary-california,warhurst_protest_2019,21,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+institution_westminster-seminary-california,warhurst_protest_2019,21,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,women_military_committee_2001,21,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,women_military_named_report_roles_2001_2002,21,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-seminary-california,women_study_committee_procedural_registration_2016,21,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -1715,7 +1715,7 @@ institution_westminster-theological-seminary,ruf_campus_catalog_2025,32,414,1,8,
 institution_westminster-theological-seminary,ruf_staff_transitions_2026,32,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-theological-seminary,subscription_overture_16_minority_report_2003,32,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,0
 institution_westminster-theological-seminary,subscription_overture_16_negative_vote_2003,32,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-institution_westminster-theological-seminary,warhurst_protest_2019,32,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,1
+institution_westminster-theological-seminary,warhurst_protest_2019,32,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,1
 institution_westminster-theological-seminary,women_military_committee_2001,32,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,1
 institution_westminster-theological-seminary,women_military_named_report_roles_2001_2002,32,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,1
 institution_westminster-theological-seminary,women_study_committee_procedural_registration_2016,32,173,1,9,1,9,0.111111,100.00,11.11,3.12,0.58,1
@@ -1733,7 +1733,7 @@ nae_withdrawal_protest_2022,ruf_campus_catalog_2025,203,414,85,8,0,93,0.000000,0
 nae_withdrawal_protest_2022,ruf_staff_transitions_2026,203,203,85,0,0,85,0.000000,0.00,0.00,0.00,0.00,1
 nae_withdrawal_protest_2022,subscription_overture_16_minority_report_2003,203,14,85,4,2,87,0.022989,2.35,50.00,0.99,14.29,0
 nae_withdrawal_protest_2022,subscription_overture_16_negative_vote_2003,203,1,85,0,0,85,0.000000,0.00,0.00,0.00,0.00,0
-nae_withdrawal_protest_2022,warhurst_protest_2019,203,203,85,105,24,166,0.144578,28.24,22.86,11.82,11.82,5
+nae_withdrawal_protest_2022,warhurst_protest_2019,203,203,85,106,24,167,0.143713,28.24,22.64,11.82,11.82,5
 nae_withdrawal_protest_2022,women_military_committee_2001,203,10,85,0,0,85,0.000000,0.00,0.00,0.00,0.00,0
 nae_withdrawal_protest_2022,women_military_named_report_roles_2001_2002,203,3,85,0,0,85,0.000000,0.00,0.00,0.00,0.00,0
 nae_withdrawal_protest_2022,women_study_committee_procedural_registration_2016,203,173,85,9,0,94,0.000000,0.00,0.00,0.00,0.00,0
@@ -1750,7 +1750,7 @@ national_partnership_confirmed_members,ruf_campus_catalog_2025,151,414,68,8,1,75
 national_partnership_confirmed_members,ruf_staff_transitions_2026,151,203,68,0,0,68,0.000000,0.00,0.00,0.00,0.00,0
 national_partnership_confirmed_members,subscription_overture_16_minority_report_2003,151,14,68,4,1,71,0.014085,1.47,25.00,0.66,7.14,0
 national_partnership_confirmed_members,subscription_overture_16_negative_vote_2003,151,1,68,0,0,68,0.000000,0.00,0.00,0.00,0.00,0
-national_partnership_confirmed_members,warhurst_protest_2019,151,203,68,105,30,143,0.209790,44.12,28.57,19.87,14.78,1
+national_partnership_confirmed_members,warhurst_protest_2019,151,203,68,106,31,143,0.216783,45.59,29.25,20.53,15.27,0
 national_partnership_confirmed_members,women_military_committee_2001,151,10,68,0,0,68,0.000000,0.00,0.00,0.00,0.00,0
 national_partnership_confirmed_members,women_military_named_report_roles_2001_2002,151,3,68,0,0,68,0.000000,0.00,0.00,0.00,0.00,0
 national_partnership_confirmed_members,women_study_committee_procedural_registration_2016,151,173,68,9,0,77,0.000000,0.00,0.00,0.00,0.00,0
@@ -1766,7 +1766,7 @@ overture_15_minority_2022,ruf_campus_catalog_2025,46,414,5,8,0,13,0.000000,0.00,
 overture_15_minority_2022,ruf_staff_transitions_2026,46,203,5,0,0,5,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,subscription_overture_16_minority_report_2003,46,14,5,4,0,9,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,subscription_overture_16_negative_vote_2003,46,1,5,0,0,5,0.000000,0.00,0.00,0.00,0.00,0
-overture_15_minority_2022,warhurst_protest_2019,46,203,5,105,0,110,0.000000,0.00,0.00,0.00,0.00,0
+overture_15_minority_2022,warhurst_protest_2019,46,203,5,106,0,111,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,women_military_committee_2001,46,10,5,0,0,5,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,women_military_named_report_roles_2001_2002,46,3,5,0,0,5,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_minority_2022,women_study_committee_procedural_registration_2016,46,173,5,9,4,10,0.400000,80.00,44.44,8.70,2.31,0
@@ -1781,7 +1781,7 @@ overture_15_negative_votes_2022,ruf_campus_catalog_2025,200,414,120,8,2,126,0.01
 overture_15_negative_votes_2022,ruf_staff_transitions_2026,200,203,120,0,0,120,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_negative_votes_2022,subscription_overture_16_minority_report_2003,200,14,120,4,1,123,0.008130,0.83,25.00,0.50,7.14,0
 overture_15_negative_votes_2022,subscription_overture_16_negative_vote_2003,200,1,120,0,0,120,0.000000,0.00,0.00,0.00,0.00,0
-overture_15_negative_votes_2022,warhurst_protest_2019,200,203,120,105,33,192,0.171875,27.50,31.43,16.50,16.26,10
+overture_15_negative_votes_2022,warhurst_protest_2019,200,203,120,106,34,192,0.177083,28.33,32.08,17.00,16.75,9
 overture_15_negative_votes_2022,women_military_committee_2001,200,10,120,0,0,120,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_negative_votes_2022,women_military_named_report_roles_2001_2002,200,3,120,0,0,120,0.000000,0.00,0.00,0.00,0.00,0
 overture_15_negative_votes_2022,women_study_committee_procedural_registration_2016,200,173,120,9,1,128,0.007812,0.83,11.11,0.50,0.58,0
@@ -1795,7 +1795,7 @@ overture_37_minority_2021,ruf_campus_catalog_2025,28,414,16,8,0,24,0.000000,0.00
 overture_37_minority_2021,ruf_staff_transitions_2026,28,203,16,0,0,16,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_minority_2021,subscription_overture_16_minority_report_2003,28,14,16,4,0,20,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_minority_2021,subscription_overture_16_negative_vote_2003,28,1,16,0,0,16,0.000000,0.00,0.00,0.00,0.00,0
-overture_37_minority_2021,warhurst_protest_2019,28,203,16,105,7,114,0.061404,43.75,6.67,25.00,3.45,4
+overture_37_minority_2021,warhurst_protest_2019,28,203,16,106,7,115,0.060870,43.75,6.60,25.00,3.45,4
 overture_37_minority_2021,women_military_committee_2001,28,10,16,0,0,16,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_minority_2021,women_military_named_report_roles_2001_2002,28,3,16,0,0,16,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_minority_2021,women_study_committee_procedural_registration_2016,28,173,16,9,0,25,0.000000,0.00,0.00,0.00,0.00,0
@@ -1808,7 +1808,7 @@ overture_37_negative_votes_2021,ruf_campus_catalog_2025,207,414,117,8,2,123,0.01
 overture_37_negative_votes_2021,ruf_staff_transitions_2026,207,203,117,0,0,117,0.000000,0.00,0.00,0.00,0.00,1
 overture_37_negative_votes_2021,subscription_overture_16_minority_report_2003,207,14,117,4,2,119,0.016807,1.71,50.00,0.97,14.29,0
 overture_37_negative_votes_2021,subscription_overture_16_negative_vote_2003,207,1,117,0,0,117,0.000000,0.00,0.00,0.00,0.00,0
-overture_37_negative_votes_2021,warhurst_protest_2019,207,203,117,105,45,177,0.254237,38.46,42.86,21.74,22.17,8
+overture_37_negative_votes_2021,warhurst_protest_2019,207,203,117,106,46,177,0.259887,39.32,43.40,22.22,22.66,7
 overture_37_negative_votes_2021,women_military_committee_2001,207,10,117,0,0,117,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_negative_votes_2021,women_military_named_report_roles_2001_2002,207,3,117,0,0,117,0.000000,0.00,0.00,0.00,0.00,0
 overture_37_negative_votes_2021,women_study_committee_procedural_registration_2016,207,173,117,9,0,126,0.000000,0.00,0.00,0.00,0.00,1
@@ -1820,7 +1820,7 @@ pipa_women_study_committee_protest_2016,ruf_campus_catalog_2025,28,414,0,8,0,8,0
 pipa_women_study_committee_protest_2016,ruf_staff_transitions_2026,28,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_2016,subscription_overture_16_minority_report_2003,28,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_2016,subscription_overture_16_negative_vote_2003,28,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-pipa_women_study_committee_protest_2016,warhurst_protest_2019,28,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+pipa_women_study_committee_protest_2016,warhurst_protest_2019,28,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_2016,women_military_committee_2001,28,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_2016,women_military_named_report_roles_2001_2002,28,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_2016,women_study_committee_procedural_registration_2016,28,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,19
@@ -1831,7 +1831,7 @@ pipa_women_study_committee_protest_author_2016,ruf_campus_catalog_2025,1,414,0,8
 pipa_women_study_committee_protest_author_2016,ruf_staff_transitions_2026,1,203,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_author_2016,subscription_overture_16_minority_report_2003,1,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_author_2016,subscription_overture_16_negative_vote_2003,1,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-pipa_women_study_committee_protest_author_2016,warhurst_protest_2019,1,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+pipa_women_study_committee_protest_author_2016,warhurst_protest_2019,1,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_author_2016,women_military_committee_2001,1,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_author_2016,women_military_named_report_roles_2001_2002,1,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 pipa_women_study_committee_protest_author_2016,women_study_committee_procedural_registration_2016,1,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
@@ -1841,7 +1841,7 @@ publication_co-laborers-co-heirs-2019,ruf_campus_catalog_2025,26,414,1,8,0,9,0.0
 publication_co-laborers-co-heirs-2019,ruf_staff_transitions_2026,26,203,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 publication_co-laborers-co-heirs-2019,subscription_overture_16_minority_report_2003,26,14,1,4,0,5,0.000000,0.00,0.00,0.00,0.00,1
 publication_co-laborers-co-heirs-2019,subscription_overture_16_negative_vote_2003,26,1,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
-publication_co-laborers-co-heirs-2019,warhurst_protest_2019,26,203,1,105,0,106,0.000000,0.00,0.00,0.00,0.00,2
+publication_co-laborers-co-heirs-2019,warhurst_protest_2019,26,203,1,106,0,107,0.000000,0.00,0.00,0.00,0.00,2
 publication_co-laborers-co-heirs-2019,women_military_committee_2001,26,10,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 publication_co-laborers-co-heirs-2019,women_military_named_report_roles_2001_2002,26,3,1,0,0,1,0.000000,0.00,0.00,0.00,0.00,0
 publication_co-laborers-co-heirs-2019,women_study_committee_procedural_registration_2016,26,173,1,9,0,10,0.000000,0.00,0.00,0.00,0.00,0
@@ -1850,7 +1850,7 @@ publication_heal-us-emmanuel-2016,ruf_campus_catalog_2025,30,414,7,8,0,15,0.0000
 publication_heal-us-emmanuel-2016,ruf_staff_transitions_2026,30,203,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
 publication_heal-us-emmanuel-2016,subscription_overture_16_minority_report_2003,30,14,7,4,0,11,0.000000,0.00,0.00,0.00,0.00,0
 publication_heal-us-emmanuel-2016,subscription_overture_16_negative_vote_2003,30,1,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
-publication_heal-us-emmanuel-2016,warhurst_protest_2019,30,203,7,105,2,110,0.018182,28.57,1.90,6.67,0.99,5
+publication_heal-us-emmanuel-2016,warhurst_protest_2019,30,203,7,106,2,111,0.018018,28.57,1.89,6.67,0.99,5
 publication_heal-us-emmanuel-2016,women_military_committee_2001,30,10,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
 publication_heal-us-emmanuel-2016,women_military_named_report_roles_2001_2002,30,3,7,0,0,7,0.000000,0.00,0.00,0.00,0.00,0
 publication_heal-us-emmanuel-2016,women_study_committee_procedural_registration_2016,30,173,7,9,0,16,0.000000,0.00,0.00,0.00,0.00,0
@@ -1858,35 +1858,35 @@ publication_hear-us-emmanuel-2020,ruf_campus_catalog_2025,29,414,3,8,0,11,0.0000
 publication_hear-us-emmanuel-2020,ruf_staff_transitions_2026,29,203,3,0,0,3,0.000000,0.00,0.00,0.00,0.00,0
 publication_hear-us-emmanuel-2020,subscription_overture_16_minority_report_2003,29,14,3,4,0,7,0.000000,0.00,0.00,0.00,0.00,0
 publication_hear-us-emmanuel-2020,subscription_overture_16_negative_vote_2003,29,1,3,0,0,3,0.000000,0.00,0.00,0.00,0.00,0
-publication_hear-us-emmanuel-2020,warhurst_protest_2019,29,203,3,105,2,106,0.018868,66.67,1.90,6.90,0.99,1
+publication_hear-us-emmanuel-2020,warhurst_protest_2019,29,203,3,106,2,107,0.018692,66.67,1.89,6.90,0.99,1
 publication_hear-us-emmanuel-2020,women_military_committee_2001,29,10,3,0,0,3,0.000000,0.00,0.00,0.00,0.00,0
 publication_hear-us-emmanuel-2020,women_military_named_report_roles_2001_2002,29,3,3,0,0,3,0.000000,0.00,0.00,0.00,0.00,0
 publication_hear-us-emmanuel-2020,women_study_committee_procedural_registration_2016,29,173,3,9,0,12,0.000000,0.00,0.00,0.00,0.00,0
 ruf_campus_catalog_2025,ruf_staff_transitions_2026,414,203,8,0,0,8,0.000000,0.00,0.00,0.00,0.00,70
 ruf_campus_catalog_2025,subscription_overture_16_minority_report_2003,414,14,8,4,0,12,0.000000,0.00,0.00,0.00,0.00,0
 ruf_campus_catalog_2025,subscription_overture_16_negative_vote_2003,414,1,8,0,0,8,0.000000,0.00,0.00,0.00,0.00,0
-ruf_campus_catalog_2025,warhurst_protest_2019,414,203,8,105,0,113,0.000000,0.00,0.00,0.00,0.00,2
+ruf_campus_catalog_2025,warhurst_protest_2019,414,203,8,106,0,114,0.000000,0.00,0.00,0.00,0.00,2
 ruf_campus_catalog_2025,women_military_committee_2001,414,10,8,0,0,8,0.000000,0.00,0.00,0.00,0.00,0
 ruf_campus_catalog_2025,women_military_named_report_roles_2001_2002,414,3,8,0,0,8,0.000000,0.00,0.00,0.00,0.00,0
 ruf_campus_catalog_2025,women_study_committee_procedural_registration_2016,414,173,8,9,0,17,0.000000,0.00,0.00,0.00,0.00,2
 ruf_staff_transitions_2026,subscription_overture_16_minority_report_2003,203,14,0,4,0,4,0.000000,0.00,0.00,0.00,0.00,0
 ruf_staff_transitions_2026,subscription_overture_16_negative_vote_2003,203,1,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
-ruf_staff_transitions_2026,warhurst_protest_2019,203,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,1
+ruf_staff_transitions_2026,warhurst_protest_2019,203,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,1
 ruf_staff_transitions_2026,women_military_committee_2001,203,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 ruf_staff_transitions_2026,women_military_named_report_roles_2001_2002,203,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 ruf_staff_transitions_2026,women_study_committee_procedural_registration_2016,203,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
 subscription_overture_16_minority_report_2003,subscription_overture_16_negative_vote_2003,14,1,4,0,0,4,0.000000,0.00,0.00,0.00,0.00,0
-subscription_overture_16_minority_report_2003,warhurst_protest_2019,14,203,4,105,2,107,0.018692,50.00,1.90,14.29,0.99,0
+subscription_overture_16_minority_report_2003,warhurst_protest_2019,14,203,4,106,2,108,0.018519,50.00,1.89,14.29,0.99,0
 subscription_overture_16_minority_report_2003,women_military_committee_2001,14,10,4,0,0,4,0.000000,0.00,0.00,0.00,0.00,0
 subscription_overture_16_minority_report_2003,women_military_named_report_roles_2001_2002,14,3,4,0,0,4,0.000000,0.00,0.00,0.00,0.00,0
 subscription_overture_16_minority_report_2003,women_study_committee_procedural_registration_2016,14,173,4,9,1,12,0.083333,25.00,11.11,7.14,0.58,1
-subscription_overture_16_negative_vote_2003,warhurst_protest_2019,1,203,0,105,0,105,0.000000,0.00,0.00,0.00,0.00,0
+subscription_overture_16_negative_vote_2003,warhurst_protest_2019,1,203,0,106,0,106,0.000000,0.00,0.00,0.00,0.00,0
 subscription_overture_16_negative_vote_2003,women_military_committee_2001,1,10,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 subscription_overture_16_negative_vote_2003,women_military_named_report_roles_2001_2002,1,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,0
 subscription_overture_16_negative_vote_2003,women_study_committee_procedural_registration_2016,1,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
-warhurst_protest_2019,women_military_committee_2001,203,10,105,0,0,105,0.000000,0.00,0.00,0.00,0.00,0
-warhurst_protest_2019,women_military_named_report_roles_2001_2002,203,3,105,0,0,105,0.000000,0.00,0.00,0.00,0.00,0
-warhurst_protest_2019,women_study_committee_procedural_registration_2016,203,173,105,9,0,114,0.000000,0.00,0.00,0.00,0.00,0
+warhurst_protest_2019,women_military_committee_2001,203,10,106,0,0,106,0.000000,0.00,0.00,0.00,0.00,0
+warhurst_protest_2019,women_military_named_report_roles_2001_2002,203,3,106,0,0,106,0.000000,0.00,0.00,0.00,0.00,0
+warhurst_protest_2019,women_study_committee_procedural_registration_2016,203,173,106,9,0,115,0.000000,0.00,0.00,0.00,0.00,0
 women_military_committee_2001,women_military_named_report_roles_2001_2002,10,3,0,0,0,0,0.000000,0.00,0.00,0.00,0.00,3
 women_military_committee_2001,women_study_committee_procedural_registration_2016,10,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0
 women_military_named_report_roles_2001_2002,women_study_committee_procedural_registration_2016,3,173,0,9,0,9,0.000000,0.00,0.00,0.00,0.00,0

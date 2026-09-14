@@ -96,14 +96,14 @@
       "np_confirmed_canonical_count": 68,
       "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 203,
-      "target_confirmed_canonical_count": 105,
-      "target_identity_resolution_rate_pct": 51.72,
-      "confirmed_overlap_count": 30,
-      "unresolved_exact_name_possible_overlap_count": 1,
-      "confirmed_np_share_of_target_confirmed_pct": 28.57,
-      "confirmed_target_share_of_np_confirmed_pct": 44.12,
-      "confirmed_lower_bound_share_of_target_printed_roster_pct": 14.78,
-      "confirmed_lower_bound_share_of_np_printed_roster_pct": 19.87,
+      "target_confirmed_canonical_count": 106,
+      "target_identity_resolution_rate_pct": 52.22,
+      "confirmed_overlap_count": 31,
+      "unresolved_exact_name_possible_overlap_count": 0,
+      "confirmed_np_share_of_target_confirmed_pct": 29.25,
+      "confirmed_target_share_of_np_confirmed_pct": 45.59,
+      "confirmed_lower_bound_share_of_target_printed_roster_pct": 15.27,
+      "confirmed_lower_bound_share_of_np_printed_roster_pct": 20.53,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 15.27,
       "same_name_screening_ceiling_share_of_np_printed_roster_pct": 20.53,
       "confirmed_shared_people": [
@@ -158,6 +158,10 @@
         {
           "canonical_person_id": "hace-cargo",
           "name": "Hace Cargo"
+        },
+        {
+          "canonical_person_id": "hansoo-jin",
+          "name": "Hansoo Jin"
         },
         {
           "canonical_person_id": "irwyn-ince",

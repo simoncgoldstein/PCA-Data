@@ -586,7 +586,7 @@ warhurst_protest_2019,houston metro,houston-metro,current_exact,4,4,3,75.00,3,10
 warhurst_protest_2019,illiana,illiana,current_exact,1,1,0,0.00,0,0.00
 warhurst_protest_2019,james river,james-river,current_exact,3,3,1,33.33,1,100.00
 warhurst_protest_2019,korean capital,korean-capital,current_exact,2,2,2,100.00,2,100.00
-warhurst_protest_2019,korean capitol,korean-capital,known_alias,1,1,0,0.00,0,0.00
+warhurst_protest_2019,korean capitol,korean-capital,known_alias,1,1,1,100.00,1,100.00
 warhurst_protest_2019,korean eastern,korean-eastern,current_exact,1,1,1,100.00,1,100.00
 warhurst_protest_2019,korean southwest,korean-southwest,current_exact,1,1,1,100.00,1,100.00
 warhurst_protest_2019,korean southwest orange county,korean-southwest-orange-county,current_exact,1,1,1,100.00,1,100.00
@@ -718,7 +718,7 @@ ALL_TRACKED_DATASETS,illiana,illiana,current_exact,4,3,1,33.33,1,100.00
 ALL_TRACKED_DATASETS,iowa,iowa,current_exact,18,12,2,16.67,2,100.00
 ALL_TRACKED_DATASETS,james river,james-river,current_exact,36,23,3,13.04,3,100.00
 ALL_TRACKED_DATASETS,korean capital,korean-capital,current_exact,48,16,9,56.25,9,100.00
-ALL_TRACKED_DATASETS,korean capitol,korean-capital,known_alias,2,2,0,0.00,0,0.00
+ALL_TRACKED_DATASETS,korean capitol,korean-capital,known_alias,2,2,1,50.00,1,100.00
 ALL_TRACKED_DATASETS,korean central,korean-central,current_exact,3,2,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,korean eastern,korean-eastern,current_exact,5,3,1,33.33,1,100.00
 ALL_TRACKED_DATASETS,korean northeastern,korean-northeastern,current_exact,2,1,0,0.00,0,0.00

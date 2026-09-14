@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 1284,
+    "record_count": 1283,
     "rule": "Rows may appear because of unresolved status, a first/last variant collision key, or initials-only spelling. Review never implies identity."
   },
   "records": [
@@ -15142,18 +15142,6 @@
         "multiple full-name or initial variants share this first/last-name key"
       ],
       "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
-    },
-    {
-      "crosswalk_id": "identity-row-04136",
-      "source_dataset": "warhurst_protest_2019",
-      "source_row_locator": "print_order:198",
-      "name_as_printed": "Hansoo Jin",
-      "normalized_candidate": "hansoo jin",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-04137",
