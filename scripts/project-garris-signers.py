@@ -35,7 +35,10 @@ for aff in affiliations:
 created = 0
 existing = 0
 unresolved = 0
+removed_stale = 0
 resolved_by_letter = {}
+desired_pairs: set[tuple[str, str]] = set()
+garris_event_ids = {letter["event_id"] for letter in data["letters"]}
 
 for letter in data["letters"]:
     event_id = letter["event_id"]
@@ -50,6 +53,7 @@ for letter in data["letters"]:
             raise SystemExit(f"{letter['letter_id']}:{row['print_order']}: unknown normalized_person_id {person_id}")
         resolved_count += 1
         key = (person_id, event_id)
+        desired_pairs.add(key)
         matches = by_pair.get(key, [])
         if len(matches) > 1:
             raise SystemExit(f"duplicate app affiliations for {person_id} -> {event_id}")
@@ -89,6 +93,22 @@ for letter in data["letters"]:
         created += 1
     resolved_by_letter[letter["letter_id"]] = resolved_count
 
+# Reconcile removals as well as additions. A formerly resolved identity may be
+# deliberately withdrawn after a stricter identity review; stale score-bearing
+# signer edges must not survive that source-level correction.
+reconciled_affiliations = []
+for aff in affiliations:
+    key = (aff.get("person_id"), aff.get("target_id"))
+    if (
+        aff.get("target_type") == "event"
+        and aff.get("target_id") in garris_event_ids
+        and key not in desired_pairs
+    ):
+        removed_stale += 1
+        continue
+    reconciled_affiliations.append(aff)
+affiliations = reconciled_affiliations
+
 # Keep event descriptions literal and source-bounded.
 event_by_id = {row["id"]: row for row in events}
 for letter in data["letters"]:
@@ -108,5 +128,6 @@ print(json.dumps({
     "resolved_by_letter": resolved_by_letter,
     "created_affiliations": created,
     "existing_affiliations": existing,
+    "removed_stale_affiliations": removed_stale,
     "unresolved_signer_rows": unresolved,
 }, indent=2))
