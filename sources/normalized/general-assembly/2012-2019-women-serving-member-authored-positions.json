@@ -1,0 +1,234 @@
+{
+  "metadata": {
+    "dataset_id": "women_serving_member_authored_positions_2012_2019",
+    "source_family": "person_specific_women_office_evidence",
+    "normalized_on": "2026-09-14",
+    "committee_context": "2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church",
+    "ideological_weight": 0,
+    "modeling_rule": "Record only positions individually attributable to Jeffrey Choi, Kathy Keller, and William Castro from authored statements or publisher-hosted excerpts. Do not infer any of these positions from 2017 committee membership, do not transfer one person's position to another committee member, and preserve distinctions among ordained office, authoritative teaching, public worship speech, diaconal polity, and local-session discretion.",
+    "trajectory_rule": "A later action may clarify a later position but must not be read backward into an earlier source. In particular, Jeffrey Choi's 2026 Overture 37 advocacy and formal dissent are modeled separately and do not convert his 2017 statement into an unqualified claim that he then supported a denomination-wide rule ordaining women as deacons.",
+    "copyright_boundary": "Normalized records contain bounded factual paraphrases and source locators rather than reproduced source text."
+  },
+  "sources": [
+    {
+      "source_id": "choi-2017-wim-dissent",
+      "title": "Why I Voted Against the Ad Interim Women in Ministry Study Committee Report",
+      "author_as_printed": "Jeffrey Choi",
+      "original_publication_date": "2017-06-26",
+      "source_type": "first_person_authored_statement",
+      "primary_first_party_republication_url": "https://medium.com/@JeffreyChoiNYC/ad-interim-study-committee-on-wim-4fdfee38cc89",
+      "contemporaneous_republication_url": "https://theaquilareport.com/voted-ad-interim-women-ministry-study-committee-report/",
+      "notes": "Choi later republished the statement under his own Medium account. The 2017 Aquila publication preserves the original publication date and title."
+    },
+    {
+      "source_id": "keller-2012-jesus-justice-paul-excerpt",
+      "title": "Paul the Misogynist, Contextualist, Culturalist? Kathy Keller Says Not So Fast!",
+      "underlying_work": "Jesus, Justice, and Gender Roles: A Case for Gender Roles in Ministry",
+      "author_of_underlying_work": "Kathy Keller",
+      "underlying_work_date": "2012",
+      "excerpt_published_on": "2014-06-24",
+      "source_type": "publisher_hosted_authored_book_excerpt",
+      "publisher": "Zondervan Academic",
+      "url": "https://zondervanacademic.com/blog/paul-the-misogynist-contextualist-culturalist-kathy-keller-gender-roles-in-ministry",
+      "notes": "Publisher-hosted excerpts and close publisher summary of Keller's authored book are used only for the specific positions represented below."
+    },
+    {
+      "source_id": "keller-2012-jesus-justice-justice-excerpt",
+      "title": "Is Women in Ministry a Justice Issue? Yes, But Not Like You Might Think — An Excerpt from Jesus, Justice, and Gender Roles",
+      "underlying_work": "Jesus, Justice, and Gender Roles: A Case for Gender Roles in Ministry",
+      "author_of_underlying_work": "Kathy Keller",
+      "underlying_work_date": "2012",
+      "excerpt_published_on": "2014-06-26",
+      "source_type": "publisher_hosted_authored_book_excerpt",
+      "publisher": "Zondervan Academic",
+      "url": "https://zondervanacademic.com/blog/is-women-in-ministry-a-justice-issue-yes-but-not-like-you-might-think-an-excerpt-from-jesus-justice",
+      "notes": "This excerpt directly reproduces Keller's treatment of marginalization, complementarian practice, and the distinction between ordination and injustice."
+    },
+    {
+      "source_id": "castro-2019-1cor14-public-worship",
+      "title": "1 Corinthians 14:34: Did God Really Say…?",
+      "author_as_printed": "William Castro",
+      "published_on": "2019-06-11",
+      "source_type": "direct_authored_issue_statement",
+      "publisher": "Reformation21 / Alliance of Confessing Evangelicals",
+      "url": "https://reformation21.org/1-corinthians-1432-did-god-rea-php/",
+      "notes": "The article identifies Castro as pastor of Emmanuel Upstate and a former advisory member of the 2017 PCA women-serving committee."
+    }
+  ],
+  "positions": [
+    {
+      "position_id": "choi-2017-local-session-diaconate-discretion",
+      "source_id": "choi-2017-wim-dissent",
+      "person_name_as_stated": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "topic": "women_in_diaconate_polity",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_local_session_discretion_due_exegetical_uncertainty",
+      "summary": "Choi argues that the biblical evidence is insufficient to establish a denomination-wide rule either including or excluding women from the diaconate and therefore favors leaving the question to the judgment of local sessions acting according to Scripture.",
+      "source_locators": [
+        "Introduction",
+        "Concluding paragraph"
+      ],
+      "important_boundary": "This 2017 position is local-session discretion under claimed exegetical uncertainty. It is not an unqualified 2017 endorsement of a denomination-wide requirement to ordain women as deacons. Choi's later 2026 Overture 37 actions are modeled separately.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "choi-2017-phoebe-official-role",
+      "source_id": "choi-2017-wim-dissent",
+      "person_name_as_stated": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "topic": "romans_16_phoebe_and_diaconal_office",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "argue_phoebe_likely_held_recognized_official_church_role",
+      "summary": "Choi argues that lexical and syntactical features of Romans 16:1 make a technical or official reading of Phoebe's role materially stronger than the committee report allowed and that the passage should carry substantial weight in discussion of women and the diaconate.",
+      "source_locators": [
+        "Exegetical Study of Romans 16:1"
+      ],
+      "important_boundary": "Choi argues for a recognized official status for Phoebe but discusses multiple possible relationships between that evidence and the later church office of deacon. Do not reduce this record to a claim that his 2017 article proves Phoebe held exactly the same office and polity status as male PCA deacons.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "choi-2017-1tim3-diaconate-uncertainty",
+      "source_id": "choi-2017-wim-dissent",
+      "person_name_as_stated": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "topic": "1_timothy_3_11_women_and_deacons",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "reject_confident_inclusion_or_exclusion_from_1timothy_3_alone",
+      "summary": "Choi argues that the principal interpretations of 1 Timothy 3:11 all depend on disputed assumptions and that the passage by itself does not yield an ironclad case either for or against women serving as deacons.",
+      "source_locators": [
+        "Response to the Exegetical Study of 1 Timothy 3:8–12",
+        "Final paragraphs"
+      ],
+      "important_boundary": "This is an argument about exegetical underdetermination and polity discretion, not a claim that Choi considered every interpretation equally likely or that he denied all relevant biblical evidence.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "keller-2012-authoritative-teaching-elder-restriction",
+      "source_id": "keller-2012-jesus-justice-paul-excerpt",
+      "person_name_as_stated": "Kathy Keller",
+      "normalized_person_id": "kathy-keller",
+      "topic": "women_authoritative_teaching_and_eldership",
+      "evidence_class": "direct_authored_book_statement_via_publisher_excerpt",
+      "position_specificity": "very_high",
+      "stance": "restrict_authoritative_teaching_elder_role_to_men",
+      "summary": "Keller presents a complementarian position in which women are barred from the authoritative teaching role she associates with elders, while treating that restriction as a continuing biblical command rather than a merely local first-century rule.",
+      "source_locators": [
+        "Zondervan excerpt: introduction to Keller's position",
+        "Paul the Misogynist",
+        "Paul the Contextualist",
+        "Closing summary"
+      ],
+      "important_boundary": "This source supports a male-only authoritative teaching or elder boundary. It does not by itself establish Keller's position on every other PCA office, including the exact polity status of deaconesses or ordained deacons.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "keller-2012-broad-women-public-ministry",
+      "source_id": "keller-2012-jesus-justice-paul-excerpt",
+      "person_name_as_stated": "Kathy Keller",
+      "normalized_person_id": "kathy-keller",
+      "topic": "women_public_speaking_teaching_and_leadership",
+      "evidence_class": "direct_authored_book_statement_via_publisher_excerpt",
+      "position_specificity": "very_high",
+      "stance": "favor_broad_women_public_ministry_outside_authoritative_elder_role",
+      "summary": "Keller encourages women to teach and lead and argues that Scripture permits women to participate broadly in public speaking, prayer, exhortation, encouragement, and ministry while reserving authoritative teaching to elders.",
+      "source_locators": [
+        "Zondervan excerpt opening summary",
+        "Paul the Misogynist",
+        "Closing summary"
+      ],
+      "important_boundary": "The evidence establishes broad non-elder public ministry by women within Keller's complementarian framework. Do not convert this into a claim that she supports women as elders or that every form of public speech is necessarily permitted in every setting.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "keller-2012-gender-texts-transcultural",
+      "source_id": "keller-2012-jesus-justice-paul-excerpt",
+      "person_name_as_stated": "Kathy Keller",
+      "normalized_person_id": "kathy-keller",
+      "topic": "gender_role_hermeneutics",
+      "evidence_class": "direct_authored_book_statement_via_publisher_excerpt",
+      "position_specificity": "high",
+      "stance": "affirm_continuing_authority_of_1cor14_and_1tim2_gender_commands",
+      "summary": "Keller rejects dismissing the relevant Pauline instructions as misogynistic, merely Ephesian, or culturally obsolete and argues that the church remains obligated to obey the underlying biblical commands while interpreting their scope carefully.",
+      "source_locators": [
+        "Paul the Misogynist",
+        "Paul the Contextualist",
+        "Paul the Culturalist"
+      ],
+      "important_boundary": "This record captures Keller's hermeneutical claim that the texts remain authoritative; the separate position records preserve her narrower interpretation of what those commands prohibit.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "keller-2012-ordination-vs-marginalization-justice",
+      "source_id": "keller-2012-jesus-justice-justice-excerpt",
+      "person_name_as_stated": "Kathy Keller",
+      "normalized_person_id": "kathy-keller",
+      "topic": "women_ministry_justice_and_marginalization",
+      "evidence_class": "direct_authored_book_statement_via_publisher_excerpt",
+      "position_specificity": "very_high",
+      "stance": "reject_ordination_as_justice_claim_but_condemn_extrabiblical_marginalization",
+      "summary": "Keller distinguishes ordination from a justice entitlement while arguing that churches act unjustly when they marginalize women or impose extra-biblical restrictions that prevent women from exercising Spirit-given gifts of leadership, teaching, exhortation, and encouragement.",
+      "source_locators": [
+        "Zondervan excerpt: Personal Journeys / justice discussion"
+      ],
+      "important_boundary": "Keller's criticism of extra-biblical restrictions does not amount to rejection of complementarianism; the same authored work maintains a male authoritative-teaching or elder boundary.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "castro-2019-public-worship-speaking-restriction",
+      "source_id": "castro-2019-1cor14-public-worship",
+      "person_name_as_stated": "William Castro",
+      "normalized_person_id": "william-castro",
+      "topic": "women_speaking_teaching_preaching_in_public_worship",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_traditional_restriction_on_women_individual_public_speech_in_ordinary_worship",
+      "summary": "Castro argues that the historic Reformed reading of 1 Corinthians 14 restricts women from teaching, preaching, or otherwise speaking individually and officially in ordinary public worship, while recognizing congregational utterances such as singing and responses and discussing extraordinary-case exceptions in historical sources.",
+      "source_locators": [
+        "Opening paragraphs",
+        "The Different Context Solution",
+        "The Extraordinary Situations Solution",
+        "The Judging of Prophecies Solution"
+      ],
+      "important_boundary": "Castro's article addresses individual public speaking, teaching, and preaching in corporate worship. Do not misstate it as requiring women to be literally silent from congregational singing, common responses, or every conceivable extraordinary circumstance.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "castro-2019-reject-judging-prophecies-solution",
+      "source_id": "castro-2019-1cor14-public-worship",
+      "person_name_as_stated": "William Castro",
+      "normalized_person_id": "william-castro",
+      "topic": "1_corinthians_14_34_interpretation",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "reject_judging_of_prophecies_only_interpretation_as_novel",
+      "summary": "Castro rejects the interpretation that 1 Corinthians 14:34 silences women only during the judging of prophecies, arguing that the reading is historically novel and narrows Paul's prohibition beyond what the text states.",
+      "source_locators": [
+        "The Judging of Prophecies Solution",
+        "Conclusion"
+      ],
+      "important_boundary": "This is Castro's exegetical and historical assessment of one interpretation. The record does not turn disagreement with that interpretation into a broader claim about every question of women's ministry outside public worship.",
+      "ideological_weight": 0
+    },
+    {
+      "position_id": "castro-2019-cultural-pressure-hermeneutics",
+      "source_id": "castro-2019-1cor14-public-worship",
+      "person_name_as_stated": "William Castro",
+      "normalized_person_id": "william-castro",
+      "topic": "cultural_pressure_and_biblical_interpretation",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "high",
+      "stance": "warn_against_cultural_adaptation_driving_reinterpretation",
+      "summary": "Castro warns that modern cultural expectations about women's leadership can pressure churches toward novel readings of 1 Corinthians 14 and argues that interpretation should instead give substantial weight to the text and the history of exegesis.",
+      "source_locators": [
+        "Opening paragraphs",
+        "Conclusion"
+      ],
+      "important_boundary": "This is a hermeneutical argument tied to Castro's treatment of 1 Corinthians 14; it is not a factual claim about the motives of every scholar or church adopting a different interpretation.",
+      "ideological_weight": 0
+    }
+  ]
+}

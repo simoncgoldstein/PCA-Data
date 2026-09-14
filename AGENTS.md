@@ -53,7 +53,8 @@ The 2017 Ad Interim Committee on Women Serving in the Ministry of the Church is 
 - Do not assign either internal school of thought, every report sentence, or a broader ideological label to a committee member without separate person-specific evidence.
 - All 12 official committee identities are now canonically resolved and projected to the app-facing committee event.
 - Reviewed identity decisions are preserved in four receipts under `sources/raw/identity/2017-women-serving-identity-evidence-batch*-2026-09-14.json`.
-- Person-specific evidence remains distinct. Mary Beth McGreevy's reviewed first-person evidence is normalized separately; Jeffrey Choi's 2026 Overture 37 advocacy and formal dissent are likewise modeled as distinct person-specific actions rather than inferred from his 2017 committee service.
+- Person-specific evidence remains distinct. Mary Beth McGreevy's reviewed first-person evidence is normalized separately. Jeffrey Choi, Kathy Keller, and William Castro now have separately normalized authored positions in `sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json`.
+- The authored-position dataset remains `ideological_weight: 0`. Preserve its internal distinctions: Choi's 2017 local-session discretion is not the same claim as his later 2026 Overture 37 action; Keller combines a male authoritative-teaching/elder boundary with broad non-elder ministry by women; Castro argues for a stricter ordinary-public-worship speech boundary while preserving congregational and extraordinary-case qualifications.
 
 ## 2026 Overture 37 attribution guardrail
 
