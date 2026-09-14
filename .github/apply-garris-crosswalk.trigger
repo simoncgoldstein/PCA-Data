@@ -1,1 +1,1 @@
-2026-09-14 letter2-final-seeds
+2026-09-14 docs-patch
