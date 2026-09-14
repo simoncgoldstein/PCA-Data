@@ -6,16 +6,16 @@ This file is the dated handoff for a fresh research or coding agent. Read it aft
 
 ## Repository state
 
-The current data state includes three reviewed canonical-seeding batches for the 2017 Women Serving committee. Ten of the twelve committee identities are now canonical and projected to the app-facing committee event.
+The 2017 Women Serving committee identity pass is complete: all 12 official committee members are canonically resolved and projected to the app-facing committee event. The repository also contains a normalized 2026 Overture 37 record distinguishing Pacific Presbytery's formal submission from Jeffrey Choi's person-specific advocacy, floor speech, and later formal dissent.
 
-The repository is no longer a v0.1 scaffold. It now contains a substantial evidence archive, normalized research datasets, canonical app-facing data, identity-resolution machinery, generated overlap analysis, and focused CI validators.
+The repository is no longer a v0.1 scaffold. It contains a substantial evidence archive, normalized research datasets, canonical app-facing data, identity-resolution machinery, generated overlap analysis, and focused CI validators.
 
 Major completed or substantially developed areas include:
 
 - National Partnership source normalization and identity work, with exact archival pinning still incomplete for some person-level claims.
 - A Faithful PCA / `Looking Forward – Together` signer snapshots and normalized public-statement data.
 - Alliance for Mission & Renewal leadership, media, organizational framing, and related source snapshots.
-- General Assembly source ingestion and normalized formal-position/action datasets across multiple years, including women/office, subscription, sexuality/Revoice, Overtures 23/37, Overture 15, NAE withdrawal, protests, minority reports, recorded votes, and study committees.
+- General Assembly source ingestion and normalized formal-position/action datasets across multiple years, including women/office, subscription, sexuality/Revoice, Overtures 23/37, Overture 15, NAE withdrawal, protests, minority reports, recorded votes, study committees, and 2026 Overture 37 on ordained women deacons.
 - Save the PCA / Functional Female Officer external-dataset ingestion with source-attribution boundaries.
 - Church and presbytery canonical data.
 - Institution and RUF role snapshots.
@@ -26,58 +26,60 @@ Major completed or substantially developed areas include:
 
 ## 2017 Women Serving committee
 
-The 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church is represented in the normalized research layer and app-facing event graph.
+All 12 official committee identities are canonical:
 
-Current identity status:
-
-- `leon-brown` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- `jeffrey-choi` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- `dan-doriani` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- `ligon-duncan` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- `irwyn-ince` — canonically resolved and projected to the app graph.
-- `kathy-keller` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- `mary-beth-mcgreevy` — canonically resolved from reviewed identity evidence and projected to the app graph; her separately modeled first-person evidence also links to this canonical person.
-- `bruce-o-neil` — canonically resolved and projected to the app graph.
-- `harry-reeder` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- `roy-taylor` — canonically resolved from reviewed identity evidence and projected to the app graph.
-- William Castro and Lani Jones remain unresolved in this dataset unless a later commit changes their normalized IDs.
+- `leon-brown`
+- `william-castro`
+- `jeffrey-choi`
+- `dan-doriani`
+- `ligon-duncan`
+- `irwyn-ince`
+- `lani-jones`
+- `kathy-keller`
+- `mary-beth-mcgreevy`
+- `bruce-o-neil`
+- `harry-reeder`
+- `roy-taylor`
 
 Applied identity receipts:
 
 - `sources/raw/identity/2017-women-serving-identity-evidence-batch1-2026-09-14.json` — Dan Doriani, Ligon Duncan, Roy Taylor.
 - `sources/raw/identity/2017-women-serving-identity-evidence-batch2-2026-09-14.json` — Leon Brown, Mary Beth McGreevy, Harry Reeder.
 - `sources/raw/identity/2017-women-serving-identity-evidence-batch3-2026-09-14.json` — Jeffrey Choi, Kathy Keller.
+- `sources/raw/identity/2017-women-serving-identity-evidence-batch4-2026-09-14.json` — William Castro, Lani Jones.
 
-Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member. Mary Beth McGreevy's first-person evidence remains separately modeled and zero-weight.
+Guardrail: committee service remains zero-weight and does not assign every report-level statement, either internal school of thought, or a broader ideological label to an individual member.
 
-Known person-specific source candidates not yet normalized in this committee dataset:
+## 2026 Overture 37: women as ordained deacons
 
-- Jeffrey Choi's June 2017 first-person article explaining his dissent from part of the committee report, especially on Phoebe / the diaconate and 1 Timothy 3:11.
-- Kathy Keller's published women-in-ministry material, including `Jesus, Justice, and Gender Roles` and earlier Redeemer material. These sources should be handled as separately attributable position evidence rather than inferred from her committee service or relationship to Tim Keller.
+Normalized record: `sources/normalized/general-assembly/2026-overture-37-women-deacons-formal-actions.json`.
+
+Current factual model:
+
+- Overture 37 was formally submitted by **Pacific Presbytery** and proposed amending BCO 9-3 and conforming provisions to permit local sessions to decide whether qualified women may serve as ordained deacons.
+- The Overtures Committee recommended answering the overture in the negative by **115-14-1**, and the Assembly adopted the negative recommendation.
+- Jeffrey Choi is separately documented as a public advocate for Overture 37 and as a floor speaker in support. Those advocacy edges are unscored.
+- A later formal dissent from the Assembly action names TEs Aaron Baker, Jeffrey Choi, Walter Henegar, and Eric Kapur as its submitters. Choi's confirmed co-authorship/submission of that dissent is modeled as a formal person-specific denominational action with weight 3.
+- Current primary evidence does **not** name Choi as the sole author, drafter, sponsor, or orchestrator of Overture 37. Preserve that attribution boundary unless stronger primary evidence is added.
 
 ## Immediate next slice
 
-Finish the 2017 Women Serving identity pass with William Castro and Lani Jones **only if** deterministic corroborating evidence can be established. Do not force either identity merely to reach 12/12.
+The 2017 committee identity infrastructure no longer needs completion work. The next highest-value compact research slice should be one of:
 
-If one or both remain genuinely ambiguous after a focused search, preserve them as unresolved and move to a compact person-specific position-evidence slice for Jeffrey Choi and Kathy Keller instead.
+1. normalize additional person-specific women/office evidence already identified, especially Jeffrey Choi's 2017 committee-report dissent and Kathy Keller's attributable published material; or
+2. complete Garris Letter 1 and 2 signer normalization/canonical linkage, which remains a major network-overlap gap.
 
-For each identity resolved, update together:
+Prefer the first option if continuing the women/office case study; prefer the second if shifting back to broader network-operational coverage.
 
-- the canonical person layer;
-- the normalized 2017 report and person-edge dataset;
-- the app-facing committee-service affiliation;
-- the focused validator;
-- any generated outputs made stale by the canonical change.
-
-## Work after the 2017 identity pass
+## Work after that
 
 Preferred order unless stronger evidence changes the priority:
 
-1. Normalize high-value person-specific evidence already identified around the 2017 committee, beginning with Jeffrey Choi's explicit dissent and Kathy Keller's attributable published women-in-ministry positions.
-2. Complete Garris Letter 1 and 2 signer normalization and canonical linkage where still incomplete.
-3. Continue exact National Partnership person-level message/page pinning and distinguish membership, recruitment, promoted candidates, and adjacency.
-4. Continue General Assembly denominational-action coverage where source-register gaps remain.
-5. Expand Tier A career reconstruction only after the event/action layer and identity links are stable enough to make recurrence meaningful.
+1. Person-specific women/office evidence around the completed 2017/2026 case study.
+2. Garris Letter 1 and 2 signer normalization and canonical linkage.
+3. Exact National Partnership person-level message/page pinning, distinguishing membership, recruitment, promoted candidates, and adjacency.
+4. Remaining General Assembly denominational-action coverage and source gaps.
+5. Tier A career reconstruction after the event/action layer and identity links are stable enough to make recurrence meaningful.
 
 Do not make broad ideological-position scoring the next project phase. Position claims should remain person-specific and source-attributed.
 

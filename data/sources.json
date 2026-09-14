@@ -299,5 +299,46 @@
     "source_type": "primary_church_profile",
     "accessed": "2026-09-03",
     "notes": "Lists Andrew Augenstein as Ruling Elder/Clerk of the Session. A raw HTML receipt is preserved under sources/raw/person-leads/andrew-augenstein/."
+  },
+  {
+    "id": "src-ga53-overture37-2026",
+    "title": "53rd General Assembly Overture 37: Amend BCO 9-3 to Allow Women to Serve as Ordained Deacons",
+    "publisher": "Presbyterian Church in America General Assembly",
+    "date": "2026",
+    "url": "https://pcaga.org/wp-content/uploads/2026/02/Overture-37_Pacific_9-3.pdf",
+    "source_type": "primary_denominational_overture",
+    "accessed": "2026-09-14",
+    "notes": "Official overture from Pacific Presbytery. The document names the presbytery as submitting body; it does not name Jeffrey Choi as author or drafter."
+  },
+  {
+    "id": "src-ga53-overture37-dissent-2026",
+    "title": "Dissent from the Actions of General Assembly Regarding Overture 37 (Pacific Presbytery)",
+    "publisher": "53rd General Assembly dissent document, hosted by byFaith",
+    "date": "2026-09",
+    "url": "https://byfaithonline.com/wp-content/uploads/2026/09/Sufficiency_dissent_v3.pdf",
+    "source_type": "primary_denominational_dissent",
+    "accessed": "2026-09-14",
+    "notes": "Names TEs Aaron Baker, Jeffrey Choi, Walter Henegar, and Eric Kapur as submitters of the formal dissent."
+  },
+  {
+    "id": "src-reformeddeacon-overture37-2026",
+    "title": "Women Deacons at the 2026 PCA General Assembly",
+    "publisher": "ReformedDeacon.com",
+    "author": "Tim Hopper",
+    "date": "2026-07-22",
+    "url": "https://reformeddeacon.com/blog/women-deacons-at-the-2026-pca-general-assembly/",
+    "source_type": "contemporaneous_secondary_report",
+    "accessed": "2026-09-14",
+    "notes": "Detailed contemporaneous report identifying TE Jeffrey Choi as speaking for Overture 37 on the Assembly floor. Used for the floor-speech claim only, not for overture authorship."
+  },
+  {
+    "id": "src-byfaith-overture37-dissent-response-2026",
+    "title": "General Assembly Responds to Dissent Regarding Overture 37",
+    "publisher": "byFaith",
+    "date": "2026-09-09",
+    "url": "https://byfaithonline.com/general-assembly-responds-to-dissent-regarding-overture-37/",
+    "source_type": "denominational_news",
+    "accessed": "2026-09-14",
+    "notes": "Confirms Pacific Presbytery submitted Overture 37, the 115-14-1 Overtures Committee recommendation, Assembly rejection, and the four named dissent authors."
   }
 ]

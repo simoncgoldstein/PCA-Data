@@ -36,12 +36,12 @@ The repository contains official GA PDFs/text for key modern years plus normaliz
 - women/office and women-in-ministry records from earlier GA periods;
 - confessional subscription and Federal Vision-related formal records;
 - 2016 creation/actions connected to the women-serving study committee;
-- the 2017 Women Serving in the Ministry of the Church report and committee roster;
+- the 2017 Women Serving in the Ministry of the Church report and complete committee identity roster;
 - 2019 Warhurst protest material;
 - Human Sexuality Ad Interim Committee material;
 - 2021 Overtures 23/37, minority-report and recorded-vote evidence;
 - 2022 Overture 15 and NAE-withdrawal protest/vote evidence;
-- later GA chronology/source material used by current validators.
+- 2026 Overture 37 on women serving as ordained deacons, including institutional sponsorship, Assembly disposition, Jeffrey Choi floor advocacy, and the subsequent formal dissent.
 
 Still incomplete:
 
@@ -52,24 +52,40 @@ Still incomplete:
 
 ### 2017 Women Serving in the Ministry of the Church
 
-Status: **normalized, app-event represented, and nearly fully canonically linked**.
+Status: **normalized, app-event represented, and fully canonically linked at the identity layer**.
 
 The official PCA study report is registered as `src-ga45-women-serving-2017`. The normalized layer includes:
 
 - all 12 committee members;
 - voting/advisory status;
+- canonical IDs and app-facing zero-weight committee-service edges for all 12 members;
 - report-level position summaries with explicit non-attribution guardrails;
 - Mary Beth McGreevy first-person evidence preserved separately and linked to her canonical person;
-- canonical committee links and app-facing zero-weight service edges for Leon Brown, Jeffrey Choi, Dan Doriani, Ligon Duncan, Irwyn Ince, Kathy Keller, Mary Beth McGreevy, Bruce O'Neil, Harry Reeder, and Roy Taylor;
-- applied reviewed-identity receipts for Doriani/Duncan/Taylor, Brown/McGreevy/Reeder, and Choi/Keller.
+- four applied reviewed-identity receipts covering the ten identities that required explicit reviewed seeding, alongside the two previously existing canonical identities.
 
-Still unresolved in this committee dataset: William Castro and Lani Jones.
+Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought. Person-specific evidence stays separate. Known separately attributable material includes Jeffrey Choi's 2017 dissent article, Kathy Keller's published women-in-ministry material, William Castro's published public-worship arguments, and McGreevy's already-normalized first-person evidence.
 
-Committee service remains zero-weight and does not establish individual agreement with every report statement or internal school of thought. Person-specific evidence stays separate. In particular:
+### 2026 Overture 37 — women serving as ordained deacons
 
-- Jeffrey Choi's contemporaneous first-person dissent from part of the committee report is known and should be normalized separately if used analytically;
-- Kathy Keller's published women-in-ministry material is known and should be normalized from attributable primary/first-party text, not inferred from her committee membership or relationship to Tim Keller;
-- McGreevy's first-person position evidence remains separately modeled and does not convert committee service into a person-level endorsement of the full report.
+Status: **normalized as a distinct formal-action case with person-attribution guardrails**.
+
+Machine-facing sources:
+
+- `src-ga53-overture37-2026` — official PCA Overture 37 PDF from Pacific Presbytery;
+- `src-ga53-overture37-dissent-2026` — primary formal dissent naming Aaron Baker, Jeffrey Choi, Walter Henegar, and Eric Kapur as submitters;
+- `src-byfaith-overture37-dissent-response-2026` — denominational reporting confirming the 115-14-1 Overtures Committee recommendation, Assembly rejection, and dissent authors;
+- `src-reformeddeacon-overture37-2026` — contemporaneous report used specifically for Jeffrey Choi's floor-speech attribution.
+
+Normalized record:
+
+`sources/normalized/general-assembly/2026-overture-37-women-deacons-formal-actions.json`
+
+Attribution boundary:
+
+- **Pacific Presbytery** is the formal submitting body named by the overture.
+- Jeffrey Choi is separately documented as a public advocate and as a floor speaker in support; these actions remain unscored.
+- The later primary dissent names Choi with Aaron Baker, Walter Henegar, and Eric Kapur as co-authors/submitters. Choi's formal dissent action is score-included at the ordinary formal-letter/protest/minority-report weight of 3.
+- Current primary evidence does **not** establish Choi as the sole author, drafter, sponsor, or orchestrator of Overture 37 itself.
 
 ### Alliance for Mission & Renewal
 
@@ -131,15 +147,15 @@ Rules:
 
 Secondary sources are used as roadmaps, corroboration, historical/theological context, or source discovery. They should not be the sole basis for a disputed formal-membership claim when a primary source is reasonably obtainable.
 
-The private Drive corpus contains several theological/polity sources that are now metadata-registered in:
+The private Drive corpus contains several theological/polity sources that are metadata-registered in:
 
 `sources/manifests/companion-theological-sources-2026-09-14.json`
 
 That manifest records stable public-source metadata for:
 
-- R. L. Dabney, `The Public Preaching of Women` — public transcription at A Puritan's Mind, originally published in *The Southern Presbyterian Review* (October 1879);
-- B. B. Warfield, `Paul on Women Speaking in Church` — PCA Historical Center edition identifying the original *The Presbyterian* publication of October 30, 1919;
-- Rich Leino, `The Deaconess & the Household of God: A Rejoinder to Dan Barber` — Presbyterian Polity, September 1, 2026.
+- R. L. Dabney, `The Public Preaching of Women`;
+- B. B. Warfield, `Paul on Women Speaking in Church`;
+- Rich Leino, `The Deaconess & the Household of God: A Rejoinder to Dan Barber`.
 
 These are not currently app-facing source IDs and their Drive PDF binaries are not copied into the public repo. Metadata registration is sufficient for discoverability until a normalized/app-facing claim needs more.
 
@@ -147,9 +163,7 @@ These are not currently app-facing source IDs and their Drive PDF binaries are n
 
 The private `PCA Research` Drive folder contains authored synthesis documents and source PDFs. It is **not fully duplicated as raw binaries in this repository**, nor should it necessarily be.
 
-See `research/companion-corpus.md` for the audited list and boundary. As of this audit, the known direct source PDFs in that corpus are discoverable from PCA-Data either through normalized/source records or the companion theological-source manifest.
-
-User-authored synthesis documents in Drive remain context/research products, not independent primary evidence. Trace their material claims back to underlying sources.
+See `research/companion-corpus.md` for the audited list and boundary. User-authored synthesis documents remain context/research products, not independent primary evidence; trace material claims back to underlying sources.
 
 ## Archival policy
 

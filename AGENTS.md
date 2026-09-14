@@ -51,8 +51,18 @@ The 2017 Ad Interim Committee on Women Serving in the Ministry of the Church is 
 - Committee service is `weight: 0` and `score_included: false`.
 - The report itself records internal diversity on subsidiary questions.
 - Do not assign either internal school of thought, every report sentence, or a broader ideological label to a committee member without separate person-specific evidence.
-- Leon Brown, Jeffrey Choi, Dan Doriani, Ligon Duncan, Irwyn Ince, Kathy Keller, Mary Beth McGreevy, Bruce O'Neil, Harry Reeder, and Roy Taylor are canonically resolved and projected to the app-facing committee event. William Castro and Lani Jones remain unresolved until separately evidenced.
-- Jeffrey Choi has separately attributable contemporaneous dissent evidence, and Kathy Keller has separately published women-in-ministry material. Those sources should be normalized as person-specific positions only in a dedicated evidence slice, not inferred from committee membership.
+- All 12 official committee identities are now canonically resolved and projected to the app-facing committee event.
+- Reviewed identity decisions are preserved in four receipts under `sources/raw/identity/2017-women-serving-identity-evidence-batch*-2026-09-14.json`.
+- Person-specific evidence remains distinct. Mary Beth McGreevy's reviewed first-person evidence is normalized separately; Jeffrey Choi's 2026 Overture 37 advocacy and formal dissent are likewise modeled as distinct person-specific actions rather than inferred from his 2017 committee service.
+
+## 2026 Overture 37 attribution guardrail
+
+The 53rd General Assembly Overture 37 record must distinguish institutional sponsorship from individual advocacy.
+
+- **Pacific Presbytery** is the formal submitting body named by the official overture.
+- Current evidence supports Jeffrey Choi as a public advocate, a floor speaker in support, and one of four named co-authors/submitters of the later formal dissent.
+- Do **not** label Choi the sole author, drafter, sponsor, or orchestrator of Overture 37 unless additional primary evidence establishes that role.
+- Choi's floor advocacy is unscored; his confirmed co-authorship of the formal dissent is modeled as a distinct formal denominational action.
 
 ## Source handling
 

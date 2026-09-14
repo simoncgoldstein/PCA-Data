@@ -773,5 +773,66 @@
       "src-ga45-women-serving-2017"
     ],
     "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Kathy Keller; her published views require separate person-specific evidence."
+  },
+  {
+    "id": "aff-castro-women-serving-2017",
+    "person_id": "william-castro",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Advisory Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to William Castro."
+  },
+  {
+    "id": "aff-jones-women-serving-2017",
+    "person_id": "lani-jones",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Advisory Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Lani Jones."
+  },
+  {
+    "id": "aff-choi-overture37-floor-2026",
+    "person_id": "jeffrey-choi",
+    "target_type": "event",
+    "target_id": "evt-overture37-women-deacons-2026",
+    "role": "Floor speaker in support",
+    "confidence": "strongly_supported",
+    "evidence_kind": "general_assembly_floor_advocacy",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-reformeddeacon-overture37-2026"
+    ],
+    "notes": "Contemporaneous reporting identifies Choi as speaking for the overture. Pacific Presbytery is the formal submitting body; personal authorship or sole orchestration is not established by the current primary record."
+  },
+  {
+    "id": "aff-choi-overture37-dissent-2026",
+    "person_id": "jeffrey-choi",
+    "target_type": "event",
+    "target_id": "evt-overture37-dissent-2026",
+    "role": "Co-author and submitter of formal dissent",
+    "confidence": "confirmed",
+    "evidence_kind": "formal_dissent_author",
+    "weight": 3,
+    "score_included": true,
+    "source_ids": [
+      "src-ga53-overture37-dissent-2026",
+      "src-byfaith-overture37-dissent-response-2026"
+    ],
+    "notes": "The primary dissent names Jeffrey Choi with Aaron Baker, Walter Henegar, and Eric Kapur as submitters. This is scored as a formal person-specific denominational action, distinct from committee service and floor advocacy."
   }
 ]

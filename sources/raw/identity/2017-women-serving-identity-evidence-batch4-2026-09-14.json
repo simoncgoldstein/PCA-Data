@@ -1,0 +1,70 @@
+{
+  "reviewed_on": "2026-09-14",
+  "applied_on": "2026-09-14",
+  "scope": "Identity evidence for the final two unresolved members of the 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church.",
+  "status": "canonical_seed_applied",
+  "resolution_applied": true,
+  "modeling_rule": "These records support person-identity reconciliation only. They do not assign any report-level theological position, either internal school of thought, or broader ideological label to an individual committee member. Person-specific theological evidence must be normalized separately.",
+  "records": [
+    {
+      "committee_edge_id": "2017-women-serving-committee-02",
+      "person_name": "William Castro",
+      "proposed_canonical_person_id": "william-castro",
+      "current_normalized_person_id": "william-castro",
+      "review_status": "canonical_seed_applied",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints TE William Castro as an Advisory Member."
+        },
+        {
+          "source_type": "first_person_published_statement",
+          "url": "https://reformation21.org/1-corinthians-1432-did-god-rea-php/",
+          "fact": "A 2019 article authored by William Castro identifies him as pastor of Emmanuel Upstate Church in Greenville, South Carolina, and states that he served as an advisory member of the PCA Ad Interim Committee on Women Serving in the Ministry of the Church."
+        },
+        {
+          "source_type": "first_party_presbytery_church_record",
+          "url": "https://www.calvarypresbyterysc.org/",
+          "fact": "Calvary Presbytery materials identify Emmanuel Upstate in Taylors and William Castro as its pastor, independently corroborating the PCA ministry context of the committee member."
+        }
+      ],
+      "match_basis": "William Castro's first-person published biography explicitly identifies his service as an advisory member of this exact PCA committee and his Emmanuel Upstate pastorate, independently corroborated by Calvary Presbytery context.",
+      "reasoning_boundary": "Identity only; Castro's separately published theological arguments about women speaking in public worship are not inferred from committee service and should be normalized separately if used."
+    },
+    {
+      "committee_edge_id": "2017-women-serving-committee-07",
+      "person_name": "Lani Jones",
+      "proposed_canonical_person_id": "lani-jones",
+      "current_normalized_person_id": "lani-jones",
+      "review_status": "canonical_seed_applied",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints Mrs. Lani Jones as an Advisory Member."
+        },
+        {
+          "source_type": "first_party_church_profile",
+          "url": "https://www.pca-paxtonil.org/our-elders",
+          "fact": "Westminster Presbyterian Church (PCA) in Paxton, Illinois identifies its pastor Steve Jones and his wife Lani and records their move to Paxton in 2006."
+        },
+        {
+          "source_type": "first_person_published_statement",
+          "url": "https://theaquilareport.com/i-trust-my-pastor-a-wifes-commendation-of-a-humble-man-in-honor-of-pastor-appreciation-month/",
+          "fact": "A 2025 article authored by Lani Jones identifies her as a member of Westminster Presbyterian Church (PCA) in Paxton, describes her husband as a PCA teaching elder, and records their Covenant Seminary history, including her own 2006 MATS."
+        },
+        {
+          "source_type": "first_party_church_ministry_page",
+          "url": "https://www.pca-paxtonil.org/bible-study-groups",
+          "fact": "Westminster Presbyterian Church's Bible-study page identifies Lani Jones as facilitator of its ladies and youth girls study."
+        }
+      ],
+      "match_basis": "The distinctive Lani Jones name is independently anchored to a longstanding PCA pastor-family and Covenant Seminary context at Westminster Presbyterian Church in Paxton, consistent with the committee's Mrs. Lani Jones record.",
+      "reasoning_boundary": "Identity only; Lani Jones's family, church membership, education, and committee service are not converted into a broader theological or ideological label."
+    }
+  ],
+  "ideological_weight": 0
+}

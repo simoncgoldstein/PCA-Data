@@ -1,0 +1,26 @@
+name: Validate 2026 Overture 37 women-deacons actions
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+    paths:
+      - "data/people.json"
+      - "data/events.json"
+      - "data/affiliations.json"
+      - "data/sources.json"
+      - "sources/normalized/general-assembly/2026-overture-37-women-deacons-formal-actions.json"
+      - "scripts/validate-2026-overture-37-women-deacons.py"
+      - ".github/workflows/validate-2026-overture-37-women-deacons.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  validate-2026-overture-37-women-deacons:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7
+      - name: Validate 2026 Overture 37 women-deacons actions
+        run: python3 scripts/validate-2026-overture-37-women-deacons.py .
