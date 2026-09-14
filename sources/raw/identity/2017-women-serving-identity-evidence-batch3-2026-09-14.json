@@ -1,0 +1,75 @@
+{
+  "reviewed_on": "2026-09-14",
+  "applied_on": "2026-09-14",
+  "scope": "Identity evidence for a compact third batch of members of the 2017 PCA Ad Interim Committee on Women Serving in the Ministry of the Church.",
+  "status": "canonical_seed_applied",
+  "resolution_applied": true,
+  "modeling_rule": "These records support person-identity reconciliation only. They do not assign any report-level theological position, either internal school of thought, or broader ideological label to an individual committee member. Person-specific theological evidence must be normalized separately.",
+  "records": [
+    {
+      "committee_edge_id": "2017-women-serving-committee-03",
+      "person_name": "Jeffrey Choi",
+      "proposed_canonical_person_id": "jeffrey-choi",
+      "current_normalized_person_id": "jeffrey-choi",
+      "review_status": "canonical_seed_applied",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_general_assembly_directory",
+          "url": "https://www.pcahistory.org/pca/ga/45th_pcaga_2017.pdf",
+          "fact": "The official 2017 General Assembly directory lists TE Jeffrey Choi of Metropolitan New York as a voting member of the Women Serving in the Ministry of the Church study committee."
+        },
+        {
+          "source_type": "official_pca_general_assembly_directory",
+          "url": "https://www.pcahistory.org/pca/ga/47th_pcaga_2019.pdf",
+          "fact": "The official 2019 General Assembly directory lists Jeffrey Choi as a Teaching Elder at Astoria Community in Metropolitan New York Presbytery."
+        },
+        {
+          "source_type": "first_party_church_report",
+          "url": "https://www.astoriachurch.org/blog/post/general-assembly-2018",
+          "fact": "Astoria Community Church reports that Jeffrey Choi attended the 2018 PCA General Assembly and served on the Committee for the Review of Presbytery Records."
+        },
+        {
+          "source_type": "first_person_published_statement",
+          "url": "https://theaquilareport.com/voted-ad-interim-women-ministry-study-committee-report/",
+          "fact": "A 2017 article authored by Jeffrey Choi describes his work on the women-in-ministry study committee and explains his dissent from one part of the report. The article is used here only as corroborating identity evidence; its theological content should be normalized separately if needed."
+        }
+      ],
+      "match_basis": "The official 2017 committee directory identifies TE Jeffrey Choi with Metropolitan New York Presbytery; later official PCA records and Astoria Community Church independently place Jeffrey Choi in the same PCA presbytery/church context, while his first-person 2017 article explicitly identifies his committee participation.",
+      "reasoning_boundary": "Identity only; Jeffrey Choi's separately attributable dissent and theological arguments are not converted into position data in this identity slice."
+    },
+    {
+      "committee_edge_id": "2017-women-serving-committee-08",
+      "person_name": "Kathy Keller",
+      "proposed_canonical_person_id": "kathy-keller",
+      "current_normalized_person_id": "kathy-keller",
+      "review_status": "canonical_seed_applied",
+      "confidence": "high",
+      "evidence": [
+        {
+          "source_type": "official_pca_study_report",
+          "path": "sources/normalized/general-assembly/2017-women-serving-ministry-report.json",
+          "fact": "The official 2017 committee roster prints Mrs. Kathy Keller as a Voting Member."
+        },
+        {
+          "source_type": "first_party_pca_church_report",
+          "url": "https://www.newlifepca.org/pastorbobsblog/2017/6/30/review-of-the-pcas-45th-general-assembly",
+          "fact": "A contemporaneous New Life Presbyterian Church report on the 45th General Assembly identifies committee member Kathy Keller as Tim Keller's wife."
+        },
+        {
+          "source_type": "first_party_redeemer_publication",
+          "url": "https://www.redeemer.com/redeemer-report/article/redeemer_begins",
+          "fact": "Redeemer Presbyterian Church publishes a first-person historical article under Kathy Keller in which she describes founding Redeemer with Tim Keller."
+        },
+        {
+          "source_type": "pca_bookstore_author_profile",
+          "url": "https://www.pcabookstore.com/p-12388-jesus-justice-gender-roles.aspx",
+          "fact": "The PCA Bookstore identifies author Kathy Keller as co-founder of Redeemer Presbyterian Church and wife of Tim Keller."
+        }
+      ],
+      "match_basis": "A contemporaneous PCA congregation explicitly identifies the committee's Kathy Keller as Tim Keller's wife, and Redeemer/PCA first-party biographical material independently identifies that Kathy Keller and her Redeemer role.",
+      "reasoning_boundary": "Identity only; Kathy Keller's published views, Redeemer ministry practices, or relationship to Tim Keller are not converted into broader ideological labels or committee-position attribution in this slice."
+    }
+  ],
+  "ideological_weight": 0
+}

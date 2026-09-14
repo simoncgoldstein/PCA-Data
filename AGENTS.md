@@ -51,7 +51,8 @@ The 2017 Ad Interim Committee on Women Serving in the Ministry of the Church is 
 - Committee service is `weight: 0` and `score_included: false`.
 - The report itself records internal diversity on subsidiary questions.
 - Do not assign either internal school of thought, every report sentence, or a broader ideological label to a committee member without separate person-specific evidence.
-- Dan Doriani, Ligon Duncan, Irwyn Ince, Bruce O'Neil, Roy Taylor, Leon Brown, Mary Beth McGreevy, and Harry Reeder are canonically resolved and projected to the app-facing committee event. William Castro, Jeffrey Choi, Lani Jones, and Kathy Keller remain unresolved until separately evidenced.
+- Leon Brown, Jeffrey Choi, Dan Doriani, Ligon Duncan, Irwyn Ince, Kathy Keller, Mary Beth McGreevy, Bruce O'Neil, Harry Reeder, and Roy Taylor are canonically resolved and projected to the app-facing committee event. William Castro and Lani Jones remain unresolved until separately evidenced.
+- Jeffrey Choi has separately attributable contemporaneous dissent evidence, and Kathy Keller has separately published women-in-ministry material. Those sources should be normalized as person-specific positions only in a dedicated evidence slice, not inferred from committee membership.
 
 ## Source handling
 
