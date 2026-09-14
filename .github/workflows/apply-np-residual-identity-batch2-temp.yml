@@ -50,9 +50,19 @@ jobs:
           for pid,(name,ordination,status) in new_people.items():
               if pid in people_by:
                   if people_by[pid].get('name')!=name: raise SystemExit(f'person id collision: {pid}')
+                  people_by[pid]['profile_status']='source_assessed'
                   continue
               row={'id':pid,'name':name,'ordination':ordination,'current_role':None,'current_organization':None,'denominational_status':status,'current_role_source_ids':[],'profile_status':'source_assessed'}
               people.append(row); people_by[pid]=row
+
+          # Four identities existed only as reproducibly generated crosswalk nodes.
+          # This reviewed receipt makes them durable source-assessed seeds so their
+          # NP links survive future crosswalk rebuilds.
+          promote_existing={'david-wallover','justin-woodall','mark-bates','sam-desocio'}
+          for pid in promote_existing:
+              person=people_by.get(pid)
+              if not person: raise SystemExit(f'missing reviewed person to promote: {pid}')
+              person['profile_status']='source_assessed'
           write('data/people.json',people)
 
           np=load('sources/normalized/national-partnership/confirmed-memberships-canonical.json')
@@ -100,5 +110,5 @@ jobs:
             echo 'No changes to commit.'
             exit 0
           fi
-          git commit -m 'apply NP residual identity batch 2'
+          git commit -m 'persist reviewed NP residual identities'
           git push
