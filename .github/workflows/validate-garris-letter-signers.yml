@@ -1,0 +1,28 @@
+name: Validate Garris letter signers
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'sources/normalized/public-statements/garris-letters-2024.json'
+      - 'sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json'
+      - 'data/people.json'
+      - 'data/affiliations.json'
+      - 'data/events.json'
+      - 'scripts/project-garris-signers.py'
+      - 'scripts/validate-garris-letter-signers.py'
+      - '.github/workflows/validate-garris-letter-signers.yml'
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-garris-letter-signers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Validate normalized Garris rosters and app edges
+        run: python3 scripts/validate-garris-letter-signers.py .
