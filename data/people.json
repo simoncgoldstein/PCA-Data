@@ -400,6 +400,16 @@
     "profile_status": "source_assessed"
   },
   {
+    "id": "david-richmon",
+    "name": "David Richmon",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA Teaching Elder documented in the 2024 Garris Letter 1 source; historical Pacific Northwest ministry identity reviewed in this slice",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",
@@ -1123,16 +1133,6 @@
     "id": "david-palma",
     "name": "David Palma",
     "ordination": "Ruling Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "david-richmon",
-    "name": "David Richmon",
-    "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",

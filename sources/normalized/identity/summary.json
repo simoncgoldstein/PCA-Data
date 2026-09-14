@@ -3,7 +3,7 @@
     "generated_on": "2026-09-04",
     "record_count": 4415,
     "canonical_person_count": 304,
-    "new_person_count": 279,
+    "new_person_count": 278,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -15,9 +15,9 @@
   "overall_match_status_counts": {
     "ambiguous": 493,
     "collision": 24,
-    "context_confirmed": 860,
-    "exact_confirmed": 154,
-    "probable_requires_review": 374,
+    "context_confirmed": 857,
+    "exact_confirmed": 159,
+    "probable_requires_review": 372,
     "unmatched": 2510
   },
   "datasets": [
@@ -28,8 +28,8 @@
       "confirmed_canonical_person_count": 157,
       "confirmed_row_count": 157,
       "match_status_counts": {
-        "exact_confirmed": 14,
-        "context_confirmed": 143,
+        "exact_confirmed": 15,
+        "context_confirmed": 142,
         "probable_requires_review": 30,
         "ambiguous": 66,
         "collision": 2,
@@ -50,8 +50,8 @@
       "confirmed_canonical_person_count": 193,
       "confirmed_row_count": 193,
       "match_status_counts": {
-        "exact_confirmed": 14,
-        "context_confirmed": 179,
+        "exact_confirmed": 15,
+        "context_confirmed": 178,
         "probable_requires_review": 31,
         "ambiguous": 76,
         "collision": 2,
@@ -531,17 +531,17 @@
       "source_dataset": "garris_letter_1",
       "row_count": 60,
       "unique_printed_name_count": 60,
-      "confirmed_canonical_person_count": 24,
-      "confirmed_row_count": 24,
+      "confirmed_canonical_person_count": 25,
+      "confirmed_row_count": 25,
       "match_status_counts": {
-        "exact_confirmed": 8,
+        "exact_confirmed": 9,
         "context_confirmed": 16,
-        "probable_requires_review": 3,
+        "probable_requires_review": 2,
         "ambiguous": 9,
         "collision": 2,
         "unmatched": 22
       },
-      "percent_rows_resolved": 40.0,
+      "percent_rows_resolved": 41.67,
       "source_tier": [
         "primary_public_letter"
       ],
@@ -998,17 +998,17 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 44,
-      "confirmed_row_count": 44,
+      "confirmed_canonical_person_count": 45,
+      "confirmed_row_count": 45,
       "match_status_counts": {
-        "exact_confirmed": 9,
+        "exact_confirmed": 10,
         "context_confirmed": 35,
-        "probable_requires_review": 29,
+        "probable_requires_review": 28,
         "ambiguous": 12,
         "collision": 2,
         "unmatched": 64
       },
-      "percent_rows_resolved": 29.14,
+      "percent_rows_resolved": 29.8,
       "source_tier": [
         "primary_archive"
       ],
@@ -1089,8 +1089,8 @@
       "confirmed_canonical_person_count": 114,
       "confirmed_row_count": 114,
       "match_status_counts": {
-        "exact_confirmed": 8,
-        "context_confirmed": 106,
+        "exact_confirmed": 9,
+        "context_confirmed": 105,
         "probable_requires_review": 8,
         "ambiguous": 29,
         "collision": 3,

@@ -376,11 +376,11 @@
       "source_dataset": "garris_letter_1",
       "row_count": 60,
       "unique_printed_name_count": 60,
-      "confirmed_canonical_person_count": 24,
+      "confirmed_canonical_person_count": 25,
       "unmatched_count": 22,
-      "probable_requires_review_count": 3,
+      "probable_requires_review_count": 2,
       "ambiguous_or_collision_count": 11,
-      "percentage_resolved": 40.0,
+      "percentage_resolved": 41.67,
       "source_tier": [
         "primary_public_letter"
       ],
@@ -717,11 +717,11 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 44,
+      "confirmed_canonical_person_count": 45,
       "unmatched_count": 64,
-      "probable_requires_review_count": 29,
+      "probable_requires_review_count": 28,
       "ambiguous_or_collision_count": 14,
-      "percentage_resolved": 29.14,
+      "percentage_resolved": 29.8,
       "source_tier": [
         "primary_archive"
       ],

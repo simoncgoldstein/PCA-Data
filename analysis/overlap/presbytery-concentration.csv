@@ -225,7 +225,7 @@ garris_letter_1,northern new england,northern-new-england,current_exact,1,1,0,0.
 garris_letter_1,northwest georgia,northwest-georgia,current_exact,1,1,1,100.00,1,100.00
 garris_letter_1,ohio,ohio,current_exact,1,1,1,100.00,1,100.00
 garris_letter_1,pacific northwest,pacific-northwest,current_exact,1,1,0,0.00,0,0.00
-garris_letter_1,pacific nw,,unresolved_historical_or_noncanonical,4,4,0,0.00,0,0.00
+garris_letter_1,pacific nw,,unresolved_historical_or_noncanonical,4,4,1,25.00,1,100.00
 garris_letter_1,palmetto,palmetto,current_exact,3,3,1,33.33,1,100.00
 garris_letter_1,philadelphia metro west,philadelphia-metro-west,current_exact,1,1,0,0.00,0,0.00
 garris_letter_1,piedmont triad,piedmont-triad,current_exact,3,3,0,0.00,0,0.00
@@ -355,7 +355,7 @@ national_partnership_confirmed_members,philadelphia metro west,philadelphia-metr
 national_partnership_confirmed_members,piedmont triad,piedmont-triad,current_exact,4,4,3,75.00,3,100.00
 national_partnership_confirmed_members,pittsburgh,pittsburgh,current_exact,1,1,0,0.00,0,0.00
 national_partnership_confirmed_members,platte valley,platte-valley,current_exact,1,1,0,0.00,0,0.00
-national_partnership_confirmed_members,pnw,pacific-northwest,known_alias,1,1,0,0.00,0,0.00
+national_partnership_confirmed_members,pnw,pacific-northwest,known_alias,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,potomac,potomac,current_exact,4,4,2,50.00,2,100.00
 national_partnership_confirmed_members,rocky mountain,rocky-mountain,current_exact,2,2,0,0.00,0,0.00
 national_partnership_confirmed_members,rocky mtn,rocky-mountain,known_alias,2,2,0,0.00,0,0.00
@@ -754,7 +754,7 @@ ALL_TRACKED_DATASETS,ohio,ohio,current_exact,13,8,3,37.50,3,100.00
 ALL_TRACKED_DATASETS,ohio valley,ohio-valley,current_exact,49,27,6,22.22,6,100.00
 ALL_TRACKED_DATASETS,pacific,pacific,current_exact,22,12,2,16.67,2,100.00
 ALL_TRACKED_DATASETS,pacific northwest,pacific-northwest,current_exact,27,17,5,29.41,5,100.00
-ALL_TRACKED_DATASETS,pacific nw,,unresolved_historical_or_noncanonical,4,4,0,0.00,0,0.00
+ALL_TRACKED_DATASETS,pacific nw,,unresolved_historical_or_noncanonical,4,4,1,25.00,1,100.00
 ALL_TRACKED_DATASETS,palmetto,palmetto,current_exact,25,16,3,18.75,3,100.00
 ALL_TRACKED_DATASETS,pee dee,pee-dee,current_exact,1,1,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,philadelphia,philadelphia,current_exact,25,17,1,5.88,1,100.00
@@ -763,7 +763,7 @@ ALL_TRACKED_DATASETS,philadelphia metro west,philadelphia-metro-west,current_exa
 ALL_TRACKED_DATASETS,piedmont triad,piedmont-triad,current_exact,48,18,7,38.89,7,100.00
 ALL_TRACKED_DATASETS,pittsburgh,pittsburgh,current_exact,48,25,4,16.00,4,100.00
 ALL_TRACKED_DATASETS,platte valley,platte-valley,current_exact,4,4,0,0.00,0,0.00
-ALL_TRACKED_DATASETS,pnw,pacific-northwest,known_alias,1,1,0,0.00,0,0.00
+ALL_TRACKED_DATASETS,pnw,pacific-northwest,known_alias,1,1,1,100.00,1,100.00
 ALL_TRACKED_DATASETS,potomac,potomac,current_exact,73,46,9,19.57,9,100.00
 ALL_TRACKED_DATASETS,providence,providence,current_exact,18,10,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,rio grande,rio-grande,current_exact,36,16,5,31.25,5,100.00

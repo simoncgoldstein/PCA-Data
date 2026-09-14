@@ -3,7 +3,7 @@
     "generated_on": "2026-09-04",
     "record_count": 4415,
     "canonical_person_count": 304,
-    "new_person_count": 279,
+    "new_person_count": 278,
     "rules": {
       "name_similarity_alone_confirms_identity": false,
       "new_id_threshold": "exact normalized name in at least two independent source families plus matching presbytery, institution, or location",
@@ -2134,14 +2134,14 @@
       "office": null,
       "rejected_existing_id": null,
       "canonical_person_id": "david-richmon",
-      "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
       "supporting_fields": [
-        "matching presbytery: pacific northwest"
+        "a source row already carries a reviewed core person ID"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -23470,14 +23470,14 @@
       "office": null,
       "rejected_existing_id": null,
       "canonical_person_id": "david-richmon",
-      "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
       "supporting_fields": [
-        "matching presbytery: pacific northwest"
+        "a source row already carries a reviewed core person ID"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -62558,13 +62558,15 @@
       "location": null,
       "office": "teaching_elder",
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-richmon",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -90354,13 +90356,15 @@
       "location": null,
       "office": null,
       "rejected_existing_id": null,
-      "canonical_person_id": null,
-      "match_status": "probable_requires_review",
-      "match_method": "exact_name_without_row_level_disambiguator",
-      "supporting_fields": [],
+      "canonical_person_id": "david-richmon",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
+      "supporting_fields": [
+        "a source row already carries a reviewed core person ID"
+      ],
       "conflicting_fields": [],
-      "confidence": 0.65,
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },
@@ -103330,14 +103334,14 @@
       "office": "teaching_elder",
       "rejected_existing_id": null,
       "canonical_person_id": "david-richmon",
-      "match_status": "context_confirmed",
-      "match_method": "exact_name_plus_shared_context",
+      "match_status": "exact_confirmed",
+      "match_method": "preexisting_verified_id",
       "supporting_fields": [
-        "matching presbytery: pacific northwest"
+        "a source row already carries a reviewed core person ID"
       ],
       "conflicting_fields": [],
-      "confidence": 0.95,
-      "reviewer_note": "Exact normalized name recurs in independent source families with a shared contextual disambiguator.",
+      "confidence": 1.0,
+      "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group.",
       "variant_collision_key": null,
       "initials_only_name": false
     },

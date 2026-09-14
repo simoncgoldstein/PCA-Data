@@ -1,10 +1,10 @@
 dataset,label,period,temporal_relation,evidence_scope,np_printed_roster_count,np_confirmed_canonical_count,np_identity_resolution_rate_pct,target_printed_roster_count,target_confirmed_canonical_count,target_identity_resolution_rate_pct,confirmed_overlap_count,unresolved_exact_name_possible_overlap_count,confirmed_np_share_of_target_confirmed_pct,confirmed_target_share_of_np_confirmed_pct,confirmed_lower_bound_share_of_target_printed_roster_pct,confirmed_lower_bound_share_of_np_printed_roster_pct,same_name_screening_ceiling_share_of_target_printed_roster_pct,same_name_screening_ceiling_share_of_np_printed_roster_pct
-warhurst_protest_2019,2019 Warhurst protest,2019,within_np_archive_window,formal_public_action,151,44,29.14,203,98,48.28,18,13,18.37,40.91,8.87,11.92,15.27,20.53
-a_faithful_pca_2021-06-11,A Faithful PCA / Looking Forward – Together (June 2021),2021-06-11,within_np_archive_window,public_coalition_action,151,44,29.14,561,157,27.99,35,15,22.29,79.55,6.24,23.18,8.91,33.11
-overture_37_negative_votes_2021,2021 Overture 37 negative recorded votes,2021,within_np_archive_window,recorded_general_assembly_vote,151,44,29.14,207,114,55.07,15,9,13.16,34.09,7.25,9.93,11.59,15.89
-a_faithful_pca_2022-03-14,A Faithful PCA cumulative signer snapshot (March 2022),2022-03-14,post_archive_snapshot_of_2021_action,cumulative_public_statement_snapshot,151,44,29.14,736,193,26.22,36,18,18.65,81.82,4.89,23.84,7.34,35.76
-overture_15_negative_votes_2022,2022 Overture 15 negative recorded votes,2022,post_np_archive,recorded_general_assembly_vote,151,44,29.14,200,115,57.5,10,10,8.7,22.73,5.0,6.62,10.0,13.25
-nae_withdrawal_protest_2022,2022 NAE-withdrawal protest,2022,post_np_archive,formal_public_action,151,44,29.14,203,84,41.38,5,5,5.95,11.36,2.46,3.31,4.93,6.62
-garris_letter_1,Garris Letter 1,2024,post_np_archive,public_coalition_action,151,44,29.14,60,24,40.0,9,1,37.5,20.45,15.0,5.96,16.67,6.62
-garris_letter_2,Garris Letter 2,2024,post_np_archive,public_coalition_action,151,44,29.14,21,21,100.0,0,0,0.0,0.0,0.0,0.0,0.0,0.0
-amr_leadership_current,Alliance for Mission & Renewal current leadership,2026,post_np_archive,current_network_leadership,151,44,29.14,6,6,100.0,4,0,66.67,9.09,66.67,2.65,66.67,2.65
+warhurst_protest_2019,2019 Warhurst protest,2019,within_np_archive_window,formal_public_action,151,45,29.8,203,98,48.28,18,13,18.37,40.0,8.87,11.92,15.27,20.53
+a_faithful_pca_2021-06-11,A Faithful PCA / Looking Forward – Together (June 2021),2021-06-11,within_np_archive_window,public_coalition_action,151,45,29.8,561,157,27.99,36,14,22.93,80.0,6.42,23.84,8.91,33.11
+overture_37_negative_votes_2021,2021 Overture 37 negative recorded votes,2021,within_np_archive_window,recorded_general_assembly_vote,151,45,29.8,207,114,55.07,16,8,14.04,35.56,7.73,10.6,11.59,15.89
+a_faithful_pca_2022-03-14,A Faithful PCA cumulative signer snapshot (March 2022),2022-03-14,post_archive_snapshot_of_2021_action,cumulative_public_statement_snapshot,151,45,29.8,736,193,26.22,37,17,19.17,82.22,5.03,24.5,7.34,35.76
+overture_15_negative_votes_2022,2022 Overture 15 negative recorded votes,2022,post_np_archive,recorded_general_assembly_vote,151,45,29.8,200,115,57.5,10,10,8.7,22.22,5.0,6.62,10.0,13.25
+nae_withdrawal_protest_2022,2022 NAE-withdrawal protest,2022,post_np_archive,formal_public_action,151,45,29.8,203,84,41.38,5,5,5.95,11.11,2.46,3.31,4.93,6.62
+garris_letter_1,Garris Letter 1,2024,post_np_archive,public_coalition_action,151,45,29.8,60,25,41.67,10,0,40.0,22.22,16.67,6.62,16.67,6.62
+garris_letter_2,Garris Letter 2,2024,post_np_archive,public_coalition_action,151,45,29.8,21,21,100.0,0,0,0.0,0.0,0.0,0.0,0.0,0.0
+amr_leadership_current,Alliance for Mission & Renewal current leadership,2026,post_np_archive,current_network_leadership,151,45,29.8,6,6,100.0,4,0,66.67,8.89,66.67,2.65,66.67,2.65
