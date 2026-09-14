@@ -717,11 +717,11 @@
       "source_dataset": "national_partnership_confirmed_members",
       "row_count": 151,
       "unique_printed_name_count": 151,
-      "confirmed_canonical_person_count": 64,
+      "confirmed_canonical_person_count": 68,
       "unmatched_count": 64,
-      "probable_requires_review_count": 16,
+      "probable_requires_review_count": 12,
       "ambiguous_or_collision_count": 7,
-      "percentage_resolved": 42.38,
+      "percentage_resolved": 45.03,
       "source_tier": [
         "primary_archive"
       ],

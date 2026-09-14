@@ -620,6 +620,46 @@
     "profile_status": "source_assessed"
   },
   {
+    "id": "david-wallover",
+    "name": "David Wallover",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "justin-woodall",
+    "name": "Justin Woodall",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "mark-bates",
+    "name": "Mark Bates",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
+    "id": "sam-desocio",
+    "name": "Sam DeSocio",
+    "ordination": "Teaching Elder",
+    "current_role": null,
+    "current_organization": null,
+    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
+    "current_role_source_ids": [],
+    "profile_status": "source_assessed"
+  },
+  {
     "id": "aaron-baker",
     "name": "Aaron Baker",
     "ordination": "Teaching Elder",
@@ -1342,16 +1382,6 @@
   {
     "id": "david-schweissing",
     "name": "David Schweissing",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "david-wallover",
-    "name": "David Wallover",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
@@ -2130,16 +2160,6 @@
     "profile_status": "identity_crosswalk"
   },
   {
-    "id": "justin-woodall",
-    "name": "Justin Woodall",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
     "id": "keith-robinson",
     "name": "Keith Robinson",
     "ordination": "Teaching Elder",
@@ -2313,16 +2333,6 @@
     "id": "mac-purdy",
     "name": "Mac Purdy",
     "ordination": "Ruling Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "mark-bates",
-    "name": "Mark Bates",
-    "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,
     "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
@@ -2852,16 +2862,6 @@
   {
     "id": "sam-brown",
     "name": "Sam Brown",
-    "ordination": "Teaching Elder",
-    "current_role": null,
-    "current_organization": null,
-    "denominational_status": "PCA-related role documented in tracked sources; current status not assessed",
-    "current_role_source_ids": [],
-    "profile_status": "identity_crosswalk"
-  },
-  {
-    "id": "sam-desocio",
-    "name": "Sam DeSocio",
     "ordination": "Teaching Elder",
     "current_role": null,
     "current_organization": null,

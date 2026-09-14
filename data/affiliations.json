@@ -2462,5 +2462,69 @@
       "src-np-index"
     ],
     "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-david-wallover-np",
+    "person_id": "david-wallover",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-justin-woodall-np",
+    "person_id": "justin-woodall",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-mark-bates-np",
+    "person_id": "mark-bates",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
+  },
+  {
+    "id": "aff-sam-desocio-np",
+    "person_id": "sam-desocio",
+    "target_type": "organization",
+    "target_id": "national-partnership",
+    "role": "Member",
+    "confidence": "confirmed",
+    "evidence_kind": "network_membership",
+    "weight": 4,
+    "score_included": true,
+    "source_ids": [
+      "src-np-local-archive",
+      "src-np-index"
+    ],
+    "notes": "Generated from the reviewed canonical National Partnership membership roster. Exact archival receipts remain in sources/normalized/national-partnership/confirmed-memberships-canonical.json; this edge records membership only and does not infer positions on unrelated issues."
   }
 ]

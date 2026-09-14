@@ -3128,6 +3128,16 @@
           ]
         },
         {
+          "canonical_person_id": "david-wallover",
+          "name": "David Wallover",
+          "dataset_a_locators": [
+            "signature:41"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:46:david wallover"
+          ]
+        },
+        {
           "canonical_person_id": "ethan-smith",
           "name": "Ethan Smith",
           "dataset_a_locators": [
@@ -3288,6 +3298,16 @@
           ]
         },
         {
+          "canonical_person_id": "justin-woodall",
+          "name": "Justin Woodall",
+          "dataset_a_locators": [
+            "signature:27"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:91:justin woodall"
+          ]
+        },
+        {
           "canonical_person_id": "kevin-rogers",
           "name": "Kevin Rogers",
           "dataset_a_locators": [
@@ -3325,6 +3345,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:99:luke evans"
+          ]
+        },
+        {
+          "canonical_person_id": "mark-bates",
+          "name": "Mark Bates",
+          "dataset_a_locators": [
+            "signature:26"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:100:mark bates"
           ]
         },
         {
@@ -3408,6 +3438,16 @@
           ]
         },
         {
+          "canonical_person_id": "sam-desocio",
+          "name": "Sam DeSocio",
+          "dataset_a_locators": [
+            "signature:544"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:127:sam desocio"
+          ]
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls",
           "dataset_a_locators": [
@@ -3448,12 +3488,7 @@
           ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "david wallover",
-        "justin woodall",
-        "mark bates",
-        "sam desocio"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "a_faithful_pca_2021-06-11",
@@ -6846,6 +6881,16 @@
           ]
         },
         {
+          "canonical_person_id": "david-wallover",
+          "name": "David Wallover",
+          "dataset_a_locators": [
+            "signature:61"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:46:david wallover"
+          ]
+        },
+        {
           "canonical_person_id": "ethan-smith",
           "name": "Ethan Smith",
           "dataset_a_locators": [
@@ -7016,6 +7061,16 @@
           ]
         },
         {
+          "canonical_person_id": "justin-woodall",
+          "name": "Justin Woodall",
+          "dataset_a_locators": [
+            "signature:27"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:91:justin woodall"
+          ]
+        },
+        {
           "canonical_person_id": "kevin-rogers",
           "name": "Kevin Rogers",
           "dataset_a_locators": [
@@ -7053,6 +7108,16 @@
           ],
           "dataset_b_locators": [
             "confirmed_member:99:luke evans"
+          ]
+        },
+        {
+          "canonical_person_id": "mark-bates",
+          "name": "Mark Bates",
+          "dataset_a_locators": [
+            "signature:26"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:100:mark bates"
           ]
         },
         {
@@ -7156,6 +7221,16 @@
           ]
         },
         {
+          "canonical_person_id": "sam-desocio",
+          "name": "Sam DeSocio",
+          "dataset_a_locators": [
+            "signature:537"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:127:sam desocio"
+          ]
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls",
           "dataset_a_locators": [
@@ -7196,12 +7271,7 @@
           ]
         }
       ],
-      "unresolved_exact_name_keys": [
-        "david wallover",
-        "justin woodall",
-        "mark bates",
-        "sam desocio"
-      ]
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "a_faithful_pca_2022-03-14",
@@ -14140,10 +14210,19 @@
     {
       "dataset_a": "institution_mission-to-the-world",
       "dataset_b": "national_partnership_confirmed_members",
-      "confirmed_shared_people": [],
-      "unresolved_exact_name_keys": [
-        "mark bates"
-      ]
+      "confirmed_shared_people": [
+        {
+          "canonical_person_id": "mark-bates",
+          "name": "Mark Bates",
+          "dataset_a_locators": [
+            "role:305:mission-to-the-world:line:38"
+          ],
+          "dataset_b_locators": [
+            "confirmed_member:100:mark bates"
+          ]
+        }
+      ],
+      "unresolved_exact_name_keys": []
     },
     {
       "dataset_a": "institution_pca-administrative-committee",
@@ -16097,6 +16176,16 @@
           ]
         },
         {
+          "canonical_person_id": "sam-desocio",
+          "name": "Sam DeSocio",
+          "dataset_a_locators": [
+            "confirmed_member:127:sam desocio"
+          ],
+          "dataset_b_locators": [
+            "print_order:51"
+          ]
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls",
           "dataset_a_locators": [
@@ -16119,8 +16208,7 @@
       ],
       "unresolved_exact_name_keys": [
         "iron kim",
-        "rich good",
-        "sam desocio"
+        "rich good"
       ]
     },
     {
@@ -16343,6 +16431,16 @@
           ]
         },
         {
+          "canonical_person_id": "david-wallover",
+          "name": "David Wallover",
+          "dataset_a_locators": [
+            "confirmed_member:46:david wallover"
+          ],
+          "dataset_b_locators": [
+            "print_order:196"
+          ]
+        },
+        {
           "canonical_person_id": "ethan-smith",
           "name": "Ethan Smith",
           "dataset_a_locators": [
@@ -16420,6 +16518,16 @@
           ],
           "dataset_b_locators": [
             "print_order:171"
+          ]
+        },
+        {
+          "canonical_person_id": "justin-woodall",
+          "name": "Justin Woodall",
+          "dataset_a_locators": [
+            "confirmed_member:91:justin woodall"
+          ],
+          "dataset_b_locators": [
+            "print_order:120"
           ]
         },
         {
@@ -16534,9 +16642,7 @@
         }
       ],
       "unresolved_exact_name_keys": [
-        "david wallover",
-        "hansoo jin",
-        "justin woodall"
+        "hansoo jin"
       ]
     },
     {

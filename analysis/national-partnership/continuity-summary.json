@@ -12,8 +12,8 @@
   },
   "national_partnership_cohort": {
     "printed_confirmed_member_name_count": 151,
-    "confirmed_canonical_person_count": 64,
-    "identity_resolution_rate_pct": 42.38,
+    "confirmed_canonical_person_count": 68,
+    "identity_resolution_rate_pct": 45.03,
     "coverage_warning": "The canonical NP subset is incomplete and is not assumed to be a random sample of the full confirmed printed-name membership roster. Recurring people may be easier to identity-resolve, which can inflate recurrence percentages calculated only within the canonical subset."
   },
   "headline_descriptive_signals": {
@@ -42,10 +42,10 @@
       "boundary": "This is strong personnel-continuity evidence. It does not by itself establish that AMR is a legal, organizational, or formal successor to the National Partnership."
     },
     "a_faithful_pca_recurrence": {
-      "confirmed_overlap": 46,
-      "canonical_np_denominator": 64,
-      "pct_of_canonical_np_subset": 71.88,
-      "full_np_roster_lower_bound_pct": 30.46,
+      "confirmed_overlap": 50,
+      "canonical_np_denominator": 68,
+      "pct_of_canonical_np_subset": 73.53,
+      "full_np_roster_lower_bound_pct": 33.11,
       "boundary": "The canonical-subset percentage is descriptive and potentially resolution-biased; use the full-roster lower bound for a conservative population statement."
     },
     "garris_letter_1_recurrence": {
@@ -62,7 +62,7 @@
     },
     "strongest_recurrence_of_canonical_np_subset": {
       "dataset": "a_faithful_pca_2022-03-14",
-      "pct": 78.12,
+      "pct": 79.41,
       "boundary": "This ranking inherits the incomplete/non-random NP identity-resolution limitation."
     }
   },
@@ -93,17 +93,17 @@
       "temporal_relation": "within_np_archive_window",
       "evidence_scope": "formal_public_action",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 203,
       "target_confirmed_canonical_count": 105,
       "target_identity_resolution_rate_pct": 51.72,
-      "confirmed_overlap_count": 28,
-      "unresolved_exact_name_possible_overlap_count": 3,
-      "confirmed_np_share_of_target_confirmed_pct": 26.67,
-      "confirmed_target_share_of_np_confirmed_pct": 43.75,
-      "confirmed_lower_bound_share_of_target_printed_roster_pct": 13.79,
-      "confirmed_lower_bound_share_of_np_printed_roster_pct": 18.54,
+      "confirmed_overlap_count": 30,
+      "unresolved_exact_name_possible_overlap_count": 1,
+      "confirmed_np_share_of_target_confirmed_pct": 28.57,
+      "confirmed_target_share_of_np_confirmed_pct": 44.12,
+      "confirmed_lower_bound_share_of_target_printed_roster_pct": 14.78,
+      "confirmed_lower_bound_share_of_np_printed_roster_pct": 19.87,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 15.27,
       "same_name_screening_ceiling_share_of_np_printed_roster_pct": 20.53,
       "confirmed_shared_people": [
@@ -144,6 +144,10 @@
           "name": "David Ridenhour"
         },
         {
+          "canonical_person_id": "david-wallover",
+          "name": "David Wallover"
+        },
+        {
           "canonical_person_id": "ethan-smith",
           "name": "Ethan Smith"
         },
@@ -174,6 +178,10 @@
         {
           "canonical_person_id": "justin-edgar",
           "name": "Justin Edgar"
+        },
+        {
+          "canonical_person_id": "justin-woodall",
+          "name": "Justin Woodall"
         },
         {
           "canonical_person_id": "kyle-hackmann",
@@ -228,17 +236,17 @@
       "temporal_relation": "within_np_archive_window",
       "evidence_scope": "public_coalition_action",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 561,
       "target_confirmed_canonical_count": 163,
       "target_identity_resolution_rate_pct": 29.06,
-      "confirmed_overlap_count": 46,
-      "unresolved_exact_name_possible_overlap_count": 4,
-      "confirmed_np_share_of_target_confirmed_pct": 28.22,
-      "confirmed_target_share_of_np_confirmed_pct": 71.88,
-      "confirmed_lower_bound_share_of_target_printed_roster_pct": 8.2,
-      "confirmed_lower_bound_share_of_np_printed_roster_pct": 30.46,
+      "confirmed_overlap_count": 50,
+      "unresolved_exact_name_possible_overlap_count": 0,
+      "confirmed_np_share_of_target_confirmed_pct": 30.67,
+      "confirmed_target_share_of_np_confirmed_pct": 73.53,
+      "confirmed_lower_bound_share_of_target_printed_roster_pct": 8.91,
+      "confirmed_lower_bound_share_of_np_printed_roster_pct": 33.11,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 8.91,
       "same_name_screening_ceiling_share_of_np_printed_roster_pct": 33.11,
       "confirmed_shared_people": [
@@ -297,6 +305,10 @@
         {
           "canonical_person_id": "david-salsedo",
           "name": "David Salsedo"
+        },
+        {
+          "canonical_person_id": "david-wallover",
+          "name": "David Wallover"
         },
         {
           "canonical_person_id": "ethan-smith",
@@ -363,6 +375,10 @@
           "name": "Justin Edgar"
         },
         {
+          "canonical_person_id": "justin-woodall",
+          "name": "Justin Woodall"
+        },
+        {
           "canonical_person_id": "kevin-rogers",
           "name": "Kevin Rogers"
         },
@@ -377,6 +393,10 @@
         {
           "canonical_person_id": "luke-evans",
           "name": "Luke Evans"
+        },
+        {
+          "canonical_person_id": "mark-bates",
+          "name": "Mark Bates"
         },
         {
           "canonical_person_id": "michael-novak",
@@ -411,6 +431,10 @@
           "name": "Robbie Schmidtberger"
         },
         {
+          "canonical_person_id": "sam-desocio",
+          "name": "Sam DeSocio"
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls"
         },
@@ -435,17 +459,17 @@
       "temporal_relation": "within_np_archive_window",
       "evidence_scope": "recorded_general_assembly_vote",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 207,
       "target_confirmed_canonical_count": 117,
       "target_identity_resolution_rate_pct": 56.52,
-      "confirmed_overlap_count": 21,
-      "unresolved_exact_name_possible_overlap_count": 3,
-      "confirmed_np_share_of_target_confirmed_pct": 17.95,
-      "confirmed_target_share_of_np_confirmed_pct": 32.81,
-      "confirmed_lower_bound_share_of_target_printed_roster_pct": 10.14,
-      "confirmed_lower_bound_share_of_np_printed_roster_pct": 13.91,
+      "confirmed_overlap_count": 22,
+      "unresolved_exact_name_possible_overlap_count": 2,
+      "confirmed_np_share_of_target_confirmed_pct": 18.8,
+      "confirmed_target_share_of_np_confirmed_pct": 32.35,
+      "confirmed_lower_bound_share_of_target_printed_roster_pct": 10.63,
+      "confirmed_lower_bound_share_of_np_printed_roster_pct": 14.57,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 11.59,
       "same_name_screening_ceiling_share_of_np_printed_roster_pct": 15.89,
       "confirmed_shared_people": [
@@ -526,6 +550,10 @@
           "name": "Rob Wootton"
         },
         {
+          "canonical_person_id": "sam-desocio",
+          "name": "Sam DeSocio"
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls"
         },
@@ -542,17 +570,17 @@
       "temporal_relation": "post_archive_snapshot_of_2021_action",
       "evidence_scope": "cumulative_public_statement_snapshot",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 736,
       "target_confirmed_canonical_count": 201,
       "target_identity_resolution_rate_pct": 27.31,
-      "confirmed_overlap_count": 50,
-      "unresolved_exact_name_possible_overlap_count": 4,
-      "confirmed_np_share_of_target_confirmed_pct": 24.88,
-      "confirmed_target_share_of_np_confirmed_pct": 78.12,
-      "confirmed_lower_bound_share_of_target_printed_roster_pct": 6.79,
-      "confirmed_lower_bound_share_of_np_printed_roster_pct": 33.11,
+      "confirmed_overlap_count": 54,
+      "unresolved_exact_name_possible_overlap_count": 0,
+      "confirmed_np_share_of_target_confirmed_pct": 26.87,
+      "confirmed_target_share_of_np_confirmed_pct": 79.41,
+      "confirmed_lower_bound_share_of_target_printed_roster_pct": 7.34,
+      "confirmed_lower_bound_share_of_np_printed_roster_pct": 35.76,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 7.34,
       "same_name_screening_ceiling_share_of_np_printed_roster_pct": 35.76,
       "confirmed_shared_people": [
@@ -615,6 +643,10 @@
         {
           "canonical_person_id": "david-salsedo",
           "name": "David Salsedo"
+        },
+        {
+          "canonical_person_id": "david-wallover",
+          "name": "David Wallover"
         },
         {
           "canonical_person_id": "ethan-smith",
@@ -685,6 +717,10 @@
           "name": "Justin Edgar"
         },
         {
+          "canonical_person_id": "justin-woodall",
+          "name": "Justin Woodall"
+        },
+        {
           "canonical_person_id": "kevin-rogers",
           "name": "Kevin Rogers"
         },
@@ -699,6 +735,10 @@
         {
           "canonical_person_id": "luke-evans",
           "name": "Luke Evans"
+        },
+        {
+          "canonical_person_id": "mark-bates",
+          "name": "Mark Bates"
         },
         {
           "canonical_person_id": "matthew-armstrong",
@@ -741,6 +781,10 @@
           "name": "Robbie Schmidtberger"
         },
         {
+          "canonical_person_id": "sam-desocio",
+          "name": "Sam DeSocio"
+        },
+        {
           "canonical_person_id": "scott-sauls",
           "name": "Scott Sauls"
         },
@@ -765,15 +809,15 @@
       "temporal_relation": "post_np_archive",
       "evidence_scope": "recorded_general_assembly_vote",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 200,
       "target_confirmed_canonical_count": 120,
       "target_identity_resolution_rate_pct": 60.0,
       "confirmed_overlap_count": 20,
       "unresolved_exact_name_possible_overlap_count": 0,
       "confirmed_np_share_of_target_confirmed_pct": 16.67,
-      "confirmed_target_share_of_np_confirmed_pct": 31.25,
+      "confirmed_target_share_of_np_confirmed_pct": 29.41,
       "confirmed_lower_bound_share_of_target_printed_roster_pct": 10.0,
       "confirmed_lower_bound_share_of_np_printed_roster_pct": 13.25,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 10.0,
@@ -868,15 +912,15 @@
       "temporal_relation": "post_np_archive",
       "evidence_scope": "formal_public_action",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 203,
       "target_confirmed_canonical_count": 85,
       "target_identity_resolution_rate_pct": 41.87,
       "confirmed_overlap_count": 10,
       "unresolved_exact_name_possible_overlap_count": 0,
       "confirmed_np_share_of_target_confirmed_pct": 11.76,
-      "confirmed_target_share_of_np_confirmed_pct": 15.62,
+      "confirmed_target_share_of_np_confirmed_pct": 14.71,
       "confirmed_lower_bound_share_of_target_printed_roster_pct": 4.93,
       "confirmed_lower_bound_share_of_np_printed_roster_pct": 6.62,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 4.93,
@@ -931,15 +975,15 @@
       "temporal_relation": "post_np_archive",
       "evidence_scope": "public_coalition_action",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 60,
       "target_confirmed_canonical_count": 25,
       "target_identity_resolution_rate_pct": 41.67,
       "confirmed_overlap_count": 10,
       "unresolved_exact_name_possible_overlap_count": 0,
       "confirmed_np_share_of_target_confirmed_pct": 40.0,
-      "confirmed_target_share_of_np_confirmed_pct": 15.62,
+      "confirmed_target_share_of_np_confirmed_pct": 14.71,
       "confirmed_lower_bound_share_of_target_printed_roster_pct": 16.67,
       "confirmed_lower_bound_share_of_np_printed_roster_pct": 6.62,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 16.67,
@@ -994,8 +1038,8 @@
       "temporal_relation": "post_np_archive",
       "evidence_scope": "public_coalition_action",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 21,
       "target_confirmed_canonical_count": 21,
       "target_identity_resolution_rate_pct": 100.0,
@@ -1016,15 +1060,15 @@
       "temporal_relation": "post_np_archive",
       "evidence_scope": "current_network_leadership",
       "np_printed_roster_count": 151,
-      "np_confirmed_canonical_count": 64,
-      "np_identity_resolution_rate_pct": 42.38,
+      "np_confirmed_canonical_count": 68,
+      "np_identity_resolution_rate_pct": 45.03,
       "target_printed_roster_count": 6,
       "target_confirmed_canonical_count": 6,
       "target_identity_resolution_rate_pct": 100.0,
       "confirmed_overlap_count": 4,
       "unresolved_exact_name_possible_overlap_count": 0,
       "confirmed_np_share_of_target_confirmed_pct": 66.67,
-      "confirmed_target_share_of_np_confirmed_pct": 6.25,
+      "confirmed_target_share_of_np_confirmed_pct": 5.88,
       "confirmed_lower_bound_share_of_target_printed_roster_pct": 66.67,
       "confirmed_lower_bound_share_of_np_printed_roster_pct": 2.65,
       "same_name_screening_ceiling_share_of_target_printed_roster_pct": 66.67,

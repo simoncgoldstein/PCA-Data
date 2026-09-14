@@ -1,7 +1,7 @@
 {
   "metadata": {
     "generated_on": "2026-09-04",
-    "record_count": 1288,
+    "record_count": 1284,
     "rule": "Rows may appear because of unresolved status, a first/last variant collision key, or initials-only spelling. Review never implies identity."
   },
   "records": [
@@ -11238,18 +11238,6 @@
       "reviewer_note": "No new ID is created until the name variants are reconciled with source context."
     },
     {
-      "crosswalk_id": "identity-row-02639",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:100:mark bates",
-      "name_as_printed": "Mark Bates",
-      "normalized_candidate": "mark bates",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-02642",
       "source_dataset": "national_partnership_confirmed_members",
       "source_row_locator": "confirmed_member:103:michael langer",
@@ -11286,18 +11274,6 @@
       "initials_only_name": false,
       "conflicting_fields": [],
       "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
-    },
-    {
-      "crosswalk_id": "identity-row-02668",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:127:sam desocio",
-      "name_as_printed": "Sam DeSocio",
-      "normalized_candidate": "sam desocio",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-02671",
@@ -11474,18 +11450,6 @@
       "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
     },
     {
-      "crosswalk_id": "identity-row-02730",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:46:david wallover",
-      "name_as_printed": "David Wallover",
-      "normalized_candidate": "david wallover",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
-    },
-    {
       "crosswalk_id": "identity-row-02731",
       "source_dataset": "national_partnership_confirmed_members",
       "source_row_locator": "confirmed_member:47:dennis hermerding",
@@ -11622,18 +11586,6 @@
       "initials_only_name": false,
       "conflicting_fields": [],
       "reviewer_note": "Reviewed source-specific identity is retained and propagated only within this exact normalized-name group."
-    },
-    {
-      "crosswalk_id": "identity-row-02780",
-      "source_dataset": "national_partnership_confirmed_members",
-      "source_row_locator": "confirmed_member:91:justin woodall",
-      "name_as_printed": "Justin Woodall",
-      "normalized_candidate": "justin woodall",
-      "match_status": "probable_requires_review",
-      "variant_collision_key": null,
-      "initials_only_name": false,
-      "conflicting_fields": [],
-      "reviewer_note": "The group has a confirmed identity, but this row lacks its own shared contextual disambiguator; no ID assigned."
     },
     {
       "crosswalk_id": "identity-row-02790",

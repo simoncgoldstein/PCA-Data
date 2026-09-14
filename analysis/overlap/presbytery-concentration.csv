@@ -343,7 +343,7 @@ national_partnership_confirmed_members,metro atlanta,metro-atlanta,current_exact
 national_partnership_confirmed_members,metro new york,metropolitan-new-york,known_alias,2,2,1,50.00,1,100.00
 national_partnership_confirmed_members,missouri,missouri,current_exact,3,3,2,66.67,2,100.00
 national_partnership_confirmed_members,nashville,nashville,current_exact,4,4,3,75.00,3,100.00
-national_partnership_confirmed_members,new york state,new-york-state,current_exact,1,1,0,0.00,0,0.00
+national_partnership_confirmed_members,new york state,new-york-state,current_exact,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,north texas,north-texas,current_exact,4,4,2,50.00,2,100.00
 national_partnership_confirmed_members,northern california,northern-california,current_exact,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,northern new england,northern-new-england,current_exact,2,2,1,50.00,1,100.00
@@ -358,7 +358,7 @@ national_partnership_confirmed_members,platte valley,platte-valley,current_exact
 national_partnership_confirmed_members,pnw,pacific-northwest,known_alias,1,1,1,100.00,1,100.00
 national_partnership_confirmed_members,potomac,potomac,current_exact,4,4,2,50.00,2,100.00
 national_partnership_confirmed_members,rocky mountain,rocky-mountain,current_exact,2,2,0,0.00,0,0.00
-national_partnership_confirmed_members,rocky mtn,rocky-mountain,known_alias,2,2,0,0.00,0,0.00
+national_partnership_confirmed_members,rocky mtn,rocky-mountain,known_alias,2,2,1,50.00,1,100.00
 national_partnership_confirmed_members,s new england,southern-new-england,known_alias,1,1,0,0.00,0,0.00
 national_partnership_confirmed_members,se alabama,southeast-alabama,known_alias,1,1,0,0.00,0,0.00
 national_partnership_confirmed_members,se louisiana,southern-louisiana,known_alias,4,4,1,25.00,1,100.00
@@ -741,7 +741,7 @@ ALL_TRACKED_DATASETS,n new england,,unresolved_historical_or_noncanonical,2,2,0,
 ALL_TRACKED_DATASETS,nashville,nashville,current_exact,118,63,14,22.22,14,100.00
 ALL_TRACKED_DATASETS,new jersey,new-jersey,current_exact,6,4,2,50.00,2,100.00
 ALL_TRACKED_DATASETS,new york metro,metropolitan-new-york,known_alias,4,4,0,0.00,0,0.00
-ALL_TRACKED_DATASETS,new york state,new-york-state,current_exact,20,13,0,0.00,0,0.00
+ALL_TRACKED_DATASETS,new york state,new-york-state,current_exact,20,13,1,7.69,1,100.00
 ALL_TRACKED_DATASETS,north florida,north-florida,current_exact,19,12,1,8.33,1,100.00
 ALL_TRACKED_DATASETS,north texas,north-texas,current_exact,59,36,13,36.11,13,100.00
 ALL_TRACKED_DATASETS,north west georgia,,unresolved_historical_or_noncanonical,2,2,0,0.00,0,0.00
@@ -768,7 +768,7 @@ ALL_TRACKED_DATASETS,potomac,potomac,current_exact,73,46,9,19.57,9,100.00
 ALL_TRACKED_DATASETS,providence,providence,current_exact,18,10,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,rio grande,rio-grande,current_exact,36,16,5,31.25,5,100.00
 ALL_TRACKED_DATASETS,rocky mountain,rocky-mountain,current_exact,61,32,7,21.88,7,100.00
-ALL_TRACKED_DATASETS,rocky mtn,rocky-mountain,known_alias,2,2,0,0.00,0,0.00
+ALL_TRACKED_DATASETS,rocky mtn,rocky-mountain,known_alias,2,2,1,50.00,1,100.00
 ALL_TRACKED_DATASETS,s new england,southern-new-england,known_alias,6,6,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,savannah river,savannah-river,current_exact,12,9,0,0.00,0,0.00
 ALL_TRACKED_DATASETS,se alabama,southeast-alabama,known_alias,1,1,0,0.00,0,0.00
