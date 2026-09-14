@@ -101,10 +101,12 @@ continuity = load('analysis/national-partnership/continuity-summary.json')
 cohort = continuity['national_partnership_cohort']
 if cohort.get('printed_confirmed_member_name_count') != 151:
     raise SystemExit('NP printed roster denominator drift')
-if cohort.get('confirmed_canonical_person_count') != 45:
-    raise SystemExit('NP canonical coverage expected 45 after reviewed batch')
-if cohort.get('identity_resolution_rate_pct') != 29.8:
-    raise SystemExit('NP canonical resolution rate drift')
+# This historical batch established a 45-person minimum canonical NP cohort.
+# Later reviewed identity batches may legitimately increase global coverage; do
+# not freeze this validator to the historical project-wide count/rate.
+if cohort.get('confirmed_canonical_person_count', 0) < 45:
+    raise SystemExit('NP canonical coverage regressed below the post-batch1 floor')
+
 garris_signal = continuity['headline_descriptive_signals']['garris_letter_1_recurrence']
 expected_signal = {
     'confirmed_overlap': 10,
@@ -119,7 +121,7 @@ for key, value in expected_signal.items():
 tracked = {row['dataset']: row for row in continuity['tracked_datasets']}
 np_garris = tracked['garris_letter_1']
 if np_garris.get('unresolved_exact_name_possible_overlap_count') != 0:
-    raise SystemExit('targeted NP/Garris exact-name queue should be exhausted after reviewed batch')
+    raise SystemExit('targeted NP/Garris exact-name queue should remain exhausted')
 shared_ids = {row['canonical_person_id'] for row in np_garris.get('confirmed_shared_people', [])}
 for spec in expected.values():
     if spec['id'] not in shared_ids:
@@ -128,7 +130,8 @@ for spec in expected.values():
 print(json.dumps({
     'status': 'ok',
     'reviewed_identities': 2,
-    'np_canonical_people': cohort['confirmed_canonical_person_count'],
+    'np_canonical_people_current': cohort['confirmed_canonical_person_count'],
+    'np_canonical_people_batch_floor': 45,
     'garris1_canonical_people': garris_signal['garris1_confirmed_people'],
     'np_garris1_confirmed_overlap': garris_signal['confirmed_overlap'],
     'np_garris1_full_roster_lower_bound_pct': garris_signal['garris1_full_roster_lower_bound_pct'],
