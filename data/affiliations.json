@@ -653,5 +653,50 @@
       "src-ga45-women-serving-2017"
     ],
     "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Bruce O’Neil."
+  },
+  {
+    "id": "aff-doriani-women-serving-2017",
+    "person_id": "dan-doriani",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Advisory Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Dan Doriani."
+  },
+  {
+    "id": "aff-duncan-women-serving-2017",
+    "person_id": "ligon-duncan",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Voting Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Ligon Duncan."
+  },
+  {
+    "id": "aff-taylor-women-serving-2017",
+    "person_id": "roy-taylor",
+    "target_type": "event",
+    "target_id": "evt-women-serving-study-committee-2017",
+    "role": "Advisory Member",
+    "confidence": "confirmed",
+    "evidence_kind": "study_committee_service",
+    "weight": 0,
+    "score_included": false,
+    "source_ids": [
+      "src-ga45-women-serving-2017"
+    ],
+    "notes": "Committee service only. This edge does not assign every report-level position or either internal school of thought to Roy Taylor."
   }
 ]
