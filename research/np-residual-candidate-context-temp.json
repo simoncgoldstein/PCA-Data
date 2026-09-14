@@ -112,7 +112,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 382,
+          "name_as_printed": "Rev. Blake Altman",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Senior Pastor"
+          ],
+          "church_or_institution_as_printed": [
+            "Trinity Presbyterian"
+          ],
+          "location_as_printed": "Owasso, OK",
+          "city_as_printed": "Owasso",
+          "state_or_region_as_printed": "OK",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Hills and Plains Presbytery",
+          "normalized_person_id": null,
+          "details_as_printed": [
+            "Senior Pastor",
+            "Trinity Presbyterian"
+          ],
+          "source_locator": "signature #382"
+        }
+      ],
       "warhurst_2019": []
     },
     {
@@ -165,7 +189,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 335,
+          "name_as_printed": "Rev. Charles Garland",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Pastor"
+          ],
+          "church_or_institution_as_printed": [
+            "Midtown Presbyterian Church"
+          ],
+          "location_as_printed": "Tucson, AZ",
+          "city_as_printed": "Tucson",
+          "state_or_region_as_printed": "AZ",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Arizona Presbytery",
+          "normalized_person_id": null,
+          "details_as_printed": [
+            "Pastor",
+            "Midtown Presbyterian Church"
+          ],
+          "source_locator": "signature #335"
+        }
+      ],
       "warhurst_2019": []
     },
     {
@@ -308,7 +356,32 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 416,
+          "name_as_printed": "Rev. David Goneau",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": null,
+          "church_or_institution_as_printed": [
+            "Counselor",
+            "Applegate and Associates Counseling",
+            "Renewal"
+          ],
+          "location_as_printed": "Bryn Mawr, PA",
+          "city_as_printed": "Bryn Mawr",
+          "state_or_region_as_printed": "PA",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Philadelphia Metro West Presbytery",
+          "normalized_person_id": null,
+          "details_as_printed": [
+            "Counselor",
+            "Applegate and Associates Counseling",
+            "Renewal"
+          ],
+          "source_locator": "signature #416"
+        }
+      ],
       "warhurst_2019": []
     },
     {
@@ -373,7 +446,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 170,
+          "name_as_printed": "Rev. David Lindberg",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Pastor/Planter"
+          ],
+          "church_or_institution_as_printed": [
+            "Immanuel Church"
+          ],
+          "location_as_printed": "Burlington County, NJ",
+          "city_as_printed": "Burlington County",
+          "state_or_region_as_printed": "NJ",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "New Jersey Presbytery",
+          "normalized_person_id": null,
+          "details_as_printed": [
+            "Pastor/Planter",
+            "Immanuel Church"
+          ],
+          "source_locator": "signature #170"
+        }
+      ],
       "warhurst_2019": []
     },
     {
@@ -476,7 +573,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 61,
+          "name_as_printed": "Rev. Dr. David Wallover",
+          "honorific_as_printed": "Rev. Dr.",
+          "role_as_printed": [
+            "Senior Pastor"
+          ],
+          "church_or_institution_as_printed": [
+            "Harvest Presbyterian Church"
+          ],
+          "location_as_printed": "Medina, OH",
+          "city_as_printed": "Medina",
+          "state_or_region_as_printed": "OH",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Ohio Presbytery",
+          "normalized_person_id": "david-wallover",
+          "details_as_printed": [
+            "Senior Pastor",
+            "Harvest Presbyterian Church"
+          ],
+          "source_locator": "signature #61"
+        }
+      ],
       "warhurst_2019": [
         {
           "office_as_printed": "TE",
@@ -560,7 +681,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 214,
+          "name_as_printed": "Rev. Hansoo Jin",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Pastor"
+          ],
+          "church_or_institution_as_printed": [
+            "Harris Creek Community Church"
+          ],
+          "location_as_printed": "Baltimore, MD",
+          "city_as_printed": "Baltimore",
+          "state_or_region_as_printed": "MD",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Korean Capital Presbytery",
+          "normalized_person_id": "hansoo-jin",
+          "details_as_printed": [
+            "Pastor",
+            "Harris Creek Community Church"
+          ],
+          "source_locator": "signature #214"
+        }
+      ],
       "warhurst_2019": [
         {
           "office_as_printed": "TE",
@@ -599,7 +744,31 @@
       },
       "existing_people_by_exact_normalized_name": [],
       "a_faithful_pca_2021": [],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 651,
+          "name_as_printed": "Rev. Jeff Schneider",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Pastor"
+          ],
+          "church_or_institution_as_printed": [
+            "Boulevard Presbyterian Church"
+          ],
+          "location_as_printed": "Oak Park, IL",
+          "city_as_printed": "Oak Park",
+          "state_or_region_as_printed": "IL",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Chicago Metro Presbytery",
+          "normalized_person_id": null,
+          "details_as_printed": [
+            "Pastor",
+            "Boulevard Presbyterian Church"
+          ],
+          "source_locator": "signature #651"
+        }
+      ],
       "warhurst_2019": []
     },
     {
@@ -702,7 +871,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 152,
+          "name_as_printed": "Rev. Jon Price",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Senior Pastor"
+          ],
+          "church_or_institution_as_printed": [
+            "Covenant Community Presbyterian"
+          ],
+          "location_as_printed": "Wexford, PA",
+          "city_as_printed": "Wexford",
+          "state_or_region_as_printed": "PA",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Pittsburgh Presbytery",
+          "normalized_person_id": null,
+          "details_as_printed": [
+            "Senior Pastor",
+            "Covenant Community Presbyterian"
+          ],
+          "source_locator": "signature #152"
+        }
+      ],
       "warhurst_2019": []
     },
     {
@@ -766,7 +959,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 27,
+          "name_as_printed": "Rev. Justin Woodall",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Pastor"
+          ],
+          "church_or_institution_as_printed": [
+            "City Church"
+          ],
+          "location_as_printed": "St. Petersburg, FL",
+          "city_as_printed": "St. Petersburg",
+          "state_or_region_as_printed": "FL",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Southwest Florida Presbytery",
+          "normalized_person_id": "justin-woodall",
+          "details_as_printed": [
+            "Pastor",
+            "City Church"
+          ],
+          "source_locator": "signature #27"
+        }
+      ],
       "warhurst_2019": [
         {
           "office_as_printed": "TE",
@@ -869,7 +1086,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 26,
+          "name_as_printed": "Rev. Mark Bates",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Senior Director of US Operations"
+          ],
+          "church_or_institution_as_printed": [
+            "Mission to the World"
+          ],
+          "location_as_printed": null,
+          "city_as_printed": null,
+          "state_or_region_as_printed": null,
+          "country_as_printed": null,
+          "presbytery_as_printed": "Rocky Mountain Presbytery",
+          "normalized_person_id": "mark-bates",
+          "details_as_printed": [
+            "Senior Director of US Operations",
+            "Mission to the World"
+          ],
+          "source_locator": "signature #26"
+        }
+      ],
       "warhurst_2019": []
     },
     {
@@ -990,7 +1231,24 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 155,
+          "name_as_printed": "Rev. Rob Wootton",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": null,
+          "church_or_institution_as_printed": null,
+          "location_as_printed": null,
+          "city_as_printed": null,
+          "state_or_region_as_printed": null,
+          "country_as_printed": null,
+          "presbytery_as_printed": "Rocky Mountain Presbytery",
+          "normalized_person_id": null,
+          "details_as_printed": [],
+          "source_locator": "signature #155"
+        }
+      ],
       "warhurst_2019": [
         {
           "office_as_printed": "TE",
@@ -1074,7 +1332,31 @@
           }
         }
       ],
-      "a_faithful_pca_2022": [],
+      "a_faithful_pca_2022": [
+        {
+          "snapshot_date": "2022-03-14",
+          "sequence_number": 537,
+          "name_as_printed": "Rev. Sam DeSocio",
+          "honorific_as_printed": "Rev.",
+          "role_as_printed": [
+            "Lead Pastor"
+          ],
+          "church_or_institution_as_printed": [
+            "Good News Church"
+          ],
+          "location_as_printed": "Hockessin, DE",
+          "city_as_printed": "Hockessin",
+          "state_or_region_as_printed": "DE",
+          "country_as_printed": "United States",
+          "presbytery_as_printed": "Heritage Presbytery",
+          "normalized_person_id": "sam-desocio",
+          "details_as_printed": [
+            "Lead Pastor",
+            "Good News Church"
+          ],
+          "source_locator": "signature #537"
+        }
+      ],
       "warhurst_2019": []
     },
     {
