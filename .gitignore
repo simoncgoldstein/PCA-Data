@@ -1,0 +1,4 @@
+node_modules/
+ui-artifacts/
+output/playwright/
+.playwright-cli/

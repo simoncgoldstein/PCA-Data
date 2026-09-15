@@ -1,0 +1,1604 @@
+{
+  "schema_version": 1,
+  "identity_reviews": [
+    {
+      "person_id": "blake-altman",
+      "boundary": "The presbytery transition is treated as dated ministry history; identity resolution does not imply every NP position.",
+      "reasoning": "The first-party church history directly bridges the North Texas call reflected in the NP context to Altman's later Trinity Owasso / Hills and Plains ministry.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "charles-garland",
+      "boundary": "No current role beyond the dated sources is inferred.",
+      "reasoning": "The exact-name PCA Teaching Elder is independently documented before the 2014 NP roster and later at the same Midtown/Arizona context printed by A Faithful PCA.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "dan-herron",
+      "boundary": "Identity only; the protest signature and NP membership remain separately sourced actions.",
+      "reasoning": "Exact name, Teaching Elder office, and Central Indiana Presbytery agree across NP, the official protest roster, and independent official PCA records.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "david-goneau",
+      "boundary": "The presbytery change is preserved; it is not forced into a same-presbytery match.",
+      "reasoning": "The uncommon exact-name PCA Teaching Elder is independently anchored in Philadelphia before the NP record; the later Philadelphia Metro West/Bryn Mawr signature is a geographically adjacent dated ministry context.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "david-lindberg",
+      "boundary": "Historical presbytery changes remain dated facts.",
+      "reasoning": "The existing reviewed identity receipt already establishes the historical ministry chain needed to connect the 2021 New Jersey signature.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "david-ridenhour",
+      "boundary": "Resolving the person does not certify the NP presbytery label; source conflict is preserved verbatim.",
+      "reasoning": "Official 2018-2019 PCA records independently anchor the exact-name Teaching Elder in North Texas, matching the Warhurst roster. The NP Hills and Plains label conflicts with these official dated sources and is retained only as archival wording.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "david-wallover",
+      "boundary": "NP membership is sourced only from the NP archive.",
+      "reasoning": "Existing canonical AFP and Warhurst rows establish the exact person; the reviewed NP committee row is attached to that identity.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "hansoo-jin",
+      "boundary": "The printed presbytery spelling is preserved.",
+      "reasoning": "The exact-name minister and same Korean Capital context are independently canonical elsewhere; the protest's 'Korean Capitol' spelling is a source variant.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "jeff-schneider",
+      "boundary": "The later church assignment is treated as dated ministry context, not a current-role claim.",
+      "reasoning": "The NP record and official 2014 PCA record independently identify TE Jeff Schneider in the same year; the later AFP signature remains in Chicago Metro.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "jon-price",
+      "boundary": "No Jon/Jonathan global alias is created.",
+      "reasoning": "Exact name, Teaching Elder context, Pittsburgh Presbytery, and Covenant Community ministry align across independent source families.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "justin-woodall",
+      "boundary": "NP membership is not inferred from later action; it remains separately sourced.",
+      "reasoning": "Existing canonical later-action rows establish the person; the reviewed 2014 NP committee row is attached to the same identity.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "mark-bates",
+      "boundary": "Membership does not establish positions beyond the separately documented actions.",
+      "reasoning": "The explicit NP-member record and existing canonical AFP identity share the exact person and Rocky Mountain context.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "omar-ortiz",
+      "boundary": "No current presbytery is inferred from the 2019 row.",
+      "reasoning": "The existing reviewed identity plus the rare exact-name Teaching Elder record supports the 2019 protest row; the Southern New England context is retained as dated source data.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "rob-wootton",
+      "boundary": "Presbytery moves remain dated facts.",
+      "reasoning": "The prior reviewed chain directly establishes Rob Wootton in Rocky Mountain by 2021.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "sam-desocio",
+      "boundary": "The move is preserved as dated ministry history.",
+      "reasoning": "Official records independently trace the rare exact-name Teaching Elder from New York State in 2018 to Heritage/Hockessin by 2021.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "sean-roberts",
+      "boundary": "Historical presbytery changes are preserved.",
+      "reasoning": "Official and contemporaneous sources directly trace the same Teaching Elder from Philadelphia to Northern New England before the 2019 protest.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "tag-tuck",
+      "boundary": "Identity resolution does not adjudicate the TE/RE discrepancy: NP's TE label and the 2019 protest/attendance RE label remain preserved verbatim.",
+      "reasoning": "The rare exact name, same Blue Ridge context, and Word and Table ministry identify one person. The sources conflict on office classification.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    },
+    {
+      "person_id": "todd-gwennap",
+      "boundary": "The presbytery transition is preserved as dated context.",
+      "reasoning": "Official PCA records independently document the exact-name Teaching Elder moving from Eastern Carolina to North Texas before the 2019 protest.",
+      "source_path": "sources/raw/identity/np-residual-identity-evidence-batch2-2026-09-14.json"
+    }
+  ],
+  "datasets": [
+    {
+      "id": "a_faithful_pca_2021-06-11",
+      "label": "A Faithful PCA · June 2021 snapshot",
+      "target_type": "event",
+      "target_id": "evt-a-faithful-pca-2021",
+      "source_ids": [
+        "src-a-faithful-pca-letter-2021"
+      ],
+      "row_count": 571,
+      "resolved_rows": 163,
+      "canonical_people": 163,
+      "unique_printed_names": 561,
+      "completeness": [
+        "complete"
+      ],
+      "source_paths": [
+        "sources/normalized/public-statements/a-faithful-pca/signers-2021-06-11.json"
+      ],
+      "boundary": "Cumulative snapshot of the 2021 action. These two snapshots are not independent actions."
+    },
+    {
+      "id": "a_faithful_pca_2022-03-14",
+      "label": "A Faithful PCA · March 2022 cumulative snapshot",
+      "target_type": "event",
+      "target_id": "evt-a-faithful-pca-2021",
+      "source_ids": [
+        "src-a-faithful-pca-signers-wayback"
+      ],
+      "row_count": 737,
+      "resolved_rows": 201,
+      "canonical_people": 201,
+      "unique_printed_names": 736,
+      "completeness": [
+        "complete"
+      ],
+      "source_paths": [
+        "sources/normalized/public-statements/a-faithful-pca/signers-2022-03-14.json"
+      ],
+      "boundary": "Cumulative snapshot of the 2021 action. These two snapshots are not independent actions."
+    },
+    {
+      "id": "amr_leadership_current",
+      "label": "AMR current core leadership",
+      "target_type": "organization",
+      "target_id": "amr",
+      "source_ids": [
+        "src-amr-team-2026"
+      ],
+      "row_count": 6,
+      "resolved_rows": 6,
+      "canonical_people": 6,
+      "unique_printed_names": 6,
+      "completeness": [
+        "complete_current_core_leadership"
+      ],
+      "source_paths": [
+        "data/affiliations.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "amr_website_media_2023_2026",
+      "label": "Amr Website Media 2023 2026",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 136,
+      "resolved_rows": 35,
+      "canonical_people": 7,
+      "unique_printed_names": 60,
+      "completeness": [
+        "complete_website_index_byline_field"
+      ],
+      "source_paths": [
+        "sources/normalized/amr/blog-index-2023-2026.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "amr_youtube_media_2023_2026",
+      "label": "Amr Youtube Media 2023 2026",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 83,
+      "resolved_rows": 12,
+      "canonical_people": 6,
+      "unique_printed_names": 40,
+      "completeness": [
+        "complete_public_channel_participants_where_stated"
+      ],
+      "source_paths": [
+        "sources/normalized/amr/youtube-index-2023-2026.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "bco_21_4_negative_votes_2003",
+      "label": "Bco 21 4 Negative Votes 2003",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 71,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 71,
+      "completeness": [
+        "complete_71_name_primary_roster"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2003-subscription-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "bco_21_4_subscription_protest_author_2003",
+      "label": "Bco 21 4 Subscription Protest Author 2003",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 1,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 1,
+      "completeness": [
+        "complete_named_author_presenter"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2003-subscription-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "bco_21_4_subscription_protest_joiners_2003",
+      "label": "Bco 21 4 Subscription Protest Joiners 2003",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 93,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 93,
+      "completeness": [
+        "complete_93_joiner_primary_roster"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2003-subscription-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "federal_vision_study_committee_2007",
+      "label": "Federal Vision Study Committee 2007",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 7,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 7,
+      "completeness": [
+        "complete_7_member_unanimous_report_roster"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2002-2007-subscription-federal-vision-chronology.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2001-wim-majority-mans-duty-to-protect-woman",
+      "label": "Formal Position 2001 Wim Majority Mans Duty To Protect Woman",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 5,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 5,
+      "completeness": [
+        "complete_named_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2001-wim-minority-wise-counsel",
+      "label": "Formal Position 2001 Wim Minority Wise Counsel",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 4,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 4,
+      "completeness": [
+        "complete_named_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2002-wim-majority-final-recommendations",
+      "label": "Formal Position 2002 Wim Majority Final Recommendations",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 6,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 6,
+      "completeness": [
+        "complete_named_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2002-wim-minority-pastoral-counsel",
+      "label": "Formal Position 2002 Wim Minority Pastoral Counsel",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 4,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 4,
+      "completeness": [
+        "complete_named_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2008-overture-9-deaconess-study-minority-report",
+      "label": "Formal Position 2008 Overture 9 Deaconess Study Minority Report",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 27,
+      "resolved_rows": 7,
+      "canonical_people": 7,
+      "unique_printed_names": 27,
+      "completeness": [
+        "complete_named_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2008-rpr-women-scripture-reading-minority-report",
+      "label": "Formal Position 2008 Rpr Women Scripture Reading Minority Report",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 8,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 8,
+      "completeness": [
+        "complete_named_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2009-overture-10-women-roles-study-minority-report",
+      "label": "Formal Position 2009 Overture 10 Women Roles Study Minority Report",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 34,
+      "resolved_rows": 10,
+      "canonical_people": 10,
+      "unique_printed_names": 34,
+      "completeness": [
+        "complete_named_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2008-2009-women-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2012-scim-part-one-unanimous-report",
+      "label": "Formal Position 2012 Scim Part One Unanimous Report",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 6,
+      "resolved_rows": 2,
+      "canonical_people": 2,
+      "unique_printed_names": 6,
+      "completeness": [
+        "complete_printed_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2013-scim-committee-report",
+      "label": "Formal Position 2013 Scim Committee Report",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 5,
+      "resolved_rows": 2,
+      "canonical_people": 2,
+      "unique_printed_names": 5,
+      "completeness": [
+        "complete_printed_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2013-scim-jabbour-minority-report",
+      "label": "Formal Position 2013 Scim Jabbour Minority Report",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 1,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 1,
+      "completeness": [
+        "complete_printed_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2014-scim-committee-report",
+      "label": "Formal Position 2014 Scim Committee Report",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 5,
+      "resolved_rows": 2,
+      "canonical_people": 2,
+      "unique_printed_names": 5,
+      "completeness": [
+        "complete_printed_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_position_2014-scim-jabbour-seelinger-minority-report",
+      "label": "Formal Position 2014 Scim Jabbour Seelinger Minority Report",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 2,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 2,
+      "completeness": [
+        "complete_printed_report_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_role_overture_15",
+      "label": "Formal Role Overture 15",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 2,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 2,
+      "completeness": [
+        "complete_named_roles_in_current_batch"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2021-2022-sexuality-named-formal-roles.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "formal_role_overture_37",
+      "label": "Formal Role Overture 37",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 2,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 2,
+      "completeness": [
+        "complete_named_roles_in_current_batch"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2021-2022-sexuality-named-formal-roles.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "garris_letter_1",
+      "label": "Garris Letter 1 · 2024",
+      "target_type": "event",
+      "target_id": "evt-garris-letter-1",
+      "source_ids": [
+        "src-garris-letter-1"
+      ],
+      "row_count": 60,
+      "resolved_rows": 25,
+      "canonical_people": 25,
+      "unique_printed_names": 60,
+      "completeness": [
+        "complete_printed_signer_roster"
+      ],
+      "source_paths": [
+        "sources/normalized/public-statements/garris-letters-2024.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "garris_letter_2",
+      "label": "Garris Letter 2 · 2024",
+      "target_type": "event",
+      "target_id": "evt-garris-letter-2",
+      "source_ids": [
+        "src-garris-letter-2"
+      ],
+      "row_count": 21,
+      "resolved_rows": 21,
+      "canonical_people": 21,
+      "unique_printed_names": 21,
+      "completeness": [
+        "complete_printed_signer_roster"
+      ],
+      "source_paths": [
+        "sources/normalized/public-statements/garris-letters-2024.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "garris_letter_2_identity_verification",
+      "label": "Garris Letter 2 Identity Verification",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 19,
+      "resolved_rows": 18,
+      "canonical_people": 18,
+      "unique_printed_names": 19,
+      "completeness": [
+        "targeted_reviewed_identity_evidence"
+      ],
+      "source_paths": [
+        "sources/raw/identity/2024-garris-letter2-identity-evidence-2026-09-14.json"
+      ],
+      "boundary": "Identity-verification receipt, not an additional signature or action."
+    },
+    {
+      "id": "human_sexuality_aic_2019_2021",
+      "label": "Human Sexuality study committee · 2019–2021",
+      "target_type": "event",
+      "target_id": "evt-human-sexuality-aic",
+      "source_ids": [
+        "src-ga48-2021"
+      ],
+      "row_count": 7,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 7,
+      "completeness": [
+        "complete_official_committee_roster"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2019-2021-human-sexuality-aic.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "insider_movements_committee_membership_changes_2012",
+      "label": "Insider Movements Committee Membership Changes 2012",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 3,
+      "resolved_rows": 2,
+      "canonical_people": 2,
+      "unique_printed_names": 3,
+      "completeness": [
+        "complete_named_membership_changes_explicit_in_part_one_history"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "insider_movements_named_report_roles_2013_2014",
+      "label": "Insider Movements Named Report Roles 2013 2014",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 5,
+      "resolved_rows": 4,
+      "canonical_people": 2,
+      "unique_printed_names": 5,
+      "completeness": [
+        "complete_named_floor_report_roles_in_normalized_family"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2011-2014-insider-movements-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_cdm",
+      "label": "Institution Cdm",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 34,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 30,
+      "completeness": [
+        "substantial current staff and Women's Ministry leadership snapshot"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_covenant-college",
+      "label": "Institution Covenant College",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 48,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 48,
+      "completeness": [
+        "complete visible current senior administration, board officers, trustees, and trustee advisors"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_covenant-theological-seminary",
+      "label": "Institution Covenant Theological Seminary",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 51,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 51,
+      "completeness": [
+        "current faculty, emeriti, incoming faculty, and trustee classes"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_geneva-benefits",
+      "label": "Institution Geneva Benefits",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 46,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 46,
+      "completeness": [
+        "current official leadership, staff, and board"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_greenville-presbyterian-theological-seminary",
+      "label": "Institution Greenville Presbyterian Theological Seminary",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 29,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 29,
+      "completeness": [
+        "current faculty and staff"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_mission-to-north-america",
+      "label": "Institution Mission To North America",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 95,
+      "resolved_rows": 2,
+      "canonical_people": 2,
+      "unique_printed_names": 95,
+      "completeness": [
+        "complete visible current MNA team roster with title and department where printed"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_mission-to-the-world",
+      "label": "Institution Mission To The World",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 10,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 10,
+      "completeness": [
+        "10 currently corroborated leadership and senior/program roles; unresolved executive succession remains excluded"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_pca-administrative-committee",
+      "label": "Institution Pca Administrative Committee",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 19,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 19,
+      "completeness": [
+        "complete visible current staff roster"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_pca-foundation",
+      "label": "Institution Pca Foundation",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 23,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 23,
+      "completeness": [
+        "current staff plus 2025 annual-report board"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_reformed-theological-seminary",
+      "label": "Institution Reformed Theological Seminary",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 46,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 46,
+      "completeness": [
+        "46 unique current-site residential-faculty identities, including one explicitly emeritus classification"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_reformed-university-fellowship",
+      "label": "Institution Reformed University Fellowship",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 33,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 33,
+      "completeness": [
+        "coordinator history and selected 2026 hires; complete campus roster remains incomplete"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_ridge-haven",
+      "label": "Institution Ridge Haven",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 17,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 17,
+      "completeness": [
+        "current visible staff, including Ridge Haven Cono"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_westminster-seminary-california",
+      "label": "Institution Westminster Seminary California",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 21,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 21,
+      "completeness": [
+        "current faculty, emeriti, and visible visiting/adjunct examples"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "institution_westminster-theological-seminary",
+      "label": "Institution Westminster Theological Seminary",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 32,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 32,
+      "completeness": [
+        "current faculty, affiliate faculty, counseling faculty, and theological-writing staff with exact titles"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/current-role-snapshots-2026-09-03.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "nae_withdrawal_protest_2022",
+      "label": "NAE withdrawal protest · 2022",
+      "target_type": "event",
+      "target_id": "evt-nae-withdrawal-protest-2022",
+      "source_ids": [
+        "src-ga49-vol1-nae"
+      ],
+      "row_count": 203,
+      "resolved_rows": 85,
+      "canonical_people": 85,
+      "unique_printed_names": 203,
+      "completeness": [
+        "complete"
+      ],
+      "source_paths": [
+        "sources/normalized/nae/withdrawal-protest-signers-2022.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "national_partnership_confirmed_members",
+      "label": "National Partnership confirmed membership",
+      "target_type": "organization",
+      "target_id": "national-partnership",
+      "source_ids": [
+        "src-np-local-archive",
+        "src-np-index"
+      ],
+      "row_count": 151,
+      "resolved_rows": 68,
+      "canonical_people": 68,
+      "unique_printed_names": 151,
+      "completeness": [
+        "complete_explicit_membership_extraction"
+      ],
+      "source_paths": [
+        "sources/normalized/national-partnership/confirmed-memberships-canonical.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "overture_15_minority_2022",
+      "label": "Overture 15 · minority report, 2022",
+      "target_type": "event",
+      "target_id": "evt-overture15-2022",
+      "source_ids": [
+        "src-ga49-2022"
+      ],
+      "row_count": 46,
+      "resolved_rows": 5,
+      "canonical_people": 5,
+      "unique_printed_names": 46,
+      "completeness": [
+        "complete"
+      ],
+      "source_paths": [
+        "sources/normalized/revoice/overture-15-minority-report-signers-2022.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "overture_15_negative_votes_2022",
+      "label": "Overture 15 · recorded negative votes, 2022",
+      "target_type": "event",
+      "target_id": "evt-overture15-2022",
+      "source_ids": [
+        "src-ga49-2022"
+      ],
+      "row_count": 200,
+      "resolved_rows": 120,
+      "canonical_people": 120,
+      "unique_printed_names": 200,
+      "completeness": [
+        "complete"
+      ],
+      "source_paths": [
+        "sources/normalized/revoice/overture-15-negative-votes-2022.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "overture_37_minority_2021",
+      "label": "Overture 37 · minority report, 2021",
+      "target_type": "event",
+      "target_id": "evt-overture37-2021",
+      "source_ids": [
+        "src-ga48-2021"
+      ],
+      "row_count": 28,
+      "resolved_rows": 16,
+      "canonical_people": 16,
+      "unique_printed_names": 28,
+      "completeness": [
+        "complete"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2021-overture-37-minority-report-signers.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "overture_37_negative_votes_2021",
+      "label": "Overture 37 · recorded negative votes, 2021",
+      "target_type": "event",
+      "target_id": "evt-overture37-2021",
+      "source_ids": [
+        "src-ga48-2021"
+      ],
+      "row_count": 207,
+      "resolved_rows": 117,
+      "canonical_people": 117,
+      "unique_printed_names": 207,
+      "completeness": [
+        "complete"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2021-overture-37-negative-votes.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "pipa_women_study_committee_protest_2016",
+      "label": "Pipa Women Study Committee Protest 2016",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 28,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 28,
+      "completeness": [
+        "complete_28_added_signers"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "pipa_women_study_committee_protest_author_2016",
+      "label": "Pipa Women Study Committee Protest Author 2016",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 1,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 1,
+      "completeness": [
+        "complete_named_author_presenter"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "publication_co-laborers-co-heirs-2019",
+      "label": "Publication Co Laborers Co Heirs 2019",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 26,
+      "resolved_rows": 1,
+      "canonical_people": 1,
+      "unique_printed_names": 26,
+      "completeness": [
+        "complete_visible_chapter_table"
+      ],
+      "source_paths": [
+        "data/publication_contributors.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "publication_heal-us-emmanuel-2016",
+      "label": "Publication Heal Us Emmanuel 2016",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 30,
+      "resolved_rows": 7,
+      "canonical_people": 7,
+      "unique_printed_names": 30,
+      "completeness": [
+        "complete_visible_chapter_table"
+      ],
+      "source_paths": [
+        "data/publication_contributors.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "publication_hear-us-emmanuel-2020",
+      "label": "Publication Hear Us Emmanuel 2020",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 29,
+      "resolved_rows": 3,
+      "canonical_people": 3,
+      "unique_printed_names": 29,
+      "completeness": [
+        "complete_visible_chapter_table"
+      ],
+      "source_paths": [
+        "data/publication_contributors.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "ruf_campus_catalog_2025",
+      "label": "Ruf Campus Catalog 2025",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 414,
+      "resolved_rows": 8,
+      "canonical_people": 8,
+      "unique_printed_names": 414,
+      "completeness": [
+        "complete_catalog_listed_campus_roles_2025_10_01"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/ruf/campus-role-snapshot-2025-10-01.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "ruf_staff_transitions_2026",
+      "label": "Ruf Staff Transitions 2026",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 213,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 203,
+      "completeness": [
+        "complete_official_2026_transition_announcements"
+      ],
+      "source_paths": [
+        "sources/normalized/institutions/ruf/role-transitions-2026.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "subscription_overture_16_minority_report_2003",
+      "label": "Subscription Overture 16 Minority Report 2003",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 14,
+      "resolved_rows": 4,
+      "canonical_people": 4,
+      "unique_printed_names": 14,
+      "completeness": [
+        "complete_14_signer_primary_roster"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2003-subscription-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "subscription_overture_16_negative_vote_2003",
+      "label": "Subscription Overture 16 Negative Vote 2003",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 1,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 1,
+      "completeness": [
+        "complete_single_recorded_vote"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2003-subscription-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "warhurst_protest_2019",
+      "label": "Warhurst protest · 2019",
+      "target_type": "event",
+      "target_id": "evt-warhurst-protest-2019",
+      "source_ids": [
+        "src-ga47-2019"
+      ],
+      "row_count": 203,
+      "resolved_rows": 106,
+      "canonical_people": 106,
+      "unique_printed_names": 203,
+      "completeness": [
+        "complete"
+      ],
+      "source_paths": [
+        "sources/normalized/revoice/warhurst-protest-signers-2019.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "women_military_committee_2001",
+      "label": "Women Military Committee 2001",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 10,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 10,
+      "completeness": [
+        "complete_10_member_roster"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "women_military_named_report_roles_2001_2002",
+      "label": "Women Military Named Report Roles 2001 2002",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 3,
+      "resolved_rows": 0,
+      "canonical_people": 0,
+      "unique_printed_names": 3,
+      "completeness": [
+        "complete_named_roles_in_normalized_report_family"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2001-2002-women-military-formal-position-records.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    },
+    {
+      "id": "women_study_committee_procedural_registration_2016",
+      "label": "Women Study Committee Procedural Registration 2016",
+      "target_type": null,
+      "target_id": null,
+      "source_ids": [],
+      "row_count": 173,
+      "resolved_rows": 9,
+      "canonical_people": 9,
+      "unique_printed_names": 173,
+      "completeness": [
+        "complete_named_173_commissioner_registration"
+      ],
+      "source_paths": [
+        "sources/normalized/general-assembly/2016-women-study-committee-formal-actions.json"
+      ],
+      "boundary": "This is the source scope represented in the identity crosswalk, not necessarily a complete institutional or historical population."
+    }
+  ],
+  "positions": [
+    {
+      "position_id": "choi-2017-local-session-diaconate-discretion",
+      "source_id": "choi-2017-wim-dissent",
+      "person_name_as_stated": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "topic": "women_in_diaconate_polity",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_local_session_discretion_due_exegetical_uncertainty",
+      "summary": "Choi argues that the biblical evidence is insufficient to establish a denomination-wide rule either including or excluding women from the diaconate and therefore favors leaving the question to the judgment of local sessions acting according to Scripture.",
+      "source_locators": [
+        "Introduction",
+        "Concluding paragraph"
+      ],
+      "important_boundary": "This 2017 position is local-session discretion under claimed exegetical uncertainty. It is not an unqualified 2017 endorsement of a denomination-wide requirement to ordain women as deacons. Choi's later 2026 Overture 37 actions are modeled separately.",
+      "ideological_weight": 0,
+      "id": "choi-2017-local-session-diaconate-discretion",
+      "person_id": "jeffrey-choi",
+      "source_ids": [
+        "authored-choi-2017-wim-dissent"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_issue_statement"
+    },
+    {
+      "position_id": "choi-2017-phoebe-official-role",
+      "source_id": "choi-2017-wim-dissent",
+      "person_name_as_stated": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "topic": "romans_16_phoebe_and_diaconal_office",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "argue_phoebe_likely_held_recognized_official_church_role",
+      "summary": "Choi argues that lexical and syntactical features of Romans 16:1 make a technical or official reading of Phoebe's role materially stronger than the committee report allowed and that the passage should carry substantial weight in discussion of women and the diaconate.",
+      "source_locators": [
+        "Exegetical Study of Romans 16:1"
+      ],
+      "important_boundary": "Choi argues for a recognized official status for Phoebe but discusses multiple possible relationships between that evidence and the later church office of deacon. Do not reduce this record to a claim that his 2017 article proves Phoebe held exactly the same office and polity status as male PCA deacons.",
+      "ideological_weight": 0,
+      "id": "choi-2017-phoebe-official-role",
+      "person_id": "jeffrey-choi",
+      "source_ids": [
+        "authored-choi-2017-wim-dissent"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_issue_statement"
+    },
+    {
+      "position_id": "choi-2017-1tim3-diaconate-uncertainty",
+      "source_id": "choi-2017-wim-dissent",
+      "person_name_as_stated": "Jeffrey Choi",
+      "normalized_person_id": "jeffrey-choi",
+      "topic": "1_timothy_3_11_women_and_deacons",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "reject_confident_inclusion_or_exclusion_from_1timothy_3_alone",
+      "summary": "Choi argues that the principal interpretations of 1 Timothy 3:11 all depend on disputed assumptions and that the passage by itself does not yield an ironclad case either for or against women serving as deacons.",
+      "source_locators": [
+        "Response to the Exegetical Study of 1 Timothy 3:8–12",
+        "Final paragraphs"
+      ],
+      "important_boundary": "This is an argument about exegetical underdetermination and polity discretion, not a claim that Choi considered every interpretation equally likely or that he denied all relevant biblical evidence.",
+      "ideological_weight": 0,
+      "id": "choi-2017-1tim3-diaconate-uncertainty",
+      "person_id": "jeffrey-choi",
+      "source_ids": [
+        "authored-choi-2017-wim-dissent"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_issue_statement"
+    },
+    {
+      "position_id": "keller-2012-authoritative-teaching-elder-restriction",
+      "source_id": "keller-2012-jesus-justice-paul-excerpt",
+      "person_name_as_stated": "Kathy Keller",
+      "normalized_person_id": "kathy-keller",
+      "topic": "women_authoritative_teaching_and_eldership",
+      "evidence_class": "direct_authored_book_statement_via_publisher_excerpt",
+      "position_specificity": "very_high",
+      "stance": "restrict_authoritative_teaching_elder_role_to_men",
+      "summary": "Keller presents a complementarian position in which women are barred from the authoritative teaching role she associates with elders, while treating that restriction as a continuing biblical command rather than a merely local first-century rule.",
+      "source_locators": [
+        "Zondervan excerpt: introduction to Keller's position",
+        "Paul the Misogynist",
+        "Paul the Contextualist",
+        "Closing summary"
+      ],
+      "important_boundary": "This source supports a male-only authoritative teaching or elder boundary. It does not by itself establish Keller's position on every other PCA office, including the exact polity status of deaconesses or ordained deacons.",
+      "ideological_weight": 0,
+      "id": "keller-2012-authoritative-teaching-elder-restriction",
+      "person_id": "kathy-keller",
+      "source_ids": [
+        "authored-keller-2012-jesus-justice-paul-excerpt"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_book_statement_via_publisher_excerpt"
+    },
+    {
+      "position_id": "keller-2012-broad-women-public-ministry",
+      "source_id": "keller-2012-jesus-justice-paul-excerpt",
+      "person_name_as_stated": "Kathy Keller",
+      "normalized_person_id": "kathy-keller",
+      "topic": "women_public_speaking_teaching_and_leadership",
+      "evidence_class": "direct_authored_book_statement_via_publisher_excerpt",
+      "position_specificity": "very_high",
+      "stance": "favor_broad_women_public_ministry_outside_authoritative_elder_role",
+      "summary": "Keller encourages women to teach and lead and argues that Scripture permits women to participate broadly in public speaking, prayer, exhortation, encouragement, and ministry while reserving authoritative teaching to elders.",
+      "source_locators": [
+        "Zondervan excerpt opening summary",
+        "Paul the Misogynist",
+        "Closing summary"
+      ],
+      "important_boundary": "The evidence establishes broad non-elder public ministry by women within Keller's complementarian framework. Do not convert this into a claim that she supports women as elders or that every form of public speech is necessarily permitted in every setting.",
+      "ideological_weight": 0,
+      "id": "keller-2012-broad-women-public-ministry",
+      "person_id": "kathy-keller",
+      "source_ids": [
+        "authored-keller-2012-jesus-justice-paul-excerpt"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_book_statement_via_publisher_excerpt"
+    },
+    {
+      "position_id": "keller-2012-gender-texts-transcultural",
+      "source_id": "keller-2012-jesus-justice-paul-excerpt",
+      "person_name_as_stated": "Kathy Keller",
+      "normalized_person_id": "kathy-keller",
+      "topic": "gender_role_hermeneutics",
+      "evidence_class": "direct_authored_book_statement_via_publisher_excerpt",
+      "position_specificity": "high",
+      "stance": "affirm_continuing_authority_of_1cor14_and_1tim2_gender_commands",
+      "summary": "Keller rejects dismissing the relevant Pauline instructions as misogynistic, merely Ephesian, or culturally obsolete and argues that the church remains obligated to obey the underlying biblical commands while interpreting their scope carefully.",
+      "source_locators": [
+        "Paul the Misogynist",
+        "Paul the Contextualist",
+        "Paul the Culturalist"
+      ],
+      "important_boundary": "This record captures Keller's hermeneutical claim that the texts remain authoritative; the separate position records preserve her narrower interpretation of what those commands prohibit.",
+      "ideological_weight": 0,
+      "id": "keller-2012-gender-texts-transcultural",
+      "person_id": "kathy-keller",
+      "source_ids": [
+        "authored-keller-2012-jesus-justice-paul-excerpt"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_book_statement_via_publisher_excerpt"
+    },
+    {
+      "position_id": "keller-2012-ordination-vs-marginalization-justice",
+      "source_id": "keller-2012-jesus-justice-justice-excerpt",
+      "person_name_as_stated": "Kathy Keller",
+      "normalized_person_id": "kathy-keller",
+      "topic": "women_ministry_justice_and_marginalization",
+      "evidence_class": "direct_authored_book_statement_via_publisher_excerpt",
+      "position_specificity": "very_high",
+      "stance": "reject_ordination_as_justice_claim_but_condemn_extrabiblical_marginalization",
+      "summary": "Keller distinguishes ordination from a justice entitlement while arguing that churches act unjustly when they marginalize women or impose extra-biblical restrictions that prevent women from exercising Spirit-given gifts of leadership, teaching, exhortation, and encouragement.",
+      "source_locators": [
+        "Zondervan excerpt: Personal Journeys / justice discussion"
+      ],
+      "important_boundary": "Keller's criticism of extra-biblical restrictions does not amount to rejection of complementarianism; the same authored work maintains a male authoritative-teaching or elder boundary.",
+      "ideological_weight": 0,
+      "id": "keller-2012-ordination-vs-marginalization-justice",
+      "person_id": "kathy-keller",
+      "source_ids": [
+        "authored-keller-2012-jesus-justice-justice-excerpt"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_book_statement_via_publisher_excerpt"
+    },
+    {
+      "position_id": "castro-2019-public-worship-speaking-restriction",
+      "source_id": "castro-2019-1cor14-public-worship",
+      "person_name_as_stated": "William Castro",
+      "normalized_person_id": "william-castro",
+      "topic": "women_speaking_teaching_preaching_in_public_worship",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "favor_traditional_restriction_on_women_individual_public_speech_in_ordinary_worship",
+      "summary": "Castro argues that the historic Reformed reading of 1 Corinthians 14 restricts women from teaching, preaching, or otherwise speaking individually and officially in ordinary public worship, while recognizing congregational utterances such as singing and responses and discussing extraordinary-case exceptions in historical sources.",
+      "source_locators": [
+        "Opening paragraphs",
+        "The Different Context Solution",
+        "The Extraordinary Situations Solution",
+        "The Judging of Prophecies Solution"
+      ],
+      "important_boundary": "Castro's article addresses individual public speaking, teaching, and preaching in corporate worship. Do not misstate it as requiring women to be literally silent from congregational singing, common responses, or every conceivable extraordinary circumstance.",
+      "ideological_weight": 0,
+      "id": "castro-2019-public-worship-speaking-restriction",
+      "person_id": "william-castro",
+      "source_ids": [
+        "authored-castro-2019-1cor14-public-worship"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_issue_statement"
+    },
+    {
+      "position_id": "castro-2019-reject-judging-prophecies-solution",
+      "source_id": "castro-2019-1cor14-public-worship",
+      "person_name_as_stated": "William Castro",
+      "normalized_person_id": "william-castro",
+      "topic": "1_corinthians_14_34_interpretation",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "very_high",
+      "stance": "reject_judging_of_prophecies_only_interpretation_as_novel",
+      "summary": "Castro rejects the interpretation that 1 Corinthians 14:34 silences women only during the judging of prophecies, arguing that the reading is historically novel and narrows Paul's prohibition beyond what the text states.",
+      "source_locators": [
+        "The Judging of Prophecies Solution",
+        "Conclusion"
+      ],
+      "important_boundary": "This is Castro's exegetical and historical assessment of one interpretation. The record does not turn disagreement with that interpretation into a broader claim about every question of women's ministry outside public worship.",
+      "ideological_weight": 0,
+      "id": "castro-2019-reject-judging-prophecies-solution",
+      "person_id": "william-castro",
+      "source_ids": [
+        "authored-castro-2019-1cor14-public-worship"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_issue_statement"
+    },
+    {
+      "position_id": "castro-2019-cultural-pressure-hermeneutics",
+      "source_id": "castro-2019-1cor14-public-worship",
+      "person_name_as_stated": "William Castro",
+      "normalized_person_id": "william-castro",
+      "topic": "cultural_pressure_and_biblical_interpretation",
+      "evidence_class": "direct_authored_issue_statement",
+      "position_specificity": "high",
+      "stance": "warn_against_cultural_adaptation_driving_reinterpretation",
+      "summary": "Castro warns that modern cultural expectations about women's leadership can pressure churches toward novel readings of 1 Corinthians 14 and argues that interpretation should instead give substantial weight to the text and the history of exegesis.",
+      "source_locators": [
+        "Opening paragraphs",
+        "Conclusion"
+      ],
+      "important_boundary": "This is a hermeneutical argument tied to Castro's treatment of 1 Corinthians 14; it is not a factual claim about the motives of every scholar or church adopting a different interpretation.",
+      "ideological_weight": 0,
+      "id": "castro-2019-cultural-pressure-hermeneutics",
+      "person_id": "william-castro",
+      "source_ids": [
+        "authored-castro-2019-1cor14-public-worship"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json",
+      "attribution_basis": "direct_authored_issue_statement"
+    },
+    {
+      "id": "2026-o37-choi-public-advocacy",
+      "person_id": "jeffrey-choi",
+      "topic": "Public advocate for Overture 37",
+      "summary": "Jeffrey Choi appeared as the guest on a Polity Matters episode devoted to Overture 37, women in the diaconate, and PCA polity.",
+      "important_boundary": "The overture itself identifies Pacific Presbytery as the submitting body and does not name Jeffrey Choi as author or drafter. Do not convert his later advocacy into personal authorship without additional primary evidence.",
+      "source_ids": [
+        "explorer-choi-advocacy-2026"
+      ],
+      "source_locators": [
+        "Episode 122"
+      ],
+      "evidence_kind": "attributable_position",
+      "score_included": false,
+      "weight": 0,
+      "source_path": "sources/normalized/general-assembly/2026-overture-37-women-deacons-formal-actions.json",
+      "attribution_basis": "Documented public advocacy",
+      "confidence": "confirmed"
+    }
+  ],
+  "sources": [
+    {
+      "id": "authored-choi-2017-wim-dissent",
+      "title": "Why I Voted Against the Ad Interim Women in Ministry Study Committee Report",
+      "source_type": "first_person_authored_statement",
+      "url": "https://medium.com/@JeffreyChoiNYC/ad-interim-study-committee-on-wim-4fdfee38cc89",
+      "publisher": "Jeffrey Choi",
+      "date": "2017-06-26",
+      "notes": "Choi later republished the statement under his own Medium account. The 2017 Aquila publication preserves the original publication date and title.",
+      "provenance_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json"
+    },
+    {
+      "id": "authored-keller-2012-jesus-justice-paul-excerpt",
+      "title": "Paul the Misogynist, Contextualist, Culturalist? Kathy Keller Says Not So Fast!",
+      "source_type": "publisher_hosted_authored_book_excerpt",
+      "url": "https://zondervanacademic.com/blog/paul-the-misogynist-contextualist-culturalist-kathy-keller-gender-roles-in-ministry",
+      "publisher": "Zondervan Academic",
+      "date": "2014-06-24",
+      "notes": "Publisher-hosted excerpts and close publisher summary of Keller's authored book are used only for the specific positions represented below.",
+      "provenance_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json"
+    },
+    {
+      "id": "authored-keller-2012-jesus-justice-justice-excerpt",
+      "title": "Is Women in Ministry a Justice Issue? Yes, But Not Like You Might Think — An Excerpt from Jesus, Justice, and Gender Roles",
+      "source_type": "publisher_hosted_authored_book_excerpt",
+      "url": "https://zondervanacademic.com/blog/is-women-in-ministry-a-justice-issue-yes-but-not-like-you-might-think-an-excerpt-from-jesus-justice",
+      "publisher": "Zondervan Academic",
+      "date": "2014-06-26",
+      "notes": "This excerpt directly reproduces Keller's treatment of marginalization, complementarian practice, and the distinction between ordination and injustice.",
+      "provenance_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json"
+    },
+    {
+      "id": "authored-castro-2019-1cor14-public-worship",
+      "title": "1 Corinthians 14:34: Did God Really Say…?",
+      "source_type": "direct_authored_issue_statement",
+      "url": "https://reformation21.org/1-corinthians-1432-did-god-rea-php/",
+      "publisher": "Reformation21 / Alliance of Confessing Evangelicals",
+      "date": "2019-06-11",
+      "notes": "The article identifies Castro as pastor of Emmanuel Upstate and a former advisory member of the 2017 PCA women-serving committee.",
+      "provenance_path": "sources/normalized/general-assembly/2012-2019-women-serving-member-authored-positions.json"
+    },
+    {
+      "id": "explorer-choi-advocacy-2026",
+      "title": "Polity Matters: Polity Nerds Stick Together",
+      "url": "https://www.buzzsprout.com/2215222/episodes/18819721-122-polity-nerds-stick-together",
+      "date": "2026-03-10",
+      "source_type": "first_person_public_advocacy",
+      "provenance_path": "sources/normalized/general-assembly/2026-overture-37-women-deacons-formal-actions.json"
+    }
+  ],
+  "contract": "Source occurrences are not canonical affiliations. They never change the Network Involvement Index."
+}

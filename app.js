@@ -1,369 +1,141 @@
-const state = {
-  people: [],
-  organizations: [],
-  events: [],
-  affiliations: [],
-  sources: [],
-  view: 'people'
-};
+import {mountGraph} from './ui/graph.mjs';
+import {groups, evidenceGroup, included, canonicalScore, peopleRows, visibleEvidence, safeUrl, percent, parseRoute} from './ui/model.mjs';
 
-const confidenceRank = {
-  confirmed: 4,
-  confirmed_for_2024: 4,
-  strongly_supported: 3,
-  associated: 2,
-  unresolved: 1
-};
-
-const $ = (selector) => document.querySelector(selector);
-const $$ = (selector) => [...document.querySelectorAll(selector)];
-
-function esc(value) {
-  return String(value ?? '')
-    .replaceAll('&', '&amp;')
-    .replaceAll('<', '&lt;')
-    .replaceAll('>', '&gt;')
-    .replaceAll('"', '&quot;')
-    .replaceAll("'", '&#039;');
+const state = {};
+const main = document.querySelector('main');
+const esc = v => String(v ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+const human = v => String(v ?? '').replaceAll('_',' ');
+const find = (kind,id) => (state[kind] || []).find(x => x.id === id);
+const plural = {person:'people', organization:'organizations', event:'events', source:'sources', church:'churches', presbytery:'presbyteries', dataset:'datasets'};
+const name = (kind,id) => {const x=find(plural[kind],id);return x?.name || x?.title || x?.label || id;};
+const link = (kind,id,label) => `<a href="#${kind}/${encodeURIComponent(id)}">${esc(label ?? name(kind,id))}</a>`;
+const repo = path => `https://github.com/simoncgoldstein/PCA-Data/blob/main/${path.split('/').map(encodeURIComponent).join('/')}`;
+const repoLink = (path,label='Normalized source record ↗') => `<a href="${esc(repo(path))}">${esc(label)}</a>`;
+const badge = (text,cls='') => `<span class="badge ${cls}">${esc(text)}</span>`;
+const empty = text => `<p class="empty">${esc(text)}</p>`;
+const date = e => e.date || (e.start_year ? `${e.start_year}${e.end_year ? '–'+e.end_year : ''}` : e.year || 'Date not normalized');
+const sources = ids => `<div class="source-links">${[...new Set(ids || [])].map(id => link('source',id)).join('')}</div>`;
+const title = (k,t,desc='') => `<p class="eyebrow">${esc(k)}</p><h1>${esc(t)}</h1>${desc ? `<p class="lead">${esc(desc)}</p>` : ''}`;
+const allFor = pid => state.affiliations.filter(e=>e.person_id===pid);
+const rowsFor = id => state.occurrences?.[id] || [];
+const datasetsFor = (kind,id) => state.datasets.filter(d=>d.target_type===kind && d.target_id===id);
+const sourceIdsFor = edges => [...new Set(edges.flatMap(e=>e.source_ids || []))];
+const notice = text => `<div class="notice">${esc(text)}</div>`;
+const pageSize = 40;
+let routeVersion = 0;
+let occurrencePromise;
+let institutionPromise;
+async function json(path){const r=await fetch(path);if(!r.ok)throw new Error(`Could not load ${path} (${r.status}).`);return r.json();}
+async function loadOccurrences(){if(!occurrencePromise)occurrencePromise=json('data/source-occurrences.json').then(d=>{state.occurrences=d.datasets;}).catch(e=>{occurrencePromise=null;throw e;});return occurrencePromise;}
+async function loadInstitutions(){if(!institutionPromise)institutionPromise=Promise.all(['churches','presbyteries'].map(async k=>{state[k]=await json(`data/${k}.json`);})).catch(e=>{institutionPromise=null;throw e;});return institutionPromise;}
+function searchForm(view,query,placeholder='Search names, titles, or notes'){
+ return `<form class="toolbar" data-filter="${view}"><label class="search-field">Search<input name="q" value="${esc(query)}" placeholder="${esc(placeholder)}" type="search"></label><button>Search</button></form>`;
 }
-
-function byId(items, id) {
-  return items.find((item) => item.id === id);
+function pageRows(rows,params){const pages=Math.max(1,Math.ceil(rows.length/pageSize));const n=Math.max(1,Math.min(pages,Number(params.get('page'))||1));return {items:rows.slice((n-1)*pageSize,n*pageSize),n,pages};}
+function pager(view,params,n,pages){if(pages<=1)return '';const href=p=>{const q=new URLSearchParams(params);q.set('page',p);return `#${view}?${q}`;};return `<nav class="pagination" aria-label="Pagination">${n>1?`<a href="${href(n-1)}">Previous</a>`:''}<span>Page ${n} of ${pages}</span>${n<pages?`<a href="${href(n+1)}">Next</a>`:''}</nav>`;}
+function directoryCards(kind,items){return `<div class="grid">${items.map(x=>`<article class="card"><p class="eyebrow">${esc(human(x.type || x.event_type || x.source_type))}</p><h3>${link(kind,x.id)}</h3><p>${esc(x.description || x.notes || '')}</p><div class="card-foot">${esc(x.status ? human(x.status) : kind==='event'?date(x):'Explore documented evidence')} →</div></article>`).join('')}</div>`;}
+function overview(){
+ const c=state.continuity.national_partnership_cohort;
+ return `<section class="hero"><div>${title('A source-driven research archive','Follow the evidence. Explore the connections.','People, institutions, public actions, and recurring relationships in and around the Presbyterian Church in America.')}<form class="search-submit" data-filter="search"><label class="sr-only" for="global-search">Search the research index</label><input id="global-search" name="q" type="search" placeholder="Search a person, organization, action, or source"><button>Search</button></form></div><aside class="hero-aside"><p class="eyebrow">Start with a question</p><h3>What is actually documented?</h3><p>Follow a claim to its source. Distinguish membership from a public action, and both from institutional or family context.</p><a href="#methodology">Read the evidence guide →</a></aside></section>
+ <div class="metrics">${[[state.people.length,'canonical people'],[state.events.length,'indexed actions & events'],[state.sources.length,'registered & projected sources'],[state.datasets.length,'source datasets']].map(([n,l])=>`<div class="metric"><strong>${n}</strong><span>${l}</span></div>`).join('')}</div>
+ <p class="eyebrow">Research pathways</p><div class="grid"><article class="card"><p class="eyebrow">People & evidence</p><h3>A record, not a reputation</h3><p>Browse typed evidence, current-role sources, historical occurrences, and separately attributable positions.</p><div class="card-foot"><a href="#people">Explore people →</a></div></article><article class="card"><p class="eyebrow">Complete source rosters</p><h3>Every printed signer</h3><p>Garris Letter 1 preserves all 60 signatures: 25 linked identities and 35 unresolved identities.</p><div class="card-foot">${link('event','evt-garris-letter-1','Inspect Letter 1 →')}</div></article><article class="card"><p class="eyebrow">Descriptive analysis</p><h3>Personnel across time</h3><p>Follow confirmed overlap with the National Partnership roster. ${c.confirmed_canonical_person_count} of ${c.printed_confirmed_member_name_count} printed members are canonically resolved.</p><div class="card-foot"><a href="#analysis">Explore continuity →</a></div></article></div>
+ <h2>Ways into the archive</h2><ul class="link-list"><li>${link('person','mike-khandjian','Mike Khandjian')}</li><li>${link('person','jeffrey-choi','Jeffrey Choi')}</li><li>${link('organization','amr','Alliance for Mission & Renewal')}</li><li><a href="#map">Interactive detective map</a></li><li><a href="#datasets">All source rosters</a></li><li><a href="#institutions">Churches & presbyteries</a></li></ul>
+ ${notice('This is a selected source universe, not a census of the PCA. Shared people do not establish organizational succession, causation, or agreement on unrelated issues. Missing evidence is not evidence of opposition.')}`;
 }
-
-function targetName(affiliation) {
-  if (affiliation.target_type === 'organization') {
-    return byId(state.organizations, affiliation.target_id)?.name ?? affiliation.target_id;
-  }
-  if (affiliation.target_type === 'event') {
-    return byId(state.events, affiliation.target_id)?.name ?? affiliation.target_id;
-  }
-  if (affiliation.target_type === 'person') {
-    return byId(state.people, affiliation.target_id)?.name ?? affiliation.target_id;
-  }
-  return affiliation.target_id;
+function people(params){
+ const q=params.get('q')||'',confidence=params.get('confidence')||'all',sort=params.get('sort')||'name';
+ const rows=peopleRows(state.people,state.affiliations,{query:q,confidence,sort});const p=pageRows(rows,params);
+ return title('Directory','People','Begin with a person, then inspect the documented relationships and sources.')+
+ `<form class="toolbar" data-filter="people"><label class="search-field">Name or role<input name="q" type="search" value="${esc(q)}" placeholder="Find a person"></label><label>Canonical evidence confidence<select name="confidence">${options(['all','confirmed','strongly_supported','associated','unresolved'],confidence)}</select></label><label>Order<select name="sort">${options({name:'Name A–Z',score:'Canonical index, highest first'},sort)}</select></label><button>Apply</button></form>
+ <p class="count-line">${rows.length} matching people. Confidence filters select matching canonical evidence; the canonical index remains unchanged. Source-only profiles may have no canonical affiliations.</p>
+ <div class="table-wrap"><table><thead><tr><th scope="col">Person</th><th scope="col">Role snapshot</th><th scope="col">Visible canonical edges</th><th scope="col">Canonical index</th></tr></thead><tbody>${p.items.map(r=>`<tr><td><strong>${link('person',r.person.id)}</strong><small>${esc(r.person.ordination)}</small></td><td>${esc(r.person.current_role || 'Current role not normalized')}<small>${r.person.current_organization?link('organization',r.person.current_organization):''}</small></td><td>${r.evidence.length}</td><td class="number">${r.score}</td></tr>`).join('')}</tbody></table></div>${!rows.length?empty('No matching people. Try a broader search or all confidence levels.'):''}${pager('people',params,p.n,p.pages)}
+ <p class="count-line">The provisional index measures included canonical evidence in this research universe. It is not a theological or character verdict. Each profile provides its full breakdown.</p>`;
 }
-
-function organizationName(id) {
-  return byId(state.organizations, id)?.name ?? null;
+function options(values,selected){return (Array.isArray(values)?values.map(x=>[x,x==='all'?'All':human(x)]):Object.entries(values)).map(([v,l])=>`<option value="${esc(v)}" ${v===selected?'selected':''}>${esc(l)}</option>`).join('');}
+function edgeCard(e,showPerson=false){return `<article class="evidence ${included(e)?'':'context'}" id="${esc(e.id)}"><div class="evidence-top"><div><h3>${showPerson?link('person',e.person_id)+' · ':''}${link(e.target_type,e.target_id)}</h3><div>${esc(e.role)}</div></div><div>${badge(human(e.confidence))}</div></div><div class="badges">${badge(human(e.evidence_kind),'context')}${badge(included(e)?`Included · weight ${e.weight}`:`Excluded from index · weight ${e.weight}`,included(e)?'':'context')}</div>${e.notes?`<p>${esc(e.notes)}</p>`:''}${sources(e.source_ids)}<small>${included(e)?'Canonical score contribution.':'Visible evidence with no score contribution.'}</small></article>`;}
+function positionCard(p){return `<article class="evidence context"><h3>${esc(human(p.topic))}</h3><div class="badges">${badge('Separately attributable position')}${badge('Excluded from index · weight 0','context')}</div><p>${esc(p.summary)}</p>${notice(p.important_boundary)}<p class="muted">Attribution basis: ${esc(human(p.attribution_basis))}. ${p.confidence?`Confidence: ${esc(p.confidence)}.`:''}</p><p class="muted">Source locator: ${esc((p.source_locators||[]).join('; '))}</p>${sources(p.source_ids)}<div class="source-links">${repoLink(p.source_path)}</div></article>`;}
+function person(id,params){
+ const p=find('people',id);if(!p)return missing();const edges=allFor(id),visible=visibleEvidence(edges,params.get('confidence')||'all',params.get('kind')||'all');
+ const positions=state.positions.filter(x=>x.person_id===id);
+ const occurrences=Object.values(state.occurrences).flatMap(rs=>rs.filter(r=>r.person_id===id));
+ const sourceDates=(p.current_role_source_ids||[]).map(id=>find('sources',id)).filter(Boolean).map(s=>`${s.date?'Published '+s.date:''}${s.accessed?' · accessed '+s.accessed:''}`).filter(Boolean);
+ let html=`<div class="breadcrumbs"><a href="#people">People</a><a href="#map?focus=person:${id}&depth=2">Explore connections on map</a><span>/ ${esc(p.name)}</span></div>`+title('Person record',p.name);
+ html+=`<dl class="facts"><div><dt>Role snapshot, as sourced</dt><dd>${esc(p.current_role||'Current role not normalized')}</dd>${p.current_organization?`<dd>${link('organization',p.current_organization)}</dd>`:''}</div><div><dt>Denominational status, as recorded</dt><dd>${esc(p.denominational_status||'Not normalized')}</dd></div></dl>${sources(p.current_role_source_ids)}<p class="count-line">${esc(sourceDates.join('; ')||'A verification date is not normalized for this role.')} Source dates do not establish that a role continues today.</p>`;
+ if(p.notes)html+=notice(p.notes);
+ for(const review of state.explorer.identity_reviews.filter(x=>x.person_id===id))html+=`<div class="notice"><strong>Source wording & identity boundary</strong><p>${esc(review.reasoning||'')}</p><p>${esc(review.boundary)}</p>${repoLink(review.source_path,'Reviewed identity receipt ↗')}</div>`;
+ if(!edges.some(e=>e.target_id==='national-partnership'))html+=notice('National Partnership membership is not established in this canonical profile. Absence of a link does not establish non-membership.');
+ html+=`<nav class="subnav" aria-label="Profile sections"><a href="#person/${id}?section=ledger">Canonical evidence (${edges.length})</a><a href="#person/${id}?section=occurrences">Source occurrences (${occurrences.length})</a>${positions.length?`<a href="#person/${id}?section=positions">Attributable positions (${positions.length})</a>`:''}</nav>
+ <details data-score><summary>Provisional Network Involvement Index: <span data-canonical-score>${canonicalScore(id,state.affiliations)}</span> · inspect full breakdown</summary><p>Sum of the included canonical edge weights below, calculated from the full record regardless of display filters. Source occurrences and supplemental positions do not add points. Repeated founding and continuing leadership edges may both contribute under the provisional methodology.</p><div class="table-wrap"><table><thead><tr><th>Canonical claim</th><th>Evidence kind</th><th>Treatment</th><th>Contribution</th></tr></thead><tbody>${edges.map(e=>`<tr><td>${link(e.target_type,e.target_id)}<small>${esc(e.role)}</small>${sources(e.source_ids)}</td><td>${esc(human(e.evidence_kind))}</td><td>${included(e)?'Included':'Excluded'}</td><td>${included(e)?e.weight:0}</td></tr>`).join('')}</tbody></table></div><a href="#methodology">Scoring definitions and limitations →</a></details>
+ <h2 id="ledger">Canonical evidence ledger</h2><form class="toolbar" data-filter="person/${id}"><label>Confidence<select name="confidence">${options(['all','confirmed','strongly_supported','associated','unresolved'],params.get('confidence')||'all')}</select></label><label>Evidence category<select name="kind">${options({all:'All evidence kinds',...groups},params.get('kind')||'all')}</select></label><button>Apply</button></form><p class="count-line">Showing ${visible.length} of ${edges.length} canonical edges. Index unchanged: ${canonicalScore(id,state.affiliations)}.</p>`;
+ for(const [key,label] of Object.entries(groups)){const es=visible.filter(e=>evidenceGroup(e)===key);if(es.length)html+=`<h3>${label}</h3><div class="ledger">${es.map(e=>edgeCard(e)).join('')}</div>`;}
+ if(!visible.length)html+=empty('No canonical edges match these filters. Source occurrences are listed separately below.');
+ if(positions.length)html+=`<h2 id="positions">Authored & attributable positions</h2><p>These individually attributable records are separate from committee service and remain unscored.</p><div class="ledger">${positions.map(positionCard).join('')}</div>`;
+ html+=`<h2 id="occurrences">Source occurrences & historical context</h2><p>Source rows preserve dated participation and identity evidence beyond the canonical ledger. Repeated snapshots and verification receipts are not additional independent actions. They do not add to the index.</p>`;
+ const byDataset=state.datasets.filter(d=>occurrences.some(r=>r.dataset_id===d.id));
+ html+=byDataset.map(d=>`<details ${params.get('section')==='occurrences'?'open':''}><summary>${esc(d.label)} · ${occurrences.filter(r=>r.dataset_id===d.id).length} occurrence(s)</summary><p>${esc(d.boundary)}</p>${occurrences.filter(r=>r.dataset_id===d.id).map(occurrenceCard).join('')}${link('dataset',d.id,'Inspect source roster →')}</details>`).join('') || empty('No additional source occurrences are normalized. This is a coverage gap, not a negative finding.');
+ return html;
 }
-
-function affiliationsFor(personId) {
-  return state.affiliations.filter((item) => item.person_id === personId);
+function printedContext(r){const x=r.printed_record;return x?[x.office_as_printed,x.institution_as_printed,x.presbytery_as_printed,x.location_as_printed].filter(Boolean).join(' · '):'';}
+function occurrenceCard(r){const x=r.printed_record;const d=find('datasets',r.dataset_id);return `<article class="evidence context"><h3>${esc(r.name_as_printed)}</h3><div class="badges">${badge(human(r.evidence_kind),'context')}${badge(r.person_id?'Canonical identity linked':'Canonical identity unresolved',r.person_id?'':'unresolved')}</div>${printedContext(r)?`<p>As printed: ${esc(printedContext(r))}</p>`:''}<p class="muted">Source locator: ${esc(r.source_locator)}. Identity review: ${esc(human(r.identity_review_status))}.</p>${r.conflicts.length?notice('Recorded identity conflict: '+r.conflicts.join('; ')):''}${x?`<details><summary>Exact source fields & archival evidence</summary><pre class="raw-fields">${esc(JSON.stringify(x,null,2))}</pre></details>`:`<p class="muted">Normalized context, not verbatim source text: ${esc([r.context_normalized.office,...r.context_normalized.institutions,...r.context_normalized.presbyteries].filter(Boolean).join(' · ')||'Not normalized')}</p>`}<p class="muted">${esc(r.identity_notes)}</p>${sources(d?.source_ids)}<div class="source-links">${repoLink(r.source_path)}${r.person_id?link('person',r.person_id,'Canonical profile →'):''}</div></article>`;}
+function roster(d,params){
+ const all=rowsFor(d.id),q=(params.get('q')||'').toLowerCase(),identity=params.get('identity')||'all';
+ const filtered=all.filter(r=>(identity==='all'||r.identity_status===identity)&&(!q||JSON.stringify([r.name_as_printed,r.printed_record,r.context_normalized]).toLowerCase().includes(q)));
+ return `<h2>Source roster</h2><div class="metrics">${[[d.row_count,'source rows'],[d.resolved_rows,'rows linked to canonical identities'],[d.row_count-d.resolved_rows,'identity-unresolved rows'],[d.unique_printed_names,'distinct printed names']].map(([n,l])=>`<div class="metric"><strong>${n}</strong><span>${l}</span></div>`).join('')}</div>
+ <p>${esc(d.boundary)}</p><p class="count-line">Coverage classification: ${esc(d.completeness.map(human).join('; '))}. Linked rows and distinct canonical people (${d.canonical_people}) can differ. Duplicate printed names are preserved.</p>
+ ${d.id.startsWith('garris_letter_')&&!d.id.includes('verification')?notice('Every row below is a sourced signature. “Identity unresolved” concerns the canonical person link, not the existence of the signature. Signing this letter alone establishes no other network membership.'):''}
+ <form class="toolbar" data-filter="dataset/${d.id}"><label class="search-field">Search printed fields<input name="q" value="${esc(params.get('q')||'')}" type="search" placeholder="Name, church, or presbytery"></label><label>Identity status<select name="identity">${options({all:'All source rows',resolved:'Linked identities',unresolved:'Unresolved identities'},identity)}</select></label><button>Apply</button></form><p class="count-line">Showing ${filtered.length} of ${all.length} source rows. All matching rows are displayed.</p>
+ <div class="table-wrap"><table data-roster><caption>${esc(d.label)}: source occurrences</caption><thead><tr><th>Order / locator</th><th>Name as printed</th><th>Printed context / evidence</th><th>Canonical identity</th></tr></thead><tbody>${filtered.map(r=>`<tr data-identity="${r.identity_status}"><td>${esc(r.print_order||r.source_locator)}</td><td><strong>${esc(r.name_as_printed)}</strong></td><td>${esc(printedContext(r)||human(r.evidence_kind))}<details><summary>Source & identity details</summary>${occurrenceCard(r)}</details></td><td>${r.person_id?link('person',r.person_id):badge('Identity unresolved','unresolved')}</td></tr>`).join('')}</tbody></table></div>${filtered.length?'':empty('No source rows match these filters.')}`;
 }
-
-function scoreFor(personId, affiliations = affiliationsFor(personId)) {
-  return affiliations
-    .filter((item) => item.score_included)
-    .reduce((sum, item) => sum + Number(item.weight || 0), 0);
+function dataset(id,params){const d=find('datasets',id);if(!d)return missing();return `<div class="breadcrumbs"><a href="#datasets">Source datasets</a>${d.target_id?link(d.target_type,d.target_id):''}</div>`+title('Source dataset',d.label)+sources(d.source_ids)+`<div class="source-links">${d.source_paths.map(p=>repoLink(p)).join('')}</div>`+roster(d,params);}
+function datasets(params){const q=(params.get('q')||'').toLowerCase();const ds=state.datasets.filter(d=>[d.label,d.id].join(' ').toLowerCase().includes(q));return title('Source universe','Source rosters & coverage','Complete source rows remain visible even when canonical identity is unresolved.')+searchForm('datasets',params.get('q')||'')+`<div class="table-wrap"><table><thead><tr><th>Dataset</th><th>Rows</th><th>Linked rows / all rows</th><th>Source scope</th></tr></thead><tbody>${ds.map(d=>`<tr><td>${link('dataset',d.id)}</td><td>${d.row_count}</td><td>${d.resolved_rows} / ${d.row_count} (${percent(d.resolved_rows,d.row_count)})</td><td>${esc(d.completeness.map(human).join('; '))}</td></tr>`).join('')}</tbody></table></div>`;}
+function organization(id){const o=find('organizations',id);if(!o)return missing();const events=state.events.filter(e=>e.organization_id===id);const eventIds=new Set(events.map(e=>e.id));const edges=state.affiliations.filter(e=>(e.target_type==='organization'&&e.target_id===id)||(e.target_type==='event'&&eventIds.has(e.target_id)));let html=`<div class="breadcrumbs"><a href="#organizations">Organizations</a></div>`+title(human(o.type),o.name,o.description)+`<p class="muted">Status as recorded: ${esc(human(o.status))}${o.founded?' · Founded '+o.founded:''}</p>`+sources([...sourceIdsFor(edges),...events.flatMap(e=>e.source_ids||[]),...(o.source_ids||[])])+notice('Relationship types are literal: current employment, formal membership, leadership, and public action are distinct. Personnel overlap alone does not establish succession or ideological equivalence.');
+ html+=datasetsFor('organization',id).map(d=>`<div class="panel"><h3>${link('dataset',d.id)}</h3><p>${d.row_count} source rows · ${d.resolved_rows} linked rows · ${d.row_count-d.resolved_rows} unresolved identities</p></div>`).join('');
+ if(events.length)html+='<h2>Related actions & events</h2>'+directoryCards('event',events);
+ html+='<h2>Documented people by relationship</h2>';
+ for(const [k,label] of Object.entries(groups)){const es=edges.filter(e=>evidenceGroup(e)===k);if(es.length)html+=`<h3>${label}</h3><div class="ledger">${es.map(e=>edgeCard(e,true)).join('')}</div>`;}
+ if(!edges.length)html+=empty('No canonical person edges are normalized for this organization. This does not establish a complete or empty roster.');
+ if(['national-partnership','amr','mcgowan-global-institute','khandjian-fellowship'].includes(id))html+='<h2>Selected personnel overlap</h2><p><a href="#analysis">Inspect NP continuity with shared-person lists and both roster denominators →</a></p>';
+ return html;
 }
-
-function confidenceLabel(value) {
-  return {
-    confirmed: 'Confirmed',
-    confirmed_for_2024: 'Confirmed for 2024',
-    strongly_supported: 'Strongly supported',
-    associated: 'Associated',
-    unresolved: 'Unresolved'
-  }[value] ?? value;
+function event(id){const e=find('events',id);if(!e)return missing();const edges=state.affiliations.filter(a=>a.target_type==='event'&&a.target_id===id),ds=datasetsFor('event',id);let html=`<div class="breadcrumbs"><a href="#events">Actions & timeline</a>${e.organization_id?link('organization',e.organization_id):''}</div>`+title(human(e.event_type),e.name)+`<p class="eyebrow">${esc(date(e))}</p><p class="lead">${esc(e.notes||'Inspect the sources and literal participant roles below.')}</p>`+sources(e.source_ids);
+ if(ds.length){for(const d of ds)html+=roster(d,new URLSearchParams());}
+ else html+=notice('A complete source roster is not projected for this action. The canonical edges below represent documented participants only, not a full participant count.');
+ html+=`<h2>Canonical participant evidence</h2><p class="count-line">${new Set(edges.map(a=>a.person_id)).size} distinct canonical participants; ${edges.length} edges. Source roster rows above are separate from scoring.</p><div class="ledger">${edges.map(a=>edgeCard(a,true)).join('')}</div>`;
+ if(!edges.length)html+=empty('No canonical participant edges are normalized. Consult the registered sources.');
+ const tracked=state.continuity.tracked_datasets.filter(t=>ds.some(d=>d.id===t.dataset));if(tracked.length)html+='<h2>Selected NP overlap</h2>'+tracked.map(continuityCard).join('');return html;
 }
-
-function chipClass(value) {
-  if (value === 'confirmed_for_2024') return 'confirmed';
-  return value || 'associated';
-}
-
-function sourceLinks(sourceIds = []) {
-  return sourceIds
-    .map((sourceId) => byId(state.sources, sourceId))
-    .filter(Boolean)
-    .map((source) => `<a href="${esc(source.url)}" target="_blank" rel="noopener">${esc(source.title)}</a>`)
-    .join('');
-}
-
-function connectionOptionLabel(affiliation) {
-  if (affiliation.target_type === 'event') {
-    const event = byId(state.events, affiliation.target_id);
-    if (event?.organization_id) return organizationName(event.organization_id) ?? event.name;
-    return event?.name ?? affiliation.target_id;
-  }
-  return targetName(affiliation);
-}
-
-function populateConnectionFilter() {
-  const select = $('#connection-filter');
-  const values = new Map();
-  state.affiliations.forEach((aff) => {
-    const label = connectionOptionLabel(aff);
-    const key = aff.target_type === 'event'
-      ? (byId(state.events, aff.target_id)?.organization_id || aff.target_id)
-      : aff.target_id;
-    values.set(key, label);
-  });
-
-  [...values.entries()]
-    .sort((a, b) => a[1].localeCompare(b[1]))
-    .forEach(([value, label]) => {
-      const option = document.createElement('option');
-      option.value = value;
-      option.textContent = label;
-      select.append(option);
-    });
-}
-
-function affiliationMatchesConnection(affiliation, selected) {
-  if (selected === 'all') return true;
-  if (affiliation.target_id === selected) return true;
-  if (affiliation.target_type === 'event') {
-    return byId(state.events, affiliation.target_id)?.organization_id === selected;
-  }
-  return false;
-}
-
-function filterAffiliationsByConfidence(affiliations, filter) {
-  if (filter === 'all') return affiliations;
-  if (filter === 'confirmed') {
-    return affiliations.filter((item) => confidenceRank[item.confidence] >= 4);
-  }
-  if (filter === 'strongly_supported') {
-    return affiliations.filter((item) => confidenceRank[item.confidence] >= 3);
-  }
-  return affiliations;
-}
-
-function renderPeople() {
-  const search = $('#people-search').value.trim().toLowerCase();
-  const connection = $('#connection-filter').value;
-  const confidence = $('#confidence-filter').value;
-  const sort = $('#people-sort').value;
-
-  let rows = state.people.map((person) => {
-    const all = affiliationsFor(person.id);
-    const evidence = filterAffiliationsByConfidence(all, confidence);
-    return {
-      person,
-      all,
-      evidence,
-      score: scoreFor(person.id, evidence)
-    };
-  });
-
-  if (search) {
-    rows = rows.filter(({ person, all }) => {
-      const haystack = [
-        person.name,
-        person.current_role,
-        organizationName(person.current_organization),
-        person.denominational_status,
-        ...all.map((a) => targetName(a)),
-        ...all.map((a) => a.role)
-      ].filter(Boolean).join(' ').toLowerCase();
-      return haystack.includes(search);
-    });
-  }
-
-  if (connection !== 'all') {
-    rows = rows.filter(({ evidence }) => evidence.some((a) => affiliationMatchesConnection(a, connection)));
-  }
-
-  if (sort === 'name-asc') rows.sort((a, b) => a.person.name.localeCompare(b.person.name));
-  if (sort === 'connections-desc') rows.sort((a, b) => b.evidence.length - a.evidence.length || b.score - a.score || a.person.name.localeCompare(b.person.name));
-  if (sort === 'score-desc') rows.sort((a, b) => b.score - a.score || b.evidence.length - a.evidence.length || a.person.name.localeCompare(b.person.name));
-
-  const tbody = $('#people-table');
-  tbody.innerHTML = rows.map(({ person, evidence, score }) => {
-    const currentOrg = organizationName(person.current_organization);
-    const keyEvidence = [...evidence]
-      .sort((a, b) => Number(b.weight || 0) - Number(a.weight || 0))
-      .slice(0, 4);
-
-    return `<tr data-person-id="${esc(person.id)}" tabindex="0">
-      <td>
-        <strong>${esc(person.name)}</strong>
-        <span class="subtle">${esc(person.ordination || 'Role normalization pending')}</span>
-      </td>
-      <td>
-        ${person.current_role ? `<strong>${esc(person.current_role)}</strong>` : '<span class="subtle">Current role not yet normalized</span>'}
-        ${currentOrg ? `<span class="subtle">${esc(currentOrg)}</span>` : ''}
-      </td>
-      <td><div class="chips">${keyEvidence.map((item) => `<span class="chip ${chipClass(item.confidence)}" title="${esc(confidenceLabel(item.confidence))}">${esc(targetName(item))}</span>`).join('')}</div></td>
-      <td class="number">${evidence.length}</td>
-      <td class="number"><span class="score">${score}</span></td>
-    </tr>`;
-  }).join('');
-
-  $('#people-empty').hidden = rows.length !== 0;
-  tbody.querySelectorAll('tr').forEach((row) => {
-    const open = () => openPerson(row.dataset.personId);
-    row.addEventListener('click', open);
-    row.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        open();
-      }
-    });
-  });
-}
-
-function openPerson(personId) {
-  const person = byId(state.people, personId);
-  if (!person) return;
-  const affiliations = affiliationsFor(personId)
-    .sort((a, b) => Number(b.weight || 0) - Number(a.weight || 0));
-  const score = scoreFor(personId);
-
-  $('#dialog-name').textContent = person.name;
-  $('#dialog-body').innerHTML = `
-    <div class="profile-summary">
-      <div><span>Current role</span>${esc(person.current_role || 'Not yet normalized')}</div>
-      <div><span>Current organization</span>${esc(organizationName(person.current_organization) || 'Not yet normalized')}</div>
-      <div><span>Denominational status</span>${esc(person.denominational_status || 'Not yet normalized')}</div>
-      <div><span>Network involvement index</span><strong>${score}</strong></div>
-    </div>
-
-    <p class="eyebrow">Evidence connections</p>
-    <div class="evidence-list">
-      ${affiliations.length ? affiliations.map((item) => `
-        <article class="evidence-item">
-          <div class="evidence-top">
-            <div>
-              <strong>${esc(targetName(item))}</strong>
-              <div class="subtle">${esc(item.role)}</div>
-            </div>
-            <span class="chip ${chipClass(item.confidence)}">${esc(confidenceLabel(item.confidence))}</span>
-          </div>
-          ${item.notes ? `<p>${esc(item.notes)}</p>` : ''}
-          <div class="source-links">${sourceLinks(item.source_ids)}</div>
-        </article>
-      `).join('') : '<p class="empty">No normalized evidence connections yet.</p>'}
-    </div>
-
-    ${person.current_role_source_ids?.length ? `
-      <p class="eyebrow" style="margin-top:28px">Current-role sources</p>
-      <div class="source-links">${sourceLinks(person.current_role_source_ids)}</div>
-    ` : ''}
-  `;
-
-  const dialog = $('#person-dialog');
-  dialog.showModal();
-  history.replaceState(null, '', `#person=${encodeURIComponent(person.id)}`);
-}
-
-function renderNetworks() {
-  const grid = $('#network-grid');
-  const organizations = state.organizations.filter((org) => ['network', 'movement', 'public_coalition', 'pca_agency', 'external_network', 'external_nonprofit'].includes(org.type));
-
-  grid.innerHTML = organizations.map((org) => {
-    const eventIds = state.events.filter((evt) => evt.organization_id === org.id).map((evt) => evt.id);
-    const peopleIds = new Set(
-      state.affiliations
-        .filter((aff) => aff.target_id === org.id || eventIds.includes(aff.target_id))
-        .map((aff) => aff.person_id)
-    );
-    return `<article class="card">
-      <h3>${esc(org.name)}</h3>
-      <div class="meta">${esc(org.type.replaceAll('_', ' '))}${org.status ? ` · ${esc(org.status.replaceAll('_', ' '))}` : ''}</div>
-      <p>${esc(org.description || 'Institutional node in the research graph.')}</p>
-      <div class="count">${peopleIds.size} normalized people connected</div>
-    </article>`;
-  }).join('');
-}
-
-function renderTimeline() {
-  const timeline = $('#timeline');
-  const events = [...state.events].sort((a, b) => {
-    const av = a.date || String(a.year || a.start_year || '9999');
-    const bv = b.date || String(b.year || b.start_year || '9999');
-    return av.localeCompare(bv);
-  });
-
-  timeline.innerHTML = events.map((event) => {
-    const year = event.date || event.year || (event.end_year ? `${event.start_year}–${event.end_year}` : event.start_year);
-    const participantCount = new Set(state.affiliations.filter((aff) => aff.target_type === 'event' && aff.target_id === event.id).map((aff) => aff.person_id)).size;
-    return `<article class="timeline-item">
-      <div class="timeline-year">${esc(year)}</div>
-      <h3>${esc(event.name)}</h3>
-      <p>${esc(event.notes || `${participantCount} normalized participant${participantCount === 1 ? '' : 's'} currently represented in the dataset.`)}</p>
-      <div class="source-links">${sourceLinks(event.source_ids)}</div>
-    </article>`;
-  }).join('');
-}
-
-function renderSources() {
-  $('#source-list').innerHTML = state.sources.map((source) => `
-    <article class="source-item">
-      <div>
-        <div class="source-type">${esc(source.source_type.replaceAll('_', ' '))}</div>
-        <strong>${esc(source.title)}</strong>
-        <p>${esc(source.publisher)}${source.date ? ` · ${esc(source.date)}` : ''}${source.notes ? ` · ${esc(source.notes)}` : ''}</p>
-      </div>
-      <div><a href="${esc(source.url)}" target="_blank" rel="noopener">Open source ↗</a></div>
-    </article>
-  `).join('');
-}
-
-function renderMetrics() {
-  $('#metric-people').textContent = state.people.length;
-  $('#metric-affiliations').textContent = state.affiliations.length;
-  $('#metric-organizations').textContent = state.organizations.length;
-  $('#metric-sources').textContent = state.sources.length;
-}
-
-function showView(view) {
-  state.view = view;
-  $$('.view').forEach((section) => {
-    const active = section.id === `view-${view}`;
-    section.hidden = !active;
-    section.classList.toggle('active-view', active);
-  });
-  $$('.nav-link').forEach((button) => button.classList.toggle('active', button.dataset.view === view));
-  if (!location.hash.startsWith('#person=')) history.replaceState(null, '', `#${view}`);
-}
-
-function bindControls() {
-  ['#people-search', '#connection-filter', '#confidence-filter', '#people-sort'].forEach((selector) => {
-    $(selector).addEventListener(selector === '#people-search' ? 'input' : 'change', renderPeople);
-  });
-
-  $$('.nav-link').forEach((button) => button.addEventListener('click', () => showView(button.dataset.view)));
-
-  $('#dialog-close').addEventListener('click', () => $('#person-dialog').close());
-  $('#person-dialog').addEventListener('close', () => {
-    if (location.hash.startsWith('#person=')) history.replaceState(null, '', '#people');
-  });
-}
-
-async function loadData() {
-  const paths = ['people', 'organizations', 'events', 'affiliations', 'sources'];
-  const payloads = await Promise.all(paths.map(async (name) => {
-    const response = await fetch(`data/${name}.json`);
-    if (!response.ok) throw new Error(`Could not load data/${name}.json (${response.status})`);
-    return response.json();
-  }));
-  paths.forEach((name, index) => { state[name] = payloads[index]; });
-}
-
-async function init() {
-  try {
-    await loadData();
-    renderMetrics();
-    populateConnectionFilter();
-    renderPeople();
-    renderNetworks();
-    renderTimeline();
-    renderSources();
-    bindControls();
-
-    if (location.hash.startsWith('#person=')) {
-      const id = decodeURIComponent(location.hash.slice('#person='.length));
-      openPerson(id);
-    } else if (['#networks', '#timeline', '#sources'].includes(location.hash)) {
-      showView(location.hash.slice(1));
-    }
-  } catch (error) {
-    console.error(error);
-    document.querySelector('main').innerHTML = `<section class="shell view"><h2>Data could not be loaded</h2><p>${esc(error.message)}</p><p>This site must be served over HTTP, such as through GitHub Pages.</p></section>`;
-  }
-}
-
+function events(params){const q=(params.get('q')||'').toLowerCase();const events=state.events.filter(e=>JSON.stringify(e).toLowerCase().includes(q)).sort((a,b)=>String(a.date||a.start_year||a.year||'9999').localeCompare(String(b.date||b.start_year||b.year||'9999')));return title('Actions & timeline','A record across time','Formal actions, committee service, organizational events, and institutional changes retain their own source boundaries.')+searchForm('events',params.get('q')||'')+`<div class="timeline">${events.map(e=>`<article><p class="date">${esc(date(e))} · ${esc(human(e.event_type))}</p><h3>${link('event',e.id)}</h3><p>${esc(e.notes||'Open the event to inspect participant evidence and sources.')}</p></article>`).join('')}</div>`;}
+function continuityCard(t){return `<article class="panel"><p class="eyebrow">${esc(t.period)} · ${esc(human(t.temporal_relation))}</p><h3>${link('dataset',t.dataset,t.label)}</h3><p><strong>${t.confirmed_overlap_count} confirmed shared people</strong></p><div class="table-wrap"><table><thead><tr><th>Denominator</th><th>Confirmed overlap / denominator</th><th>Meaning</th></tr></thead><tbody><tr><td>Canonical NP subset</td><td>${t.confirmed_overlap_count} / ${t.np_confirmed_canonical_count} (${percent(t.confirmed_overlap_count,t.np_confirmed_canonical_count)})</td><td>Incomplete, non-random resolved subset</td></tr><tr><td>Full printed NP roster</td><td>${t.confirmed_overlap_count} / ${t.np_printed_roster_count} (${percent(t.confirmed_overlap_count,t.np_printed_roster_count)})</td><td>Confirmed lower bound</td></tr><tr><td>Target canonical subset</td><td>${t.confirmed_overlap_count} / ${t.target_confirmed_canonical_count} (${percent(t.confirmed_overlap_count,t.target_confirmed_canonical_count)})</td><td>Resolved people only</td></tr><tr><td>Target distinct printed names</td><td>${t.confirmed_overlap_count} / ${t.target_printed_roster_count} (${percent(t.confirmed_overlap_count,t.target_printed_roster_count)})</td><td>Confirmed lower bound</td></tr></tbody></table></div><details><summary>Inspect the ${t.confirmed_overlap_count} shared people</summary><ul class="link-list">${t.confirmed_shared_people.map(p=>`<li>${link('person',p.canonical_person_id,p.name)}</li>`).join('')}</ul></details><p class="count-line">${t.unresolved_exact_name_possible_overlap_count} unresolved exact-name screening possibilities, excluded from confirmed overlap. A zero screening count does not establish complete identity resolution.</p>${t.dataset.startsWith('a_faithful_pca')?notice('June 2021 and March 2022 are snapshots of the same public action. Do not count them as independent repeated behavior.'):''}</article>`;}
+function analysis(params){const c=state.continuity.national_partnership_cohort;const key=params.get('dataset')||'garris_letter_1';const t=state.continuity.tracked_datasets.find(t=>t.dataset===key)||state.continuity.tracked_datasets[0];return title('Descriptive analysis','Overlap & continuity','Inspect confirmed shared identities. Keep source coverage and the denominator in view.')+
+ `<div class="panel"><h2 style="margin-top:0">National Partnership identity coverage</h2><p><strong>${c.confirmed_canonical_person_count} / ${c.printed_confirmed_member_name_count} printed members (${percent(c.confirmed_canonical_person_count,c.printed_confirmed_member_name_count)})</strong></p><div class="meter" aria-hidden="true"><span style="width:${c.identity_resolution_rate_pct}%"></span></div><p>${esc(c.coverage_warning)}</p>${link('dataset','national_partnership_confirmed_members','Inspect the full NP source roster →')}</div>
+ ${notice('These are descriptive overlaps, not causal or predictive effects. A missing NP edge means membership not established, not confirmed non-membership. Personnel recurrence does not establish that AMR or another institution is an NP successor. The tracked actions are correlated, not independent trials.')}
+ <form class="toolbar" data-filter="analysis"><label>Compare NP with a tracked source dataset<select name="dataset">${options(Object.fromEntries(state.continuity.tracked_datasets.map(t=>[t.dataset,t.label])),t.dataset)}</select></label><button>Compare</button></form>${continuityCard(t)}
+ <h2>All selected comparisons</h2><div class="table-wrap"><table><thead><tr><th>Target source dataset</th><th>Shared people</th><th>Target canonical / distinct printed names</th></tr></thead><tbody>${state.continuity.tracked_datasets.map(t=>`<tr><td><a href="#analysis?dataset=${encodeURIComponent(t.dataset)}">${esc(t.label)}</a></td><td>${t.confirmed_overlap_count}</td><td>${t.target_confirmed_canonical_count} / ${t.target_printed_roster_count}</td></tr>`).join('')}</tbody></table></div>
+ <h2>Coverage & reproducibility</h2><p>Printed-name denominators count distinct names, not source rows. For example, repeated printed names remain in the full roster but are counted once in these lower-bound denominators.</p><ul class="link-list"><li><a href="#datasets">All dataset coverage →</a></li><li>${repoLink('analysis/national-partnership/continuity-summary.json','Generated continuity data ↗')}</li><li>${repoLink('analysis/overlap/pairwise-overlap.csv','All generated pairwise counts (CSV) ↗')}</li></ul>`;}
+function source(id){const s=find('sources',id);if(!s)return missing();const url=safeUrl(s.url);const edges=state.affiliations.filter(e=>e.source_ids?.includes(id)),positions=state.positions.filter(e=>e.source_ids?.includes(id)),events=state.events.filter(e=>e.source_ids?.includes(id)),roles=state.people.filter(p=>p.current_role_source_ids?.includes(id));return `<div class="breadcrumbs"><a href="#sources">Sources</a></div>`+title(human(s.source_type),s.title)+`<dl class="facts"><div><dt>Publisher / author</dt><dd>${esc(s.publisher||s.author||'Not normalized')}</dd></div><div><dt>Publication / access</dt><dd>${esc(s.date||'Publication date not normalized')}${s.accessed?' · accessed '+esc(s.accessed):''}</dd></div></dl><p>${esc(s.notes||'')}</p>${url?`<a href="${esc(url)}" target="_blank" rel="noopener">Open source ↗</a>`:notice('Registered local/archive provenance. No public source URL is registered; this is not a broken external link.')}<div class="source-links">${repoLink(s.provenance_path||'data/sources.json','Source registry / provenance ↗')}${id==='src-np-local-archive'?repoLink('sources/raw/national-partnership/NPP_Emails_2013_2021.pdf','Preserved NP archive PDF ↗'):''}</div>
+ <h2>Claims citing this source</h2><p class="count-line">${edges.length} canonical edges · ${positions.length} separately attributable positions · ${roles.length} role snapshots</p><div class="ledger">${edges.map(e=>edgeCard(e,true)).join('')}${positions.map(p=>`<div>${link('person',p.person_id)}${positionCard(p)}</div>`).join('')}</div>${roles.length?`<h3>Role snapshots</h3><ul>${roles.map(p=>`<li>${link('person',p.id)}: ${esc(p.current_role||'Role not normalized')}</li>`).join('')}</ul>`:''}
+ ${events.length?'<h2>Related actions</h2>'+directoryCards('event',events):''}<h2>Related source rosters</h2><ul>${state.datasets.filter(d=>d.source_ids.includes(id)).map(d=>`<li>${link('dataset',d.id)}</li>`).join('')}</ul>${!edges.length&&!positions.length&&!events.length&&!roles.length?empty('This registered source has no direct canonical claims projected here. Its registration does not imply full normalization.'):''}`;}
+function sourceDirectory(params){const q=(params.get('q')||'').toLowerCase();const ss=state.sources.filter(s=>JSON.stringify(s).toLowerCase().includes(q));return title('Provenance','Sources','Primary records, archived rosters, official biographies, and explicitly labeled secondary material.')+searchForm('sources',params.get('q')||'')+`<p class="count-line">${ss.length} sources. Registration does not imply that every claim or full work is normalized.</p>`+ss.map(s=>`<article class="result"><p class="eyebrow">${esc(human(s.source_type))}</p><h3>${link('source',s.id)}</h3><p>${esc(s.publisher||'')}${s.date?' · '+esc(s.date):''}</p>${!safeUrl(s.url)?badge('Local / archive provenance','context'):''}</article>`).join('');}
+function search(params){const q=params.get('q')||'',needle=q.trim().toLowerCase();let results=[];if(needle)for(const k of ['person','organization','event','source','dataset'])for(const x of state[plural[k]])if(JSON.stringify(x).toLowerCase().includes(needle))results.push({k,x});const p=pageRows(results,params);return title('Global search','Search the research index')+searchForm('search',q)+`<p class="count-line">${results.length} matching entities. Printed-name searches within unresolved rosters are available under Source rosters.</p>`+p.items.map(({k,x})=>`<article class="result"><p class="eyebrow">${k}</p><h3>${link(k,x.id)}</h3><p>${esc(x.current_role||x.description||x.source_type||x.boundary||'')}</p></article>`).join('')+pager('search',params,p.n,p.pages)+(results.length?'':empty('Enter a name, organization, action, or source title.'));}
+function institutions(params){const q=(params.get('q')||'').toLowerCase();const ps=params.get('presbytery')||'all';const rows=state.churches.filter(c=>(ps==='all'||c.presbytery_id===ps)&&JSON.stringify([c.name,c.presbytery_as_printed,c.locations]).toLowerCase().includes(q));const p=pageRows(rows,params);return title('Institutional context','Churches & presbyteries','Directory snapshot context. Church affiliations and external classifications do not transfer positions to individuals.')+`<form class="toolbar" data-filter="institutions"><label>Church or location<input name="q" type="search" value="${esc(params.get('q')||'')}"></label><label>Presbytery<select name="presbytery">${options({all:'All presbyteries',...Object.fromEntries(state.presbyteries.map(p=>[p.id,p.name]))},ps)}</select></label><button>Apply</button></form><p class="count-line">${rows.length} directory nodes. Source snapshot: 2026. Historical church-string matching is incomplete; no concentration ranking is inferred here.</p><div class="table-wrap"><table><thead><tr><th>Church</th><th>Presbytery</th><th>Directory status</th></tr></thead><tbody>${p.items.map(c=>`<tr><td>${link('church',c.id)}</td><td>${c.presbytery_id?link('presbytery',c.presbytery_id):esc(c.presbytery_as_printed)}</td><td>${esc(human(c.status))}</td></tr>`).join('')}</tbody></table></div>${pager('institutions',params,p.n,p.pages)}`;}
+function institution(kind,id){const x=find(plural[kind],id);if(!x)return missing();const edges=state.affiliations.filter(e=>e.target_type===kind&&e.target_id===id);return `<div class="breadcrumbs"><a href="#institutions">Churches & presbyteries</a></div>`+title('Institutional context',x.name)+notice('Directory information is a dated snapshot. Institutional association does not establish a person’s theology or network membership.')+(kind==='church'?`<dl class="facts"><div><dt>Presbytery as printed</dt><dd>${x.presbytery_id?link('presbytery',x.presbytery_id):esc(x.presbytery_as_printed)}</dd></div><div><dt>Directory pastor as printed</dt><dd>${esc(x.pastor_as_printed||'Not recorded')}</dd></div><div><dt>Source snapshot</dt><dd>${esc(x.source_snapshot)}</dd></div><div><dt>Location</dt><dd>${esc(x.locations.map(l=>l.address_full).join('; '))}</dd></div></dl>`:`<p><a href="#institutions?presbytery=${encodeURIComponent(id)}">Browse churches in this directory presbytery →</a></p>`)+`<div class="source-links">${repoLink('data/'+plural[kind]+'.json','Directory record ↗')}${repoLink('research/church-presbytery-schema.md','Directory provenance & schema ↗')}</div><h2>Canonical person evidence</h2>${edges.map(e=>edgeCard(e,true)).join('')||empty('No person links are normalized to this directory node. Similar church names are not automatically merged.')}`;}
+function methodology(){return title('Evidence guide','How to read this research')+`<div class="prose"><h2>Facts before interpretation</h2><p>This archive records documented relationships within a selected research universe. It is not a census of the PCA or a classification of a person’s orthodoxy or Christian character.</p><h2>Three separate layers</h2><ol><li><strong>Source occurrence:</strong> a printed name in a particular source, with its original context. An unresolved canonical identity does not erase the source row.</li><li><strong>Canonical evidence:</strong> a reviewed person-to-entity relationship with a literal role, evidence kind, confidence, source, and explicit scoring treatment.</li><li><strong>Analysis:</strong> descriptive overlap or a provisional index derived from those records, with limitations and denominators stated.</li></ol><h2>Confidence</h2><dl class="facts single"><div><dt>Confirmed</dt><dd>A primary source explicitly establishes the connection. “Confirmed for 2024” is time-bounded.</dd></div><div><dt>Strongly supported</dt><dd>Multiple reliable sources or a primary archive support the connection, but an exact source pin may remain incomplete.</dd></div><div><dt>Associated</dt><dd>The relationship is established; formal membership or agreement is not.</dd></div><div><dt>Unresolved</dt><dd>The identity or claim needs further verification. Unresolved canonical claims are excluded from scoring.</dd></div></dl><h2>Evidence kinds and scoring</h2><p>Formal network membership, leadership, public signatures, and denominational actions are shown separately from committee, institutional, geographic, family, and collaboration context. Authored positions require individual attribution.</p><p>The provisional Network Involvement Index sums only included canonical edges. Founder roles typically weigh 5, formal membership 4, public signatures 3, and continuing leadership 2–3. Context normally weighs 0. The stored edge is authoritative; each profile shows its full contribution ledger. Visibility filters never recalculate the canonical index.</p><p>Supplemental source occurrences and separately attributable positions remain outside this index. This prevents duplicated snapshots or repeated receipts from silently adding points. Sparse normalization can produce a low or zero index even when more source evidence exists.</p><h2>Inference boundaries</h2><ul><li>Family, employment, education, church, and committee relationships do not transfer theology, membership, or actions between people.</li><li>Committee membership does not establish agreement with every report statement.</li><li>Co-signing one public letter does not establish membership in an unrelated network.</li><li>Personnel overlap does not prove organizational succession or causation.</li><li>Absence from a roster is not evidence of opposition.</li><li>A Faithful PCA’s March 2022 snapshot continues the 2021 public action. It is not a second independent action.</li></ul><h2>Denominators and source conflicts</h2><p>Source rows, distinct printed names, linked rows, and distinct canonical people are different counts. A resolved-subset percentage describes that subset. A confirmed lower bound divides known overlap by the full distinct-name roster. Neither is a predictive risk ratio. The resolved NP subset is incomplete and non-random.</p><p>Printed variants and recorded conflicts are preserved. Resolving a person’s identity does not certify every office or presbytery label printed by a source.</p><h2>Corrections & maintenance</h2><p>Corrections should identify the affected claim and documentary evidence. The repository retains source provenance and version history.</p><ul class="link-list"><li>${repoLink('research/methodology.md','Full research methodology ↗')}</li><li>${repoLink('research/source-register.md','Source register ↗')}</li><li>${repoLink('research/current-state.md','Current state & deferred gaps ↗')}</li></ul></div>`;}
+function missing(){return title('Not found','This record is not in the current index')+'<p>Check the link, or <a href="#search">search the research index</a>.</p>';}
+async function render(){const version=++routeVersion;let r;try{r=parseRoute(location.hash);}catch{main.innerHTML=missing();return;}main.setAttribute('aria-busy','true');try{
+ if(['person','event','dataset','map'].includes(r.view)){if(!state.occurrences)main.innerHTML=empty('Loading source occurrences…');await loadOccurrences();}
+ if(['church','presbytery','institutions','person','map'].includes(r.view)){await loadInstitutions();}
+ if(version!==routeVersion)return;
+ const views={map:()=>mapView(r.params),overview:()=>overview(),people:()=>people(r.params),person:()=>person(r.id,r.params),organizations:()=>title('Directory','Networks & organizations','Literal organizational records, linked people, related actions, and source provenance.')+searchForm('organizations',r.params.get('q')||'')+directoryCards('organization',state.organizations.filter(o=>JSON.stringify(o).toLowerCase().includes((r.params.get('q')||'').toLowerCase()))),networks:()=>{location.hash='organizations';return '';},organization:()=>organization(r.id),events:()=>events(r.params),timeline:()=>events(r.params),event:()=>event(r.id),analysis:()=>analysis(r.params),sources:()=>sourceDirectory(r.params),source:()=>source(r.id),dataset:()=>dataset(r.id,r.params),datasets:()=>datasets(r.params),search:()=>search(r.params),methodology:()=>methodology(),institutions:()=>institutions(r.params),church:()=>institution('church',r.id),presbytery:()=>institution('presbytery',r.id)};
+ main.innerHTML=(views[r.view]||missing)();
+ if(r.view==='map')mountGraph(document.querySelector('[data-map]'),state,r.params);
+ document.title=`${main.querySelector('h1')?.textContent||'Research'} | PCA Research Index`;
+ document.querySelectorAll('.navigation a').forEach(a=>{const section={person:'people',organization:'organizations',event:'events',dataset:'events',source:'sources'}[r.view]||r.view;if(a.hash==='#'+section)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
+ main.focus({preventScroll:true});const section=r.params.get('section');if(section&&['ledger','occurrences','positions'].includes(section))document.getElementById(section)?.scrollIntoView();else window.scrollTo(0,0);
+ }catch(e){if(version===routeVersion)main.innerHTML=title('Load error','This view could not be loaded')+`<p>${esc(e.message)}</p><button data-retry>Try again</button><p>${repoLink('README.md','Read the repository instead ↗')}</p>`;}finally{if(version===routeVersion)main.removeAttribute('aria-busy');}}
+document.addEventListener('submit',e=>{const form=e.target.closest('[data-filter]');if(!form)return;e.preventDefault();const params=new URLSearchParams(new FormData(form));if(form.dataset.filter==='map'&&params.get('q'))params.delete('focus');location.hash=form.dataset.filter+'?'+params;});
+document.addEventListener('click',e=>{if(e.target.closest('.skip')){e.preventDefault();main.focus();return;}if(e.target.closest('[data-retry]'))render();});
+window.addEventListener('hashchange',render);
+async function init(){try{await Promise.all(['people','organizations','events','affiliations','sources','explorer'].map(async k=>{state[k]=await json(`data/${k}.json`);}));state.datasets=state.explorer.datasets;state.positions=state.explorer.positions;state.sources.push(...state.explorer.sources);state.continuity=await json('analysis/national-partnership/continuity-summary.json');await render();}catch(e){main.innerHTML=title('Load error','The research index could not be loaded')+`<p>${esc(e.message)}</p><p>Reload this page to retry, or ${repoLink('README.md','read the repository ↗')}.</p>`;}}
 init();
+
+function mapView(params){return title('Relational explorer','Detective map','Trace people, groups, and public actions. Select a name or line to inspect the evidence behind the connection.')+`<form class="toolbar" data-filter="map"><label class="search-field">Name / group neighborhood<input name="q" type="search" value="${esc(params.get('q')||'')}" placeholder="e.g. Khandjian, National Partnership"></label><label>Source scope<select name="scope">${options({selected:'Key networks & actions',all:'All indexed source datasets'},params.get('scope')||'selected')}</select></label><label>Evidence layer<select name="layer">${options({all:'Canonical + selected source rosters',canonical:'Canonical relationships only',source:'Selected source rosters only'},params.get('layer')||'all')}</select></label><label>Confidence (canonical only)<select name="confidence">${options(['all','confirmed','strongly_supported','associated','unresolved'],params.get('confidence')||'all')}</select></label><label>Canonical category<select name="kind">${options({all:'All',...groups},params.get('kind')||'all')}</select></label><label>Neighborhood depth<select name="depth">${options({'1':'Direct connections','2':'Two connection steps'},params.get('depth')||'1')}</select></label><label>Unresolved source identities<select name="unresolved">${options({hide:'Hide unresolved rows',show:'Show labeled source-row nodes'},params.get('unresolved')||'hide')}</select></label><label>Canonical context<select name="context">${options({show:'Show context',hide:'Hide unscored canonical context'},params.get('context')||'show')}</select></label>${params.get('focus')?`<input type="hidden" name="focus" value="${esc(params.get('focus'))}">`:''}<button>Apply filters</button><a href="#map">Clear filters</a></form><p class="count-line">Drag the background to pan; drag a node to reposition it. Wheel or pinch to zoom. Keyboard: Tab to a node or line, Enter to inspect; arrows to pan, +/− to zoom. Confidence and category filters apply to canonical edges and hide supplemental source rows. Source-row lines never contribute to the index.</p><div class="map-legend"><span>● Green outlined: person</span><span>● Green filled: organization / action</span><span>● Ochre: source roster</span><span>Solid line: included canonical evidence</span><span>Dashed line: unscored context / source occurrence</span></div><section data-map><p data-map-status role="status" class="count-line"></p><div class="map-layout"><div class="map-canvas"><div class="map-controls"><button data-map-control="in" aria-label="Zoom in">+</button><button data-map-control="out" aria-label="Zoom out">−</button><button data-map-control="fit">Fit all</button><button data-map-control="reset">Clear selection</button><span data-zoom-level></span></div><svg viewBox="0 0 1000 740" role="group" aria-label="Interactive evidence connections" tabindex="0"><g class="map-viewport"></g></svg></div><aside class="map-inspector" aria-label="Connection inspector" aria-live="polite"><h3>Inspect a connection</h3><p>Select a name or line to trace its evidence. Use the filters to narrow the map, or start with a person’s neighborhood.</p><p>Multiple lines can represent different records of the same action. Line count is not an independent-action count.</p></aside></div></section>`;}
