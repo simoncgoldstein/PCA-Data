@@ -61,6 +61,6 @@ node --check ui/graph.mjs
 
 The main research workflow rebuilds the projection after canonical and analytical builders and requires a clean diff. `validate-explorer.yml` additionally runs every topic/repository Python validator, schema validation, deterministic projection checks, model tests, and Playwright browser acceptance. Browser screenshots and the acceptance result are retained as CI artifacts. Playwright is a pinned CI-only dependency, not shipped to site visitors.
 
-Browser acceptance covers all ten finish-line representative cases, confidence-score invariance, Garris 60/25/35 and 21/21, the Jeff White distinction, navigation/history, desktop/mobile overflow, map zoom/pan/node dragging, line inspection, and explicit empty states.
+Browser acceptance covers all ten finish-line representative cases, confidence-score invariance, dated confirmed context, keyboard skip navigation, Garris 60/25/35 and 21/21, the Jeff White distinction, navigation/history, desktop/mobile overflow, map zoom/pan/node dragging, line inspection, and explicit empty states.
 
 When sources or crosswalks change, regenerate rather than hand-edit either presentation JSON. Add explicit dataset associations only where an action or organization relationship is supported. Update source adapter and projection tests together when a normalized input shape changes. Do not convert supplemental occurrences into canonical scoring edges just to increase a displayed score.

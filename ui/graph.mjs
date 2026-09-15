@@ -1,4 +1,4 @@
-import {included, evidenceGroup} from './model.mjs';
+import {included, evidenceGroup, visibleEvidence} from './model.mjs';
 const escape = v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const key=(kind,id)=>`${kind}:${id}`;
 export function buildGraph(state, filters={}) {
@@ -8,7 +8,7 @@ export function buildGraph(state, filters={}) {
  const names={organization:state.organizations,event:state.events,church:state.churches||[],presbytery:state.presbyteries||[],person:state.people};
  for(const a of state.affiliations){
   if(filters.layer==='source')continue;
-  if(filters.confidence&&filters.confidence!=='all'&&a.confidence!==filters.confidence)continue;
+  if(!visibleEvidence([a],filters.confidence||'all').length)continue;
   if(filters.context==='hide'&&!included(a))continue;
   if(filters.kind&&filters.kind!=='all'&&evidenceGroup(a)!==filters.kind)continue;
   const s=person(a.person_id);const t=add(a.target_type,a.target_id,names[a.target_type]?.find(x=>x.id===a.target_id)?.name||a.target_id);

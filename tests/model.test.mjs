@@ -41,5 +41,11 @@ test('map shows unresolved Garris occurrences as source rows, not fabricated peo
  const hidden=buildGraph(state,{layer:'source',focus:'dataset:garris_letter_1'});assert.equal(hidden.edges.length,25);
 });
 test('map confidence filtering hides supplemental rows rather than implying confidence',()=>{
- const g=buildGraph(state,{confidence:'confirmed'});assert.ok(g.edges.filter(e=>e.layer==='canonical').every(e=>e.evidence.confidence==='confirmed'));assert.equal(g.edges.filter(e=>e.layer==='source').length,0);
+ const g=buildGraph(state,{confidence:'confirmed'});assert.ok(g.edges.filter(e=>e.layer==='canonical').every(e=>['confirmed','confirmed_for_2024'].includes(e.evidence.confidence)));assert.equal(g.edges.filter(e=>e.layer==='source').length,0);
+});
+
+test('map and profile confirmed filters retain dated confirmed context',()=>{
+ const g=buildGraph(state,{layer:'canonical',confidence:'confirmed'});
+ const edge=g.edges.find(e=>e.id==='aff-carey-blue-ridge');
+ assert.ok(edge);assert.equal(edge.evidence.confidence,'confirmed_for_2024');assert.ok(edge.context);
 });

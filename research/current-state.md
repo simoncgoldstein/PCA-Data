@@ -4,7 +4,7 @@ Snapshot: **2026-09-14**
 
 ## Phase
 
-**V1 evidence explorer implemented on the finish-line PR; awaiting review and merge.** This document describes that implementation. The earlier pre-UI audit and finish-line brief remain historical acceptance contracts, not the current architecture.
+**V1 evidence explorer implemented and locally validated; awaiting PR review and merge.** This document describes that implementation. The earlier pre-UI audit and finish-line brief remain historical acceptance contracts, not the current architecture.
 
 ## Product
 
@@ -52,3 +52,11 @@ No new canonical identities or score-bearing edges were created by this UI run. 
 ## Maintenance priorities
 
 Keep original source wording and identity decisions separate. Run canonical projectors and analytical builders before `build-explorer.py`; verify deterministic output. Preserve the canonical score/filter and source-roster tests. Do not re-open a broad identity-completion campaign solely to raise coverage percentages. Review and merge the finish-line PR manually after CI acceptance.
+
+## Finish-line verification
+
+Local acceptance completed on 2026-09-14 after importing the cloud implementation onto the original GitHub history. All topic validators, structured-data checks, seven model regressions, the complete research reconstruction workflow, and Chromium desktop/mobile acceptance passed. Rebuilding canonical, overlap, and explorer outputs produced no data changes.
+
+Browser verification includes the ten representative evidence cases, roster counts and unresolved identities, canonical score invariance, map zoom/pan/drag and line inspection, navigation/history, and keyboard skip navigation. The final pass aligned dated confirmed evidence between map and profile filters and repaired the skip link. Screenshots cover desktop/mobile overview, profiles, rosters, analysis, and map. Broad map views require zooming or a narrower neighborhood to read individual labels.
+
+The branch must pass GitHub CI before merge. Deployment follows manual merge to main; the acceptance run does not deploy the branch.
